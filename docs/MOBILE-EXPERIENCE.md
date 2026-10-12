@@ -38,3 +38,13 @@ Reading order: headword → feeling form + TTS → illustration → What's this 
 - The brand mark navigates to Discover, and header search leads to Explore. No bottom tab navigation.
 - A separate image action prepares a 1200px-wide bilingual PNG client-side. On iPhone/iPad, native share uses pre-created File under the original click gesture when `navigator.canShare({files})` permits; fallback downloads a PNG. Share link remains separate. No screenshot DOM library or server.
 - Images must be same-origin to allow canvas export. Check iPhone Safari file share permissions, Save Image flow, PNG Chinese glyph fallback, incomplete art, VoiceOver, and responsive wrapping on real devices.
+
+## October 2026 illustrated master-detail redesign
+
+- Product positioning: **EmoLex — An Illustrated Dictionary of Feelings**. A single illustrated vocabulary experience, not three visually unrelated screens. Discover selects today's feeling; Explore is the list; Detail is the selected entry.
+- Layout threshold is **usable width**, not a specific device or orientation. At >=900 CSS px, Explorer and detail appear simultaneously as left and right panes; at smaller widths Explore and Detail are separate routes that render those **same components**, preserving deep links (`?word=id`), language, search and category filters.
+- On phones, opening `?word=joy` goes directly to the Joy detail; the Explore header action opens the illustrated list. A back action returns to the previous in-app view or Explore for standalone deep links. At wide widths, the sidebar remains on screen and the selected row updates with the detail.
+- Explore rows use the entry's **same original 3:2 asset** as Detail and share image, at thumbnail scale. No new content or image crop is required.
+- Detail leads with the word, headword TTS, translation, and oversized narrative sketch; retains the single audited definition and scene. The tinted green **YOU CAN SAY** panel is the visually strongest textual area. Related words, share link, offline image export and Another feeling stay functional.
+- The temporary five **Playful Color Sketch studies** are not illustration-approved. Future scenes require semantic/editorial review before publication. No drawing feature or synthetic three-situation cards.
+- Test Safari iPhone 320–430 CSS px and iPad narrow Split View, 820/900/1024/1180 CSS px and desktop resize (including <=900 threshold), 200% zoom, long Chinese translations, VoiceOver, button targets, list scroll and browser history.
