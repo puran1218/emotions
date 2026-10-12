@@ -45,7 +45,7 @@ button:disabled{cursor:wait;opacity:.55}
 .label-icon{width:30px;height:30px;display:grid;place-items:center;flex:none;border-radius:9px;background:#ECF3EC;font-size:16px;letter-spacing:0}
 .primary-copy{font-size:17px;line-height:1.68;font-weight:520;margin:0 0 8px;overflow-wrap:anywhere;text-wrap:pretty}
 .secondary-copy{font-size:15px;line-height:1.75;color:var(--muted);margin:0;overflow-wrap:anywhere;text-wrap:pretty}
-.speaking-section blockquote{margin:0;border-radius:13px;background:#F0F4EF;padding:13px 14px}
+.speaking-section blockquote{margin:0;border-radius:13px;background:#EAF1EA;padding:16px 17px}
 .speaking-section .primary-copy{font-weight:650}
 .related-list{display:flex;flex-wrap:wrap;gap:8px}
 .related-chip{border:1px solid #E0E4DD;background:#F7F8F5;color:#40534A;border-radius:999px;padding:8px 13px;min-height:44px;font-size:13px;font-weight:550;line-height:1.3}
@@ -91,6 +91,23 @@ button:disabled{cursor:wait;opacity:.55}
  .card-footer{flex-direction:row;align-items:stretch}
  .share-controls{flex:1 1 58%;min-width:0}
  .next-button{flex:1 1 42%}
+}
+@media(min-width:820px){
+ .page-content{max-width:960px;padding:36px 24px 62px}
+ .emotion-card{padding:20px 26px;border-radius:28px}
+ .card-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:34px;align-items:start}
+ .emotion-head{grid-column:1;grid-row:1;align-self:center;padding:8px 0 12px}
+ .art-panel{grid-column:2;grid-row:1;margin:0 0 12px}
+ .meaning-section{grid-column:1;grid-row:2;padding-right:12px}
+ .scene-section{grid-column:2;grid-row:2;padding-left:12px}
+ .speaking-section{grid-column:1/-1;grid-row:3}
+ .related-section{grid-column:1/-1;grid-row:4}
+ .card-footer{grid-column:1/-1}
+ .speaking-section blockquote{padding:20px 22px}
+ .explore-card{max-width:680px;margin:0 auto}
+ .explore-card .card-body{display:block}
+ .intro-kicker{padding-bottom:24px}
+ .title-words h1{font-size:clamp(36px,4.5vw,50px)}
 }
 @media(max-width:350px){
  .page-content{padding:10px 8px 28px}
