@@ -39,7 +39,11 @@
   function pickNext(from) { const i = entries.findIndex(e=>e.id===from); return entries[(i + 1 + entries.length) % entries.length]; }
   function media(e) {
     const label = language==='zh' ? e.alt.zh : e.alt.en;
-    return '<div class="artwork-wrap"><img class="artwork" loading="eager" decoding="async" src="./images/'+encodeURIComponent(e.visual)+'-storyboard.svg" alt="'+esc(label)+'" width="960" height="640" /><span class="draft-caption">'+t('Illustration study · final watercolor art in review','插画分镜稿 · 正式水彩作品待审核')+'</span></div>';
+    const fallback = './images/'+encodeURIComponent(e.visual)+'-storyboard.svg';
+    const asset = e.illustration || {};
+    const src = typeof asset.src==='string' && /^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(asset.src) ? asset.src : fallback;
+    const caption = asset.stage==='approved' ? '' : '<span class="draft-caption">'+t('Illustration study · final watercolor art in review','插画分镜稿 · 正式水彩作品待审核')+'</span>';
+    return '<div class="artwork-wrap"><img class="artwork" loading="eager" decoding="async" src="'+esc(src)+'" alt="'+esc(label)+'" width="960" height="640" />'+caption+'</div>';
   }
   function speech(phrase,locale) {
     if (!('speechSynthesis' in window)) { message(t('Voice is unavailable in this browser.','当前浏览器暂不支持语音朗读。')); return; }
@@ -86,7 +90,7 @@
     const speakPhrase=language==='zh' ? (e.word.feelingZh||e.word.zh) : (e.word.feelingEn||e.word.en);
     const locale=language==='zh'?'zh-CN':'en-US';
     return '<section class="hero '+(context==='detail'?'detail-hero':'discover-hero')+'"><div class="hero-copy">'+
-      '<p class="eyebrow">'+(context==='discover'?t('TODAY’S FEELING','今天的感受'):t('A FEELING TO UNDERSTAND','认识一种感受'))+'</p>'+
+      '<p class="eyebrow">'+(context==='discover' ? (window.__emolexDiscoverOverride?t('EXPLORE A FEELING','探索一种感受'):t('TODAY’S FEELING','今天的感受')) : t('A FEELING TO UNDERSTAND','认识一种感受'))+'</p>'+
       '<div class="headword"><h1>'+esc(titles[0])+'</h1><span class="emotion-emoji" aria-hidden="true">'+esc(e.emoji)+'</span></div>'+
       '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(titles[1])+'</p>'+
       '<div class="spoken"><span>'+esc(speakPhrase)+'</span><button class="speak-button" data-action="speak" data-phrase="'+esc(speakPhrase)+'" data-locale="'+locale+'" aria-label="'+esc(t('Listen to ','朗读 ')+speakPhrase)+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg></button></div>'+

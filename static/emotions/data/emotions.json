@@ -34,6 +34,11 @@
       "alt": {
         "en": "A girl lifts up a sunflower she has grown.",
         "zh": "女孩捧起自己种出的向日葵。"
+      },
+      "status": "pilot",
+      "illustration": {
+        "src": "./images/sunflower-storyboard.svg",
+        "stage": "storyboard"
       }
     },
     {
@@ -68,6 +73,11 @@
       "alt": {
         "en": "A girl sits next to a collapsed tower of wooden blocks.",
         "zh": "女孩坐在倒塌的积木塔旁边。"
+      },
+      "status": "pilot",
+      "illustration": {
+        "src": "./images/blocks-storyboard.svg",
+        "stage": "storyboard"
       }
     },
     {
@@ -102,6 +112,11 @@
       "alt": {
         "en": "A girl holding a plush toy watches other children play from a bench.",
         "zh": "女孩抱着玩偶坐在长椅上，看着远处玩耍的孩子。"
+      },
+      "status": "pilot",
+      "illustration": {
+        "src": "./images/bench-storyboard.svg",
+        "stage": "storyboard"
       }
     },
     {
@@ -136,6 +151,11 @@
       "alt": {
         "en": "A girl kneels by a doorway and hugs a friendly dog.",
         "zh": "女孩在门口跪坐着拥抱一只友好的小狗。"
+      },
+      "status": "pilot",
+      "illustration": {
+        "src": "./images/dog-storyboard.svg",
+        "stage": "storyboard"
       }
     },
     {
@@ -170,6 +190,11 @@
       "alt": {
         "en": "A girl smiles and holds a favorite book found in her school bag.",
         "zh": "女孩从书包里找到心爱的书，露出放心的笑容。"
+      },
+      "status": "pilot",
+      "illustration": {
+        "src": "./images/book-storyboard.svg",
+        "stage": "storyboard"
       }
     }
   ]

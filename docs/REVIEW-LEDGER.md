@@ -1,6 +1,6 @@
 # Review ledger workflow
 
-The file \`data/review-ledger.jsonl\` contains **322 source occurrences**, not 322 unique concepts. 242 English (107 met + 135 unmet) and 80 Chinese (31 met + 49 unmet). Every source occurrence has its original language, source category, index, spelling, and editorial workflow states.
+The file `data/review-ledger.jsonl` contains **322 source occurrences**, not 322 unique concepts. 242 English (107 met + 135 unmet) and 80 Chinese (31 met + 49 unmet). Every source occurrence has its original language, source category, index, spelling, and editorial workflow states.
 
 Work on each occurrence rather than assigning one ID to each word. Decisions:
 - **new-concept**: create a new sense with stable ID;
@@ -9,9 +9,9 @@ Work on each occurrence rather than assigning one ID to each word. Decisions:
 - **related-non-emotion**: preserve as supplemental vocabulary outside the emotion core;
 - **exclude**: preserve source but hide from the published dictionary with explicit reason.
 
-Status transition: \`unreviewed → drafted → content-reviewed → illustration-reviewed → published\` (or \`excluded\` with written reason).
+Status transition: `unreviewed → drafted → content-reviewed → illustration-reviewed → published` (or `excluded` with written reason).
 
-Before marking \`content-reviewed\`: meaning, part of speech, both natural translations, both child-facing definitions, bilingual everyday scene and speakable personal expression must be accurate. Before \`illustration-reviewed\`: 3:2 art and alt should match exactly that scene and pass the illustration bible's seven gates.
+Before marking `content-reviewed`: meaning, part of speech, both natural translations, both child-facing definitions, bilingual everyday scene and speakable personal expression must be accurate. Before `illustration-reviewed`: 3:2 art and alt should match exactly that scene and pass the illustration bible's seven gates.
 
 Never auto-mark review states "passed" because JSON is structurally valid. Pilot entries are there for UI calibration, **not** to demonstrate all-words review completion. The app displays only pilot content in this branch.
 
@@ -24,4 +24,4 @@ Never auto-mark review states "passed" because JSON is structurally valid. Pilot
 
 ## Commands
 
-\`npm test\` — validates inventory counts, every ledger occurrence, five bilingual pilot entries, illustration storyboard files, IDs and related links. This is structural testing; **it does not prove translation accuracy or production illustration sign-off**.
+`npm test` — validates inventory counts, every ledger occurrence, five bilingual pilot entries, illustration storyboard files, IDs and related links. This is structural testing; **it does not prove translation accuracy or production illustration sign-off**.

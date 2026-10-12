@@ -41,6 +41,10 @@ for(const e of entries){
   assert.ok(Array.isArray(e.needs)&&e.needs.length);
   for(const n of e.needs)assert.ok(['needs_met','needs_unmet','mixed','neutral'].includes(n),e.id+': category');
   assert.match(e.visual,/^[a-z-]+$/);
+  assert.ok(['pilot','published'].includes(e.status),'entry status must be explicit');
+  assert.ok(e.illustration && /^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(e.illustration.src));
+  assert.ok(fs.existsSync(path.join(root,'static/emotions',e.illustration.src)),'missing illustration: '+e.illustration.src);
+  if(e.status==='published')assert.equal(e.illustration.stage,'approved','cannot publish unapproved artwork');
   assert.ok(fs.existsSync(path.join(root,'static/emotions/images/'+e.visual+'-storyboard.svg')),e.id+' missing storyboard');
   for(const lang of ['en','zh']){
     for(const part of ['definition','scene','say','alt'])
