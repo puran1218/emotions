@@ -151,9 +151,9 @@
   function reading(e){
     const related=e.related.map(id=>entries.find(x=>x.id===id)).filter(Boolean);
     return '<div class="art-panel">'+media(e)+'</div>'+
-      '<section class="reading-section">'+sectionLabel('definition','WHAT DOES IT MEAN?','这是一种怎样的感受？')+bilingual(e,'definition')+'</section>'+
-      '<section class="reading-section">'+sectionLabel('scene','IMAGINE THIS...','想象一下……')+bilingual(e,'scene')+'</section>'+
-      '<section class="reading-section">'+sectionLabel('say','YOU CAN SAY...','你可以这样说……')+'<blockquote>'+bilingual(e,'say')+'</blockquote></section>'+
+      '<section class="reading-section meaning-section">'+sectionLabel('definition','WHAT DOES IT MEAN?','这是一种怎样的感受？')+bilingual(e,'definition')+'</section>'+
+      '<section class="reading-section scene-section">'+sectionLabel('scene','IMAGINE THIS...','想象一下……')+bilingual(e,'scene')+'</section>'+
+      '<section class="reading-section speaking-section">'+sectionLabel('say','YOU CAN SAY...','你可以这样说……')+'<blockquote>'+bilingual(e,'say')+'</blockquote></section>'+
       (related.length?'<section class="reading-section related-section">'+sectionLabel('related','RELATED FEELINGS','相关感受')+
        '<div class="related-list">'+related.map(x=>'<button class="related-chip" data-action="detail" data-id="'+esc(x.id)+'">'+esc(x.emoji)+' '+esc(head(x)[0])+'</button>').join('')+'</div></section>':'');
   }
