@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "status": "art-direction-calibration",
+  "assets": [
+    {
+      "id": "joy-v01",
+      "concept_id": "joy",
+      "stage": "draft",
+      "scene": "Sunflower blooms",
+      "characters": [
+        "Mei"
+      ],
+      "file": "illustrations from previous design pack; not yet checked into this repository"
+    },
+    {
+      "id": "frustration-v01",
+      "concept_id": "frustration",
+      "stage": "draft",
+      "scene": "Tower of blocks falls",
+      "characters": [
+        "Mei"
+      ],
+      "file": "illustrations from previous design pack; not yet checked into this repository"
+    },
+    {
+      "id": "loneliness-v01",
+      "concept_id": "loneliness",
+      "stage": "draft",
+      "scene": "Bench and distant play",
+      "characters": [
+        "Mei"
+      ],
+      "file": "illustrations from previous design pack; not yet checked into this repository"
+    },
+    {
+      "id": "affection-v01",
+      "concept_id": "affection",
+      "stage": "draft",
+      "scene": "A gentle dog hug",
+      "characters": [
+        "Mei"
+      ],
+      "file": "illustrations from previous design pack; not yet checked into this repository"
+    },
+    {
+      "id": "relief-v01",
+      "concept_id": "relief",
+      "stage": "pending",
+      "scene": "Favorite book recovered from school bag",
+      "characters": [
+        "Mei"
+      ],
+      "file": null
+    }
+  ]
+}
