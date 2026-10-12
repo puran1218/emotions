@@ -1,0 +1,11 @@
+{
+  "name": "emolex-microblog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mobile-first bilingual feelings dictionary; zero runtime dependencies",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}
