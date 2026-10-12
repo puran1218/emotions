@@ -15,7 +15,8 @@ const css=read('static/emotions/styles.css');
 assert.ok(html.indexOf('share-image.js')<html.indexOf('app.js'),'image share must load before app');
 assert.ok(!appJs.includes('bottomNav()'),'redundant bottom tabs should be removed');
 assert.ok(css.includes('.emotion-card')&&css.includes('.section-label'));
-assert.match(css,/\.speaking-section blockquote\{[^}]*background:#EAF1EA/,'speaking guidance should use the share-image green');
+assert.ok(css.includes('.speaking-section{background:#E2EDE2'),'speaking guidance should stay green');
+assert.ok(css.includes('.expression-grid{')&&css.includes('.expression-card{')&&css.includes('.expression-speak{'),'three-card layout and voice controls must be styled');
 assert.ok(css.includes('@media(min-width:900px)')&&css.includes('.app-shell')&&css.includes('.app-shell[data-view="explore"] .detail-pane{display:none}'),'master-detail must adapt to mobile and wide layouts');
 assert.ok(css.includes('.speaking-section{background:#E2EDE2'),'speaking guidance needs visible green section background');
 assert.match(css,/\.headword-line h1\{[^}]*white-space:nowrap/,'headwords must never break between letters');
@@ -25,6 +26,8 @@ assert.ok(css.includes('.image-share-icon{'),'image sharing uses a styled SVG pi
 for(const entry of concepts) for(const lang of ['en','zh']){
   assert.equal(entry.pronunciation[lang].text,entry.word[lang],'speak the title, not feeling form');
   assert.ok(entry.illustration.src.endsWith('-sketch-v2.svg'),'pilot artwork should reuse the bolder sketch across Explore/Detail/share');
+  assert.ok(Array.isArray(entry.say)&&entry.say.length>=3&&entry.say.length<=4,'pilot expressions are 3–4 bilingual examples');
+  assert.ok(entry.say.every(x=>x.en&&x.zh),'every expression needs both languages');
 }
 
 const spoken=[],shared=[];
@@ -68,6 +71,9 @@ assert.ok(elements.app.innerHTML.includes('data-phrase="Joy"'),'headword listen'
 assert.ok(elements.app.innerHTML.includes('WHAT DOES IT MEAN?'),'full detail');
 assert.ok(elements.app.innerHTML.includes('IMAGINE THIS...'),'scenario');
 assert.ok(elements.app.innerHTML.includes('YOU CAN SAY...'),'expression');
+assert.equal((elements.app.innerHTML.match(/class="expression-card"/g)||[]).length,3,'show three expression cards');
+assert.ok(elements.app.innerHTML.includes('data-phrase="I feel joyful!"'),'first sentence can be spoken');
+assert.ok(elements.app.innerHTML.includes('data-phrase="Look! My sunflower finally bloomed!"'),'context sentence can be spoken');
 assert.ok(elements.app.innerHTML.includes('class="reading-section speaking-section"'),'speaking guidance must receive its green callout styling');
 assert.ok(elements.app.innerHTML.includes('class="reading-section meaning-section"')&&elements.app.innerHTML.includes('class="reading-section scene-section"'),'reading sections must be named for wide layout');
 assert.ok(elements.app.innerHTML.includes('✎')&&elements.app.innerHTML.includes('❞'),'sketch-style section icons');
@@ -82,6 +88,7 @@ assert.deepEqual(spoken.pop(),{text:'Joy',lang:'en-US'});
 await click('language');
 assert.equal(document.documentElement.lang,'zh-CN');
 assert.ok(elements.app.innerHTML.includes('data-phrase="喜悦"'));
+assert.ok(elements.app.innerHTML.includes('data-phrase="我好开心！"'),'Chinese expression audio follows language switch');
 await click('speak',null,{phrase:'喜悦',locale:'zh-CN'});
 assert.deepEqual(spoken.pop(),{text:'喜悦',lang:'zh-CN'});
 await click('share-image','joy');
@@ -92,6 +99,7 @@ assert.ok(elements.app.innerHTML.includes('data-view="explore"'),'explore must b
 await click('detail','frustration');
 assert.equal(new URL(window.location.href).searchParams.get('word'),'frustration');
 assert.ok(elements.app.innerHTML.includes('data-phrase="挫败感"'));
+assert.equal((elements.app.innerHTML.match(/class="expression-card"/g)||[]).length,3,'other emotion should also show three cards');
 const longWord = {clientWidth:185,style:{fontSize:''},get scrollWidth(){return Math.ceil((parseFloat(this.style.fontSize)||54)*7.2);}};
 document.querySelectorAll=()=>[longWord];
 handlers.resize();
@@ -130,4 +138,7 @@ const exported=await imageWindow.EmoLexShareImage.prepare(joy,'en');
 assert.equal(exported.name,'emolex-joy-en.png');
 assert.equal(exported.type,'image/png');
 assert.ok(drawn.some(t=>t.includes(joy.word.en)));
+assert.ok(drawn.some(t=>t.includes(joy.say[0].en)),'share PNG contains leading expression');
+assert.ok(drawn.some(t=>t.includes(joy.say[1].en)),'share PNG contains contextual expression');
+assert.ok(!drawn.some(t=>t.includes(joy.say[2].en)),'share PNG intentionally excludes the third expression');
 console.log('OK: offline bilingual PNG render and export contract.');
