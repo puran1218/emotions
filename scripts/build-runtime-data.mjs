@@ -13,7 +13,7 @@ export const projectConcept=function project(item){
     pronunciation:item.pronunciation,
     definition:item.definition,
     scene:item.scenario,
-    say:item.expression,
+    say:item.expression.map(({en,zh})=>({en,zh})),
     related:item.related_ids,
     visual:item.illustration.asset_id.replace(/-storyboard$/,""),
     alt:item.illustration.alt,
