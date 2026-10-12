@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node scripts/validate.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "build:data": "node scripts/build-runtime-data.mjs"
   }
 }

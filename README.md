@@ -8,6 +8,10 @@ The interactive **editorial pilot** is in `static/emotions/`. To view it locally
 
 **Important:** This branch intentionally includes only five readable, bilingual **pilot** entries. The 242 original English occurrences (234 distinct forms) and 80 Chinese source words are preserved in `data/source-words.json`, awaiting editorial review; an unreviewed source word is not silently published. Current illustration stages are storyboards pending final art. No unreviewed material is represented as a released dictionary entry.
 
+## Content architecture
+
+`data/concepts/pilot.json` is the **canonical editable content** validated against `schemas/emotion.schema.json`; it keeps taxonomy, provenance, noun/feeling word forms, meanings, scenarios, expressions, bilingual image descriptions, review states and related links. The static app uses a compact generated projection at `static/emotions/data/emotions.json`. Run `npm run build:data` after editing canonical concepts, then `npm test`. CI fails if runtime output differs from the editorial source.
+
 ## What is included
 
 - Discover, Explore and Detail with bilingual search, stable word links, native speech synthesis, language switch, error/empty states, and responsive layouts for iPhone, iPad and desktop.

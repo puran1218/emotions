@@ -2,6 +2,10 @@
 
 **Never equate source-word occurrences with publishable emotion concepts.** Preserve the original four lists under \`data/source-words.json\`: English met=107, unmet=135; Chinese met=31, unmet=49. English has 242 occurrences but 234 distinct spellings, and eight forms occur in both categories (aroused, concerned, cool, intense, keyed-up, overwhelmed, sensitive, surprised).
 
+## Single source of truth
+
+Do not edit `static/emotions/data/emotions.json` by hand. Maintain `data/concepts/pilot.json` (future curated batches next to it), validate against `schemas/emotion.schema.json`, and regenerate the static projection using `npm run build:data`. Source occurrence lists and the review ledger remain separate so semantic merges never delete original evidence. Only `published` concepts with all four review approvals and an approved illustration qualify for release.
+
 ## Data model
 
 One display concept/sense has a stable ID, an explicit source mapping, needs categories (which are not judgments about good and bad), a kind (emotion / feeling state / attitude / physical state / other), natural noun/feeling forms in each language, bilingual *definition* (what it is), *scene* (one everyday example) and *say* (a natural first-person phrase), emoji, an approved 3:2 scene image and bilingual descriptive alt text, a pronunciation phrase/locale, and manually selected related IDs. Some English adjectives have no natural noun: never synthesize an awkward one just to complete a field.

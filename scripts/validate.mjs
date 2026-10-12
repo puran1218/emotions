@@ -3,11 +3,29 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { makeRuntime } from './build-runtime-data.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=(p)=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const source=read('data/source-words.json');
 const pilot=read('static/emotions/data/emotions.json');
+const canonical=read('data/concepts/pilot.json');
+const canonicalSchema=read('schemas/emotion.schema.json');
+assert.equal(canonicalSchema.title,'EmoLex Editorial Concept');
+assert.deepEqual(pilot,makeRuntime(canonical),'runtime JSON must be generated from canonical editorial concepts');
+for(const e of canonical){
+  assert.ok(['draft','review','pilot','published','retired'].includes(e.status));
+  assert.ok(e.taxonomy?.kind && e.taxonomy?.needs?.length);
+  for(const lang of ['en','zh']){
+    assert.ok(e.terms?.[lang]?.feeling);
+    for(const field of ['definition','scenario','expression']) assert.ok(e[field]?.[lang]);
+    assert.ok(e.pronunciation?.[lang]?.locale);
+  }
+  if(e.status==='published'){
+    assert.equal(e.illustration.stage,'approved');
+    for(const stage of ['translation','meaning','child_suitability','illustration']) assert.equal(e.review?.[stage],'approved');
+  }
+}
 const art=read('art/manifest.json');
 const ledger=fs.readFileSync(path.join(root,'data/review-ledger.jsonl'),'utf8').trim().split(/\r?\n/).map(JSON.parse);
 const expected={en:{needs_met:107,needs_unmet:135},zh:{needs_met:31,needs_unmet:49}};

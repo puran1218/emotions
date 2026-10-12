@@ -1,0 +1,357 @@
+[
+  {
+    "id": "joy",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_met"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Joy",
+        "feeling": "joyful",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "喜悦",
+        "feeling": "开心",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A warm, bright feeling when something makes you very happy.",
+      "zh": "发生让你很开心的事时，心里充满明亮、愉快的感觉。"
+    },
+    "scenario": {
+      "en": "You see the sunflower you planted finally bloom.",
+      "zh": "你亲手种的向日葵终于开花了。"
+    },
+    "expression": {
+      "en": "I feel joyful!",
+      "zh": "我好开心！"
+    },
+    "emoji": "🌻",
+    "illustration": {
+      "asset_id": "sunflower-storyboard",
+      "src": "./images/sunflower-storyboard.svg",
+      "stage": "storyboard",
+      "alt": {
+        "en": "A girl lifts up a sunflower she has grown.",
+        "zh": "女孩捧起自己种出的向日葵。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "joyful",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "开心",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "affection",
+      "relief"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "joyful",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "frustration",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_unmet"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Frustration",
+        "feeling": "frustrated",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "挫败感",
+        "feeling": "挫败",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "An upset feeling when you try hard but something still does not work.",
+      "zh": "努力尝试了很多次，事情还是不顺利时，产生的烦躁和失落。"
+    },
+    "scenario": {
+      "en": "Your block tower falls down again, even though you have tried carefully.",
+      "zh": "你认真地搭积木，可积木塔又倒了。"
+    },
+    "expression": {
+      "en": "I feel frustrated.",
+      "zh": "我觉得很挫败。"
+    },
+    "emoji": "😤",
+    "illustration": {
+      "asset_id": "blocks-storyboard",
+      "src": "./images/blocks-storyboard.svg",
+      "stage": "storyboard",
+      "alt": {
+        "en": "A girl sits next to a collapsed tower of wooden blocks.",
+        "zh": "女孩坐在倒塌的积木塔旁边。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "frustrated",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "挫败",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "loneliness",
+      "relief"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "frustrated",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "loneliness",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_unmet"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Loneliness",
+        "feeling": "lonely",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "孤独感",
+        "feeling": "孤独",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A sad feeling of wanting company or connection but not having it right now.",
+      "zh": "希望有人陪伴或理解自己，却暂时没有这样的陪伴时的失落感。"
+    },
+    "scenario": {
+      "en": "You sit on a bench while other children are playing far away.",
+      "zh": "别的孩子在远处玩，你一个人坐在长椅上。"
+    },
+    "expression": {
+      "en": "I feel lonely.",
+      "zh": "我有点孤独。"
+    },
+    "emoji": "🧸",
+    "illustration": {
+      "asset_id": "bench-storyboard",
+      "src": "./images/bench-storyboard.svg",
+      "stage": "storyboard",
+      "alt": {
+        "en": "A girl holding a plush toy watches other children play from a bench.",
+        "zh": "女孩抱着玩偶坐在长椅上，看着远处玩耍的孩子。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "lonely",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "孤独",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "affection",
+      "joy"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "lonely",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "affection",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_met"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Affection",
+        "feeling": "affectionate",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "爱意",
+        "feeling": "充满爱意",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A gentle, caring feeling that makes you want to be close to someone.",
+      "zh": "很在乎一个人或小动物，想亲近、关心或拥抱时的温柔感受。"
+    },
+    "scenario": {
+      "en": "Your dog runs to greet you, and you give it a gentle hug.",
+      "zh": "小狗跑来迎接你，你开心地轻轻抱住它。"
+    },
+    "expression": {
+      "en": "I love giving my dog a hug.",
+      "zh": "我好喜欢我的小狗，想抱抱它。"
+    },
+    "emoji": "🤗",
+    "illustration": {
+      "asset_id": "dog-storyboard",
+      "src": "./images/dog-storyboard.svg",
+      "stage": "storyboard",
+      "alt": {
+        "en": "A girl kneels by a doorway and hugs a friendly dog.",
+        "zh": "女孩在门口跪坐着拥抱一只友好的小狗。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "affectionate",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "充满爱意",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "joy",
+      "loneliness"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "affectionate",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "relief",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_met"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Relief",
+        "feeling": "relieved",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "如释重负",
+        "feeling": "松了一口气",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A lighter feeling when something you were worried about turns out okay.",
+      "zh": "原本让你担心的事情终于没事了，紧绷的心慢慢放松下来。"
+    },
+    "scenario": {
+      "en": "You thought you had lost your favorite book, but then you find it in your school bag.",
+      "zh": "你以为心爱的书丢了，后来发现它就在书包里。"
+    },
+    "expression": {
+      "en": "What a relief! I found it.",
+      "zh": "呼！找到了，我松了一口气。"
+    },
+    "emoji": "😌",
+    "illustration": {
+      "asset_id": "book-storyboard",
+      "src": "./images/book-storyboard.svg",
+      "stage": "storyboard",
+      "alt": {
+        "en": "A girl smiles and holds a favorite book found in her school bag.",
+        "zh": "女孩从书包里找到心爱的书，露出放心的笑容。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "relieved",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "松了一口气",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "joy",
+      "frustration"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "relieved",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  }
+]

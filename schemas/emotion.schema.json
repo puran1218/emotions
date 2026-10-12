@@ -1,0 +1,293 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/puran1218/emotions/blob/main/schemas/emotion.schema.json",
+  "title": "EmoLex Editorial Concept",
+  "description": "Canonical, bilingual concept, distinct from classified source occurrences and derived static runtime data.",
+  "type": "object",
+  "required": [
+    "id",
+    "status",
+    "taxonomy",
+    "terms",
+    "definition",
+    "scenario",
+    "expression",
+    "emoji",
+    "illustration",
+    "pronunciation",
+    "related_ids",
+    "sources",
+    "review"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "pilot",
+        "published",
+        "retired"
+      ]
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": [
+        "needs",
+        "kind"
+      ],
+      "properties": {
+        "needs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "needs_met",
+              "needs_unmet",
+              "mixed",
+              "neutral"
+            ]
+          }
+        },
+        "kind": {
+          "enum": [
+            "emotion",
+            "feeling_state",
+            "attitude_trait",
+            "physical_state",
+            "descriptive_other"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "terms": {
+      "type": "object",
+      "required": [
+        "en",
+        "zh"
+      ],
+      "properties": {
+        "en": {
+          "$ref": "#/$defs/term"
+        },
+        "zh": {
+          "$ref": "#/$defs/term"
+        }
+      },
+      "additionalProperties": false
+    },
+    "definition": {
+      "$ref": "#/$defs/bilingual"
+    },
+    "scenario": {
+      "$ref": "#/$defs/bilingual"
+    },
+    "expression": {
+      "$ref": "#/$defs/bilingual"
+    },
+    "emoji": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16
+    },
+    "illustration": {
+      "type": "object",
+      "required": [
+        "asset_id",
+        "src",
+        "stage",
+        "alt"
+      ],
+      "properties": {
+        "asset_id": {
+          "type": "string",
+          "minLength": 2
+        },
+        "src": {
+          "type": "string",
+          "pattern": "^\\./images/[a-z0-9.-]+\\.(?:webp|png|svg)$"
+        },
+        "stage": {
+          "enum": [
+            "pending",
+            "storyboard",
+            "draft",
+            "approved",
+            "rejected"
+          ]
+        },
+        "alt": {
+          "$ref": "#/$defs/bilingual"
+        }
+      },
+      "additionalProperties": false
+    },
+    "pronunciation": {
+      "type": "object",
+      "required": [
+        "en",
+        "zh"
+      ],
+      "properties": {
+        "en": {
+          "$ref": "#/$defs/voice"
+        },
+        "zh": {
+          "$ref": "#/$defs/voice"
+        }
+      },
+      "additionalProperties": false
+    },
+    "related_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_list",
+          "source_word",
+          "source_index"
+        ],
+        "properties": {
+          "source_list": {
+            "type": "string"
+          },
+          "source_word": {
+            "type": "string"
+          },
+          "source_index": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "translation",
+        "meaning",
+        "child_suitability",
+        "illustration"
+      ],
+      "properties": {
+        "translation": {
+          "enum": [
+            "pending",
+            "drafted",
+            "approved",
+            "rejected"
+          ]
+        },
+        "meaning": {
+          "enum": [
+            "pending",
+            "drafted",
+            "approved",
+            "rejected"
+          ]
+        },
+        "child_suitability": {
+          "enum": [
+            "pending",
+            "drafted",
+            "approved",
+            "rejected"
+          ]
+        },
+        "illustration": {
+          "enum": [
+            "pending",
+            "drafted",
+            "approved",
+            "rejected"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "required": [
+        "en",
+        "zh"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 5
+        },
+        "zh": {
+          "type": "string",
+          "minLength": 2
+        }
+      },
+      "additionalProperties": false
+    },
+    "term": {
+      "type": "object",
+      "required": [
+        "noun",
+        "feeling",
+        "aliases"
+      ],
+      "properties": {
+        "noun": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "feeling": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "voice": {
+      "type": "object",
+      "required": [
+        "text",
+        "locale"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locale": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}-[A-Z]{2}$"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
