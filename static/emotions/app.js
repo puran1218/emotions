@@ -136,7 +136,7 @@
     const form=language==='zh'?[e.word.feelingZh,e.word.feelingEn]:[e.word.feelingEn,e.word.feelingZh];
     const kicker=context==='discover'?(window.__emolexDiscoverOverride?t('DISCOVER A FEELING','探索一种感受'):t("TODAY'S FEELING",'今天的感受')):t('EXPLORE A FEELING','探索一种感受');
     return '<div class="emotion-head"><p class="intro-kicker">'+kicker+' <span aria-hidden="true">✦</span></p>'+
-      '<div class="headword-line"><h1 lang="'+(language==='zh'?'zh-CN':'en')+'">'+esc(names[0])+'</h1>'+
+      '<div class="headword-line"><h1 data-fit-word lang="'+(language==='zh'?'zh-CN':'en')+'" title="'+esc(names[0])+'">'+esc(names[0])+'</h1>'+
       '<button class="speak-button" data-action="speak" data-phrase="'+esc(phrase)+'" data-locale="'+esc(locale)+'" aria-label="'+esc(t('Listen to ','朗读 ')+phrase)+'" title="'+esc(t('Listen to ','朗读 ')+phrase)+'">'+
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg></button></div>'+
       '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(names[1])+'</p>'+
@@ -154,7 +154,7 @@
   function footer(e){
     return '<footer class="card-footer"><div class="share-controls">'+
       '<button class="footer-action" data-action="share" data-id="'+esc(e.id)+'"><span aria-hidden="true">↗</span><span>'+t('Share link','分享链接')+'</span></button>'+
-      '<button class="footer-action" id="share-image-btn" data-action="share-image" data-id="'+esc(e.id)+'" disabled><span aria-hidden="true">▣</span><span class="action-text">'+t('Preparing image…','正在准备图片…')+'</span></button></div>'+
+      '<button class="footer-action" id="share-image-btn" data-action="share-image" data-id="'+esc(e.id)+'" disabled><svg class="image-share-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.5" y="3.5" width="19" height="17" rx="3"/><circle cx="8.2" cy="9" r="1.7"/><path d="m4.5 18 5.6-6 4 3.8 3.1-3.2 4.1 4.1"/></svg><span class="action-text">'+t('Preparing image…','正在准备图片…')+'</span></button></div>'+
       '<button class="next-button" data-action="next" data-id="'+esc(e.id)+'">'+t('Another feeling','看看另一种感受')+' <span aria-hidden="true">→</span></button>'+
       '<input id="share-url" class="share-url" aria-label="'+t('Share URL','分享链接')+'" hidden readonly></footer>';
   }
@@ -181,7 +181,7 @@
         const h=head(e),active=e.id===selected;
         return '<button class="result-row'+(active?' selected':'')+'" data-action="detail" data-id="'+esc(e.id)+'" aria-current="'+(active?'true':'false')+'">'+
           '<span class="row-illustration"><img src="'+esc(artworkSrc(e))+'" alt="" loading="lazy" width="120" height="80"></span>'+
-          '<span class="row-words"><strong>'+esc(h[0])+'</strong><span class="row-translation">'+esc(h[1])+'</span><small>'+esc(e.definition[language])+'</small></span>'+
+          '<span class="row-words"><strong data-fit-word title="'+esc(h[0])+'">'+esc(h[0])+'</strong><span class="row-translation">'+esc(h[1])+'</span><small>'+esc(e.definition[language])+'</small></span>'+
           '<span class="row-arrow" aria-hidden="true">›</span></button>';
       }).join('')+'</div>';
   }
@@ -193,11 +193,28 @@
       '<div id="results" aria-live="polite">'+resultsHtml()+'</div>'+
       '<p class="sidebar-note">'+t('Five illustration studies · more feelings to come','五条插画示范词 · 更多感受即将加入')+'</p></aside>';
   }
+  function fitWordText(){
+    if(typeof document.querySelectorAll!=='function'||typeof getComputedStyle!=='function')return;
+    for(const label of document.querySelectorAll('[data-fit-word]')){
+      label.style.fontSize='';
+      if(!label.clientWidth)continue;
+      let size=parseFloat(getComputedStyle(label).fontSize);
+      if(!Number.isFinite(size))continue;
+      let count=0;
+      while(label.scrollWidth>label.clientWidth+1&&size>14&&count++<70){
+        size=Math.max(14,size-1);
+        label.style.fontSize=size+'px';
+      }
+    }
+  }
+  window.addEventListener('resize',fitWordText);
+  if(document.fonts?.ready)document.fonts.ready.then(fitWordText);
   function render(){
     if(!entries.length)return;
     const e=displayedEntry();
     app.innerHTML='<main id="main" tabindex="-1" class="site-main"><div class="page-content">'+header()+
       '<div class="app-shell" data-view="'+esc(view)+'">'+explorePanel()+detailPanel(e,view)+'</div></div></main>';
+    fitWordText();
     if(e)prepareImageShare(e);
     document.documentElement.lang=language==='zh'?'zh-CN':'en';
     document.title=(view==='detail'?(entries.find(x=>x.id===current)?.word.en||'Feeling')+' · ':'')+'EmoLex · An Illustrated Dictionary of Feelings';
