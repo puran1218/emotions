@@ -21,3 +21,13 @@ Publish only if all fields and review stages are complete. Editorial pilot is se
 ## Review ledger
 
 The next step is create \`data/review-ledger.jsonl\` from the occurrences, including source_language, source_category, source_index, original_term, proposed_concept_id, sense_decision, translation_status, definition_status, scenario_status, artwork_status, reviewer, reviewed_at. Keep an audit note for every merged/split sense and every omitted non-emotion term. Original Chinese words (including 心旷神怡) should remain first-class review candidates.
+
+## Expression examples · October 2026 pilot expansion
+
+The canonical `expression` field is now an **ordered array of 3–4 bilingual `{en, zh}` pairs**, generated unchanged into runtime `say`. All five current pilots contain three **editorial drafts**, with original primary expressions preserved as the first item. They are not new reviewed or published entries.
+
+Curate short, speakable examples with different communicative functions: (1) name the feeling, (2) describe a concrete reaction or moment, and (3) connect or ask for help. Avoid three synonyms with no new use, over-abstract phrases, coercive hug requests, or making children perform emotions. Every translation must sound natural to a child rather than literal or textbook-like.
+
+The UI shows all examples, always bilingual, with a speaker button for the primary display language on each card. The sharing PNG intentionally displays only the first **two** examples; order therefore conveys editorial priority, not arbitrary sorting. Keep the default first entry a direct and useful expression. Adding a fourth requires a distinct usage situation. More examples are not a reason to fabricate new illustration scenes.
+
+New expressions remain in the existing pilot content-review queue; no automatic approval is implied.
