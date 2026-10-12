@@ -83,11 +83,24 @@
     y=multiline(c,e.scene[lang==='zh'?'en':'zh'],84,y,1032,32,53,lang==='zh'?'en':'zh',muted)+34;
     c.strokeStyle=rule;c.beginPath();c.moveTo(84,y);c.lineTo(1116,y);c.stroke();y+=34;
     y=heading(c,lang==='zh'?'你可以这样说……':'YOU CAN SAY...',84,y);
-    const first=e.say[lang],other=e.say[lang==='zh'?'en':'zh'];
-    const top=y;rounded(c,84,top,1032,156,21,'#EAF1EA');
-    y=multiline(c,'“'+first+'”',111,top+19,970,32,50,lang,ink,true)+7;
-    y=multiline(c,'“'+other+'”',111,y,970,28,44,lang==='zh'?'en':'zh',muted);
-    y=Math.max(top+170,y+40);
+    const examples=(Array.isArray(e.say)?e.say:[e.say]).slice(0,2);
+    const otherLang=lang==='zh'?'en':'zh';
+    for(const example of examples){
+      const primary='“'+example[lang]+'”',secondary='“'+example[otherLang]+'”';
+      const primaryFont=lang==='zh'?'"PingFang SC","Noto Sans CJK SC",sans-serif':'-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      const secondaryFont=otherLang==='zh'?'"PingFang SC","Noto Sans CJK SC",sans-serif':'-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      c.font='600 32px '+primaryFont;
+      const primaryHeight=wrap(c,primary,970,lang).length*50;
+      c.font='400 28px '+secondaryFont;
+      const secondaryHeight=wrap(c,secondary,970,otherLang).length*44;
+      const boxHeight=20+primaryHeight+7+secondaryHeight+22;
+      const top=y;
+      rounded(c,84,top,1032,boxHeight,21,'#EAF1EA');
+      let lineY=multiline(c,primary,111,top+20,970,32,50,lang,ink,true)+7;
+      multiline(c,secondary,111,lineY,970,28,44,otherLang,muted);
+      y=top+boxHeight+16;
+    }
+    y+=14;
     c.strokeStyle=rule;c.beginPath();c.moveTo(84,y);c.lineTo(1116,y);c.stroke();y+=26;
     multiline(c,'EmoLex · '+new URL(location.href).host,84,y,1030,25,34,'en',muted);
     const cropped=document.createElement('canvas');cropped.width=1200;cropped.height=Math.min(3170,Math.ceil(y+77));
