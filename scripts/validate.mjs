@@ -84,4 +84,16 @@ for(const e of entries){
   for(const id of e.related){assert.ok(id!==e.id&&map.has(id),e.id+' related '+id);}
 }
 for(const a of art.assets){assert.ok(['draft','pending','approved','rejected'].includes(a.stage));}
+for(const e of entries){
+  const svg=fs.readFileSync(path.join(root,'static/emotions',e.illustration.src),'utf8');
+  if(!e.illustration.src.endsWith('-sketch-v2.svg'))continue;
+  assert.match(svg,/<ellipse cx="0" cy="-63" rx="72" ry="80" fill="#F8C99D"/,e.id+': expected face guide');
+  const cheeks=[...svg.matchAll(/<ellipse cx="(-?\d+)" cy="(-?\d+)" rx="(\d+)" ry="(\d+)" fill="#EF8871"/g)];
+  assert.equal(cheeks.length,2,e.id+': two cheek marks');
+  for(const [,cx,cy,rx,ry] of cheeks){
+    const horizontal=(Math.abs(Number(cx))+Number(rx))/72;
+    const vertical=(Math.abs(Number(cy)+63)+Number(ry))/80;
+    assert.ok(horizontal**2+vertical**2<1,e.id+': blush should be entirely inside the facial ellipse');
+  }
+}
 console.log('OK: '+occurrences.length+' original source occurrences, '+new Set([...source.english.needs_met,...source.english.needs_unmet]).size+' English forms; '+ledger.length+' individually tracked review items; '+entries.length+' bilingual pilot concepts; image paths and relationships validated.');
