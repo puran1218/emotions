@@ -15,6 +15,8 @@ const css=read('static/emotions/styles.css');
 assert.ok(html.indexOf('share-image.js')<html.indexOf('app.js'),'image share must load before app');
 assert.ok(!appJs.includes('bottomNav()'),'redundant bottom tabs should be removed');
 assert.ok(css.includes('.emotion-card')&&css.includes('.section-label'));
+assert.match(css,/\.speaking-section blockquote\{[^}]*background:#EAF1EA/,'speaking guidance should use the share-image green');
+assert.ok(css.includes('@media(min-width:820px)')&&css.includes('.explore-card .card-body{display:block}'),'wide layouts must be responsive');
 for(const entry of concepts) for(const lang of ['en','zh']){
   assert.equal(entry.pronunciation[lang].text,entry.word[lang],'speak the title, not feeling form');
 }
@@ -59,6 +61,8 @@ assert.ok(elements.app.innerHTML.includes('data-phrase="Joy"'),'headword listen'
 assert.ok(elements.app.innerHTML.includes('WHAT DOES IT MEAN?'),'full detail');
 assert.ok(elements.app.innerHTML.includes('IMAGINE THIS...'),'scenario');
 assert.ok(elements.app.innerHTML.includes('YOU CAN SAY...'),'expression');
+assert.ok(elements.app.innerHTML.includes('class="reading-section speaking-section"'),'speaking guidance must receive its green callout styling');
+assert.ok(elements.app.innerHTML.includes('class="reading-section meaning-section"')&&elements.app.innerHTML.includes('class="reading-section scene-section"'),'reading sections must be named for wide layout');
 assert.ok(elements.app.innerHTML.includes('📖')&&elements.app.innerHTML.includes('💬'),'section icons');
 assert.ok(elements.app.innerHTML.includes('share-image-btn'),'share image control');
 await click('speak',null,{phrase:'Joy',locale:'en-US'});
