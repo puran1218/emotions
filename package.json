@@ -5,7 +5,7 @@
   "description": "Mobile-first bilingual feelings dictionary; zero runtime dependencies",
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs && node scripts/test-ui.mjs",
     "validate": "node scripts/validate.mjs",
     "build:data": "node scripts/build-runtime-data.mjs"
   }
