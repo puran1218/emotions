@@ -43,4 +43,14 @@ Create a reproducible **3:2** master (for raster art, 1536×1024 px or above; cl
 
 ## Source and versioning
 
-Assets at \`static/emotions/images/<concept>-vNN.webp\` backed by originals at \`art/originals/\` when approved. Keep \`art/manifest.json\` with concept, source, source dimensions, revision, approval status, alt and QA notes. Do NOT call moodboard panels individually approved. Original watercolor-era storyboards remain preserved. The five `*-sketch-study.svg` derivatives are **unapproved visual studies** using the same narrative scenes, not new production-ready art. Keep `stage: storyboard` and editorial illustration review pending until original Playful Color Sketch masters are reviewed and approved. Explore thumbnails, full Detail art, and Share image should all point to the same approved asset.
+Assets at \`static/emotions/images/<concept>-vNN.webp\` backed by originals at \`art/originals/\` when approved. Keep \`art/manifest.json\` with concept, source, source dimensions, revision, approval status, alt and QA notes. Do NOT call moodboard panels individually approved. The five original watercolor-era storyboards and the recolored `*-sketch-study.svg` v1 experiments remain preserved for comparison. The current `*-sketch-v2.svg` assets are newly composed, more expressive **bold color sketch studies**: larger silhouettes, energetic uneven outlines, visible crayon-mark accents, and fewer scenic details. They are not production-approved. Keep `stage: storyboard` and editorial illustration review pending until the art is visually and semantically verified on real devices. Explore thumbnails, full Detail art, and Share image must all point to the same asset.
+
+### Bold-sketch calibration (October 2026)
+
+- Lead with a strong child-scale gesture and visible facial expression; large silhouette readability should survive a 90px thumbnail.
+- Draw with varied, imperfect strokes rather than precise geometric outlines; limit accents to 2–4 bright colors and keep untouched paper visible.
+- Props must prove the specific scene: an opened sunflower, a **collapsed** block tower, space between lonely child and distant friends, a **touching** embrace with the dog, and a discovered book at the schoolbag.
+- Doodles and movement rays express energy, but must not override the emotion, invent extra narrative events, or stigmatize sadness and frustration.
+- Check all five scenes together for recognizable recurring Mei, consistent lineweight, readable facial features, cultural neutrality, and the same semantics in bilingual copy.
+- Before approval, run a real-device iPhone/iPad and exported PNG review, including Safari SVG rendering, iPhone list thumbnails, and two languages. No drawing tool is part of the product.
+
