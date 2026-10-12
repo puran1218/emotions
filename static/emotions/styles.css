@@ -89,6 +89,29 @@ button:disabled{cursor:wait;opacity:.56}
 .speaking-section blockquote{margin:0;border-radius:13px;background:#EAF1EA;padding:15px 20px;border:1px solid rgba(255,255,255,.75)}
 .speaking-section .primary-copy{color:#164B31;font-family:var(--playful);font-weight:800;font-size:clamp(20px,2.1vw,27px);line-height:1.45}
 .speaking-section .secondary-copy{font-size:16px;color:#5F7669}
+.expression-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:11px}
+.expression-card{min-width:0;border-radius:15px;background:#FFFEFB;border:1px solid rgba(255,255,255,.92);box-shadow:0 3px 10px rgba(27,71,43,.04);padding:15px 14px}
+.expression-phrase{display:flex;align-items:flex-start;gap:7px;min-height:100%}
+.expression-copy{flex:1;min-width:0}
+.expression-card .primary-copy{font-size:clamp(17px,1.7vw,21px);line-height:1.45;margin:0 0 11px;overflow-wrap:break-word}
+.expression-card .secondary-copy{font-size:14px;line-height:1.6;overflow-wrap:break-word}
+.expression-speak{width:44px;height:44px;min-width:44px;flex:none;display:grid;place-items:center;border:0;border-radius:50%;background:#E9F2E9;color:#286447;padding:10px}
+.expression-speak svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.expression-speak:active{background:#D0E5D2}
+@media(min-width:900px) and (max-width:1199px){
+ .expression-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .expression-card:last-child:nth-child(odd){grid-column:1/-1}
+}
+@media(max-width:899px){
+ .expression-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .expression-card:last-child:nth-child(odd){grid-column:1/-1}
+}
+@media(max-width:600px){
+ .expression-grid{grid-template-columns:1fr}
+ .expression-card:last-child:nth-child(odd){grid-column:auto}
+ .expression-card{padding:13px 13px}
+ .expression-card .primary-copy{font-size:20px}
+}
 .related-section{padding:14px 0 6px;border-bottom:1px dashed #EBEDE4}
 .related-list{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 15px}
 .related-chip{min-height:44px;border:1px solid #D6E3D5;color:#3C6B53;background:#F4F9F2;padding:8px 16px;border-radius:999px;font-size:13px;font-weight:650}
