@@ -200,8 +200,12 @@
       if(!label.clientWidth)continue;
       let size=parseFloat(getComputedStyle(label).fontSize);
       if(!Number.isFinite(size))continue;
+      const overflow=label.scrollWidth;
+      if(overflow<=label.clientWidth+1)continue;
+      size=Math.max(14,Math.floor(size*label.clientWidth/overflow));
+      label.style.fontSize=size+'px';
       let count=0;
-      while(label.scrollWidth>label.clientWidth+1&&size>14&&count++<70){
+      while(label.scrollWidth>label.clientWidth+1&&size>14&&count++<5){
         size=Math.max(14,size-1);
         label.style.fontSize=size+'px';
       }
