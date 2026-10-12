@@ -18,9 +18,13 @@ assert.ok(css.includes('.emotion-card')&&css.includes('.section-label'));
 assert.match(css,/\.speaking-section blockquote\{[^}]*background:#EAF1EA/,'speaking guidance should use the share-image green');
 assert.ok(css.includes('@media(min-width:900px)')&&css.includes('.app-shell')&&css.includes('.app-shell[data-view="explore"] .detail-pane{display:none}'),'master-detail must adapt to mobile and wide layouts');
 assert.ok(css.includes('.speaking-section{background:#E2EDE2'),'speaking guidance needs visible green section background');
+assert.match(css,/\.headword-line h1\{[^}]*white-space:nowrap/,'headwords must never break between letters');
+assert.match(css,/\.row-words strong\{[^}]*white-space:nowrap/,'Explore names must never break between letters');
+assert.ok(css.includes('--reading-en:')&&css.includes('--reading-zh:')&&css.includes('.primary-copy[lang^="zh"]'),'bilingual body text should have consistent hand-lettered typography');
+assert.ok(css.includes('.image-share-icon{'),'image sharing uses a styled SVG picture icon');
 for(const entry of concepts) for(const lang of ['en','zh']){
   assert.equal(entry.pronunciation[lang].text,entry.word[lang],'speak the title, not feeling form');
-  assert.ok(entry.illustration.src.endsWith('-sketch-study.svg'),'pilot artwork should reuse the new sketch across Explore/Detail/share');
+  assert.ok(entry.illustration.src.endsWith('-sketch-v2.svg'),'pilot artwork should reuse the bolder sketch across Explore/Detail/share');
 }
 
 const spoken=[],shared=[];
@@ -49,6 +53,7 @@ const localStorage={getItem(k){return storage.get(k)||null},setItem(k,v){storage
 class SpeechSynthesisUtterance{constructor(text){this.text=text}}
 vm.runInNewContext(appJs,{document,window,navigator,history,location:window.location,localStorage,
   SpeechSynthesisUtterance,URL,console,Date,Math,Promise,
+  getComputedStyle:element=>({fontSize:element.style.fontSize||'54px'}),
   fetch:async()=>({ok:true,json:async()=>({entries:concepts})})});
 await new Promise(r=>setImmediate(r));
 const click=async (action,id,extras={})=>{
@@ -70,6 +75,8 @@ assert.ok(elements.app.innerHTML.includes('class="explore-pane"')&&elements.app.
 assert.ok(elements.app.innerHTML.includes('class="row-illustration"'),'Explore must show artwork thumbnails');
 assert.ok(elements.app.innerHTML.includes('data-view="detail"'),'deep link should open detail on phones');
 assert.ok(elements.app.innerHTML.includes('share-image-btn'),'share image control');
+assert.ok(elements.app.innerHTML.includes('class="image-share-icon"'),'share image should show a recognizable picture glyph');
+assert.ok(elements.app.innerHTML.includes('data-fit-word'),'headword fitting should apply to title and Explore row');
 await click('speak',null,{phrase:'Joy',locale:'en-US'});
 assert.deepEqual(spoken.pop(),{text:'Joy',lang:'en-US'});
 await click('language');
@@ -85,6 +92,10 @@ assert.ok(elements.app.innerHTML.includes('data-view="explore"'),'explore must b
 await click('detail','frustration');
 assert.equal(new URL(window.location.href).searchParams.get('word'),'frustration');
 assert.ok(elements.app.innerHTML.includes('data-phrase="挫败感"'));
+const longWord = {clientWidth:185,style:{fontSize:''},get scrollWidth(){return Math.ceil((parseFloat(this.style.fontSize)||54)*7.2);}};
+document.querySelectorAll=()=>[longWord];
+handlers.resize();
+assert.ok(longWord.scrollWidth<=longWord.clientWidth+1,'Frustration must shrink to the available width without a second line');
 console.log('OK: responsive illustrated master-detail, four headings, headword TTS in EN/ZH, link routing, image share action, and search.');
 
 // Simulate canvas export enough to ensure the image-sharing module remains
