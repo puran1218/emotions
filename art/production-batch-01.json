@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "illustration_style": "Soft Editorial Storybook",
+  "target_master": {
+    "width": 1536,
+    "height": 1024,
+    "aspect_ratio": "3:2"
+  },
+  "scope": "12 narrative art briefs; 5 storyboards, 7 queued; none approved as final watercolor",
+  "scenes": [
+    {
+      "id": "batch01-01",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "joy",
+      "scene": "The sunflower Mei grew has opened",
+      "setting": "terrace garden in a soft morning",
+      "gesture": "gentle raised hands, delighted smile",
+      "avoid": "confusing joyful calm with hyper-excitement",
+      "status": "storyboard",
+      "approved": false
+    },
+    {
+      "id": "batch01-02",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "frustration",
+      "scene": "Carefully stacked blocks tumble again",
+      "setting": "floor beside small furniture",
+      "gesture": "tight shoulders, furrowed brow, one block held gently",
+      "avoid": "tantrum or aggressive throwing",
+      "status": "storyboard",
+      "approved": false
+    },
+    {
+      "id": "batch01-03",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "loneliness",
+      "scene": "Mei holds a plush toy while children play in the distance",
+      "setting": "park bench at dusk",
+      "gesture": "small inward posture, long distance in frame",
+      "avoid": "stereotyping loneliness as socially odd",
+      "status": "storyboard",
+      "approved": false
+    },
+    {
+      "id": "batch01-04",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "affection",
+      "scene": "A familiar dog runs up and receives a gentle hug",
+      "setting": "home doorway",
+      "gesture": "soft arms, close lean, reciprocal body movement",
+      "avoid": "using this scene as automatic relief",
+      "status": "storyboard",
+      "approved": false
+    },
+    {
+      "id": "batch01-05",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "relief",
+      "scene": "A favorite lost book is found inside a schoolbag",
+      "setting": "after school in a quiet room",
+      "gesture": "softening shoulders, relieved exhale, book clearly visible",
+      "avoid": "unearned triumphant celebration",
+      "status": "storyboard",
+      "approved": false
+    },
+    {
+      "id": "batch01-06",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "worry",
+      "source_word": "worried",
+      "scene": "A child looks toward the rain as friends are expected",
+      "setting": "window at home",
+      "gesture": "small held shoulders, thoughtful gaze, quiet anticipation",
+      "avoid": "panic or terror",
+      "status": "queued",
+      "approved": false
+    },
+    {
+      "id": "batch01-07",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "pride",
+      "source_word": "proud",
+      "scene": "A child finally learns to ride after practicing",
+      "setting": "safe park cycle path",
+      "gesture": "confident upright posture after effort",
+      "avoid": "awards and superiority over others",
+      "status": "queued",
+      "approved": false
+    },
+    {
+      "id": "batch01-08",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "curiosity",
+      "source_word": "curious",
+      "scene": "Two children discover a caterpillar on a leaf",
+      "setting": "garden walk",
+      "gesture": "lean forward, attentive eyes and careful distance",
+      "avoid": "fear or disgust",
+      "status": "queued",
+      "approved": false
+    },
+    {
+      "id": "batch01-09",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "calm",
+      "source_word": "calm",
+      "scene": "A child quietly waters a houseplant",
+      "setting": "sunlit room",
+      "gesture": "unhurried movement, relaxed breath",
+      "avoid": "sleeping or listlessness",
+      "status": "queued",
+      "approved": false
+    },
+    {
+      "id": "batch01-10",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "disappointment",
+      "source_word": "disappointed",
+      "scene": "A cancelled picnic note next to a packed basket",
+      "setting": "kitchen by rainy window",
+      "gesture": "lowered shoulders, small sigh",
+      "avoid": "frustrated anger or harsh punishment",
+      "status": "queued",
+      "approved": false
+    },
+    {
+      "id": "batch01-11",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "embarrassment",
+      "source_word": "embarrassed",
+      "scene": "A child drops pencils and notices classmates",
+      "setting": "kind classroom",
+      "gesture": "blushing and shy glance, supportive friend",
+      "avoid": "ridicule and bullying",
+      "status": "queued",
+      "approved": false
+    },
+    {
+      "id": "batch01-12",
+      "character": "Mei with supporting diverse friends as appropriate",
+      "art_direction": "Soft Editorial Storybook; 3:2; 1536x1024+; no text; warm paper; restrained sage/slate/mustard/terracotta; action readable at 320px",
+      "concept": "gratitude",
+      "source_word": "grateful",
+      "scene": "A friend helps retrieve a dropped book",
+      "setting": "school walkway",
+      "gesture": "warm eye contact, offering the found item back",
+      "avoid": "transactional obligation or gifts as requirement",
+      "status": "queued",
+      "approved": false
+    }
+  ]
+}
