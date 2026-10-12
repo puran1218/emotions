@@ -22,10 +22,20 @@
         "en": "You see the sunflower you planted finally bloom.",
         "zh": "你亲手种的向日葵终于开花了。"
       },
-      "say": {
-        "en": "I feel joyful!",
-        "zh": "我好开心！"
-      },
+      "say": [
+        {
+          "en": "I feel joyful!",
+          "zh": "我好开心！"
+        },
+        {
+          "en": "Look! My sunflower finally bloomed!",
+          "zh": "快看！我的向日葵终于开花啦！"
+        },
+        {
+          "en": "I'm so happy. Come see!",
+          "zh": "我太高兴了，快来看看！"
+        }
+      ],
       "related": [
         "affection",
         "relief"
@@ -71,10 +81,20 @@
         "en": "Your block tower falls down again, even though you have tried carefully.",
         "zh": "你认真地搭积木，可积木塔又倒了。"
       },
-      "say": {
-        "en": "I feel frustrated.",
-        "zh": "我觉得很挫败。"
-      },
+      "say": [
+        {
+          "en": "I feel frustrated.",
+          "zh": "我觉得很挫败。"
+        },
+        {
+          "en": "My blocks fell again. This is frustrating.",
+          "zh": "我的积木又倒了，真让人沮丧。"
+        },
+        {
+          "en": "Can you help me try again?",
+          "zh": "你能帮我再试一次吗？"
+        }
+      ],
       "related": [
         "loneliness",
         "relief"
@@ -120,10 +140,20 @@
         "en": "You sit on a bench while other children are playing far away.",
         "zh": "别的孩子在远处玩，你一个人坐在长椅上。"
       },
-      "say": {
-        "en": "I feel lonely.",
-        "zh": "我有点孤独。"
-      },
+      "say": [
+        {
+          "en": "I feel lonely.",
+          "zh": "我有点孤单。"
+        },
+        {
+          "en": "I wish someone could play with me.",
+          "zh": "我希望有人能陪我玩。"
+        },
+        {
+          "en": "Could you sit with me for a while?",
+          "zh": "你能陪我坐一会儿吗？"
+        }
+      ],
       "related": [
         "affection",
         "joy"
@@ -169,10 +199,20 @@
         "en": "Your dog runs to greet you, and you give it a gentle hug.",
         "zh": "小狗跑来迎接你，你开心地轻轻抱住它。"
       },
-      "say": {
-        "en": "I love giving my dog a hug.",
-        "zh": "我好喜欢我的小狗，想抱抱它。"
-      },
+      "say": [
+        {
+          "en": "I love giving my dog a hug.",
+          "zh": "我好喜欢抱抱我的小狗。"
+        },
+        {
+          "en": "I care about you.",
+          "zh": "我很在乎你。"
+        },
+        {
+          "en": "Can I give you a hug?",
+          "zh": "我可以抱抱你吗？"
+        }
+      ],
       "related": [
         "joy",
         "loneliness"
@@ -218,10 +258,20 @@
         "en": "You thought you had lost your favorite book, but then you find it in your school bag.",
         "zh": "你以为心爱的书丢了，后来发现它就在书包里。"
       },
-      "say": {
-        "en": "What a relief! I found it.",
-        "zh": "呼！找到了，我松了一口气。"
-      },
+      "say": [
+        {
+          "en": "What a relief! I found it.",
+          "zh": "呼！找到了，我松了一口气。"
+        },
+        {
+          "en": "I'm so glad my book isn't lost.",
+          "zh": "太好了，我的书没有丢。"
+        },
+        {
+          "en": "I was worried, but I feel better now.",
+          "zh": "刚才我很担心，现在放心了。"
+        }
+      ],
       "related": [
         "joy",
         "frustration"
