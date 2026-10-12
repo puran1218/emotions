@@ -69,8 +69,8 @@
   }
   let preparedImage=null,preparedKey=null;
   function displayedEntry(){
-    return view==='detail'?entries.find(e=>e.id===current):
-      view==='discover'?(entries.find(e=>e.id===window.__emolexDiscoverOverride)||entries[dailyIndex()]):null;
+    if(view==='detail')return entries.find(e=>e.id===current);
+    return entries.find(e=>e.id===window.__emolexDiscoverOverride)||entries[dailyIndex()];
   }
   function prepareImageShare(e) {
     const button=document.getElementById('share-image-btn'),service=window.EmoLexShareImage;
@@ -113,13 +113,17 @@
     service.download(preparedImage);
     message(t('Image saved to downloads.','图片已保存到下载。'));
   }
-  const sectionIcons={definition:'📖',scene:'✨',say:'💬',related:'🧭'};
-  function header(back=false){
-    return '<header class="card-topbar">'+
-      (back?'<button class="icon-button back-button" data-action="back" aria-label="'+t('Back','返回')+'">←</button>':'')+
-      '<button class="brand" data-action="discover" aria-label="'+t('EmoLex home','EmoLex 首页')+'">emo<span>lex</span><small>✳</small></button>'+
-      '<div class="top-actions"><button class="language-button" data-action="language" aria-label="'+t('Switch to Chinese first','切换英文优先')+'">'+(language==='zh'?'中文 / EN':'EN / 中文')+'</button>'+
-      (view==='explore'?'':'<button class="icon-button search-trigger" data-action="explore" aria-label="'+t('Search feelings','搜索情绪')+'"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.9"/><path d="m16.1 16.1 4.1 4.1"/></svg></button>')+'</div></header>';
+
+  const sectionIcons={definition:'✎',scene:'✳',say:'❞',related:'↗'};
+  function artworkSrc(e){
+    const source=e.illustration?.src||'';
+    return /^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(source)?source:'./images/'+encodeURIComponent(e.visual)+'-storyboard.svg';
+  }
+  function header(){
+    return '<header class="site-header"><button class="brand" data-action="discover" aria-label="'+t('EmoLex home','EmoLex 首页')+'">Emo<span>Lex</span><i aria-hidden="true">✳</i></button>'+
+      '<span class="tagline">'+t('Feel · Understand · Express','感受 · 理解 · 表达')+'</span>'+
+      '<div class="top-actions"><button class="header-explore" data-action="explore">'+t('Explore','探索情绪')+' <span aria-hidden="true">↗</span></button>'+
+      '<button class="language-button" data-action="language" aria-label="'+t('Switch to Chinese first','切换英文优先')+'">'+(language==='zh'?'中文 / EN':'EN / 中文')+'</button></div></header>';
   }
   function sectionLabel(field,en,zh){
     return '<h2 class="section-label"><span class="label-icon" aria-hidden="true">'+sectionIcons[field]+'</span><span>'+t(en,zh)+'</span></h2>';
@@ -131,50 +135,42 @@
   }
   function media(e){
     const alt=language==='zh'?e.alt.zh:e.alt.en;
-    const fallback='./images/'+encodeURIComponent(e.visual)+'-storyboard.svg';
-    const src=/^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(e.illustration?.src||'')?e.illustration.src:fallback;
-    const caption=e.illustration?.stage==='approved'?t('A moment of ','一个关于')+e.word.en:t('Illustration study · final watercolor art in review','插画分镜稿 · 正式水彩作品待审核');
-    return '<div class="artwork-wrap"><img class="artwork" src="'+esc(src)+'" alt="'+esc(alt)+'" width="960" height="640" decoding="async" loading="eager"><p class="art-caption">'+esc(caption)+'</p></div>';
+    return '<figure class="artwork-wrap"><img class="artwork" src="'+esc(artworkSrc(e))+'" alt="'+esc(alt)+'" width="960" height="640" decoding="async" loading="eager">'+
+      '<figcaption class="art-caption">'+t('Illustration study','插画风格试验')+'</figcaption></figure>';
   }
   function headline(e,context){
     const names=head(e),sp=e.pronunciation?.[language],phrase=sp?.text||names[0];
     const locale=sp?.locale||(language==='zh'?'zh-CN':'en-US');
     const form=language==='zh'?[e.word.feelingZh,e.word.feelingEn]:[e.word.feelingEn,e.word.feelingZh];
-    const kicker=context==='discover'?(window.__emolexDiscoverOverride?t('EXPLORE A FEELING','探索一种感受'):t("TODAY'S FEELING",'今天的感受')):t('A FEELING TO UNDERSTAND','认识一种感受');
-    return '<section class="emotion-head"><div class="intro-kicker"><span>'+kicker+'</span><span>'+t('EMOTION CARD','情绪卡片')+'</span></div>'+
-      '<div class="word-row"><div class="title-words"><div class="headword-line"><h1 lang="'+(language==='zh'?'zh-CN':'en')+'">'+esc(names[0])+'</h1>'+
+    const kicker=context==='discover'?(window.__emolexDiscoverOverride?t('DISCOVER A FEELING','探索一种感受'):t("TODAY'S FEELING",'今天的感受')):t('EXPLORE A FEELING','探索一种感受');
+    return '<div class="emotion-head"><p class="intro-kicker">'+kicker+' <span aria-hidden="true">✦</span></p>'+
+      '<div class="headword-line"><h1 lang="'+(language==='zh'?'zh-CN':'en')+'">'+esc(names[0])+'</h1>'+
       '<button class="speak-button" data-action="speak" data-phrase="'+esc(phrase)+'" data-locale="'+esc(locale)+'" aria-label="'+esc(t('Listen to ','朗读 ')+phrase)+'" title="'+esc(t('Listen to ','朗读 ')+phrase)+'">'+
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg></button></div>'+
-      '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(names[1])+'</p></div><span class="emotion-emoji" aria-hidden="true">'+esc(e.emoji)+'</span></div>'+
-      '<p class="usage-form">'+esc(form[0])+' · '+esc(form[1])+'</p></section>';
+      '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(names[1])+'</p>'+
+      '<p class="usage-form">'+esc(form[0])+' · '+esc(form[1])+'</p>'+
+      '<p class="hero-definition">'+esc(e.definition[language])+'</p></div>';
   }
   function reading(e){
     const related=e.related.map(id=>entries.find(x=>x.id===id)).filter(Boolean);
-    return '<div class="art-panel">'+media(e)+'</div>'+
-      '<section class="reading-section meaning-section">'+sectionLabel('definition','WHAT DOES IT MEAN?','这是一种怎样的感受？')+bilingual(e,'definition')+'</section>'+
-      '<section class="reading-section scene-section">'+sectionLabel('scene','IMAGINE THIS...','想象一下……')+bilingual(e,'scene')+'</section>'+
+    return '<div class="reading-grid"><section class="reading-section meaning-section">'+sectionLabel('definition','WHAT DOES IT MEAN?','这是一种怎样的感受？')+bilingual(e,'definition')+'</section>'+
+      '<section class="reading-section scene-section">'+sectionLabel('scene','IMAGINE THIS...','想象一下……')+bilingual(e,'scene')+'</section></div>'+
       '<section class="reading-section speaking-section">'+sectionLabel('say','YOU CAN SAY...','你可以这样说……')+'<blockquote>'+bilingual(e,'say')+'</blockquote></section>'+
-      (related.length?'<section class="reading-section related-section">'+sectionLabel('related','RELATED FEELINGS','相关感受')+
-       '<div class="related-list">'+related.map(x=>'<button class="related-chip" data-action="detail" data-id="'+esc(x.id)+'">'+esc(x.emoji)+' '+esc(head(x)[0])+'</button>').join('')+'</div></section>':'');
+      (related.length?'<section class="related-section">'+sectionLabel('related','RELATED FEELINGS','相关感受')+
+       '<div class="related-list">'+related.map(x=>'<button class="related-chip" data-action="detail" data-id="'+esc(x.id)+'">'+esc(head(x)[0])+' <span aria-hidden="true">↗</span></button>').join('')+'</div></section>':'');
   }
   function footer(e){
     return '<footer class="card-footer"><div class="share-controls">'+
-      '<button class="footer-action" data-action="share" data-id="'+esc(e.id)+'"><span aria-hidden="true">🔗</span><span>'+t('Share link','分享链接')+'</span></button>'+
-      '<button class="footer-action" id="share-image-btn" data-action="share-image" data-id="'+esc(e.id)+'" disabled><span aria-hidden="true">🖼️</span><span class="action-text">'+t('Preparing image…','正在准备图片…')+'</span></button></div>'+
+      '<button class="footer-action" data-action="share" data-id="'+esc(e.id)+'"><span aria-hidden="true">↗</span><span>'+t('Share link','分享链接')+'</span></button>'+
+      '<button class="footer-action" id="share-image-btn" data-action="share-image" data-id="'+esc(e.id)+'" disabled><span aria-hidden="true">▣</span><span class="action-text">'+t('Preparing image…','正在准备图片…')+'</span></button></div>'+
       '<button class="next-button" data-action="next" data-id="'+esc(e.id)+'">'+t('Another feeling','看看另一种感受')+' <span aria-hidden="true">→</span></button>'+
       '<input id="share-url" class="share-url" aria-label="'+t('Share URL','分享链接')+'" hidden readonly></footer>';
   }
-  function emotionPage(e,context){
-    return '<main id="main" tabindex="-1" class="site-main"><div class="page-content"><article class="emotion-card">'+header(context==='detail')+
-      '<div class="card-body">'+headline(e,context)+reading(e)+footer(e)+'</div></article>'+
-      '<p class="pilot-note">'+t('Editorial pilot · five sample feelings','内容校准版 · 当前展示五条示范词')+'</p></div></main>';
-  }
-  function discover(){return emotionPage(displayedEntry(),'discover');}
-  function detail(){
-    const e=entries.find(x=>x.id===current);
-    if(!e)return '<main class="site-main"><div class="page-content"><section class="emotion-card">'+header(true)+
-       '<div class="empty-state"><h1>'+t('This feeling is not here yet.','这个词条暂时找不到')+'</h1><p>'+t('Try searching the dictionary.','可以去词典里找找。')+'</p><button class="next-button" data-action="explore">'+t('Explore feelings','探索情绪')+'</button></div></section></div></main>';
-    return emotionPage(e,'detail');
+  function detailPanel(e,context){
+    if(!e) return '<section class="detail-pane"><div class="empty-state"><h1>'+t('This feeling is not here yet.','这个词条暂时找不到')+'</h1><p>'+t('Try searching the dictionary.','可以去词典里找找。')+'</p><button class="next-button" data-action="explore">'+t('Explore feelings','探索情绪')+'</button></div></section>';
+    return '<section class="detail-pane" aria-label="'+esc(t('Emotion detail','情绪详情'))+'"><nav class="mobile-back"><button data-action="back">← '+t('Explore feelings','探索情绪')+'</button></nav>'+
+      '<article class="emotion-card"><div class="hero-layout">'+headline(e,context)+'<div class="art-panel">'+media(e)+'</div></div>'+
+      reading(e)+footer(e)+'</article><p class="pilot-note">'+t('Editorial pilot · five sample feelings','内容校准版 · 当前展示五条示范词')+'</p></section>';
   }
   function matching() {
     const q=normalize(search);
@@ -184,27 +180,40 @@
       return [e.word.en,e.word.zh,e.word.feelingEn,e.word.feelingZh,...(e.aliases||[])].some(x=>normalize(x).includes(q));
     });
   }
+
   function resultsHtml() {
-    const found=matching();
-    if(!found.length) return '<div class="search-empty"><div aria-hidden="true">⌕</div><p>'+t('No feeling found. Try a different word.','没有找到，可以换个词再试试。')+'</p><button class="button-outline" data-action="clear">'+t('Clear search','清除搜索')+'</button></div>';
-    return '<p class="result-count">'+found.length+' '+t(found.length===1?'feeling':'feelings','种感受')+'</p><div class="results-list">'+found.map(e=>{ const h=head(e);return '<button class="result-row" data-action="detail" data-id="'+esc(e.id)+'"><span class="row-emoji" aria-hidden="true">'+esc(e.emoji)+'</span><span class="row-words"><strong>'+esc(h[0])+'</strong><small>'+esc(h[1])+'</small></span><span class="row-arrow" aria-hidden="true">↗</span></button>';}).join('')+'</div>';
+    const found=matching(),selected=displayedEntry()?.id;
+    if(!found.length)return '<div class="search-empty"><div aria-hidden="true">✳</div><p>'+t('No feeling found. Try a different word.','没有找到，可以换个词再试试。')+'</p><button class="button-outline" data-action="clear">'+t('Clear search','清除搜索')+'</button></div>';
+    return '<p class="result-count">'+found.length+' '+t(found.length===1?'feeling to explore':'feelings to explore','种感受等你发现')+'</p>'+
+      '<div class="results-list">'+found.map(e=>{
+        const h=head(e),active=e.id===selected;
+        return '<button class="result-row'+(active?' selected':'')+'" data-action="detail" data-id="'+esc(e.id)+'" aria-current="'+(active?'true':'false')+'">'+
+          '<span class="row-illustration"><img src="'+esc(artworkSrc(e))+'" alt="" loading="lazy" width="120" height="80"></span>'+
+          '<span class="row-words"><strong>'+esc(h[0])+'</strong><span class="row-translation">'+esc(h[1])+'</span><small>'+esc(e.definition[language])+'</small></span>'+
+          '<span class="row-arrow" aria-hidden="true">›</span></button>';
+      }).join('')+'</div>';
   }
-  function explore(){
-    return '<main id="main" tabindex="-1" class="site-main"><div class="page-content">'+
-      '<section class="emotion-card explore-card">'+header(true)+'<div class="card-body"><p class="eyebrow">'+t('A WORLD OF FEELINGS','感受的世界')+'</p>'+
-      '<h1 class="explore-title">'+t('Find the words for how you feel.','找到表达感受的词语。')+'</h1>'+
-      '<label class="search-box" for="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.9"/><path d="m16.1 16.1 4.1 4.1"/></svg><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings or 中文','搜索感受或 English')+'" value="'+esc(search)+'"></label>'+
-      '<div class="filter-row" role="group" aria-label="'+t('Feelings category','感受分类')+'">'+[['all',t('All feelings','全部')],['needs_met',t('Needs met','需要得到满足')],['needs_unmet',t('Needs unmet','需要未得到满足')]].map(([id,label])=>'<button class="filter-chip '+(filter===id?'selected':'')+'" data-action="filter" data-id="'+id+'" aria-pressed="'+(filter===id)+'">'+esc(label)+'</button>').join('')+'</div>'+
-      '<div id="results" aria-live="polite">'+resultsHtml()+'</div></div></section>'+
-      '<p class="pilot-note">'+t('Five pilot entries; unreviewed words are not shown.','当前只有五条示范词，未经审核的词语暂不显示。')+'</p></div></main>';
+  function explorePanel(){
+    return '<aside class="explore-pane" aria-label="'+t('Explore feelings','探索情绪')+'"><div class="explore-intro"><p class="eyebrow">'+t('A WORLD OF FEELINGS','感受的世界')+'</p>'+
+      '<h2 class="explore-title">'+t('Every feeling has a story.','每一种感受，都有故事。')+'</h2></div>'+
+      '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings or 中文','搜索感受或 English')+'" value="'+esc(search)+'"></label>'+
+      '<div class="filter-row" role="group" aria-label="'+t('Feelings category','感受分类')+'">'+[['all',t('All','全部')],['needs_met',t('Needs met','需要已满足')],['needs_unmet',t('Needs unmet','需要未满足')]].map(([id,label])=>'<button class="filter-chip '+(filter===id?'selected':'')+'" data-action="filter" data-id="'+id+'" aria-pressed="'+(filter===id)+'">'+esc(label)+'</button>').join('')+'</div>'+
+      '<div id="results" aria-live="polite">'+resultsHtml()+'</div>'+
+      '<p class="sidebar-note">'+t('Five illustration studies · more feelings to come','五条插画示范词 · 更多感受即将加入')+'</p></aside>';
   }
-  function render() {
-    if(!entries.length) return;
-    app.innerHTML=view==='explore'?explore():view==='detail'?detail():discover();
-    const currentEntry=displayedEntry();if(currentEntry)prepareImageShare(currentEntry);
+  function render(){
+    if(!entries.length)return;
+    const e=displayedEntry();
+    app.innerHTML='<main id="main" tabindex="-1" class="site-main"><div class="page-content">'+header()+
+      '<div class="app-shell" data-view="'+esc(view)+'">'+explorePanel()+detailPanel(e,view)+'</div></div></main>';
+    if(e)prepareImageShare(e);
     document.documentElement.lang=language==='zh'?'zh-CN':'en';
-    document.title=(view==='detail'? (entries.find(x=>x.id===current)?.word.en||'Feeling')+' · ':'')+'EmoLex · Feelings Explorer';
-    if(focusSearchAfterRender && view==='explore') { const input=document.getElementById('search'); input.focus(); input.setSelectionRange(input.value.length,input.value.length); focusSearchAfterRender=false; }
+    document.title=(view==='detail'?(entries.find(x=>x.id===current)?.word.en||'Feeling')+' · ':'')+'EmoLex · An Illustrated Dictionary of Feelings';
+    if(focusSearchAfterRender&&view==='explore'){
+      const input=document.getElementById('search');
+      if(input){input.focus();input.setSelectionRange(input.value.length,input.value.length);}
+      focusSearchAfterRender=false;
+    }
   }
   document.addEventListener('click',async (event)=>{
     const btn=event.target.closest('[data-action]'); if(!btn) return;
