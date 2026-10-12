@@ -141,7 +141,7 @@
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg></button></div>'+
       '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(names[1])+'</p>'+
       '<p class="usage-form">'+esc(form[0])+' · '+esc(form[1])+'</p>'+
-      '<p class="hero-definition">'+esc(e.definition[language])+'</p></div>';
+      '</div>';
   }
   function reading(e){
     const related=e.related.map(id=>entries.find(x=>x.id===id)).filter(Boolean);
