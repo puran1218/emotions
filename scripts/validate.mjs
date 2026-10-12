@@ -12,15 +12,24 @@ const pilot=read('static/emotions/data/emotions.json');
 const canonical=read('data/concepts/pilot.json');
 const canonicalSchema=read('schemas/emotion.schema.json');
 assert.equal(canonicalSchema.title,'EmoLex Editorial Concept');
+assert.equal(canonicalSchema.properties.expression.type,'array');
+assert.equal(canonicalSchema.properties.expression.minItems,3);
+assert.equal(canonicalSchema.properties.expression.maxItems,4);
 assert.deepEqual(pilot,makeRuntime(canonical),'runtime JSON must be generated from canonical editorial concepts');
 for(const e of canonical){
   assert.ok(['draft','review','pilot','published','retired'].includes(e.status));
   assert.ok(e.taxonomy?.kind && e.taxonomy?.needs?.length);
   for(const lang of ['en','zh']){
     assert.ok(e.terms?.[lang]?.feeling);
-    for(const field of ['definition','scenario','expression']) assert.ok(e[field]?.[lang]);
+    for(const field of ['definition','scenario']) assert.ok(e[field]?.[lang]);
     assert.ok(e.pronunciation?.[lang]?.locale);
     assert.equal(e.pronunciation[lang].text, e.terms[lang].noun || e.terms[lang].feeling,'headword is the default pronunciation target: '+e.id+'/'+lang);
+  }
+  assert.ok(Array.isArray(e.expression)&&e.expression.length>=3&&e.expression.length<=4,e.id+': expressions 3–4');
+  for(const lang of ['en','zh']){
+    const phrases=e.expression.map(x=>x?.[lang]);
+    assert.ok(phrases.every(x=>typeof x==='string'&&x.trim().length>=5),e.id+': invalid '+lang+' phrase');
+    assert.equal(new Set(phrases.map(x=>x.toLowerCase().trim())).size,phrases.length,e.id+': duplicate '+lang+' phrases');
   }
   if(e.status==='published'){
     assert.equal(e.illustration.stage,'approved');
@@ -66,8 +75,10 @@ for(const e of entries){
   if(e.status==='published')assert.equal(e.illustration.stage,'approved','cannot publish unapproved artwork');
   assert.ok(fs.existsSync(path.join(root,'static/emotions/images/'+e.visual+'-storyboard.svg')),e.id+' missing storyboard');
   for(const lang of ['en','zh']){
-    for(const part of ['definition','scene','say','alt'])
+    for(const part of ['definition','scene','alt'])
       assert.ok(e[part][lang]&&e[part][lang].trim().length>4,e.id+'.'+part+'.'+lang);
+    assert.ok(e.say.length>=3&&e.say.length<=4,e.id+': runtime expression count');
+    for(const example of e.say) assert.ok(example[lang]&&example[lang].trim().length>=5,e.id+': example '+lang);
     assert.ok(e.word[lang],e.id+'.word.'+lang);
   }
   for(const id of e.related){assert.ok(id!==e.id&&map.has(id),e.id+' related '+id);}
