@@ -48,11 +48,11 @@
   }
   async function render(e,lang){
     const canvas=document.createElement('canvas');
-    canvas.width=1200;canvas.height=2500;
+    canvas.width=1200;canvas.height=3200;
     const c=canvas.getContext('2d',{alpha:false});
     if(!c)throw Error('Canvas is unavailable');
     c.fillStyle='#F8F6F0';c.fillRect(0,0,1200,2500);
-    rounded(c,32,32,1136,2390,38,surface);
+    rounded(c,32,32,1136,3060,38,surface);
     let y=87;
     y=multiline(c,'emolex  ✳',84,y,1030,39,48,'en',green,true);
     c.strokeStyle=rule;c.lineWidth=2;c.beginPath();c.moveTo(84,y+20);c.lineTo(1116,y+20);c.stroke();
@@ -90,7 +90,7 @@
     y=Math.max(top+170,y+40);
     c.strokeStyle=rule;c.beginPath();c.moveTo(84,y);c.lineTo(1116,y);c.stroke();y+=26;
     multiline(c,'EmoLex · '+new URL(location.href).host,84,y,1030,25,34,'en',muted);
-    const cropped=document.createElement('canvas');cropped.width=1200;cropped.height=Math.min(2490,Math.ceil(y+77));
+    const cropped=document.createElement('canvas');cropped.width=1200;cropped.height=Math.min(3170,Math.ceil(y+77));
     const out=cropped.getContext('2d',{alpha:false});
     out.fillStyle='#F8F6F0';out.fillRect(0,0,1200,cropped.height);
     out.drawImage(canvas,0,0,1200,cropped.height,0,0,1200,cropped.height);

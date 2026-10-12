@@ -90,8 +90,12 @@
       }
     });
   }
+  function canShareFile(file){
+    try{return !!(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]}));}
+    catch{return false;}
+  }
   function readyImage(button){
-    const native=!!(navigator.share&&navigator.canShare&&navigator.canShare({files:[preparedImage]}));
+    const native=canShareFile(preparedImage);
     button.disabled=false;
     button.querySelector('.action-text').textContent=native?t('Share image','分享图片'):t('Save image','保存图片');
   }
@@ -101,7 +105,7 @@
       message(t('Image is still preparing.','图片还在准备中。'));return;
     }
     // Call the native share sheet before any await: iOS Safari needs a user gesture.
-    if(navigator.share&&navigator.canShare&&navigator.canShare({files:[preparedImage]})){
+    if(canShareFile(preparedImage)){
       try{await navigator.share({files:[preparedImage],title:e.word.en+' · '+e.word.zh});
         message(t('Image shared.','图片已分享。'));return;
       }catch(err){if(err.name==='AbortError')return;}

@@ -76,3 +76,37 @@ await click('detail','frustration');
 assert.equal(new URL(window.location.href).searchParams.get('word'),'frustration');
 assert.ok(elements.app.innerHTML.includes('data-phrase="挫败感"'));
 console.log('OK: card navigation, four illustrated headings, headword TTS in EN/ZH, link routing, image share action, and search.');
+
+// Simulate canvas export enough to ensure the image-sharing module remains
+// browser-compatible and produces an actual PNG File contract (no network).
+const drawn=[];
+const fakeContext={
+  beginPath(){},moveTo(){},lineTo(){},quadraticCurveTo(){},closePath(){},fill(){},stroke(){},
+  fillRect(){},fillText(t){drawn.push(String(t))},drawImage(){},
+  measureText(t){return {width:String(t).length*18}}
+};
+const imageDocument={baseURI:'https://example.org/emotions/',
+  createElement(tag){
+    assert.equal(tag,'canvas');
+    return {width:0,height:0,getContext(){return fakeContext},
+      toBlob(cb){cb({size:123,type:'image/png'})}};
+  }};
+class FakeImage {
+  width=960;height=640;
+  set src(value){this._src=value;queueMicrotask(()=>this.onload?.());}
+  get src(){return this._src;}
+}
+class FakeFile {
+  constructor(parts,name,options){this.name=name;this.type=options.type;this.parts=parts;}
+}
+const imageWindow={};
+vm.runInNewContext(shareJs,{
+  window:imageWindow,document:imageDocument,
+  location:{href:'https://example.org/emotions/'},
+  URL,Image:FakeImage,File:FakeFile,Math,Promise,setTimeout
+});
+const exported=await imageWindow.EmoLexShareImage.prepare(joy,'en');
+assert.equal(exported.name,'emolex-joy-en.png');
+assert.equal(exported.type,'image/png');
+assert.ok(drawn.some(t=>t.includes(joy.word.en)));
+console.log('OK: offline bilingual PNG render and export contract.');
