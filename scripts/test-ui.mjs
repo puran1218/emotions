@@ -16,9 +16,11 @@ assert.ok(html.indexOf('share-image.js')<html.indexOf('app.js'),'image share mus
 assert.ok(!appJs.includes('bottomNav()'),'redundant bottom tabs should be removed');
 assert.ok(css.includes('.emotion-card')&&css.includes('.section-label'));
 assert.match(css,/\.speaking-section blockquote\{[^}]*background:#EAF1EA/,'speaking guidance should use the share-image green');
-assert.ok(css.includes('@media(min-width:820px)')&&css.includes('.explore-card .card-body{display:block}'),'wide layouts must be responsive');
+assert.ok(css.includes('@media(min-width:900px)')&&css.includes('.app-shell')&&css.includes('.app-shell[data-view="explore"] .detail-pane{display:none}'),'master-detail must adapt to mobile and wide layouts');
+assert.ok(css.includes('.speaking-section{background:#E2EDE2'),'speaking guidance needs visible green section background');
 for(const entry of concepts) for(const lang of ['en','zh']){
   assert.equal(entry.pronunciation[lang].text,entry.word[lang],'speak the title, not feeling form');
+  assert.ok(entry.illustration.src.endsWith('-sketch-study.svg'),'pilot artwork should reuse the new sketch across Explore/Detail/share');
 }
 
 const spoken=[],shared=[];
@@ -63,7 +65,10 @@ assert.ok(elements.app.innerHTML.includes('IMAGINE THIS...'),'scenario');
 assert.ok(elements.app.innerHTML.includes('YOU CAN SAY...'),'expression');
 assert.ok(elements.app.innerHTML.includes('class="reading-section speaking-section"'),'speaking guidance must receive its green callout styling');
 assert.ok(elements.app.innerHTML.includes('class="reading-section meaning-section"')&&elements.app.innerHTML.includes('class="reading-section scene-section"'),'reading sections must be named for wide layout');
-assert.ok(elements.app.innerHTML.includes('📖')&&elements.app.innerHTML.includes('💬'),'section icons');
+assert.ok(elements.app.innerHTML.includes('✎')&&elements.app.innerHTML.includes('❞'),'sketch-style section icons');
+assert.ok(elements.app.innerHTML.includes('class="explore-pane"')&&elements.app.innerHTML.includes('class="detail-pane"'),'both panes share one responsive shell');
+assert.ok(elements.app.innerHTML.includes('class="row-illustration"'),'Explore must show artwork thumbnails');
+assert.ok(elements.app.innerHTML.includes('data-view="detail"'),'deep link should open detail on phones');
 assert.ok(elements.app.innerHTML.includes('share-image-btn'),'share image control');
 await click('speak',null,{phrase:'Joy',locale:'en-US'});
 assert.deepEqual(spoken.pop(),{text:'Joy',lang:'en-US'});
@@ -76,10 +81,11 @@ await click('share-image','joy');
 assert.ok(shared.some(x=>x.files&&x.files[0].name==='joy-zh.png'),'native PNG share');
 await click('explore');
 assert.ok(elements.app.innerHTML.includes('id="search"'),'explore remains accessible');
+assert.ok(elements.app.innerHTML.includes('data-view="explore"'),'explore must be its own phone route');
 await click('detail','frustration');
 assert.equal(new URL(window.location.href).searchParams.get('word'),'frustration');
 assert.ok(elements.app.innerHTML.includes('data-phrase="挫败感"'));
-console.log('OK: card navigation, four illustrated headings, headword TTS in EN/ZH, link routing, image share action, and search.');
+console.log('OK: responsive illustrated master-detail, four headings, headword TTS in EN/ZH, link routing, image share action, and search.');
 
 // Simulate canvas export enough to ensure the image-sharing module remains
 // browser-compatible and produces an actual PNG File contract (no network).
