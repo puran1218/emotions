@@ -56,3 +56,9 @@ The five new `*-sketch-study.svg` illustrations are **art-direction experiments*
 A follow-up fixes single-line emotion names (including `Frustration`) in the list and the detail via width-aware type fitting, replaces the Share image box glyph with a consistent picture SVG, and extends handwriting-inspired typography to bilingual definition/scenario paragraphs. Five bolder `*-sketch-v2.svg` assets are now the pilot illustrations; v1 and original storyboards remain in the repository for comparison. These illustrations still require editorial and visual approval. Do not infer that five pilot entries or stylistic experiments are a production art library.
 
 **Explore height is deliberately not forced to equal Detail height.** On wide layouts Explore remains a bounded scrollable pane while Detail can grow with its own content. Alignment is a design discussion to revisit with a fuller catalog.
+
+## October 2026: You can say, with more examples
+
+Each pilot now has three different, bilingual **YOU CAN SAY...** examples with per-card spoken audio. These are ordered, short, child-appropriate editorial drafts; the first two appear in a shareable PNG. The canonical `data/concepts/pilot.json` uses an array for `expression`; `npm run build:data` projects it to runtime `say`. The JSON Schema and tests enforce **three to four** non-duplicated EN/ZH pairs per concept. Future content should be curated individually rather than bulk-filled for quantity.
+
+All five `*-sketch-v2.svg` test scenes also received a targeted facial-anatomy fix: cheeks are now wholly inside the child’s facial outline, and facial features are less distorted. Automated checks cover cheek geometry as a regression test. The images are still **art studies awaiting human visual and semantic approval**; browser visual QA is necessary before release.
