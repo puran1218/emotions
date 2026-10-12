@@ -143,11 +143,21 @@
       '<p class="usage-form">'+esc(form[0])+' · '+esc(form[1])+'</p>'+
       '</div>';
   }
+  function expressions(e){
+    const first=language,second=language==='zh'?'en':'zh',locale=first==='zh'?'zh-CN':'en-US';
+    return '<div class="expression-grid">'+e.say.map((example,index)=>
+      '<div class="expression-card"><div class="expression-phrase">'+
+      '<div class="expression-copy"><p class="primary-copy" lang="'+(first==='zh'?'zh-CN':'en')+'">'+esc(example[first])+'</p>'+
+      '<p class="secondary-copy" lang="'+(second==='zh'?'zh-CN':'en')+'">'+esc(example[second])+'</p></div>'+
+      '<button class="expression-speak" data-action="speak" data-phrase="'+esc(example[first])+'" data-locale="'+locale+'" aria-label="'+esc(t('Listen to example ','朗读第')+(first==='zh'?index+1+'条：':(index+1)+': ')+example[first])+'">'+
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg></button></div></div>'
+    ).join('')+'</div>';
+  }
   function reading(e){
     const related=e.related.map(id=>entries.find(x=>x.id===id)).filter(Boolean);
     return '<div class="reading-grid"><section class="reading-section meaning-section">'+sectionLabel('definition','WHAT DOES IT MEAN?','这是一种怎样的感受？')+bilingual(e,'definition')+'</section>'+
       '<section class="reading-section scene-section">'+sectionLabel('scene','IMAGINE THIS...','想象一下……')+bilingual(e,'scene')+'</section></div>'+
-      '<section class="reading-section speaking-section">'+sectionLabel('say','YOU CAN SAY...','你可以这样说……')+'<blockquote>'+bilingual(e,'say')+'</blockquote></section>'+
+      '<section class="reading-section speaking-section">'+sectionLabel('say','YOU CAN SAY...','你可以这样说……')+expressions(e)+'</section>'+
       (related.length?'<section class="related-section">'+sectionLabel('related','RELATED FEELINGS','相关感受')+
        '<div class="related-list">'+related.map(x=>'<button class="related-chip" data-action="detail" data-id="'+esc(x.id)+'">'+esc(head(x)[0])+' <span aria-hidden="true">↗</span></button>').join('')+'</div></section>':'');
   }
