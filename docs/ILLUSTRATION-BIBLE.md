@@ -54,3 +54,8 @@ Assets at \`static/emotions/images/<concept>-vNN.webp\` backed by originals at \
 - Check all five scenes together for recognizable recurring Mei, consistent lineweight, readable facial features, cultural neutrality, and the same semantics in bilingual copy.
 - Before approval, run a real-device iPhone/iPad and exported PNG review, including Safari SVG rendering, iPhone list thumbnails, and two languages. No drawing tool is part of the product.
 
+## Facial placement and child-safe expressions
+
+Review the character face as a separate part of illustration QA. In the v2 sketch studies, the facial oval is centered at `(0,-63)`, with radii `72×80` in local character coordinates. The original `x≈±46, y=8` blushing cheeks were too low for that oval and appeared to float **outside** the face. Cheeks are now placed at `x=±37, y=-12` with smaller, softer marks; eye, brow and mouth positions were also moved upward to stay inside the oval.
+
+This coordinate rule is only a guard for the current SVG sketch studies, **not** a universal template for future artwork. New original illustrations must be visually checked rather than relying on rigid coordinates. Exaggerate gestures, scribbly outlines and colorful props, but keep both cheeks on the cheeks, eyes and mouth within the face, and the underlying expression friendly, coherent and never unintentionally scary.
