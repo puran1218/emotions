@@ -38,3 +38,9 @@ No analytics SDK, login, microphones, generated AI text or third-party API reque
 ## Illustration sources
 
 The five on-screen SVG scenes are **temporary semantic storyboards**, not the final watercolor art. A separate earlier design pack contains four watercolor calibration drawings; they should only be imported after checking their semantics, character consistency and licensing. Approved art will use `static/emotions/images/<concept>-vNN.webp`, paired with an updated `illustration.src` field and the art manifest.
+
+## October 2026 UI refinements
+
+The emotion card now follows a compact, single bordered reading surface inspired by the supplied card example. Discover shows the **complete** explanation, scenario, expression, and related words without a second tap. Header logo/search replace the redundant bottom navigation. Section headings use clear pictograms. The title's adjacent speaker reads the exact bilingual headword (e.g. **Joy / 喜悦**) instead of an adjective (**joyful / 开心**).
+
+The card offers **Share link** and **Share image** separately. Image export is built in the browser to a bilingual PNG and requires no backend. The image is prepared before the share button activates, preserving iOS Safari's click gesture for the native share sheet. Unsupported file sharing falls back to PNG download. Browser capabilities, fonts, same-origin illustration rendering, and save-to-Photos need hands-on verification on iPhone and iPad.

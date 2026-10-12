@@ -28,6 +28,7 @@
     resolveRoute();
     render();
     window.scrollTo(0,0);
+    document.getElementById('main')?.focus();
   }
   function dailyIndex() {
     const today = new Date();
@@ -114,7 +115,7 @@
       (back?'<button class="icon-button back-button" data-action="back" aria-label="'+t('Back','返回')+'">←</button>':'')+
       '<button class="brand" data-action="discover" aria-label="'+t('EmoLex home','EmoLex 首页')+'">emo<span>lex</span><small>✳</small></button>'+
       '<div class="top-actions"><button class="language-button" data-action="language" aria-label="'+t('Switch to Chinese first','切换英文优先')+'">'+(language==='zh'?'中文 / EN':'EN / 中文')+'</button>'+
-      '<button class="icon-button search-trigger" data-action="explore" aria-label="'+t('Search feelings','搜索情绪')+'"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.9"/><path d="m16.1 16.1 4.1 4.1"/></svg></button></div></header>';
+      (view==='explore'?'':'<button class="icon-button search-trigger" data-action="explore" aria-label="'+t('Search feelings','搜索情绪')+'"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.9"/><path d="m16.1 16.1 4.1 4.1"/></svg></button>')+'</div></header>';
   }
   function sectionLabel(field,en,zh){
     return '<h2 class="section-label"><span class="label-icon" aria-hidden="true">'+sectionIcons[field]+'</span><span>'+t(en,zh)+'</span></h2>';
@@ -137,11 +138,11 @@
     const form=language==='zh'?[e.word.feelingZh,e.word.feelingEn]:[e.word.feelingEn,e.word.feelingZh];
     const kicker=context==='discover'?(window.__emolexDiscoverOverride?t('EXPLORE A FEELING','探索一种感受'):t("TODAY'S FEELING",'今天的感受')):t('A FEELING TO UNDERSTAND','认识一种感受');
     return '<section class="emotion-head"><div class="intro-kicker"><span>'+kicker+'</span><span>'+t('EMOTION CARD','情绪卡片')+'</span></div>'+
-      '<div class="word-row"><div class="title-words"><h1 lang="'+(language==='zh'?'zh-CN':'en')+'">'+esc(names[0])+'</h1>'+
-      '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(names[1])+'</p></div><span class="emotion-emoji" aria-hidden="true">'+esc(e.emoji)+'</span></div>'+
-      '<div class="form-and-sound"><span class="usage-form">'+esc(form[0])+' · '+esc(form[1])+'</span>'+
+      '<div class="word-row"><div class="title-words"><div class="headword-line"><h1 lang="'+(language==='zh'?'zh-CN':'en')+'">'+esc(names[0])+'</h1>'+
       '<button class="speak-button" data-action="speak" data-phrase="'+esc(phrase)+'" data-locale="'+esc(locale)+'" aria-label="'+esc(t('Listen to ','朗读 ')+phrase)+'" title="'+esc(t('Listen to ','朗读 ')+phrase)+'">'+
-      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg><span>'+t('Listen','朗读')+'</span></button></div></section>';
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6.6 9H3v6h3.6l4.4 4V5Zm4 4a4.2 4.2 0 0 1 0 6m2.8-9a8 8 0 0 1 0 12"/></svg></button></div>'+
+      '<p class="translation" lang="'+(language==='zh'?'en':'zh-CN')+'">'+esc(names[1])+'</p></div><span class="emotion-emoji" aria-hidden="true">'+esc(e.emoji)+'</span></div>'+
+      '<p class="usage-form">'+esc(form[0])+' · '+esc(form[1])+'</p></section>';
   }
   function reading(e){
     const related=e.related.map(id=>entries.find(x=>x.id===id)).filter(Boolean);
@@ -155,7 +156,7 @@
   function footer(e){
     return '<footer class="card-footer"><div class="share-controls">'+
       '<button class="footer-action" data-action="share" data-id="'+esc(e.id)+'"><span aria-hidden="true">🔗</span><span>'+t('Share link','分享链接')+'</span></button>'+
-      '<button class="footer-action" id="share-image-btn" data-action="share-image" data-id="'+esc(e.id)+'" disabled><span aria-hidden="true">▧</span><span class="action-text">'+t('Preparing image…','正在准备图片…')+'</span></button></div>'+
+      '<button class="footer-action" id="share-image-btn" data-action="share-image" data-id="'+esc(e.id)+'" disabled><span aria-hidden="true">🖼️</span><span class="action-text">'+t('Preparing image…','正在准备图片…')+'</span></button></div>'+
       '<button class="next-button" data-action="next" data-id="'+esc(e.id)+'">'+t('Another feeling','看看另一种感受')+' <span aria-hidden="true">→</span></button>'+
       '<input id="share-url" class="share-url" aria-label="'+t('Share URL','分享链接')+'" hidden readonly></footer>';
   }

@@ -101,3 +101,10 @@ button:disabled{cursor:wait;opacity:.55}
  .title-words h1{font-size:30px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* The speaker is attached to the actual headword, not its adjective/usage hint. */
+.headword-line{display:flex;align-items:center;gap:7px;min-width:0}
+.headword-line h1{min-width:0}
+.headword-line .speak-button{min-width:44px;width:44px;height:44px;flex:none;padding:8px;border-radius:50%;margin:0;background:#F5FAF5}
+.word-row{align-items:flex-start}
+.usage-form{display:block;margin:10px 0 15px}

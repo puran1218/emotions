@@ -41,8 +41,10 @@
     return y;
   }
   function heading(ctx,text,x,y){
-    ctx.fillStyle='#D6B47B';rounded(ctx,x,y+4,8,29,4,'#D6B47B');
-    return multiline(ctx,text,x+24,y,1050,28,38,'en',green,true)+13;
+    const icon=/WHAT|怎样/.test(text)?'📖':/IMAGINE|想象/.test(text)?'✨':'💬';
+    rounded(ctx,x,y,45,42,11,'#ECF3EC');
+    ctx.font='28px "Apple Color Emoji","Segoe UI Emoji",sans-serif';ctx.fillText(icon,x+7,y+8);
+    return multiline(ctx,text,x+62,y+4,985,28,38,'en',green,true)+18;
   }
   async function render(e,lang){
     const canvas=document.createElement('canvas');
@@ -50,7 +52,7 @@
     const c=canvas.getContext('2d',{alpha:false});
     if(!c)throw Error('Canvas is unavailable');
     c.fillStyle='#F8F6F0';c.fillRect(0,0,1200,2500);
-    rounded(c,32,32,1136,2390,38,surface,rule);
+    rounded(c,32,32,1136,2390,38,surface);
     let y=87;
     y=multiline(c,'emolex  ✳',84,y,1030,39,48,'en',green,true);
     c.strokeStyle=rule;c.lineWidth=2;c.beginPath();c.moveTo(84,y+20);c.lineTo(1116,y+20);c.stroke();
@@ -92,6 +94,7 @@
     const out=cropped.getContext('2d',{alpha:false});
     out.fillStyle='#F8F6F0';out.fillRect(0,0,1200,cropped.height);
     out.drawImage(canvas,0,0,1200,cropped.height,0,0,1200,cropped.height);
+    rounded(out,32,32,1136,cropped.height-64,38,'rgba(0,0,0,0)',rule);
     const blob=await new Promise((resolve,reject)=>cropped.toBlob(v=>v?resolve(v):reject(new Error('PNG encoding failed')),'image/png'));
     return new File([blob], 'emolex-'+e.id+'-'+lang+'.png',{type:'image/png'});
   }
