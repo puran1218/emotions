@@ -39,6 +39,16 @@
       "illustration": {
         "src": "./images/sunflower-storyboard.svg",
         "stage": "storyboard"
+      },
+      "pronunciation": {
+        "en": {
+          "text": "Joy",
+          "locale": "en-US"
+        },
+        "zh": {
+          "text": "喜悦",
+          "locale": "zh-CN"
+        }
       }
     },
     {
@@ -78,6 +88,16 @@
       "illustration": {
         "src": "./images/blocks-storyboard.svg",
         "stage": "storyboard"
+      },
+      "pronunciation": {
+        "en": {
+          "text": "Frustration",
+          "locale": "en-US"
+        },
+        "zh": {
+          "text": "挫败感",
+          "locale": "zh-CN"
+        }
       }
     },
     {
@@ -117,6 +137,16 @@
       "illustration": {
         "src": "./images/bench-storyboard.svg",
         "stage": "storyboard"
+      },
+      "pronunciation": {
+        "en": {
+          "text": "Loneliness",
+          "locale": "en-US"
+        },
+        "zh": {
+          "text": "孤独感",
+          "locale": "zh-CN"
+        }
       }
     },
     {
@@ -156,6 +186,16 @@
       "illustration": {
         "src": "./images/dog-storyboard.svg",
         "stage": "storyboard"
+      },
+      "pronunciation": {
+        "en": {
+          "text": "Affection",
+          "locale": "en-US"
+        },
+        "zh": {
+          "text": "爱意",
+          "locale": "zh-CN"
+        }
       }
     },
     {
@@ -195,6 +235,16 @@
       "illustration": {
         "src": "./images/book-storyboard.svg",
         "stage": "storyboard"
+      },
+      "pronunciation": {
+        "en": {
+          "text": "Relief",
+          "locale": "en-US"
+        },
+        "zh": {
+          "text": "如释重负",
+          "locale": "zh-CN"
+        }
       }
     }
   ]

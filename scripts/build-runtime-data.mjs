@@ -10,6 +10,7 @@ export const projectConcept=function project(item){
     needs:item.taxonomy.needs,
     word:{en:item.terms.en.noun||item.terms.en.feeling,zh:item.terms.zh.noun||item.terms.zh.feeling,feelingEn:item.terms.en.feeling,feelingZh:item.terms.zh.feeling},
     emoji:item.emoji,
+    pronunciation:item.pronunciation,
     definition:item.definition,
     scene:item.scenario,
     say:item.expression,

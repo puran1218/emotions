@@ -44,11 +44,11 @@
     },
     "pronunciation": {
       "en": {
-        "text": "joyful",
+        "text": "Joy",
         "locale": "en-US"
       },
       "zh": {
-        "text": "开心",
+        "text": "喜悦",
         "locale": "zh-CN"
       }
     },
@@ -115,11 +115,11 @@
     },
     "pronunciation": {
       "en": {
-        "text": "frustrated",
+        "text": "Frustration",
         "locale": "en-US"
       },
       "zh": {
-        "text": "挫败",
+        "text": "挫败感",
         "locale": "zh-CN"
       }
     },
@@ -186,11 +186,11 @@
     },
     "pronunciation": {
       "en": {
-        "text": "lonely",
+        "text": "Loneliness",
         "locale": "en-US"
       },
       "zh": {
-        "text": "孤独",
+        "text": "孤独感",
         "locale": "zh-CN"
       }
     },
@@ -257,11 +257,11 @@
     },
     "pronunciation": {
       "en": {
-        "text": "affectionate",
+        "text": "Affection",
         "locale": "en-US"
       },
       "zh": {
-        "text": "充满爱意",
+        "text": "爱意",
         "locale": "zh-CN"
       }
     },
@@ -328,11 +328,11 @@
     },
     "pronunciation": {
       "en": {
-        "text": "relieved",
+        "text": "Relief",
         "locale": "en-US"
       },
       "zh": {
-        "text": "松了一口气",
+        "text": "如释重负",
         "locale": "zh-CN"
       }
     },

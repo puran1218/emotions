@@ -20,6 +20,7 @@ for(const e of canonical){
     assert.ok(e.terms?.[lang]?.feeling);
     for(const field of ['definition','scenario','expression']) assert.ok(e[field]?.[lang]);
     assert.ok(e.pronunciation?.[lang]?.locale);
+    assert.equal(e.pronunciation[lang].text, e.terms[lang].noun || e.terms[lang].feeling,'headword is the default pronunciation target: '+e.id+'/'+lang);
   }
   if(e.status==='published'){
     assert.equal(e.illustration.stage,'approved');
