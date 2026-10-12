@@ -35,7 +35,7 @@
     "emoji": "🌻",
     "illustration": {
       "asset_id": "sunflower-storyboard",
-      "src": "./images/sunflower-storyboard.svg",
+      "src": "./images/sunflower-sketch-study.svg",
       "stage": "storyboard",
       "alt": {
         "en": "A girl lifts up a sunflower she has grown.",
@@ -106,7 +106,7 @@
     "emoji": "😤",
     "illustration": {
       "asset_id": "blocks-storyboard",
-      "src": "./images/blocks-storyboard.svg",
+      "src": "./images/blocks-sketch-study.svg",
       "stage": "storyboard",
       "alt": {
         "en": "A girl sits next to a collapsed tower of wooden blocks.",
@@ -177,7 +177,7 @@
     "emoji": "🧸",
     "illustration": {
       "asset_id": "bench-storyboard",
-      "src": "./images/bench-storyboard.svg",
+      "src": "./images/bench-sketch-study.svg",
       "stage": "storyboard",
       "alt": {
         "en": "A girl holding a plush toy watches other children play from a bench.",
@@ -248,7 +248,7 @@
     "emoji": "🤗",
     "illustration": {
       "asset_id": "dog-storyboard",
-      "src": "./images/dog-storyboard.svg",
+      "src": "./images/dog-sketch-study.svg",
       "stage": "storyboard",
       "alt": {
         "en": "A girl kneels by a doorway and hugs a friendly dog.",
@@ -319,7 +319,7 @@
     "emoji": "😌",
     "illustration": {
       "asset_id": "book-storyboard",
-      "src": "./images/book-storyboard.svg",
+      "src": "./images/book-sketch-study.svg",
       "stage": "storyboard",
       "alt": {
         "en": "A girl smiles and holds a favorite book found in her school bag.",
