@@ -50,3 +50,9 @@ The card offers **Share link** and **Share image** separately. Image export is b
 **EmoLex — An Illustrated Dictionary of Feelings.** The redesigned prototype pairs an illustrated Explore list with a full emotion detail pane on iPad landscape / desktop at >=900 CSS px. At smaller widths the *same two panes* become separate pages: Explore lists the five pilot feelings, and Detail displays the selected narrative artwork, bilingual explanations, one illustrated scenario, and the green **YOU CAN SAY** prompt. `?word=<id>` links work in either layout, including direct phone loads.
 
 The five new `*-sketch-study.svg` illustrations are **art-direction experiments**, not approved final art; original storyboards remain checked in for comparison. The single reviewed scenario per pilot is unchanged. No new drawing, AI, backend, or multi-scene editorial feature was added. Run `npm test`, then `python3 -m http.server 8000` and open `/static/emotions/` on a phone or iPad to evaluate the responsive prototype.
+
+### October 2026 polish and bold sketch study
+
+A follow-up fixes single-line emotion names (including `Frustration`) in the list and the detail via width-aware type fitting, replaces the Share image box glyph with a consistent picture SVG, and extends handwriting-inspired typography to bilingual definition/scenario paragraphs. Five bolder `*-sketch-v2.svg` assets are now the pilot illustrations; v1 and original storyboards remain in the repository for comparison. These illustrations still require editorial and visual approval. Do not infer that five pilot entries or stylistic experiments are a production art library.
+
+**Explore height is deliberately not forced to equal Detail height.** On wide layouts Explore remains a bounded scrollable pane while Detail can grow with its own content. Alignment is a design discussion to revisit with a fuller catalog.
