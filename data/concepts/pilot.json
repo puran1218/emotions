@@ -45,11 +45,11 @@
     "emoji": "🌻",
     "illustration": {
       "asset_id": "sunflower-storyboard",
-      "src": "./images/sunflower-sketch-v2.svg",
-      "stage": "storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
       "alt": {
-        "en": "A girl lifts up a sunflower she has grown.",
-        "zh": "女孩捧起自己种出的向日葵。"
+        "en": "A playful hand-drawn notebook with a speech bubble and pencil; the feeling illustration is coming soon.",
+        "zh": "画着对话气泡和铅笔的童趣手绘笔记本；情绪插画即将加入。"
       }
     },
     "pronunciation": {
@@ -126,11 +126,11 @@
     "emoji": "😤",
     "illustration": {
       "asset_id": "blocks-storyboard",
-      "src": "./images/blocks-sketch-v2.svg",
-      "stage": "storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
       "alt": {
-        "en": "A girl sits next to a collapsed tower of wooden blocks.",
-        "zh": "女孩坐在倒塌的积木塔旁边。"
+        "en": "A playful hand-drawn notebook with a speech bubble and pencil; the feeling illustration is coming soon.",
+        "zh": "画着对话气泡和铅笔的童趣手绘笔记本；情绪插画即将加入。"
       }
     },
     "pronunciation": {
@@ -207,11 +207,11 @@
     "emoji": "🧸",
     "illustration": {
       "asset_id": "bench-storyboard",
-      "src": "./images/bench-sketch-v2.svg",
-      "stage": "storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
       "alt": {
-        "en": "A girl holding a plush toy watches other children play from a bench.",
-        "zh": "女孩抱着玩偶坐在长椅上，看着远处玩耍的孩子。"
+        "en": "A playful hand-drawn notebook with a speech bubble and pencil; the feeling illustration is coming soon.",
+        "zh": "画着对话气泡和铅笔的童趣手绘笔记本；情绪插画即将加入。"
       }
     },
     "pronunciation": {
@@ -288,11 +288,11 @@
     "emoji": "🤗",
     "illustration": {
       "asset_id": "dog-storyboard",
-      "src": "./images/dog-sketch-v2.svg",
-      "stage": "storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
       "alt": {
-        "en": "A girl kneels by a doorway and hugs a friendly dog.",
-        "zh": "女孩在门口跪坐着拥抱一只友好的小狗。"
+        "en": "A playful hand-drawn notebook with a speech bubble and pencil; the feeling illustration is coming soon.",
+        "zh": "画着对话气泡和铅笔的童趣手绘笔记本；情绪插画即将加入。"
       }
     },
     "pronunciation": {
@@ -369,11 +369,11 @@
     "emoji": "😌",
     "illustration": {
       "asset_id": "book-storyboard",
-      "src": "./images/book-sketch-v2.svg",
-      "stage": "storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
       "alt": {
-        "en": "A girl smiles and holds a favorite book found in her school bag.",
-        "zh": "女孩从书包里找到心爱的书，露出放心的笑容。"
+        "en": "A playful hand-drawn notebook with a speech bubble and pencil; the feeling illustration is coming soon.",
+        "zh": "画着对话气泡和铅笔的童趣手绘笔记本；情绪插画即将加入。"
       }
     },
     "pronunciation": {
