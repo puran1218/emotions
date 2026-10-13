@@ -109,7 +109,7 @@
   const sectionIcons={definition:'✎',scene:'✳',say:'❞',related:'↗'};
   function artworkSrc(e){
     const source=e.illustration?.src||'';
-    return /^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(source)?source:'./images/'+encodeURIComponent(e.visual)+'-storyboard.svg';
+    return /^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(source)?source:'./images/feeling-placeholder.svg';
   }
   function header(){
     return '<header class="site-header"><button class="brand" data-action="discover" aria-label="'+t('EmoLex home','EmoLex 首页')+'">Emo<span>Lex</span><i aria-hidden="true">✳</i></button>'+
@@ -128,7 +128,7 @@
   function media(e){
     const alt=language==='zh'?e.alt.zh:e.alt.en;
     return '<figure class="artwork-wrap"><img class="artwork" src="'+esc(artworkSrc(e))+'" alt="'+esc(alt)+'" width="960" height="640" decoding="async" loading="eager">'+
-      '<figcaption class="art-caption">'+t('Illustration study','插画风格试验')+'</figcaption></figure>';
+      '<figcaption class="art-caption">'+(e.illustration?.stage==='approved'?'':t('Illustration coming soon','插画即将加入'))+'</figcaption></figure>';
   }
   function headline(e,context){
     const names=head(e),sp=e.pronunciation?.[language],phrase=sp?.text||names[0];
@@ -238,6 +238,13 @@
       focusSearchAfterRender=false;
     }
   }
+  document.addEventListener('error',event=>{
+    const img=event.target;
+    if(img?.tagName!=='IMG'||img.dataset?.placeholderFallback==='true')return;
+    img.dataset.placeholderFallback='true';
+    img.src='./images/feeling-placeholder.svg';
+    if(img.classList?.contains('artwork'))img.alt=t('A playful notebook illustration placeholder.','童趣手绘笔记本插画占位图。');
+  },true);
   document.addEventListener('click',async (event)=>{
     const btn=event.target.closest('[data-action]'); if(!btn) return;
     const action=btn.dataset.action, id=btn.dataset.id;
