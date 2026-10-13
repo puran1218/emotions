@@ -172,7 +172,7 @@
     if(!e) return '<section class="detail-pane"><div class="empty-state"><h1>'+t('This feeling is not here yet.','这个词条暂时找不到')+'</h1><p>'+t('Try searching the dictionary.','可以去词典里找找。')+'</p><button class="next-button" data-action="explore">'+t('Explore feelings','探索情绪')+'</button></div></section>';
     return '<section class="detail-pane" aria-label="'+esc(t('Emotion detail','情绪详情'))+'"><nav class="mobile-back"><button data-action="back">← '+t('Explore feelings','探索情绪')+'</button></nav>'+
       '<article class="emotion-card"><div class="hero-layout">'+headline(e,context)+'<div class="art-panel">'+media(e)+'</div></div>'+
-      reading(e)+footer(e)+'</article><p class="pilot-note">'+t('Editorial pilot · five sample feelings','内容校准版 · 当前展示五条示范词')+'</p></section>';
+      reading(e)+footer(e)+'</article><p class="pilot-note">'+t('Editorial preview · '+entries.length+' feelings, content review ongoing','内容预览 · '+entries.length+' 种感受，仍在逐条审校')+'</p></section>';
   }
   function matching() {
     const q=normalize(search);
@@ -201,7 +201,7 @@
       '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings or 中文','搜索感受或 English')+'" value="'+esc(search)+'"></label>'+
       '<div class="filter-row" role="group" aria-label="'+t('Feelings category','感受分类')+'">'+[['all',t('All','全部')],['needs_met',t('Needs met','需要已满足')],['needs_unmet',t('Needs unmet','需要未满足')]].map(([id,label])=>'<button class="filter-chip '+(filter===id?'selected':'')+'" data-action="filter" data-id="'+id+'" aria-pressed="'+(filter===id)+'">'+esc(label)+'</button>').join('')+'</div>'+
       '<div id="results" aria-live="polite">'+resultsHtml()+'</div>'+
-      '<p class="sidebar-note">'+t('Five illustration studies · more feelings to come','五条插画示范词 · 更多感受即将加入')+'</p></aside>';
+      '<p class="sidebar-note">'+t('Illustrations coming later · expressions are editorial previews','插画稍后加入 · 词义和例句仍处于审校预览阶段')+'</p></aside>';
   }
   function fitWordText(){
     if(typeof document.querySelectorAll!=='function'||typeof getComputedStyle!=='function')return;
