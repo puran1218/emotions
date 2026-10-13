@@ -62,9 +62,9 @@ Art should feel **hand-drawn with joy, colored with feeling**: slightly wobbly g
 
 ## Content contract
 
-`data/concepts/pilot.json` (and future curated batches) is canonical; `npm run build:data` projects to `static/emotions/data/emotions.json` (read-only generated artifact). Each published display concept needs stable ID, sense/taxonomy, natural EN/ZH names, accurate bilingual meaning, one real-life scene, 3–4 **distinct ordered** paired expression examples, pronunciation locale and headword, related IDs, and illustration placeholder/approved art. The first two expression examples go to the offline share PNG; all are shown in the app.
+`data/concepts/pilot.json` and `data/concepts/legacy-expanded.json` are canonical; `npm run build:data` projects to `static/emotions/data/emotions.json` (read-only generated artifact). Each published display concept needs stable ID, sense/taxonomy, natural EN/ZH names, accurate bilingual meaning, one real-life scene, 3–4 **distinct ordered** paired expression examples, pronunciation locale and headword, related IDs, and illustration placeholder/approved art. The first two expression examples go to the offline share PNG; all are shown in the app.
 
-The 242 English source occurrences (234 unique forms) and 80 Chinese source occurrences are an **inventory**, not yet a complete reviewed bilingual dictionary. Editorial migration must trace all 322 occurrences (merge/split/exclude) and independently review every visible concept. In particular, source terms with non-emotional or adult senses must not auto-publish.
+The 242 English source occurrences (234 unique forms) and 80 Chinese source occurrences are an **inventory**, not yet a complete reviewed bilingual dictionary. Migration now traces every one of the 235 ZIP English occurrences. Seven missing English occurrences and 80 Chinese occurrences still require mapping; full release demands review of all 322 source occurrences and each visible bilingual concept. In particular, source terms with non-emotional or adult senses must not auto-publish.
 
 ## Deployment and acceptance
 
