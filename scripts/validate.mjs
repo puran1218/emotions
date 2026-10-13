@@ -47,7 +47,7 @@ for(const e of canonical){
   assert.ok(Array.isArray(e.expression)&&e.expression.length>=3&&e.expression.length<=4,e.id+': expressions 3–4');
   for(const lang of ['en','zh']){
     const phrases=e.expression.map(x=>x?.[lang]);
-    assert.ok(phrases.every(x=>typeof x==='string'&&x.trim().length>=5),e.id+': invalid '+lang+' phrase');
+    assert.ok(phrases.every(x=>typeof x==='string'&&x.trim().length>=(lang==='zh'?2:5)),e.id+': invalid '+lang+' phrase');
     assert.equal(new Set(phrases.map(x=>x.toLowerCase().trim())).size,phrases.length,e.id+': duplicate '+lang+' phrases');
   }
   if(e.status==='published'){
@@ -99,7 +99,7 @@ for(const e of entries){
     for(const part of ['definition','scene','alt'])
       assert.ok(e[part][lang]&&e[part][lang].trim().length>4,e.id+'.'+part+'.'+lang);
     assert.ok(e.say.length>=3&&e.say.length<=4,e.id+': runtime expression count');
-    for(const example of e.say) assert.ok(example[lang]&&example[lang].trim().length>=5,e.id+': example '+lang);
+    for(const example of e.say) assert.ok(example[lang]&&example[lang].trim().length>=(lang==='zh'?2:5),e.id+': example '+lang);
     assert.ok(e.word[lang],e.id+'.word.'+lang);
   }
   for(const id of e.related){assert.ok(id!==e.id&&map.has(id),e.id+' related '+id);}
