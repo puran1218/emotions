@@ -13,7 +13,7 @@ Editorial status transition: `unreviewed → drafted → content-reviewed → pu
 
 Before marking `content-reviewed`: meaning, part of speech, both natural translations, both child-facing definitions, bilingual everyday scene and speakable personal expression must be accurate. Before approving real emotion artwork: 3:2 art and alt must match the scene and pass the illustration bible's seven gates. A shared neutral placeholder never counts as art approval.
 
-Never auto-mark review states "passed" because JSON is structurally valid. Pilot entries are there for UI calibration, **not** to demonstrate all-words review completion. The app displays only pilot content in this branch.
+Never auto-mark review states "passed" because JSON is structurally valid. Pilot entries are there for UI calibration, **not** to demonstrate all-words review completion. The app displays five established pilots and 220 preview-eligible legacy drafts. Ten ambiguous legacy records remain withheld, and no machine-assisted migration is considered content-reviewed.
 
 ## Priority batch
 
@@ -24,4 +24,4 @@ Never auto-mark review states "passed" because JSON is structurally valid. Pilot
 
 ## Commands
 
-`npm test` validates inventory counts, every ledger occurrence, five bilingual pilot entries, placeholder files, micro.blog structure, IDs and related links. `npm run content:coverage` reports progress; `npm run release:check` fails until the full source ledger and published content are reviewed. This is structural testing; **it does not prove translation accuracy or production illustration sign-off**.
+`npm test` validates inventory counts, every ledger occurrence, 225 bilingual preview entries, repeatable 235-row migration and placeholder files, micro.blog structure, IDs and related links. `npm run content:coverage` reports progress; `npm run release:check` fails until the full source ledger and published content are reviewed. This is structural testing; **it does not prove translation accuracy or production illustration sign-off**.
