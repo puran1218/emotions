@@ -9,11 +9,17 @@ const canonical=read('data/concepts/pilot.json');
 const ledger=fs.readFileSync(path.join(root,'data/review-ledger.jsonl'),'utf8').trim().split(/\r?\n/).map(JSON.parse);
 const approvedContent=e=>e.review?.translation==='approved'&&e.review?.meaning==='approved'&&e.review?.child_suitability==='approved';
 const resolvedStatus=new Set(['published','excluded']);
+const conceptIds=new Set(canonical.map(e=>e.id));
+const invalidPublishedLinks=ledger.filter(e=>e.status==='published'&&(!e.proposed_concept_id||!conceptIds.has(e.proposed_concept_id)));
+const excludedWithoutReason=ledger.filter(e=>e.status==='excluded'&&!(typeof e.notes==='string'&&e.notes.trim()));
+
 const stats={
   sourceOccurrences:ledger.length,
   sourceResolved:ledger.filter(e=>resolvedStatus.has(e.status)).length,
   sourceUnresolved:ledger.filter(e=>!resolvedStatus.has(e.status)).length,
-  sourceLinkedToConcept:ledger.filter(e=>typeof e.proposed_concept_id==='string'&&e.proposed_concept_id.trim()).length,
+  sourceLinkedToConcept:ledger.filter(e=>typeof e.proposed_concept_id==='string'&&conceptIds.has(e.proposed_concept_id)).length,
+  invalidPublishedLinks:invalidPublishedLinks.length,
+  exclusionsWithoutReason:excludedWithoutReason.length,
   conceptsVisible:canonical.filter(e=>['pilot','published'].includes(e.status)).length,
   conceptsPublished:canonical.filter(e=>e.status==='published').length,
   conceptsContentApproved:canonical.filter(approvedContent).length,
@@ -25,6 +31,8 @@ for(const [key,value] of Object.entries(stats))console.log('  '+key+': '+value);
 if(process.argv.includes('--release')){
   const issues=[];
   if(stats.sourceUnresolved)issues.push(stats.sourceUnresolved+' source occurrences still need explicit review/merge/split/exclusion');
+  if(stats.invalidPublishedLinks)issues.push(stats.invalidPublishedLinks+' published occurrences do not link to a real concept ID');
+  if(stats.exclusionsWithoutReason)issues.push(stats.exclusionsWithoutReason+' excluded occurrences lack a documented reason');
   if(stats.conceptsVisible===0)issues.push('no visible concepts');
   if(stats.conceptsContentApproved!==stats.conceptsVisible)issues.push((stats.conceptsVisible-stats.conceptsContentApproved)+' visible concepts need bilingual content review');
   if(stats.conceptsPublished!==stats.conceptsVisible)issues.push((stats.conceptsVisible-stats.conceptsPublished)+' visible concepts still have non-published editorial status');
