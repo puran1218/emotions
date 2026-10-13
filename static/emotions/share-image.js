@@ -3,7 +3,8 @@
   'use strict';
   const pending=new Map();
   const surface='#FFFEFA', ink='#293C3B', muted='#65716E', green='#31665F', rule='#DFE5DB';
-  function path(e){const src=e.illustration?.src||('./images/'+e.visual+'-storyboard.svg');return new URL(src,document.baseURI).href;}
+  function path(e){const src=e.illustration?.src||'./images/feeling-placeholder.svg';return new URL(src,document.baseURI).href;}
+  const placeholder=new URL('./images/feeling-placeholder.svg',document.baseURI).href;
   function key(e,lang){return e.id+':'+lang+':'+path(e);}
   function imgFrom(src){
     return new Promise((resolve,reject)=>{
@@ -64,7 +65,7 @@
     c.font='74px "Apple Color Emoji","Segoe UI Emoji",sans-serif';c.fillText(e.emoji||'',1017,192);
     const imageY=y; rounded(c,84,imageY,1032,620,26,'#F0EBE0');
     let image;
-    try{image=await imgFrom(path(e));}catch{image=null;}
+    try{image=await imgFrom(path(e));}catch{try{image=await imgFrom(placeholder);}catch{image=null;}}
     if(image){
       const ratio=Math.min(1032/image.width,620/image.height);
       const width=image.width*ratio,height=image.height*ratio;
