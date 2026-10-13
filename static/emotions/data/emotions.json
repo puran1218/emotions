@@ -528,9 +528,9 @@
       ],
       "word": {
         "en": "Amused",
-        "zh": "好笑的",
+        "zh": "被逗乐的",
         "feelingEn": "amused",
-        "feelingZh": "好笑的"
+        "feelingZh": "被逗乐的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -539,13 +539,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "好笑的",
+          "text": "被逗乐的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Finding something funny.",
-        "zh": "发现某事很有趣。"
+        "zh": "觉得某件事好玩，忍不住想笑。"
       },
       "scene": {
         "en": "A child laughs at a clown's silly tricks.",
@@ -808,9 +808,9 @@
       ],
       "word": {
         "en": "Blissful",
-        "zh": "极乐的",
+        "zh": "幸福极了的",
         "feelingEn": "blissful",
-        "feelingZh": "极乐的"
+        "feelingZh": "幸福极了的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -819,13 +819,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "极乐的",
+          "text": "幸福极了的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Very happy.",
-        "zh": "非常快乐。"
+        "zh": "感觉非常幸福、快乐，心里暖暖的。"
       },
       "scene": {
         "en": "You're eating your favorite ice cream.",
@@ -864,9 +864,9 @@
       ],
       "word": {
         "en": "Breathless",
-        "zh": "喘不过气来",
+        "zh": "气喘吁吁的",
         "feelingEn": "breathless",
-        "feelingZh": "喘不过气来"
+        "feelingZh": "气喘吁吁的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -875,13 +875,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "喘不过气来",
+          "text": "气喘吁吁的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Out of breath.",
-        "zh": "喘不过气来。"
+        "zh": "跑得很快或活动后，呼吸变得又快又急。"
       },
       "scene": {
         "en": "After running very fast, a child stops to catch their breath.",
@@ -1312,9 +1312,9 @@
       ],
       "word": {
         "en": "Concerned",
-        "zh": "关心的",
+        "zh": "关切的",
         "feelingEn": "concerned",
-        "feelingZh": "关心的"
+        "feelingZh": "关切的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -1323,13 +1323,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "关心的",
+          "text": "关切的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Caring about something.",
-        "zh": "关心某事。"
+        "zh": "在乎别人的感受，想知道对方是否需要帮助。"
       },
       "scene": {
         "en": "A child notices a friend is sad and offers to help.",
@@ -1536,9 +1536,9 @@
       ],
       "word": {
         "en": "Dazzled",
-        "zh": "被眩晕的",
+        "zh": "眼花缭乱的",
         "feelingEn": "dazzled",
-        "feelingZh": "被眩晕的"
+        "feelingZh": "眼花缭乱的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -1547,13 +1547,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "被眩晕的",
+          "text": "眼花缭乱的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Amazed by bright light or a beautiful sight.",
-        "zh": "由明亮的光或美丽的景象惊艳。"
+        "zh": "被明亮、闪耀或美丽的事物吸引得目不暇接。"
       },
       "scene": {
         "en": "Fireworks.",
@@ -1816,9 +1816,9 @@
       ],
       "word": {
         "en": "Effervescent",
-        "zh": "兴高采烈的",
+        "zh": "活力满满的",
         "feelingEn": "effervescent",
-        "feelingZh": "兴高采烈的"
+        "feelingZh": "活力满满的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -1827,13 +1827,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "兴高采烈的",
+          "text": "活力满满的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Bubbly and very happy.",
-        "zh": "泡沫四溢且非常快乐。"
+        "zh": "心情像冒泡泡一样欢快，充满活力。"
       },
       "scene": {
         "en": "You're laughing with friends.",
@@ -2880,9 +2880,9 @@
       ],
       "word": {
         "en": "Glorious",
-        "zh": "光荣的",
+        "zh": "光荣而自豪的",
         "feelingEn": "glorious",
-        "feelingZh": "光荣的"
+        "feelingZh": "光荣而自豪的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -2891,13 +2891,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "光荣的",
+          "text": "光荣而自豪的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling proud and wonderful.",
-        "zh": "感觉自豪和精彩。"
+        "zh": "为自己或大家一起完成的事情感到光荣和自豪。"
       },
       "scene": {
         "en": "You finish a difficult task.",
@@ -2936,9 +2936,9 @@
       ],
       "word": {
         "en": "Glowing",
-        "zh": "发光的",
+        "zh": "喜气洋洋的",
         "feelingEn": "glowing",
-        "feelingZh": "发光的"
+        "feelingZh": "喜气洋洋的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -2947,13 +2947,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "发光的",
+          "text": "喜气洋洋的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling bright and happy.",
-        "zh": "感觉明亮和快乐。"
+        "zh": "开心或自豪得好像整个人都在发光。"
       },
       "scene": {
         "en": "You feel proud of yourself.",
@@ -2992,9 +2992,9 @@
       ],
       "word": {
         "en": "Good-humored",
-        "zh": "幽默的",
+        "zh": "心情愉快的",
         "feelingEn": "good-humored",
-        "feelingZh": "幽默的"
+        "feelingZh": "心情愉快的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -3003,13 +3003,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "幽默的",
+          "text": "心情愉快的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling cheerful and funny.",
-        "zh": "感觉快乐和有趣。"
+        "zh": "心情轻松、开朗，容易看到事情有趣的一面。"
       },
       "scene": {
         "en": "You're telling jokes with friends.",
@@ -3440,9 +3440,9 @@
       ],
       "word": {
         "en": "Intense",
-        "zh": "强烈的",
+        "zh": "感受强烈的（兴奋）",
         "feelingEn": "intense",
-        "feelingZh": "强烈的"
+        "feelingZh": "感受强烈的（兴奋）"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -3451,13 +3451,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "强烈的",
+          "text": "感受强烈的（兴奋）",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling very strong emotions.",
-        "zh": "感觉非常强烈的情绪。"
+        "zh": "开心、喜爱或激动等感受特别强烈。"
       },
       "scene": {
         "en": "A moving movie leaves a child feeling something very strongly.",
@@ -3776,9 +3776,9 @@
       ],
       "word": {
         "en": "Jubilant",
-        "zh": "欢呼的",
+        "zh": "欢欣雀跃的",
         "feelingEn": "jubilant",
-        "feelingZh": "欢呼的"
+        "feelingZh": "欢欣雀跃的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -3787,13 +3787,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "欢呼的",
+          "text": "欢欣雀跃的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling very happy.",
-        "zh": "感觉非常快乐。"
+        "zh": "因为好消息或成功，高兴得忍不住欢呼。"
       },
       "scene": {
         "en": "Cheering at a fun event.",
@@ -3832,9 +3832,9 @@
       ],
       "word": {
         "en": "Keyed-up",
-        "zh": "兴奋的",
+        "zh": "既兴奋又紧张的",
         "feelingEn": "keyed-up",
-        "feelingZh": "兴奋的"
+        "feelingZh": "既兴奋又紧张的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -3843,13 +3843,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "兴奋的",
+          "text": "既兴奋又紧张的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Excited and ready for something.",
-        "zh": "兴奋且准备好某事。"
+        "zh": "期待事情发生时，心里兴奋又有些紧绷。"
       },
       "scene": {
         "en": "Before a race.",
@@ -3944,9 +3944,9 @@
       ],
       "word": {
         "en": "Mellow",
-        "zh": "柔和的",
+        "zh": "柔和放松的",
         "feelingEn": "mellow",
-        "feelingZh": "柔和的"
+        "feelingZh": "柔和放松的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -3955,13 +3955,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "柔和的",
+          "text": "柔和放松的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Soft and gentle.",
-        "zh": "柔和且温柔。"
+        "zh": "心情温和、放松，没有强烈的起伏。"
       },
       "scene": {
         "en": "A child relaxes in the warm light of a quiet afternoon.",
@@ -4280,9 +4280,9 @@
       ],
       "word": {
         "en": "Overwhelmed",
-        "zh": "不知所措的",
+        "zh": "惊喜得不知所措的",
         "feelingEn": "overwhelmed",
-        "feelingZh": "不知所措的"
+        "feelingZh": "惊喜得不知所措的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4291,13 +4291,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "不知所措的",
+          "text": "惊喜得不知所措的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Having lots of strong feelings.",
-        "zh": "有很多强烈的情绪。"
+        "zh": "开心的事情一下子太多，激动得一时不知道怎么表达。"
       },
       "scene": {
         "en": "Everyone sings happy birthday.",
@@ -4336,9 +4336,9 @@
       ],
       "word": {
         "en": "Peaceful",
-        "zh": "和平的",
+        "zh": "平和的",
         "feelingEn": "peaceful",
-        "feelingZh": "和平的"
+        "feelingZh": "平和的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4347,13 +4347,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "和平的",
+          "text": "平和的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Quiet and calm.",
-        "zh": "安静和平静。"
+        "zh": "心里安静、平稳，不感到紧张或烦恼。"
       },
       "scene": {
         "en": "Early morning when no one else is awake.",
@@ -4448,9 +4448,9 @@
       ],
       "word": {
         "en": "Pleasant",
-        "zh": "宜人的",
+        "zh": "令人愉快的",
         "feelingEn": "pleasant",
-        "feelingZh": "宜人的"
+        "feelingZh": "令人愉快的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4459,13 +4459,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "宜人的",
+          "text": "令人愉快的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Nice and enjoyable.",
-        "zh": "好的和令人愉快。"
+        "zh": "某种经历或感觉让人舒服、愉快。"
       },
       "scene": {
         "en": "A gentle breeze cools a child on a warm day.",
@@ -4633,7 +4633,7 @@
       },
       "definition": {
         "en": "Not noisy.",
-        "zh": "不吵闹。"
+        "zh": "没有太多声音，或者自己想静静待着。"
       },
       "scene": {
         "en": "Whispering instead of shouting.",
@@ -4672,9 +4672,9 @@
       ],
       "word": {
         "en": "Radiant",
-        "zh": "容光焕发的",
+        "zh": "神采飞扬的",
         "feelingEn": "radiant",
-        "feelingZh": "容光焕发的"
+        "feelingZh": "神采飞扬的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4683,13 +4683,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "容光焕发的",
+          "text": "神采飞扬的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Shining brightly.",
-        "zh": "明亮地闪耀。"
+        "zh": "因为开心、自信或满足，脸上显得特别有精神。"
       },
       "scene": {
         "en": "You're really happy.",
@@ -4728,9 +4728,9 @@
       ],
       "word": {
         "en": "Rapturous",
-        "zh": "狂喜的",
+        "zh": "欣喜若狂的",
         "feelingEn": "rapturous",
-        "feelingZh": "狂喜的"
+        "feelingZh": "欣喜若狂的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4739,13 +4739,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "狂喜的",
+          "text": "欣喜若狂的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling extreme happiness.",
-        "zh": "感觉极度快乐。"
+        "zh": "高兴得几乎无法用语言表达。"
       },
       "scene": {
         "en": "You can't stop smiling.",
@@ -4784,9 +4784,9 @@
       ],
       "word": {
         "en": "Refreshed",
-        "zh": "焕然一新的",
+        "zh": "神清气爽的",
         "feelingEn": "refreshed",
-        "feelingZh": "焕然一新的"
+        "feelingZh": "神清气爽的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4795,13 +4795,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "焕然一新的",
+          "text": "神清气爽的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling fresh and lively.",
-        "zh": "感觉清新和活泼。"
+        "zh": "休息后疲倦消散，感觉轻松又有精神。"
       },
       "scene": {
         "en": "After sleeping well, a child wakes up ready for a new day.",
@@ -4952,9 +4952,9 @@
       ],
       "word": {
         "en": "Secure",
-        "zh": "安全的",
+        "zh": "安心的",
         "feelingEn": "secure",
-        "feelingZh": "安全的"
+        "feelingZh": "安心的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -4963,13 +4963,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "安全的",
+          "text": "安心的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling safe and protected.",
-        "zh": "感觉安全和受保护。"
+        "zh": "觉得自己是安全的、受到照顾的，心里很踏实。"
       },
       "scene": {
         "en": "You're being at home with your family.",
@@ -5008,9 +5008,9 @@
       ],
       "word": {
         "en": "Sensitive",
-        "zh": "敏感的",
+        "zh": "感受细腻的",
         "feelingEn": "sensitive",
-        "feelingZh": "敏感的"
+        "feelingZh": "感受细腻的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -5019,13 +5019,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "敏感的",
+          "text": "感受细腻的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Easily feeling things.",
-        "zh": "容易感觉到事物。"
+        "zh": "很容易察觉故事或别人的情绪，也容易被感动。"
       },
       "scene": {
         "en": "A touching movie brings tears to a child's eyes.",
@@ -5288,9 +5288,9 @@
       ],
       "word": {
         "en": "Surprised",
-        "zh": "惊讶的",
+        "zh": "惊喜的",
         "feelingEn": "surprised",
-        "feelingZh": "惊讶的"
+        "feelingZh": "惊喜的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -5299,13 +5299,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "惊讶的",
+          "text": "惊喜的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Shocked or amazed by something unexpected.",
-        "zh": "对某些意想不到的事情感到震惊或惊讶。"
+        "zh": "发生了没想到的好事，让人意外又开心。"
       },
       "scene": {
         "en": "A friend gives a child an unexpected gift.",
@@ -6072,9 +6072,9 @@
       ],
       "word": {
         "en": "Aloof",
-        "zh": "冷漠的",
+        "zh": "不愿参与的",
         "feelingEn": "aloof",
-        "feelingZh": "冷漠的"
+        "feelingZh": "不愿参与的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -6083,13 +6083,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "冷漠的",
+          "text": "不愿参与的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Not wanting to join in.",
-        "zh": "不想加入。"
+        "zh": "跟别人保持距离，暂时不想加入活动。"
       },
       "scene": {
         "en": "You're watching others play but not playing.",
@@ -6576,9 +6576,9 @@
       ],
       "word": {
         "en": "Blue",
-        "zh": "忧郁的",
+        "zh": "心情低落的",
         "feelingEn": "blue",
-        "feelingZh": "忧郁的"
+        "feelingZh": "心情低落的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -6587,13 +6587,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "忧郁的",
+          "text": "心情低落的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling sad or down.",
-        "zh": "感觉悲伤或情绪低落。"
+        "zh": "心里有点悲伤或提不起劲。"
       },
       "scene": {
         "en": "A child looks out at the rain and misses playing with friends.",
@@ -6800,9 +6800,9 @@
       ],
       "word": {
         "en": "Cold",
-        "zh": "冷淡的",
+        "zh": "态度冷淡的",
         "feelingEn": "cold",
-        "feelingZh": "冷淡的"
+        "feelingZh": "态度冷淡的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -6811,13 +6811,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "冷淡的",
+          "text": "态度冷淡的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Not feeling any warmth or emotion.",
-        "zh": "没有感觉到任何温暖或情感。"
+        "zh": "暂时不愿亲近或回应别人，表现得疏远。"
       },
       "scene": {
         "en": "You're being distant from others.",
@@ -6856,9 +6856,9 @@
       ],
       "word": {
         "en": "Concerned",
-        "zh": "关心的",
+        "zh": "担忧的",
         "feelingEn": "concerned",
-        "feelingZh": "关心的"
+        "feelingZh": "担忧的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -6867,13 +6867,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "关心的",
+          "text": "担忧的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Worried about something.",
-        "zh": "对某事感到担忧。"
+        "zh": "因为在乎一个人或一件事，担心可能发生不好的情况。"
       },
       "scene": {
         "en": "A child worries when a close friend gets sick.",
@@ -7136,9 +7136,9 @@
       ],
       "word": {
         "en": "Despondent",
-        "zh": "失望的",
+        "zh": "消沉失望的",
         "feelingEn": "despondent",
-        "feelingZh": "失望的"
+        "feelingZh": "消沉失望的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -7147,13 +7147,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "失望的",
+          "text": "消沉失望的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Very sad and without energy.",
-        "zh": "非常悲伤且没有活力。"
+        "zh": "因为难过或失望，觉得没什么力气，也不太想做事。"
       },
       "scene": {
         "en": "A child is so downhearted that getting out of bed feels difficult.",
@@ -7864,9 +7864,9 @@
       ],
       "word": {
         "en": "Disturbed",
-        "zh": "感到不安的",
+        "zh": "被打扰而心烦的",
         "feelingEn": "disturbed",
-        "feelingZh": "感到不安的"
+        "feelingZh": "被打扰而心烦的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -7875,13 +7875,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "感到不安的",
+          "text": "被打扰而心烦的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Upset and confused.",
-        "zh": "烦乱和困惑。"
+        "zh": "专心做事时被打断，心里烦乱或不安。"
       },
       "scene": {
         "en": "Someone interrupts a child in the middle of an important game.",
@@ -8497,7 +8497,7 @@
       },
       "definition": {
         "en": "Unable to sit still.",
-        "zh": "无法静坐。"
+        "zh": "因为紧张、兴奋或无聊，忍不住动来动去。"
       },
       "scene": {
         "en": "You're nervous or excited.",
@@ -8536,9 +8536,9 @@
       ],
       "word": {
         "en": "Forlorn",
-        "zh": "孤独的",
+        "zh": "孤单又难过的",
         "feelingEn": "forlorn",
-        "feelingZh": "孤独的"
+        "feelingZh": "孤单又难过的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -8547,13 +8547,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "孤独的",
+          "text": "孤单又难过的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling alone and sad.",
-        "zh": "感觉孤单和悲伤。"
+        "zh": "想有人陪伴却没有人一起时，感觉孤单又伤心。"
       },
       "scene": {
         "en": "A child sits alone while everyone else has someone to play with.",
@@ -8760,9 +8760,9 @@
       ],
       "word": {
         "en": "Harried",
-        "zh": "被骚扰的",
+        "zh": "忙得团团转的",
         "feelingEn": "harried",
-        "feelingZh": "被骚扰的"
+        "feelingZh": "忙得团团转的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -8771,13 +8771,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "被骚扰的",
+          "text": "忙得团团转的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling rushed and stressed.",
-        "zh": "感觉匆忙和有压力。"
+        "zh": "事情太多、太赶，感觉忙乱又有压力。"
       },
       "scene": {
         "en": "You have too much to do.",
@@ -8889,7 +8889,7 @@
       },
       "definition": {
         "en": "Feeling like you can't do anything to help.",
-        "zh": "感觉你无法做任何事来帮助。"
+        "zh": "遇到困难时觉得自己没有办法，不知道该怎么办。"
       },
       "scene": {
         "en": "A child cannot stop a dear friend from moving away.",
@@ -9376,9 +9376,9 @@
       ],
       "word": {
         "en": "Intense",
-        "zh": "强烈的",
+        "zh": "感受强烈的（紧张）",
         "feelingEn": "intense",
-        "feelingZh": "强烈的"
+        "feelingZh": "感受强烈的（紧张）"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -9387,13 +9387,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "强烈的",
+          "text": "感受强烈的（紧张）",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling very strong emotions.",
-        "zh": "感觉非常强烈的情绪。"
+        "zh": "担心、紧张或难过等感受特别强烈。"
       },
       "scene": {
         "en": "A child feels a powerful rush of worry before an important event.",
@@ -9432,9 +9432,9 @@
       ],
       "word": {
         "en": "Irate",
-        "zh": "愤怒的",
+        "zh": "非常生气的",
         "feelingEn": "irate",
-        "feelingZh": "愤怒的"
+        "feelingZh": "非常生气的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -9443,13 +9443,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "愤怒的",
+          "text": "非常生气的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Very angry.",
-        "zh": "非常生气。"
+        "zh": "因觉得不公平或受到冒犯而很生气。"
       },
       "scene": {
         "en": "Something unfair happens.",
@@ -9656,9 +9656,9 @@
       ],
       "word": {
         "en": "Jittery",
-        "zh": "神经质的",
+        "zh": "紧张得发抖的",
         "feelingEn": "jittery",
-        "feelingZh": "神经质的"
+        "feelingZh": "紧张得发抖的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -9667,13 +9667,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "神经质的",
+          "text": "紧张得发抖的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling nervous and shaky.",
-        "zh": "感觉紧张和颤抖。"
+        "zh": "因为紧张或兴奋，手脚微微发抖，坐不安稳。"
       },
       "scene": {
         "en": "Before speaking in front of a group.",
@@ -10048,9 +10048,9 @@
       ],
       "word": {
         "en": "Mournful",
-        "zh": "悲伤的",
+        "zh": "悲伤怀念的",
         "feelingEn": "mournful",
-        "feelingZh": "悲伤的"
+        "feelingZh": "悲伤怀念的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -10059,13 +10059,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "悲伤的",
+          "text": "悲伤怀念的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling sorrow.",
-        "zh": "感觉悲伤。"
+        "zh": "想念失去或离开的人或事物时感到悲伤。"
       },
       "scene": {
         "en": "You miss someone a lot.",
@@ -10216,9 +10216,9 @@
       ],
       "word": {
         "en": "Overwhelmed",
-        "zh": "不知所措的",
+        "zh": "压力大得不知所措的",
         "feelingEn": "overwhelmed",
-        "feelingZh": "不知所措的"
+        "feelingZh": "压力大得不知所措的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -10227,13 +10227,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "不知所措的",
+          "text": "压力大得不知所措的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Having too many emotions or things to do.",
-        "zh": "有太多情绪或事情要做。"
+        "zh": "事情或情绪一下子涌过来，觉得快应付不过来。"
       },
       "scene": {
         "en": "You're feeling swamped.",
@@ -10328,9 +10328,9 @@
       ],
       "word": {
         "en": "Passive",
-        "zh": "被动的",
+        "zh": "不主动表达的",
         "feelingEn": "passive",
-        "feelingZh": "被动的"
+        "feelingZh": "不主动表达的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -10339,13 +10339,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "被动的",
+          "text": "不主动表达的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Not active or not reacting.",
-        "zh": "不活跃或不反应。"
+        "zh": "面对选择时不怎么表达自己的想法，常让别人来决定。"
       },
       "scene": {
         "en": "During a group activity, a child lets everyone else decide.",
@@ -10664,9 +10664,9 @@
       ],
       "word": {
         "en": "Repelled",
-        "zh": "排斥的",
+        "zh": "感到反感的",
         "feelingEn": "repelled",
-        "feelingZh": "排斥的"
+        "feelingZh": "感到反感的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -10675,13 +10675,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "排斥的",
+          "text": "感到反感的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Strongly pushed away.",
-        "zh": "强烈推开。"
+        "zh": "某件事让自己很不喜欢，想要远离。"
       },
       "scene": {
         "en": "A bad smell makes a child quickly step backward.",
@@ -10720,9 +10720,9 @@
       ],
       "word": {
         "en": "Resentful",
-        "zh": "怨恨的",
+        "zh": "心怀不满的",
         "feelingEn": "resentful",
-        "feelingZh": "怨恨的"
+        "feelingZh": "心怀不满的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -10731,13 +10731,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "怨恨的",
+          "text": "心怀不满的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling angry or upset about something unfair.",
-        "zh": "对不公平的事情感到愤怒或沮丧。"
+        "zh": "觉得自己受到不公平对待，心里久久不舒服。"
       },
       "scene": {
         "en": "You're being treated badly.",
@@ -10944,9 +10944,9 @@
       ],
       "word": {
         "en": "Sensitive",
-        "zh": "敏感的",
+        "zh": "容易被伤到感受的",
         "feelingEn": "sensitive",
-        "feelingZh": "敏感的"
+        "feelingZh": "容易被伤到感受的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -10955,13 +10955,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "敏感的",
+          "text": "容易被伤到感受的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Easily hurt or upset.",
-        "zh": "容易受伤或沮丧。"
+        "zh": "别人说的话或做的事，有时会让自己格外难受。"
       },
       "scene": {
         "en": "Words or actions make you feel bad.",
@@ -11448,9 +11448,9 @@
       ],
       "word": {
         "en": "Surprised",
-        "zh": "惊讶的",
+        "zh": "吃惊的",
         "feelingEn": "surprised",
-        "feelingZh": "惊讶的"
+        "feelingZh": "吃惊的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -11459,13 +11459,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "惊讶的",
+          "text": "吃惊的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Unexpectedly shocked or amazed.",
-        "zh": "出乎意料地震惊或惊奇。"
+        "zh": "发生了没预料到的事，让人一下子愣住或紧张。"
       },
       "scene": {
         "en": "Something unusual happens.",
@@ -11504,9 +11504,9 @@
       ],
       "word": {
         "en": "Tepid",
-        "zh": "微温的",
+        "zh": "兴致不高的",
         "feelingEn": "tepid",
-        "feelingZh": "微温的"
+        "feelingZh": "兴致不高的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -11515,13 +11515,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "微温的",
+          "text": "兴致不高的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Not very enthusiastic or warm.",
-        "zh": "不是很热情或温暖。"
+        "zh": "对一个提议或活动没有多少热情。"
       },
       "scene": {
         "en": "A child answers politely but feels little excitement about an idea.",
@@ -11784,9 +11784,9 @@
       ],
       "word": {
         "en": "Unconcerned",
-        "zh": "漠不关心的",
+        "zh": "不太担心的",
         "feelingEn": "unconcerned",
-        "feelingZh": "漠不关心的"
+        "feelingZh": "不太担心的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -11795,13 +11795,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "漠不关心的",
+          "text": "不太担心的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Not worried about something.",
-        "zh": "对某事不担心。"
+        "zh": "对于某件事没有太多担忧，觉得暂时不用紧张。"
       },
       "scene": {
         "en": "A child feels unworried about a small problem that seems manageable.",
@@ -12064,9 +12064,9 @@
       ],
       "word": {
         "en": "Unsteady",
-        "zh": "不稳定的",
+        "zh": "有些站不稳的",
         "feelingEn": "unsteady",
-        "feelingZh": "不稳定的"
+        "feelingZh": "有些站不稳的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -12075,13 +12075,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "不稳定的",
+          "text": "有些站不稳的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Not balanced or calm.",
-        "zh": "不平衡或不平静。"
+        "zh": "身体发晃、难以站稳，有时也形容心里不踏实。"
       },
       "scene": {
         "en": "You feel shaky.",
@@ -12344,9 +12344,9 @@
       ],
       "word": {
         "en": "Wistful",
-        "zh": "渴望的",
+        "zh": "怀念而惆怅的",
         "feelingEn": "wistful",
-        "feelingZh": "渴望的"
+        "feelingZh": "怀念而惆怅的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -12355,13 +12355,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "渴望的",
+          "text": "怀念而惆怅的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling a sad longing for something.",
-        "zh": "对某事感到悲伤的渴望。"
+        "zh": "想起自己怀念的人或事情，心里有一点温柔的难过。"
       },
       "scene": {
         "en": "Missing someone you love.",
@@ -12400,9 +12400,9 @@
       ],
       "word": {
         "en": "Withdrawn",
-        "zh": "孤僻的",
+        "zh": "暂时不想与人交流的",
         "feelingEn": "withdrawn",
-        "feelingZh": "孤僻的"
+        "feelingZh": "暂时不想与人交流的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -12411,13 +12411,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "孤僻的",
+          "text": "暂时不想与人交流的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Quiet and not wanting to communicate.",
-        "zh": "安静且不想交流。"
+        "zh": "心里难过或疲倦时，暂时不想说话或参加活动。"
       },
       "scene": {
         "en": "You feel sad and keep to yourself.",
@@ -12568,9 +12568,9 @@
       ],
       "word": {
         "en": "Wretched",
-        "zh": "可怜的",
+        "zh": "难受极了的",
         "feelingEn": "wretched",
-        "feelingZh": "可怜的"
+        "feelingZh": "难受极了的"
       },
       "emoji": "✦",
       "pronunciation": {
@@ -12579,13 +12579,13 @@
           "locale": "en-US"
         },
         "zh": {
-          "text": "可怜的",
+          "text": "难受极了的",
           "locale": "zh-CN"
         }
       },
       "definition": {
         "en": "Feeling very unhappy or in a bad state.",
-        "zh": "感觉非常不快乐或处于糟糕状态。"
+        "zh": "非常不快乐，觉得许多事情都不顺利。"
       },
       "scene": {
         "en": "A child feels deeply unhappy after several things go wrong.",
