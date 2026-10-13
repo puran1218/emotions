@@ -139,6 +139,17 @@ result.report.semanticOverrideCount=Object.keys(semanticOverrides).length;
 result.report.handCuratedOverrideCount=Object.keys(overrides).length;
 result.report.originalCuratedCount=result.expanded.length-Object.keys(overrides).length;
 result.report.templateExpressionCount=0;
-fs.writeFileSync(path.join(root,"data/concepts/legacy-expanded.json"),JSON.stringify(result.expanded,null,2)+"\n");
-fs.writeFileSync(path.join(root,"data/legacy/migration-report.json"),JSON.stringify(result.report,null,2)+"\n");
-console.log("Legacy concepts: "+result.expanded.length+"; preview: "+result.report.visibleNew+"; withheld: "+result.report.withheld+"; pilot links: "+result.report.merged);
+const expandedPath=path.join(root,"data/concepts/legacy-expanded.json");
+const reportPath=path.join(root,"data/legacy/migration-report.json");
+if(process.argv.includes("--check")){
+ const currentConcepts=JSON.parse(fs.readFileSync(expandedPath,"utf8"));
+ const currentReport=JSON.parse(fs.readFileSync(reportPath,"utf8"));
+ const assert=(await import("node:assert/strict")).default;
+ assert.deepEqual(currentConcepts,result.expanded,"legacy concepts drifted from the recoverable source and editorial overrides");
+ assert.deepEqual(currentReport,result.report,"legacy migration report drifted from source");
+ console.log("OK: all legacy concepts and migration decisions reproduce exactly.");
+}else{
+ fs.writeFileSync(expandedPath,JSON.stringify(result.expanded,null,2)+"\n");
+ fs.writeFileSync(reportPath,JSON.stringify(result.report,null,2)+"\n");
+ console.log("Legacy concepts: "+result.expanded.length+"; preview: "+result.report.visibleNew+"; withheld: "+result.report.withheld+"; pilot links: "+result.report.merged);
+}
