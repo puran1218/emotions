@@ -25,7 +25,8 @@ assert.ok(css.includes('--reading-en:')&&css.includes('--reading-zh:')&&css.incl
 assert.ok(css.includes('.image-share-icon{'),'image sharing uses a styled SVG picture icon');
 for(const entry of concepts) for(const lang of ['en','zh']){
   assert.equal(entry.pronunciation[lang].text,entry.word[lang],'speak the title, not feeling form');
-  assert.ok(entry.illustration.src.endsWith('-sketch-v2.svg'),'pilot artwork should reuse the bolder sketch across Explore/Detail/share');
+  assert.equal(entry.illustration.src,'./images/feeling-placeholder.svg','pilot artwork should reuse one neutral placeholder across Explore/Detail/share');
+  assert.equal(entry.illustration.stage,'pending');
   assert.ok(Array.isArray(entry.say)&&entry.say.length>=3&&entry.say.length<=4,'pilot expressions are 3–4 bilingual examples');
   assert.ok(entry.say.every(x=>x.en&&x.zh),'every expression needs both languages');
 }
@@ -79,6 +80,8 @@ assert.ok(elements.app.innerHTML.includes('class="reading-section meaning-sectio
 assert.ok(elements.app.innerHTML.includes('✎')&&elements.app.innerHTML.includes('❞'),'sketch-style section icons');
 assert.ok(elements.app.innerHTML.includes('class="explore-pane"')&&elements.app.innerHTML.includes('class="detail-pane"'),'both panes share one responsive shell');
 assert.ok(elements.app.innerHTML.includes('class="row-illustration"'),'Explore must show artwork thumbnails');
+assert.ok(elements.app.innerHTML.includes('feeling-placeholder.svg'),'render the shared illustration placeholder');
+assert.ok(elements.app.innerHTML.includes('Illustration coming soon'),'art is visibly labeled pending');
 assert.ok(elements.app.innerHTML.includes('data-view="detail"'),'deep link should open detail on phones');
 assert.ok(elements.app.innerHTML.includes('share-image-btn'),'share image control');
 assert.ok(elements.app.innerHTML.includes('class="image-share-icon"'),'share image should show a recognizable picture glyph');
