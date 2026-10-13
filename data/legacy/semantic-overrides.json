@@ -1,0 +1,198 @@
+{
+  "amused": {
+    "zh": "被逗乐的",
+    "definitionZh": "觉得某件事好玩，忍不住想笑。"
+  },
+  "blissful": {
+    "zh": "幸福极了的",
+    "definitionZh": "感觉非常幸福、快乐，心里暖暖的。"
+  },
+  "dazzled": {
+    "zh": "眼花缭乱的",
+    "definitionZh": "被明亮、闪耀或美丽的事物吸引得目不暇接。"
+  },
+  "effervescent": {
+    "zh": "活力满满的",
+    "definitionZh": "心情像冒泡泡一样欢快，充满活力。"
+  },
+  "good-humored": {
+    "zh": "心情愉快的",
+    "definitionZh": "心情轻松、开朗，容易看到事情有趣的一面。"
+  },
+  "glowing": {
+    "zh": "喜气洋洋的",
+    "definitionZh": "开心或自豪得好像整个人都在发光。"
+  },
+  "jubilant": {
+    "zh": "欢欣雀跃的",
+    "definitionZh": "因为好消息或成功，高兴得忍不住欢呼。"
+  },
+  "keyed-up": {
+    "zh": "既兴奋又紧张的",
+    "definitionZh": "期待事情发生时，心里兴奋又有些紧绷。"
+  },
+  "peaceful": {
+    "zh": "平和的",
+    "definitionZh": "心里安静、平稳，不感到紧张或烦恼。"
+  },
+  "secure": {
+    "zh": "安心的",
+    "definitionZh": "觉得自己是安全的、受到照顾的，心里很踏实。"
+  },
+  "glorious": {
+    "zh": "光荣而自豪的",
+    "definitionZh": "为自己或大家一起完成的事情感到光荣和自豪。"
+  },
+  "pleasant": {
+    "zh": "令人愉快的",
+    "definitionZh": "某种经历或感觉让人舒服、愉快。"
+  },
+  "mellow": {
+    "zh": "柔和放松的",
+    "definitionZh": "心情温和、放松，没有强烈的起伏。"
+  },
+  "quiet": {
+    "zh": "安静的",
+    "definitionZh": "没有太多声音，或者自己想静静待着。"
+  },
+  "radiant": {
+    "zh": "神采飞扬的",
+    "definitionZh": "因为开心、自信或满足，脸上显得特别有精神。"
+  },
+  "rapturous": {
+    "zh": "欣喜若狂的",
+    "definitionZh": "高兴得几乎无法用语言表达。"
+  },
+  "refreshed": {
+    "zh": "神清气爽的",
+    "definitionZh": "休息后疲倦消散，感觉轻松又有精神。"
+  },
+  "surprised-met": {
+    "zh": "惊喜的",
+    "definitionZh": "发生了没想到的好事，让人意外又开心。"
+  },
+  "surprised-unmet": {
+    "zh": "吃惊的",
+    "definitionZh": "发生了没预料到的事，让人一下子愣住或紧张。"
+  },
+  "concerned-met": {
+    "zh": "关切的",
+    "definitionZh": "在乎别人的感受，想知道对方是否需要帮助。"
+  },
+  "concerned-unmet": {
+    "zh": "担忧的",
+    "definitionZh": "因为在乎一个人或一件事，担心可能发生不好的情况。"
+  },
+  "overwhelmed-met": {
+    "zh": "惊喜得不知所措的",
+    "definitionZh": "开心的事情一下子太多，激动得一时不知道怎么表达。"
+  },
+  "overwhelmed-unmet": {
+    "zh": "压力大得不知所措的",
+    "definitionZh": "事情或情绪一下子涌过来，觉得快应付不过来。"
+  },
+  "sensitive-met": {
+    "zh": "感受细腻的",
+    "definitionZh": "很容易察觉故事或别人的情绪，也容易被感动。"
+  },
+  "sensitive-unmet": {
+    "zh": "容易被伤到感受的",
+    "definitionZh": "别人说的话或做的事，有时会让自己格外难受。"
+  },
+  "intense-met": {
+    "zh": "感受强烈的（兴奋）",
+    "definitionZh": "开心、喜爱或激动等感受特别强烈。"
+  },
+  "intense-unmet": {
+    "zh": "感受强烈的（紧张）",
+    "definitionZh": "担心、紧张或难过等感受特别强烈。"
+  },
+  "harried": {
+    "zh": "忙得团团转的",
+    "definitionZh": "事情太多、太赶，感觉忙乱又有压力。"
+  },
+  "jittery": {
+    "zh": "紧张得发抖的",
+    "definitionZh": "因为紧张或兴奋，手脚微微发抖，坐不安稳。"
+  },
+  "disturbed": {
+    "zh": "被打扰而心烦的",
+    "definitionZh": "专心做事时被打断，心里烦乱或不安。"
+  },
+  "repelled": {
+    "zh": "感到反感的",
+    "definitionZh": "某件事让自己很不喜欢，想要远离。"
+  },
+  "tepid": {
+    "zh": "兴致不高的",
+    "definitionZh": "对一个提议或活动没有多少热情。"
+  },
+  "withdrawn": {
+    "zh": "暂时不想与人交流的",
+    "definitionZh": "心里难过或疲倦时，暂时不想说话或参加活动。"
+  },
+  "unsteady": {
+    "zh": "有些站不稳的",
+    "definitionZh": "身体发晃、难以站稳，有时也形容心里不踏实。"
+  },
+  "unconcerned": {
+    "zh": "不太担心的",
+    "definitionZh": "对于某件事没有太多担忧，觉得暂时不用紧张。"
+  },
+  "forlorn": {
+    "zh": "孤单又难过的",
+    "definitionZh": "想有人陪伴却没有人一起时，感觉孤单又伤心。"
+  },
+  "blue": {
+    "zh": "心情低落的",
+    "definitionZh": "心里有点悲伤或提不起劲。"
+  },
+  "cold": {
+    "zh": "态度冷淡的",
+    "definitionZh": "暂时不愿亲近或回应别人，表现得疏远。"
+  },
+  "despondent": {
+    "zh": "消沉失望的",
+    "definitionZh": "因为难过或失望，觉得没什么力气，也不太想做事。"
+  },
+  "aloof": {
+    "zh": "不愿参与的",
+    "definitionZh": "跟别人保持距离，暂时不想加入活动。"
+  },
+  "passive": {
+    "zh": "不主动表达的",
+    "definitionZh": "面对选择时不怎么表达自己的想法，常让别人来决定。"
+  },
+  "wistful": {
+    "zh": "怀念而惆怅的",
+    "definitionZh": "想起自己怀念的人或事情，心里有一点温柔的难过。"
+  },
+  "wretched": {
+    "zh": "难受极了的",
+    "definitionZh": "非常不快乐，觉得许多事情都不顺利。"
+  },
+  "breathless": {
+    "zh": "气喘吁吁的",
+    "definitionZh": "跑得很快或活动后，呼吸变得又快又急。"
+  },
+  "fidgety": {
+    "zh": "坐立不安的",
+    "definitionZh": "因为紧张、兴奋或无聊，忍不住动来动去。"
+  },
+  "helpless": {
+    "zh": "无助的",
+    "definitionZh": "遇到困难时觉得自己没有办法，不知道该怎么办。"
+  },
+  "irate": {
+    "zh": "非常生气的",
+    "definitionZh": "因觉得不公平或受到冒犯而很生气。"
+  },
+  "mournful": {
+    "zh": "悲伤怀念的",
+    "definitionZh": "想念失去或离开的人或事物时感到悲伤。"
+  },
+  "resentful": {
+    "zh": "心怀不满的",
+    "definitionZh": "觉得自己受到不公平对待，心里久久不舒服。"
+  }
+}
