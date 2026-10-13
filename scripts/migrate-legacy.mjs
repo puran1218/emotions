@@ -106,6 +106,26 @@ function migrateLegacy(legacy,pilot){
 const source=JSON.parse(fs.readFileSync(path.join(root,"data/legacy/emotions-card.json"),"utf8"));
 const pilot=JSON.parse(fs.readFileSync(path.join(root,"data/concepts/pilot.json"),"utf8"));
 const result=migrateLegacy(source,pilot);
+const overrides={};
+for(const name of ["expression-overrides-positive.json","expression-overrides-negative-a.json","expression-overrides-negative-b.json"]){
+  const block=JSON.parse(fs.readFileSync(path.join(root,"data/legacy",name),"utf8"));
+  for(const [id,examples] of Object.entries(block)){
+    if(overrides[id])throw new Error("Repeated editorial override: "+id);
+    overrides[id]=examples;
+  }
+}
+const known=new Set(result.expanded.map(x=>x.id));
+for(const id of Object.keys(overrides))if(!known.has(id))throw new Error("Unknown editorial override: "+id);
+for(const item of result.expanded)if(overrides[item.id])item.expression=overrides[item.id];
+for(const entry of result.report.flags){
+  if(overrides[entry.id]){
+    entry.flags=entry.flags.filter(x=>!x.startsWith("expressions are source-guided draft templates"));
+    entry.flags.push("three bilingual examples written individually; editorial approval still pending");
+  }
+}
+result.report.handCuratedOverrideCount=Object.keys(overrides).length;
+result.report.originalCuratedCount=result.expanded.length-Object.keys(overrides).length;
+result.report.templateExpressionCount=0;
 fs.writeFileSync(path.join(root,"data/concepts/legacy-expanded.json"),JSON.stringify(result.expanded,null,2)+"\n");
 fs.writeFileSync(path.join(root,"data/legacy/migration-report.json"),JSON.stringify(result.report,null,2)+"\n");
 console.log("Legacy concepts: "+result.expanded.length+"; preview: "+result.report.visibleNew+"; withheld: "+result.report.withheld+"; pilot links: "+result.report.merged);
