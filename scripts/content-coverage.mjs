@@ -5,7 +5,11 @@ import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
-const canonical=read('data/concepts/pilot.json');
+const original=read('data/concepts/pilot.json');
+const migrated=read('data/concepts/legacy-expanded.json');
+const canonical=[...original,...migrated];
+const legacySource=read('data/legacy/emotions-card.json');
+const migration=read('data/legacy/migration-report.json');
 const ledger=fs.readFileSync(path.join(root,'data/review-ledger.jsonl'),'utf8').trim().split(/\r?\n/).map(JSON.parse);
 const approvedContent=e=>e.review?.translation==='approved'&&e.review?.meaning==='approved'&&e.review?.child_suitability==='approved';
 const resolvedStatus=new Set(['published','excluded']);
@@ -15,6 +19,16 @@ const excludedWithoutReason=ledger.filter(e=>e.status==='excluded'&&!(typeof e.n
 
 const stats={
   sourceOccurrences:ledger.length,
+  historicalLegacyRows:legacySource.entries.length,
+  historicalRowsLinkedToConcept:migration.links.length,
+  legacyConceptDrafts:migrated.length,
+  mergedIntoOriginalPilots:migration.merged,
+  previewVisible:original.length+migrated.filter(e=>e.status==='pilot'||e.status==='published').length,
+  previewWithheld:migrated.filter(e=>e.status==='draft').length,
+  perWordExpressionSets:canonical.filter(e=>Array.isArray(e.expression)&&e.expression.length>=3).length,
+  separatelyEditedExpressions:migration.handCuratedOverrideCount+migration.originalCuratedCount,
+  scenesIndividuallyRefined:migration.scenesCuratedOverrideCount,
+  meaningsIndividuallyCorrected:migration.semanticOverrideCount,
   sourceResolved:ledger.filter(e=>resolvedStatus.has(e.status)).length,
   sourceUnresolved:ledger.filter(e=>!resolvedStatus.has(e.status)).length,
   sourceLinkedToConcept:ledger.filter(e=>typeof e.proposed_concept_id==='string'&&conceptIds.has(e.proposed_concept_id)).length,
@@ -31,6 +45,7 @@ for(const [key,value] of Object.entries(stats))console.log('  '+key+': '+value);
 if(process.argv.includes('--release')){
   const issues=[];
   if(stats.sourceUnresolved)issues.push(stats.sourceUnresolved+' source occurrences still need explicit review/merge/split/exclusion');
+  if(stats.previewWithheld)issues.push(stats.previewWithheld+' sensitive/ambiguous drafted legacy terms withheld from browsing');
   if(stats.invalidPublishedLinks)issues.push(stats.invalidPublishedLinks+' published occurrences do not link to a real concept ID');
   if(stats.exclusionsWithoutReason)issues.push(stats.exclusionsWithoutReason+' excluded occurrences lack a documented reason');
   if(stats.conceptsVisible===0)issues.push('no visible concepts');
