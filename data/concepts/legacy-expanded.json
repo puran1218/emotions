@@ -327,14 +327,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "好笑的",
-        "feeling": "好笑的",
+        "noun": "被逗乐的",
+        "feeling": "被逗乐的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Finding something funny.",
-      "zh": "发现某事很有趣。"
+      "zh": "觉得某件事好玩，忍不住想笑。"
     },
     "scenario": {
       "en": "A child laughs at a clown's silly tricks.",
@@ -370,7 +370,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "好笑的",
+        "text": "被逗乐的",
         "locale": "zh-CN"
       }
     },
@@ -795,14 +795,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "极乐的",
-        "feeling": "极乐的",
+        "noun": "幸福极了的",
+        "feeling": "幸福极了的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Very happy.",
-      "zh": "非常快乐。"
+      "zh": "感觉非常幸福、快乐，心里暖暖的。"
     },
     "scenario": {
       "en": "You're eating your favorite ice cream.",
@@ -838,7 +838,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "极乐的",
+        "text": "幸福极了的",
         "locale": "zh-CN"
       }
     },
@@ -873,14 +873,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "喘不过气来",
-        "feeling": "喘不过气来",
+        "noun": "气喘吁吁的",
+        "feeling": "气喘吁吁的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Out of breath.",
-      "zh": "喘不过气来。"
+      "zh": "跑得很快或活动后，呼吸变得又快又急。"
     },
     "scenario": {
       "en": "After running very fast, a child stops to catch their breath.",
@@ -916,7 +916,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "喘不过气来",
+        "text": "气喘吁吁的",
         "locale": "zh-CN"
       }
     },
@@ -1497,14 +1497,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "关心的",
-        "feeling": "关心的",
+        "noun": "关切的",
+        "feeling": "关切的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Caring about something.",
-      "zh": "关心某事。"
+      "zh": "在乎别人的感受，想知道对方是否需要帮助。"
     },
     "scenario": {
       "en": "A child notices a friend is sad and offers to help.",
@@ -1540,7 +1540,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "关心的",
+        "text": "关切的",
         "locale": "zh-CN"
       }
     },
@@ -1887,14 +1887,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "被眩晕的",
-        "feeling": "被眩晕的",
+        "noun": "眼花缭乱的",
+        "feeling": "眼花缭乱的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Amazed by bright light or a beautiful sight.",
-      "zh": "由明亮的光或美丽的景象惊艳。"
+      "zh": "被明亮、闪耀或美丽的事物吸引得目不暇接。"
     },
     "scenario": {
       "en": "Fireworks.",
@@ -1930,7 +1930,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "被眩晕的",
+        "text": "眼花缭乱的",
         "locale": "zh-CN"
       }
     },
@@ -2277,14 +2277,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "兴高采烈的",
-        "feeling": "兴高采烈的",
+        "noun": "活力满满的",
+        "feeling": "活力满满的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Bubbly and very happy.",
-      "zh": "泡沫四溢且非常快乐。"
+      "zh": "心情像冒泡泡一样欢快，充满活力。"
     },
     "scenario": {
       "en": "You're laughing with friends.",
@@ -2320,7 +2320,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "兴高采烈的",
+        "text": "活力满满的",
         "locale": "zh-CN"
       }
     },
@@ -3759,14 +3759,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "光荣的",
-        "feeling": "光荣的",
+        "noun": "光荣而自豪的",
+        "feeling": "光荣而自豪的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling proud and wonderful.",
-      "zh": "感觉自豪和精彩。"
+      "zh": "为自己或大家一起完成的事情感到光荣和自豪。"
     },
     "scenario": {
       "en": "You finish a difficult task.",
@@ -3802,7 +3802,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "光荣的",
+        "text": "光荣而自豪的",
         "locale": "zh-CN"
       }
     },
@@ -3837,14 +3837,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "发光的",
-        "feeling": "发光的",
+        "noun": "喜气洋洋的",
+        "feeling": "喜气洋洋的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling bright and happy.",
-      "zh": "感觉明亮和快乐。"
+      "zh": "开心或自豪得好像整个人都在发光。"
     },
     "scenario": {
       "en": "You feel proud of yourself.",
@@ -3880,7 +3880,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "发光的",
+        "text": "喜气洋洋的",
         "locale": "zh-CN"
       }
     },
@@ -3915,14 +3915,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "幽默的",
-        "feeling": "幽默的",
+        "noun": "心情愉快的",
+        "feeling": "心情愉快的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling cheerful and funny.",
-      "zh": "感觉快乐和有趣。"
+      "zh": "心情轻松、开朗，容易看到事情有趣的一面。"
     },
     "scenario": {
       "en": "You're telling jokes with friends.",
@@ -3958,7 +3958,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "幽默的",
+        "text": "心情愉快的",
         "locale": "zh-CN"
       }
     },
@@ -4539,14 +4539,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "强烈的",
-        "feeling": "强烈的",
+        "noun": "感受强烈的（兴奋）",
+        "feeling": "感受强烈的（兴奋）",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling very strong emotions.",
-      "zh": "感觉非常强烈的情绪。"
+      "zh": "开心、喜爱或激动等感受特别强烈。"
     },
     "scenario": {
       "en": "A moving movie leaves a child feeling something very strongly.",
@@ -4582,7 +4582,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "强烈的",
+        "text": "感受强烈的（兴奋）",
         "locale": "zh-CN"
       }
     },
@@ -5007,14 +5007,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "欢呼的",
-        "feeling": "欢呼的",
+        "noun": "欢欣雀跃的",
+        "feeling": "欢欣雀跃的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling very happy.",
-      "zh": "感觉非常快乐。"
+      "zh": "因为好消息或成功，高兴得忍不住欢呼。"
     },
     "scenario": {
       "en": "Cheering at a fun event.",
@@ -5050,7 +5050,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "欢呼的",
+        "text": "欢欣雀跃的",
         "locale": "zh-CN"
       }
     },
@@ -5085,14 +5085,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "兴奋的",
-        "feeling": "兴奋的",
+        "noun": "既兴奋又紧张的",
+        "feeling": "既兴奋又紧张的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Excited and ready for something.",
-      "zh": "兴奋且准备好某事。"
+      "zh": "期待事情发生时，心里兴奋又有些紧绷。"
     },
     "scenario": {
       "en": "Before a race.",
@@ -5128,7 +5128,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "兴奋的",
+        "text": "既兴奋又紧张的",
         "locale": "zh-CN"
       }
     },
@@ -5241,14 +5241,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "柔和的",
-        "feeling": "柔和的",
+        "noun": "柔和放松的",
+        "feeling": "柔和放松的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Soft and gentle.",
-      "zh": "柔和且温柔。"
+      "zh": "心情温和、放松，没有强烈的起伏。"
     },
     "scenario": {
       "en": "A child relaxes in the warm light of a quiet afternoon.",
@@ -5284,7 +5284,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "柔和的",
+        "text": "柔和放松的",
         "locale": "zh-CN"
       }
     },
@@ -5709,14 +5709,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "不知所措的",
-        "feeling": "不知所措的",
+        "noun": "惊喜得不知所措的",
+        "feeling": "惊喜得不知所措的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Having lots of strong feelings.",
-      "zh": "有很多强烈的情绪。"
+      "zh": "开心的事情一下子太多，激动得一时不知道怎么表达。"
     },
     "scenario": {
       "en": "Everyone sings happy birthday.",
@@ -5752,7 +5752,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "不知所措的",
+        "text": "惊喜得不知所措的",
         "locale": "zh-CN"
       }
     },
@@ -5787,14 +5787,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "和平的",
-        "feeling": "和平的",
+        "noun": "平和的",
+        "feeling": "平和的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Quiet and calm.",
-      "zh": "安静和平静。"
+      "zh": "心里安静、平稳，不感到紧张或烦恼。"
     },
     "scenario": {
       "en": "Early morning when no one else is awake.",
@@ -5830,7 +5830,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "和平的",
+        "text": "平和的",
         "locale": "zh-CN"
       }
     },
@@ -5943,14 +5943,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "宜人的",
-        "feeling": "宜人的",
+        "noun": "令人愉快的",
+        "feeling": "令人愉快的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Nice and enjoyable.",
-      "zh": "好的和令人愉快。"
+      "zh": "某种经历或感觉让人舒服、愉快。"
     },
     "scenario": {
       "en": "A gentle breeze cools a child on a warm day.",
@@ -5986,7 +5986,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "宜人的",
+        "text": "令人愉快的",
         "locale": "zh-CN"
       }
     },
@@ -6184,7 +6184,7 @@
     },
     "definition": {
       "en": "Not noisy.",
-      "zh": "不吵闹。"
+      "zh": "没有太多声音，或者自己想静静待着。"
     },
     "scenario": {
       "en": "Whispering instead of shouting.",
@@ -6255,14 +6255,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "容光焕发的",
-        "feeling": "容光焕发的",
+        "noun": "神采飞扬的",
+        "feeling": "神采飞扬的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Shining brightly.",
-      "zh": "明亮地闪耀。"
+      "zh": "因为开心、自信或满足，脸上显得特别有精神。"
     },
     "scenario": {
       "en": "You're really happy.",
@@ -6298,7 +6298,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "容光焕发的",
+        "text": "神采飞扬的",
         "locale": "zh-CN"
       }
     },
@@ -6333,14 +6333,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "狂喜的",
-        "feeling": "狂喜的",
+        "noun": "欣喜若狂的",
+        "feeling": "欣喜若狂的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling extreme happiness.",
-      "zh": "感觉极度快乐。"
+      "zh": "高兴得几乎无法用语言表达。"
     },
     "scenario": {
       "en": "You can't stop smiling.",
@@ -6376,7 +6376,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "狂喜的",
+        "text": "欣喜若狂的",
         "locale": "zh-CN"
       }
     },
@@ -6411,14 +6411,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "焕然一新的",
-        "feeling": "焕然一新的",
+        "noun": "神清气爽的",
+        "feeling": "神清气爽的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling fresh and lively.",
-      "zh": "感觉清新和活泼。"
+      "zh": "休息后疲倦消散，感觉轻松又有精神。"
     },
     "scenario": {
       "en": "After sleeping well, a child wakes up ready for a new day.",
@@ -6454,7 +6454,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "焕然一新的",
+        "text": "神清气爽的",
         "locale": "zh-CN"
       }
     },
@@ -6645,14 +6645,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "安全的",
-        "feeling": "安全的",
+        "noun": "安心的",
+        "feeling": "安心的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling safe and protected.",
-      "zh": "感觉安全和受保护。"
+      "zh": "觉得自己是安全的、受到照顾的，心里很踏实。"
     },
     "scenario": {
       "en": "You're being at home with your family.",
@@ -6688,7 +6688,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "安全的",
+        "text": "安心的",
         "locale": "zh-CN"
       }
     },
@@ -6723,14 +6723,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "敏感的",
-        "feeling": "敏感的",
+        "noun": "感受细腻的",
+        "feeling": "感受细腻的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Easily feeling things.",
-      "zh": "容易感觉到事物。"
+      "zh": "很容易察觉故事或别人的情绪，也容易被感动。"
     },
     "scenario": {
       "en": "A touching movie brings tears to a child's eyes.",
@@ -6766,7 +6766,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "敏感的",
+        "text": "感受细腻的",
         "locale": "zh-CN"
       }
     },
@@ -7113,14 +7113,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "惊讶的",
-        "feeling": "惊讶的",
+        "noun": "惊喜的",
+        "feeling": "惊喜的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Shocked or amazed by something unexpected.",
-      "zh": "对某些意想不到的事情感到震惊或惊讶。"
+      "zh": "发生了没想到的好事，让人意外又开心。"
     },
     "scenario": {
       "en": "A friend gives a child an unexpected gift.",
@@ -7156,7 +7156,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "惊讶的",
+        "text": "惊喜的",
         "locale": "zh-CN"
       }
     },
@@ -8205,14 +8205,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "冷漠的",
-        "feeling": "冷漠的",
+        "noun": "不愿参与的",
+        "feeling": "不愿参与的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Not wanting to join in.",
-      "zh": "不想加入。"
+      "zh": "跟别人保持距离，暂时不想加入活动。"
     },
     "scenario": {
       "en": "You're watching others play but not playing.",
@@ -8248,7 +8248,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "冷漠的",
+        "text": "不愿参与的",
         "locale": "zh-CN"
       }
     },
@@ -8907,14 +8907,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "忧郁的",
-        "feeling": "忧郁的",
+        "noun": "心情低落的",
+        "feeling": "心情低落的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling sad or down.",
-      "zh": "感觉悲伤或情绪低落。"
+      "zh": "心里有点悲伤或提不起劲。"
     },
     "scenario": {
       "en": "A child looks out at the rain and misses playing with friends.",
@@ -8950,7 +8950,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "忧郁的",
+        "text": "心情低落的",
         "locale": "zh-CN"
       }
     },
@@ -9219,14 +9219,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "冷淡的",
-        "feeling": "冷淡的",
+        "noun": "态度冷淡的",
+        "feeling": "态度冷淡的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Not feeling any warmth or emotion.",
-      "zh": "没有感觉到任何温暖或情感。"
+      "zh": "暂时不愿亲近或回应别人，表现得疏远。"
     },
     "scenario": {
       "en": "You're being distant from others.",
@@ -9262,7 +9262,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "冷淡的",
+        "text": "态度冷淡的",
         "locale": "zh-CN"
       }
     },
@@ -9297,14 +9297,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "关心的",
-        "feeling": "关心的",
+        "noun": "担忧的",
+        "feeling": "担忧的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Worried about something.",
-      "zh": "对某事感到担忧。"
+      "zh": "因为在乎一个人或一件事，担心可能发生不好的情况。"
     },
     "scenario": {
       "en": "A child worries when a close friend gets sick.",
@@ -9340,7 +9340,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "关心的",
+        "text": "担忧的",
         "locale": "zh-CN"
       }
     },
@@ -9765,14 +9765,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "失望的",
-        "feeling": "失望的",
+        "noun": "消沉失望的",
+        "feeling": "消沉失望的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Very sad and without energy.",
-      "zh": "非常悲伤且没有活力。"
+      "zh": "因为难过或失望，觉得没什么力气，也不太想做事。"
     },
     "scenario": {
       "en": "A child is so downhearted that getting out of bed feels difficult.",
@@ -9808,7 +9808,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "失望的",
+        "text": "消沉失望的",
         "locale": "zh-CN"
       }
     },
@@ -10779,14 +10779,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "感到不安的",
-        "feeling": "感到不安的",
+        "noun": "被打扰而心烦的",
+        "feeling": "被打扰而心烦的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Upset and confused.",
-      "zh": "烦乱和困惑。"
+      "zh": "专心做事时被打断，心里烦乱或不安。"
     },
     "scenario": {
       "en": "Someone interrupts a child in the middle of an important game.",
@@ -10822,7 +10822,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "感到不安的",
+        "text": "被打扰而心烦的",
         "locale": "zh-CN"
       }
     },
@@ -11644,7 +11644,7 @@
     },
     "definition": {
       "en": "Unable to sit still.",
-      "zh": "无法静坐。"
+      "zh": "因为紧张、兴奋或无聊，忍不住动来动去。"
     },
     "scenario": {
       "en": "You're nervous or excited.",
@@ -11715,14 +11715,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "孤独的",
-        "feeling": "孤独的",
+        "noun": "孤单又难过的",
+        "feeling": "孤单又难过的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling alone and sad.",
-      "zh": "感觉孤单和悲伤。"
+      "zh": "想有人陪伴却没有人一起时，感觉孤单又伤心。"
     },
     "scenario": {
       "en": "A child sits alone while everyone else has someone to play with.",
@@ -11758,7 +11758,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "孤独的",
+        "text": "孤单又难过的",
         "locale": "zh-CN"
       }
     },
@@ -12105,14 +12105,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "被骚扰的",
-        "feeling": "被骚扰的",
+        "noun": "忙得团团转的",
+        "feeling": "忙得团团转的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling rushed and stressed.",
-      "zh": "感觉匆忙和有压力。"
+      "zh": "事情太多、太赶，感觉忙乱又有压力。"
     },
     "scenario": {
       "en": "You have too much to do.",
@@ -12148,7 +12148,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "被骚扰的",
+        "text": "忙得团团转的",
         "locale": "zh-CN"
       }
     },
@@ -12268,7 +12268,7 @@
     },
     "definition": {
       "en": "Feeling like you can't do anything to help.",
-      "zh": "感觉你无法做任何事来帮助。"
+      "zh": "遇到困难时觉得自己没有办法，不知道该怎么办。"
     },
     "scenario": {
       "en": "A child cannot stop a dear friend from moving away.",
@@ -13041,14 +13041,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "强烈的",
-        "feeling": "强烈的",
+        "noun": "感受强烈的（紧张）",
+        "feeling": "感受强烈的（紧张）",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling very strong emotions.",
-      "zh": "感觉非常强烈的情绪。"
+      "zh": "担心、紧张或难过等感受特别强烈。"
     },
     "scenario": {
       "en": "A child feels a powerful rush of worry before an important event.",
@@ -13084,7 +13084,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "强烈的",
+        "text": "感受强烈的（紧张）",
         "locale": "zh-CN"
       }
     },
@@ -13119,14 +13119,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "愤怒的",
-        "feeling": "愤怒的",
+        "noun": "非常生气的",
+        "feeling": "非常生气的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Very angry.",
-      "zh": "非常生气。"
+      "zh": "因觉得不公平或受到冒犯而很生气。"
     },
     "scenario": {
       "en": "Something unfair happens.",
@@ -13162,7 +13162,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "愤怒的",
+        "text": "非常生气的",
         "locale": "zh-CN"
       }
     },
@@ -13431,14 +13431,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "神经质的",
-        "feeling": "神经质的",
+        "noun": "紧张得发抖的",
+        "feeling": "紧张得发抖的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling nervous and shaky.",
-      "zh": "感觉紧张和颤抖。"
+      "zh": "因为紧张或兴奋，手脚微微发抖，坐不安稳。"
     },
     "scenario": {
       "en": "Before speaking in front of a group.",
@@ -13474,7 +13474,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "神经质的",
+        "text": "紧张得发抖的",
         "locale": "zh-CN"
       }
     },
@@ -14211,14 +14211,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "悲伤的",
-        "feeling": "悲伤的",
+        "noun": "悲伤怀念的",
+        "feeling": "悲伤怀念的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling sorrow.",
-      "zh": "感觉悲伤。"
+      "zh": "想念失去或离开的人或事物时感到悲伤。"
     },
     "scenario": {
       "en": "You miss someone a lot.",
@@ -14254,7 +14254,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "悲伤的",
+        "text": "悲伤怀念的",
         "locale": "zh-CN"
       }
     },
@@ -14523,14 +14523,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "不知所措的",
-        "feeling": "不知所措的",
+        "noun": "压力大得不知所措的",
+        "feeling": "压力大得不知所措的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Having too many emotions or things to do.",
-      "zh": "有太多情绪或事情要做。"
+      "zh": "事情或情绪一下子涌过来，觉得快应付不过来。"
     },
     "scenario": {
       "en": "You're feeling swamped.",
@@ -14566,7 +14566,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "不知所措的",
+        "text": "压力大得不知所措的",
         "locale": "zh-CN"
       }
     },
@@ -14679,14 +14679,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "被动的",
-        "feeling": "被动的",
+        "noun": "不主动表达的",
+        "feeling": "不主动表达的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Not active or not reacting.",
-      "zh": "不活跃或不反应。"
+      "zh": "面对选择时不怎么表达自己的想法，常让别人来决定。"
     },
     "scenario": {
       "en": "During a group activity, a child lets everyone else decide.",
@@ -14722,7 +14722,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "被动的",
+        "text": "不主动表达的",
         "locale": "zh-CN"
       }
     },
@@ -15147,14 +15147,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "排斥的",
-        "feeling": "排斥的",
+        "noun": "感到反感的",
+        "feeling": "感到反感的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Strongly pushed away.",
-      "zh": "强烈推开。"
+      "zh": "某件事让自己很不喜欢，想要远离。"
     },
     "scenario": {
       "en": "A bad smell makes a child quickly step backward.",
@@ -15190,7 +15190,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "排斥的",
+        "text": "感到反感的",
         "locale": "zh-CN"
       }
     },
@@ -15225,14 +15225,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "怨恨的",
-        "feeling": "怨恨的",
+        "noun": "心怀不满的",
+        "feeling": "心怀不满的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling angry or upset about something unfair.",
-      "zh": "对不公平的事情感到愤怒或沮丧。"
+      "zh": "觉得自己受到不公平对待，心里久久不舒服。"
     },
     "scenario": {
       "en": "You're being treated badly.",
@@ -15268,7 +15268,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "怨恨的",
+        "text": "心怀不满的",
         "locale": "zh-CN"
       }
     },
@@ -15537,14 +15537,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "敏感的",
-        "feeling": "敏感的",
+        "noun": "容易被伤到感受的",
+        "feeling": "容易被伤到感受的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Easily hurt or upset.",
-      "zh": "容易受伤或沮丧。"
+      "zh": "别人说的话或做的事，有时会让自己格外难受。"
     },
     "scenario": {
       "en": "Words or actions make you feel bad.",
@@ -15580,7 +15580,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "敏感的",
+        "text": "容易被伤到感受的",
         "locale": "zh-CN"
       }
     },
@@ -16239,14 +16239,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "惊讶的",
-        "feeling": "惊讶的",
+        "noun": "吃惊的",
+        "feeling": "吃惊的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Unexpectedly shocked or amazed.",
-      "zh": "出乎意料地震惊或惊奇。"
+      "zh": "发生了没预料到的事，让人一下子愣住或紧张。"
     },
     "scenario": {
       "en": "Something unusual happens.",
@@ -16282,7 +16282,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "惊讶的",
+        "text": "吃惊的",
         "locale": "zh-CN"
       }
     },
@@ -16395,14 +16395,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "微温的",
-        "feeling": "微温的",
+        "noun": "兴致不高的",
+        "feeling": "兴致不高的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Not very enthusiastic or warm.",
-      "zh": "不是很热情或温暖。"
+      "zh": "对一个提议或活动没有多少热情。"
     },
     "scenario": {
       "en": "A child answers politely but feels little excitement about an idea.",
@@ -16438,7 +16438,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "微温的",
+        "text": "兴致不高的",
         "locale": "zh-CN"
       }
     },
@@ -16785,14 +16785,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "漠不关心的",
-        "feeling": "漠不关心的",
+        "noun": "不太担心的",
+        "feeling": "不太担心的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Not worried about something.",
-      "zh": "对某事不担心。"
+      "zh": "对于某件事没有太多担忧，觉得暂时不用紧张。"
     },
     "scenario": {
       "en": "A child feels unworried about a small problem that seems manageable.",
@@ -16828,7 +16828,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "漠不关心的",
+        "text": "不太担心的",
         "locale": "zh-CN"
       }
     },
@@ -17175,14 +17175,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "不稳定的",
-        "feeling": "不稳定的",
+        "noun": "有些站不稳的",
+        "feeling": "有些站不稳的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Not balanced or calm.",
-      "zh": "不平衡或不平静。"
+      "zh": "身体发晃、难以站稳，有时也形容心里不踏实。"
     },
     "scenario": {
       "en": "You feel shaky.",
@@ -17218,7 +17218,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "不稳定的",
+        "text": "有些站不稳的",
         "locale": "zh-CN"
       }
     },
@@ -17565,14 +17565,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "渴望的",
-        "feeling": "渴望的",
+        "noun": "怀念而惆怅的",
+        "feeling": "怀念而惆怅的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling a sad longing for something.",
-      "zh": "对某事感到悲伤的渴望。"
+      "zh": "想起自己怀念的人或事情，心里有一点温柔的难过。"
     },
     "scenario": {
       "en": "Missing someone you love.",
@@ -17608,7 +17608,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "渴望的",
+        "text": "怀念而惆怅的",
         "locale": "zh-CN"
       }
     },
@@ -17643,14 +17643,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "孤僻的",
-        "feeling": "孤僻的",
+        "noun": "暂时不想与人交流的",
+        "feeling": "暂时不想与人交流的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Quiet and not wanting to communicate.",
-      "zh": "安静且不想交流。"
+      "zh": "心里难过或疲倦时，暂时不想说话或参加活动。"
     },
     "scenario": {
       "en": "You feel sad and keep to yourself.",
@@ -17686,7 +17686,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "孤僻的",
+        "text": "暂时不想与人交流的",
         "locale": "zh-CN"
       }
     },
@@ -17877,14 +17877,14 @@
         "aliases": []
       },
       "zh": {
-        "noun": "可怜的",
-        "feeling": "可怜的",
+        "noun": "难受极了的",
+        "feeling": "难受极了的",
         "aliases": []
       }
     },
     "definition": {
       "en": "Feeling very unhappy or in a bad state.",
-      "zh": "感觉非常不快乐或处于糟糕状态。"
+      "zh": "非常不快乐，觉得许多事情都不顺利。"
     },
     "scenario": {
       "en": "A child feels deeply unhappy after several things go wrong.",
@@ -17920,7 +17920,7 @@
         "locale": "en-US"
       },
       "zh": {
-        "text": "可怜的",
+        "text": "难受极了的",
         "locale": "zh-CN"
       }
     },
