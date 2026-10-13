@@ -337,8 +337,8 @@
       "zh": "发现某事很有趣。"
     },
     "scenario": {
-      "en": "A clown doing tricks.",
-      "zh": "你在小丑表演把戏。"
+      "en": "A child laughs at a clown's silly tricks.",
+      "zh": "一个孩子被小丑的把戏逗得哈哈大笑。"
     },
     "expression": [
       {
@@ -727,8 +727,8 @@
       "zh": "对惊人的事情感到震惊。"
     },
     "scenario": {
-      "en": "A surprise party.",
-      "zh": "你在一个惊喜派对。"
+      "en": "Friends surprise a child with a small party.",
+      "zh": "朋友们给一个孩子准备了惊喜派对。"
     },
     "expression": [
       {
@@ -883,8 +883,8 @@
       "zh": "喘不过气来。"
     },
     "scenario": {
-      "en": "After running really fast.",
-      "zh": "你在跑得很快之后。"
+      "en": "After running very fast, a child stops to catch their breath.",
+      "zh": "跑得太快了，一个孩子停下来喘口气。"
     },
     "expression": [
       {
@@ -1195,8 +1195,8 @@
       "zh": "感觉快乐和明亮。"
     },
     "scenario": {
-      "en": "The sun is shining.",
-      "zh": "你在太阳照耀。"
+      "en": "Sunlight streams through the window, brightening a child's mood.",
+      "zh": "阳光照进窗户，孩子的心情也亮起来。"
     },
     "expression": [
       {
@@ -1507,8 +1507,8 @@
       "zh": "关心某事。"
     },
     "scenario": {
-      "en": "A friend is sad and you want to help.",
-      "zh": "你在朋友伤心时你想帮助。"
+      "en": "A child notices a friend is sad and offers to help.",
+      "zh": "一个孩子发现朋友难过，主动关心他。"
     },
     "expression": [
       {
@@ -1585,8 +1585,8 @@
       "zh": "对自己感到确定。"
     },
     "scenario": {
-      "en": "Knowing you can do something well.",
-      "zh": "你在知道你能做好某事。"
+      "en": "After practicing, a child knows they can do a difficult task.",
+      "zh": "练习之后，一个孩子相信自己能完成难事。"
     },
     "expression": [
       {
@@ -2365,8 +2365,8 @@
       "zh": "非常自豪和快乐。"
     },
     "scenario": {
-      "en": "After you make a great drawing.",
-      "zh": "你在做了一幅很棒的画后。"
+      "en": "A child feels thrilled after finishing a beautiful drawing.",
+      "zh": "一个孩子画好一幅漂亮的画，高兴极了。"
     },
     "expression": [
       {
@@ -2443,8 +2443,8 @@
       "zh": "被某些精彩的事物迷住。"
     },
     "scenario": {
-      "en": "A beautiful story.",
-      "zh": "你在一个美丽的故事。"
+      "en": "A child listens closely to a beautiful bedtime story.",
+      "zh": "孩子听美妙的睡前故事听得入迷。"
     },
     "expression": [
       {
@@ -2521,8 +2521,8 @@
       "zh": "感觉受到支持。"
     },
     "scenario": {
-      "en": "Someone cheers for you.",
-      "zh": "你在有人为你加油。"
+      "en": "A friend cheers for a child who is trying something difficult.",
+      "zh": "孩子尝试一件难事时，朋友在旁边加油。"
     },
     "expression": [
       {
@@ -2677,8 +2677,8 @@
       "zh": "完全专注于某个有趣的事物。"
     },
     "scenario": {
-      "en": "A fascinating book.",
-      "zh": "你在一本迷人的书。"
+      "en": "A child reads an exciting book and forgets the time.",
+      "zh": "孩子读一本有趣的书，专心得忘了时间。"
     },
     "expression": [
       {
@@ -2755,8 +2755,8 @@
       "zh": "感觉活跃和兴奋。"
     },
     "scenario": {
-      "en": "A fun song comes on.",
-      "zh": "你在一首有趣的歌曲响起。"
+      "en": "A lively song plays, and a quiet child starts dancing.",
+      "zh": "活泼的音乐响起，原本安静的孩子跳起舞来。"
     },
     "expression": [
       {
@@ -2989,8 +2989,8 @@
       "zh": "感到非常快乐和兴奋。"
     },
     "scenario": {
-      "en": "After winning a game.",
-      "zh": "你在赢得一场游戏后。"
+      "en": "A child celebrates after winning a close game.",
+      "zh": "一场激烈的比赛结束，一个孩子赢了，兴奋地欢呼。"
     },
     "expression": [
       {
@@ -3145,8 +3145,8 @@
       "zh": "兴奋地等待某事。"
     },
     "scenario": {
-      "en": "A holiday.",
-      "zh": "你在假期。"
+      "en": "A child counts the days until a holiday trip.",
+      "zh": "孩子数着日子，期待假期旅行快点到来。"
     },
     "expression": [
       {
@@ -3535,8 +3535,8 @@
       "zh": "对你所做的感到非常满足。"
     },
     "scenario": {
-      "en": "After building a big tower.",
-      "zh": "你在建造了一个大塔后。"
+      "en": "A child steps back to admire a tall block tower they built.",
+      "zh": "孩子搭好高高的积木塔，满意地欣赏着。"
     },
     "expression": [
       {
@@ -3613,8 +3613,8 @@
       "zh": "对某事感到高兴。"
     },
     "scenario": {
-      "en": "Someone says thank you.",
-      "zh": "你在有人说谢谢你。"
+      "en": "Someone thanks a child for being helpful.",
+      "zh": "有人感谢孩子的帮助，孩子心里很高兴。"
     },
     "expression": [
       {
@@ -4003,8 +4003,8 @@
       "zh": "为某些好事感到感激。"
     },
     "scenario": {
-      "en": "A nice day or a helpful friend.",
-      "zh": "你在美好的一天或一个乐于助人的朋友。"
+      "en": "A friend helps a child on a difficult day.",
+      "zh": "一个朋友在孩子遇到困难时伸出援手。"
     },
     "expression": [
       {
@@ -4081,8 +4081,8 @@
       "zh": "感到高兴和满足。"
     },
     "scenario": {
-      "en": "A plan goes just right.",
-      "zh": "你在计划进行得很顺利。"
+      "en": "A carefully made plan works out just as the children hoped.",
+      "zh": "孩子们认真制订的计划顺利实现了。"
     },
     "expression": [
       {
@@ -4471,8 +4471,8 @@
       "zh": "感觉有创造力且兴奋地制作新东西。"
     },
     "scenario": {
-      "en": "Feeling creative and excited to make something new.",
-      "zh": "感觉有创造力且兴奋地制作新东西。"
+      "en": "A child sees a painting and gets an idea for their own artwork.",
+      "zh": "孩子看到一幅画，突然有了创作的新点子。"
     },
     "expression": [
       {
@@ -4549,8 +4549,8 @@
       "zh": "感觉非常强烈的情绪。"
     },
     "scenario": {
-      "en": "Really loving a movie.",
-      "zh": "你在非常喜欢一部电影。"
+      "en": "A moving movie leaves a child feeling something very strongly.",
+      "zh": "一部感人的电影让孩子心里涌起强烈的感受。"
     },
     "expression": [
       {
@@ -4705,8 +4705,8 @@
       "zh": "对某事非常感兴趣。"
     },
     "scenario": {
-      "en": "A mystery story.",
-      "zh": "你在一个神秘的故事。"
+      "en": "A child cannot wait to find out the ending of a mystery story.",
+      "zh": "一个孩子读着神秘故事，迫不及待想知道结局。"
     },
     "expression": [
       {
@@ -4783,8 +4783,8 @@
       "zh": "感觉精力充沛且焕然一新。"
     },
     "scenario": {
-      "en": "After a good sleep.",
-      "zh": "你在睡了一个好觉后。"
+      "en": "A child wakes up refreshed after a good night's sleep.",
+      "zh": "睡了一个好觉，孩子醒来精神十足。"
     },
     "expression": [
       {
@@ -4861,8 +4861,8 @@
       "zh": "参与某事。"
     },
     "scenario": {
-      "en": "A game or a project.",
-      "zh": "你在游戏或项目。"
+      "en": "A child joins their friends in making a school project.",
+      "zh": "孩子和朋友一起参加班级作品制作。"
     },
     "expression": [
       {
@@ -5251,8 +5251,8 @@
       "zh": "柔和且温柔。"
     },
     "scenario": {
-      "en": "A warm, sunny afternoon.",
-      "zh": "你在一个温暖、阳光明媚的下午。"
+      "en": "A child relaxes in the warm light of a quiet afternoon.",
+      "zh": "一个孩子在暖暖的午后阳光里放松下来。"
     },
     "expression": [
       {
@@ -5953,8 +5953,8 @@
       "zh": "好的和令人愉快。"
     },
     "scenario": {
-      "en": "A gentle breeze on a warm day.",
-      "zh": "你在温暖的一天里的轻风。"
+      "en": "A gentle breeze cools a child on a warm day.",
+      "zh": "温暖的日子里，微风吹过孩子的脸颊。"
     },
     "expression": [
       {
@@ -6109,8 +6109,8 @@
       "zh": "对你所做的感到非常好。"
     },
     "scenario": {
-      "en": "A hard project.",
-      "zh": "你在一个困难的项目。"
+      "en": "A child finishes a difficult project after many attempts.",
+      "zh": "孩子试了很多次，终于完成一个很难的作品。"
     },
     "expression": [
       {
@@ -6421,8 +6421,8 @@
       "zh": "感觉清新和活泼。"
     },
     "scenario": {
-      "en": "After a good night's sleep.",
-      "zh": "你在经过一个良好的夜晚睡眠后。"
+      "en": "After sleeping well, a child wakes up ready for a new day.",
+      "zh": "睡了一个好觉，孩子醒来神清气爽。"
     },
     "expression": [
       {
@@ -6577,8 +6577,8 @@
       "zh": "对事情的结果感到高兴。"
     },
     "scenario": {
-      "en": "After a good meal.",
-      "zh": "你在吃了一顿好饭后。"
+      "en": "A child finishes a tasty meal and feels comfortably full.",
+      "zh": "孩子吃完美味的一餐，感觉刚刚好。"
     },
     "expression": [
       {
@@ -6733,8 +6733,8 @@
       "zh": "容易感觉到事物。"
     },
     "scenario": {
-      "en": "A movie makes you cry.",
-      "zh": "你在一部电影让你哭泣。"
+      "en": "A touching movie brings tears to a child's eyes.",
+      "zh": "一部感人的电影让孩子眼眶湿润。"
     },
     "expression": [
       {
@@ -6967,8 +6967,8 @@
       "zh": "非常美丽或令人印象深刻。"
     },
     "scenario": {
-      "en": "A big firework show.",
-      "zh": "你在一场大型烟花表演。"
+      "en": "Children look up at a colorful fireworks display.",
+      "zh": "孩子们抬头观看绚丽的烟花表演。"
     },
     "expression": [
       {
@@ -7123,8 +7123,8 @@
       "zh": "对某些意想不到的事情感到震惊或惊讶。"
     },
     "scenario": {
-      "en": "A sudden gift.",
-      "zh": "你在突然收到礼物。"
+      "en": "A friend gives a child an unexpected gift.",
+      "zh": "朋友突然送来一份礼物，孩子又惊又喜。"
     },
     "expression": [
       {
@@ -7435,8 +7435,8 @@
       "zh": "情感上受到影响。"
     },
     "scenario": {
-      "en": "You're feeling loved when someone helps you.",
-      "zh": "你在有人帮助你时感觉被爱。"
+      "en": "A child feels loved when someone helps them kindly.",
+      "zh": "有人温柔地帮助孩子，让孩子感到被爱。"
     },
     "expression": [
       {
@@ -7513,8 +7513,8 @@
       "zh": "非常安静和平静。"
     },
     "scenario": {
-      "en": "A smooth lake in the morning.",
-      "zh": "你在早晨的平静湖面。"
+      "en": "A child sits quietly beside a smooth lake at sunrise.",
+      "zh": "日出时，孩子安静地坐在平静的湖边。"
     },
     "expression": [
       {
@@ -7591,8 +7591,8 @@
       "zh": "感觉你可以依靠某人。"
     },
     "scenario": {
-      "en": "A best friend.",
-      "zh": "你在最好的朋友。"
+      "en": "A child tells a close friend a secret because they feel safe.",
+      "zh": "一个孩子相信好朋友，放心地说出心里的秘密。"
     },
     "expression": [
       {
@@ -7903,8 +7903,8 @@
       "zh": "真的很棒和令人愉快。"
     },
     "scenario": {
-      "en": "A fantastic trip.",
-      "zh": "你在一次奇妙的旅行。"
+      "en": "A family looks back on a wonderful trip together.",
+      "zh": "一家人回忆着一次美好的旅行。"
     },
     "expression": [
       {
@@ -8293,8 +8293,8 @@
       "zh": "感到非常生气。"
     },
     "scenario": {
-      "en": "Someone breaks your toy.",
-      "zh": "你在有人弄坏你的玩具。"
+      "en": "Someone accidentally breaks a child's favorite toy.",
+      "zh": "有人不小心弄坏孩子最喜欢的玩具。"
     },
     "expression": [
       {
@@ -8527,8 +8527,8 @@
       "zh": "对可能发生的事情感到紧张。"
     },
     "scenario": {
-      "en": "A big test.",
-      "zh": "你在一场大考试。"
+      "en": "A child feels nervous about an important test tomorrow.",
+      "zh": "想到明天的重要考试，一个孩子有点不安。"
     },
     "expression": [
       {
@@ -8683,8 +8683,8 @@
       "zh": "感觉非常疲惫和筋疲力尽。"
     },
     "scenario": {
-      "en": "After a long day of playing.",
-      "zh": "你在玩了一整天后。"
+      "en": "A child sits down exhausted after a long afternoon of play.",
+      "zh": "玩了整整一下午，孩子累得坐下来休息。"
     },
     "expression": [
       {
@@ -8839,8 +8839,8 @@
       "zh": "因不公平的待遇感到不快。"
     },
     "scenario": {
-      "en": "Not getting a turn.",
-      "zh": "你在没有轮到你。"
+      "en": "A child feels upset after repeatedly being skipped in a game.",
+      "zh": "游戏里总是轮不到自己，孩子心里很不是滋味。"
     },
     "expression": [
       {
@@ -8917,8 +8917,8 @@
       "zh": "感觉悲伤或情绪低落。"
     },
     "scenario": {
-      "en": "A rainy day with no friends around.",
-      "zh": "你在一个没有朋友的雨天。"
+      "en": "A child looks out at the rain and misses playing with friends.",
+      "zh": "孩子望着窗外的雨，想念和朋友玩耍的日子。"
     },
     "expression": [
       {
@@ -8995,8 +8995,8 @@
       "zh": "对任何事都不感兴趣。"
     },
     "scenario": {
-      "en": "Everything seems dull.",
-      "zh": "你在一切看起来都很无聊。"
+      "en": "A child has nothing interesting to do on a rainy afternoon.",
+      "zh": "下雨的下午，孩子觉得没有什么好玩的事。"
     },
     "expression": [
       {
@@ -9073,8 +9073,8 @@
       "zh": "对失去某个重要的东西感到非常伤心。"
     },
     "scenario": {
-      "en": "A best friend.",
-      "zh": "你在最好的朋友。"
+      "en": "A child feels heartbroken after saying goodbye to a dear friend.",
+      "zh": "跟最好的朋友道别后，孩子伤心得不得了。"
     },
     "expression": [
       {
@@ -9151,8 +9151,8 @@
       "zh": "因事情没有按计划进行而感到沮丧。"
     },
     "scenario": {
-      "en": "Feeling upset because things didn't go as planned.",
-      "zh": "因事情没有按计划进行而感到沮丧。"
+      "en": "A child's carefully planned project does not work out.",
+      "zh": "孩子认真计划的作品没做成功，心里很懊恼。"
     },
     "expression": [
       {
@@ -9307,8 +9307,8 @@
       "zh": "对某事感到担忧。"
     },
     "scenario": {
-      "en": "A friend is sick.",
-      "zh": "你在朋友生病。"
+      "en": "A child worries when a close friend gets sick.",
+      "zh": "好朋友生病了，一个孩子很担心。"
     },
     "expression": [
       {
@@ -9463,8 +9463,8 @@
       "zh": "感觉生气和烦恼。"
     },
     "scenario": {
-      "en": "Someone keeps bothering you.",
-      "zh": "你在有人不停地打扰你。"
+      "en": "Someone keeps interrupting a child who is playing.",
+      "zh": "孩子正在玩游戏，却一直被人打断。"
     },
     "expression": [
       {
@@ -9541,8 +9541,8 @@
       "zh": "感觉悲伤且没有希望。"
     },
     "scenario": {
-      "en": "After losing a game.",
-      "zh": "你在输掉一场游戏后。"
+      "en": "A child hangs their head after losing a game.",
+      "zh": "输了游戏，孩子垂着头，心里很失落。"
     },
     "expression": [
       {
@@ -9619,8 +9619,8 @@
       "zh": "感觉非常悲伤且无法进行通常活动。"
     },
     "scenario": {
-      "en": "Not wanting to play.",
-      "zh": "你在不想玩耍。"
+      "en": "A child has felt very low for a long time and no longer enjoys favorite games.",
+      "zh": "一个孩子持续很久心情低落，连喜欢的游戏也不想玩了。"
     },
     "expression": [
       {
@@ -9775,8 +9775,8 @@
       "zh": "非常悲伤且没有活力。"
     },
     "scenario": {
-      "en": "Not wanting to get out of bed.",
-      "zh": "你在不想起床。"
+      "en": "A child is so downhearted that getting out of bed feels difficult.",
+      "zh": "孩子心里非常低落，连起床都觉得困难。"
     },
     "expression": [
       {
@@ -9931,8 +9931,8 @@
       "zh": "对某事感到失望且不再感兴趣。"
     },
     "scenario": {
-      "en": "A hobby you used to love.",
-      "zh": "你曾经热爱的爱好。"
+      "en": "A hobby that once felt exciting no longer interests a child.",
+      "zh": "以前喜欢的爱好，如今让孩子提不起兴趣。"
     },
     "expression": [
       {
@@ -10477,8 +10477,8 @@
       "zh": "感到震惊和失望。"
     },
     "scenario": {
-      "en": "A plan fails suddenly.",
-      "zh": "当一个计划突然失败。"
+      "en": "A carefully made plan suddenly falls apart.",
+      "zh": "认真做好的计划突然泡汤了，孩子感到震惊又失落。"
     },
     "expression": [
       {
@@ -10555,8 +10555,8 @@
       "zh": "对某事不满意。"
     },
     "scenario": {
-      "en": "A movie is boring.",
-      "zh": "当一部电影很无聊。"
+      "en": "A child feels disappointed because the movie was not enjoyable.",
+      "zh": "电影并不好看，一个孩子有点不满意。"
     },
     "expression": [
       {
@@ -10789,8 +10789,8 @@
       "zh": "烦乱和困惑。"
     },
     "scenario": {
-      "en": "Someone interrupts your game.",
-      "zh": "你在有人打断你的游戏。"
+      "en": "Someone interrupts a child in the middle of an important game.",
+      "zh": "孩子正在专心玩游戏，却突然被人打断。"
     },
     "expression": [
       {
@@ -10945,8 +10945,8 @@
       "zh": "感觉悲伤和气馁。"
     },
     "scenario": {
-      "en": "After hearing bad news.",
-      "zh": "你在听到坏消息后。"
+      "en": "After hearing sad news, a child becomes quiet and discouraged.",
+      "zh": "听到不好的消息后，孩子安静下来，心里难过。"
     },
     "expression": [
       {
@@ -11023,8 +11023,8 @@
       "zh": "无聊和不感兴趣。"
     },
     "scenario": {
-      "en": "A class is not fun.",
-      "zh": "你在上课不有趣。"
+      "en": "A child finds a class boring because nothing new is happening.",
+      "zh": "课堂上一直没有新鲜事，孩子觉得很无聊。"
     },
     "expression": [
       {
@@ -11413,8 +11413,8 @@
       "zh": "非常疲倦。"
     },
     "scenario": {
-      "en": "After a long day of work or play.",
-      "zh": "你在经过一整天的工作或玩耍后。"
+      "en": "After a long day of playing, a child can barely keep their eyes open.",
+      "zh": "玩了一整天，孩子累得眼睛都快睁不开了。"
     },
     "expression": [
       {
@@ -11725,8 +11725,8 @@
       "zh": "感觉孤单和悲伤。"
     },
     "scenario": {
-      "en": "You have no one to play with.",
-      "zh": "你在没有人和你玩。"
+      "en": "A child sits alone while everyone else has someone to play with.",
+      "zh": "别人都有玩伴，只有一个孩子孤零零坐在一旁。"
     },
     "expression": [
       {
@@ -11881,8 +11881,8 @@
       "zh": "非常生气。"
     },
     "scenario": {
-      "en": "Someone ruins something important to you.",
-      "zh": "你在有人破坏对你很重要的东西。"
+      "en": "A child is furious when someone ruins a project they worked hard on.",
+      "zh": "辛苦完成的作品被弄坏，孩子非常生气。"
     },
     "expression": [
       {
@@ -12271,8 +12271,8 @@
       "zh": "感觉你无法做任何事来帮助。"
     },
     "scenario": {
-      "en": "A friend moves away.",
-      "zh": "你在一个朋友搬家。"
+      "en": "A child cannot stop a dear friend from moving away.",
+      "zh": "好朋友要搬走了，孩子觉得自己什么也改变不了。"
     },
     "expression": [
       {
@@ -12427,8 +12427,8 @@
       "zh": "真的很糟糕或不愉快。"
     },
     "scenario": {
-      "en": "A nightmare.",
-      "zh": "你在一个噩梦。"
+      "en": "A frightening nightmare wakes a child up at night.",
+      "zh": "夜里一个可怕的梦把孩子吓醒了。"
     },
     "expression": [
       {
@@ -12973,8 +12973,8 @@
       "zh": "对某事不在乎。"
     },
     "scenario": {
-      "en": "Nothing seems important.",
-      "zh": "你在没有什么事情看起来重要。"
+      "en": "A child does not have a preference between two suggested games.",
+      "zh": "面对两个游戏，孩子觉得选哪个都无所谓。"
     },
     "expression": [
       {
@@ -13051,8 +13051,8 @@
       "zh": "感觉非常强烈的情绪。"
     },
     "scenario": {
-      "en": "You're being very worried or very excited.",
-      "zh": "你在非常担心或非常兴奋。"
+      "en": "A child feels a powerful rush of worry before an important event.",
+      "zh": "一件重要的事就要发生，孩子心里涌起强烈的担心。"
     },
     "expression": [
       {
@@ -13207,8 +13207,8 @@
       "zh": "对某事感到恼怒。"
     },
     "scenario": {
-      "en": "Someone keeps interrupting you.",
-      "zh": "你在有人不断打断你。"
+      "en": "A child grows annoyed when someone keeps interrupting.",
+      "zh": "一直被打断，一个孩子越来越烦躁。"
     },
     "expression": [
       {
@@ -13363,8 +13363,8 @@
       "zh": "因为某人拥有你想要的东西而感到不安。"
     },
     "scenario": {
-      "en": "Feeling upset because someone has something you want.",
-      "zh": "因为某人拥有你想要的东西而感到不安。"
+      "en": "A child feels jealous when a friend gets something they wanted.",
+      "zh": "朋友得到了自己想要的东西，孩子心里有点嫉妒。"
     },
     "expression": [
       {
@@ -13597,8 +13597,8 @@
       "zh": "怀疑或警惕。"
     },
     "scenario": {
-      "en": "Not trusting a stranger.",
-      "zh": "你在不信任一个陌生人。"
+      "en": "A child hears a strange story and is not sure it is true.",
+      "zh": "听到一个奇怪的故事，孩子有点怀疑。"
     },
     "expression": [
       {
@@ -13753,8 +13753,8 @@
       "zh": "没有任何精力或兴趣。"
     },
     "scenario": {
-      "en": "Not wanting to do anything.",
-      "zh": "你在不想做任何事。"
+      "en": "A child feels too low on energy to do anything fun.",
+      "zh": "孩子没什么精神，连玩都提不起劲。"
     },
     "expression": [
       {
@@ -13987,8 +13987,8 @@
       "zh": "感觉非常不快乐。"
     },
     "scenario": {
-      "en": "Everything goes wrong.",
-      "zh": "你在一切都出错。"
+      "en": "Many little things go wrong, leaving a child very unhappy.",
+      "zh": "今天好几件小事都不顺利，孩子难受极了。"
     },
     "expression": [
       {
@@ -14065,8 +14065,8 @@
       "zh": "悲伤且对通常活动不感兴趣。"
     },
     "scenario": {
-      "en": "Not wanting to play.",
-      "zh": "你在不想玩耍。"
+      "en": "A child stays quiet and does not feel like playing.",
+      "zh": "一个孩子闷闷不乐地坐着，不想去玩。"
     },
     "expression": [
       {
@@ -14377,8 +14377,8 @@
       "zh": "恼怒或烦躁。"
     },
     "scenario": {
-      "en": "Someone keeps bothering you.",
-      "zh": "你在有人不断打扰你。"
+      "en": "A child feels irritated because someone keeps teasing them.",
+      "zh": "有人不停地取笑孩子，孩子心里很烦。"
     },
     "expression": [
       {
@@ -14455,8 +14455,8 @@
       "zh": "无法感觉到任何东西。"
     },
     "scenario": {
-      "en": "A part of your body falls asleep.",
-      "zh": "你身体的一部分睡着了。"
+      "en": "After an upsetting moment, a child cannot tell what they are feeling.",
+      "zh": "经历难过的事后，孩子一时说不清自己的感受。"
     },
     "expression": [
       {
@@ -14689,8 +14689,8 @@
       "zh": "不活跃或不反应。"
     },
     "scenario": {
-      "en": "Not having any opinions.",
-      "zh": "你在没有任何意见。"
+      "en": "During a group activity, a child lets everyone else decide.",
+      "zh": "小组活动时，一个孩子总是让别人替自己决定。"
     },
     "expression": [
       {
@@ -14767,8 +14767,8 @@
       "zh": "非常困惑。"
     },
     "scenario": {
-      "en": "Not knowing what to do.",
-      "zh": "你在不知道该做什么。"
+      "en": "A child stares at confusing instructions and does not know where to start.",
+      "zh": "面对看不懂的说明，孩子不知道从哪一步开始。"
     },
     "expression": [
       {
@@ -14923,8 +14923,8 @@
       "zh": "困惑且不理解。"
     },
     "scenario": {
-      "en": "A puzzle is too hard.",
-      "zh": "你在一个难题太难。"
+      "en": "A child cannot figure out how two puzzle pieces fit.",
+      "zh": "孩子怎么也想不通两块拼图该怎么拼。"
     },
     "expression": [
       {
@@ -15157,8 +15157,8 @@
       "zh": "强烈推开。"
     },
     "scenario": {
-      "en": "Disliking something a lot.",
-      "zh": "你在非常不喜欢某事。"
+      "en": "A bad smell makes a child quickly step backward.",
+      "zh": "闻到难闻的味道，孩子忍不住往后退。"
     },
     "expression": [
       {
@@ -15703,8 +15703,8 @@
       "zh": "对意外的事情感到惊讶和沮丧。"
     },
     "scenario": {
-      "en": "A sudden loud sound.",
-      "zh": "你在突然的大声音。"
+      "en": "A sudden loud crash makes a child jump in surprise.",
+      "zh": "突然一声巨响，孩子吃惊得跳了起来。"
     },
     "expression": [
       {
@@ -16171,8 +16171,8 @@
       "zh": "对突然的事情感到惊讶和有点害怕。"
     },
     "scenario": {
-      "en": "A loud noise.",
-      "zh": "你在大声音。"
+      "en": "A door slams unexpectedly and startles a child.",
+      "zh": "门突然砰地关上，把孩子吓了一跳。"
     },
     "expression": [
       {
@@ -16405,8 +16405,8 @@
       "zh": "不是很热情或温暖。"
     },
     "scenario": {
-      "en": "A lukewarm response.",
-      "zh": "你在微温的回应。"
+      "en": "A child answers politely but feels little excitement about an idea.",
+      "zh": "对于一个主意，孩子礼貌回答，但并不太感兴趣。"
     },
     "expression": [
       {
@@ -16561,8 +16561,8 @@
       "zh": "需要休息。"
     },
     "scenario": {
-      "en": "You're feeling sleepy after a long day.",
-      "zh": "你在经过漫长一天后感觉困倦。"
+      "en": "After an active day, a child wants to sit down and rest.",
+      "zh": "活动了一整天，孩子想坐下来休息。"
     },
     "expression": [
       {
@@ -16795,8 +16795,8 @@
       "zh": "对某事不担心。"
     },
     "scenario": {
-      "en": "Not caring about a problem.",
-      "zh": "你在不关心一个问题。"
+      "en": "A child feels unworried about a small problem that seems manageable.",
+      "zh": "面对一个容易处理的小问题，孩子并不担心。"
     },
     "expression": [
       {
@@ -17497,8 +17497,8 @@
       "zh": "非常疲倦。"
     },
     "scenario": {
-      "en": "After a long, hard day.",
-      "zh": "你在经过漫长、艰难的一天后。"
+      "en": "After a long difficult day, a child wants nothing more than rest.",
+      "zh": "辛苦了一整天，孩子只想好好休息。"
     },
     "expression": [
       {
@@ -17887,8 +17887,8 @@
       "zh": "感觉非常不快乐或处于糟糕状态。"
     },
     "scenario": {
-      "en": "Everything feels wrong.",
-      "zh": "你在一切都感觉不对。"
+      "en": "A child feels deeply unhappy after several things go wrong.",
+      "zh": "好几件事都不顺利，孩子心里非常难受。"
     },
     "expression": [
       {
