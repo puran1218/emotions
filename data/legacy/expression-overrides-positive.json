@@ -1,0 +1,1150 @@
+{
+  "alert": [
+    {
+      "en": "I feel wide awake and alert.",
+      "zh": "我现在精神很集中。"
+    },
+    {
+      "en": "I heard a sound and looked around.",
+      "zh": "我听到一个声音，就四处看了看。"
+    },
+    {
+      "en": "Did you hear that too?",
+      "zh": "你也听到了吗？"
+    }
+  ],
+  "amused": [
+    {
+      "en": "That is so funny!",
+      "zh": "这也太好笑了！"
+    },
+    {
+      "en": "The clown made me giggle.",
+      "zh": "小丑把我逗得咯咯笑。"
+    },
+    {
+      "en": "Tell me another funny story!",
+      "zh": "再给我讲一个好玩的故事吧！"
+    }
+  ],
+  "animated": [
+    {
+      "en": "I feel full of energy!",
+      "zh": "我现在活力满满！"
+    },
+    {
+      "en": "I cannot stop dancing to this song.",
+      "zh": "这首歌让我忍不住跳舞。"
+    },
+    {
+      "en": "Come dance with me!",
+      "zh": "来和我一起跳舞吧！"
+    }
+  ],
+  "appreciative": [
+    {
+      "en": "I really appreciate your help.",
+      "zh": "我真的很感谢你的帮助。"
+    },
+    {
+      "en": "You made this easier for me.",
+      "zh": "有你帮忙，这件事容易多了。"
+    },
+    {
+      "en": "Thank you for being so kind.",
+      "zh": "谢谢你这么好！"
+    }
+  ],
+  "ardent": [
+    {
+      "en": "I care about this a lot.",
+      "zh": "我真的很在乎这件事。"
+    },
+    {
+      "en": "I love talking about my favorite hobby.",
+      "zh": "我特别喜欢聊自己热爱的事情。"
+    },
+    {
+      "en": "May I tell you why I love it?",
+      "zh": "我能告诉你我为什么喜欢它吗？"
+    }
+  ],
+  "aroused": [
+    {
+      "en": "Something stirred up a big feeling in me.",
+      "zh": "有件事让我心里起了很大的波澜。"
+    },
+    {
+      "en": "I am not sure how to name this feeling.",
+      "zh": "我还不知道怎么形容这种感觉。"
+    },
+    {
+      "en": "Can you help me understand it?",
+      "zh": "你能帮我弄明白吗？"
+    }
+  ],
+  "astonished": [
+    {
+      "en": "Wow, I did not expect that!",
+      "zh": "哇，我完全没想到！"
+    },
+    {
+      "en": "That magic trick left me speechless.",
+      "zh": "那个魔术让我惊讶得说不出话。"
+    },
+    {
+      "en": "How did you do that?",
+      "zh": "你是怎么做到的？"
+    }
+  ],
+  "blissful": [
+    {
+      "en": "This feels wonderful.",
+      "zh": "这种感觉真幸福。"
+    },
+    {
+      "en": "Eating my favorite ice cream makes me smile.",
+      "zh": "吃到最喜欢的冰淇淋，我开心极了。"
+    },
+    {
+      "en": "I wish this moment could last longer.",
+      "zh": "真希望这一刻再长一点。"
+    }
+  ],
+  "breathless": [
+    {
+      "en": "I need a moment to catch my breath.",
+      "zh": "我得缓一缓，喘口气。"
+    },
+    {
+      "en": "That race made me breathe so fast.",
+      "zh": "刚才跑得我气喘吁吁。"
+    },
+    {
+      "en": "Can we slow down for a bit?",
+      "zh": "我们能慢一点吗？"
+    }
+  ],
+  "buoyant": [
+    {
+      "en": "I feel light and cheerful today.",
+      "zh": "今天我心情轻快极了。"
+    },
+    {
+      "en": "That good news lifted my spirits.",
+      "zh": "这个好消息让我精神一振。"
+    },
+    {
+      "en": "I am ready for something fun!",
+      "zh": "我已经准备好玩点有趣的了！"
+    }
+  ],
+  "carefree": [
+    {
+      "en": "I do not have a worry right now.",
+      "zh": "我现在无忧无虑。"
+    },
+    {
+      "en": "Running in the park feels so free.",
+      "zh": "在公园跑起来真自在。"
+    },
+    {
+      "en": "Let's enjoy this afternoon!",
+      "zh": "我们好好享受这个下午吧！"
+    }
+  ],
+  "comfortable": [
+    {
+      "en": "I feel comfortable here.",
+      "zh": "我在这里很自在。"
+    },
+    {
+      "en": "This soft chair feels just right.",
+      "zh": "这把软椅子坐着真舒服。"
+    },
+    {
+      "en": "Can I stay here a little longer?",
+      "zh": "我能在这里多待一会儿吗？"
+    }
+  ],
+  "complacent": [
+    {
+      "en": "I thought I had done enough.",
+      "zh": "我原以为自己做得够好了。"
+    },
+    {
+      "en": "I stopped checking my work too early.",
+      "zh": "我太早就不检查作业了。"
+    },
+    {
+      "en": "Maybe I should take another look.",
+      "zh": "也许我该再检查一遍。"
+    }
+  ],
+  "composed": [
+    {
+      "en": "I am keeping calm.",
+      "zh": "我正在努力保持镇定。"
+    },
+    {
+      "en": "I took a breath before answering.",
+      "zh": "回答前我先深吸了一口气。"
+    },
+    {
+      "en": "I can handle this one step at a time.",
+      "zh": "我可以一步一步来。"
+    }
+  ],
+  "concerned-met": [
+    {
+      "en": "I care about how you feel.",
+      "zh": "我很在乎你的感受。"
+    },
+    {
+      "en": "You seem quiet today; are you okay?",
+      "zh": "你今天有点安静，还好吗？"
+    },
+    {
+      "en": "Would you like to talk?",
+      "zh": "你想聊一聊吗？"
+    }
+  ],
+  "cool": [
+    {
+      "en": "I feel pretty cool in this outfit.",
+      "zh": "穿上这身衣服，我觉得自己挺酷。"
+    },
+    {
+      "en": "These shoes make me smile.",
+      "zh": "这双鞋让我很开心。"
+    },
+    {
+      "en": "What do you think of my style?",
+      "zh": "你觉得我这样穿怎么样？"
+    }
+  ],
+  "dazzled": [
+    {
+      "en": "Wow, the lights are so bright!",
+      "zh": "哇，这些灯光真耀眼！"
+    },
+    {
+      "en": "The sparkling show amazed me.",
+      "zh": "闪亮的表演让我看呆了。"
+    },
+    {
+      "en": "Can we watch it again?",
+      "zh": "我们能再看一遍吗？"
+    }
+  ],
+  "ebullient": [
+    {
+      "en": "I feel full of excitement!",
+      "zh": "我高兴得快跳起来了！"
+    },
+    {
+      "en": "I have so much good news to share.",
+      "zh": "我有好多好消息想说。"
+    },
+    {
+      "en": "Can I tell you all about it?",
+      "zh": "我能一口气讲给你听吗？"
+    }
+  ],
+  "ecstatic": [
+    {
+      "en": "I am happier than I can say!",
+      "zh": "我开心得不知道怎么说了！"
+    },
+    {
+      "en": "I can hardly believe we won.",
+      "zh": "我简直不敢相信我们赢了。"
+    },
+    {
+      "en": "Let's celebrate together!",
+      "zh": "我们一起庆祝吧！"
+    }
+  ],
+  "effervescent": [
+    {
+      "en": "I feel bubbly and cheerful!",
+      "zh": "我现在开心得冒泡！"
+    },
+    {
+      "en": "I cannot stop laughing with my friends.",
+      "zh": "和朋友在一起，我笑个不停。"
+    },
+    {
+      "en": "Come join the fun!",
+      "zh": "快来一起玩呀！"
+    }
+  ],
+  "elated": [
+    {
+      "en": "I feel so happy and proud!",
+      "zh": "我开心又自豪！"
+    },
+    {
+      "en": "We finally finished our big project.",
+      "zh": "我们终于完成那个大作品啦。"
+    },
+    {
+      "en": "Can I show you what we made?",
+      "zh": "我能给你看看我们的作品吗？"
+    }
+  ],
+  "enchanted": [
+    {
+      "en": "This feels like magic.",
+      "zh": "这感觉像魔法一样！"
+    },
+    {
+      "en": "The glowing garden has me spellbound.",
+      "zh": "闪闪发光的花园让我看入迷了。"
+    },
+    {
+      "en": "Can we explore a little more?",
+      "zh": "我们能再逛逛吗？"
+    }
+  ],
+  "encouraged": [
+    {
+      "en": "I feel ready to try again.",
+      "zh": "我又有勇气试一次了。"
+    },
+    {
+      "en": "Your words helped me believe in myself.",
+      "zh": "你的话让我更相信自己。"
+    },
+    {
+      "en": "Thank you for cheering me on.",
+      "zh": "谢谢你为我加油。"
+    }
+  ],
+  "energetic": [
+    {
+      "en": "I have so much energy today!",
+      "zh": "我今天精力可充沛了！"
+    },
+    {
+      "en": "I want to jump and run outside.",
+      "zh": "我想出去蹦蹦跳跳。"
+    },
+    {
+      "en": "Want to play a game?",
+      "zh": "要不要一起玩个游戏？"
+    }
+  ],
+  "engrossed": [
+    {
+      "en": "I am really into this story.",
+      "zh": "这个故事让我看入迷了。"
+    },
+    {
+      "en": "I did not even hear the bell.",
+      "zh": "我专心得连铃声都没听见。"
+    },
+    {
+      "en": "Can I read one more page?",
+      "zh": "我能再读一页吗？"
+    }
+  ],
+  "enlivened": [
+    {
+      "en": "That music cheered me up!",
+      "zh": "那段音乐让我精神一振！"
+    },
+    {
+      "en": "I felt sleepy, but now I want to dance.",
+      "zh": "刚才还有点困，现在我想跳舞了。"
+    },
+    {
+      "en": "Let's turn the music on again!",
+      "zh": "我们再放一次音乐吧！"
+    }
+  ],
+  "enthusiastic": [
+    {
+      "en": "I cannot wait to get started!",
+      "zh": "我已经迫不及待了！"
+    },
+    {
+      "en": "I have so many ideas for our project.",
+      "zh": "我们的作品我有好多点子。"
+    },
+    {
+      "en": "Can I help make it?",
+      "zh": "我能一起动手做吗？"
+    }
+  ],
+  "exhilarated": [
+    {
+      "en": "That was such an exciting ride!",
+      "zh": "刚才的游乐设施太刺激了！"
+    },
+    {
+      "en": "My heart was racing in a happy way.",
+      "zh": "我开心得心怦怦跳。"
+    },
+    {
+      "en": "Can we tell everyone about it?",
+      "zh": "我们能讲给大家听吗？"
+    }
+  ],
+  "expansive": [
+    {
+      "en": "I feel open and friendly today.",
+      "zh": "今天我很想和大家交朋友。"
+    },
+    {
+      "en": "I enjoyed meeting the new children.",
+      "zh": "认识新朋友让我很开心。"
+    },
+    {
+      "en": "Would you like to join us?",
+      "zh": "你想加入我们吗？"
+    }
+  ],
+  "expectant": [
+    {
+      "en": "I am looking forward to tomorrow.",
+      "zh": "我好期待明天。"
+    },
+    {
+      "en": "I keep wondering what the trip will be like.",
+      "zh": "我一直在想旅行会是什么样。"
+    },
+    {
+      "en": "What are you looking forward to?",
+      "zh": "你最期待什么？"
+    }
+  ],
+  "exultant": [
+    {
+      "en": "We did it!",
+      "zh": "我们成功啦！"
+    },
+    {
+      "en": "Our team scored the winning point.",
+      "zh": "我们队拿到了制胜的一分。"
+    },
+    {
+      "en": "Come cheer with us!",
+      "zh": "快来和我们一起欢呼！"
+    }
+  ],
+  "friendly": [
+    {
+      "en": "I want to be friendly.",
+      "zh": "我想友好地对待别人。"
+    },
+    {
+      "en": "I smiled and said hello to the new child.",
+      "zh": "我笑着向新同学打招呼。"
+    },
+    {
+      "en": "Would you like to play with us?",
+      "zh": "你想和我们一起玩吗？"
+    }
+  ],
+  "fulfilled": [
+    {
+      "en": "I feel satisfied with what I made.",
+      "zh": "我对自己的作品很满足。"
+    },
+    {
+      "en": "The tower is finally finished.",
+      "zh": "积木塔终于搭好了。"
+    },
+    {
+      "en": "May I show it to you?",
+      "zh": "我能给你看看吗？"
+    }
+  ],
+  "glad": [
+    {
+      "en": "I am glad you are here.",
+      "zh": "你来了，我真开心。"
+    },
+    {
+      "en": "Your thank-you note made me smile.",
+      "zh": "你的感谢小纸条让我笑了。"
+    },
+    {
+      "en": "Shall we do something fun together?",
+      "zh": "我们一起玩点什么吧？"
+    }
+  ],
+  "gleeful": [
+    {
+      "en": "I cannot stop giggling!",
+      "zh": "我忍不住咯咯地笑。"
+    },
+    {
+      "en": "That silly game is so much fun.",
+      "zh": "那个搞笑的游戏真好玩。"
+    },
+    {
+      "en": "Want to play another round?",
+      "zh": "还想再玩一轮吗？"
+    }
+  ],
+  "glorious": [
+    {
+      "en": "I feel proud of this moment.",
+      "zh": "这一刻让我很自豪。"
+    },
+    {
+      "en": "We finally finished something difficult.",
+      "zh": "我们终于完成了一件难事。"
+    },
+    {
+      "en": "Can we remember this day?",
+      "zh": "我们能记住这一天吗？"
+    }
+  ],
+  "glowing": [
+    {
+      "en": "I am beaming with happiness!",
+      "zh": "我高兴得脸上都发光了！"
+    },
+    {
+      "en": "I feel proud of what I did today.",
+      "zh": "我为今天的表现感到自豪。"
+    },
+    {
+      "en": "Can I tell you why?",
+      "zh": "我能告诉你为什么吗？"
+    }
+  ],
+  "good-humored": [
+    {
+      "en": "I am in a cheerful mood.",
+      "zh": "我今天心情很好。"
+    },
+    {
+      "en": "I can laugh at my own silly mistake.",
+      "zh": "我连自己闹的小笑话都能笑出来。"
+    },
+    {
+      "en": "Want to hear a joke?",
+      "zh": "想听个笑话吗？"
+    }
+  ],
+  "gratified": [
+    {
+      "en": "I am happy with how it turned out.",
+      "zh": "结果这样，我很满足。"
+    },
+    {
+      "en": "Our plan worked just the way we hoped.",
+      "zh": "我们的计划和希望的一样成功了。"
+    },
+    {
+      "en": "Let's thank everyone who helped.",
+      "zh": "我们谢谢帮忙的人吧。"
+    }
+  ],
+  "helpful": [
+    {
+      "en": "I would like to help.",
+      "zh": "我想帮帮忙。"
+    },
+    {
+      "en": "I can carry some of those books.",
+      "zh": "我可以帮你拿几本书。"
+    },
+    {
+      "en": "What can I do to help you?",
+      "zh": "我能帮你做些什么？"
+    }
+  ],
+  "inquisitive": [
+    {
+      "en": "I have so many questions!",
+      "zh": "我有好多问题想问！"
+    },
+    {
+      "en": "I wonder why the moon changes shape.",
+      "zh": "我想知道月亮为什么会变形。"
+    },
+    {
+      "en": "Could we look it up together?",
+      "zh": "我们能一起查一查吗？"
+    }
+  ],
+  "intense-met": [
+    {
+      "en": "I feel something very strongly.",
+      "zh": "我现在有一种很强烈的感觉。"
+    },
+    {
+      "en": "That story stayed in my mind all day.",
+      "zh": "那个故事让我一整天都忘不掉。"
+    },
+    {
+      "en": "Could I tell you what moved me?",
+      "zh": "我能讲讲它为什么打动我吗？"
+    }
+  ],
+  "intrigued": [
+    {
+      "en": "That is interesting and mysterious.",
+      "zh": "这件事有趣又神秘。"
+    },
+    {
+      "en": "I want to know what happens next.",
+      "zh": "我真想知道接下来会怎样。"
+    },
+    {
+      "en": "Can we keep reading?",
+      "zh": "我们能接着读吗？"
+    }
+  ],
+  "invigorated": [
+    {
+      "en": "I feel fresh and full of energy!",
+      "zh": "我现在神清气爽！"
+    },
+    {
+      "en": "A good night's sleep helped me feel better.",
+      "zh": "睡了一觉，我舒服多了。"
+    },
+    {
+      "en": "Want to go for a walk?",
+      "zh": "要不要出去走走？"
+    }
+  ],
+  "involved": [
+    {
+      "en": "I want to be part of this.",
+      "zh": "我也想参与进来。"
+    },
+    {
+      "en": "Everyone is building the model together.",
+      "zh": "大家正在一起搭模型。"
+    },
+    {
+      "en": "Is there a job I can help with?",
+      "zh": "有没有我能帮忙的地方？"
+    }
+  ],
+  "joyous": [
+    {
+      "en": "This is such a joyful day!",
+      "zh": "今天真是快乐的一天！"
+    },
+    {
+      "en": "We have been laughing together all morning.",
+      "zh": "我们笑着玩了一上午。"
+    },
+    {
+      "en": "Let's make another happy memory!",
+      "zh": "我们再一起创造开心的回忆吧！"
+    }
+  ],
+  "jubilant": [
+    {
+      "en": "Hooray, we made it!",
+      "zh": "太棒啦，我们成功了！"
+    },
+    {
+      "en": "Everyone cheered when the game ended.",
+      "zh": "比赛结束时大家都欢呼起来。"
+    },
+    {
+      "en": "High five!",
+      "zh": "击个掌吧！"
+    }
+  ],
+  "keyed-up": [
+    {
+      "en": "I feel excited and a little jumpy.",
+      "zh": "我既兴奋又有点紧张。"
+    },
+    {
+      "en": "The race is about to start.",
+      "zh": "比赛马上就要开始了。"
+    },
+    {
+      "en": "Can we take one deep breath first?",
+      "zh": "我们先深呼吸一下好吗？"
+    }
+  ],
+  "loving": [
+    {
+      "en": "I feel so much love for my family.",
+      "zh": "我很爱我的家人。"
+    },
+    {
+      "en": "I like sitting close to them.",
+      "zh": "我喜欢靠着家人坐。"
+    },
+    {
+      "en": "Can I give you a hug?",
+      "zh": "我能抱抱你吗？"
+    }
+  ],
+  "mellow": [
+    {
+      "en": "I feel peaceful and gentle today.",
+      "zh": "今天我心里很柔和、平静。"
+    },
+    {
+      "en": "The warm afternoon makes me sleepy.",
+      "zh": "暖暖的下午让我有点想睡。"
+    },
+    {
+      "en": "Shall we listen to some quiet music?",
+      "zh": "我们听点轻柔的音乐好吗？"
+    }
+  ],
+  "merry": [
+    {
+      "en": "I am in a happy, festive mood!",
+      "zh": "我今天很有节日的好心情！"
+    },
+    {
+      "en": "The party music makes me smile.",
+      "zh": "派对音乐让我笑开了花。"
+    },
+    {
+      "en": "Come celebrate with us!",
+      "zh": "来和我们一起庆祝吧！"
+    }
+  ],
+  "mirthful": [
+    {
+      "en": "I am full of laughter today!",
+      "zh": "今天我笑个不停！"
+    },
+    {
+      "en": "My friend just told a silly joke.",
+      "zh": "朋友刚讲了个好笑的笑话。"
+    },
+    {
+      "en": "Tell me another one!",
+      "zh": "再讲一个吧！"
+    }
+  ],
+  "moved": [
+    {
+      "en": "That story really touched me.",
+      "zh": "那个故事真的让我感动。"
+    },
+    {
+      "en": "I felt tears in my eyes at the ending.",
+      "zh": "看到结尾我眼眶都湿了。"
+    },
+    {
+      "en": "Can I tell you which part I loved?",
+      "zh": "我能说说最喜欢哪一段吗？"
+    }
+  ],
+  "optimistic": [
+    {
+      "en": "I think things can get better.",
+      "zh": "我相信事情会慢慢好起来。"
+    },
+    {
+      "en": "Today was hard, but tomorrow is another chance.",
+      "zh": "今天虽然难，明天还有机会。"
+    },
+    {
+      "en": "Shall we try again together?",
+      "zh": "我们一起再试试好吗？"
+    }
+  ],
+  "overjoyed": [
+    {
+      "en": "I am so happy I could jump!",
+      "zh": "我开心得快跳起来了！"
+    },
+    {
+      "en": "I got the news I was waiting for.",
+      "zh": "我等了好久的好消息终于来了。"
+    },
+    {
+      "en": "Come celebrate with me!",
+      "zh": "来和我一起庆祝吧！"
+    }
+  ],
+  "overwhelmed-met": [
+    {
+      "en": "I have so many happy feelings at once!",
+      "zh": "我一下子涌上好多开心的感觉！"
+    },
+    {
+      "en": "Everyone surprised me on my birthday.",
+      "zh": "大家在我生日这天给了我惊喜。"
+    },
+    {
+      "en": "I need a moment to take it all in.",
+      "zh": "让我缓一缓，好好感受这一切。"
+    }
+  ],
+  "peaceful": [
+    {
+      "en": "I feel peaceful.",
+      "zh": "我心里很平静。"
+    },
+    {
+      "en": "The house is quiet early in the morning.",
+      "zh": "清晨的家里很安静。"
+    },
+    {
+      "en": "Can we enjoy this quiet for a while?",
+      "zh": "我们能安静地待一会儿吗？"
+    }
+  ],
+  "perky": [
+    {
+      "en": "I feel bright and lively!",
+      "zh": "我今天精神特别好！"
+    },
+    {
+      "en": "I jumped out of bed ready to play.",
+      "zh": "我一早起来就想出去玩。"
+    },
+    {
+      "en": "Shall we go outside?",
+      "zh": "我们出去走走好吗？"
+    }
+  ],
+  "pleasant": [
+    {
+      "en": "This feels nice.",
+      "zh": "这感觉真不错。"
+    },
+    {
+      "en": "The breeze on my face is so gentle.",
+      "zh": "微风吹在脸上好舒服。"
+    },
+    {
+      "en": "Want to sit here for a while?",
+      "zh": "想在这里坐一会儿吗？"
+    }
+  ],
+  "pleased": [
+    {
+      "en": "I am pleased with my work.",
+      "zh": "我对自己的作品很满意。"
+    },
+    {
+      "en": "I tried hard, and it turned out well.",
+      "zh": "我很努力，结果也不错。"
+    },
+    {
+      "en": "Can I show you what I did?",
+      "zh": "我能给你看看我做的吗？"
+    }
+  ],
+  "quiet": [
+    {
+      "en": "I want a little quiet time.",
+      "zh": "我想安静一会儿。"
+    },
+    {
+      "en": "Reading by myself feels peaceful.",
+      "zh": "自己安静看书真舒服。"
+    },
+    {
+      "en": "Could we turn the volume down?",
+      "zh": "我们能把声音调小吗？"
+    }
+  ],
+  "radiant": [
+    {
+      "en": "I feel so happy inside!",
+      "zh": "我心里好高兴！"
+    },
+    {
+      "en": "I cannot stop smiling after that surprise.",
+      "zh": "那个惊喜让我笑个不停。"
+    },
+    {
+      "en": "May I tell you the good news?",
+      "zh": "我能告诉你那个好消息吗？"
+    }
+  ],
+  "rapturous": [
+    {
+      "en": "I am over the moon!",
+      "zh": "我开心得不得了！"
+    },
+    {
+      "en": "This is the happiest surprise I have had all week.",
+      "zh": "这是我这周最开心的惊喜。"
+    },
+    {
+      "en": "Come celebrate with us!",
+      "zh": "快来和我们一起庆祝吧！"
+    }
+  ],
+  "refreshed": [
+    {
+      "en": "I feel refreshed after resting.",
+      "zh": "休息之后我神清气爽。"
+    },
+    {
+      "en": "That nap helped me get my energy back.",
+      "zh": "睡了一小觉，我又有力气了。"
+    },
+    {
+      "en": "I am ready to play again!",
+      "zh": "我又可以出去玩了！"
+    }
+  ],
+  "satisfied": [
+    {
+      "en": "I feel satisfied.",
+      "zh": "我现在很满足。"
+    },
+    {
+      "en": "I finished my meal and feel just right.",
+      "zh": "我吃完饭，感觉刚刚好。"
+    },
+    {
+      "en": "I am happy with how things turned out.",
+      "zh": "我对结果很满意。"
+    }
+  ],
+  "secure": [
+    {
+      "en": "I feel safe here.",
+      "zh": "我在这里很安心。"
+    },
+    {
+      "en": "Being with my family helps me relax.",
+      "zh": "和家人在一起让我很放心。"
+    },
+    {
+      "en": "Can we stay together a little longer?",
+      "zh": "我们能再一起待一会儿吗？"
+    }
+  ],
+  "sensitive-met": [
+    {
+      "en": "That story moved me deeply.",
+      "zh": "那个故事让我很感动。"
+    },
+    {
+      "en": "I felt tears in my eyes at the ending.",
+      "zh": "看到结尾我眼眶都湿了。"
+    },
+    {
+      "en": "Can I tell you why it mattered to me?",
+      "zh": "我能说说它为什么打动我吗？"
+    }
+  ],
+  "serene": [
+    {
+      "en": "I feel peaceful and still.",
+      "zh": "我觉得宁静又自在。"
+    },
+    {
+      "en": "Watching the sunset makes me slow down.",
+      "zh": "看日落让我慢慢放松下来。"
+    },
+    {
+      "en": "Can we watch quietly together?",
+      "zh": "我们一起安静地看好吗？"
+    }
+  ],
+  "spellbound": [
+    {
+      "en": "I cannot take my eyes off this!",
+      "zh": "我看得挪不开眼！"
+    },
+    {
+      "en": "The magician's tricks are amazing.",
+      "zh": "魔术师的表演太神奇了。"
+    },
+    {
+      "en": "Can we stay until it is over?",
+      "zh": "我们能看完再走吗？"
+    }
+  ],
+  "splendid": [
+    {
+      "en": "What a wonderful sight!",
+      "zh": "这景象真壮观！"
+    },
+    {
+      "en": "The fireworks light up the sky.",
+      "zh": "烟花把夜空照得亮亮的。"
+    },
+    {
+      "en": "Shall we watch from here?",
+      "zh": "我们在这里看好吗？"
+    }
+  ],
+  "stimulated": [
+    {
+      "en": "This has me thinking!",
+      "zh": "这件事让我开始动脑筋！"
+    },
+    {
+      "en": "I learned something new in class today.",
+      "zh": "今天课上我学到了新东西。"
+    },
+    {
+      "en": "Can we try a little experiment?",
+      "zh": "我们试个小实验好吗？"
+    }
+  ],
+  "surprised-met": [
+    {
+      "en": "What a lovely surprise!",
+      "zh": "这真是个美好的惊喜！"
+    },
+    {
+      "en": "I had no idea you made this for me.",
+      "zh": "我完全不知道你为我准备了这个。"
+    },
+    {
+      "en": "How did you keep it a secret?",
+      "zh": "你怎么保守住秘密的？"
+    }
+  ],
+  "tender": [
+    {
+      "en": "I feel very gentle toward the kitten.",
+      "zh": "看到小猫，我心里软软的。"
+    },
+    {
+      "en": "I want to pet it carefully.",
+      "zh": "我想轻轻摸摸它。"
+    },
+    {
+      "en": "Is it okay if I touch it?",
+      "zh": "我可以摸摸它吗？"
+    }
+  ],
+  "thrilled": [
+    {
+      "en": "I am so thrilled!",
+      "zh": "我太激动了！"
+    },
+    {
+      "en": "That roller coaster was exciting.",
+      "zh": "刚才坐过山车太刺激了。"
+    },
+    {
+      "en": "Can I tell you how it felt?",
+      "zh": "我能告诉你是什么感觉吗？"
+    }
+  ],
+  "touched": [
+    {
+      "en": "That was so kind of you.",
+      "zh": "你真贴心。"
+    },
+    {
+      "en": "Your note made me feel loved.",
+      "zh": "你的小纸条让我感到被爱。"
+    },
+    {
+      "en": "Thank you for thinking of me.",
+      "zh": "谢谢你惦记着我。"
+    }
+  ],
+  "tranquil": [
+    {
+      "en": "I feel very calm here.",
+      "zh": "在这里我特别平静。"
+    },
+    {
+      "en": "The lake is smooth in the morning light.",
+      "zh": "晨光里的湖面平静极了。"
+    },
+    {
+      "en": "Can we sit and listen to the birds?",
+      "zh": "我们坐着听听鸟叫好吗？"
+    }
+  ],
+  "trusting": [
+    {
+      "en": "I know I can trust you.",
+      "zh": "我知道我可以信任你。"
+    },
+    {
+      "en": "You kept the promise you made.",
+      "zh": "你兑现了答应我的事。"
+    },
+    {
+      "en": "May I tell you something important?",
+      "zh": "我能告诉你一件重要的事吗？"
+    }
+  ],
+  "upbeat": [
+    {
+      "en": "I feel positive today!",
+      "zh": "今天我心情特别积极！"
+    },
+    {
+      "en": "My favorite song lifted my mood.",
+      "zh": "最喜欢的歌让我心情变好了。"
+    },
+    {
+      "en": "Shall we sing together?",
+      "zh": "我们一起唱好吗？"
+    }
+  ],
+  "warm": [
+    {
+      "en": "I feel warm and cozy.",
+      "zh": "我觉得暖暖的，很舒服。"
+    },
+    {
+      "en": "This blanket is so soft.",
+      "zh": "这条毯子好柔软。"
+    },
+    {
+      "en": "Can we snuggle up and read?",
+      "zh": "我们裹着毯子看书好吗？"
+    }
+  ],
+  "wide-awake": [
+    {
+      "en": "I am wide awake now!",
+      "zh": "我现在清醒得很！"
+    },
+    {
+      "en": "A good sleep left me full of energy.",
+      "zh": "睡了个好觉，我精神十足。"
+    },
+    {
+      "en": "Are you ready to start the day?",
+      "zh": "准备好开始新的一天了吗？"
+    }
+  ],
+  "wonderful": [
+    {
+      "en": "What a wonderful day!",
+      "zh": "今天真美好！"
+    },
+    {
+      "en": "I loved every moment of our trip.",
+      "zh": "这次旅行的每一刻我都很喜欢。"
+    },
+    {
+      "en": "Can we come back someday?",
+      "zh": "我们以后还能再来吗？"
+    }
+  ],
+  "zestful": [
+    {
+      "en": "I feel full of energy and excitement!",
+      "zh": "我现在充满干劲！"
+    },
+    {
+      "en": "Playing football makes me come alive.",
+      "zh": "踢足球让我活力满满。"
+    },
+    {
+      "en": "Come play a game with me!",
+      "zh": "来和我一起玩一场吧！"
+    }
+  ]
+}
