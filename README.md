@@ -1,18 +1,40 @@
 # EmoLex — An Illustrated Dictionary of Feelings
 
-A playful, bilingual (English and Chinese) dictionary that helps children **explore, understand and express** their feelings. Designed as a lightweight **standalone micro.blog plug-in** at `/emotions/`, with no login, server, AI runtime, analytics, bundled web fonts or theme overrides.
+EmoLex is a playful bilingual (English + Chinese) feelings dictionary for children and their families. This repository ships a **standalone micro.blog plug-in** at `/emotions/` with no login, backend, AI runtime, external font service or changes to the host blog theme.
 
-## Current scope and readiness
+## What you can try today
 
-The application is functionally usable: illustrated master–detail navigation, bilingual search and filters, definitions, one relevant everyday scene, three ordered **YOU CAN SAY...** expressions per entry, speech for headwords and each expression, related words, shareable links and offline PNG images. It supports iPhone, iPad and desktop from the same static files.
+- **225 browsable concepts:** five original pilot concepts plus **220 expanded legacy concepts**, each with an English/Chinese headword, definition, one everyday scene and **three individually drafted bilingual expressions** under **YOU CAN SAY...**
+- **10 additional ambiguity-sensitive concepts** are preserved in the editorial sources but **withheld** from public browsing until reviewed (including adult/clinical senses or terms that are not clearly feelings). None is silently discarded.
+- Independent **Explore → Detail** pages on phones; simultaneous master–detail panels on wider iPads and desktops. Search, filter, browser history, deep links such as `?word=joy`, language order toggle, headword and sentence TTS, related feelings, Share link and offline Share image are included.
+- Every concept currently uses the same intentional, neutral `feeling-placeholder.svg`. Actual illustrations will be produced in a **separate later PR** following [DESIGN-PATTERN.md](docs/DESIGN-PATTERN.md) and [ILLUSTRATION-BIBLE.md](docs/ILLUSTRATION-BIBLE.md).
 
-**Content is not complete yet.** There are **five bilingual pilot concepts** with rich content. The source inventory has **322 occurrences** (242 English across two categories, 80 Chinese), including 234 distinct English forms. Those source lists are **not** an approved bilingual dictionary. The earlier `emotions-card.zip` reportedly contains around **235 legacy entries**; its full explanations are **not yet in this repository**. Do not market or release the five-entry preview as complete lexical coverage.
+**Content status:** this is a **broad editorial preview**, not a human-approved bilingual dictionary. The original legacy explanatory texts have been preserved and the new scenes/expressions drafted individually, but final meaning, translation and child-suitability approval is still outstanding. In particular, do **not** confuse successful automated validation with editorial sign-off.
 
-All visible concepts currently share one honest neutral `feeling-placeholder.svg` while the illustration project is deliberately deferred. No unfinished Sketch artwork is published in the plug-in. The exact art-direction and swappable asset contract are in [docs/DESIGN-PATTERN.md](docs/DESIGN-PATTERN.md).
+## Where the content came from
 
-## Preview locally
+`data/legacy/emotions-card.json` contains a lossless transcription of the supplied `emotions-card.zip` (**235 historic rows / 230 distinct English forms**). It preserves source category and index, duplicate occurrences and the original EN/ZH explanations, including legacy mistakes.
 
-Install Node.js 22+ and run:
+The migration maps **5 historic rows to existing pilot concepts** and produces **230 new concept drafts**. Five duplicated source spellings receive separate sense IDs instead of being overwritten. Every historic row is linked to a stable concept ID in `data/legacy/migration-report.json` and the 322-occurrence `data/review-ledger.jsonl`. All **235 legacy source rows have been mapped**; seven English source occurrences not present in the ZIP and 80 independent Chinese source occurrences still require editorial decisions. No migration record is marked reviewed or published automatically.
+
+The authoring files are:
+
+| File | Purpose |
+| --- | --- |
+| `data/legacy/emotions-card.json` | Original, unchanged bilingual explanations and provenance |
+| `data/concepts/pilot.json` | Five established example concepts |
+| `data/concepts/legacy-expanded.json` | 230 complete-schema bilingual editorial drafts (220 preview, 10 withheld) |
+| `data/legacy/expression-overrides-*.json` | Individually composed EN/ZH expression sets |
+| `data/legacy/scene-overrides.json` | 79 manually rewritten scene pairs |
+| `data/legacy/semantic-overrides.json` | 49 documented sense/Chinese-definition corrections |
+| `data/legacy/migration-report.json` | Individual source links, withheld words and review flags |
+| `static/emotions/data/emotions.json` | Generated, plug-in-readable projection of preview-eligible content |
+
+**Do not edit the generated runtime JSON directly.** Update canonical content and documented overrides, then rebuild. For a new artwork file later, update the canonical illustration path/stage/alt rather than changing UI templates.
+
+## Development
+
+Requires Node.js 22+ for tooling only; the published application is plain static HTML/CSS/JavaScript.
 
 ```bash
 npm test
@@ -20,48 +42,35 @@ npm run content:coverage
 python3 -m http.server 8000
 ```
 
-Open [http://localhost:8000/static/emotions/](http://localhost:8000/static/emotions/). Search for Joy, Frustration, Loneliness, Affection or Relief. Switch EN/中文; test headword and example speech; test PNG sharing (native file share when supported, otherwise download); test `?word=joy` and browser Back.
+Open `http://localhost:8000/static/emotions/`. Try `?word=joy`, `?word=concerned-met`, `?word=concerned-unmet`; test EN/中文, speaking every sentence, search, native image sharing or download, browser Back and empty search.
 
-`npm run build:data` regenerates `static/emotions/data/emotions.json` from the canonical `data/concepts/pilot.json`. **Do not edit the generated runtime JSON directly.**
+```bash
+npm run migrate:legacy
+npm run build:data
+npm test
+npm run release:check
+```
 
-`npm test` validates the source ledger and content structure, rendering/search/speech/share contract, and micro.blog static resource paths. `npm run release:check` performs those tests **plus** a full-content coverage check. It will fail while source words and editorial review are incomplete; that failure is intentional.
+`migrate:legacy` deterministically reapplies the archived source and editorial override files; `build:data` refreshes the static runtime. CI runs `migrate-legacy --check` to catch drift, validates the source inventory and 235 historical links, checks bilingual content and artwork contracts, exercises key UI actions, and checks micro.blog static paths.
 
-## Install privately on micro.blog
+`release:check` is intentionally **not green**: it requires substantive sign-off and explicit source occurrence disposition rather than considering editor-drafted fields automatically approved. This does **not** prevent a clearly labeled personal preview installation.
 
-Once PR #1 is merged into the branch you want micro.blog to clone:
+## micro.blog personal preview installation
 
-1. In micro.blog, open **Design → Edit Custom Themes → New Plug-in**.
-2. Enter `https://github.com/puran1218/emotions` as the repository/clone URL, name it **EmoLex**, and save/install the plug-in for the correct blog.
-3. Publish/rebuild the blog if necessary, then open `https://YOUR-BLOG-DOMAIN/emotions/`.
-4. Verify `/emotions/?word=joy`, EN/中文, speech, search, PNG sharing and that other blog pages were not visually modified.
-5. On subsequent repository updates, use the micro.blog plug-in update workflow and change `plugin.json` version when shipping a new release.
+After merging into the GitHub branch you want micro.blog to use, use **Design → Edit Custom Themes → New Plug-in** in micro.blog to clone or install from `https://github.com/puran1218/emotions`. Activate it for your blog, rebuild/publish and visit `https://YOUR-BLOG-DOMAIN/emotions/`. Confirm that `/emotions/?word=joy` works and that ordinary blog pages have not changed.
 
-This is a **theme-neutral static plug-in**: `plugin.json` requires no `includes` or configuration fields. Hugo publishes `static/emotions/index.html` as `/emotions/`, with assets alongside it. Do **not** add a blog page also using the `/emotions/` slug.
+The root `plugin.json` is the plug-in manifest; `static/emotions/` is the entire published application. No global `includes` or theme changes are necessary. If your site already uses the `/emotions/` page name, change that conflict first.
 
-micro.blog guidance: [Developing plug-ins](https://help.micro.blog/t/plug-ins/104), [Importing static content](https://help.micro.blog/t/importing-static-content/2337), [Standalone static page](https://help.micro.blog/t/single-page/1167).
+**Real micro.blog installation, real Safari/iPhone/iPad audio and native share behavior still require hands-on verification.** Automated tests validate structure, not live deployment.
 
-**Installation is not yet verified on a real micro.blog site.** The automated checks cover repository structure and paths, not the hosted platform or real iOS speech/share behavior.
+## Release and illustration plan
 
-## Source layout
+1. **PR #1:** preserve the complete legacy bilingual source, make editorial drafts browseable, fix ambiguous senses, define the unified playful editorial UI and all static plug-in machinery. Merge for **personal editorial preview** after your own device smoke test; do not label it fully reviewed.
+2. **Editorial follow-up:** resolve the seven source gaps, 80 Chinese source occurrences, 10 withheld terms, and all outstanding review flags; approve translation, meaning, expressions and child suitability per concept. Only then mark content `published` and expect `release:check` to pass.
+3. **Separate illustration branch:** produce Playful Color Sketch artwork using the already agreed illustration bible, then replace the shared placeholder via each concept's `illustration.src/stage/alt`. No redefinition of design direction is needed.
 
-| Location | Purpose |
-| --- | --- |
-| `plugin.json` | micro.blog plug-in metadata/version |
-| `static/emotions/` | Entire standalone app distributed to the blog |
-| `static/emotions/images/feeling-placeholder.svg` | Shared, neutral 3:2 illustrated placeholder |
-| `data/concepts/pilot.json` | Canonical bilingual editorial content |
-| `static/emotions/data/emotions.json` | Generated runtime content |
-| `data/source-words.json` / `data/review-ledger.jsonl` | Original vocabulary and individual review tracking |
-| `docs/DESIGN-PATTERN.md` | Main UI + illustration + interaction pattern |
-| `docs/CONTENT-EDITORIAL.md` | Sense, translation and review policy |
-| `docs/ILLUSTRATION-BIBLE.md` | Future Playful Color Sketch art specification |
-
-## Merge/release decisions
-
-**Merge PR #1 as a five-entry private pilot** after local and hosted-device acceptance if that limited vocabulary is explicitly acceptable. **For a complete dictionary release**, recover and migrate the missing legacy content, resolve coverage in the ledger, edit/check every bilingual definition, scenario and three expressive examples, and pass `npm run release:check`. Art can remain the common placeholder while content is approved. Do not invent fake translations or filler examples merely to satisfy a word count.
-
-Final illustrations belong in a **separate later PR**. The new image should become the canonical concept's `illustration.src` and accurate alt text; Explore, Detail and Share PNG will all pick it up without UI changes.
+See [CONTENT-AUDIT.md](docs/CONTENT-AUDIT.md), [CONTENT-EDITORIAL.md](docs/CONTENT-EDITORIAL.md), [REVIEW-LEDGER.md](docs/REVIEW-LEDGER.md) and [MOBILE-EXPERIENCE.md](docs/MOBILE-EXPERIENCE.md) for editorial and QA details.
 
 ## Privacy
 
-No user data collection, logins, microphone capture or third-party API calls. Speech depends on the browser/operating system's available voices; local language preference is remembered via localStorage when supported.
+No accounts, analytics SDK, microphone capture or AI calls. Browser voices depend on the user’s operating system. Language preference is stored locally when supported.
