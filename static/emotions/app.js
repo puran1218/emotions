@@ -133,7 +133,7 @@
   function headline(e,context){
     const names=head(e),sp=e.pronunciation?.[language],phrase=sp?.text||names[0];
     const locale=sp?.locale||(language==='zh'?'zh-CN':'en-US');
-    const form=language==='zh'?[e.word.feelingZh,e.word.feelingEn]:[e.word.feelingEn,e.word.feelingZh];
+    const form=language==='zh'?[e.word.feelingZh,e.word.feelingEn.toLocaleLowerCase('en-US')]:[e.word.feelingEn.toLocaleLowerCase('en-US'),e.word.feelingZh];
     const kicker=context==='discover'?(window.__emolexDiscoverOverride?t('DISCOVER A FEELING','探索一种感受'):t("TODAY'S FEELING",'今天的感受')):t('EXPLORE A FEELING','探索一种感受');
     return '<div class="emotion-head"><p class="intro-kicker">'+kicker+' <span aria-hidden="true">✦</span></p>'+
       '<div class="headword-line"><h1 data-fit-word lang="'+(language==='zh'?'zh-CN':'en')+'" title="'+esc(names[0])+'">'+esc(names[0])+'</h1>'+
