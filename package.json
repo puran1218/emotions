@@ -1,12 +1,14 @@
 {
   "name": "emolex-microblog",
   "private": true,
-  "version": "0.1.0",
-  "description": "Mobile-first bilingual feelings dictionary; zero runtime dependencies",
+  "version": "0.2.0",
+  "description": "Static, theme-neutral micro.blog illustrated feelings dictionary with a swappable artwork placeholder",
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate.mjs && node scripts/test-ui.mjs",
+    "test": "node scripts/validate.mjs && node scripts/test-ui.mjs && node scripts/test-plugin.mjs",
     "validate": "node scripts/validate.mjs",
-    "build:data": "node scripts/build-runtime-data.mjs"
+    "build:data": "node scripts/build-runtime-data.mjs",
+    "content:coverage": "node scripts/content-coverage.mjs",
+    "release:check": "npm test && node scripts/content-coverage.mjs --release"
   }
 }
