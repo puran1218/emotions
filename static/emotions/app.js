@@ -260,7 +260,7 @@
     if(action==='clear'){search='';focusSearchAfterRender=true;render();}
     if(action==='filter'){filter=id;render();}
   });
-  document.addEventListener('input',event=>{if(event.target.id==='search'){search=event.target.value;const container=document.getElementById('results');if(container)container.innerHTML=resultsHtml();}});
+  document.addEventListener('input',event=>{if(event.target.id==='search'){search=event.target.value;const container=document.getElementById('results');if(container){container.innerHTML=resultsHtml();fitWordText();}}});
   document.addEventListener('keydown',event=>{
     if(event.target.id!=='search') return;
     if(event.key==='Escape'){event.preventDefault();search='';event.target.value='';document.getElementById('results').innerHTML=resultsHtml();}
