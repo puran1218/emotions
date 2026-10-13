@@ -3,19 +3,38 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { makeRuntime } from './build-runtime-data.mjs';
+import { makeRuntime, visibleConcepts } from './build-runtime-data.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=(p)=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const source=read('data/source-words.json');
 const pilot=read('static/emotions/data/emotions.json');
-const canonical=read('data/concepts/pilot.json');
+const originalPilots=read('data/concepts/pilot.json');
+const legacyExpanded=read('data/concepts/legacy-expanded.json');
+const archive=read('data/legacy/emotions-card.json');
+const migration=read('data/legacy/migration-report.json');
+const canonical=[...originalPilots,...legacyExpanded];
 const canonicalSchema=read('schemas/emotion.schema.json');
 assert.equal(canonicalSchema.title,'EmoLex Editorial Concept');
 assert.equal(canonicalSchema.properties.expression.type,'array');
 assert.equal(canonicalSchema.properties.expression.minItems,3);
 assert.equal(canonicalSchema.properties.expression.maxItems,4);
-assert.deepEqual(pilot,makeRuntime(canonical),'runtime JSON must be generated from canonical editorial concepts');
+assert.deepEqual(pilot,makeRuntime(visibleConcepts(originalPilots,legacyExpanded)),'runtime JSON must be generated from canonical editorial concepts');
+assert.equal(archive.entries.length,235,'all original legacy explanation rows must be preserved');
+assert.equal(legacyExpanded.length,230,'legacy rows map to 230 new drafts and five established pilot senses');
+assert.equal(migration.links.length,235,'every legacy occurrence must map or be explicitly withheld');
+const conceptMap=new Map(canonical.map(e=>[e.id,e]));
+assert.equal(conceptMap.size,canonical.length,'every canonical concept needs a distinct stable ID');
+for(const link of migration.links){
+  const old=archive.entries[link.legacy_index];
+  assert.ok(old&&old.english.trim().toLowerCase()===link.word.trim().toLowerCase(),'legacy migration source mismatch '+link.legacy_index);
+  assert.ok(conceptMap.has(link.concept_id),'legacy link does not resolve: '+link.concept_id);
+}
+for(const item of legacyExpanded){
+  assert.equal(item.review.meaning,'drafted','machine/source-assisted migration cannot imply editorial approval');
+  assert.equal(item.review.translation,'drafted','machine/source-assisted migration cannot imply translation approval');
+  assert.ok(item.sources.some(e=>e.source_list==='emotions-card.zip'),'each migrated concept must retain legacy provenance');
+}
 for(const e of canonical){
   assert.ok(['draft','review','pilot','published','retired'].includes(e.status));
   assert.ok(e.taxonomy?.kind && e.taxonomy?.needs?.length);
@@ -63,6 +82,7 @@ for(let i=0;i<ledger.length;i++){
 }
 const entries=pilot.entries;
 assert.equal(pilot.version,1);
+assert.equal(pilot.entries.length,225,'expected 225 browseable entries (5 pilot plus 220 migration previews)');
 assert.ok(Array.isArray(entries)&&entries.length>=1);
 assert.equal(new Set(entries.map(e=>e.id)).size,entries.length,'unique concept IDs');
 const map=new Map(entries.map(e=>[e.id,e]));
