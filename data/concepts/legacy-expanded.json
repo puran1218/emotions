@@ -10,12 +10,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Absorbed",
-        "feeling": "absorbed",
+        "noun": null,
+        "feeling": "Absorbed",
         "aliases": []
       },
       "zh": {
-        "noun": "全神贯注",
+        "noun": null,
         "feeling": "全神贯注",
         "aliases": []
       }
@@ -88,12 +88,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Adventurous",
-        "feeling": "adventurous",
+        "noun": null,
+        "feeling": "Adventurous",
         "aliases": []
       },
       "zh": {
-        "noun": "爱冒险的",
+        "noun": null,
         "feeling": "爱冒险的",
         "aliases": []
       }
@@ -166,12 +166,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Alert",
-        "feeling": "alert",
+        "noun": null,
+        "feeling": "Alert",
         "aliases": []
       },
       "zh": {
-        "noun": "警觉的",
+        "noun": null,
         "feeling": "警觉的",
         "aliases": []
       }
@@ -244,12 +244,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Amazed",
-        "feeling": "amazed",
+        "noun": null,
+        "feeling": "Amazed",
         "aliases": []
       },
       "zh": {
-        "noun": "惊讶的",
+        "noun": null,
         "feeling": "惊讶的",
         "aliases": []
       }
@@ -322,12 +322,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Amused",
-        "feeling": "amused",
+        "noun": null,
+        "feeling": "Amused",
         "aliases": []
       },
       "zh": {
-        "noun": "被逗乐的",
+        "noun": null,
         "feeling": "被逗乐的",
         "aliases": []
       }
@@ -400,12 +400,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Animated",
-        "feeling": "animated",
+        "noun": null,
+        "feeling": "Animated",
         "aliases": []
       },
       "zh": {
-        "noun": "活泼的",
+        "noun": null,
         "feeling": "活泼的",
         "aliases": []
       }
@@ -478,12 +478,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Appreciative",
-        "feeling": "appreciative",
+        "noun": null,
+        "feeling": "Appreciative",
         "aliases": []
       },
       "zh": {
-        "noun": "感激的",
+        "noun": null,
         "feeling": "感激的",
         "aliases": []
       }
@@ -556,12 +556,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Ardent",
-        "feeling": "ardent",
+        "noun": null,
+        "feeling": "Ardent",
         "aliases": []
       },
       "zh": {
-        "noun": "热情的",
+        "noun": null,
         "feeling": "热情的",
         "aliases": []
       }
@@ -634,12 +634,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Aroused",
-        "feeling": "aroused",
+        "noun": null,
+        "feeling": "Aroused",
         "aliases": []
       },
       "zh": {
-        "noun": "被激起的（需要核实具体含义）",
+        "noun": null,
         "feeling": "被激起的（需要核实具体含义）",
         "aliases": []
       }
@@ -712,12 +712,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Astonished",
-        "feeling": "astonished",
+        "noun": null,
+        "feeling": "Astonished",
         "aliases": []
       },
       "zh": {
-        "noun": "吃惊的",
+        "noun": null,
         "feeling": "吃惊的",
         "aliases": []
       }
@@ -790,12 +790,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Blissful",
-        "feeling": "blissful",
+        "noun": null,
+        "feeling": "Blissful",
         "aliases": []
       },
       "zh": {
-        "noun": "幸福极了的",
+        "noun": null,
         "feeling": "幸福极了的",
         "aliases": []
       }
@@ -868,12 +868,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Breathless",
-        "feeling": "breathless",
+        "noun": null,
+        "feeling": "Breathless",
         "aliases": []
       },
       "zh": {
-        "noun": "气喘吁吁的",
+        "noun": null,
         "feeling": "气喘吁吁的",
         "aliases": []
       }
@@ -946,12 +946,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Buoyant",
-        "feeling": "buoyant",
+        "noun": null,
+        "feeling": "Buoyant",
         "aliases": []
       },
       "zh": {
-        "noun": "心情愉快的",
+        "noun": null,
         "feeling": "心情愉快的",
         "aliases": []
       }
@@ -1024,12 +1024,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Calm",
-        "feeling": "calm",
+        "noun": null,
+        "feeling": "Calm",
         "aliases": []
       },
       "zh": {
-        "noun": "平静的",
+        "noun": null,
         "feeling": "平静的",
         "aliases": []
       }
@@ -1102,12 +1102,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Carefree",
-        "feeling": "carefree",
+        "noun": null,
+        "feeling": "Carefree",
         "aliases": []
       },
       "zh": {
-        "noun": "无忧无虑的",
+        "noun": null,
         "feeling": "无忧无虑的",
         "aliases": []
       }
@@ -1180,12 +1180,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Cheerful",
-        "feeling": "cheerful",
+        "noun": null,
+        "feeling": "Cheerful",
         "aliases": []
       },
       "zh": {
-        "noun": "高兴的",
+        "noun": null,
         "feeling": "高兴的",
         "aliases": []
       }
@@ -1258,12 +1258,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Comfortable",
-        "feeling": "comfortable",
+        "noun": null,
+        "feeling": "Comfortable",
         "aliases": []
       },
       "zh": {
-        "noun": "舒适的",
+        "noun": null,
         "feeling": "舒适的",
         "aliases": []
       }
@@ -1336,12 +1336,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Complacent",
-        "feeling": "complacent",
+        "noun": null,
+        "feeling": "Complacent",
         "aliases": []
       },
       "zh": {
-        "noun": "自满的",
+        "noun": null,
         "feeling": "自满的",
         "aliases": []
       }
@@ -1414,12 +1414,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Composed",
-        "feeling": "composed",
+        "noun": null,
+        "feeling": "Composed",
         "aliases": []
       },
       "zh": {
-        "noun": "镇定的",
+        "noun": null,
         "feeling": "镇定的",
         "aliases": []
       }
@@ -1492,12 +1492,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Concerned",
-        "feeling": "concerned",
+        "noun": null,
+        "feeling": "Concerned",
         "aliases": []
       },
       "zh": {
-        "noun": "关切的",
+        "noun": null,
         "feeling": "关切的",
         "aliases": []
       }
@@ -1570,12 +1570,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Confident",
-        "feeling": "confident",
+        "noun": null,
+        "feeling": "Confident",
         "aliases": []
       },
       "zh": {
-        "noun": "自信的",
+        "noun": null,
         "feeling": "自信的",
         "aliases": []
       }
@@ -1648,12 +1648,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Contented",
-        "feeling": "contented",
+        "noun": null,
+        "feeling": "Contented",
         "aliases": []
       },
       "zh": {
-        "noun": "满足的",
+        "noun": null,
         "feeling": "满足的",
         "aliases": []
       }
@@ -1726,12 +1726,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Cool",
-        "feeling": "cool",
+        "noun": null,
+        "feeling": "Cool",
         "aliases": []
       },
       "zh": {
-        "noun": "感觉酷的",
+        "noun": null,
         "feeling": "感觉酷的",
         "aliases": []
       }
@@ -1804,12 +1804,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Curious",
-        "feeling": "curious",
+        "noun": null,
+        "feeling": "Curious",
         "aliases": []
       },
       "zh": {
-        "noun": "好奇的",
+        "noun": null,
         "feeling": "好奇的",
         "aliases": []
       }
@@ -1882,12 +1882,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Dazzled",
-        "feeling": "dazzled",
+        "noun": null,
+        "feeling": "Dazzled",
         "aliases": []
       },
       "zh": {
-        "noun": "眼花缭乱的",
+        "noun": null,
         "feeling": "眼花缭乱的",
         "aliases": []
       }
@@ -1960,12 +1960,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Delighted",
-        "feeling": "delighted",
+        "noun": null,
+        "feeling": "Delighted",
         "aliases": []
       },
       "zh": {
-        "noun": "高兴的",
+        "noun": null,
         "feeling": "高兴的",
         "aliases": []
       }
@@ -2038,12 +2038,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Eager",
-        "feeling": "eager",
+        "noun": null,
+        "feeling": "Eager",
         "aliases": []
       },
       "zh": {
-        "noun": "渴望的",
+        "noun": null,
         "feeling": "渴望的",
         "aliases": []
       }
@@ -2116,12 +2116,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Ebullient",
-        "feeling": "ebullient",
+        "noun": null,
+        "feeling": "Ebullient",
         "aliases": []
       },
       "zh": {
-        "noun": "热情洋溢的",
+        "noun": null,
         "feeling": "热情洋溢的",
         "aliases": []
       }
@@ -2194,12 +2194,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Ecstatic",
-        "feeling": "ecstatic",
+        "noun": null,
+        "feeling": "Ecstatic",
         "aliases": []
       },
       "zh": {
-        "noun": "狂喜的",
+        "noun": null,
         "feeling": "狂喜的",
         "aliases": []
       }
@@ -2272,12 +2272,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Effervescent",
-        "feeling": "effervescent",
+        "noun": null,
+        "feeling": "Effervescent",
         "aliases": []
       },
       "zh": {
-        "noun": "活力满满的",
+        "noun": null,
         "feeling": "活力满满的",
         "aliases": []
       }
@@ -2350,12 +2350,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Elated",
-        "feeling": "elated",
+        "noun": null,
+        "feeling": "Elated",
         "aliases": []
       },
       "zh": {
-        "noun": "兴奋的",
+        "noun": null,
         "feeling": "兴奋的",
         "aliases": []
       }
@@ -2428,12 +2428,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Enchanted",
-        "feeling": "enchanted",
+        "noun": null,
+        "feeling": "Enchanted",
         "aliases": []
       },
       "zh": {
-        "noun": "被迷住的",
+        "noun": null,
         "feeling": "被迷住的",
         "aliases": []
       }
@@ -2506,12 +2506,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Encouraged",
-        "feeling": "encouraged",
+        "noun": null,
+        "feeling": "Encouraged",
         "aliases": []
       },
       "zh": {
-        "noun": "受到鼓舞的",
+        "noun": null,
         "feeling": "受到鼓舞的",
         "aliases": []
       }
@@ -2584,12 +2584,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Energetic",
-        "feeling": "energetic",
+        "noun": null,
+        "feeling": "Energetic",
         "aliases": []
       },
       "zh": {
-        "noun": "精力充沛的",
+        "noun": null,
         "feeling": "精力充沛的",
         "aliases": []
       }
@@ -2662,12 +2662,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Engrossed",
-        "feeling": "engrossed",
+        "noun": null,
+        "feeling": "Engrossed",
         "aliases": []
       },
       "zh": {
-        "noun": "全神贯注的",
+        "noun": null,
         "feeling": "全神贯注的",
         "aliases": []
       }
@@ -2740,12 +2740,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Enlivened",
-        "feeling": "enlivened",
+        "noun": null,
+        "feeling": "Enlivened",
         "aliases": []
       },
       "zh": {
-        "noun": "感到活跃的",
+        "noun": null,
         "feeling": "感到活跃的",
         "aliases": []
       }
@@ -2818,12 +2818,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Enthusiastic",
-        "feeling": "enthusiastic",
+        "noun": null,
+        "feeling": "Enthusiastic",
         "aliases": []
       },
       "zh": {
-        "noun": "热情的",
+        "noun": null,
         "feeling": "热情的",
         "aliases": []
       }
@@ -2896,12 +2896,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Excited",
-        "feeling": "excited",
+        "noun": null,
+        "feeling": "Excited",
         "aliases": []
       },
       "zh": {
-        "noun": "兴奋的",
+        "noun": null,
         "feeling": "兴奋的",
         "aliases": []
       }
@@ -2974,12 +2974,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Exhilarated",
-        "feeling": "exhilarated",
+        "noun": null,
+        "feeling": "Exhilarated",
         "aliases": []
       },
       "zh": {
-        "noun": "兴奋的",
+        "noun": null,
         "feeling": "兴奋的",
         "aliases": []
       }
@@ -3052,12 +3052,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Expansive",
-        "feeling": "expansive",
+        "noun": null,
+        "feeling": "Expansive",
         "aliases": []
       },
       "zh": {
-        "noun": "开朗的",
+        "noun": null,
         "feeling": "开朗的",
         "aliases": []
       }
@@ -3130,12 +3130,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Expectant",
-        "feeling": "expectant",
+        "noun": null,
+        "feeling": "Expectant",
         "aliases": []
       },
       "zh": {
-        "noun": "期待的",
+        "noun": null,
         "feeling": "期待的",
         "aliases": []
       }
@@ -3208,12 +3208,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Exultant",
-        "feeling": "exultant",
+        "noun": null,
+        "feeling": "Exultant",
         "aliases": []
       },
       "zh": {
-        "noun": "非常高兴的",
+        "noun": null,
         "feeling": "非常高兴的",
         "aliases": []
       }
@@ -3286,12 +3286,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Fascinated",
-        "feeling": "fascinated",
+        "noun": null,
+        "feeling": "Fascinated",
         "aliases": []
       },
       "zh": {
-        "noun": "着迷的",
+        "noun": null,
         "feeling": "着迷的",
         "aliases": []
       }
@@ -3364,12 +3364,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Free",
-        "feeling": "free",
+        "noun": null,
+        "feeling": "Free",
         "aliases": []
       },
       "zh": {
-        "noun": "自由的",
+        "noun": null,
         "feeling": "自由的",
         "aliases": []
       }
@@ -3442,12 +3442,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Friendly",
-        "feeling": "friendly",
+        "noun": null,
+        "feeling": "Friendly",
         "aliases": []
       },
       "zh": {
-        "noun": "友好的",
+        "noun": null,
         "feeling": "友好的",
         "aliases": []
       }
@@ -3520,12 +3520,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Fulfilled",
-        "feeling": "fulfilled",
+        "noun": null,
+        "feeling": "Fulfilled",
         "aliases": []
       },
       "zh": {
-        "noun": "满足的",
+        "noun": null,
         "feeling": "满足的",
         "aliases": []
       }
@@ -3598,12 +3598,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Glad",
-        "feeling": "glad",
+        "noun": null,
+        "feeling": "Glad",
         "aliases": []
       },
       "zh": {
-        "noun": "高兴的",
+        "noun": null,
         "feeling": "高兴的",
         "aliases": []
       }
@@ -3676,12 +3676,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Gleeful",
-        "feeling": "gleeful",
+        "noun": null,
+        "feeling": "Gleeful",
         "aliases": []
       },
       "zh": {
-        "noun": "愉快的",
+        "noun": null,
         "feeling": "愉快的",
         "aliases": []
       }
@@ -3754,12 +3754,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Glorious",
-        "feeling": "glorious",
+        "noun": null,
+        "feeling": "Glorious",
         "aliases": []
       },
       "zh": {
-        "noun": "光荣而自豪的",
+        "noun": null,
         "feeling": "光荣而自豪的",
         "aliases": []
       }
@@ -3832,12 +3832,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Glowing",
-        "feeling": "glowing",
+        "noun": null,
+        "feeling": "Glowing",
         "aliases": []
       },
       "zh": {
-        "noun": "喜气洋洋的",
+        "noun": null,
         "feeling": "喜气洋洋的",
         "aliases": []
       }
@@ -3910,12 +3910,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Good-humored",
-        "feeling": "good-humored",
+        "noun": null,
+        "feeling": "Good-humored",
         "aliases": []
       },
       "zh": {
-        "noun": "心情愉快的",
+        "noun": null,
         "feeling": "心情愉快的",
         "aliases": []
       }
@@ -3988,12 +3988,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Grateful",
-        "feeling": "grateful",
+        "noun": null,
+        "feeling": "Grateful",
         "aliases": []
       },
       "zh": {
-        "noun": "感激的",
+        "noun": null,
         "feeling": "感激的",
         "aliases": []
       }
@@ -4066,12 +4066,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Gratified",
-        "feeling": "gratified",
+        "noun": null,
+        "feeling": "Gratified",
         "aliases": []
       },
       "zh": {
-        "noun": "满足的",
+        "noun": null,
         "feeling": "满足的",
         "aliases": []
       }
@@ -4144,12 +4144,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Happy",
-        "feeling": "happy",
+        "noun": null,
+        "feeling": "Happy",
         "aliases": []
       },
       "zh": {
-        "noun": "快乐的",
+        "noun": null,
         "feeling": "快乐的",
         "aliases": []
       }
@@ -4222,12 +4222,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Helpful",
-        "feeling": "helpful",
+        "noun": null,
+        "feeling": "Helpful",
         "aliases": []
       },
       "zh": {
-        "noun": "有帮助的",
+        "noun": null,
         "feeling": "有帮助的",
         "aliases": []
       }
@@ -4300,12 +4300,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Hopeful",
-        "feeling": "hopeful",
+        "noun": null,
+        "feeling": "Hopeful",
         "aliases": []
       },
       "zh": {
-        "noun": "充满希望的",
+        "noun": null,
         "feeling": "充满希望的",
         "aliases": []
       }
@@ -4378,12 +4378,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Inquisitive",
-        "feeling": "inquisitive",
+        "noun": null,
+        "feeling": "Inquisitive",
         "aliases": []
       },
       "zh": {
-        "noun": "好奇的",
+        "noun": null,
         "feeling": "好奇的",
         "aliases": []
       }
@@ -4456,12 +4456,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Inspired",
-        "feeling": "inspired",
+        "noun": null,
+        "feeling": "Inspired",
         "aliases": []
       },
       "zh": {
-        "noun": "受到启发的",
+        "noun": null,
         "feeling": "受到启发的",
         "aliases": []
       }
@@ -4534,12 +4534,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Intense",
-        "feeling": "intense",
+        "noun": null,
+        "feeling": "Intense",
         "aliases": []
       },
       "zh": {
-        "noun": "感受强烈的（兴奋）",
+        "noun": null,
         "feeling": "感受强烈的（兴奋）",
         "aliases": []
       }
@@ -4612,12 +4612,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Interested",
-        "feeling": "interested",
+        "noun": null,
+        "feeling": "Interested",
         "aliases": []
       },
       "zh": {
-        "noun": "感兴趣的",
+        "noun": null,
         "feeling": "感兴趣的",
         "aliases": []
       }
@@ -4690,12 +4690,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Intrigued",
-        "feeling": "intrigued",
+        "noun": null,
+        "feeling": "Intrigued",
         "aliases": []
       },
       "zh": {
-        "noun": "被吸引的",
+        "noun": null,
         "feeling": "被吸引的",
         "aliases": []
       }
@@ -4768,12 +4768,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Invigorated",
-        "feeling": "invigorated",
+        "noun": null,
+        "feeling": "Invigorated",
         "aliases": []
       },
       "zh": {
-        "noun": "精力充沛的",
+        "noun": null,
         "feeling": "精力充沛的",
         "aliases": []
       }
@@ -4846,12 +4846,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Involved",
-        "feeling": "involved",
+        "noun": null,
+        "feeling": "Involved",
         "aliases": []
       },
       "zh": {
-        "noun": "参与的",
+        "noun": null,
         "feeling": "参与的",
         "aliases": []
       }
@@ -4924,12 +4924,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Joyous",
-        "feeling": "joyous",
+        "noun": null,
+        "feeling": "Joyous",
         "aliases": []
       },
       "zh": {
-        "noun": "快乐的",
+        "noun": null,
         "feeling": "快乐的",
         "aliases": []
       }
@@ -5002,12 +5002,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Jubilant",
-        "feeling": "jubilant",
+        "noun": null,
+        "feeling": "Jubilant",
         "aliases": []
       },
       "zh": {
-        "noun": "欢欣雀跃的",
+        "noun": null,
         "feeling": "欢欣雀跃的",
         "aliases": []
       }
@@ -5080,12 +5080,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Keyed-up",
-        "feeling": "keyed-up",
+        "noun": null,
+        "feeling": "Keyed-up",
         "aliases": []
       },
       "zh": {
-        "noun": "既兴奋又紧张的",
+        "noun": null,
         "feeling": "既兴奋又紧张的",
         "aliases": []
       }
@@ -5158,12 +5158,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Loving",
-        "feeling": "loving",
+        "noun": null,
+        "feeling": "Loving",
         "aliases": []
       },
       "zh": {
-        "noun": "有爱的",
+        "noun": null,
         "feeling": "有爱的",
         "aliases": []
       }
@@ -5236,12 +5236,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Mellow",
-        "feeling": "mellow",
+        "noun": null,
+        "feeling": "Mellow",
         "aliases": []
       },
       "zh": {
-        "noun": "柔和放松的",
+        "noun": null,
         "feeling": "柔和放松的",
         "aliases": []
       }
@@ -5314,12 +5314,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Merry",
-        "feeling": "merry",
+        "noun": null,
+        "feeling": "Merry",
         "aliases": []
       },
       "zh": {
-        "noun": "愉快的",
+        "noun": null,
         "feeling": "愉快的",
         "aliases": []
       }
@@ -5392,12 +5392,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Mirthful",
-        "feeling": "mirthful",
+        "noun": null,
+        "feeling": "Mirthful",
         "aliases": []
       },
       "zh": {
-        "noun": "欢笑的",
+        "noun": null,
         "feeling": "欢笑的",
         "aliases": []
       }
@@ -5470,12 +5470,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Moved",
-        "feeling": "moved",
+        "noun": null,
+        "feeling": "Moved",
         "aliases": []
       },
       "zh": {
-        "noun": "感动的",
+        "noun": null,
         "feeling": "感动的",
         "aliases": []
       }
@@ -5548,12 +5548,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Optimistic",
-        "feeling": "optimistic",
+        "noun": null,
+        "feeling": "Optimistic",
         "aliases": []
       },
       "zh": {
-        "noun": "乐观的",
+        "noun": null,
         "feeling": "乐观的",
         "aliases": []
       }
@@ -5626,12 +5626,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Overjoyed",
-        "feeling": "overjoyed",
+        "noun": null,
+        "feeling": "Overjoyed",
         "aliases": []
       },
       "zh": {
-        "noun": "非常高兴的",
+        "noun": null,
         "feeling": "非常高兴的",
         "aliases": []
       }
@@ -5704,12 +5704,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Overwhelmed",
-        "feeling": "overwhelmed",
+        "noun": null,
+        "feeling": "Overwhelmed",
         "aliases": []
       },
       "zh": {
-        "noun": "惊喜得不知所措的",
+        "noun": null,
         "feeling": "惊喜得不知所措的",
         "aliases": []
       }
@@ -5782,12 +5782,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Peaceful",
-        "feeling": "peaceful",
+        "noun": null,
+        "feeling": "Peaceful",
         "aliases": []
       },
       "zh": {
-        "noun": "平和的",
+        "noun": null,
         "feeling": "平和的",
         "aliases": []
       }
@@ -5860,12 +5860,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Perky",
-        "feeling": "perky",
+        "noun": null,
+        "feeling": "Perky",
         "aliases": []
       },
       "zh": {
-        "noun": "活泼的",
+        "noun": null,
         "feeling": "活泼的",
         "aliases": []
       }
@@ -5938,12 +5938,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Pleasant",
-        "feeling": "pleasant",
+        "noun": null,
+        "feeling": "Pleasant",
         "aliases": []
       },
       "zh": {
-        "noun": "令人愉快的",
+        "noun": null,
         "feeling": "令人愉快的",
         "aliases": []
       }
@@ -6016,12 +6016,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Pleased",
-        "feeling": "pleased",
+        "noun": null,
+        "feeling": "Pleased",
         "aliases": []
       },
       "zh": {
-        "noun": "高兴的",
+        "noun": null,
         "feeling": "高兴的",
         "aliases": []
       }
@@ -6094,12 +6094,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Proud",
-        "feeling": "proud",
+        "noun": null,
+        "feeling": "Proud",
         "aliases": []
       },
       "zh": {
-        "noun": "骄傲的",
+        "noun": null,
         "feeling": "骄傲的",
         "aliases": []
       }
@@ -6172,12 +6172,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Quiet",
-        "feeling": "quiet",
+        "noun": null,
+        "feeling": "Quiet",
         "aliases": []
       },
       "zh": {
-        "noun": "安静的",
+        "noun": null,
         "feeling": "安静的",
         "aliases": []
       }
@@ -6250,12 +6250,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Radiant",
-        "feeling": "radiant",
+        "noun": null,
+        "feeling": "Radiant",
         "aliases": []
       },
       "zh": {
-        "noun": "神采飞扬的",
+        "noun": null,
         "feeling": "神采飞扬的",
         "aliases": []
       }
@@ -6328,12 +6328,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Rapturous",
-        "feeling": "rapturous",
+        "noun": null,
+        "feeling": "Rapturous",
         "aliases": []
       },
       "zh": {
-        "noun": "欣喜若狂的",
+        "noun": null,
         "feeling": "欣喜若狂的",
         "aliases": []
       }
@@ -6406,12 +6406,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Refreshed",
-        "feeling": "refreshed",
+        "noun": null,
+        "feeling": "Refreshed",
         "aliases": []
       },
       "zh": {
-        "noun": "神清气爽的",
+        "noun": null,
         "feeling": "神清气爽的",
         "aliases": []
       }
@@ -6484,12 +6484,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Relaxed",
-        "feeling": "relaxed",
+        "noun": null,
+        "feeling": "Relaxed",
         "aliases": []
       },
       "zh": {
-        "noun": "放松的",
+        "noun": null,
         "feeling": "放松的",
         "aliases": []
       }
@@ -6562,12 +6562,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Satisfied",
-        "feeling": "satisfied",
+        "noun": null,
+        "feeling": "Satisfied",
         "aliases": []
       },
       "zh": {
-        "noun": "满意的",
+        "noun": null,
         "feeling": "满意的",
         "aliases": []
       }
@@ -6640,12 +6640,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Secure",
-        "feeling": "secure",
+        "noun": null,
+        "feeling": "Secure",
         "aliases": []
       },
       "zh": {
-        "noun": "安心的",
+        "noun": null,
         "feeling": "安心的",
         "aliases": []
       }
@@ -6718,12 +6718,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Sensitive",
-        "feeling": "sensitive",
+        "noun": null,
+        "feeling": "Sensitive",
         "aliases": []
       },
       "zh": {
-        "noun": "感受细腻的",
+        "noun": null,
         "feeling": "感受细腻的",
         "aliases": []
       }
@@ -6796,12 +6796,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Serene",
-        "feeling": "serene",
+        "noun": null,
+        "feeling": "Serene",
         "aliases": []
       },
       "zh": {
-        "noun": "宁静的",
+        "noun": null,
         "feeling": "宁静的",
         "aliases": []
       }
@@ -6874,12 +6874,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Spellbound",
-        "feeling": "spellbound",
+        "noun": null,
+        "feeling": "Spellbound",
         "aliases": []
       },
       "zh": {
-        "noun": "被迷住的",
+        "noun": null,
         "feeling": "被迷住的",
         "aliases": []
       }
@@ -6952,12 +6952,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Splendid",
-        "feeling": "splendid",
+        "noun": null,
+        "feeling": "Splendid",
         "aliases": []
       },
       "zh": {
-        "noun": "极好的",
+        "noun": null,
         "feeling": "极好的",
         "aliases": []
       }
@@ -7030,12 +7030,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Stimulated",
-        "feeling": "stimulated",
+        "noun": null,
+        "feeling": "Stimulated",
         "aliases": []
       },
       "zh": {
-        "noun": "受到刺激的",
+        "noun": null,
         "feeling": "受到刺激的",
         "aliases": []
       }
@@ -7108,12 +7108,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Surprised",
-        "feeling": "surprised",
+        "noun": null,
+        "feeling": "Surprised",
         "aliases": []
       },
       "zh": {
-        "noun": "惊喜的",
+        "noun": null,
         "feeling": "惊喜的",
         "aliases": []
       }
@@ -7186,12 +7186,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Tender",
-        "feeling": "tender",
+        "noun": null,
+        "feeling": "Tender",
         "aliases": []
       },
       "zh": {
-        "noun": "温柔的",
+        "noun": null,
         "feeling": "温柔的",
         "aliases": []
       }
@@ -7264,12 +7264,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Thankful",
-        "feeling": "thankful",
+        "noun": null,
+        "feeling": "Thankful",
         "aliases": []
       },
       "zh": {
-        "noun": "感激的",
+        "noun": null,
         "feeling": "感激的",
         "aliases": []
       }
@@ -7342,12 +7342,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Thrilled",
-        "feeling": "thrilled",
+        "noun": null,
+        "feeling": "Thrilled",
         "aliases": []
       },
       "zh": {
-        "noun": "非常激动的",
+        "noun": null,
         "feeling": "非常激动的",
         "aliases": []
       }
@@ -7420,12 +7420,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Touched",
-        "feeling": "touched",
+        "noun": null,
+        "feeling": "Touched",
         "aliases": []
       },
       "zh": {
-        "noun": "被感动的",
+        "noun": null,
         "feeling": "被感动的",
         "aliases": []
       }
@@ -7498,12 +7498,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Tranquil",
-        "feeling": "tranquil",
+        "noun": null,
+        "feeling": "Tranquil",
         "aliases": []
       },
       "zh": {
-        "noun": "平静的",
+        "noun": null,
         "feeling": "平静的",
         "aliases": []
       }
@@ -7576,12 +7576,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Trusting",
-        "feeling": "trusting",
+        "noun": null,
+        "feeling": "Trusting",
         "aliases": []
       },
       "zh": {
-        "noun": "信任的",
+        "noun": null,
         "feeling": "信任的",
         "aliases": []
       }
@@ -7654,12 +7654,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Upbeat",
-        "feeling": "upbeat",
+        "noun": null,
+        "feeling": "Upbeat",
         "aliases": []
       },
       "zh": {
-        "noun": "愉快的",
+        "noun": null,
         "feeling": "愉快的",
         "aliases": []
       }
@@ -7732,12 +7732,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Warm",
-        "feeling": "warm",
+        "noun": null,
+        "feeling": "Warm",
         "aliases": []
       },
       "zh": {
-        "noun": "温暖的",
+        "noun": null,
         "feeling": "温暖的",
         "aliases": []
       }
@@ -7810,12 +7810,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Wide-awake",
-        "feeling": "wide-awake",
+        "noun": null,
+        "feeling": "Wide-awake",
         "aliases": []
       },
       "zh": {
-        "noun": "完全清醒的",
+        "noun": null,
         "feeling": "完全清醒的",
         "aliases": []
       }
@@ -7888,12 +7888,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Wonderful",
-        "feeling": "wonderful",
+        "noun": null,
+        "feeling": "Wonderful",
         "aliases": []
       },
       "zh": {
-        "noun": "精彩的",
+        "noun": null,
         "feeling": "精彩的",
         "aliases": []
       }
@@ -7966,12 +7966,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Zestful",
-        "feeling": "zestful",
+        "noun": null,
+        "feeling": "Zestful",
         "aliases": []
       },
       "zh": {
-        "noun": "充满活力的",
+        "noun": null,
         "feeling": "充满活力的",
         "aliases": []
       }
@@ -8044,12 +8044,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Agitated",
-        "feeling": "agitated",
+        "noun": null,
+        "feeling": "Agitated",
         "aliases": []
       },
       "zh": {
-        "noun": "焦虑不安的",
+        "noun": null,
         "feeling": "焦虑不安的",
         "aliases": []
       }
@@ -8122,12 +8122,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Alarmed",
-        "feeling": "alarmed",
+        "noun": null,
+        "feeling": "Alarmed",
         "aliases": []
       },
       "zh": {
-        "noun": "惊恐的",
+        "noun": null,
         "feeling": "惊恐的",
         "aliases": []
       }
@@ -8200,12 +8200,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Aloof",
-        "feeling": "aloof",
+        "noun": null,
+        "feeling": "Aloof",
         "aliases": []
       },
       "zh": {
-        "noun": "不愿参与的",
+        "noun": null,
         "feeling": "不愿参与的",
         "aliases": []
       }
@@ -8278,12 +8278,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Angry",
-        "feeling": "angry",
+        "noun": null,
+        "feeling": "Angry",
         "aliases": []
       },
       "zh": {
-        "noun": "生气的",
+        "noun": null,
         "feeling": "生气的",
         "aliases": []
       }
@@ -8356,12 +8356,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Anxious",
-        "feeling": "anxious",
+        "noun": null,
+        "feeling": "Anxious",
         "aliases": []
       },
       "zh": {
-        "noun": "焦虑的",
+        "noun": null,
         "feeling": "焦虑的",
         "aliases": []
       }
@@ -8434,12 +8434,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Apathetic",
-        "feeling": "apathetic",
+        "noun": null,
+        "feeling": "Apathetic",
         "aliases": []
       },
       "zh": {
-        "noun": "冷漠的",
+        "noun": null,
         "feeling": "冷漠的",
         "aliases": []
       }
@@ -8512,12 +8512,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Apprehensive",
-        "feeling": "apprehensive",
+        "noun": null,
+        "feeling": "Apprehensive",
         "aliases": []
       },
       "zh": {
-        "noun": "忧虑的",
+        "noun": null,
         "feeling": "忧虑的",
         "aliases": []
       }
@@ -8590,12 +8590,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Ashamed",
-        "feeling": "ashamed",
+        "noun": null,
+        "feeling": "Ashamed",
         "aliases": []
       },
       "zh": {
-        "noun": "羞愧的",
+        "noun": null,
         "feeling": "羞愧的",
         "aliases": []
       }
@@ -8668,12 +8668,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Beat",
-        "feeling": "beat",
+        "noun": null,
+        "feeling": "Beat",
         "aliases": []
       },
       "zh": {
-        "noun": "筋疲力尽的",
+        "noun": null,
         "feeling": "筋疲力尽的",
         "aliases": []
       }
@@ -8746,12 +8746,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Bewildered",
-        "feeling": "bewildered",
+        "noun": null,
+        "feeling": "Bewildered",
         "aliases": []
       },
       "zh": {
-        "noun": "困惑的",
+        "noun": null,
         "feeling": "困惑的",
         "aliases": []
       }
@@ -8824,12 +8824,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Bitter",
-        "feeling": "bitter",
+        "noun": null,
+        "feeling": "Bitter",
         "aliases": []
       },
       "zh": {
-        "noun": "苦涩的",
+        "noun": null,
         "feeling": "苦涩的",
         "aliases": []
       }
@@ -8902,12 +8902,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Blue",
-        "feeling": "blue",
+        "noun": null,
+        "feeling": "Blue",
         "aliases": []
       },
       "zh": {
-        "noun": "心情低落的",
+        "noun": null,
         "feeling": "心情低落的",
         "aliases": []
       }
@@ -8980,12 +8980,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Bored",
-        "feeling": "bored",
+        "noun": null,
+        "feeling": "Bored",
         "aliases": []
       },
       "zh": {
-        "noun": "无聊的",
+        "noun": null,
         "feeling": "无聊的",
         "aliases": []
       }
@@ -9058,12 +9058,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Brokenhearted",
-        "feeling": "brokenhearted",
+        "noun": null,
+        "feeling": "Brokenhearted",
         "aliases": []
       },
       "zh": {
-        "noun": "心碎的",
+        "noun": null,
         "feeling": "心碎的",
         "aliases": []
       }
@@ -9136,12 +9136,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Chagrined",
-        "feeling": "chagrined",
+        "noun": null,
+        "feeling": "Chagrined",
         "aliases": []
       },
       "zh": {
-        "noun": "懊恼的",
+        "noun": null,
         "feeling": "懊恼的",
         "aliases": []
       }
@@ -9214,12 +9214,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Cold",
-        "feeling": "cold",
+        "noun": null,
+        "feeling": "Cold",
         "aliases": []
       },
       "zh": {
-        "noun": "态度冷淡的",
+        "noun": null,
         "feeling": "态度冷淡的",
         "aliases": []
       }
@@ -9292,12 +9292,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Concerned",
-        "feeling": "concerned",
+        "noun": null,
+        "feeling": "Concerned",
         "aliases": []
       },
       "zh": {
-        "noun": "担忧的",
+        "noun": null,
         "feeling": "担忧的",
         "aliases": []
       }
@@ -9370,12 +9370,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Confused",
-        "feeling": "confused",
+        "noun": null,
+        "feeling": "Confused",
         "aliases": []
       },
       "zh": {
-        "noun": "困惑的",
+        "noun": null,
         "feeling": "困惑的",
         "aliases": []
       }
@@ -9448,12 +9448,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Cross",
-        "feeling": "cross",
+        "noun": null,
+        "feeling": "Cross",
         "aliases": []
       },
       "zh": {
-        "noun": "发怒的",
+        "noun": null,
         "feeling": "发怒的",
         "aliases": []
       }
@@ -9526,12 +9526,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Dejected",
-        "feeling": "dejected",
+        "noun": null,
+        "feeling": "Dejected",
         "aliases": []
       },
       "zh": {
-        "noun": "沮丧的",
+        "noun": null,
         "feeling": "沮丧的",
         "aliases": []
       }
@@ -9604,12 +9604,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Depressed",
-        "feeling": "depressed",
+        "noun": null,
+        "feeling": "Depressed",
         "aliases": []
       },
       "zh": {
-        "noun": "抑郁的",
+        "noun": null,
         "feeling": "抑郁的",
         "aliases": []
       }
@@ -9682,12 +9682,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Despairing",
-        "feeling": "despairing",
+        "noun": null,
+        "feeling": "Despairing",
         "aliases": []
       },
       "zh": {
-        "noun": "绝望的",
+        "noun": null,
         "feeling": "绝望的",
         "aliases": []
       }
@@ -9760,12 +9760,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Despondent",
-        "feeling": "despondent",
+        "noun": null,
+        "feeling": "Despondent",
         "aliases": []
       },
       "zh": {
-        "noun": "消沉失望的",
+        "noun": null,
         "feeling": "消沉失望的",
         "aliases": []
       }
@@ -9838,12 +9838,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Detached",
-        "feeling": "detached",
+        "noun": null,
+        "feeling": "Detached",
         "aliases": []
       },
       "zh": {
-        "noun": "疏远的",
+        "noun": null,
         "feeling": "疏远的",
         "aliases": []
       }
@@ -9916,12 +9916,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disaffected",
-        "feeling": "disaffected",
+        "noun": null,
+        "feeling": "Disaffected",
         "aliases": []
       },
       "zh": {
-        "noun": "失望的",
+        "noun": null,
         "feeling": "失望的",
         "aliases": []
       }
@@ -9994,12 +9994,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disappointed",
-        "feeling": "disappointed",
+        "noun": null,
+        "feeling": "Disappointed",
         "aliases": []
       },
       "zh": {
-        "noun": "失望的",
+        "noun": null,
         "feeling": "失望的",
         "aliases": []
       }
@@ -10072,12 +10072,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Discouraged",
-        "feeling": "discouraged",
+        "noun": null,
+        "feeling": "Discouraged",
         "aliases": []
       },
       "zh": {
-        "noun": "气馁的",
+        "noun": null,
         "feeling": "气馁的",
         "aliases": []
       }
@@ -10150,12 +10150,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disenchanted",
-        "feeling": "disenchanted",
+        "noun": null,
+        "feeling": "Disenchanted",
         "aliases": []
       },
       "zh": {
-        "noun": "幻灭的",
+        "noun": null,
         "feeling": "幻灭的",
         "aliases": []
       }
@@ -10228,12 +10228,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disgruntled",
-        "feeling": "disgruntled",
+        "noun": null,
+        "feeling": "Disgruntled",
         "aliases": []
       },
       "zh": {
-        "noun": "不满的",
+        "noun": null,
         "feeling": "不满的",
         "aliases": []
       }
@@ -10306,12 +10306,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disgusted",
-        "feeling": "disgusted",
+        "noun": null,
+        "feeling": "Disgusted",
         "aliases": []
       },
       "zh": {
-        "noun": "厌恶的",
+        "noun": null,
         "feeling": "厌恶的",
         "aliases": []
       }
@@ -10384,12 +10384,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disheartened",
-        "feeling": "disheartened",
+        "noun": null,
+        "feeling": "Disheartened",
         "aliases": []
       },
       "zh": {
-        "noun": "灰心的",
+        "noun": null,
         "feeling": "灰心的",
         "aliases": []
       }
@@ -10462,12 +10462,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Dismayed",
-        "feeling": "dismayed",
+        "noun": null,
+        "feeling": "Dismayed",
         "aliases": []
       },
       "zh": {
-        "noun": "惊慌的",
+        "noun": null,
         "feeling": "惊慌的",
         "aliases": []
       }
@@ -10540,12 +10540,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Displeased",
-        "feeling": "displeased",
+        "noun": null,
+        "feeling": "Displeased",
         "aliases": []
       },
       "zh": {
-        "noun": "不高兴的",
+        "noun": null,
         "feeling": "不高兴的",
         "aliases": []
       }
@@ -10618,12 +10618,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disquieted",
-        "feeling": "disquieted",
+        "noun": null,
+        "feeling": "Disquieted",
         "aliases": []
       },
       "zh": {
-        "noun": "不安的",
+        "noun": null,
         "feeling": "不安的",
         "aliases": []
       }
@@ -10696,12 +10696,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Distressed",
-        "feeling": "distressed",
+        "noun": null,
+        "feeling": "Distressed",
         "aliases": []
       },
       "zh": {
-        "noun": "痛苦的",
+        "noun": null,
         "feeling": "痛苦的",
         "aliases": []
       }
@@ -10774,12 +10774,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Disturbed",
-        "feeling": "disturbed",
+        "noun": null,
+        "feeling": "Disturbed",
         "aliases": []
       },
       "zh": {
-        "noun": "被打扰而心烦的",
+        "noun": null,
         "feeling": "被打扰而心烦的",
         "aliases": []
       }
@@ -10852,12 +10852,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Downcast",
-        "feeling": "downcast",
+        "noun": null,
+        "feeling": "Downcast",
         "aliases": []
       },
       "zh": {
-        "noun": "沮丧的",
+        "noun": null,
         "feeling": "沮丧的",
         "aliases": []
       }
@@ -10930,12 +10930,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Downhearted",
-        "feeling": "downhearted",
+        "noun": null,
+        "feeling": "Downhearted",
         "aliases": []
       },
       "zh": {
-        "noun": "心情低落的",
+        "noun": null,
         "feeling": "心情低落的",
         "aliases": []
       }
@@ -11008,12 +11008,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Dull",
-        "feeling": "dull",
+        "noun": null,
+        "feeling": "Dull",
         "aliases": []
       },
       "zh": {
-        "noun": "无聊的",
+        "noun": null,
         "feeling": "无聊的",
         "aliases": []
       }
@@ -11086,12 +11086,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Edgy",
-        "feeling": "edgy",
+        "noun": null,
+        "feeling": "Edgy",
         "aliases": []
       },
       "zh": {
-        "noun": "紧张的",
+        "noun": null,
         "feeling": "紧张的",
         "aliases": []
       }
@@ -11164,12 +11164,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Embarrassed",
-        "feeling": "embarrassed",
+        "noun": null,
+        "feeling": "Embarrassed",
         "aliases": []
       },
       "zh": {
-        "noun": "尴尬的",
+        "noun": null,
         "feeling": "尴尬的",
         "aliases": []
       }
@@ -11242,12 +11242,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Embittered",
-        "feeling": "embittered",
+        "noun": null,
+        "feeling": "Embittered",
         "aliases": []
       },
       "zh": {
-        "noun": "怨恨的",
+        "noun": null,
         "feeling": "怨恨的",
         "aliases": []
       }
@@ -11320,12 +11320,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Exasperated",
-        "feeling": "exasperated",
+        "noun": null,
+        "feeling": "Exasperated",
         "aliases": []
       },
       "zh": {
-        "noun": "恼怒的",
+        "noun": null,
         "feeling": "恼怒的",
         "aliases": []
       }
@@ -11398,12 +11398,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Exhausted",
-        "feeling": "exhausted",
+        "noun": null,
+        "feeling": "Exhausted",
         "aliases": []
       },
       "zh": {
-        "noun": "筋疲力尽的",
+        "noun": null,
         "feeling": "筋疲力尽的",
         "aliases": []
       }
@@ -11476,12 +11476,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Fatigued",
-        "feeling": "fatigued",
+        "noun": null,
+        "feeling": "Fatigued",
         "aliases": []
       },
       "zh": {
-        "noun": "疲劳的",
+        "noun": null,
         "feeling": "疲劳的",
         "aliases": []
       }
@@ -11554,12 +11554,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Fearful",
-        "feeling": "fearful",
+        "noun": null,
+        "feeling": "Fearful",
         "aliases": []
       },
       "zh": {
-        "noun": "害怕的",
+        "noun": null,
         "feeling": "害怕的",
         "aliases": []
       }
@@ -11632,12 +11632,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Fidgety",
-        "feeling": "fidgety",
+        "noun": null,
+        "feeling": "Fidgety",
         "aliases": []
       },
       "zh": {
-        "noun": "坐立不安的",
+        "noun": null,
         "feeling": "坐立不安的",
         "aliases": []
       }
@@ -11710,12 +11710,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Forlorn",
-        "feeling": "forlorn",
+        "noun": null,
+        "feeling": "Forlorn",
         "aliases": []
       },
       "zh": {
-        "noun": "孤单又难过的",
+        "noun": null,
         "feeling": "孤单又难过的",
         "aliases": []
       }
@@ -11788,12 +11788,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Frightened",
-        "feeling": "frightened",
+        "noun": null,
+        "feeling": "Frightened",
         "aliases": []
       },
       "zh": {
-        "noun": "受到惊吓的",
+        "noun": null,
         "feeling": "受到惊吓的",
         "aliases": []
       }
@@ -11866,12 +11866,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Furious",
-        "feeling": "furious",
+        "noun": null,
+        "feeling": "Furious",
         "aliases": []
       },
       "zh": {
-        "noun": "愤怒的",
+        "noun": null,
         "feeling": "愤怒的",
         "aliases": []
       }
@@ -11944,12 +11944,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Gloomy",
-        "feeling": "gloomy",
+        "noun": null,
+        "feeling": "Gloomy",
         "aliases": []
       },
       "zh": {
-        "noun": "阴沉的",
+        "noun": null,
         "feeling": "阴沉的",
         "aliases": []
       }
@@ -12022,12 +12022,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Guilty",
-        "feeling": "guilty",
+        "noun": null,
+        "feeling": "Guilty",
         "aliases": []
       },
       "zh": {
-        "noun": "内疚的",
+        "noun": null,
         "feeling": "内疚的",
         "aliases": []
       }
@@ -12100,12 +12100,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Harried",
-        "feeling": "harried",
+        "noun": null,
+        "feeling": "Harried",
         "aliases": []
       },
       "zh": {
-        "noun": "忙得团团转的",
+        "noun": null,
         "feeling": "忙得团团转的",
         "aliases": []
       }
@@ -12178,12 +12178,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Heavy",
-        "feeling": "heavy",
+        "noun": null,
+        "feeling": "Heavy",
         "aliases": []
       },
       "zh": {
-        "noun": "沉重的",
+        "noun": null,
         "feeling": "沉重的",
         "aliases": []
       }
@@ -12256,12 +12256,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Helpless",
-        "feeling": "helpless",
+        "noun": null,
+        "feeling": "Helpless",
         "aliases": []
       },
       "zh": {
-        "noun": "无助的",
+        "noun": null,
         "feeling": "无助的",
         "aliases": []
       }
@@ -12334,12 +12334,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Hesitant",
-        "feeling": "hesitant",
+        "noun": null,
+        "feeling": "Hesitant",
         "aliases": []
       },
       "zh": {
-        "noun": "犹豫的",
+        "noun": null,
         "feeling": "犹豫的",
         "aliases": []
       }
@@ -12412,12 +12412,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Horrible",
-        "feeling": "horrible",
+        "noun": null,
+        "feeling": "Horrible",
         "aliases": []
       },
       "zh": {
-        "noun": "糟糕的",
+        "noun": null,
         "feeling": "糟糕的",
         "aliases": []
       }
@@ -12490,12 +12490,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Horrified",
-        "feeling": "horrified",
+        "noun": null,
+        "feeling": "Horrified",
         "aliases": []
       },
       "zh": {
-        "noun": "感到恐惧的",
+        "noun": null,
         "feeling": "感到恐惧的",
         "aliases": []
       }
@@ -12568,12 +12568,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Hostile",
-        "feeling": "hostile",
+        "noun": null,
+        "feeling": "Hostile",
         "aliases": []
       },
       "zh": {
-        "noun": "敌对的",
+        "noun": null,
         "feeling": "敌对的",
         "aliases": []
       }
@@ -12646,12 +12646,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Hot",
-        "feeling": "hot",
+        "noun": null,
+        "feeling": "Hot",
         "aliases": []
       },
       "zh": {
-        "noun": "热的",
+        "noun": null,
         "feeling": "热的",
         "aliases": []
       }
@@ -12724,12 +12724,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Humdrum",
-        "feeling": "humdrum",
+        "noun": null,
+        "feeling": "Humdrum",
         "aliases": []
       },
       "zh": {
-        "noun": "单调的",
+        "noun": null,
         "feeling": "单调的",
         "aliases": []
       }
@@ -12802,12 +12802,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Hurt",
-        "feeling": "hurt",
+        "noun": null,
+        "feeling": "Hurt",
         "aliases": []
       },
       "zh": {
-        "noun": "受伤的",
+        "noun": null,
         "feeling": "受伤的",
         "aliases": []
       }
@@ -12880,12 +12880,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Impatient",
-        "feeling": "impatient",
+        "noun": null,
+        "feeling": "Impatient",
         "aliases": []
       },
       "zh": {
-        "noun": "不耐烦的",
+        "noun": null,
         "feeling": "不耐烦的",
         "aliases": []
       }
@@ -12958,12 +12958,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Indifferent",
-        "feeling": "indifferent",
+        "noun": null,
+        "feeling": "Indifferent",
         "aliases": []
       },
       "zh": {
-        "noun": "冷漠的",
+        "noun": null,
         "feeling": "冷漠的",
         "aliases": []
       }
@@ -13036,12 +13036,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Intense",
-        "feeling": "intense",
+        "noun": null,
+        "feeling": "Intense",
         "aliases": []
       },
       "zh": {
-        "noun": "感受强烈的（紧张）",
+        "noun": null,
         "feeling": "感受强烈的（紧张）",
         "aliases": []
       }
@@ -13114,12 +13114,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Irate",
-        "feeling": "irate",
+        "noun": null,
+        "feeling": "Irate",
         "aliases": []
       },
       "zh": {
-        "noun": "非常生气的",
+        "noun": null,
         "feeling": "非常生气的",
         "aliases": []
       }
@@ -13192,12 +13192,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Irked",
-        "feeling": "irked",
+        "noun": null,
+        "feeling": "Irked",
         "aliases": []
       },
       "zh": {
-        "noun": "恼怒的",
+        "noun": null,
         "feeling": "恼怒的",
         "aliases": []
       }
@@ -13270,12 +13270,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Irritated",
-        "feeling": "irritated",
+        "noun": null,
+        "feeling": "Irritated",
         "aliases": []
       },
       "zh": {
-        "noun": "烦躁的",
+        "noun": null,
         "feeling": "烦躁的",
         "aliases": []
       }
@@ -13348,12 +13348,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Jealous",
-        "feeling": "jealous",
+        "noun": null,
+        "feeling": "Jealous",
         "aliases": []
       },
       "zh": {
-        "noun": "嫉妒的",
+        "noun": null,
         "feeling": "嫉妒的",
         "aliases": []
       }
@@ -13426,12 +13426,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Jittery",
-        "feeling": "jittery",
+        "noun": null,
+        "feeling": "Jittery",
         "aliases": []
       },
       "zh": {
-        "noun": "紧张得发抖的",
+        "noun": null,
         "feeling": "紧张得发抖的",
         "aliases": []
       }
@@ -13504,12 +13504,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Lazy",
-        "feeling": "lazy",
+        "noun": null,
+        "feeling": "Lazy",
         "aliases": []
       },
       "zh": {
-        "noun": "不想动的",
+        "noun": null,
         "feeling": "不想动的",
         "aliases": []
       }
@@ -13582,12 +13582,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Leery",
-        "feeling": "leery",
+        "noun": null,
+        "feeling": "Leery",
         "aliases": []
       },
       "zh": {
-        "noun": "谨慎的",
+        "noun": null,
         "feeling": "谨慎的",
         "aliases": []
       }
@@ -13660,12 +13660,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Lethargic",
-        "feeling": "lethargic",
+        "noun": null,
+        "feeling": "Lethargic",
         "aliases": []
       },
       "zh": {
-        "noun": "无精打采的",
+        "noun": null,
         "feeling": "无精打采的",
         "aliases": []
       }
@@ -13738,12 +13738,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Listless",
-        "feeling": "listless",
+        "noun": null,
+        "feeling": "Listless",
         "aliases": []
       },
       "zh": {
-        "noun": "无精打采的",
+        "noun": null,
         "feeling": "无精打采的",
         "aliases": []
       }
@@ -13816,12 +13816,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Mad",
-        "feeling": "mad",
+        "noun": null,
+        "feeling": "Mad",
         "aliases": []
       },
       "zh": {
-        "noun": "生气的",
+        "noun": null,
         "feeling": "生气的",
         "aliases": []
       }
@@ -13894,12 +13894,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Mean",
-        "feeling": "mean",
+        "noun": null,
+        "feeling": "Mean",
         "aliases": []
       },
       "zh": {
-        "noun": "刻薄的",
+        "noun": null,
         "feeling": "刻薄的",
         "aliases": []
       }
@@ -13972,12 +13972,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Miserable",
-        "feeling": "miserable",
+        "noun": null,
+        "feeling": "Miserable",
         "aliases": []
       },
       "zh": {
-        "noun": "痛苦的",
+        "noun": null,
         "feeling": "痛苦的",
         "aliases": []
       }
@@ -14050,12 +14050,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Mopey",
-        "feeling": "mopey",
+        "noun": null,
+        "feeling": "Mopey",
         "aliases": []
       },
       "zh": {
-        "noun": "闷闷不乐的",
+        "noun": null,
         "feeling": "闷闷不乐的",
         "aliases": []
       }
@@ -14128,12 +14128,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Morose",
-        "feeling": "morose",
+        "noun": null,
+        "feeling": "Morose",
         "aliases": []
       },
       "zh": {
-        "noun": "郁闷的",
+        "noun": null,
         "feeling": "郁闷的",
         "aliases": []
       }
@@ -14206,12 +14206,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Mournful",
-        "feeling": "mournful",
+        "noun": null,
+        "feeling": "Mournful",
         "aliases": []
       },
       "zh": {
-        "noun": "悲伤怀念的",
+        "noun": null,
         "feeling": "悲伤怀念的",
         "aliases": []
       }
@@ -14284,12 +14284,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Nervous",
-        "feeling": "nervous",
+        "noun": null,
+        "feeling": "Nervous",
         "aliases": []
       },
       "zh": {
-        "noun": "紧张的",
+        "noun": null,
         "feeling": "紧张的",
         "aliases": []
       }
@@ -14362,12 +14362,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Nettled",
-        "feeling": "nettled",
+        "noun": null,
+        "feeling": "Nettled",
         "aliases": []
       },
       "zh": {
-        "noun": "恼怒的",
+        "noun": null,
         "feeling": "恼怒的",
         "aliases": []
       }
@@ -14440,12 +14440,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Numb",
-        "feeling": "numb",
+        "noun": null,
+        "feeling": "Numb",
         "aliases": []
       },
       "zh": {
-        "noun": "麻木的",
+        "noun": null,
         "feeling": "麻木的",
         "aliases": []
       }
@@ -14518,12 +14518,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Overwhelmed",
-        "feeling": "overwhelmed",
+        "noun": null,
+        "feeling": "Overwhelmed",
         "aliases": []
       },
       "zh": {
-        "noun": "压力大得不知所措的",
+        "noun": null,
         "feeling": "压力大得不知所措的",
         "aliases": []
       }
@@ -14596,12 +14596,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Panicky",
-        "feeling": "panicky",
+        "noun": null,
+        "feeling": "Panicky",
         "aliases": []
       },
       "zh": {
-        "noun": "恐慌的",
+        "noun": null,
         "feeling": "恐慌的",
         "aliases": []
       }
@@ -14674,12 +14674,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Passive",
-        "feeling": "passive",
+        "noun": null,
+        "feeling": "Passive",
         "aliases": []
       },
       "zh": {
-        "noun": "不主动表达的",
+        "noun": null,
         "feeling": "不主动表达的",
         "aliases": []
       }
@@ -14752,12 +14752,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Perplexed",
-        "feeling": "perplexed",
+        "noun": null,
+        "feeling": "Perplexed",
         "aliases": []
       },
       "zh": {
-        "noun": "困惑的",
+        "noun": null,
         "feeling": "困惑的",
         "aliases": []
       }
@@ -14830,12 +14830,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Pessimistic",
-        "feeling": "pessimistic",
+        "noun": null,
+        "feeling": "Pessimistic",
         "aliases": []
       },
       "zh": {
-        "noun": "悲观的",
+        "noun": null,
         "feeling": "悲观的",
         "aliases": []
       }
@@ -14908,12 +14908,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Puzzled",
-        "feeling": "puzzled",
+        "noun": null,
+        "feeling": "Puzzled",
         "aliases": []
       },
       "zh": {
-        "noun": "迷惑的",
+        "noun": null,
         "feeling": "迷惑的",
         "aliases": []
       }
@@ -14986,12 +14986,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Rancorous",
-        "feeling": "rancorous",
+        "noun": null,
+        "feeling": "Rancorous",
         "aliases": []
       },
       "zh": {
-        "noun": "怨恨的",
+        "noun": null,
         "feeling": "怨恨的",
         "aliases": []
       }
@@ -15064,12 +15064,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Reluctant",
-        "feeling": "reluctant",
+        "noun": null,
+        "feeling": "Reluctant",
         "aliases": []
       },
       "zh": {
-        "noun": "勉强的",
+        "noun": null,
         "feeling": "勉强的",
         "aliases": []
       }
@@ -15142,12 +15142,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Repelled",
-        "feeling": "repelled",
+        "noun": null,
+        "feeling": "Repelled",
         "aliases": []
       },
       "zh": {
-        "noun": "感到反感的",
+        "noun": null,
         "feeling": "感到反感的",
         "aliases": []
       }
@@ -15220,12 +15220,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Resentful",
-        "feeling": "resentful",
+        "noun": null,
+        "feeling": "Resentful",
         "aliases": []
       },
       "zh": {
-        "noun": "心怀不满的",
+        "noun": null,
         "feeling": "心怀不满的",
         "aliases": []
       }
@@ -15298,12 +15298,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Restless",
-        "feeling": "restless",
+        "noun": null,
+        "feeling": "Restless",
         "aliases": []
       },
       "zh": {
-        "noun": "不安的",
+        "noun": null,
         "feeling": "不安的",
         "aliases": []
       }
@@ -15376,12 +15376,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Sad",
-        "feeling": "sad",
+        "noun": null,
+        "feeling": "Sad",
         "aliases": []
       },
       "zh": {
-        "noun": "悲伤的",
+        "noun": null,
         "feeling": "悲伤的",
         "aliases": []
       }
@@ -15454,12 +15454,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Scared",
-        "feeling": "scared",
+        "noun": null,
+        "feeling": "Scared",
         "aliases": []
       },
       "zh": {
-        "noun": "害怕的",
+        "noun": null,
         "feeling": "害怕的",
         "aliases": []
       }
@@ -15532,12 +15532,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Sensitive",
-        "feeling": "sensitive",
+        "noun": null,
+        "feeling": "Sensitive",
         "aliases": []
       },
       "zh": {
-        "noun": "容易被伤到感受的",
+        "noun": null,
         "feeling": "容易被伤到感受的",
         "aliases": []
       }
@@ -15610,12 +15610,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Shaky",
-        "feeling": "shaky",
+        "noun": null,
+        "feeling": "Shaky",
         "aliases": []
       },
       "zh": {
-        "noun": "颤抖的",
+        "noun": null,
         "feeling": "颤抖的",
         "aliases": []
       }
@@ -15688,12 +15688,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Shocked",
-        "feeling": "shocked",
+        "noun": null,
+        "feeling": "Shocked",
         "aliases": []
       },
       "zh": {
-        "noun": "震惊的",
+        "noun": null,
         "feeling": "震惊的",
         "aliases": []
       }
@@ -15766,12 +15766,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Skeptical",
-        "feeling": "skeptical",
+        "noun": null,
+        "feeling": "Skeptical",
         "aliases": []
       },
       "zh": {
-        "noun": "怀疑的",
+        "noun": null,
         "feeling": "怀疑的",
         "aliases": []
       }
@@ -15844,12 +15844,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Sleepy",
-        "feeling": "sleepy",
+        "noun": null,
+        "feeling": "Sleepy",
         "aliases": []
       },
       "zh": {
-        "noun": "困倦的",
+        "noun": null,
         "feeling": "困倦的",
         "aliases": []
       }
@@ -15922,12 +15922,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Sorrowful",
-        "feeling": "sorrowful",
+        "noun": null,
+        "feeling": "Sorrowful",
         "aliases": []
       },
       "zh": {
-        "noun": "悲伤的",
+        "noun": null,
         "feeling": "悲伤的",
         "aliases": []
       }
@@ -16000,12 +16000,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Sorry",
-        "feeling": "sorry",
+        "noun": null,
+        "feeling": "Sorry",
         "aliases": []
       },
       "zh": {
-        "noun": "抱歉的",
+        "noun": null,
         "feeling": "抱歉的",
         "aliases": []
       }
@@ -16078,12 +16078,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Spiritless",
-        "feeling": "spiritless",
+        "noun": null,
+        "feeling": "Spiritless",
         "aliases": []
       },
       "zh": {
-        "noun": "无精打采的",
+        "noun": null,
         "feeling": "无精打采的",
         "aliases": []
       }
@@ -16156,12 +16156,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Startled",
-        "feeling": "startled",
+        "noun": null,
+        "feeling": "Startled",
         "aliases": []
       },
       "zh": {
-        "noun": "受到惊吓的",
+        "noun": null,
         "feeling": "受到惊吓的",
         "aliases": []
       }
@@ -16234,12 +16234,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Surprised",
-        "feeling": "surprised",
+        "noun": null,
+        "feeling": "Surprised",
         "aliases": []
       },
       "zh": {
-        "noun": "吃惊的",
+        "noun": null,
         "feeling": "吃惊的",
         "aliases": []
       }
@@ -16312,12 +16312,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Suspicious",
-        "feeling": "suspicious",
+        "noun": null,
+        "feeling": "Suspicious",
         "aliases": []
       },
       "zh": {
-        "noun": "怀疑的",
+        "noun": null,
         "feeling": "怀疑的",
         "aliases": []
       }
@@ -16390,12 +16390,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Tepid",
-        "feeling": "tepid",
+        "noun": null,
+        "feeling": "Tepid",
         "aliases": []
       },
       "zh": {
-        "noun": "兴致不高的",
+        "noun": null,
         "feeling": "兴致不高的",
         "aliases": []
       }
@@ -16468,12 +16468,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Terrified",
-        "feeling": "terrified",
+        "noun": null,
+        "feeling": "Terrified",
         "aliases": []
       },
       "zh": {
-        "noun": "恐惧的",
+        "noun": null,
         "feeling": "恐惧的",
         "aliases": []
       }
@@ -16546,12 +16546,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Tired",
-        "feeling": "tired",
+        "noun": null,
+        "feeling": "Tired",
         "aliases": []
       },
       "zh": {
-        "noun": "疲倦的",
+        "noun": null,
         "feeling": "疲倦的",
         "aliases": []
       }
@@ -16624,12 +16624,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Troubled",
-        "feeling": "troubled",
+        "noun": null,
+        "feeling": "Troubled",
         "aliases": []
       },
       "zh": {
-        "noun": "困扰的",
+        "noun": null,
         "feeling": "困扰的",
         "aliases": []
       }
@@ -16702,12 +16702,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Uncomfortable",
-        "feeling": "uncomfortable",
+        "noun": null,
+        "feeling": "Uncomfortable",
         "aliases": []
       },
       "zh": {
-        "noun": "不舒服的",
+        "noun": null,
         "feeling": "不舒服的",
         "aliases": []
       }
@@ -16780,12 +16780,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Unconcerned",
-        "feeling": "unconcerned",
+        "noun": null,
+        "feeling": "Unconcerned",
         "aliases": []
       },
       "zh": {
-        "noun": "不太担心的",
+        "noun": null,
         "feeling": "不太担心的",
         "aliases": []
       }
@@ -16858,12 +16858,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Uneasy",
-        "feeling": "uneasy",
+        "noun": null,
+        "feeling": "Uneasy",
         "aliases": []
       },
       "zh": {
-        "noun": "不安的",
+        "noun": null,
         "feeling": "不安的",
         "aliases": []
       }
@@ -16936,12 +16936,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Unglued",
-        "feeling": "unglued",
+        "noun": null,
+        "feeling": "Unglued",
         "aliases": []
       },
       "zh": {
-        "noun": "情绪失控的",
+        "noun": null,
         "feeling": "情绪失控的",
         "aliases": []
       }
@@ -17014,12 +17014,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Unhappy",
-        "feeling": "unhappy",
+        "noun": null,
+        "feeling": "Unhappy",
         "aliases": []
       },
       "zh": {
-        "noun": "不快乐的",
+        "noun": null,
         "feeling": "不快乐的",
         "aliases": []
       }
@@ -17092,12 +17092,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Unnerved",
-        "feeling": "unnerved",
+        "noun": null,
+        "feeling": "Unnerved",
         "aliases": []
       },
       "zh": {
-        "noun": "紧张的",
+        "noun": null,
         "feeling": "紧张的",
         "aliases": []
       }
@@ -17170,12 +17170,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Unsteady",
-        "feeling": "unsteady",
+        "noun": null,
+        "feeling": "Unsteady",
         "aliases": []
       },
       "zh": {
-        "noun": "有些站不稳的",
+        "noun": null,
         "feeling": "有些站不稳的",
         "aliases": []
       }
@@ -17248,12 +17248,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Upset",
-        "feeling": "upset",
+        "noun": null,
+        "feeling": "Upset",
         "aliases": []
       },
       "zh": {
-        "noun": "心烦的",
+        "noun": null,
         "feeling": "心烦的",
         "aliases": []
       }
@@ -17326,12 +17326,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Uptight",
-        "feeling": "uptight",
+        "noun": null,
+        "feeling": "Uptight",
         "aliases": []
       },
       "zh": {
-        "noun": "紧张的",
+        "noun": null,
         "feeling": "紧张的",
         "aliases": []
       }
@@ -17404,12 +17404,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Vexed",
-        "feeling": "vexed",
+        "noun": null,
+        "feeling": "Vexed",
         "aliases": []
       },
       "zh": {
-        "noun": "烦恼的",
+        "noun": null,
         "feeling": "烦恼的",
         "aliases": []
       }
@@ -17482,12 +17482,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Weary",
-        "feeling": "weary",
+        "noun": null,
+        "feeling": "Weary",
         "aliases": []
       },
       "zh": {
-        "noun": "疲倦的",
+        "noun": null,
         "feeling": "疲倦的",
         "aliases": []
       }
@@ -17560,12 +17560,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Wistful",
-        "feeling": "wistful",
+        "noun": null,
+        "feeling": "Wistful",
         "aliases": []
       },
       "zh": {
-        "noun": "怀念而惆怅的",
+        "noun": null,
         "feeling": "怀念而惆怅的",
         "aliases": []
       }
@@ -17638,12 +17638,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Withdrawn",
-        "feeling": "withdrawn",
+        "noun": null,
+        "feeling": "Withdrawn",
         "aliases": []
       },
       "zh": {
-        "noun": "暂时不想与人交流的",
+        "noun": null,
         "feeling": "暂时不想与人交流的",
         "aliases": []
       }
@@ -17716,12 +17716,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Woeful",
-        "feeling": "woeful",
+        "noun": null,
+        "feeling": "Woeful",
         "aliases": []
       },
       "zh": {
-        "noun": "悲伤的",
+        "noun": null,
         "feeling": "悲伤的",
         "aliases": []
       }
@@ -17794,12 +17794,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Worried",
-        "feeling": "worried",
+        "noun": null,
+        "feeling": "Worried",
         "aliases": []
       },
       "zh": {
-        "noun": "担心的",
+        "noun": null,
         "feeling": "担心的",
         "aliases": []
       }
@@ -17872,12 +17872,12 @@
     },
     "terms": {
       "en": {
-        "noun": "Wretched",
-        "feeling": "wretched",
+        "noun": null,
+        "feeling": "Wretched",
         "aliases": []
       },
       "zh": {
-        "noun": "难受极了的",
+        "noun": null,
         "feeling": "难受极了的",
         "aliases": []
       }
