@@ -1,0 +1,744 @@
+{
+  "agitated": [
+    {
+      "en": "I feel restless and upset.",
+      "zh": "我又烦又坐不住。"
+    },
+    {
+      "en": "I keep looking for my missing toy.",
+      "zh": "我一直找不到最喜欢的玩具。"
+    },
+    {
+      "en": "Can you help me look for it?",
+      "zh": "你能帮我一起找吗？"
+    }
+  ],
+  "alarmed": [
+    {
+      "en": "That scared me suddenly!",
+      "zh": "刚才我一下子被吓到了！"
+    },
+    {
+      "en": "I jumped when I heard the noise.",
+      "zh": "听见那声响，我吓得跳起来。"
+    },
+    {
+      "en": "Could you stay with me?",
+      "zh": "你能陪着我吗？"
+    }
+  ],
+  "aloof": [
+    {
+      "en": "I do not feel like joining in.",
+      "zh": "我现在不太想加入大家。"
+    },
+    {
+      "en": "I would rather watch the game for now.",
+      "zh": "我现在更想先看看他们玩。"
+    },
+    {
+      "en": "Can I join later if I feel ready?",
+      "zh": "等我想加入的时候再参加好吗？"
+    }
+  ],
+  "apathetic": [
+    {
+      "en": "I do not feel interested right now.",
+      "zh": "我现在对什么都提不起兴趣。"
+    },
+    {
+      "en": "Even my usual games feel dull today.",
+      "zh": "连平时爱玩的游戏今天也没意思。"
+    },
+    {
+      "en": "Could we try something different?",
+      "zh": "我们能换一件事做吗？"
+    }
+  ],
+  "apprehensive": [
+    {
+      "en": "I feel a little uneasy about tomorrow.",
+      "zh": "想到明天，我有点不安。"
+    },
+    {
+      "en": "I keep thinking about the big test.",
+      "zh": "我一直想着那场重要的考试。"
+    },
+    {
+      "en": "Can we practice together?",
+      "zh": "我们能一起练习吗？"
+    }
+  ],
+  "beat": [
+    {
+      "en": "I am worn out!",
+      "zh": "我累坏了！"
+    },
+    {
+      "en": "We played outside all afternoon.",
+      "zh": "我们在外面玩了一下午。"
+    },
+    {
+      "en": "Can we sit down for a while?",
+      "zh": "我们能坐下来休息会儿吗？"
+    }
+  ],
+  "bewildered": [
+    {
+      "en": "I am totally confused!",
+      "zh": "我完全搞糊涂了！"
+    },
+    {
+      "en": "I cannot follow the rules of this game.",
+      "zh": "这个游戏的规则我没弄懂。"
+    },
+    {
+      "en": "Could you show me how to play?",
+      "zh": "你能示范一下怎么玩吗？"
+    }
+  ],
+  "bitter": [
+    {
+      "en": "I still feel upset about what happened.",
+      "zh": "那件事让我一直心里不舒服。"
+    },
+    {
+      "en": "It felt unfair when I did not get a turn.",
+      "zh": "没轮到我，我觉得很不公平。"
+    },
+    {
+      "en": "Could we talk about what happened?",
+      "zh": "我们能聊聊刚才的事吗？"
+    }
+  ],
+  "blue": [
+    {
+      "en": "I feel a little blue today.",
+      "zh": "今天我有点闷闷不乐。"
+    },
+    {
+      "en": "The rain makes me miss playing with friends.",
+      "zh": "下雨了，我好想和朋友出去玩。"
+    },
+    {
+      "en": "Could we play something together indoors?",
+      "zh": "我们能在屋里一起玩点什么吗？"
+    }
+  ],
+  "brokenhearted": [
+    {
+      "en": "My heart feels broken.",
+      "zh": "我伤心得心都碎了。"
+    },
+    {
+      "en": "I miss my best friend so much.",
+      "zh": "我好想念我的好朋友。"
+    },
+    {
+      "en": "Can I talk about how much I miss them?",
+      "zh": "我能跟你说说我有多想他们吗？"
+    }
+  ],
+  "chagrined": [
+    {
+      "en": "I feel upset with myself.",
+      "zh": "我有点懊恼。"
+    },
+    {
+      "en": "I planned carefully, but it went wrong.",
+      "zh": "我认真计划了，可结果出了差错。"
+    },
+    {
+      "en": "May I try a different way?",
+      "zh": "我能换个方法再试吗？"
+    }
+  ],
+  "cold": [
+    {
+      "en": "I feel distant from everyone today.",
+      "zh": "今天我不太想和别人亲近。"
+    },
+    {
+      "en": "I answered without much warmth.",
+      "zh": "我刚才回答得有点冷淡。"
+    },
+    {
+      "en": "Can I have some space for a while?",
+      "zh": "我能一个人待一会儿吗？"
+    }
+  ],
+  "concerned-unmet": [
+    {
+      "en": "I am worried about my friend.",
+      "zh": "我有点担心我的朋友。"
+    },
+    {
+      "en": "They are not feeling well today.",
+      "zh": "朋友今天身体不舒服。"
+    },
+    {
+      "en": "Can we check how they are doing?",
+      "zh": "我们能问问他们好些了吗？"
+    }
+  ],
+  "cross": [
+    {
+      "en": "I am feeling cross.",
+      "zh": "我现在有点生气。"
+    },
+    {
+      "en": "Someone kept interrupting my game.",
+      "zh": "有人一直打断我玩游戏。"
+    },
+    {
+      "en": "Could you let me finish?",
+      "zh": "你能让我先玩完吗？"
+    }
+  ],
+  "dejected": [
+    {
+      "en": "I feel really down.",
+      "zh": "我现在心情很低落。"
+    },
+    {
+      "en": "Losing the game left me disappointed.",
+      "zh": "输了比赛，我很失落。"
+    },
+    {
+      "en": "Can we try again another day?",
+      "zh": "我们改天再试好吗？"
+    }
+  ],
+  "depressed": [
+    {
+      "en": "I have been feeling very low.",
+      "zh": "我最近情绪一直很低落。"
+    },
+    {
+      "en": "Things I usually enjoy do not feel fun.",
+      "zh": "平时喜欢的事情也提不起兴趣。"
+    },
+    {
+      "en": "Could I talk with someone I trust?",
+      "zh": "我能找信任的人谈谈吗？"
+    }
+  ],
+  "despairing": [
+    {
+      "en": "It feels as if nothing will work.",
+      "zh": "我现在觉得怎么做都没用。"
+    },
+    {
+      "en": "I have tried so many times.",
+      "zh": "我已经试了好多次。"
+    },
+    {
+      "en": "Can someone help me find a new way?",
+      "zh": "有人能帮我想个新办法吗？"
+    }
+  ],
+  "despondent": [
+    {
+      "en": "I feel sad and out of energy.",
+      "zh": "我很难过，也没什么力气。"
+    },
+    {
+      "en": "I do not feel ready to play right now.",
+      "zh": "我现在还不想去玩。"
+    },
+    {
+      "en": "Could you sit with me for a bit?",
+      "zh": "你能陪我坐一会儿吗？"
+    }
+  ],
+  "detached": [
+    {
+      "en": "I feel far away from everyone.",
+      "zh": "我觉得自己和大家有些疏远。"
+    },
+    {
+      "en": "I am here, but I do not feel connected.",
+      "zh": "虽然我在这里，却觉得融不进去。"
+    },
+    {
+      "en": "Could we spend some time talking?",
+      "zh": "我们能一起聊一会儿吗？"
+    }
+  ],
+  "disaffected": [
+    {
+      "en": "I do not enjoy this like I used to.",
+      "zh": "这件事不像以前那样让我开心。"
+    },
+    {
+      "en": "I used to love this hobby, but not today.",
+      "zh": "我以前很喜欢这个爱好，今天却提不起兴趣。"
+    },
+    {
+      "en": "Could we try something different?",
+      "zh": "我们能试试别的事情吗？"
+    }
+  ],
+  "disenchanted": [
+    {
+      "en": "It is not as magical as I imagined.",
+      "zh": "它不像我想象中那么美好了。"
+    },
+    {
+      "en": "I learned something that changed my opinion.",
+      "zh": "我知道了一件事，想法也变了。"
+    },
+    {
+      "en": "Can we talk about why I feel disappointed?",
+      "zh": "我们能聊聊我为什么失望吗？"
+    }
+  ],
+  "disgruntled": [
+    {
+      "en": "I am not happy about this.",
+      "zh": "这件事让我很不满。"
+    },
+    {
+      "en": "The plan changed without telling me.",
+      "zh": "计划变了，却没人告诉我。"
+    },
+    {
+      "en": "Could we talk about the change?",
+      "zh": "我们能聊聊这个变化吗？"
+    }
+  ],
+  "disgusted": [
+    {
+      "en": "Yuck, that is disgusting!",
+      "zh": "哎呀，这也太恶心了！"
+    },
+    {
+      "en": "The spoiled food smells terrible.",
+      "zh": "坏掉的食物闻起来很难闻。"
+    },
+    {
+      "en": "Can we move away from it?",
+      "zh": "我们能离远一点吗？"
+    }
+  ],
+  "disheartened": [
+    {
+      "en": "I am losing confidence.",
+      "zh": "我有点灰心了。"
+    },
+    {
+      "en": "I keep trying, but I have not succeeded yet.",
+      "zh": "我一直在试，可还没有成功。"
+    },
+    {
+      "en": "Can you help me think of a new idea?",
+      "zh": "你能帮我想个新办法吗？"
+    }
+  ],
+  "dismayed": [
+    {
+      "en": "Oh no, that plan fell apart!",
+      "zh": "糟了，计划泡汤了！"
+    },
+    {
+      "en": "Everything changed so suddenly.",
+      "zh": "事情一下子全变了。"
+    },
+    {
+      "en": "Could we make another plan?",
+      "zh": "我们能重新想个办法吗？"
+    }
+  ],
+  "displeased": [
+    {
+      "en": "I am not pleased with this.",
+      "zh": "我对这件事不满意。"
+    },
+    {
+      "en": "I thought the movie would be more fun.",
+      "zh": "我以为这部电影会更好看。"
+    },
+    {
+      "en": "Could we choose something else next time?",
+      "zh": "下次我们能换一个吗？"
+    }
+  ],
+  "disquieted": [
+    {
+      "en": "Something is making me uneasy.",
+      "zh": "有件事让我心里不安。"
+    },
+    {
+      "en": "I heard a strange noise at night.",
+      "zh": "晚上我听见了奇怪的声音。"
+    },
+    {
+      "en": "Can you check it with me?",
+      "zh": "你能陪我一起看看吗？"
+    }
+  ],
+  "distressed": [
+    {
+      "en": "I feel very upset right now.",
+      "zh": "我现在很难受。"
+    },
+    {
+      "en": "Something difficult happened today.",
+      "zh": "今天发生了一件让我难过的事。"
+    },
+    {
+      "en": "Can I tell you about it?",
+      "zh": "我能跟你说说吗？"
+    }
+  ],
+  "disturbed": [
+    {
+      "en": "That interruption upset me.",
+      "zh": "刚才被打断，我有点烦。"
+    },
+    {
+      "en": "I was concentrating on my game.",
+      "zh": "我刚才正专心玩游戏呢。"
+    },
+    {
+      "en": "Could you give me a moment to finish?",
+      "zh": "你能等我做完这一点吗？"
+    }
+  ],
+  "downcast": [
+    {
+      "en": "I feel down today.",
+      "zh": "今天我有点低落。"
+    },
+    {
+      "en": "The day did not go as I hoped.",
+      "zh": "今天没有像我想的那么顺利。"
+    },
+    {
+      "en": "Could we do something gentle together?",
+      "zh": "我们能一起做点轻松的事吗？"
+    }
+  ],
+  "downhearted": [
+    {
+      "en": "My heart feels heavy.",
+      "zh": "我心里有点沉。"
+    },
+    {
+      "en": "The bad news made me sad.",
+      "zh": "那个不好的消息让我难过。"
+    },
+    {
+      "en": "Can you listen to me for a while?",
+      "zh": "你能听我说一会儿吗？"
+    }
+  ],
+  "dull": [
+    {
+      "en": "Everything feels a bit boring.",
+      "zh": "我觉得什么都没意思。"
+    },
+    {
+      "en": "Today has been the same thing over and over.",
+      "zh": "今天一直在重复做同样的事。"
+    },
+    {
+      "en": "Could we try a new game?",
+      "zh": "我们能玩个新游戏吗？"
+    }
+  ],
+  "edgy": [
+    {
+      "en": "I am on edge.",
+      "zh": "我现在绷得有点紧。"
+    },
+    {
+      "en": "I am waiting for my turn to perform.",
+      "zh": "我正在等着上台表演。"
+    },
+    {
+      "en": "Can I take a deep breath first?",
+      "zh": "我能先深呼吸一下吗？"
+    }
+  ],
+  "embittered": [
+    {
+      "en": "I still feel hurt and angry.",
+      "zh": "我心里还有怨气。"
+    },
+    {
+      "en": "Being blamed unfairly really upset me.",
+      "zh": "被冤枉让我特别难过。"
+    },
+    {
+      "en": "Can we talk about what is fair?",
+      "zh": "我们能聊聊什么才公平吗？"
+    }
+  ],
+  "exasperated": [
+    {
+      "en": "I am getting so frustrated!",
+      "zh": "我快被气坏了！"
+    },
+    {
+      "en": "I have tried again and again.",
+      "zh": "我已经反复试了好多次。"
+    },
+    {
+      "en": "Can you help me take a short break?",
+      "zh": "你能陪我休息一下吗？"
+    }
+  ],
+  "exhausted": [
+    {
+      "en": "I am completely exhausted.",
+      "zh": "我真的累坏了。"
+    },
+    {
+      "en": "Today was full of running and playing.",
+      "zh": "今天一直跑跑跳跳。"
+    },
+    {
+      "en": "Can I rest before we go on?",
+      "zh": "我们继续前，我能先休息吗？"
+    }
+  ],
+  "fatigued": [
+    {
+      "en": "I feel worn out.",
+      "zh": "我现在很疲惫。"
+    },
+    {
+      "en": "That long walk used up my energy.",
+      "zh": "刚才走了很远，我没力气了。"
+    },
+    {
+      "en": "Could we walk more slowly?",
+      "zh": "我们能走慢一点吗？"
+    }
+  ],
+  "fidgety": [
+    {
+      "en": "I cannot sit still!",
+      "zh": "我坐不住啦！"
+    },
+    {
+      "en": "My legs keep wanting to move.",
+      "zh": "我的腿老想动来动去。"
+    },
+    {
+      "en": "Can I stand up for a minute?",
+      "zh": "我能站起来活动一会儿吗？"
+    }
+  ],
+  "forlorn": [
+    {
+      "en": "I feel very lonely.",
+      "zh": "我心里好孤单。"
+    },
+    {
+      "en": "I have no one to play with right now.",
+      "zh": "现在没人陪我玩。"
+    },
+    {
+      "en": "Could you stay with me?",
+      "zh": "你能陪陪我吗？"
+    }
+  ],
+  "furious": [
+    {
+      "en": "I am extremely angry!",
+      "zh": "我现在非常生气！"
+    },
+    {
+      "en": "Someone ruined something I worked hard on.",
+      "zh": "有人弄坏了我辛苦做的东西。"
+    },
+    {
+      "en": "I need space before I talk.",
+      "zh": "我想先静静，等会儿再说。"
+    }
+  ],
+  "gloomy": [
+    {
+      "en": "I feel gloomy today.",
+      "zh": "我今天心情有点灰暗。"
+    },
+    {
+      "en": "The rain and quiet house make me sad.",
+      "zh": "下雨又安静的家里让我有点难过。"
+    },
+    {
+      "en": "Could you stay and read with me?",
+      "zh": "你能陪我读读书吗？"
+    }
+  ],
+  "guilty": [
+    {
+      "en": "I feel guilty about what I did.",
+      "zh": "我为自己做的事感到内疚。"
+    },
+    {
+      "en": "I wish I had not lied to you.",
+      "zh": "我真希望自己没有对你说谎。"
+    },
+    {
+      "en": "Can I tell the truth now?",
+      "zh": "我现在能把实话告诉你吗？"
+    }
+  ],
+  "harried": [
+    {
+      "en": "I feel rushed and stressed.",
+      "zh": "我忙得有点喘不过气。"
+    },
+    {
+      "en": "I have too many things to do at once.",
+      "zh": "我一下子要做太多事了。"
+    },
+    {
+      "en": "Can we make a list and do one thing first?",
+      "zh": "我们能列个清单，一件件来吗？"
+    }
+  ],
+  "heavy": [
+    {
+      "en": "My heart feels heavy.",
+      "zh": "我心里沉甸甸的。"
+    },
+    {
+      "en": "I am carrying a lot of sadness today.",
+      "zh": "今天我心里有好多难过。"
+    },
+    {
+      "en": "Could you listen without rushing me?",
+      "zh": "你能听我慢慢说吗？"
+    }
+  ],
+  "helpless": [
+    {
+      "en": "I feel helpless.",
+      "zh": "我觉得很无助。"
+    },
+    {
+      "en": "I do not know how to make this better.",
+      "zh": "我不知道怎么让事情好起来。"
+    },
+    {
+      "en": "Could you help me find someone who can?",
+      "zh": "你能帮我找个能帮忙的人吗？"
+    }
+  ],
+  "hesitant": [
+    {
+      "en": "I am not ready to try yet.",
+      "zh": "我还不太敢试。"
+    },
+    {
+      "en": "That new activity feels a little scary.",
+      "zh": "那个新活动让我有点害怕。"
+    },
+    {
+      "en": "Can we start with a small step?",
+      "zh": "我们能先从简单的一步开始吗？"
+    }
+  ],
+  "horrible": [
+    {
+      "en": "This feels awful.",
+      "zh": "这感觉太糟糕了。"
+    },
+    {
+      "en": "I had a really bad dream.",
+      "zh": "我做了一个很可怕的梦。"
+    },
+    {
+      "en": "Could you stay until I feel calm?",
+      "zh": "你能陪我到平静下来吗？"
+    }
+  ],
+  "horrified": [
+    {
+      "en": "That frightened me badly.",
+      "zh": "刚才我被吓坏了。"
+    },
+    {
+      "en": "I saw something very scary.",
+      "zh": "我看到了很吓人的东西。"
+    },
+    {
+      "en": "Can we leave this place now?",
+      "zh": "我们现在能离开这里吗？"
+    }
+  ],
+  "hostile": [
+    {
+      "en": "I feel angry and unfriendly right now.",
+      "zh": "我现在生气得不想理人。"
+    },
+    {
+      "en": "I am too upset to talk politely.",
+      "zh": "我太生气了，没法好好说话。"
+    },
+    {
+      "en": "Can I calm down before we talk?",
+      "zh": "等我冷静下来再说好吗？"
+    }
+  ],
+  "hot": [
+    {
+      "en": "I feel too hot.",
+      "zh": "我现在热得难受。"
+    },
+    {
+      "en": "The sun is making me sweat.",
+      "zh": "太阳晒得我满头大汗。"
+    },
+    {
+      "en": "Can we find some shade and water?",
+      "zh": "我们能找个阴凉处喝点水吗？"
+    }
+  ],
+  "humdrum": [
+    {
+      "en": "This day feels the same as yesterday.",
+      "zh": "今天跟昨天一样单调。"
+    },
+    {
+      "en": "I am bored of doing the same thing.",
+      "zh": "老做同一件事，我有点烦了。"
+    },
+    {
+      "en": "Can we try a different activity?",
+      "zh": "我们能换个活动吗？"
+    }
+  ],
+  "indifferent": [
+    {
+      "en": "I do not really mind either way.",
+      "zh": "怎样都行，我不太在意。"
+    },
+    {
+      "en": "Both games seem fine to me.",
+      "zh": "这两个游戏我觉得都可以。"
+    },
+    {
+      "en": "Would you like to choose?",
+      "zh": "你来选好吗？"
+    }
+  ],
+  "intense-unmet": [
+    {
+      "en": "My feelings are really strong right now.",
+      "zh": "我现在情绪特别强烈。"
+    },
+    {
+      "en": "I am worried about something important.",
+      "zh": "我对一件重要的事很担心。"
+    },
+    {
+      "en": "Can we slow down and talk?",
+      "zh": "我们能慢慢说吗？"
+    }
+  ]
+}

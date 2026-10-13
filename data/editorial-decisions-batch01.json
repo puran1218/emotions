@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "not_final": true,
+  "reviewed_word_forms": 23,
+  "occurrences_drafted": 30,
+  "decisions": [
+    {
+      "source_language": "en",
+      "word": "alive",
+      "provisional_meaning": {
+        "en": "lively / energized",
+        "zh": "精神焕发、有活力"
+      },
+      "proposed_kind": "feeling_state",
+      "editorial_warning": "Do not translate as simply biologically alive; differentiate energized from excited.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "anguished",
+      "provisional_meaning": {
+        "en": "deeply distressed",
+        "zh": "极其痛苦、备受煎熬"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Use a gentle, age-appropriate real-life scene; avoid graphic distress.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "annoyed",
+      "provisional_meaning": {
+        "en": "a little angry or bothered",
+        "zh": "恼火、烦躁"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Usually less intense than furious; avoid representing as explosive rage.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "aroused",
+      "provisional_meaning": {
+        "en": "emotionally stirred / excited (context required)",
+        "zh": "情绪被激起（须辨别语境）"
+      },
+      "proposed_kind": "ambiguous",
+      "editorial_warning": "Strong semantic ambiguity, including adult senses. Hold for manual decision; never auto-publish child-facing word.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "blah",
+      "provisional_meaning": {
+        "en": "flat, uninterested, without energy",
+        "zh": "提不起劲、没精打采"
+      },
+      "proposed_kind": "feeling_state",
+      "editorial_warning": "Colloquial informal; distinguish bored, apathetic and tired.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "breathless",
+      "provisional_meaning": {
+        "en": "out of breath or holding one's breath with excitement",
+        "zh": "喘不过气来；激动得屏住呼吸"
+      },
+      "proposed_kind": "physical_or_emotional",
+      "editorial_warning": "Disambiguate literal physical state versus figurative emotional state.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "complacent",
+      "provisional_meaning": {
+        "en": "too pleased with how things are to notice a problem",
+        "zh": "自满、安于现状"
+      },
+      "proposed_kind": "attitude_trait",
+      "editorial_warning": "Do not equate with healthy satisfaction or confidence.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "concerned",
+      "provisional_meaning": {
+        "en": "caring about someone / being worried",
+        "zh": "关心（needs met）；担忧（needs unmet）"
+      },
+      "proposed_kind": "multiple_senses",
+      "editorial_warning": "Two context-dependent senses; use distinct stable concept IDs before publication.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "cool",
+      "provisional_meaning": {
+        "en": "calm or emotionally distant, depending on context",
+        "zh": "镇定、冷静；冷淡、不在乎"
+      },
+      "proposed_kind": "multiple_senses",
+      "editorial_warning": "Never treat slang 'cool=酷' as the emotion sense without context.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "depressed",
+      "provisional_meaning": {
+        "en": "very low in mood (not diagnosis)",
+        "zh": "情绪非常低落"
+      },
+      "proposed_kind": "emotion_or_clinical_term",
+      "editorial_warning": "Do not equate brief sadness with depression diagnosis; kid-oriented editorial safety review.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "guilty",
+      "provisional_meaning": {
+        "en": "feeling bad for something one has done",
+        "zh": "内疚、愧疚"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Not 'legally guilty/有罪'; avoid shaming the child.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "helpful",
+      "provisional_meaning": {
+        "en": "giving help to others",
+        "zh": "乐于助人、有帮助的"
+      },
+      "proposed_kind": "behavior_trait",
+      "editorial_warning": "Not primarily an emotion; may be related-concept or excluded from emotion browsing.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "hot",
+      "provisional_meaning": {
+        "en": "physically hot or angry (context-dependent)",
+        "zh": "热；恼火（依语境）"
+      },
+      "proposed_kind": "physical_or_emotional",
+      "editorial_warning": "Unclear without context; do not automatically translate as feeling hot.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "keyed-up",
+      "provisional_meaning": {
+        "en": "energized and excited / tense and nervous",
+        "zh": "兴奋得停不下来；紧绷、神经紧张"
+      },
+      "proposed_kind": "multiple_senses",
+      "editorial_warning": "Possible positive excitement vs uneasy tension; sense separation required.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "lazy",
+      "provisional_meaning": {
+        "en": "avoiding effort / lacking motivation",
+        "zh": "懒散、缺乏动力"
+      },
+      "proposed_kind": "attitude_trait",
+      "editorial_warning": "Potentially judgmental label rather than feeling. Prefer describing tiredness or reluctance when appropriate.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "mad",
+      "provisional_meaning": {
+        "en": "angry",
+        "zh": "生气、愤怒"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Avoid '发疯' for ordinary anger; distinguish other regional usage.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "overwhelmed",
+      "provisional_meaning": {
+        "en": "emotionally full / overloaded by demands",
+        "zh": "激动得不知所措；压力太大、招架不住"
+      },
+      "proposed_kind": "multiple_senses",
+      "editorial_warning": "Separate being moved to tears with joy from being overburdened.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "sensitive",
+      "provisional_meaning": {
+        "en": "responsive to emotions / easily hurt",
+        "zh": "敏感、易受触动"
+      },
+      "proposed_kind": "trait_or_feeling",
+      "editorial_warning": "Trait not necessarily emotion; distinguish gentle sensitivity from vulnerability.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "surprised",
+      "provisional_meaning": {
+        "en": "unexpectedness, positive or unpleasant",
+        "zh": "惊讶、意外"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Surprise can be positive, negative or neutral; taxonomy depends on sense/example.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "suspicious",
+      "provisional_meaning": {
+        "en": "feeling unsure whether someone is being truthful",
+        "zh": "怀疑、心存疑虑"
+      },
+      "proposed_kind": "emotion_or_attitude",
+      "editorial_warning": "When describing the experiencer, not '可疑的' as object quality.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "worried",
+      "provisional_meaning": {
+        "en": "uneasy because something bad might happen",
+        "zh": "担心、忧虑"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Difference from scared and anxious is uncertainty and anticipation.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "proud",
+      "provisional_meaning": {
+        "en": "pleased about effort or achievement",
+        "zh": "自豪"
+      },
+      "proposed_kind": "emotion",
+      "editorial_warning": "Celebrate perseverance, not superiority over peers.",
+      "stage": "first_pass_pending_human_review"
+    },
+    {
+      "source_language": "en",
+      "word": "curious",
+      "provisional_meaning": {
+        "en": "wanting to discover or learn",
+        "zh": "好奇"
+      },
+      "proposed_kind": "feeling_state",
+      "editorial_warning": "Explore rather than judging curiosity as disobedience.",
+      "stage": "first_pass_pending_human_review"
+    }
+  ]
+}

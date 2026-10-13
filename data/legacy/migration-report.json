@@ -1,0 +1,3024 @@
+{
+  "sourceRows": 235,
+  "canonicalNew": 230,
+  "merged": 5,
+  "visibleNew": 220,
+  "withheld": 10,
+  "flags": [
+    {
+      "legacy_index": 3,
+      "word": "Alert",
+      "id": "alert",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 5,
+      "word": "Amused",
+      "id": "amused",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 6,
+      "word": "Animated",
+      "id": "animated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 7,
+      "word": "Appreciative",
+      "id": "appreciative",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 8,
+      "word": "Ardent",
+      "id": "ardent",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 9,
+      "word": "Aroused",
+      "id": "aroused",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 10,
+      "word": "Astonished",
+      "id": "astonished",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 11,
+      "word": "Blissful",
+      "id": "blissful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 12,
+      "word": "Breathless",
+      "id": "breathless",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 13,
+      "word": "Buoyant",
+      "id": "buoyant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 15,
+      "word": "Carefree",
+      "id": "carefree",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 17,
+      "word": "Comfortable",
+      "id": "comfortable",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 18,
+      "word": "Complacent",
+      "id": "complacent",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 19,
+      "word": "Composed",
+      "id": "composed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 20,
+      "word": "Concerned",
+      "id": "concerned-met",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 23,
+      "word": "Cool",
+      "id": "cool",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 25,
+      "word": "Dazzled",
+      "id": "dazzled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 28,
+      "word": "Ebullient",
+      "id": "ebullient",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 29,
+      "word": "Ecstatic",
+      "id": "ecstatic",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 30,
+      "word": "Effervescent",
+      "id": "effervescent",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 31,
+      "word": "Elated",
+      "id": "elated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 32,
+      "word": "Enchanted",
+      "id": "enchanted",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 33,
+      "word": "Encouraged",
+      "id": "encouraged",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 34,
+      "word": "Energetic",
+      "id": "energetic",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 35,
+      "word": "Engrossed",
+      "id": "engrossed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 36,
+      "word": "Enlivened",
+      "id": "enlivened",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 37,
+      "word": "Enthusiastic",
+      "id": "enthusiastic",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 39,
+      "word": "Exhilarated",
+      "id": "exhilarated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 40,
+      "word": "Expansive",
+      "id": "expansive",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 41,
+      "word": "Expectant",
+      "id": "expectant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 42,
+      "word": "Exultant",
+      "id": "exultant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 45,
+      "word": "Friendly",
+      "id": "friendly",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 46,
+      "word": "Fulfilled",
+      "id": "fulfilled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 47,
+      "word": "Glad",
+      "id": "glad",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 48,
+      "word": "Gleeful",
+      "id": "gleeful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 49,
+      "word": "Glorious",
+      "id": "glorious",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 50,
+      "word": "Glowing",
+      "id": "glowing",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 51,
+      "word": "Good-humored",
+      "id": "good-humored",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 53,
+      "word": "Gratified",
+      "id": "gratified",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 55,
+      "word": "Helpful",
+      "id": "helpful",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 57,
+      "word": "Inquisitive",
+      "id": "inquisitive",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 58,
+      "word": "Inspired",
+      "id": "inspired",
+      "flags": [
+        "legacy explanation does not clearly separate a situational example"
+      ]
+    },
+    {
+      "legacy_index": 59,
+      "word": "Intense",
+      "id": "intense-met",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 61,
+      "word": "Intrigued",
+      "id": "intrigued",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 62,
+      "word": "Invigorated",
+      "id": "invigorated",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 63,
+      "word": "Involved",
+      "id": "involved",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 64,
+      "word": "Joyous",
+      "id": "joyous",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 66,
+      "word": "Jubilant",
+      "id": "jubilant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 67,
+      "word": "Keyed-up",
+      "id": "keyed-up",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 68,
+      "word": "Loving",
+      "id": "loving",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 69,
+      "word": "Mellow",
+      "id": "mellow",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 70,
+      "word": "Merry",
+      "id": "merry",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 71,
+      "word": "Mirthful",
+      "id": "mirthful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 72,
+      "word": "Moved",
+      "id": "moved",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 73,
+      "word": "Optimistic",
+      "id": "optimistic",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 74,
+      "word": "Overjoyed",
+      "id": "overjoyed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 75,
+      "word": "Overwhelmed",
+      "id": "overwhelmed-met",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 76,
+      "word": "Peaceful",
+      "id": "peaceful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 77,
+      "word": "Perky",
+      "id": "perky",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 78,
+      "word": "Pleasant",
+      "id": "pleasant",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 79,
+      "word": "Pleased",
+      "id": "pleased",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 81,
+      "word": "Quiet",
+      "id": "quiet",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 82,
+      "word": "Radiant",
+      "id": "radiant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 83,
+      "word": "Rapturous",
+      "id": "rapturous",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 84,
+      "word": "Refreshed",
+      "id": "refreshed",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 87,
+      "word": "Satisfied",
+      "id": "satisfied",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 88,
+      "word": "Secure",
+      "id": "secure",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 89,
+      "word": "Sensitive",
+      "id": "sensitive-met",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 90,
+      "word": "Serene",
+      "id": "serene",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 91,
+      "word": "Spellbound",
+      "id": "spellbound",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 92,
+      "word": "Splendid",
+      "id": "splendid",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 93,
+      "word": "Stimulated",
+      "id": "stimulated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 94,
+      "word": "Surprised",
+      "id": "surprised-met",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 95,
+      "word": "Tender",
+      "id": "tender",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 97,
+      "word": "Thrilled",
+      "id": "thrilled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 98,
+      "word": "Touched",
+      "id": "touched",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 99,
+      "word": "Tranquil",
+      "id": "tranquil",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 100,
+      "word": "Trusting",
+      "id": "trusting",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 101,
+      "word": "Upbeat",
+      "id": "upbeat",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 102,
+      "word": "Warm",
+      "id": "warm",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 103,
+      "word": "Wide-awake",
+      "id": "wide-awake",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 104,
+      "word": "Wonderful",
+      "id": "wonderful",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 105,
+      "word": "Zestful",
+      "id": "zestful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 106,
+      "word": "Agitated",
+      "id": "agitated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 107,
+      "word": "Alarmed",
+      "id": "alarmed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 108,
+      "word": "Aloof",
+      "id": "aloof",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 111,
+      "word": "Apathetic",
+      "id": "apathetic",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 112,
+      "word": "Apprehensive",
+      "id": "apprehensive",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 114,
+      "word": "Beat",
+      "id": "beat",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 115,
+      "word": "Bewildered",
+      "id": "bewildered",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 116,
+      "word": "Bitter",
+      "id": "bitter",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 117,
+      "word": "Blue",
+      "id": "blue",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 119,
+      "word": "Brokenhearted",
+      "id": "brokenhearted",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 120,
+      "word": "Chagrined",
+      "id": "chagrined",
+      "flags": [
+        "legacy explanation does not clearly separate a situational example",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 121,
+      "word": "Cold",
+      "id": "cold",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 122,
+      "word": "Concerned",
+      "id": "concerned-unmet",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 124,
+      "word": "Cross",
+      "id": "cross",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 125,
+      "word": "Dejected",
+      "id": "dejected",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 126,
+      "word": "Depressed",
+      "id": "depressed",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 127,
+      "word": "Despairing",
+      "id": "despairing",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 128,
+      "word": "Despondent",
+      "id": "despondent",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 129,
+      "word": "Detached",
+      "id": "detached",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 130,
+      "word": "Disaffected",
+      "id": "disaffected",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 133,
+      "word": "Disenchanted",
+      "id": "disenchanted",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 134,
+      "word": "Disgruntled",
+      "id": "disgruntled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 135,
+      "word": "Disgusted",
+      "id": "disgusted",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 136,
+      "word": "Disheartened",
+      "id": "disheartened",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 137,
+      "word": "Dismayed",
+      "id": "dismayed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 138,
+      "word": "Displeased",
+      "id": "displeased",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 139,
+      "word": "Disquieted",
+      "id": "disquieted",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 140,
+      "word": "Distressed",
+      "id": "distressed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 141,
+      "word": "Disturbed",
+      "id": "disturbed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 142,
+      "word": "Downcast",
+      "id": "downcast",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 143,
+      "word": "Downhearted",
+      "id": "downhearted",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 144,
+      "word": "Dull",
+      "id": "dull",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 145,
+      "word": "Edgy",
+      "id": "edgy",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 147,
+      "word": "Embittered",
+      "id": "embittered",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 148,
+      "word": "Exasperated",
+      "id": "exasperated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 149,
+      "word": "Exhausted",
+      "id": "exhausted",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 150,
+      "word": "Fatigued",
+      "id": "fatigued",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 152,
+      "word": "Fidgety",
+      "id": "fidgety",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 153,
+      "word": "Forlorn",
+      "id": "forlorn",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 156,
+      "word": "Furious",
+      "id": "furious",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 157,
+      "word": "Gloomy",
+      "id": "gloomy",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 158,
+      "word": "Guilty",
+      "id": "guilty",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 159,
+      "word": "Harried",
+      "id": "harried",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 160,
+      "word": "Heavy",
+      "id": "heavy",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 161,
+      "word": "Helpless",
+      "id": "helpless",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 162,
+      "word": "Hesitant",
+      "id": "hesitant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 163,
+      "word": "Horrible",
+      "id": "horrible",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 164,
+      "word": "Horrified",
+      "id": "horrified",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 165,
+      "word": "Hostile",
+      "id": "hostile",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 166,
+      "word": "Hot",
+      "id": "hot",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 167,
+      "word": "Humdrum",
+      "id": "humdrum",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 170,
+      "word": "Indifferent",
+      "id": "indifferent",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 171,
+      "word": "Intense",
+      "id": "intense-unmet",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 172,
+      "word": "Irate",
+      "id": "irate",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 173,
+      "word": "Irked",
+      "id": "irked",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 174,
+      "word": "Irritated",
+      "id": "irritated",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 175,
+      "word": "Jealous",
+      "id": "jealous",
+      "flags": [
+        "legacy explanation does not clearly separate a situational example"
+      ]
+    },
+    {
+      "legacy_index": 176,
+      "word": "Jittery",
+      "id": "jittery",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 177,
+      "word": "Lazy",
+      "id": "lazy",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 178,
+      "word": "Leery",
+      "id": "leery",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 179,
+      "word": "Lethargic",
+      "id": "lethargic",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 180,
+      "word": "Listless",
+      "id": "listless",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 182,
+      "word": "Mad",
+      "id": "mad",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 183,
+      "word": "Mean",
+      "id": "mean",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 184,
+      "word": "Miserable",
+      "id": "miserable",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 185,
+      "word": "Mopey",
+      "id": "mopey",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 186,
+      "word": "Morose",
+      "id": "morose",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 187,
+      "word": "Mournful",
+      "id": "mournful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 189,
+      "word": "Nettled",
+      "id": "nettled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 190,
+      "word": "Numb",
+      "id": "numb",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 191,
+      "word": "Overwhelmed",
+      "id": "overwhelmed-unmet",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 192,
+      "word": "Panicky",
+      "id": "panicky",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 193,
+      "word": "Passive",
+      "id": "passive",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 194,
+      "word": "Perplexed",
+      "id": "perplexed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 195,
+      "word": "Pessimistic",
+      "id": "pessimistic",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 196,
+      "word": "Puzzled",
+      "id": "puzzled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 197,
+      "word": "Rancorous",
+      "id": "rancorous",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 198,
+      "word": "Reluctant",
+      "id": "reluctant",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 199,
+      "word": "Repelled",
+      "id": "repelled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 200,
+      "word": "Resentful",
+      "id": "resentful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 201,
+      "word": "Restless",
+      "id": "restless",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 204,
+      "word": "Sensitive",
+      "id": "sensitive-unmet",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 205,
+      "word": "Shaky",
+      "id": "shaky",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 206,
+      "word": "Shocked",
+      "id": "shocked",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 207,
+      "word": "Skeptical",
+      "id": "skeptical",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 208,
+      "word": "Sleepy",
+      "id": "sleepy",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 209,
+      "word": "Sorrowful",
+      "id": "sorrowful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 211,
+      "word": "Spiritless",
+      "id": "spiritless",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 212,
+      "word": "Startled",
+      "id": "startled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 213,
+      "word": "Surprised",
+      "id": "surprised-unmet",
+      "flags": [
+        "source word has another occurrence with a distinct category/sense",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 214,
+      "word": "Suspicious",
+      "id": "suspicious",
+      "flags": [
+        "sense or child suitability requires explicit editorial review before preview",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 215,
+      "word": "Tepid",
+      "id": "tepid",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 216,
+      "word": "Terrified",
+      "id": "terrified",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 217,
+      "word": "Tired",
+      "id": "tired",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description"
+      ]
+    },
+    {
+      "legacy_index": 218,
+      "word": "Troubled",
+      "id": "troubled",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 219,
+      "word": "Uncomfortable",
+      "id": "uncomfortable",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 220,
+      "word": "Unconcerned",
+      "id": "unconcerned",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 221,
+      "word": "Uneasy",
+      "id": "uneasy",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 222,
+      "word": "Unglued",
+      "id": "unglued",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 223,
+      "word": "Unhappy",
+      "id": "unhappy",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 224,
+      "word": "Unnerved",
+      "id": "unnerved",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 225,
+      "word": "Unsteady",
+      "id": "unsteady",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 227,
+      "word": "Uptight",
+      "id": "uptight",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 228,
+      "word": "Vexed",
+      "id": "vexed",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 229,
+      "word": "Weary",
+      "id": "weary",
+      "flags": [
+        "may not be an emotion: assess feeling-state versus trait/physical description",
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 230,
+      "word": "Wistful",
+      "id": "wistful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 231,
+      "word": "Withdrawn",
+      "id": "withdrawn",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 232,
+      "word": "Woeful",
+      "id": "woeful",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    },
+    {
+      "legacy_index": 234,
+      "word": "Wretched",
+      "id": "wretched",
+      "flags": [
+        "three bilingual examples written individually; editorial approval still pending"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "legacy_index": 0,
+      "word": "Absorbed",
+      "concept_id": "absorbed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 1,
+      "word": "Adventurous",
+      "concept_id": "adventurous",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 2,
+      "word": "Affectionate",
+      "concept_id": "affection",
+      "disposition": "linked_to_existing_pilot"
+    },
+    {
+      "legacy_index": 3,
+      "word": "Alert",
+      "concept_id": "alert",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 4,
+      "word": "Amazed",
+      "concept_id": "amazed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 5,
+      "word": "Amused",
+      "concept_id": "amused",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 6,
+      "word": "Animated",
+      "concept_id": "animated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 7,
+      "word": "Appreciative",
+      "concept_id": "appreciative",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 8,
+      "word": "Ardent",
+      "concept_id": "ardent",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 9,
+      "word": "Aroused",
+      "concept_id": "aroused",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 10,
+      "word": "Astonished",
+      "concept_id": "astonished",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 11,
+      "word": "Blissful",
+      "concept_id": "blissful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 12,
+      "word": "Breathless",
+      "concept_id": "breathless",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 13,
+      "word": "Buoyant",
+      "concept_id": "buoyant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 14,
+      "word": "Calm",
+      "concept_id": "calm",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 15,
+      "word": "Carefree",
+      "concept_id": "carefree",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 16,
+      "word": "Cheerful",
+      "concept_id": "cheerful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 17,
+      "word": "Comfortable",
+      "concept_id": "comfortable",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 18,
+      "word": "Complacent",
+      "concept_id": "complacent",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 19,
+      "word": "Composed",
+      "concept_id": "composed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 20,
+      "word": "Concerned",
+      "concept_id": "concerned-met",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 21,
+      "word": "Confident",
+      "concept_id": "confident",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 22,
+      "word": "Contented",
+      "concept_id": "contented",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 23,
+      "word": "Cool",
+      "concept_id": "cool",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 24,
+      "word": "Curious",
+      "concept_id": "curious",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 25,
+      "word": "Dazzled",
+      "concept_id": "dazzled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 26,
+      "word": "Delighted",
+      "concept_id": "delighted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 27,
+      "word": "Eager",
+      "concept_id": "eager",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 28,
+      "word": "Ebullient",
+      "concept_id": "ebullient",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 29,
+      "word": "Ecstatic",
+      "concept_id": "ecstatic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 30,
+      "word": "Effervescent",
+      "concept_id": "effervescent",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 31,
+      "word": "Elated",
+      "concept_id": "elated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 32,
+      "word": "Enchanted",
+      "concept_id": "enchanted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 33,
+      "word": "Encouraged",
+      "concept_id": "encouraged",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 34,
+      "word": "Energetic",
+      "concept_id": "energetic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 35,
+      "word": "Engrossed",
+      "concept_id": "engrossed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 36,
+      "word": "Enlivened",
+      "concept_id": "enlivened",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 37,
+      "word": "Enthusiastic",
+      "concept_id": "enthusiastic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 38,
+      "word": "Excited",
+      "concept_id": "excited",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 39,
+      "word": "Exhilarated",
+      "concept_id": "exhilarated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 40,
+      "word": "Expansive",
+      "concept_id": "expansive",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 41,
+      "word": "Expectant",
+      "concept_id": "expectant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 42,
+      "word": "Exultant",
+      "concept_id": "exultant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 43,
+      "word": "Fascinated",
+      "concept_id": "fascinated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 44,
+      "word": "Free",
+      "concept_id": "free",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 45,
+      "word": "Friendly",
+      "concept_id": "friendly",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 46,
+      "word": "Fulfilled",
+      "concept_id": "fulfilled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 47,
+      "word": "Glad",
+      "concept_id": "glad",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 48,
+      "word": "Gleeful",
+      "concept_id": "gleeful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 49,
+      "word": "Glorious",
+      "concept_id": "glorious",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 50,
+      "word": "Glowing",
+      "concept_id": "glowing",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 51,
+      "word": "Good-humored",
+      "concept_id": "good-humored",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 52,
+      "word": "Grateful",
+      "concept_id": "grateful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 53,
+      "word": "Gratified",
+      "concept_id": "gratified",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 54,
+      "word": "Happy",
+      "concept_id": "happy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 55,
+      "word": "Helpful",
+      "concept_id": "helpful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 56,
+      "word": "Hopeful",
+      "concept_id": "hopeful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 57,
+      "word": "Inquisitive",
+      "concept_id": "inquisitive",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 58,
+      "word": "Inspired",
+      "concept_id": "inspired",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 59,
+      "word": "Intense",
+      "concept_id": "intense-met",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 60,
+      "word": "Interested",
+      "concept_id": "interested",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 61,
+      "word": "Intrigued",
+      "concept_id": "intrigued",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 62,
+      "word": "Invigorated",
+      "concept_id": "invigorated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 63,
+      "word": "Involved",
+      "concept_id": "involved",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 64,
+      "word": "Joyous",
+      "concept_id": "joyous",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 65,
+      "word": "Joyful",
+      "concept_id": "joy",
+      "disposition": "linked_to_existing_pilot"
+    },
+    {
+      "legacy_index": 66,
+      "word": "Jubilant",
+      "concept_id": "jubilant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 67,
+      "word": "Keyed-up",
+      "concept_id": "keyed-up",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 68,
+      "word": "Loving",
+      "concept_id": "loving",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 69,
+      "word": "Mellow",
+      "concept_id": "mellow",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 70,
+      "word": "Merry",
+      "concept_id": "merry",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 71,
+      "word": "Mirthful",
+      "concept_id": "mirthful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 72,
+      "word": "Moved",
+      "concept_id": "moved",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 73,
+      "word": "Optimistic",
+      "concept_id": "optimistic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 74,
+      "word": "Overjoyed",
+      "concept_id": "overjoyed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 75,
+      "word": "Overwhelmed",
+      "concept_id": "overwhelmed-met",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 76,
+      "word": "Peaceful",
+      "concept_id": "peaceful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 77,
+      "word": "Perky",
+      "concept_id": "perky",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 78,
+      "word": "Pleasant",
+      "concept_id": "pleasant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 79,
+      "word": "Pleased",
+      "concept_id": "pleased",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 80,
+      "word": "Proud",
+      "concept_id": "proud",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 81,
+      "word": "Quiet",
+      "concept_id": "quiet",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 82,
+      "word": "Radiant",
+      "concept_id": "radiant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 83,
+      "word": "Rapturous",
+      "concept_id": "rapturous",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 84,
+      "word": "Refreshed",
+      "concept_id": "refreshed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 85,
+      "word": "Relaxed",
+      "concept_id": "relaxed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 86,
+      "word": "Relieved",
+      "concept_id": "relief",
+      "disposition": "linked_to_existing_pilot"
+    },
+    {
+      "legacy_index": 87,
+      "word": "Satisfied",
+      "concept_id": "satisfied",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 88,
+      "word": "Secure",
+      "concept_id": "secure",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 89,
+      "word": "Sensitive",
+      "concept_id": "sensitive-met",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 90,
+      "word": "Serene",
+      "concept_id": "serene",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 91,
+      "word": "Spellbound",
+      "concept_id": "spellbound",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 92,
+      "word": "Splendid",
+      "concept_id": "splendid",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 93,
+      "word": "Stimulated",
+      "concept_id": "stimulated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 94,
+      "word": "Surprised",
+      "concept_id": "surprised-met",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 95,
+      "word": "Tender",
+      "concept_id": "tender",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 96,
+      "word": "Thankful",
+      "concept_id": "thankful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 97,
+      "word": "Thrilled",
+      "concept_id": "thrilled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 98,
+      "word": "Touched",
+      "concept_id": "touched",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 99,
+      "word": "Tranquil",
+      "concept_id": "tranquil",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 100,
+      "word": "Trusting",
+      "concept_id": "trusting",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 101,
+      "word": "Upbeat",
+      "concept_id": "upbeat",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 102,
+      "word": "Warm",
+      "concept_id": "warm",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 103,
+      "word": "Wide-awake",
+      "concept_id": "wide-awake",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 104,
+      "word": "Wonderful",
+      "concept_id": "wonderful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 105,
+      "word": "Zestful",
+      "concept_id": "zestful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 106,
+      "word": "Agitated",
+      "concept_id": "agitated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 107,
+      "word": "Alarmed",
+      "concept_id": "alarmed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 108,
+      "word": "Aloof",
+      "concept_id": "aloof",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 109,
+      "word": "Angry",
+      "concept_id": "angry",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 110,
+      "word": "Anxious",
+      "concept_id": "anxious",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 111,
+      "word": "Apathetic",
+      "concept_id": "apathetic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 112,
+      "word": "Apprehensive",
+      "concept_id": "apprehensive",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 113,
+      "word": "Ashamed",
+      "concept_id": "ashamed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 114,
+      "word": "Beat",
+      "concept_id": "beat",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 115,
+      "word": "Bewildered",
+      "concept_id": "bewildered",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 116,
+      "word": "Bitter",
+      "concept_id": "bitter",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 117,
+      "word": "Blue",
+      "concept_id": "blue",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 118,
+      "word": "Bored",
+      "concept_id": "bored",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 119,
+      "word": "Brokenhearted",
+      "concept_id": "brokenhearted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 120,
+      "word": "Chagrined",
+      "concept_id": "chagrined",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 121,
+      "word": "Cold",
+      "concept_id": "cold",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 122,
+      "word": "Concerned",
+      "concept_id": "concerned-unmet",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 123,
+      "word": "Confused",
+      "concept_id": "confused",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 124,
+      "word": "Cross",
+      "concept_id": "cross",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 125,
+      "word": "Dejected",
+      "concept_id": "dejected",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 126,
+      "word": "Depressed",
+      "concept_id": "depressed",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 127,
+      "word": "Despairing",
+      "concept_id": "despairing",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 128,
+      "word": "Despondent",
+      "concept_id": "despondent",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 129,
+      "word": "Detached",
+      "concept_id": "detached",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 130,
+      "word": "Disaffected",
+      "concept_id": "disaffected",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 131,
+      "word": "Disappointed",
+      "concept_id": "disappointed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 132,
+      "word": "Discouraged",
+      "concept_id": "discouraged",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 133,
+      "word": "Disenchanted",
+      "concept_id": "disenchanted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 134,
+      "word": "Disgruntled",
+      "concept_id": "disgruntled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 135,
+      "word": "Disgusted",
+      "concept_id": "disgusted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 136,
+      "word": "Disheartened",
+      "concept_id": "disheartened",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 137,
+      "word": "Dismayed",
+      "concept_id": "dismayed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 138,
+      "word": "Displeased",
+      "concept_id": "displeased",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 139,
+      "word": "Disquieted",
+      "concept_id": "disquieted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 140,
+      "word": "Distressed",
+      "concept_id": "distressed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 141,
+      "word": "Disturbed",
+      "concept_id": "disturbed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 142,
+      "word": "Downcast",
+      "concept_id": "downcast",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 143,
+      "word": "Downhearted",
+      "concept_id": "downhearted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 144,
+      "word": "Dull",
+      "concept_id": "dull",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 145,
+      "word": "Edgy",
+      "concept_id": "edgy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 146,
+      "word": "Embarrassed",
+      "concept_id": "embarrassed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 147,
+      "word": "Embittered",
+      "concept_id": "embittered",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 148,
+      "word": "Exasperated",
+      "concept_id": "exasperated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 149,
+      "word": "Exhausted",
+      "concept_id": "exhausted",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 150,
+      "word": "Fatigued",
+      "concept_id": "fatigued",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 151,
+      "word": "Fearful",
+      "concept_id": "fearful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 152,
+      "word": "Fidgety",
+      "concept_id": "fidgety",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 153,
+      "word": "Forlorn",
+      "concept_id": "forlorn",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 154,
+      "word": "Frightened",
+      "concept_id": "frightened",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 155,
+      "word": "Frustrated",
+      "concept_id": "frustration",
+      "disposition": "linked_to_existing_pilot"
+    },
+    {
+      "legacy_index": 156,
+      "word": "Furious",
+      "concept_id": "furious",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 157,
+      "word": "Gloomy",
+      "concept_id": "gloomy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 158,
+      "word": "Guilty",
+      "concept_id": "guilty",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 159,
+      "word": "Harried",
+      "concept_id": "harried",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 160,
+      "word": "Heavy",
+      "concept_id": "heavy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 161,
+      "word": "Helpless",
+      "concept_id": "helpless",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 162,
+      "word": "Hesitant",
+      "concept_id": "hesitant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 163,
+      "word": "Horrible",
+      "concept_id": "horrible",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 164,
+      "word": "Horrified",
+      "concept_id": "horrified",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 165,
+      "word": "Hostile",
+      "concept_id": "hostile",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 166,
+      "word": "Hot",
+      "concept_id": "hot",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 167,
+      "word": "Humdrum",
+      "concept_id": "humdrum",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 168,
+      "word": "Hurt",
+      "concept_id": "hurt",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 169,
+      "word": "Impatient",
+      "concept_id": "impatient",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 170,
+      "word": "Indifferent",
+      "concept_id": "indifferent",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 171,
+      "word": "Intense",
+      "concept_id": "intense-unmet",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 172,
+      "word": "Irate",
+      "concept_id": "irate",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 173,
+      "word": "Irked",
+      "concept_id": "irked",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 174,
+      "word": "Irritated",
+      "concept_id": "irritated",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 175,
+      "word": "Jealous",
+      "concept_id": "jealous",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 176,
+      "word": "Jittery",
+      "concept_id": "jittery",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 177,
+      "word": "Lazy",
+      "concept_id": "lazy",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 178,
+      "word": "Leery",
+      "concept_id": "leery",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 179,
+      "word": "Lethargic",
+      "concept_id": "lethargic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 180,
+      "word": "Listless",
+      "concept_id": "listless",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 181,
+      "word": "Lonely",
+      "concept_id": "loneliness",
+      "disposition": "linked_to_existing_pilot"
+    },
+    {
+      "legacy_index": 182,
+      "word": "Mad",
+      "concept_id": "mad",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 183,
+      "word": "Mean",
+      "concept_id": "mean",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 184,
+      "word": "Miserable",
+      "concept_id": "miserable",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 185,
+      "word": "Mopey",
+      "concept_id": "mopey",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 186,
+      "word": "Morose",
+      "concept_id": "morose",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 187,
+      "word": "Mournful",
+      "concept_id": "mournful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 188,
+      "word": "Nervous",
+      "concept_id": "nervous",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 189,
+      "word": "Nettled",
+      "concept_id": "nettled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 190,
+      "word": "Numb",
+      "concept_id": "numb",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 191,
+      "word": "Overwhelmed",
+      "concept_id": "overwhelmed-unmet",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 192,
+      "word": "Panicky",
+      "concept_id": "panicky",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 193,
+      "word": "Passive",
+      "concept_id": "passive",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 194,
+      "word": "Perplexed",
+      "concept_id": "perplexed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 195,
+      "word": "Pessimistic",
+      "concept_id": "pessimistic",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 196,
+      "word": "Puzzled",
+      "concept_id": "puzzled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 197,
+      "word": "Rancorous",
+      "concept_id": "rancorous",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 198,
+      "word": "Reluctant",
+      "concept_id": "reluctant",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 199,
+      "word": "Repelled",
+      "concept_id": "repelled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 200,
+      "word": "Resentful",
+      "concept_id": "resentful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 201,
+      "word": "Restless",
+      "concept_id": "restless",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 202,
+      "word": "Sad",
+      "concept_id": "sad",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 203,
+      "word": "Scared",
+      "concept_id": "scared",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 204,
+      "word": "Sensitive",
+      "concept_id": "sensitive-unmet",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 205,
+      "word": "Shaky",
+      "concept_id": "shaky",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 206,
+      "word": "Shocked",
+      "concept_id": "shocked",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 207,
+      "word": "Skeptical",
+      "concept_id": "skeptical",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 208,
+      "word": "Sleepy",
+      "concept_id": "sleepy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 209,
+      "word": "Sorrowful",
+      "concept_id": "sorrowful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 210,
+      "word": "Sorry",
+      "concept_id": "sorry",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 211,
+      "word": "Spiritless",
+      "concept_id": "spiritless",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 212,
+      "word": "Startled",
+      "concept_id": "startled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 213,
+      "word": "Surprised",
+      "concept_id": "surprised-unmet",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 214,
+      "word": "Suspicious",
+      "concept_id": "suspicious",
+      "disposition": "withheld_pending_review"
+    },
+    {
+      "legacy_index": 215,
+      "word": "Tepid",
+      "concept_id": "tepid",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 216,
+      "word": "Terrified",
+      "concept_id": "terrified",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 217,
+      "word": "Tired",
+      "concept_id": "tired",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 218,
+      "word": "Troubled",
+      "concept_id": "troubled",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 219,
+      "word": "Uncomfortable",
+      "concept_id": "uncomfortable",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 220,
+      "word": "Unconcerned",
+      "concept_id": "unconcerned",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 221,
+      "word": "Uneasy",
+      "concept_id": "uneasy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 222,
+      "word": "Unglued",
+      "concept_id": "unglued",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 223,
+      "word": "Unhappy",
+      "concept_id": "unhappy",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 224,
+      "word": "Unnerved",
+      "concept_id": "unnerved",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 225,
+      "word": "Unsteady",
+      "concept_id": "unsteady",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 226,
+      "word": "Upset",
+      "concept_id": "upset",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 227,
+      "word": "Uptight",
+      "concept_id": "uptight",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 228,
+      "word": "Vexed",
+      "concept_id": "vexed",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 229,
+      "word": "Weary",
+      "concept_id": "weary",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 230,
+      "word": "Wistful",
+      "concept_id": "wistful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 231,
+      "word": "Withdrawn",
+      "concept_id": "withdrawn",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 232,
+      "word": "Woeful",
+      "concept_id": "woeful",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 233,
+      "word": "Worried",
+      "concept_id": "worried",
+      "disposition": "preview_draft"
+    },
+    {
+      "legacy_index": 234,
+      "word": "Wretched",
+      "concept_id": "wretched",
+      "disposition": "preview_draft"
+    }
+  ],
+  "notice": "These are source-derived bilingual editorial drafts; no automatic content approval has been applied.",
+  "handCuratedOverrideCount": 189,
+  "originalCuratedCount": 41,
+  "templateExpressionCount": 0,
+  "scenesCuratedOverrideCount": 79,
+  "semanticOverrideCount": 49
+}

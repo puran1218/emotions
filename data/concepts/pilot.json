@@ -1,0 +1,407 @@
+[
+  {
+    "id": "joy",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_met"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Joy",
+        "feeling": "joyful",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "喜悦",
+        "feeling": "开心",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A warm, bright feeling when something makes you very happy.",
+      "zh": "发生让你很开心的事时，心里充满明亮、愉快的感觉。"
+    },
+    "scenario": {
+      "en": "You see the sunflower you planted finally bloom.",
+      "zh": "你亲手种的向日葵终于开花了。"
+    },
+    "expression": [
+      {
+        "en": "I feel joyful!",
+        "zh": "我好开心！"
+      },
+      {
+        "en": "Look! My sunflower finally bloomed!",
+        "zh": "快看！我的向日葵终于开花啦！"
+      },
+      {
+        "en": "I'm so happy. Come see!",
+        "zh": "我太高兴了，快来看看！"
+      }
+    ],
+    "emoji": "🌻",
+    "illustration": {
+      "asset_id": "sunflower-storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
+      "alt": {
+        "en": "A playful notebook and pencil placeholder; a unique feeling illustration will be added later.",
+        "zh": "童趣手绘笔记本和铅笔占位图；独立的情绪插画以后再加入。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "Joy",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "喜悦",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "affection",
+      "relief"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "joyful",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "frustration",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_unmet"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Frustration",
+        "feeling": "frustrated",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "挫败感",
+        "feeling": "挫败",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "An upset feeling when you try hard but something still does not work.",
+      "zh": "努力尝试了很多次，事情还是不顺利时，产生的烦躁和失落。"
+    },
+    "scenario": {
+      "en": "Your block tower falls down again, even though you have tried carefully.",
+      "zh": "你认真地搭积木，可积木塔又倒了。"
+    },
+    "expression": [
+      {
+        "en": "I feel frustrated.",
+        "zh": "我觉得很挫败。"
+      },
+      {
+        "en": "My blocks fell again. This is frustrating.",
+        "zh": "我的积木又倒了，真让人沮丧。"
+      },
+      {
+        "en": "Can you help me try again?",
+        "zh": "你能帮我再试一次吗？"
+      }
+    ],
+    "emoji": "😤",
+    "illustration": {
+      "asset_id": "blocks-storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
+      "alt": {
+        "en": "A playful notebook and pencil placeholder; a unique feeling illustration will be added later.",
+        "zh": "童趣手绘笔记本和铅笔占位图；独立的情绪插画以后再加入。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "Frustration",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "挫败感",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "loneliness",
+      "relief"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "frustrated",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "loneliness",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_unmet"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Loneliness",
+        "feeling": "lonely",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "孤独感",
+        "feeling": "孤独",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A sad feeling of wanting company or connection but not having it right now.",
+      "zh": "希望有人陪伴或理解自己，却暂时没有这样的陪伴时的失落感。"
+    },
+    "scenario": {
+      "en": "You sit on a bench while other children are playing far away.",
+      "zh": "别的孩子在远处玩，你一个人坐在长椅上。"
+    },
+    "expression": [
+      {
+        "en": "I feel lonely.",
+        "zh": "我有点孤单。"
+      },
+      {
+        "en": "I wish someone could play with me.",
+        "zh": "我希望有人能陪我玩。"
+      },
+      {
+        "en": "Could you sit with me for a while?",
+        "zh": "你能陪我坐一会儿吗？"
+      }
+    ],
+    "emoji": "🧸",
+    "illustration": {
+      "asset_id": "bench-storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
+      "alt": {
+        "en": "A playful notebook and pencil placeholder; a unique feeling illustration will be added later.",
+        "zh": "童趣手绘笔记本和铅笔占位图；独立的情绪插画以后再加入。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "Loneliness",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "孤独感",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "affection",
+      "joy"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "lonely",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "affection",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_met"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Affection",
+        "feeling": "affectionate",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "爱意",
+        "feeling": "充满爱意",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A gentle, caring feeling that makes you want to be close to someone.",
+      "zh": "很在乎一个人或小动物，想亲近、关心或拥抱时的温柔感受。"
+    },
+    "scenario": {
+      "en": "Your dog runs to greet you, and you give it a gentle hug.",
+      "zh": "小狗跑来迎接你，你开心地轻轻抱住它。"
+    },
+    "expression": [
+      {
+        "en": "I love giving my dog a hug.",
+        "zh": "我好喜欢抱抱我的小狗。"
+      },
+      {
+        "en": "I care about you.",
+        "zh": "我很在乎你。"
+      },
+      {
+        "en": "Can I give you a hug?",
+        "zh": "我可以抱抱你吗？"
+      }
+    ],
+    "emoji": "🤗",
+    "illustration": {
+      "asset_id": "dog-storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
+      "alt": {
+        "en": "A playful notebook and pencil placeholder; a unique feeling illustration will be added later.",
+        "zh": "童趣手绘笔记本和铅笔占位图；独立的情绪插画以后再加入。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "Affection",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "爱意",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "joy",
+      "loneliness"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "affectionate",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  },
+  {
+    "id": "relief",
+    "status": "pilot",
+    "taxonomy": {
+      "needs": [
+        "needs_met"
+      ],
+      "kind": "emotion"
+    },
+    "terms": {
+      "en": {
+        "noun": "Relief",
+        "feeling": "relieved",
+        "aliases": []
+      },
+      "zh": {
+        "noun": "如释重负",
+        "feeling": "松了一口气",
+        "aliases": []
+      }
+    },
+    "definition": {
+      "en": "A lighter feeling when something you were worried about turns out okay.",
+      "zh": "原本让你担心的事情终于没事了，紧绷的心慢慢放松下来。"
+    },
+    "scenario": {
+      "en": "You thought you had lost your favorite book, but then you find it in your school bag.",
+      "zh": "你以为心爱的书丢了，后来发现它就在书包里。"
+    },
+    "expression": [
+      {
+        "en": "What a relief! I found it.",
+        "zh": "呼！找到了，我松了一口气。"
+      },
+      {
+        "en": "I'm so glad my book isn't lost.",
+        "zh": "太好了，我的书没有丢。"
+      },
+      {
+        "en": "I was worried, but I feel better now.",
+        "zh": "刚才我很担心，现在放心了。"
+      }
+    ],
+    "emoji": "😌",
+    "illustration": {
+      "asset_id": "book-storyboard",
+      "src": "./images/feeling-placeholder.svg",
+      "stage": "pending",
+      "alt": {
+        "en": "A playful notebook and pencil placeholder; a unique feeling illustration will be added later.",
+        "zh": "童趣手绘笔记本和铅笔占位图；独立的情绪插画以后再加入。"
+      }
+    },
+    "pronunciation": {
+      "en": {
+        "text": "Relief",
+        "locale": "en-US"
+      },
+      "zh": {
+        "text": "如释重负",
+        "locale": "zh-CN"
+      }
+    },
+    "related_ids": [
+      "joy",
+      "frustration"
+    ],
+    "sources": [
+      {
+        "source_list": "editorial-pilot",
+        "source_word": "relieved",
+        "source_index": null
+      }
+    ],
+    "review": {
+      "translation": "pending",
+      "meaning": "pending",
+      "child_suitability": "pending",
+      "illustration": "pending"
+    }
+  }
+]

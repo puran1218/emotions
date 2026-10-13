@@ -1,0 +1,2356 @@
+{
+  "version": 1,
+  "source": "emotions-card.zip/emotions-card/emotions.js",
+  "status": "legacy_unreviewed",
+  "description": "Lossless legacy bilingual explanation source; not reviewed and not yet projected to public runtime concepts.",
+  "entries": [
+    {
+      "legacy_index": 0,
+      "source_category": "needs_met",
+      "english": "Absorbed",
+      "chinese": "全神贯注",
+      "explanation_en": "Really into something, like when you're so focused on coloring. 🎨",
+      "explanation_zh": "非常专注某事，就像你在专心画画时。🎨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 1,
+      "source_category": "needs_met",
+      "english": "Adventurous",
+      "chinese": "爱冒险的",
+      "explanation_en": "Loving to try new things, like exploring a new playground. 🌍",
+      "explanation_zh": "喜欢尝试新事物，比如探索一个新的游乐场。🌍",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 2,
+      "source_category": "needs_met",
+      "english": "Affectionate",
+      "chinese": "充满爱意的",
+      "explanation_en": "Showing love, like giving big hugs. 🤗",
+      "explanation_zh": "表现出爱，像是给大大的拥抱。🤗",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 3,
+      "source_category": "needs_met",
+      "english": "Alert",
+      "chinese": "警觉的",
+      "explanation_en": "Being very aware, like noticing a cat sneaking up. 🐱",
+      "explanation_zh": "非常警觉，比如注意到一只猫正在悄悄接近。🐱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 4,
+      "source_category": "needs_met",
+      "english": "Amazed",
+      "chinese": "惊讶的",
+      "explanation_en": "Feeling super surprised, like seeing a magic trick. 😲",
+      "explanation_zh": "感到非常惊讶，就像看到一个魔术。😲",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 5,
+      "source_category": "needs_met",
+      "english": "Amused",
+      "chinese": "好笑的",
+      "explanation_en": "Finding something funny, like a clown doing tricks. 🤡",
+      "explanation_zh": "发现某事很有趣，像小丑表演把戏。🤡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 6,
+      "source_category": "needs_met",
+      "english": "Animated",
+      "chinese": "活泼的",
+      "explanation_en": "Full of life and energy, like dancing happily. 💃",
+      "explanation_zh": "充满生命力和活力，就像快乐地跳舞。💃",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 7,
+      "source_category": "needs_met",
+      "english": "Appreciative",
+      "chinese": "感激的",
+      "explanation_en": "Thankful for something nice, like saying thanks for a gift. 🎁",
+      "explanation_zh": "对好事感到感激，比如对一个礼物说谢谢。🎁",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 8,
+      "source_category": "needs_met",
+      "english": "Ardent",
+      "chinese": "热情的",
+      "explanation_en": "Very passionate, like loving your favorite game a lot. ❤️",
+      "explanation_zh": "非常有热情，像极爱你最喜欢的游戏。❤️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 9,
+      "source_category": "needs_met",
+      "english": "Aroused",
+      "chinese": "激动的",
+      "explanation_en": "Really excited or stirred up, like getting ready for a party. 🎉",
+      "explanation_zh": "非常兴奋或被激起，像是为派对做准备。🎉",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 10,
+      "source_category": "needs_met",
+      "english": "Astonished",
+      "chinese": "吃惊的",
+      "explanation_en": "Shocked by something amazing, like a surprise party. 😮",
+      "explanation_zh": "对惊人的事情感到震惊，比如一个惊喜派对。😮",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 11,
+      "source_category": "needs_met",
+      "english": "Blissful",
+      "chinese": "极乐的",
+      "explanation_en": "Very happy, like when you're eating your favorite ice cream. 🍦",
+      "explanation_zh": "非常快乐， 就像你在吃你最喜欢的冰淇淋时。🍦 ",
+      "raw_chinese_key": "Explanation_in_Chinese ",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 12,
+      "source_category": "needs_met",
+      "english": "Breathless",
+      "chinese": "喘不过气来",
+      "explanation_en": "Out of breath, like after running really fast. 😓",
+      "explanation_zh": "喘不过气来，就像跑得很快之后。😓",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 13,
+      "source_category": "needs_met",
+      "english": "Buoyant",
+      "chinese": "心情愉快的",
+      "explanation_en": "Feeling light and happy, like floating on a balloon. 🎈",
+      "explanation_zh": "感觉轻松快乐，像在气球上漂浮。🎈",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 14,
+      "source_category": "needs_met",
+      "english": "Calm",
+      "chinese": "平静的",
+      "explanation_en": "Very peaceful, like sitting quietly by a calm lake. 🌊",
+      "explanation_zh": "非常平和，就像静静地坐在平静的湖边。🌊",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 15,
+      "source_category": "needs_met",
+      "english": "Carefree",
+      "chinese": "无忧无虑的",
+      "explanation_en": "Without worries, like playing all day without thinking about homework. 🏖️",
+      "explanation_zh": "没有担忧，就像整天玩耍而不想作业。🏖️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 16,
+      "source_category": "needs_met",
+      "english": "Cheerful",
+      "chinese": "高兴的",
+      "explanation_en": "Feeling happy and bright, like when the sun is shining. ☀️",
+      "explanation_zh": "感觉快乐和明亮，就像太阳照耀时。☀️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 17,
+      "source_category": "needs_met",
+      "english": "Comfortable",
+      "chinese": "舒适的",
+      "explanation_en": "Feeling cozy and nice, like snuggling in a warm blanket. 🛏️",
+      "explanation_zh": "感觉舒适和惬意，像在温暖的毯子里依偎。🛏️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 18,
+      "source_category": "needs_met",
+      "english": "Complacent",
+      "chinese": "自满的",
+      "explanation_en": "Feeling very pleased with yourself, like when you've done something great. 😊",
+      "explanation_zh": "对自己感到非常满意，就像你做了一件了不起的事情时。😊",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 19,
+      "source_category": "needs_met",
+      "english": "Composed",
+      "chinese": "镇定的",
+      "explanation_en": "Being calm and in control, like when you're not scared on a big slide. 🛝",
+      "explanation_zh": "保持冷静和控制，就像在大滑梯上不害怕时。🛝",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 20,
+      "source_category": "needs_met",
+      "english": "Concerned",
+      "chinese": "关心的",
+      "explanation_en": "Caring about something, like when a friend is sad and you want to help. 🤝",
+      "explanation_zh": "关心某事，像朋友伤心时你想帮助。🤝",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 21,
+      "source_category": "needs_met",
+      "english": "Confident",
+      "chinese": "自信的",
+      "explanation_en": "Feeling sure about yourself, like knowing you can do something well. 💪",
+      "explanation_zh": "对自己感到确定，就像知道你能做好某事。💪",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 22,
+      "source_category": "needs_met",
+      "english": "Contented",
+      "chinese": "满足的",
+      "explanation_en": "Happy with how things are, like feeling good after playing games. 🕹️",
+      "explanation_zh": "对现状感到快乐，就像玩游戏后感觉良好。🕹️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 23,
+      "source_category": "needs_met",
+      "english": "Cool",
+      "chinese": "酷的",
+      "explanation_en": "Feeling great and stylish, like wearing your favorite outfit. 😎",
+      "explanation_zh": "感觉很棒和时髦，像穿上你最喜欢的衣服。😎",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 24,
+      "source_category": "needs_met",
+      "english": "Curious",
+      "chinese": "好奇的",
+      "explanation_en": "Wanting to learn more, like asking questions about stars. 🌟",
+      "explanation_zh": "想要了解更多，就像询问关于星星的问题。🌟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 25,
+      "source_category": "needs_met",
+      "english": "Dazzled",
+      "chinese": "被眩晕的",
+      "explanation_en": "Amazed by bright light or a beautiful sight, like fireworks. 🎆",
+      "explanation_zh": "由明亮的光或美丽的景象惊艳，就像烟花。🎆",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 26,
+      "source_category": "needs_met",
+      "english": "Delighted",
+      "chinese": "高兴的",
+      "explanation_en": "Really happy about something, like getting a surprise gift. 🎁",
+      "explanation_zh": "对某事感到非常高兴，就像得到一个惊喜礼物。🎁",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 27,
+      "source_category": "needs_met",
+      "english": "Eager",
+      "chinese": "渴望的",
+      "explanation_en": "Wanting something very much, like waiting for your birthday. 🎂",
+      "explanation_zh": "非常想要某物，就像等待你的生日。🎂",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 28,
+      "source_category": "needs_met",
+      "english": "Ebullient",
+      "chinese": "热情洋溢的",
+      "explanation_en": "Very excited and full of energy, like when playing a fun game. 🔥",
+      "explanation_zh": "非常兴奋且充满活力，就像玩一个有趣的游戏时。🔥",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 29,
+      "source_category": "needs_met",
+      "english": "Ecstatic",
+      "chinese": "狂喜的",
+      "explanation_en": "Extremely happy, like when you win a big prize. 🏆",
+      "explanation_zh": "极度快乐，就像赢得一大奖时。🏆",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 30,
+      "source_category": "needs_met",
+      "english": "Effervescent",
+      "chinese": "兴高采烈的",
+      "explanation_en": "Bubbly and very happy, like when you're laughing with friends. 😂",
+      "explanation_zh": "泡沫四溢且非常快乐，就像与朋友们大笑时。😂",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 31,
+      "source_category": "needs_met",
+      "english": "Elated",
+      "chinese": "兴奋的",
+      "explanation_en": "Really proud and happy, like after you make a great drawing. 🖼️",
+      "explanation_zh": "非常自豪和快乐，就像做了一幅很棒的画后。🖼️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 32,
+      "source_category": "needs_met",
+      "english": "Enchanted",
+      "chinese": "被迷住的",
+      "explanation_en": "Captivated by something wonderful, like a beautiful story. 📖",
+      "explanation_zh": "被某些精彩的事物迷住，像一个美丽的故事。📖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 33,
+      "source_category": "needs_met",
+      "english": "Encouraged",
+      "chinese": "受到鼓舞的",
+      "explanation_en": "Feeling supported, like when someone cheers for you. 📣",
+      "explanation_zh": "感觉受到支持，就像有人为你加油时。📣",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 34,
+      "source_category": "needs_met",
+      "english": "Energetic",
+      "chinese": "精力充沛的",
+      "explanation_en": "Full of energy, like when you can't stop jumping around. ⚡",
+      "explanation_zh": "充满能量，就像你停不下来跳来跳去时。⚡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 35,
+      "source_category": "needs_met",
+      "english": "Engrossed",
+      "chinese": "全神贯注的",
+      "explanation_en": "Totally focusedon something interesting,like a fascinating book.📘",
+      "explanation_zh": "完全专注于某个有趣的事物，像一本迷人的书。📘",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 36,
+      "source_category": "needs_met",
+      "english": "Enlivened",
+      "chinese": "感到活跃的",
+      "explanation_en": "Feeling lively and excited, like when a fun song comes on. 🎵",
+      "explanation_zh": "感觉活跃和兴奋，就像一首有趣的歌曲响起时。🎵",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 37,
+      "source_category": "needs_met",
+      "english": "Enthusiastic",
+      "chinese": "热情的",
+      "explanation_en": "Very excited about doing something, like going on a trip. ✈️",
+      "explanation_zh": "对做某事感到非常兴奋，比如去旅行。✈️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 38,
+      "source_category": "needs_met",
+      "english": "Excited",
+      "chinese": "兴奋的",
+      "explanation_en": "Feeling thrilled, like before opening a present. 🎁",
+      "explanation_zh": "感到激动，就像打开礼物前。🎁",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 39,
+      "source_category": "needs_met",
+      "english": "Exhilarated",
+      "chinese": "兴奋的",
+      "explanation_en": "Feeling very happy and excited, like after winning a game. 🎲",
+      "explanation_zh": "感到非常快乐和兴奋，就像赢得一场游戏后。🎲",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 40,
+      "source_category": "needs_met",
+      "english": "Expansive",
+      "chinese": "开朗的",
+      "explanation_en": "Feeling open and friendly, like making new friends at the park. 🌳",
+      "explanation_zh": "感觉开放和友好，就像在公园里结交新朋友。🌳",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 41,
+      "source_category": "needs_met",
+      "english": "Expectant",
+      "chinese": "期待的",
+      "explanation_en": "Waiting excitedly for something, like a holiday. 🎄",
+      "explanation_zh": "兴奋地等待某事，像假期。🎄",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 42,
+      "source_category": "needs_met",
+      "english": "Exultant",
+      "chinese": "非常高兴的",
+      "explanation_en": "Very joyful, like when your team wins a match. 🏅",
+      "explanation_zh": "非常快乐，就像你的队伍赢得比赛时。🏅",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 43,
+      "source_category": "needs_met",
+      "english": "Fascinated",
+      "chinese": "着迷的",
+      "explanation_en": "Very interested in something, like watching bugs in the garden. 🐞",
+      "explanation_zh": "对某事非常感兴趣，像观察花园里的虫子。🐞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 44,
+      "source_category": "needs_met",
+      "english": "Free",
+      "chinese": "自由的",
+      "explanation_en": "Feeling no worries, like running fast in an open field. 🌾",
+      "explanation_zh": "没有担忧，就像在开阔的田野里快跑。🌾",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 45,
+      "source_category": "needs_met",
+      "english": "Friendly",
+      "chinese": "友好的",
+      "explanation_en": "Being nice to others, like sharing your toys. 🧸",
+      "explanation_zh": "对他人友好，就像分享你的玩具。🧸",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 46,
+      "source_category": "needs_met",
+      "english": "Fulfilled",
+      "chinese": "满足的",
+      "explanation_en": "Feeling very happy with what you've done, like after building a big tower. 🏢",
+      "explanation_zh": "对你所做的感到非常满足，像建造了一个大塔后。🏢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 47,
+      "source_category": "needs_met",
+      "english": "Glad",
+      "chinese": "高兴的",
+      "explanation_en": "Happy about something, like when someone says thank you. 💌",
+      "explanation_zh": "对某事感到高兴，就像有人说谢谢你时。💌 ",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 48,
+      "source_category": "needs_met",
+      "english": "Gleeful",
+      "chinese": "愉快的",
+      "explanation_en": "Feeling really happy and a bit naughty, like playing a fun prank. 😜",
+      "explanation_zh": "感觉真的很快乐且有点顽皮，像玩一个有趣的恶作剧。😜",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 49,
+      "source_category": "needs_met",
+      "english": "Glorious",
+      "chinese": "光荣的",
+      "explanation_en": "Feeling proud and wonderful, like when you finish a difficult task. 🌟",
+      "explanation_zh": "感觉自豪和精彩，就像你完成一项困难任务时。🌟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 50,
+      "source_category": "needs_met",
+      "english": "Glowing",
+      "chinese": "发光的",
+      "explanation_en": "Feeling bright and happy, like when you feel proud of yourself. 🌟",
+      "explanation_zh": "感觉明亮和快乐，就像你为自己感到自豪时。🌟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 51,
+      "source_category": "needs_met",
+      "english": "Good-humored",
+      "chinese": "幽默的",
+      "explanation_en": "Feeling cheerful and funny, like telling jokes with friends. 😂",
+      "explanation_zh": "感觉快乐和有趣，像与朋友讲笑话。😂",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 52,
+      "source_category": "needs_met",
+      "english": "Grateful",
+      "chinese": "感激的",
+      "explanation_en": "Feeling thankful for something good, like a nice day or a helpful friend. 🌞",
+      "explanation_zh": "为某些好事感到感激，像美好的一天或一个乐于助人的朋友。🌞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 53,
+      "source_category": "needs_met",
+      "english": "Gratified",
+      "chinese": "满足的",
+      "explanation_en": "Feeling pleased and satisfied, like when a plan goes just right. 👍",
+      "explanation_zh": "感到高兴和满足，就像计划进行得很顺利时。👍",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 54,
+      "source_category": "needs_met",
+      "english": "Happy",
+      "chinese": "快乐的",
+      "explanation_en": "Feeling joyful, like when you're playing your favorite game. 😀",
+      "explanation_zh": "感到快乐，就像你在玩你最喜欢的游戏时。😀",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 55,
+      "source_category": "needs_met",
+      "english": "Helpful",
+      "chinese": "有帮助的",
+      "explanation_en": "Being useful and kind, like helping someone carry something heavy. 💪",
+      "explanation_zh": "有用且友好，就像帮助某人搬重物时。💪",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 56,
+      "source_category": "needs_met",
+      "english": "Hopeful",
+      "chinese": "充满希望的",
+      "explanation_en": "Feeling like something good will happen, like waiting for a surprise. 🌈",
+      "explanation_zh": "感觉会发生好事，像等待一个惊喜。🌈",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 57,
+      "source_category": "needs_met",
+      "english": "Inquisitive",
+      "chinese": "好奇的",
+      "explanation_en": "Wanting to know about everything, like asking lots of questions. 🤔",
+      "explanation_zh": "想了解一切，像提很多问题。🤔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 58,
+      "source_category": "needs_met",
+      "english": "Inspired",
+      "chinese": "受到启发的",
+      "explanation_en": "Feeling creative and excited to make something new. 🎨",
+      "explanation_zh": "感觉有创造力且兴奋地制作新东西。🎨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 59,
+      "source_category": "needs_met",
+      "english": "Intense",
+      "chinese": "强烈的",
+      "explanation_en": "Feeling very strong emotions, like really loving a movie. 🎥",
+      "explanation_zh": "感觉非常强烈的情绪，就像非常喜欢一部电影。🎥 ",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 60,
+      "source_category": "needs_met",
+      "english": "Interested",
+      "chinese": "感兴趣的",
+      "explanation_en": "Wanting to learn more about something, like dinosaurs or planets. 🦕",
+      "explanation_zh": "想要了解更多关于某事的信息，像恐龙或行星。🦕",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 61,
+      "source_category": "needs_met",
+      "english": "Intrigued",
+      "chinese": "被吸引的",
+      "explanation_en": "Very interested in something, like a mystery story. 🕵️",
+      "explanation_zh": "对某事非常感兴趣，像一个神秘的故事。🕵️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 62,
+      "source_category": "needs_met",
+      "english": "Invigorated",
+      "chinese": "精力充沛的",
+      "explanation_en": "Feeling energetic and refreshed, like after a good sleep. 😊",
+      "explanation_zh": "感觉精力充沛且焕然一新，就像睡了一个好觉后。😊",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 63,
+      "source_category": "needs_met",
+      "english": "Involved",
+      "chinese": "参与的",
+      "explanation_en": "Taking part in something, like a game or a project. 🎨",
+      "explanation_zh": "参与某事，像游戏或项目。🎨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 64,
+      "source_category": "needs_met",
+      "english": "Joyous",
+      "chinese": "快乐的",
+      "explanation_en": "Feeling really happy, like on your birthday. 🎂",
+      "explanation_zh": "感觉真的很快乐，就像在你的生日。🎂",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 65,
+      "source_category": "needs_met",
+      "english": "Joyful",
+      "chinese": "欢乐的",
+      "explanation_en": "Full of joy, like when you're laughing and playing. 😃",
+      "explanation_zh": "充满欢乐，就像你在笑和玩耍时。😃",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 66,
+      "source_category": "needs_met",
+      "english": "Jubilant",
+      "chinese": "欢呼的",
+      "explanation_en": "Feeling very happy, like cheering at a fun event. 🥳",
+      "explanation_zh": "感觉非常快乐，像在有趣的活动中欢呼。🥳",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 67,
+      "source_category": "needs_met",
+      "english": "Keyed-up",
+      "chinese": "兴奋的",
+      "explanation_en": "Excited and ready for something, like before a race. 🏁",
+      "explanation_zh": "兴奋且准备好某事，像赛跑前。🏁",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 68,
+      "source_category": "needs_met",
+      "english": "Loving",
+      "chinese": "有爱的",
+      "explanation_en": "Feeling love towards someone or something, like your pet. 🐶",
+      "explanation_zh": "对某人或某物感觉有爱，像你的宠物。🐶",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 69,
+      "source_category": "needs_met",
+      "english": "Mellow",
+      "chinese": "柔和的",
+      "explanation_en": "Soft and gentle, like a warm, sunny afternoon. 🌄",
+      "explanation_zh": "柔和且温柔，像一个温暖、阳光明媚的下午。🌄",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 70,
+      "source_category": "needs_met",
+      "english": "Merry",
+      "chinese": "愉快的",
+      "explanation_en": "Happy and cheerful, like during a party. 🎉",
+      "explanation_zh": "快乐和欢快，像在派对期间。🎉",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 71,
+      "source_category": "needs_met",
+      "english": "Mirthful",
+      "chinese": "欢笑的",
+      "explanation_en": "Full of laughter and happiness, like joking with friends. 😄",
+      "explanation_zh": "充满笑声和快乐，像与朋友开玩笑。😄",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 72,
+      "source_category": "needs_met",
+      "english": "Moved",
+      "chinese": "感动的",
+      "explanation_en": "Touched emotionally, like by a sweet story. 😢",
+      "explanation_zh": "情感上被感动，像被一个甜蜜的故事感动。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 73,
+      "source_category": "needs_met",
+      "english": "Optimistic",
+      "chinese": "乐观的",
+      "explanation_en": "Believing that good things will happen, like hoping for sunny weather. 🌞",
+      "explanation_zh": "相信会发生好事，像希望天气晴朗。🌞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 74,
+      "source_category": "needs_met",
+      "english": "Overjoyed",
+      "chinese": "非常高兴的",
+      "explanation_en": "Extremely happy, like when you get the best gift ever. 🎁",
+      "explanation_zh": "非常快乐，就像你得到有史以来最好的礼物。🎁",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 75,
+      "source_category": "needs_met",
+      "english": "Overwhelmed",
+      "chinese": "不知所措的",
+      "explanation_en": "Having lots of strong feelings, like when everyone sings happy birthday. 🎈",
+      "explanation_zh": "有很多强烈的情绪，就像每个人唱生日快乐时。🎈",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 76,
+      "source_category": "needs_met",
+      "english": "Peaceful",
+      "chinese": "和平的",
+      "explanation_en": "Quiet and calm, like early morning when no one else is awake. 🌅",
+      "explanation_zh": "安静和平静，像早晨没有其他人醒来时。🌅",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 77,
+      "source_category": "needs_met",
+      "english": "Perky",
+      "chinese": "活泼的",
+      "explanation_en": "Cheerful and lively, like when you're excited about a new day. ☀️",
+      "explanation_zh": "快乐和活泼，就像你对新的一天感到兴奋时。☀️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 78,
+      "source_category": "needs_met",
+      "english": "Pleasant",
+      "chinese": "宜人的",
+      "explanation_en": "Nice and enjoyable, like a gentle breeze on a warm day. 🍃",
+      "explanation_zh": "好的和令人愉快，像温暖的一天里的轻风。🍃",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 79,
+      "source_category": "needs_met",
+      "english": "Pleased",
+      "chinese": "高兴的",
+      "explanation_en": "Happy about something, like getting a good grade on a test. 👍",
+      "explanation_zh": "对某事感到高兴，比如在测试中得到好成绩。👍",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 80,
+      "source_category": "needs_met",
+      "english": "Proud",
+      "chinese": "骄傲的",
+      "explanation_en": "Feeling really good about something you've done, like a hard project. 🏆",
+      "explanation_zh": "对你所做的感到非常好，像一个困难的项目。🏆",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 81,
+      "source_category": "needs_met",
+      "english": "Quiet",
+      "chinese": "安静的",
+      "explanation_en": "Not noisy, like whispering instead of shouting. 🤫",
+      "explanation_zh": "不吵闹，像低声说话而不是大喊。🤫",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 82,
+      "source_category": "needs_met",
+      "english": "Radiant",
+      "chinese": "容光焕发的",
+      "explanation_en": "Shining brightly, like when you're really happy. ✨",
+      "explanation_zh": "明亮地闪耀，就像你真的很快乐时。✨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 83,
+      "source_category": "needs_met",
+      "english": "Rapturous",
+      "chinese": "狂喜的",
+      "explanation_en": "Feeling extreme happiness, like when you can't stop smiling. 😃",
+      "explanation_zh": "感觉极度快乐，就像你停不下来微笑时。😃",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 84,
+      "source_category": "needs_met",
+      "english": "Refreshed",
+      "chinese": "焕然一新的",
+      "explanation_en": "Feeling fresh and lively, like after a good night's sleep. 😌",
+      "explanation_zh": "感觉清新和活泼，就像经过一个良好的夜晚睡眠后。😌",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 85,
+      "source_category": "needs_met",
+      "english": "Relaxed",
+      "chinese": "放松的",
+      "explanation_en": "Feeling calm and not stressed, like lying in a hammock. 😌",
+      "explanation_zh": "感觉平静且没有压力，就像躺在吊床上。😌",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 86,
+      "source_category": "needs_met",
+      "english": "Relieved",
+      "chinese": "放心的",
+      "explanation_en": "Feeling better after worrying, like finding a lost toy. 😌",
+      "explanation_zh": "担心后感觉好转，就像找到了丢失的玩具。😌",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 87,
+      "source_category": "needs_met",
+      "english": "Satisfied",
+      "chinese": "满意的",
+      "explanation_en": "Happy with how things turned out, like after a good meal. 😋",
+      "explanation_zh": "对事情的结果感到高兴，就像吃了一顿好饭后。😋",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 88,
+      "source_category": "needs_met",
+      "english": "Secure",
+      "chinese": "安全的",
+      "explanation_en": "Feeling safe and protected, like being at home with your family. 🏡",
+      "explanation_zh": "感觉安全和受保护，就像与家人在家里一样。🏡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 89,
+      "source_category": "needs_met",
+      "english": "Sensitive",
+      "chinese": "敏感的",
+      "explanation_en": "Easily feeling things, like when a movie makes you cry. 😢",
+      "explanation_zh": "容易感觉到事物，就像一部电影让你哭泣时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 90,
+      "source_category": "needs_met",
+      "english": "Serene",
+      "chinese": "宁静的",
+      "explanation_en": "Very calm and peaceful, like watching a beautiful sunset. 🌄",
+      "explanation_zh": "非常平静和宁静，就像观看一个美丽的日落。🌄",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 91,
+      "source_category": "needs_met",
+      "english": "Spellbound",
+      "chinese": "被迷住的",
+      "explanation_en": "Amazed and captivated, like watching a magician. 🎩",
+      "explanation_zh": "惊讶和被迷住，就像看魔术师表演。🎩",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 92,
+      "source_category": "needs_met",
+      "english": "Splendid",
+      "chinese": "极好的",
+      "explanation_en": "Very beautiful or impressive, like a big firework show. 🎆",
+      "explanation_zh": "非常美丽或令人印象深刻，就像一场大型烟花表演。🎆",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 93,
+      "source_category": "needs_met",
+      "english": "Stimulated",
+      "chinese": "受到刺激的",
+      "explanation_en": "Excited and interested, like learning something new in school. 🏫",
+      "explanation_zh": "兴奋和感兴趣，就像在学校学习新东西。🏫",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 94,
+      "source_category": "needs_met",
+      "english": "Surprised",
+      "chinese": "惊讶的",
+      "explanation_en": "Shocked or amazed by something unexpected, like a sudden gift. 🎁",
+      "explanation_zh": "对某些意想不到的事情感到震惊或惊讶，像突然收到礼物。🎁",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 95,
+      "source_category": "needs_met",
+      "english": "Tender",
+      "chinese": "温柔的",
+      "explanation_en": "Gentle and caring, like petting a small animal. 🐥",
+      "explanation_zh": "温柔和关心，就像抚摸一只小动物。🐥",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 96,
+      "source_category": "needs_met",
+      "english": "Thankful",
+      "chinese": "感激的",
+      "explanation_en": "Feeling grateful for something, like for help you got.🙏",
+      "explanation_zh": "对某事感到感激，就像对你得到的帮助感激。🙏",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 97,
+      "source_category": "needs_met",
+      "english": "Thrilled",
+      "chinese": "非常激动的",
+      "explanation_en": "Very excited, like going on a fun ride at an amusement park. 🎢",
+      "explanation_zh": "非常兴奋，就像在游乐园里乘坐有趣的游乐设施。🎢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 98,
+      "source_category": "needs_met",
+      "english": "Touched",
+      "chinese": "被感动的",
+      "explanation_en": "Emotionally affected, like feeling loved when someone helps you. ❤️",
+      "explanation_zh": "情感上受到影响，就像有人帮助你时感觉被爱。❤️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 99,
+      "source_category": "needs_met",
+      "english": "Tranquil",      "chinese": "平静的",
+      "explanation_en": "Very quiet and peaceful, like a smooth lake in the morning. 🌊",
+      "explanation_zh": "非常安静和平静，就像早晨的平静湖面。🌊",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 100,
+      "source_category": "needs_met",
+      "english": "Trusting",
+      "chinese": "信任的",
+      "explanation_en": "Feeling that you can rely on someone, like a best friend. 👫",
+      "explanation_zh": "感觉你可以依靠某人，像最好的朋友。👫",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 101,
+      "source_category": "needs_met",
+      "english": "Upbeat",
+      "chinese": "愉快的",
+      "explanation_en": "Happy and positive, like when you hear your favorite song. 🎵",
+      "explanation_zh": "快乐和积极，就像听到你最喜欢的歌曲时。🎵",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 102,
+      "source_category": "needs_met",
+      "english": "Warm",
+      "chinese": "温暖的",
+      "explanation_en": "Feeling cozy and nice, like cuddling in a blanket. 🧣",
+      "explanation_zh": "感觉舒适和惬意，就像在毯子里依偎。🧣",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 103,
+      "source_category": "needs_met",
+      "english": "Wide-awake",
+      "chinese": "完全清醒的",
+      "explanation_en": "Very alert and awake, like in the morning after a good sleep. ☀️",
+      "explanation_zh": "非常警觉和清醒，就像睡了一个好觉后的早晨。☀️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 104,
+      "source_category": "needs_met",
+      "english": "Wonderful",
+      "chinese": "精彩的",
+      "explanation_en": "Really great and enjoyable, like a fantastic trip. 🌟",
+      "explanation_zh": "真的很棒和令人愉快，就像一次奇妙的旅行。🌟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 105,
+      "source_category": "needs_met",
+      "english": "Zestful",
+      "chinese": "充满活力的",
+      "explanation_en": "Full of energy and enthusiasm, like when you play a sport you love. ⚽",
+      "explanation_zh": "充满能量和热情，就像玩你喜欢的运动时。⚽",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 106,
+      "source_category": "needs_unmet",
+      "english": "Agitated",
+      "chinese": "焦虑不安的",
+      "explanation_en": "Feeling restless or upset, like when you can't find your favorite toy. 😟",
+      "explanation_zh": "感觉不安或烦躁，就像找不到你最喜欢的玩具时。😟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 107,
+      "source_category": "needs_unmet",
+      "english": "Alarmed",
+      "chinese": "惊恐的",
+      "explanation_en": "Being scared suddenly, like if a loud noise surprises you. 😱",
+      "explanation_zh": "突然感到害怕，比如被大声音吓了一跳。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 108,
+      "source_category": "needs_unmet",
+      "english": "Aloof",
+      "chinese": "冷漠的",
+      "explanation_en": "Not wanting to join in, like watching others play but not playing. 😶",
+      "explanation_zh": "不想加入，像是看别人玩但自己不玩。😶",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 109,
+      "source_category": "needs_unmet",
+      "english": "Angry",
+      "chinese": "生气的",
+      "explanation_en": "Feeling very mad, like when someone breaks your toy. 😡",
+      "explanation_zh": "感到非常生气，就像有人弄坏你的玩具时。😡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 110,
+      "source_category": "needs_unmet",
+      "english": "Anxious",
+      "chinese": "焦虑的",
+      "explanation_en": "Worrying a lot, like when you think about the first day of school. 😬",
+      "explanation_zh": "担心很多，就像你在想上学第一天的情况。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 111,
+      "source_category": "needs_unmet",
+      "english": "Apathetic",
+      "chinese": "冷漠的",
+      "explanation_en": "Not caring about anything, like feeling nothing matters. 😑",
+      "explanation_zh": "对任何事都不在乎，就像感觉没有什么重要。😑",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 112,
+      "source_category": "needs_unmet",
+      "english": "Apprehensive",
+      "chinese": "忧虑的",
+      "explanation_en": "Nervous about something that might happen, like a big test. 📚",
+      "explanation_zh": "对可能发生的事情感到紧张，比如一场大考试。📚",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 113,
+      "source_category": "needs_unmet",
+      "english": "Ashamed",
+      "chinese": "羞愧的",
+      "explanation_en": "Feeling bad about something you did, like telling a lie. 😳",
+      "explanation_zh": "为自己做过的事情感到难过，比如说了谎。😳",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 114,
+      "source_category": "needs_unmet",
+      "english": "Beat",
+      "chinese": "筋疲力尽的",
+      "explanation_en": "Feeling very tired and worn out, like after a long day of playing. 😩",
+      "explanation_zh": "感觉非常疲惫和筋疲力尽，就像玩了一整天后。😩",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 115,
+      "source_category": "needs_unmet",
+      "english": "Bewildered",
+      "chinese": "困惑的",
+      "explanation_en": "Really confused, like when you don't understand the rules of a game. 🤔",
+      "explanation_zh": "非常困惑，比如当你不懂游戏规则时。🤔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 116,
+      "source_category": "needs_unmet",
+      "english": "Bitter",
+      "chinese": "苦涩的",
+      "explanation_en": "Upset because of unfair treatment, like not getting a turn. 😞",
+      "explanation_zh": "因不公平的待遇感到不快，比如没有轮到你。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 117,
+      "source_category": "needs_unmet",
+      "english": "Blue",
+      "chinese": "忧郁的",
+      "explanation_en": "Feeling sad or down, like a rainy day with no friends around. 🌧️",
+      "explanation_zh": "感觉悲伤或情绪低落，就像一个没有朋友的雨天。🌧️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 118,
+      "source_category": "needs_unmet",
+      "english": "Bored",
+      "chinese": "无聊的",
+      "explanation_en": "Not interested in anything, like when everything seems dull. 😒",
+      "explanation_zh": "对任何事都不感兴趣，就像一切看起来都很无聊。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 119,
+      "source_category": "needs_unmet",
+      "english": "Brokenhearted",
+      "chinese": "心碎的",
+      "explanation_en": "Feeling very sad about losing something important, like a best friend. 💔",
+      "explanation_zh": "对失去某个重要的东西感到非常伤心，比如最好的朋友。💔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 120,
+      "source_category": "needs_unmet",
+      "english": "Chagrined",
+      "chinese": "懊恼的",
+      "explanation_en": "Feeling upset because things didn't go as planned. 😖",
+      "explanation_zh": "因事情没有按计划进行而感到沮丧。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 121,
+      "source_category": "needs_unmet",
+      "english": "Cold",
+      "chinese": "冷淡的",
+      "explanation_en": "Not feeling any warmth or emotion, like being distant from others. ❄️",
+      "explanation_zh": "没有感觉到任何温暖或情感，像与他人疏远。❄️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 122,
+      "source_category": "needs_unmet",
+      "english": "Concerned",
+      "chinese": "关心的",
+      "explanation_en": "Worried about something, like when a friend is sick. 😟",
+      "explanation_zh": "对某事感到担忧，比如朋友生病时。😟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 123,
+      "source_category": "needs_unmet",
+      "english": "Confused",
+      "chinese": "困惑的",
+      "explanation_en": "Not sure what is happening or what to do, like when instructions are unclear. 🤷",
+      "explanation_zh": "不确定正在发生什么或该怎么做，比如指示不清楚时。🤷",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 124,
+      "source_category": "needs_unmet",
+      "english": "Cross",
+      "chinese": "发怒的",
+      "explanation_en": "Feeling angry and annoyed, like when someone keeps bothering you. 😠",
+      "explanation_zh": "感觉生气和烦恼，就像有人不停地打扰你时。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 125,
+      "source_category": "needs_unmet",
+      "english": "Dejected",
+      "chinese": "沮丧的",
+      "explanation_en": "Feeling sad and without hope, like after losing a game. 😞",
+      "explanation_zh": "感觉悲伤且没有希望，就像输掉一场游戏后。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 126,
+      "source_category": "needs_unmet",
+      "english": "Depressed",
+      "chinese": "抑郁的",
+      "explanation_en": "Feeling very sad and unable to do usual activities, like not wanting to play. 😔",
+      "explanation_zh": "感觉非常悲伤且无法进行通常活动，比如不想玩耍。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 127,
+      "source_category": "needs_unmet",
+      "english": "Despairing",
+      "chinese": "绝望的",
+      "explanation_en": "Feeling like there is no hope, like thinking things will never get better. 😞",
+      "explanation_zh": "感觉没有希望，就像认为事情永远不会好转。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 128,
+      "source_category": "needs_unmet",
+      "english": "Despondent",
+      "chinese": "失望的",
+      "explanation_en": "Very sad and without energy, like not wanting to get out of bed. 😔",
+      "explanation_zh": "非常悲伤且没有活力，比如不想起床。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 129,
+      "source_category": "needs_unmet",
+      "english": "Detached",
+      "chinese": "疏远的",
+      "explanation_en": "Not feeling connected to others, like being alone even in a crowd. 🚶‍♂️",
+      "explanation_zh": "没有感觉与他人相连，比如即使在人群中也感到孤独。🚶‍♂️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 130,
+      "source_category": "needs_unmet",
+      "english": "Disaffected",
+      "chinese": "失望的",
+      "explanation_en": "Disappointed and no longer interested in something, like a hobby you used to love. 🙅",
+      "explanation_zh": "对某事感到失望且不再感兴趣，比如你曾经热爱的爱好。🙅",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 131,
+      "source_category": "needs_unmet",
+      "english": "Disappointed",
+      "chinese": "失望的",
+      "explanation_en": "Feeling let down, like when something you hoped for doesn't happen. 😞",
+      "explanation_zh": "感到失望，就像你所希望的事情没有发生时。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 132,
+      "source_category": "needs_unmet",
+      "english": "Discouraged",
+      "chinese": "气馁的",
+      "explanation_en": "Feeling like giving up, like when something is too hard. 😣",
+      "explanation_zh": "感觉想放弃，就像某事太难时。😣",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 133,
+      "source_category": "needs_unmet",
+      "english": "Disenchanted",
+      "chinese": "幻灭的",
+      "explanation_en": "Feeling disappointed about something once liked, like finding out a secret. 😔",
+      "explanation_zh": "对曾经喜欢的东西感到失望，比如发现一个秘密。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 134,
+      "source_category": "needs_unmet",
+      "english": "Disgruntled",
+      "chinese": "不满的",
+      "explanation_en": "Unhappy and annoyed, like when things don't go your way. 😡",
+      "explanation_zh": "不高兴和烦恼，就像事情不按你的方式进行时。😡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 135,
+      "source_category": "needs_unmet",
+      "english": "Disgusted",
+      "chinese": "厌恶的",
+      "explanation_en": "Feeling strong dislike, like seeing something gross. 🤢",
+      "explanation_zh": "感觉强烈的厌恶，比如看到令人恶心的东西。🤢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 136,
+      "source_category": "needs_unmet",
+      "english": "Disheartened",
+      "chinese": "灰心的",
+      "explanation_en": "Feeling sad and losing hope, like when you keep failing. 😞",
+      "explanation_zh": "感觉悲伤且失去希望，就像你不断失败时。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 137,
+      "source_category": "needs_unmet",
+      "english": "Dismayed",
+      "chinese": "惊慌的",
+      "explanation_en": "Feeling shocked and disappointed, like when a plan fails suddenly. 😱",
+      "explanation_zh": "感到震惊和失望，比如当一个计划突然失败时。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 138,
+      "source_category": "needs_unmet",
+      "english": "Displeased",
+      "chinese": "不高兴的",
+      "explanation_en": "Not happy with something, like when a movie is boring. 😒",
+      "explanation_zh": "对某事不满意，比如当一部电影很无聊时。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 139,
+      "source_category": "needs_unmet",
+      "english": "Disquieted",
+      "chinese": "不安的",
+      "explanation_en": "Feeling uneasy and worried, like hearing strange noises at night. 😨",
+      "explanation_zh": "感到不安和担心，比如在夜间听到奇怪的声音。😨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 140,
+      "source_category": "needs_unmet",
+      "english": "Distressed",
+      "chinese": "痛苦的",
+      "explanation_en": "Feeling very upset, like when something bad happens. 😢",
+      "explanation_zh": "感到非常烦恼，就像发生了坏事时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 141,
+      "source_category": "needs_unmet",
+      "english": "Disturbed",
+      "chinese": "打扰的",
+      "explanation_en": "Upset and confused, like when someone interrupts your game. 😠",
+      "explanation_zh": "烦乱和困惑，就像有人打断你的游戏时。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 142,
+      "source_category": "needs_unmet",
+      "english": "Downcast",
+      "chinese": "沮丧的",
+      "explanation_en": "Feeling sad and without hope, like on a very cloudy day. ☁️",
+      "explanation_zh": "感觉悲伤且没有希望，就像在一个非常多云的日子。☁️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 143,
+      "source_category": "needs_unmet",
+      "english": "Downhearted",
+      "chinese": "心情低落的",
+      "explanation_en": "Feeling sad and discouraged, like after hearing bad news. 😞",
+      "explanation_zh": "感觉悲伤和气馁，就像听到坏消息后。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 144,
+      "source_category": "needs_unmet",
+      "english": "Dull",
+      "chinese": "无聊的",
+      "explanation_en": "Bored and uninterested, like when a class is not fun. 😐",
+      "explanation_zh": "无聊和不感兴趣，就像上课不有趣时。😐",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 145,
+      "source_category": "needs_unmet",
+      "english": "Edgy",
+      "chinese": "紧张的",
+      "explanation_en": "Feeling nervous and tense, like before a performance. 😬",
+      "explanation_zh": "感觉紧张和焦虑，就像表演前。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 146,
+      "source_category": "needs_unmet",
+      "english": "Embarrassed",
+      "chinese": "尴尬的",
+      "explanation_en": "Feeling awkward and shy, like when you make a mistake in front of others. 😳",
+      "explanation_zh": "感觉尴尬和害羞，就像在别人面前犯错误时。😳",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 147,
+      "source_category": "needs_unmet",
+      "english": "Embittered",
+      "chinese": "怨恨的",
+      "explanation_en": "Feeling angry because of unfair treatment, like being blamed unfairly. 😠",
+      "explanation_zh": "因不公平的待遇感到愤怒，比如被不公正地责备。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 148,
+      "source_category": "needs_unmet",
+      "english": "Exasperated",
+      "chinese": "恼怒的",
+      "explanation_en": "Very frustrated and annoyed, like when something keeps going wrong. 😖",
+      "explanation_zh": "非常沮丧和烦恼，就像某事持续出错时。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 149,
+      "source_category": "needs_unmet",
+      "english": "Exhausted",
+      "chinese": "筋疲力尽的",
+      "explanation_en": "Very tired, like after a long day of work or play. 😴",
+      "explanation_zh": "非常疲倦，就像经过一整天的工作或玩耍后。😴",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 150,
+      "source_category": "needs_unmet",
+      "english": "Fatigued",
+      "chinese": "疲劳的",
+      "explanation_en": "Feeling tired and weak, like needing a rest after a long walk. 😓",
+      "explanation_zh": "感觉疲倦和虚弱，就像长时间步行后需要休息。😓",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 151,
+      "source_category": "needs_unmet",
+      "english": "Fearful",
+      "chinese": "害怕的",
+      "explanation_en": "Scared of something, like being afraid of the dark. 😨",
+      "explanation_zh": "对某事感到害怕，比如害怕黑暗。😨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 152,
+      "source_category": "needs_unmet",
+      "english": "Fidgety",
+      "chinese": "坐立不安的",
+      "explanation_en": "Unable to sit still, like when you're nervous or excited. 😬",
+      "explanation_zh": "无法静坐，就像你紧张或兴奋时。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 153,
+      "source_category": "needs_unmet",
+      "english": "Forlorn",
+      "chinese": "孤独的",
+      "explanation_en": "Feeling alone and sad, like when you have no one to play with. 😢",
+      "explanation_zh": "感觉孤单和悲伤，就像没有人和你玩时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 154,
+      "source_category": "needs_unmet",
+      "english": "Frightened",
+      "chinese": "受到惊吓的",
+      "explanation_en": "Very scared, like when you see something scary. 😱",
+      "explanation_zh": "非常害怕，就像看到令人害怕的东西时。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 155,
+      "source_category": "needs_unmet",
+      "english": "Frustrated",
+      "chinese": "挫败的",
+      "explanation_en": "Feeling upset because you can't do something, like solving a hard puzzle. 😤",
+      "explanation_zh": "因为不能做某事而感到沮丧，比如解决一个难题。😤",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 156,
+      "source_category": "needs_unmet",
+      "english": "Furious",
+      "chinese": "愤怒的",
+      "explanation_en": "Very angry, like when someone ruins something important to you. 😡",
+      "explanation_zh": "非常生气，就像有人破坏对你很重要的东西时。😡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 157,
+      "source_category": "needs_unmet",
+      "english": "Gloomy",
+      "chinese": "阴沉的",
+      "explanation_en": "Feeling sad and without hope, like on a dark, rainy day. 🌧️",
+      "explanation_zh": "感觉悲伤且没有希望，就像在一个阴暗、下雨的日子。🌧️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 158,
+      "source_category": "needs_unmet",
+      "english": "Guilty",
+      "chinese": "有罪的",
+      "explanation_en": "Feeling bad because you did something wrong, like telling a lie. 😔",
+      "explanation_zh": "因为做了错事而感到难过，比如说谎。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 159,
+      "source_category": "needs_unmet",
+      "english": "Harried",
+      "chinese": "被骚扰的",
+      "explanation_en": "Feeling rushed and stressed, like when you have too much to do. 😥",
+      "explanation_zh": "感觉匆忙和有压力，就像你有太多事情要做时。😥",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 160,
+      "source_category": "needs_unmet",
+      "english": "Heavy",
+      "chinese": "沉重的",
+      "explanation_en": "Feeling a lot of emotional weight, like when you're very sad. 😞",
+      "explanation_zh": "感觉有很多情感负担，就像你非常悲伤时。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 161,
+      "source_category": "needs_unmet",
+      "english": "Helpless",
+      "chinese": "无助的",
+      "explanation_en": "Feeling like you can't do anything to help, like when a friend moves away. 😢",
+      "explanation_zh": "感觉你无法做任何事来帮助，就像一个朋友搬家时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 162,
+      "source_category": "needs_unmet",
+      "english": "Hesitant",
+      "chinese": "犹豫的",
+      "explanation_en": "Not sure about doing something, like when you're scared to try something new. 😬",
+      "explanation_zh": "对做某事不确定，就像你害怕尝试新事物时。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 163,
+      "source_category": "needs_unmet",
+      "english": "Horrible",
+      "chinese": "可怕的",
+      "explanation_en": "Really bad or unpleasant, like a nightmare. 😱",
+      "explanation_zh": "真的很糟糕或不愉快，就像一个噩梦。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 164,
+      "source_category": "needs_unmet",
+      "english": "Horrified",
+      "chinese": "感到恐惧的",
+      "explanation_en": "Very scared and shocked, like seeing something terrifying. 😨",
+      "explanation_zh": "非常害怕和震惊，就像看到某些可怕的东西时。😨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 165,
+      "source_category": "needs_unmet",
+      "english": "Hostile",
+      "chinese": "敌对的",
+      "explanation_en": "Feeling unfriendly and angry, like when you don't want to talk to someone. 😠",
+      "explanation_zh": "感觉不友好和愤怒，就像你不想和某人说话时。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 166,
+      "source_category": "needs_unmet",
+      "english": "Hot",
+      "chinese": "热的",
+      "explanation_en": "Feeling very warm, like when it's a hot summer day. 🌞",
+      "explanation_zh": "感觉非常温暖，就像在一个炎热的夏日。🌞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 167,
+      "source_category": "needs_unmet",
+      "english": "Humdrum",
+      "chinese": "单调的",
+      "explanation_en": "Bored because everything is always the same, like doing the same thing every day. 😐",
+      "explanation_zh": "因为一切总是相同而感到无聊，就像每天做相同的事情。😐",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 168,
+      "source_category": "needs_unmet",
+      "english": "Hurt",
+      "chinese": "受伤的",
+      "explanation_en": "Feeling pain, either physically or emotionally, like when you fall or someone says something mean. 😢",
+      "explanation_zh": "感觉疼痛，无论是身体上还是情感上，就像你跌倒或有人说了些刻薄的话。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 169,
+      "source_category": "needs_unmet",
+      "english": "Impatient",
+      "chinese": "不耐烦的",
+      "explanation_en": "Not wanting to wait, like when waiting is too long and you're tired of it. 😠",
+      "explanation_zh": "不想等待，就像等待太久且你厌倦了它时。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 170,
+      "source_category": "needs_unmet",
+      "english": "Indifferent",
+      "chinese": "冷漠的",
+      "explanation_en": "Not caring about something, like when nothing seems important. 😶",
+      "explanation_zh": "对某事不在乎，就像没有什么事情看起来重要时。😶",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 171,
+      "source_category": "needs_unmet",
+      "english": "Intense",
+      "chinese": "强烈的",
+      "explanation_en": "Feeling very strong emotions, like being very worried or very excited. 😬",
+      "explanation_zh": "感觉非常强烈的情绪，像是非常担心或非常兴奋。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 172,
+      "source_category": "needs_unmet",
+      "english": "Irate",
+      "chinese": "愤怒的",
+      "explanation_en": "Very angry, like when something unfair happens. 😡",
+      "explanation_zh": "非常生气，就像发生不公平的事情时。😡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 173,
+      "source_category": "needs_unmet",
+      "english": "Irked",
+      "chinese": "恼怒的",
+      "explanation_en": "Annoyed by something, like when someone keeps interrupting you. 😒",
+      "explanation_zh": "对某事感到恼怒，就像有人不断打断你时。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 174,
+      "source_category": "needs_unmet",
+      "english": "Irritated",
+      "chinese": "烦躁的",
+      "explanation_en": "Annoyed or bothered by something, like an itchy sweater. 😖",
+      "explanation_zh": "对某事感到烦恼或困扰，像痒痒的毛衣。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 175,
+      "source_category": "needs_unmet",
+      "english": "Jealous",
+      "chinese": "嫉妒的",
+      "explanation_en": "Feeling upset because someone has something you want. 😒",
+      "explanation_zh": "因为某人拥有你想要的东西而感到不安。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 176,
+      "source_category": "needs_unmet",
+      "english": "Jittery",
+      "chinese": "神经质的",
+      "explanation_en": "Feeling nervous and shaky, like before speaking in front of a group. 😬",
+      "explanation_zh": "感觉紧张和颤抖，就像在一群人面前讲话前。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 177,
+      "source_category": "needs_unmet",
+      "english": "Lazy",
+      "chinese": "懒惰的",
+      "explanation_en": "Not wanting to do anything, like when you just want to lie down. 😴",
+      "explanation_zh": "不想做任何事，就像你只想躺下时。😴",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 178,
+      "source_category": "needs_unmet",
+      "english": "Leery",
+      "chinese": "谨慎的",
+      "explanation_en": "Suspicious or wary, like not trusting a stranger. 😒",
+      "explanation_zh": "怀疑或警惕，就像不信任一个陌生人。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 179,
+      "source_category": "needs_unmet",
+      "english": "Lethargic",
+      "chinese": "无精打采的",
+      "explanation_en": "Feeling slow and without energy, like when you're very tired. 😴",
+      "explanation_zh": "感觉迟钝且没有精力，就像你非常疲倦时。😴",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 180,
+      "source_category": "needs_unmet",
+      "english": "Listless",
+      "chinese": "无精打采的",
+      "explanation_en": "Not having any energy or interest, like not wanting to do anything. 😐",
+      "explanation_zh": "没有任何精力或兴趣，就像不想做任何事时。😐",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 181,
+      "source_category": "needs_unmet",
+      "english": "Lonely",
+      "chinese": "孤独的",
+      "explanation_en": "Feeling sad because you are alone, like when no one is around to play. 😢",
+      "explanation_zh": "因为独自一人而感到悲伤，就像没有人在附近玩耍时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 182,
+      "source_category": "needs_unmet",
+      "english": "Mad",
+      "chinese": "发疯的",
+      "explanation_en": "Very angry, like when you can't believe what's happening. 😡",
+      "explanation_zh": "非常生气，就像你无法相信正在发生的事情时。😡",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 183,
+      "source_category": "needs_unmet",
+      "english": "Mean",
+      "chinese": "刻薄的",
+      "explanation_en": "Being unkind or spiteful, like saying hurtful things. 😠",
+      "explanation_zh": "不友好或怀有恶意，像说伤人的话。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 184,
+      "source_category": "needs_unmet",
+      "english": "Miserable",
+      "chinese": "痛苦的",
+      "explanation_en": "Feeling very unhappy, like when everything goes wrong. 😖",
+      "explanation_zh": "感觉非常不快乐，就像一切都出错时。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 185,
+      "source_category": "needs_unmet",
+      "english": "Mopey",
+      "chinese": "闷闷不乐的",
+      "explanation_en": "Sad and not interested in usual activities, like not wanting to play. 😔",
+      "explanation_zh": "悲伤且对通常活动不感兴趣，就像不想玩耍时。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 186,
+      "source_category": "needs_unmet",
+      "english": "Morose",
+      "chinese": "郁闷的",
+      "explanation_en": "Very sad or unhappy, like feeling gloomy for no reason. 😒",
+      "explanation_zh": "非常悲伤或不快乐，就像无缘无故感到忧郁。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 187,
+      "source_category": "needs_unmet",
+      "english": "Mournful",
+      "chinese": "悲伤的",
+      "explanation_en": "Feeling sorrow, like when you miss someone a lot. 😢",
+      "explanation_zh": "感觉悲伤，就像你非常想念某人时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 188,
+      "source_category": "needs_unmet",
+      "english": "Nervous",
+      "chinese": "紧张的",
+      "explanation_en": "Feeling anxious or scared, like before a test. 😬",
+      "explanation_zh": "感觉焦虑或害怕，就像考试前。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 189,
+      "source_category": "needs_unmet",
+      "english": "Nettled",
+      "chinese": "恼怒的",
+      "explanation_en": "Annoyed or irritated, like when someone keeps bothering you. 😠",
+      "explanation_zh": "恼怒或烦躁，就像有人不断打扰你时。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 190,
+      "source_category": "needs_unmet",
+      "english": "Numb",
+      "chinese": "麻木的",
+      "explanation_en": "Not able to feel anything, like when a part of your body falls asleep. 😑",
+      "explanation_zh": "无法感觉到任何东西，就像你身体的一部分睡着了时。😑",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 191,
+      "source_category": "needs_unmet",
+      "english": "Overwhelmed",
+      "chinese": "不知所措的",
+      "explanation_en": "Having too many emotions or things to do, like feeling swamped. 😣",
+      "explanation_zh": "有太多情绪或事情要做，就像感觉被淹没。😣",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 192,
+      "source_category": "needs_unmet",
+      "english": "Panicky",
+      "chinese": "恐慌的",
+      "explanation_en": "Very scared and nervous, like feeling out of control. 😱",
+      "explanation_zh": "非常害怕和紧张，就像感觉失去控制。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 193,
+      "source_category": "needs_unmet",
+      "english": "Passive",
+      "chinese": "被动的",
+      "explanation_en": "Not active or not reacting, like not having any opinions. 😐",
+      "explanation_zh": "不活跃或不反应，就像没有任何意见。😐",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 194,
+      "source_category": "needs_unmet",
+      "english": "Perplexed",
+      "chinese": "困惑的",
+      "explanation_en": "Very confused, like not knowing what to do. 😕",
+      "explanation_zh": "非常困惑，就像不知道该做什么。😕",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 195,
+      "source_category": "needs_unmet",
+      "english": "Pessimistic",
+      "chinese": "悲观的",
+      "explanation_en": "Thinking bad things will happen, like worrying a lot. 😞",
+      "explanation_zh": "认为会发生坏事，就像担心很多。😞",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 196,
+      "source_category": "needs_unmet",
+      "english": "Puzzled",
+      "chinese": "迷惑的",
+      "explanation_en": "Confused and not understanding, like when a puzzle is too hard. 🧩",
+      "explanation_zh": "困惑且不理解，就像一个难题太难时。🧩",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 197,
+      "source_category": "needs_unmet",
+      "english": "Rancorous",
+      "chinese": "怨恨的",
+      "explanation_en": "Feeling very angry and bitter, like holding a grudge. 😠",
+      "explanation_zh": "感觉非常生气和痛苦，就像怀恨在心。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 198,
+      "source_category": "needs_unmet",
+      "english": "Reluctant",
+      "chinese": "勉强的",
+      "explanation_en": "Not wanting to do something, like when you are forced to share. 😕",
+      "explanation_zh": "不想做某事，就像被迫分享时。😕",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 199,
+      "source_category": "needs_unmet",
+      "english": "Repelled",      "chinese": "排斥的",
+      "explanation_en": "Strongly pushed away, like disliking something a lot. 😖",
+      "explanation_zh": "强烈推开，就像非常不喜欢某事时。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 200,
+      "source_category": "needs_unmet",
+      "english": "Resentful",
+      "chinese": "怨恨的",
+      "explanation_en": "Feeling angry or upset about something unfair, like being treated badly. 😠",
+      "explanation_zh": "对不公平的事情感到愤怒或沮丧，比如被虐待。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 201,
+      "source_category": "needs_unmet",
+      "english": "Restless",
+      "chinese": "不安的",
+      "explanation_en": "Unable to stay still or relax, like when you're too excited or worried. 😬",
+      "explanation_zh": "无法静止或放松，就像你太兴奋或担心时。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 202,
+      "source_category": "needs_unmet",
+      "english": "Sad",
+      "chinese": "悲伤的",
+      "explanation_en": "Feeling unhappy, like when you lose something important. 😢",
+      "explanation_zh": "感觉不快乐，就像你失去一些重要的东西时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 203,
+      "source_category": "needs_unmet",
+      "english": "Scared",
+      "chinese": "害怕的",
+      "explanation_en": "Afraid of something, like being frightened by a loud noise. 😨",
+      "explanation_zh": "害怕某事，像被大声音吓到。😨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 204,
+      "source_category": "needs_unmet",
+      "english": "Sensitive",
+      "chinese": "敏感的",
+      "explanation_en": "Easily hurt or upset, like when words or actions make you feel bad. 😢",
+      "explanation_zh": "容易受伤或沮丧，就像话语或行为让你感觉不好时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 205,
+      "source_category": "needs_unmet",
+      "english": "Shaky",
+      "chinese": "颤抖的",
+      "explanation_en": "Trembling or not stable, like when you're nervous. 😬",
+      "explanation_zh": "颤抖或不稳定，就像你紧张时。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 206,
+      "source_category": "needs_unmet",
+      "english": "Shocked",
+      "chinese": "震惊的",
+      "explanation_en": "Surprised and upset by something unexpected, like a sudden loud sound. 😱",
+      "explanation_zh": "对意外的事情感到惊讶和沮丧，比如突然的大声音。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 207,
+      "source_category": "needs_unmet",
+      "english": "Skeptical",
+      "chinese": "怀疑的",
+      "explanation_en": "Not believing something easily, like doubting a strange story. 🤨",
+      "explanation_zh": "不轻易相信某事，像怀疑一个奇怪的故事。🤨",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 208,
+      "source_category": "needs_unmet",
+      "english": "Sleepy",
+      "chinese": "困倦的",
+      "explanation_en": "Feeling tired and needing sleep, like when it's past bedtime. 😴",
+      "explanation_zh": "感觉疲倦且需要睡觉，就像过了睡觉时间。😴",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 209,
+      "source_category": "needs_unmet",
+      "english": "Sorrowful",
+      "chinese": "悲伤的",
+      "explanation_en": "Very sad, like when you feel heartbroken. 😢",
+      "explanation_zh": "非常悲伤，就像你感到心碎时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 210,
+      "source_category": "needs_unmet",
+      "english": "Sorry",
+      "chinese": "抱歉的",
+      "explanation_en": "Feeling regret or sadness, like when you've made a mistake. 😔",
+      "explanation_zh": "感到遗憾或悲伤，就像你犯了一个错误时。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 211,
+      "source_category": "needs_unmet",
+      "english": "Spiritless",
+      "chinese": "无精打采的",
+      "explanation_en": "Lacking energy or enthusiasm, like feeling very tired or uninterested. 😒",
+      "explanation_zh": "缺乏精力或热情，就像感觉非常疲倦或不感兴趣。😒",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 212,
+      "source_category": "needs_unmet",
+      "english": "Startled",
+      "chinese": "受到惊吓的",
+      "explanation_en": "Surprised and a bit scared by something sudden, like a loud noise. 😲",
+      "explanation_zh": "对突然的事情感到惊讶和有点害怕，比如大声音。😲",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 213,
+      "source_category": "needs_unmet",
+      "english": "Surprised",
+      "chinese": "惊讶的",
+      "explanation_en": "Unexpectedly shocked or amazed, like when something unusual happens. 😲",
+      "explanation_zh": "出乎意料地震惊或惊奇，比如发生不寻常的事情时。😲",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 214,
+      "source_category": "needs_unmet",
+      "english": "Suspicious",
+      "chinese": "可疑的",
+      "explanation_en": "Feeling that something is wrong or someone is dishonest, like doubting a story. 🕵️‍♂️",
+      "explanation_zh": "感觉有问题或某人不诚实，比如怀疑一个故事。🕵️‍♂️",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 215,
+      "source_category": "needs_unmet",
+      "english": "Tepid",
+      "chinese": "微温的",
+      "explanation_en": "Not very enthusiastic or warm, like a lukewarm response. 😐",
+      "explanation_zh": "不是很热情或温暖，像微温的回应。😐",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 216,
+      "source_category": "needs_unmet",
+      "english": "Terrified",
+      "chinese": "恐惧的",
+      "explanation_en": "Extremely scared, like being really afraid of something. 😱",
+      "explanation_zh": "极度害怕，就像真的害怕某事。😱",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 217,
+      "source_category": "needs_unmet",
+      "english": "Tired",
+      "chinese": "疲倦的",
+      "explanation_en": "Needing rest, like feeling sleepy after a long day. 😴",
+      "explanation_zh": "需要休息，就像经过漫长一天后感觉困倦。😴",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 218,
+      "source_category": "needs_unmet",
+      "english": "Troubled",
+      "chinese": "困扰的",
+      "explanation_en": "Worried or disturbed by problems, like when you can't stop thinking about something bad. 😟",
+      "explanation_zh": "由问题担忧或困扰，就像你无法停止思考某些不好的事情时。😟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 219,
+      "source_category": "needs_unmet",
+      "english": "Uncomfortable",
+      "chinese": "不舒服的",
+      "explanation_en": "Not feeling well or at ease, like when clothes are too tight. 😣",
+      "explanation_zh": "感觉不好或不自在，就像衣服太紧时。😣",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 220,
+      "source_category": "needs_unmet",
+      "english": "Unconcerned",
+      "chinese": "漠不关心的",
+      "explanation_en": "Not worried about something, like not caring about a problem. 😶",
+      "explanation_zh": "对某事不担心，就像不关心一个问题时。😶",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 221,
+      "source_category": "needs_unmet",
+      "english": "Uneasy",
+      "chinese": "不安的",
+      "explanation_en": "Feeling worried or uncomfortable, like when something doesn't feel right. 😟",
+      "explanation_zh": "感觉担忧或不舒服，就像某事感觉不对时。😟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 222,
+      "source_category": "needs_unmet",
+      "english": "Unglued",
+      "chinese": "情绪失控的",
+      "explanation_en": "Upset and unable to think clearly, like when you're overwhelmed. 😖",
+      "explanation_zh": "沮丧且无法清晰思考，就像你不知所措时。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 223,
+      "source_category": "needs_unmet",
+      "english": "Unhappy",
+      "chinese": "不快乐的",
+      "explanation_en": "Not feeling joy or happiness, like when you're sad or upset. 😢",
+      "explanation_zh": "没有感觉到快乐或幸福，就像你悲伤或烦躁时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 224,
+      "source_category": "needs_unmet",
+      "english": "Unnerved",
+      "chinese": "紧张的",
+      "explanation_en": "Feeling nervous and upset, like when something scares you. 😬",
+      "explanation_zh": "感觉紧张和沮丧，就像某事吓到你时。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 225,
+      "source_category": "needs_unmet",
+      "english": "Unsteady",
+      "chinese": "不稳定的",
+      "explanation_en": "Not balanced or calm, like when you feel shaky. 😬",
+      "explanation_zh": "不平衡或不平静，就像你感觉摇晃时。😬",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 226,
+      "source_category": "needs_unmet",
+      "english": "Upset",
+      "chinese": "心烦的",
+      "explanation_en": "Unhappy or worried, like when things don't go as expected. 😖",
+      "explanation_zh": "不快乐或担心，就像事情不如预期进行时。😖",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 227,
+      "source_category": "needs_unmet",
+      "english": "Uptight",
+      "chinese": "紧张的",
+      "explanation_en": "Anxious or stressed about something, like worrying too much. 😟",
+      "explanation_zh": "对某事感到焦虑或有压力，比如担心太多。😟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 228,
+      "source_category": "needs_unmet",
+      "english": "Vexed",
+      "chinese": "烦恼的",
+      "explanation_en": "Annoyed or frustrated, like when you can't solve a problem. 😠",
+      "explanation_zh": "恼怒或挫败，就像你无法解决一个问题时。😠",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 229,
+      "source_category": "needs_unmet",
+      "english": "Weary",
+      "chinese": "疲倦的",
+      "explanation_en": "Very tired, like after a long, hard day. 😩",
+      "explanation_zh": "非常疲倦，就像经过漫长、艰难的一天后。😩",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 230,
+      "source_category": "needs_unmet",
+      "english": "Wistful",
+      "chinese": "渴望的",
+      "explanation_en": "Feeling a sad longing for something, like missing someone you love. 😢",
+      "explanation_zh": "对某事感到悲伤的渴望，就像想念你爱的人时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 231,
+      "source_category": "needs_unmet",
+      "english": "Withdrawn",
+      "chinese": "孤僻的",
+      "explanation_en": "Quiet and not wanting to communicate, like when you feel sad and keep to yourself. 😔",
+      "explanation_zh": "安静且不想交流，就像你感到悲伤并保持独处时。😔",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 232,
+      "source_category": "needs_unmet",
+      "english": "Woeful",
+      "chinese": "悲伤的",
+      "explanation_en": "Very sad, like feeling hopeless or miserable. 😢",
+      "explanation_zh": "非常悲伤，就像感觉无望或痛苦时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 233,
+      "source_category": "needs_unmet",
+      "english": "Worried",
+      "chinese": "担心的",
+      "explanation_en": "Concerned about something, like thinking about problems. 😟",
+      "explanation_zh": "对某事感到担忧，就像思考问题时。😟",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    },
+    {
+      "legacy_index": 234,
+      "source_category": "needs_unmet",
+      "english": "Wretched",
+      "chinese": "可怜的",
+      "explanation_en": "Feeling very unhappy or in a bad state, like when everything feels wrong. 😢",
+      "explanation_zh": "感觉非常不快乐或处于糟糕状态，就像一切都感觉不对时。😢",
+      "raw_chinese_key": "Explanation_in_Chinese",
+      "review_status": "legacy_unreviewed"
+    }
+  ]
+}
