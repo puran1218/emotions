@@ -22,14 +22,17 @@ export const projectConcept=function project(item){
   };
 };
 
+export const visibleConcepts = (pilot,legacy) => [...pilot,...legacy.filter(e=>e.status==='pilot'||e.status==='published')];
 export const makeRuntime = (entries) => ({
   version:1,
-  disclaimer:"Editorial pilot. Entries require final content and illustration sign-off before production release.",
+  disclaimer:"Editorial preview: entries and examples may still need individual bilingual and child-suitability review. Not every original source term is shown.",
   entries:entries.map(projectConcept)
 });
 if(process.argv[1] && path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
-  const canonical=JSON.parse(fs.readFileSync(path.join(root,'data/concepts/pilot.json'),'utf8'));
+  const pilot=JSON.parse(fs.readFileSync(path.join(root,'data/concepts/pilot.json'),'utf8'));
+  const legacy=JSON.parse(fs.readFileSync(path.join(root,'data/concepts/legacy-expanded.json'),'utf8'));
+  const canonical=visibleConcepts(pilot,legacy);
   const out=path.join(root,'static/emotions/data/emotions.json');
   fs.writeFileSync(out,JSON.stringify(makeRuntime(canonical),null,2)+'\n','utf8');
-  console.log('Built '+canonical.length+' pilot entries → '+path.relative(root,out));
+  console.log('Built '+canonical.length+' pilot/preview entries ('+legacy.filter(x=>x.status==='draft').length+' sensitive legacy records withheld) → '+path.relative(root,out));
 }
