@@ -23,6 +23,15 @@ assert.deepEqual(pilot,makeRuntime(visibleConcepts(originalPilots,legacyExpanded
 assert.equal(archive.entries.length,235,'all original legacy explanation rows must be preserved');
 assert.equal(legacyExpanded.length,230,'legacy rows map to 230 new drafts and five established pilot senses');
 assert.equal(migration.links.length,235,'every legacy occurrence must map or be explicitly withheld');
+assert.equal(migration.handCuratedOverrideCount,189,'individual expression overrides must cover all formerly templated entries');
+assert.equal(migration.originalCuratedCount,41,'legacy migration preserves original individually authored expression drafts');
+assert.equal(migration.templateExpressionCount,0,'no generic expression-fill templates may remain');
+assert.equal(migration.scenesCuratedOverrideCount,79,'approved scene override inventory must remain traceable');
+assert.equal(migration.semanticOverrideCount,49,'semantic correction inventory must remain traceable');
+assert.equal(legacyExpanded.filter(x=>x.status==='pilot').length,220,'220 preview-ready drafts');
+assert.equal(legacyExpanded.filter(x=>x.status==='draft').length,10,'withhold ten ambiguous or unsafe entries');
+assert.ok(legacyExpanded.every(x=>x.terms.en.noun===null&&x.terms.zh.noun===null),'legacy adjective headwords must not be invented nouns');
+
 const conceptMap=new Map(canonical.map(e=>[e.id,e]));
 assert.equal(conceptMap.size,canonical.length,'every canonical concept needs a distinct stable ID');
 for(const link of migration.links){
@@ -79,6 +88,12 @@ for(let i=0;i<ledger.length;i++){
   for(const field of ['occurrence_id','source_word','source_language','source_category','source_index'])
     assert.equal(ledger[i][field],occurrences[i][field],field+' at occurrence '+i);
   assert.ok(['unreviewed','drafted','content-reviewed','illustration-reviewed','published','excluded'].includes(ledger[i].status));
+}
+const draftedEnglishRows=ledger.filter(r=>r.source_language==='en'&&r.status==='drafted'&&r.proposed_concept_id);
+assert.equal(draftedEnglishRows.length,235,'all recovered historical English occurrences should have tracked draft links');
+for(const row of draftedEnglishRows){
+ assert.ok(conceptMap.has(row.proposed_concept_id),'ledger concept ID must exist');
+ assert.equal(row.translation_status,'drafted','draft source content never implies human translation approval');
 }
 const entries=pilot.entries;
 assert.equal(pilot.version,1);
