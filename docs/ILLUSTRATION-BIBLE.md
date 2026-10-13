@@ -41,21 +41,16 @@ Create a reproducible **3:2** master (for raster art, 1536×1024 px or above; cl
 6. No text, watermark, logo, broken hands or stray visual artifacts.
 7. Alt text accurately describes the image and matches scenario.
 
-## Source and versioning
+## Asset lifecycle and versioning
 
-Assets at \`static/emotions/images/<concept>-vNN.webp\` backed by originals at \`art/originals/\` when approved. Keep \`art/manifest.json\` with concept, source, source dimensions, revision, approval status, alt and QA notes. Do NOT call moodboard panels individually approved. The five original watercolor-era storyboards and the recolored `*-sketch-study.svg` v1 experiments remain preserved for comparison. The current `*-sketch-v2.svg` assets are newly composed, more expressive **bold color sketch studies**: larger silhouettes, energetic uneven outlines, visible crayon-mark accents, and fewer scenic details. They are not production-approved. Keep `stage: storyboard` and editorial illustration review pending until the art is visually and semantically verified on real devices. Explore thumbnails, full Detail art, and Share image must all point to the same asset.
+PR #1 ships only the **neutral, shared** `static/emotions/images/feeling-placeholder.svg` with `illustration.stage: pending`. Early watercolor storyboards, recolored studies and the bolder v2 character sketches were removed from the published static directory; their experiments remain recoverable from PR #1 Git history. **None is production-approved.**
 
-### Bold-sketch calibration (October 2026)
+In the future illustration branch, create an original `static/emotions/images/<concept>-vNN.webp` or SVG master plus an archive under `art/originals/`. Record illustrator/source/license, dimensions, revision, semantic QA and reviewer approval in `art/manifest.json`. Update each concept's canonical `illustration.src`, `stage`, and actual-image bilingual `alt`, regenerate runtime content, and test Explore thumbnail, Detail and offline share PNG. No UI redesign is needed.
 
-- Lead with a strong child-scale gesture and visible facial expression; large silhouette readability should survive a 90px thumbnail.
-- Draw with varied, imperfect strokes rather than precise geometric outlines; limit accents to 2–4 bright colors and keep untouched paper visible.
-- Props must prove the specific scene: an opened sunflower, a **collapsed** block tower, space between lonely child and distant friends, a **touching** embrace with the dog, and a discovered book at the schoolbag.
-- Doodles and movement rays express energy, but must not override the emotion, invent extra narrative events, or stigmatize sadness and frustration.
-- Check all five scenes together for recognizable recurring Mei, consistent lineweight, readable facial features, cultural neutrality, and the same semantics in bilingual copy.
-- Before approval, run a real-device iPhone/iPad and exported PNG review, including Safari SVG rendering, iPhone list thumbnails, and two languages. No drawing tool is part of the product.
+Never claim placeholder art is a scene depiction. Publishing **content-approved words with the neutral placeholder** is permitted; approving the illustration itself is a separate later gate. A non-placeholder, unapproved per-word sketch must not silently become a published image.
 
-## Facial placement and child-safe expressions
+## Facial expression checks for future art
 
-Review the character face as a separate part of illustration QA. In the v2 sketch studies, the facial oval is centered at `(0,-63)`, with radii `72×80` in local character coordinates. The original `x≈±46, y=8` blushing cheeks were too low for that oval and appeared to float **outside** the face. Cheeks are now placed at `x=±37, y=-12` with smaller, softer marks; eye, brow and mouth positions were also moved upward to stay inside the oval.
+Previous prototype faces had blush outside the face shape; that made the characters unintentionally frightening. New sketches need cheeks that stay within the facial outline, stable relative eye/brow/mouth placement, consistent proportions, and expressive but welcoming faces. Use human visual assessment across all five sample emotions and at phone thumbnail sizes; do not depend on the previous SVG coordinate system as a global art rule.
 
-This coordinate rule is only a guard for the current SVG sketch studies, **not** a universal template for future artwork. New original illustrations must be visually checked rather than relying on rigid coordinates. Exaggerate gestures, scribbly outlines and colorful props, but keep both cheeks on the cheeks, eyes and mouth within the face, and the underlying expression friendly, coherent and never unintentionally scary.
+The illustration work deliberately comes **after** the plugin-and-content PR. No drawing feature is planned.
