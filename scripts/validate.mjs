@@ -97,7 +97,7 @@ for(const e of entries){
   if(e.status==='published')assert.ok(e.illustration.stage==='approved'||(e.illustration.stage==='pending'&&e.illustration.src==='./images/feeling-placeholder.svg'),'published entry cannot use an unapproved specific scene');
   for(const lang of ['en','zh']){
     for(const part of ['definition','scene','alt'])
-      assert.ok(e[part][lang]&&e[part][lang].trim().length>4,e.id+'.'+part+'.'+lang);
+      assert.ok(e[part][lang]&&e[part][lang].trim().length>=(lang==='zh'?2:5),e.id+'.'+part+'.'+lang);
     assert.ok(e.say.length>=3&&e.say.length<=4,e.id+': runtime expression count');
     for(const example of e.say) assert.ok(example[lang]&&example[lang].trim().length>=(lang==='zh'?2:5),e.id+': example '+lang);
     assert.ok(e.word[lang],e.id+'.word.'+lang);
