@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
-  "title": "EmoLex · Feelings Explorer",
-  "description": "Mobile-first bilingual emotions explorer for curious kids and families; editorial pilot, local search, story scenarios and spoken words. Opens at /emotions/."
+  "version": "0.2.0",
+  "title": "EmoLex — Illustrated Dictionary of Feelings",
+  "description": "A standalone bilingual illustrated feelings dictionary for kids and families at /emotions/. Initial curated pilot; searchable words, examples, speech and sharing."
 }
