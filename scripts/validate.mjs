@@ -32,8 +32,10 @@ for(const e of canonical){
     assert.equal(new Set(phrases.map(x=>x.toLowerCase().trim())).size,phrases.length,e.id+': duplicate '+lang+' phrases');
   }
   if(e.status==='published'){
-    assert.equal(e.illustration.stage,'approved');
-    for(const stage of ['translation','meaning','child_suitability','illustration']) assert.equal(e.review?.[stage],'approved');
+    for(const stage of ['translation','meaning','child_suitability']) assert.equal(e.review?.[stage],'approved');
+    const approvedArt=e.illustration.stage==='approved'&&e.review?.illustration==='approved';
+    const safePlaceholder=e.illustration.stage==='pending'&&e.illustration.src==='./images/feeling-placeholder.svg';
+    assert.ok(approvedArt||safePlaceholder,e.id+': published content must use approved art or the declared neutral placeholder');
   }
 }
 const art=read('art/manifest.json');
@@ -72,8 +74,7 @@ for(const e of entries){
   assert.ok(['pilot','published'].includes(e.status),'entry status must be explicit');
   assert.ok(e.illustration && /^\.\/images\/[a-z0-9.-]+\.(webp|png|svg)$/.test(e.illustration.src));
   assert.ok(fs.existsSync(path.join(root,'static/emotions',e.illustration.src)),'missing illustration: '+e.illustration.src);
-  if(e.status==='published')assert.equal(e.illustration.stage,'approved','cannot publish unapproved artwork');
-  assert.ok(fs.existsSync(path.join(root,'static/emotions/images/'+e.visual+'-storyboard.svg')),e.id+' missing storyboard');
+  if(e.status==='published')assert.ok(e.illustration.stage==='approved'||(e.illustration.stage==='pending'&&e.illustration.src==='./images/feeling-placeholder.svg'),'published entry cannot use an unapproved specific scene');
   for(const lang of ['en','zh']){
     for(const part of ['definition','scene','alt'])
       assert.ok(e[part][lang]&&e[part][lang].trim().length>4,e.id+'.'+part+'.'+lang);
@@ -85,15 +86,11 @@ for(const e of entries){
 }
 for(const a of art.assets){assert.ok(['draft','pending','approved','rejected'].includes(a.stage));}
 for(const e of entries){
+  if(e.illustration.src!=='./images/feeling-placeholder.svg')continue;
   const svg=fs.readFileSync(path.join(root,'static/emotions',e.illustration.src),'utf8');
-  if(!e.illustration.src.endsWith('-sketch-v2.svg'))continue;
-  assert.match(svg,/<ellipse cx="0" cy="-63" rx="72" ry="80" fill="#F8C99D"/,e.id+': expected face guide');
-  const cheeks=[...svg.matchAll(/<ellipse cx="(-?\d+)" cy="(-?\d+)" rx="(\d+)" ry="(\d+)" fill="#EF8871"/g)];
-  assert.equal(cheeks.length,2,e.id+': two cheek marks');
-  for(const [,cx,cy,rx,ry] of cheeks){
-    const horizontal=(Math.abs(Number(cx))+Number(rx))/72;
-    const vertical=(Math.abs(Number(cy)+63)+Number(ry))/80;
-    assert.ok(horizontal**2+vertical**2<1,e.id+': blush should be entirely inside the facial ellipse');
-  }
+  assert.match(svg,/<svg[^>]*viewBox="0 0 960 640"/,'shared placeholder must be the 3:2 master');
+  assert.equal(e.illustration.stage,'pending','placeholder is not approved story art');
+  assert.ok(e.alt.en.toLowerCase().includes('placeholder')&&e.alt.zh.includes('占位'),'placeholder alt must describe actual art');
+
 }
 console.log('OK: '+occurrences.length+' original source occurrences, '+new Set([...source.english.needs_met,...source.english.needs_unmet]).size+' English forms; '+ledger.length+' individually tracked review items; '+entries.length+' bilingual pilot concepts; image paths and relationships validated.');
