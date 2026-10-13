@@ -123,6 +123,10 @@ for(const entry of result.report.flags){
     entry.flags.push("three bilingual examples written individually; editorial approval still pending");
   }
 }
+const sceneOverrides=JSON.parse(fs.readFileSync(path.join(root,"data/legacy/scene-overrides.json"),"utf8"));
+for(const id of Object.keys(sceneOverrides))if(!known.has(id))throw new Error("Unknown scene override: "+id);
+for(const item of result.expanded)if(sceneOverrides[item.id])item.scenario=sceneOverrides[item.id];
+result.report.scenesCuratedOverrideCount=Object.keys(sceneOverrides).length;
 result.report.handCuratedOverrideCount=Object.keys(overrides).length;
 result.report.originalCuratedCount=result.expanded.length-Object.keys(overrides).length;
 result.report.templateExpressionCount=0;
