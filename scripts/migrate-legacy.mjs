@@ -127,6 +127,15 @@ const sceneOverrides=JSON.parse(fs.readFileSync(path.join(root,"data/legacy/scen
 for(const id of Object.keys(sceneOverrides))if(!known.has(id))throw new Error("Unknown scene override: "+id);
 for(const item of result.expanded)if(sceneOverrides[item.id])item.scenario=sceneOverrides[item.id];
 result.report.scenesCuratedOverrideCount=Object.keys(sceneOverrides).length;
+const semanticOverrides=JSON.parse(fs.readFileSync(path.join(root,"data/legacy/semantic-overrides.json"),"utf8"));
+for(const id of Object.keys(semanticOverrides))if(!known.has(id))throw new Error("Unknown semantic override: "+id);
+for(const item of result.expanded)if(semanticOverrides[item.id]){
+ const fix=semanticOverrides[item.id];
+ if(fix.zh){item.terms.zh.noun=fix.zh;item.terms.zh.feeling=fix.zh;item.pronunciation.zh.text=fix.zh;}
+ if(fix.definitionZh)item.definition.zh=fix.definitionZh;
+ if(fix.definitionEn)item.definition.en=fix.definitionEn;
+}
+result.report.semanticOverrideCount=Object.keys(semanticOverrides).length;
 result.report.handCuratedOverrideCount=Object.keys(overrides).length;
 result.report.originalCuratedCount=result.expanded.length-Object.keys(overrides).length;
 result.report.templateExpressionCount=0;
