@@ -441,16 +441,16 @@
       },
       "say": [
         {
-          "en": "I feel alert.",
-          "zh": "我现在觉得警觉。"
+          "en": "I feel wide awake and alert.",
+          "zh": "我现在精神很集中。"
         },
         {
-          "en": "I feel alert when I'm noticing a cat sneaking up.",
-          "zh": "我在注意到一只猫正在悄悄接近的时候，我觉得警觉。"
+          "en": "I heard a sound and looked around.",
+          "zh": "我听到一个声音，就四处看了看。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Did you hear that too?",
+          "zh": "你也听到了吗？"
         }
       ],
       "related": [],
@@ -548,21 +548,21 @@
         "zh": "发现某事很有趣。"
       },
       "scene": {
-        "en": "A clown doing tricks.",
-        "zh": "你在小丑表演把戏。"
+        "en": "A child laughs at a clown's silly tricks.",
+        "zh": "一个孩子被小丑的把戏逗得哈哈大笑。"
       },
       "say": [
         {
-          "en": "I feel amused.",
-          "zh": "我现在觉得好笑。"
+          "en": "That is so funny!",
+          "zh": "这也太好笑了！"
         },
         {
-          "en": "I feel amused when I think about a clown doing tricks.",
-          "zh": "我在小丑表演把戏的时候，我觉得好笑。"
+          "en": "The clown made me giggle.",
+          "zh": "小丑把我逗得咯咯笑。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Tell me another funny story!",
+          "zh": "再给我讲一个好玩的故事吧！"
         }
       ],
       "related": [],
@@ -609,16 +609,16 @@
       },
       "say": [
         {
-          "en": "I feel animated.",
-          "zh": "我现在觉得活泼。"
+          "en": "I feel full of energy!",
+          "zh": "我现在活力满满！"
         },
         {
-          "en": "I feel animated when I'm dancing happily.",
-          "zh": "我在快乐地跳舞的时候，我觉得活泼。"
+          "en": "I cannot stop dancing to this song.",
+          "zh": "这首歌让我忍不住跳舞。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Come dance with me!",
+          "zh": "来和我一起跳舞吧！"
         }
       ],
       "related": [],
@@ -665,16 +665,16 @@
       },
       "say": [
         {
-          "en": "I feel appreciative.",
-          "zh": "我现在觉得感激。"
+          "en": "I really appreciate your help.",
+          "zh": "我真的很感谢你的帮助。"
         },
         {
-          "en": "I feel appreciative when I'm saying thanks for a gift.",
-          "zh": "我在对一个礼物说谢谢的时候，我觉得感激。"
+          "en": "You made this easier for me.",
+          "zh": "有你帮忙，这件事容易多了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Thank you for being so kind.",
+          "zh": "谢谢你这么好！"
         }
       ],
       "related": [],
@@ -721,16 +721,16 @@
       },
       "say": [
         {
-          "en": "I feel ardent.",
-          "zh": "我现在觉得热情。"
+          "en": "I care about this a lot.",
+          "zh": "我真的很在乎这件事。"
         },
         {
-          "en": "I feel ardent when I'm loving your favorite game a lot.",
-          "zh": "我在极爱你最喜欢的游戏的时候，我觉得热情。"
+          "en": "I love talking about my favorite hobby.",
+          "zh": "我特别喜欢聊自己热爱的事情。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "May I tell you why I love it?",
+          "zh": "我能告诉你我为什么喜欢它吗？"
         }
       ],
       "related": [],
@@ -772,21 +772,21 @@
         "zh": "对惊人的事情感到震惊。"
       },
       "scene": {
-        "en": "A surprise party.",
-        "zh": "你在一个惊喜派对。"
+        "en": "Friends surprise a child with a small party.",
+        "zh": "朋友们给一个孩子准备了惊喜派对。"
       },
       "say": [
         {
-          "en": "I feel astonished.",
-          "zh": "我现在觉得吃惊。"
+          "en": "Wow, I did not expect that!",
+          "zh": "哇，我完全没想到！"
         },
         {
-          "en": "I feel astonished when I think about a surprise party.",
-          "zh": "我在一个惊喜派对的时候，我觉得吃惊。"
+          "en": "That magic trick left me speechless.",
+          "zh": "那个魔术让我惊讶得说不出话。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "How did you do that?",
+          "zh": "你是怎么做到的？"
         }
       ],
       "related": [],
@@ -833,16 +833,16 @@
       },
       "say": [
         {
-          "en": "I feel blissful.",
-          "zh": "我现在觉得极乐。"
+          "en": "This feels wonderful.",
+          "zh": "这种感觉真幸福。"
         },
         {
-          "en": "I feel blissful when I'm eating your favorite ice cream.",
-          "zh": "我在吃你最喜欢的冰淇淋的时候，我觉得极乐。"
+          "en": "Eating my favorite ice cream makes me smile.",
+          "zh": "吃到最喜欢的冰淇淋，我开心极了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "I wish this moment could last longer.",
+          "zh": "真希望这一刻再长一点。"
         }
       ],
       "related": [],
@@ -884,21 +884,21 @@
         "zh": "喘不过气来。"
       },
       "scene": {
-        "en": "After running really fast.",
-        "zh": "你在跑得很快之后。"
+        "en": "After running very fast, a child stops to catch their breath.",
+        "zh": "跑得太快了，一个孩子停下来喘口气。"
       },
       "say": [
         {
-          "en": "Right now, I feel breathless.",
-          "zh": "我现在觉得喘不过气来。"
+          "en": "I need a moment to catch my breath.",
+          "zh": "我得缓一缓，喘口气。"
         },
         {
-          "en": "I feel breathless when I think about after running really fast.",
-          "zh": "我在跑得很快之后的时候，我觉得喘不过气来。"
+          "en": "That race made me breathe so fast.",
+          "zh": "刚才跑得我气喘吁吁。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we slow down for a bit?",
+          "zh": "我们能慢一点吗？"
         }
       ],
       "related": [],
@@ -945,16 +945,16 @@
       },
       "say": [
         {
-          "en": "I feel buoyant.",
-          "zh": "我现在觉得心情愉快。"
+          "en": "I feel light and cheerful today.",
+          "zh": "今天我心情轻快极了。"
         },
         {
-          "en": "I feel buoyant when I'm floating on a balloon.",
-          "zh": "我在在气球上漂浮的时候，我觉得心情愉快。"
+          "en": "That good news lifted my spirits.",
+          "zh": "这个好消息让我精神一振。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "I am ready for something fun!",
+          "zh": "我已经准备好玩点有趣的了！"
         }
       ],
       "related": [],
@@ -1057,16 +1057,16 @@
       },
       "say": [
         {
-          "en": "I feel carefree.",
-          "zh": "我现在觉得无忧无虑。"
+          "en": "I do not have a worry right now.",
+          "zh": "我现在无忧无虑。"
         },
         {
-          "en": "I feel carefree when I'm playing all day without thinking about homework.",
-          "zh": "我在整天玩耍而不想作业的时候，我觉得无忧无虑。"
+          "en": "Running in the park feels so free.",
+          "zh": "在公园跑起来真自在。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Let's enjoy this afternoon!",
+          "zh": "我们好好享受这个下午吧！"
         }
       ],
       "related": [],
@@ -1108,8 +1108,8 @@
         "zh": "感觉快乐和明亮。"
       },
       "scene": {
-        "en": "The sun is shining.",
-        "zh": "你在太阳照耀。"
+        "en": "Sunlight streams through the window, brightening a child's mood.",
+        "zh": "阳光照进窗户，孩子的心情也亮起来。"
       },
       "say": [
         {
@@ -1169,16 +1169,16 @@
       },
       "say": [
         {
-          "en": "I feel comfortable.",
-          "zh": "我现在觉得舒适。"
+          "en": "I feel comfortable here.",
+          "zh": "我在这里很自在。"
         },
         {
-          "en": "I feel comfortable when I'm snuggling in a warm blanket.",
-          "zh": "我在在温暖的毯子里依偎的时候，我觉得舒适。"
+          "en": "This soft chair feels just right.",
+          "zh": "这把软椅子坐着真舒服。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can I stay here a little longer?",
+          "zh": "我能在这里多待一会儿吗？"
         }
       ],
       "related": [],
@@ -1225,16 +1225,16 @@
       },
       "say": [
         {
-          "en": "I feel complacent.",
-          "zh": "我现在觉得自满。"
+          "en": "I thought I had done enough.",
+          "zh": "我原以为自己做得够好了。"
         },
         {
-          "en": "I feel complacent when I think about you've done something great.",
-          "zh": "我做了一件了不起的事情的时候，我觉得自满。"
+          "en": "I stopped checking my work too early.",
+          "zh": "我太早就不检查作业了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Maybe I should take another look.",
+          "zh": "也许我该再检查一遍。"
         }
       ],
       "related": [],
@@ -1281,16 +1281,16 @@
       },
       "say": [
         {
-          "en": "I feel composed.",
-          "zh": "我现在觉得镇定。"
+          "en": "I am keeping calm.",
+          "zh": "我正在努力保持镇定。"
         },
         {
-          "en": "I feel composed when I'm not scared on a big slide.",
-          "zh": "我在在大滑梯上不害怕的时候，我觉得镇定。"
+          "en": "I took a breath before answering.",
+          "zh": "回答前我先深吸了一口气。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "I can handle this one step at a time.",
+          "zh": "我可以一步一步来。"
         }
       ],
       "related": [],
@@ -1332,21 +1332,21 @@
         "zh": "关心某事。"
       },
       "scene": {
-        "en": "A friend is sad and you want to help.",
-        "zh": "你在朋友伤心时你想帮助。"
+        "en": "A child notices a friend is sad and offers to help.",
+        "zh": "一个孩子发现朋友难过，主动关心他。"
       },
       "say": [
         {
-          "en": "I feel concerned.",
-          "zh": "我现在觉得关心。"
+          "en": "I care about how you feel.",
+          "zh": "我很在乎你的感受。"
         },
         {
-          "en": "I feel concerned when I think about a friend is sad and you want to help.",
-          "zh": "我在朋友伤心时你想帮助的时候，我觉得关心。"
+          "en": "You seem quiet today; are you okay?",
+          "zh": "你今天有点安静，还好吗？"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Would you like to talk?",
+          "zh": "你想聊一聊吗？"
         }
       ],
       "related": [],
@@ -1388,8 +1388,8 @@
         "zh": "对自己感到确定。"
       },
       "scene": {
-        "en": "Knowing you can do something well.",
-        "zh": "你在知道你能做好某事。"
+        "en": "After practicing, a child knows they can do a difficult task.",
+        "zh": "练习之后，一个孩子相信自己能完成难事。"
       },
       "say": [
         {
@@ -1561,16 +1561,16 @@
       },
       "say": [
         {
-          "en": "I feel dazzled.",
-          "zh": "我现在觉得被眩晕。"
+          "en": "Wow, the lights are so bright!",
+          "zh": "哇，这些灯光真耀眼！"
         },
         {
-          "en": "I feel dazzled when I think about fireworks.",
-          "zh": "我在烟花的时候，我觉得被眩晕。"
+          "en": "The sparkling show amazed me.",
+          "zh": "闪亮的表演让我看呆了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can we watch it again?",
+          "zh": "我们能再看一遍吗？"
         }
       ],
       "related": [],
@@ -1729,16 +1729,16 @@
       },
       "say": [
         {
-          "en": "I feel ebullient.",
-          "zh": "我现在觉得热情洋溢。"
+          "en": "I feel full of excitement!",
+          "zh": "我高兴得快跳起来了！"
         },
         {
-          "en": "I feel ebullient when I'm playing a fun game.",
-          "zh": "我在玩一个有趣的游戏的时候，我觉得热情洋溢。"
+          "en": "I have so much good news to share.",
+          "zh": "我有好多好消息想说。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can I tell you all about it?",
+          "zh": "我能一口气讲给你听吗？"
         }
       ],
       "related": [],
@@ -1785,16 +1785,16 @@
       },
       "say": [
         {
-          "en": "I feel ecstatic.",
-          "zh": "我现在觉得狂喜。"
+          "en": "I am happier than I can say!",
+          "zh": "我开心得不知道怎么说了！"
         },
         {
-          "en": "I feel ecstatic when I win a big prize.",
-          "zh": "我在赢得一大奖的时候，我觉得狂喜。"
+          "en": "I can hardly believe we won.",
+          "zh": "我简直不敢相信我们赢了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Let's celebrate together!",
+          "zh": "我们一起庆祝吧！"
         }
       ],
       "related": [],
@@ -1841,16 +1841,16 @@
       },
       "say": [
         {
-          "en": "I feel effervescent.",
-          "zh": "我现在觉得兴高采烈。"
+          "en": "I feel bubbly and cheerful!",
+          "zh": "我现在开心得冒泡！"
         },
         {
-          "en": "I feel effervescent when I'm laughing with friends.",
-          "zh": "我在与朋友们大笑的时候，我觉得兴高采烈。"
+          "en": "I cannot stop laughing with my friends.",
+          "zh": "和朋友在一起，我笑个不停。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Come join the fun!",
+          "zh": "快来一起玩呀！"
         }
       ],
       "related": [],
@@ -1892,21 +1892,21 @@
         "zh": "非常自豪和快乐。"
       },
       "scene": {
-        "en": "After you make a great drawing.",
-        "zh": "你在做了一幅很棒的画后。"
+        "en": "A child feels thrilled after finishing a beautiful drawing.",
+        "zh": "一个孩子画好一幅漂亮的画，高兴极了。"
       },
       "say": [
         {
-          "en": "I feel elated.",
-          "zh": "我现在觉得兴奋。"
+          "en": "I feel so happy and proud!",
+          "zh": "我开心又自豪！"
         },
         {
-          "en": "I feel elated when I think about after you make a great drawing.",
-          "zh": "我在做了一幅很棒的画后的时候，我觉得兴奋。"
+          "en": "We finally finished our big project.",
+          "zh": "我们终于完成那个大作品啦。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can I show you what we made?",
+          "zh": "我能给你看看我们的作品吗？"
         }
       ],
       "related": [],
@@ -1948,21 +1948,21 @@
         "zh": "被某些精彩的事物迷住。"
       },
       "scene": {
-        "en": "A beautiful story.",
-        "zh": "你在一个美丽的故事。"
+        "en": "A child listens closely to a beautiful bedtime story.",
+        "zh": "孩子听美妙的睡前故事听得入迷。"
       },
       "say": [
         {
-          "en": "I feel enchanted.",
-          "zh": "我现在觉得被迷住。"
+          "en": "This feels like magic.",
+          "zh": "这感觉像魔法一样！"
         },
         {
-          "en": "I feel enchanted when I think about a beautiful story.",
-          "zh": "我在一个美丽的故事的时候，我觉得被迷住。"
+          "en": "The glowing garden has me spellbound.",
+          "zh": "闪闪发光的花园让我看入迷了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can we explore a little more?",
+          "zh": "我们能再逛逛吗？"
         }
       ],
       "related": [],
@@ -2004,21 +2004,21 @@
         "zh": "感觉受到支持。"
       },
       "scene": {
-        "en": "Someone cheers for you.",
-        "zh": "你在有人为你加油。"
+        "en": "A friend cheers for a child who is trying something difficult.",
+        "zh": "孩子尝试一件难事时，朋友在旁边加油。"
       },
       "say": [
         {
-          "en": "I feel encouraged.",
-          "zh": "我现在觉得受到鼓舞。"
+          "en": "I feel ready to try again.",
+          "zh": "我又有勇气试一次了。"
         },
         {
-          "en": "I feel encouraged when I think about someone cheers for you.",
-          "zh": "我在有人为你加油的时候，我觉得受到鼓舞。"
+          "en": "Your words helped me believe in myself.",
+          "zh": "你的话让我更相信自己。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Thank you for cheering me on.",
+          "zh": "谢谢你为我加油。"
         }
       ],
       "related": [],
@@ -2065,16 +2065,16 @@
       },
       "say": [
         {
-          "en": "I feel energetic.",
-          "zh": "我现在觉得精力充沛。"
+          "en": "I have so much energy today!",
+          "zh": "我今天精力可充沛了！"
         },
         {
-          "en": "I feel energetic when I can't stop jumping around.",
-          "zh": "我停不下来跳来跳去的时候，我觉得精力充沛。"
+          "en": "I want to jump and run outside.",
+          "zh": "我想出去蹦蹦跳跳。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Want to play a game?",
+          "zh": "要不要一起玩个游戏？"
         }
       ],
       "related": [],
@@ -2116,21 +2116,21 @@
         "zh": "完全专注于某个有趣的事物。"
       },
       "scene": {
-        "en": "A fascinating book.",
-        "zh": "你在一本迷人的书。"
+        "en": "A child reads an exciting book and forgets the time.",
+        "zh": "孩子读一本有趣的书，专心得忘了时间。"
       },
       "say": [
         {
-          "en": "I feel engrossed.",
-          "zh": "我现在觉得全神贯注。"
+          "en": "I am really into this story.",
+          "zh": "这个故事让我看入迷了。"
         },
         {
-          "en": "I feel engrossed when I think about a fascinating book.",
-          "zh": "我在一本迷人的书的时候，我觉得全神贯注。"
+          "en": "I did not even hear the bell.",
+          "zh": "我专心得连铃声都没听见。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can I read one more page?",
+          "zh": "我能再读一页吗？"
         }
       ],
       "related": [],
@@ -2172,21 +2172,21 @@
         "zh": "感觉活跃和兴奋。"
       },
       "scene": {
-        "en": "A fun song comes on.",
-        "zh": "你在一首有趣的歌曲响起。"
+        "en": "A lively song plays, and a quiet child starts dancing.",
+        "zh": "活泼的音乐响起，原本安静的孩子跳起舞来。"
       },
       "say": [
         {
-          "en": "I feel enlivened.",
-          "zh": "我现在觉得感到活跃。"
+          "en": "That music cheered me up!",
+          "zh": "那段音乐让我精神一振！"
         },
         {
-          "en": "I feel enlivened when I think about a fun song comes on.",
-          "zh": "我在一首有趣的歌曲响起的时候，我觉得感到活跃。"
+          "en": "I felt sleepy, but now I want to dance.",
+          "zh": "刚才还有点困，现在我想跳舞了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Let's turn the music on again!",
+          "zh": "我们再放一次音乐吧！"
         }
       ],
       "related": [],
@@ -2233,16 +2233,16 @@
       },
       "say": [
         {
-          "en": "I feel enthusiastic.",
-          "zh": "我现在觉得热情。"
+          "en": "I cannot wait to get started!",
+          "zh": "我已经迫不及待了！"
         },
         {
-          "en": "I feel enthusiastic when I'm going on a trip.",
-          "zh": "我在去旅行的时候，我觉得热情。"
+          "en": "I have so many ideas for our project.",
+          "zh": "我们的作品我有好多点子。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can I help make it?",
+          "zh": "我能一起动手做吗？"
         }
       ],
       "related": [],
@@ -2340,21 +2340,21 @@
         "zh": "感到非常快乐和兴奋。"
       },
       "scene": {
-        "en": "After winning a game.",
-        "zh": "你在赢得一场游戏后。"
+        "en": "A child celebrates after winning a close game.",
+        "zh": "一场激烈的比赛结束，一个孩子赢了，兴奋地欢呼。"
       },
       "say": [
         {
-          "en": "I feel exhilarated.",
-          "zh": "我现在觉得兴奋。"
+          "en": "That was such an exciting ride!",
+          "zh": "刚才的游乐设施太刺激了！"
         },
         {
-          "en": "I feel exhilarated when I think about after winning a game.",
-          "zh": "我在赢得一场游戏后的时候，我觉得兴奋。"
+          "en": "My heart was racing in a happy way.",
+          "zh": "我开心得心怦怦跳。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can we tell everyone about it?",
+          "zh": "我们能讲给大家听吗？"
         }
       ],
       "related": [],
@@ -2401,16 +2401,16 @@
       },
       "say": [
         {
-          "en": "I feel expansive.",
-          "zh": "我现在觉得开朗。"
+          "en": "I feel open and friendly today.",
+          "zh": "今天我很想和大家交朋友。"
         },
         {
-          "en": "I feel expansive when I'm making new friends at the park.",
-          "zh": "我在在公园里结交新朋友的时候，我觉得开朗。"
+          "en": "I enjoyed meeting the new children.",
+          "zh": "认识新朋友让我很开心。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Would you like to join us?",
+          "zh": "你想加入我们吗？"
         }
       ],
       "related": [],
@@ -2452,21 +2452,21 @@
         "zh": "兴奋地等待某事。"
       },
       "scene": {
-        "en": "A holiday.",
-        "zh": "你在假期。"
+        "en": "A child counts the days until a holiday trip.",
+        "zh": "孩子数着日子，期待假期旅行快点到来。"
       },
       "say": [
         {
-          "en": "I feel expectant.",
-          "zh": "我现在觉得期待。"
+          "en": "I am looking forward to tomorrow.",
+          "zh": "我好期待明天。"
         },
         {
-          "en": "I feel expectant when I think about a holiday.",
-          "zh": "我在假期的时候，我觉得期待。"
+          "en": "I keep wondering what the trip will be like.",
+          "zh": "我一直在想旅行会是什么样。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "What are you looking forward to?",
+          "zh": "你最期待什么？"
         }
       ],
       "related": [],
@@ -2513,16 +2513,16 @@
       },
       "say": [
         {
-          "en": "I feel exultant.",
-          "zh": "我现在觉得非常高兴。"
+          "en": "We did it!",
+          "zh": "我们成功啦！"
         },
         {
-          "en": "I feel exultant when I think about your team wins a match.",
-          "zh": "我的队伍赢得比赛的时候，我觉得非常高兴。"
+          "en": "Our team scored the winning point.",
+          "zh": "我们队拿到了制胜的一分。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Come cheer with us!",
+          "zh": "快来和我们一起欢呼！"
         }
       ],
       "related": [],
@@ -2681,16 +2681,16 @@
       },
       "say": [
         {
-          "en": "I feel friendly.",
-          "zh": "我现在觉得友好。"
+          "en": "I want to be friendly.",
+          "zh": "我想友好地对待别人。"
         },
         {
-          "en": "I feel friendly when I'm sharing your toys.",
-          "zh": "我在分享你的玩具的时候，我觉得友好。"
+          "en": "I smiled and said hello to the new child.",
+          "zh": "我笑着向新同学打招呼。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Would you like to play with us?",
+          "zh": "你想和我们一起玩吗？"
         }
       ],
       "related": [],
@@ -2732,21 +2732,21 @@
         "zh": "对你所做的感到非常满足。"
       },
       "scene": {
-        "en": "After building a big tower.",
-        "zh": "你在建造了一个大塔后。"
+        "en": "A child steps back to admire a tall block tower they built.",
+        "zh": "孩子搭好高高的积木塔，满意地欣赏着。"
       },
       "say": [
         {
-          "en": "I feel fulfilled.",
-          "zh": "我现在觉得满足。"
+          "en": "I feel satisfied with what I made.",
+          "zh": "我对自己的作品很满足。"
         },
         {
-          "en": "I feel fulfilled when I think about after building a big tower.",
-          "zh": "我在建造了一个大塔后的时候，我觉得满足。"
+          "en": "The tower is finally finished.",
+          "zh": "积木塔终于搭好了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "May I show it to you?",
+          "zh": "我能给你看看吗？"
         }
       ],
       "related": [],
@@ -2788,21 +2788,21 @@
         "zh": "对某事感到高兴。"
       },
       "scene": {
-        "en": "Someone says thank you.",
-        "zh": "你在有人说谢谢你。"
+        "en": "Someone thanks a child for being helpful.",
+        "zh": "有人感谢孩子的帮助，孩子心里很高兴。"
       },
       "say": [
         {
-          "en": "I feel glad.",
-          "zh": "我现在觉得高兴。"
+          "en": "I am glad you are here.",
+          "zh": "你来了，我真开心。"
         },
         {
-          "en": "I feel glad when I think about someone says thank you.",
-          "zh": "我在有人说谢谢你的时候，我觉得高兴。"
+          "en": "Your thank-you note made me smile.",
+          "zh": "你的感谢小纸条让我笑了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Shall we do something fun together?",
+          "zh": "我们一起玩点什么吧？"
         }
       ],
       "related": [],
@@ -2849,16 +2849,16 @@
       },
       "say": [
         {
-          "en": "I feel gleeful.",
-          "zh": "我现在觉得愉快。"
+          "en": "I cannot stop giggling!",
+          "zh": "我忍不住咯咯地笑。"
         },
         {
-          "en": "I feel gleeful when I'm playing a fun prank.",
-          "zh": "我在玩一个有趣的恶作剧的时候，我觉得愉快。"
+          "en": "That silly game is so much fun.",
+          "zh": "那个搞笑的游戏真好玩。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Want to play another round?",
+          "zh": "还想再玩一轮吗？"
         }
       ],
       "related": [],
@@ -2905,16 +2905,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel glorious.",
-          "zh": "我现在觉得光荣。"
+          "en": "I feel proud of this moment.",
+          "zh": "这一刻让我很自豪。"
         },
         {
-          "en": "I feel glorious when I finish a difficult task.",
-          "zh": "我完成一项困难任务的时候，我觉得光荣。"
+          "en": "We finally finished something difficult.",
+          "zh": "我们终于完成了一件难事。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we remember this day?",
+          "zh": "我们能记住这一天吗？"
         }
       ],
       "related": [],
@@ -2961,16 +2961,16 @@
       },
       "say": [
         {
-          "en": "I feel glowing.",
-          "zh": "我现在觉得发光。"
+          "en": "I am beaming with happiness!",
+          "zh": "我高兴得脸上都发光了！"
         },
         {
-          "en": "I feel glowing when I feel proud of yourself.",
-          "zh": "我为自己感到自豪的时候，我觉得发光。"
+          "en": "I feel proud of what I did today.",
+          "zh": "我为今天的表现感到自豪。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can I tell you why?",
+          "zh": "我能告诉你为什么吗？"
         }
       ],
       "related": [],
@@ -3017,16 +3017,16 @@
       },
       "say": [
         {
-          "en": "I feel good-humored.",
-          "zh": "我现在觉得幽默。"
+          "en": "I am in a cheerful mood.",
+          "zh": "我今天心情很好。"
         },
         {
-          "en": "I feel good-humored when I'm telling jokes with friends.",
-          "zh": "我在与朋友讲笑话的时候，我觉得幽默。"
+          "en": "I can laugh at my own silly mistake.",
+          "zh": "我连自己闹的小笑话都能笑出来。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Want to hear a joke?",
+          "zh": "想听个笑话吗？"
         }
       ],
       "related": [],
@@ -3068,8 +3068,8 @@
         "zh": "为某些好事感到感激。"
       },
       "scene": {
-        "en": "A nice day or a helpful friend.",
-        "zh": "你在美好的一天或一个乐于助人的朋友。"
+        "en": "A friend helps a child on a difficult day.",
+        "zh": "一个朋友在孩子遇到困难时伸出援手。"
       },
       "say": [
         {
@@ -3124,21 +3124,21 @@
         "zh": "感到高兴和满足。"
       },
       "scene": {
-        "en": "A plan goes just right.",
-        "zh": "你在计划进行得很顺利。"
+        "en": "A carefully made plan works out just as the children hoped.",
+        "zh": "孩子们认真制订的计划顺利实现了。"
       },
       "say": [
         {
-          "en": "I feel gratified.",
-          "zh": "我现在觉得满足。"
+          "en": "I am happy with how it turned out.",
+          "zh": "结果这样，我很满足。"
         },
         {
-          "en": "I feel gratified when I think about a plan goes just right.",
-          "zh": "我在计划进行得很顺利的时候，我觉得满足。"
+          "en": "Our plan worked just the way we hoped.",
+          "zh": "我们的计划和希望的一样成功了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Let's thank everyone who helped.",
+          "zh": "我们谢谢帮忙的人吧。"
         }
       ],
       "related": [],
@@ -3241,16 +3241,16 @@
       },
       "say": [
         {
-          "en": "I feel helpful.",
-          "zh": "我现在觉得有帮助。"
+          "en": "I would like to help.",
+          "zh": "我想帮帮忙。"
         },
         {
-          "en": "I feel helpful when I'm helping someone carry something heavy.",
-          "zh": "我在帮助某人搬重物的时候，我觉得有帮助。"
+          "en": "I can carry some of those books.",
+          "zh": "我可以帮你拿几本书。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "What can I do to help you?",
+          "zh": "我能帮你做些什么？"
         }
       ],
       "related": [],
@@ -3353,16 +3353,16 @@
       },
       "say": [
         {
-          "en": "I feel inquisitive.",
-          "zh": "我现在觉得好奇。"
+          "en": "I have so many questions!",
+          "zh": "我有好多问题想问！"
         },
         {
-          "en": "I feel inquisitive when I'm asking lots of questions.",
-          "zh": "我在提很多问题的时候，我觉得好奇。"
+          "en": "I wonder why the moon changes shape.",
+          "zh": "我想知道月亮为什么会变形。"
         },
         {
-          "en": "Can you explain it to me?",
-          "zh": "你能给我解释一下吗？"
+          "en": "Could we look it up together?",
+          "zh": "我们能一起查一查吗？"
         }
       ],
       "related": [],
@@ -3404,8 +3404,8 @@
         "zh": "感觉有创造力且兴奋地制作新东西。"
       },
       "scene": {
-        "en": "Feeling creative and excited to make something new.",
-        "zh": "感觉有创造力且兴奋地制作新东西。"
+        "en": "A child sees a painting and gets an idea for their own artwork.",
+        "zh": "孩子看到一幅画，突然有了创作的新点子。"
       },
       "say": [
         {
@@ -3460,21 +3460,21 @@
         "zh": "感觉非常强烈的情绪。"
       },
       "scene": {
-        "en": "Really loving a movie.",
-        "zh": "你在非常喜欢一部电影。"
+        "en": "A moving movie leaves a child feeling something very strongly.",
+        "zh": "一部感人的电影让孩子心里涌起强烈的感受。"
       },
       "say": [
         {
-          "en": "I feel intense.",
-          "zh": "我现在觉得强烈。"
+          "en": "I feel something very strongly.",
+          "zh": "我现在有一种很强烈的感觉。"
         },
         {
-          "en": "I feel intense when I think about really loving a movie.",
-          "zh": "我在非常喜欢一部电影的时候，我觉得强烈。"
+          "en": "That story stayed in my mind all day.",
+          "zh": "那个故事让我一整天都忘不掉。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Could I tell you what moved me?",
+          "zh": "我能讲讲它为什么打动我吗？"
         }
       ],
       "related": [],
@@ -3572,21 +3572,21 @@
         "zh": "对某事非常感兴趣。"
       },
       "scene": {
-        "en": "A mystery story.",
-        "zh": "你在一个神秘的故事。"
+        "en": "A child cannot wait to find out the ending of a mystery story.",
+        "zh": "一个孩子读着神秘故事，迫不及待想知道结局。"
       },
       "say": [
         {
-          "en": "I feel intrigued.",
-          "zh": "我现在觉得被吸引。"
+          "en": "That is interesting and mysterious.",
+          "zh": "这件事有趣又神秘。"
         },
         {
-          "en": "I feel intrigued when I think about a mystery story.",
-          "zh": "我在一个神秘的故事的时候，我觉得被吸引。"
+          "en": "I want to know what happens next.",
+          "zh": "我真想知道接下来会怎样。"
         },
         {
-          "en": "Can you explain it to me?",
-          "zh": "你能给我解释一下吗？"
+          "en": "Can we keep reading?",
+          "zh": "我们能接着读吗？"
         }
       ],
       "related": [],
@@ -3628,21 +3628,21 @@
         "zh": "感觉精力充沛且焕然一新。"
       },
       "scene": {
-        "en": "After a good sleep.",
-        "zh": "你在睡了一个好觉后。"
+        "en": "A child wakes up refreshed after a good night's sleep.",
+        "zh": "睡了一个好觉，孩子醒来精神十足。"
       },
       "say": [
         {
-          "en": "Right now, I feel invigorated.",
-          "zh": "我现在觉得精力充沛。"
+          "en": "I feel fresh and full of energy!",
+          "zh": "我现在神清气爽！"
         },
         {
-          "en": "I feel invigorated when I think about after a good sleep.",
-          "zh": "我在睡了一个好觉后的时候，我觉得精力充沛。"
+          "en": "A good night's sleep helped me feel better.",
+          "zh": "睡了一觉，我舒服多了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Want to go for a walk?",
+          "zh": "要不要出去走走？"
         }
       ],
       "related": [],
@@ -3684,21 +3684,21 @@
         "zh": "参与某事。"
       },
       "scene": {
-        "en": "A game or a project.",
-        "zh": "你在游戏或项目。"
+        "en": "A child joins their friends in making a school project.",
+        "zh": "孩子和朋友一起参加班级作品制作。"
       },
       "say": [
         {
-          "en": "I feel involved.",
-          "zh": "我现在觉得参与。"
+          "en": "I want to be part of this.",
+          "zh": "我也想参与进来。"
         },
         {
-          "en": "I feel involved when I think about a game or a project.",
-          "zh": "我在游戏或项目的时候，我觉得参与。"
+          "en": "Everyone is building the model together.",
+          "zh": "大家正在一起搭模型。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Is there a job I can help with?",
+          "zh": "有没有我能帮忙的地方？"
         }
       ],
       "related": [],
@@ -3745,16 +3745,16 @@
       },
       "say": [
         {
-          "en": "I feel joyous.",
-          "zh": "我现在觉得快乐。"
+          "en": "This is such a joyful day!",
+          "zh": "今天真是快乐的一天！"
         },
         {
-          "en": "I feel joyous when I think about on your birthday.",
-          "zh": "我在在你的生日的时候，我觉得快乐。"
+          "en": "We have been laughing together all morning.",
+          "zh": "我们笑着玩了一上午。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Let's make another happy memory!",
+          "zh": "我们再一起创造开心的回忆吧！"
         }
       ],
       "related": [],
@@ -3801,16 +3801,16 @@
       },
       "say": [
         {
-          "en": "I feel jubilant.",
-          "zh": "我现在觉得欢呼。"
+          "en": "Hooray, we made it!",
+          "zh": "太棒啦，我们成功了！"
         },
         {
-          "en": "I feel jubilant when I'm cheering at a fun event.",
-          "zh": "我在在有趣的活动中欢呼的时候，我觉得欢呼。"
+          "en": "Everyone cheered when the game ended.",
+          "zh": "比赛结束时大家都欢呼起来。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "High five!",
+          "zh": "击个掌吧！"
         }
       ],
       "related": [],
@@ -3857,16 +3857,16 @@
       },
       "say": [
         {
-          "en": "I feel keyed-up.",
-          "zh": "我现在觉得兴奋。"
+          "en": "I feel excited and a little jumpy.",
+          "zh": "我既兴奋又有点紧张。"
         },
         {
-          "en": "I feel keyed-up when I think about before a race.",
-          "zh": "我在赛跑前的时候，我觉得兴奋。"
+          "en": "The race is about to start.",
+          "zh": "比赛马上就要开始了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we take one deep breath first?",
+          "zh": "我们先深呼吸一下好吗？"
         }
       ],
       "related": [],
@@ -3913,16 +3913,16 @@
       },
       "say": [
         {
-          "en": "I feel loving.",
-          "zh": "我现在觉得有爱。"
+          "en": "I feel so much love for my family.",
+          "zh": "我很爱我的家人。"
         },
         {
-          "en": "I feel loving when I think about your pet.",
-          "zh": "我的宠物的时候，我觉得有爱。"
+          "en": "I like sitting close to them.",
+          "zh": "我喜欢靠着家人坐。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can I give you a hug?",
+          "zh": "我能抱抱你吗？"
         }
       ],
       "related": [],
@@ -3964,21 +3964,21 @@
         "zh": "柔和且温柔。"
       },
       "scene": {
-        "en": "A warm, sunny afternoon.",
-        "zh": "你在一个温暖、阳光明媚的下午。"
+        "en": "A child relaxes in the warm light of a quiet afternoon.",
+        "zh": "一个孩子在暖暖的午后阳光里放松下来。"
       },
       "say": [
         {
-          "en": "Right now, I feel mellow.",
-          "zh": "我现在觉得柔和。"
+          "en": "I feel peaceful and gentle today.",
+          "zh": "今天我心里很柔和、平静。"
         },
         {
-          "en": "I feel mellow when I think about a warm, sunny afternoon.",
-          "zh": "我在一个温暖、阳光明媚的下午的时候，我觉得柔和。"
+          "en": "The warm afternoon makes me sleepy.",
+          "zh": "暖暖的下午让我有点想睡。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Shall we listen to some quiet music?",
+          "zh": "我们听点轻柔的音乐好吗？"
         }
       ],
       "related": [],
@@ -4025,16 +4025,16 @@
       },
       "say": [
         {
-          "en": "I feel merry.",
-          "zh": "我现在觉得愉快。"
+          "en": "I am in a happy, festive mood!",
+          "zh": "我今天很有节日的好心情！"
         },
         {
-          "en": "I feel merry when I'm during a party.",
-          "zh": "我在在派对期间的时候，我觉得愉快。"
+          "en": "The party music makes me smile.",
+          "zh": "派对音乐让我笑开了花。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Come celebrate with us!",
+          "zh": "来和我们一起庆祝吧！"
         }
       ],
       "related": [],
@@ -4081,16 +4081,16 @@
       },
       "say": [
         {
-          "en": "I feel mirthful.",
-          "zh": "我现在觉得欢笑。"
+          "en": "I am full of laughter today!",
+          "zh": "今天我笑个不停！"
         },
         {
-          "en": "I feel mirthful when I'm joking with friends.",
-          "zh": "我在与朋友开玩笑的时候，我觉得欢笑。"
+          "en": "My friend just told a silly joke.",
+          "zh": "朋友刚讲了个好笑的笑话。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Tell me another one!",
+          "zh": "再讲一个吧！"
         }
       ],
       "related": [],
@@ -4137,16 +4137,16 @@
       },
       "say": [
         {
-          "en": "I feel moved.",
-          "zh": "我现在觉得感动。"
+          "en": "That story really touched me.",
+          "zh": "那个故事真的让我感动。"
         },
         {
-          "en": "I feel moved when I think about by a sweet story.",
-          "zh": "我在被一个甜蜜的故事感动的时候，我觉得感动。"
+          "en": "I felt tears in my eyes at the ending.",
+          "zh": "看到结尾我眼眶都湿了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can I tell you which part I loved?",
+          "zh": "我能说说最喜欢哪一段吗？"
         }
       ],
       "related": [],
@@ -4193,16 +4193,16 @@
       },
       "say": [
         {
-          "en": "I feel optimistic.",
-          "zh": "我现在觉得乐观。"
+          "en": "I think things can get better.",
+          "zh": "我相信事情会慢慢好起来。"
         },
         {
-          "en": "I feel optimistic when I'm hoping for sunny weather.",
-          "zh": "我在希望天气晴朗的时候，我觉得乐观。"
+          "en": "Today was hard, but tomorrow is another chance.",
+          "zh": "今天虽然难，明天还有机会。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Shall we try again together?",
+          "zh": "我们一起再试试好吗？"
         }
       ],
       "related": [],
@@ -4249,16 +4249,16 @@
       },
       "say": [
         {
-          "en": "I feel overjoyed.",
-          "zh": "我现在觉得非常高兴。"
+          "en": "I am so happy I could jump!",
+          "zh": "我开心得快跳起来了！"
         },
         {
-          "en": "I feel overjoyed when I get the best gift ever.",
-          "zh": "我得到有史以来最好的礼物的时候，我觉得非常高兴。"
+          "en": "I got the news I was waiting for.",
+          "zh": "我等了好久的好消息终于来了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Come celebrate with me!",
+          "zh": "来和我一起庆祝吧！"
         }
       ],
       "related": [],
@@ -4305,16 +4305,16 @@
       },
       "say": [
         {
-          "en": "I feel overwhelmed.",
-          "zh": "我现在觉得不知所措。"
+          "en": "I have so many happy feelings at once!",
+          "zh": "我一下子涌上好多开心的感觉！"
         },
         {
-          "en": "I feel overwhelmed when I think about everyone sings happy birthday.",
-          "zh": "我在每个人唱生日快乐的时候，我觉得不知所措。"
+          "en": "Everyone surprised me on my birthday.",
+          "zh": "大家在我生日这天给了我惊喜。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "I need a moment to take it all in.",
+          "zh": "让我缓一缓，好好感受这一切。"
         }
       ],
       "related": [],
@@ -4362,15 +4362,15 @@
       "say": [
         {
           "en": "I feel peaceful.",
-          "zh": "我现在觉得和平。"
+          "zh": "我心里很平静。"
         },
         {
-          "en": "I feel peaceful when I think about early morning when no one else is awake.",
-          "zh": "我在早晨没有其他人醒来的时候，我觉得和平。"
+          "en": "The house is quiet early in the morning.",
+          "zh": "清晨的家里很安静。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we enjoy this quiet for a while?",
+          "zh": "我们能安静地待一会儿吗？"
         }
       ],
       "related": [],
@@ -4417,16 +4417,16 @@
       },
       "say": [
         {
-          "en": "I feel perky.",
-          "zh": "我现在觉得活泼。"
+          "en": "I feel bright and lively!",
+          "zh": "我今天精神特别好！"
         },
         {
-          "en": "I feel perky when I'm excited about a new day.",
-          "zh": "我对新的一天感到兴奋的时候，我觉得活泼。"
+          "en": "I jumped out of bed ready to play.",
+          "zh": "我一早起来就想出去玩。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Shall we go outside?",
+          "zh": "我们出去走走好吗？"
         }
       ],
       "related": [],
@@ -4468,21 +4468,21 @@
         "zh": "好的和令人愉快。"
       },
       "scene": {
-        "en": "A gentle breeze on a warm day.",
-        "zh": "你在温暖的一天里的轻风。"
+        "en": "A gentle breeze cools a child on a warm day.",
+        "zh": "温暖的日子里，微风吹过孩子的脸颊。"
       },
       "say": [
         {
-          "en": "Right now, I feel pleasant.",
-          "zh": "我现在觉得宜人。"
+          "en": "This feels nice.",
+          "zh": "这感觉真不错。"
         },
         {
-          "en": "I feel pleasant when I think about a gentle breeze on a warm day.",
-          "zh": "我在温暖的一天里的轻风的时候，我觉得宜人。"
+          "en": "The breeze on my face is so gentle.",
+          "zh": "微风吹在脸上好舒服。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Want to sit here for a while?",
+          "zh": "想在这里坐一会儿吗？"
         }
       ],
       "related": [],
@@ -4529,16 +4529,16 @@
       },
       "say": [
         {
-          "en": "I feel pleased.",
-          "zh": "我现在觉得高兴。"
+          "en": "I am pleased with my work.",
+          "zh": "我对自己的作品很满意。"
         },
         {
-          "en": "I feel pleased when I'm getting a good grade on a test.",
-          "zh": "我在在测试中得到好成绩的时候，我觉得高兴。"
+          "en": "I tried hard, and it turned out well.",
+          "zh": "我很努力，结果也不错。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can I show you what I did?",
+          "zh": "我能给你看看我做的吗？"
         }
       ],
       "related": [],
@@ -4580,8 +4580,8 @@
         "zh": "对你所做的感到非常好。"
       },
       "scene": {
-        "en": "A hard project.",
-        "zh": "你在一个困难的项目。"
+        "en": "A child finishes a difficult project after many attempts.",
+        "zh": "孩子试了很多次，终于完成一个很难的作品。"
       },
       "say": [
         {
@@ -4641,16 +4641,16 @@
       },
       "say": [
         {
-          "en": "I feel quiet.",
-          "zh": "我现在觉得安静。"
+          "en": "I want a little quiet time.",
+          "zh": "我想安静一会儿。"
         },
         {
-          "en": "I feel quiet when I'm whispering instead of shouting.",
-          "zh": "我在低声说话而不是大喊的时候，我觉得安静。"
+          "en": "Reading by myself feels peaceful.",
+          "zh": "自己安静看书真舒服。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Could we turn the volume down?",
+          "zh": "我们能把声音调小吗？"
         }
       ],
       "related": [],
@@ -4697,16 +4697,16 @@
       },
       "say": [
         {
-          "en": "I feel radiant.",
-          "zh": "我现在觉得容光焕发。"
+          "en": "I feel so happy inside!",
+          "zh": "我心里好高兴！"
         },
         {
-          "en": "I feel radiant when I'm really happy.",
-          "zh": "我真的很快乐的时候，我觉得容光焕发。"
+          "en": "I cannot stop smiling after that surprise.",
+          "zh": "那个惊喜让我笑个不停。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "May I tell you the good news?",
+          "zh": "我能告诉你那个好消息吗？"
         }
       ],
       "related": [],
@@ -4753,16 +4753,16 @@
       },
       "say": [
         {
-          "en": "I feel rapturous.",
-          "zh": "我现在觉得狂喜。"
+          "en": "I am over the moon!",
+          "zh": "我开心得不得了！"
         },
         {
-          "en": "I feel rapturous when I can't stop smiling.",
-          "zh": "我停不下来微笑的时候，我觉得狂喜。"
+          "en": "This is the happiest surprise I have had all week.",
+          "zh": "这是我这周最开心的惊喜。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Come celebrate with us!",
+          "zh": "快来和我们一起庆祝吧！"
         }
       ],
       "related": [],
@@ -4804,21 +4804,21 @@
         "zh": "感觉清新和活泼。"
       },
       "scene": {
-        "en": "After a good night's sleep.",
-        "zh": "你在经过一个良好的夜晚睡眠后。"
+        "en": "After sleeping well, a child wakes up ready for a new day.",
+        "zh": "睡了一个好觉，孩子醒来神清气爽。"
       },
       "say": [
         {
-          "en": "Right now, I feel refreshed.",
-          "zh": "我现在觉得焕然一新。"
+          "en": "I feel refreshed after resting.",
+          "zh": "休息之后我神清气爽。"
         },
         {
-          "en": "I feel refreshed when I think about after a good night's sleep.",
-          "zh": "我在经过一个良好的夜晚睡眠后的时候，我觉得焕然一新。"
+          "en": "That nap helped me get my energy back.",
+          "zh": "睡了一小觉，我又有力气了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "I am ready to play again!",
+          "zh": "我又可以出去玩了！"
         }
       ],
       "related": [],
@@ -4916,21 +4916,21 @@
         "zh": "对事情的结果感到高兴。"
       },
       "scene": {
-        "en": "After a good meal.",
-        "zh": "你在吃了一顿好饭后。"
+        "en": "A child finishes a tasty meal and feels comfortably full.",
+        "zh": "孩子吃完美味的一餐，感觉刚刚好。"
       },
       "say": [
         {
           "en": "I feel satisfied.",
-          "zh": "我现在觉得满意。"
+          "zh": "我现在很满足。"
         },
         {
-          "en": "I feel satisfied when I think about after a good meal.",
-          "zh": "我在吃了一顿好饭后的时候，我觉得满意。"
+          "en": "I finished my meal and feel just right.",
+          "zh": "我吃完饭，感觉刚刚好。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "I am happy with how things turned out.",
+          "zh": "我对结果很满意。"
         }
       ],
       "related": [],
@@ -4977,16 +4977,16 @@
       },
       "say": [
         {
-          "en": "I feel secure.",
-          "zh": "我现在觉得安全。"
+          "en": "I feel safe here.",
+          "zh": "我在这里很安心。"
         },
         {
-          "en": "I feel secure when I'm being at home with your family.",
-          "zh": "我在与家人在家里一样的时候，我觉得安全。"
+          "en": "Being with my family helps me relax.",
+          "zh": "和家人在一起让我很放心。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we stay together a little longer?",
+          "zh": "我们能再一起待一会儿吗？"
         }
       ],
       "related": [],
@@ -5028,21 +5028,21 @@
         "zh": "容易感觉到事物。"
       },
       "scene": {
-        "en": "A movie makes you cry.",
-        "zh": "你在一部电影让你哭泣。"
+        "en": "A touching movie brings tears to a child's eyes.",
+        "zh": "一部感人的电影让孩子眼眶湿润。"
       },
       "say": [
         {
-          "en": "I feel sensitive.",
-          "zh": "我现在觉得敏感。"
+          "en": "That story moved me deeply.",
+          "zh": "那个故事让我很感动。"
         },
         {
-          "en": "I feel sensitive when I think about a movie makes you cry.",
-          "zh": "我在一部电影让你哭泣的时候，我觉得敏感。"
+          "en": "I felt tears in my eyes at the ending.",
+          "zh": "看到结尾我眼眶都湿了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can I tell you why it mattered to me?",
+          "zh": "我能说说它为什么打动我吗？"
         }
       ],
       "related": [],
@@ -5089,16 +5089,16 @@
       },
       "say": [
         {
-          "en": "I feel serene.",
-          "zh": "我现在觉得宁静。"
+          "en": "I feel peaceful and still.",
+          "zh": "我觉得宁静又自在。"
         },
         {
-          "en": "I feel serene when I'm watching a beautiful sunset.",
-          "zh": "我在观看一个美丽的日落的时候，我觉得宁静。"
+          "en": "Watching the sunset makes me slow down.",
+          "zh": "看日落让我慢慢放松下来。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we watch quietly together?",
+          "zh": "我们一起安静地看好吗？"
         }
       ],
       "related": [],
@@ -5145,16 +5145,16 @@
       },
       "say": [
         {
-          "en": "I feel spellbound.",
-          "zh": "我现在觉得被迷住。"
+          "en": "I cannot take my eyes off this!",
+          "zh": "我看得挪不开眼！"
         },
         {
-          "en": "I feel spellbound when I'm watching a magician.",
-          "zh": "我在看魔术师表演的时候，我觉得被迷住。"
+          "en": "The magician's tricks are amazing.",
+          "zh": "魔术师的表演太神奇了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can we stay until it is over?",
+          "zh": "我们能看完再走吗？"
         }
       ],
       "related": [],
@@ -5196,21 +5196,21 @@
         "zh": "非常美丽或令人印象深刻。"
       },
       "scene": {
-        "en": "A big firework show.",
-        "zh": "你在一场大型烟花表演。"
+        "en": "Children look up at a colorful fireworks display.",
+        "zh": "孩子们抬头观看绚丽的烟花表演。"
       },
       "say": [
         {
-          "en": "Right now, I feel splendid.",
-          "zh": "我现在觉得极好。"
+          "en": "What a wonderful sight!",
+          "zh": "这景象真壮观！"
         },
         {
-          "en": "I feel splendid when I think about a big firework show.",
-          "zh": "我在一场大型烟花表演的时候，我觉得极好。"
+          "en": "The fireworks light up the sky.",
+          "zh": "烟花把夜空照得亮亮的。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Shall we watch from here?",
+          "zh": "我们在这里看好吗？"
         }
       ],
       "related": [],
@@ -5257,16 +5257,16 @@
       },
       "say": [
         {
-          "en": "I feel stimulated.",
-          "zh": "我现在觉得受到刺激。"
+          "en": "This has me thinking!",
+          "zh": "这件事让我开始动脑筋！"
         },
         {
-          "en": "I feel stimulated when I'm learning something new in school.",
-          "zh": "我在在学校学习新东西的时候，我觉得受到刺激。"
+          "en": "I learned something new in class today.",
+          "zh": "今天课上我学到了新东西。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we try a little experiment?",
+          "zh": "我们试个小实验好吗？"
         }
       ],
       "related": [],
@@ -5308,21 +5308,21 @@
         "zh": "对某些意想不到的事情感到震惊或惊讶。"
       },
       "scene": {
-        "en": "A sudden gift.",
-        "zh": "你在突然收到礼物。"
+        "en": "A friend gives a child an unexpected gift.",
+        "zh": "朋友突然送来一份礼物，孩子又惊又喜。"
       },
       "say": [
         {
-          "en": "I feel surprised.",
-          "zh": "我现在觉得惊讶。"
+          "en": "What a lovely surprise!",
+          "zh": "这真是个美好的惊喜！"
         },
         {
-          "en": "I feel surprised when I think about a sudden gift.",
-          "zh": "我在突然收到礼物的时候，我觉得惊讶。"
+          "en": "I had no idea you made this for me.",
+          "zh": "我完全不知道你为我准备了这个。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "How did you keep it a secret?",
+          "zh": "你怎么保守住秘密的？"
         }
       ],
       "related": [],
@@ -5369,16 +5369,16 @@
       },
       "say": [
         {
-          "en": "I feel tender.",
-          "zh": "我现在觉得温柔。"
+          "en": "I feel very gentle toward the kitten.",
+          "zh": "看到小猫，我心里软软的。"
         },
         {
-          "en": "I feel tender when I'm petting a small animal.",
-          "zh": "我在抚摸一只小动物的时候，我觉得温柔。"
+          "en": "I want to pet it carefully.",
+          "zh": "我想轻轻摸摸它。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Is it okay if I touch it?",
+          "zh": "我可以摸摸它吗？"
         }
       ],
       "related": [],
@@ -5481,16 +5481,16 @@
       },
       "say": [
         {
-          "en": "I feel thrilled.",
-          "zh": "我现在觉得非常激动。"
+          "en": "I am so thrilled!",
+          "zh": "我太激动了！"
         },
         {
-          "en": "I feel thrilled when I'm going on a fun ride at an amusement park.",
-          "zh": "我在在游乐园里乘坐有趣的游乐设施的时候，我觉得非常激动。"
+          "en": "That roller coaster was exciting.",
+          "zh": "刚才坐过山车太刺激了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can I tell you how it felt?",
+          "zh": "我能告诉你是什么感觉吗？"
         }
       ],
       "related": [],
@@ -5532,21 +5532,21 @@
         "zh": "情感上受到影响。"
       },
       "scene": {
-        "en": "You're feeling loved when someone helps you.",
-        "zh": "你在有人帮助你时感觉被爱。"
+        "en": "A child feels loved when someone helps them kindly.",
+        "zh": "有人温柔地帮助孩子，让孩子感到被爱。"
       },
       "say": [
         {
-          "en": "I feel touched.",
-          "zh": "我现在觉得被感动。"
+          "en": "That was so kind of you.",
+          "zh": "你真贴心。"
         },
         {
-          "en": "I feel touched when I'm feeling loved when someone helps you.",
-          "zh": "我在有人帮助你时感觉被爱的时候，我觉得被感动。"
+          "en": "Your note made me feel loved.",
+          "zh": "你的小纸条让我感到被爱。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Thank you for thinking of me.",
+          "zh": "谢谢你惦记着我。"
         }
       ],
       "related": [],
@@ -5588,21 +5588,21 @@
         "zh": "非常安静和平静。"
       },
       "scene": {
-        "en": "A smooth lake in the morning.",
-        "zh": "你在早晨的平静湖面。"
+        "en": "A child sits quietly beside a smooth lake at sunrise.",
+        "zh": "日出时，孩子安静地坐在平静的湖边。"
       },
       "say": [
         {
-          "en": "I feel tranquil.",
-          "zh": "我现在觉得平静。"
+          "en": "I feel very calm here.",
+          "zh": "在这里我特别平静。"
         },
         {
-          "en": "I feel tranquil when I think about a smooth lake in the morning.",
-          "zh": "我在早晨的平静湖面的时候，我觉得平静。"
+          "en": "The lake is smooth in the morning light.",
+          "zh": "晨光里的湖面平静极了。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we sit and listen to the birds?",
+          "zh": "我们坐着听听鸟叫好吗？"
         }
       ],
       "related": [],
@@ -5644,21 +5644,21 @@
         "zh": "感觉你可以依靠某人。"
       },
       "scene": {
-        "en": "A best friend.",
-        "zh": "你在最好的朋友。"
+        "en": "A child tells a close friend a secret because they feel safe.",
+        "zh": "一个孩子相信好朋友，放心地说出心里的秘密。"
       },
       "say": [
         {
-          "en": "I feel trusting.",
-          "zh": "我现在觉得信任。"
+          "en": "I know I can trust you.",
+          "zh": "我知道我可以信任你。"
         },
         {
-          "en": "I feel trusting when I think about a best friend.",
-          "zh": "我在最好的朋友的时候，我觉得信任。"
+          "en": "You kept the promise you made.",
+          "zh": "你兑现了答应我的事。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "May I tell you something important?",
+          "zh": "我能告诉你一件重要的事吗？"
         }
       ],
       "related": [],
@@ -5705,16 +5705,16 @@
       },
       "say": [
         {
-          "en": "I feel upbeat.",
-          "zh": "我现在觉得愉快。"
+          "en": "I feel positive today!",
+          "zh": "今天我心情特别积极！"
         },
         {
-          "en": "I feel upbeat when I hear your favorite song.",
-          "zh": "我在听到你最喜欢的歌曲的时候，我觉得愉快。"
+          "en": "My favorite song lifted my mood.",
+          "zh": "最喜欢的歌让我心情变好了。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Shall we sing together?",
+          "zh": "我们一起唱好吗？"
         }
       ],
       "related": [],
@@ -5761,16 +5761,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel warm.",
-          "zh": "我现在觉得温暖。"
+          "en": "I feel warm and cozy.",
+          "zh": "我觉得暖暖的，很舒服。"
         },
         {
-          "en": "I feel warm when I'm cuddling in a blanket.",
-          "zh": "我在在毯子里依偎的时候，我觉得温暖。"
+          "en": "This blanket is so soft.",
+          "zh": "这条毯子好柔软。"
         },
         {
-          "en": "I'd like to share this with you.",
-          "zh": "我想把这件开心的事告诉你。"
+          "en": "Can we snuggle up and read?",
+          "zh": "我们裹着毯子看书好吗？"
         }
       ],
       "related": [],
@@ -5817,16 +5817,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel wide-awake.",
-          "zh": "我现在觉得完全清醒。"
+          "en": "I am wide awake now!",
+          "zh": "我现在清醒得很！"
         },
         {
-          "en": "I feel wide-awake when I think about in the morning after a good sleep.",
-          "zh": "我在睡了一个好觉后的早晨的时候，我觉得完全清醒。"
+          "en": "A good sleep left me full of energy.",
+          "zh": "睡了个好觉，我精神十足。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Are you ready to start the day?",
+          "zh": "准备好开始新的一天了吗？"
         }
       ],
       "related": [],
@@ -5868,21 +5868,21 @@
         "zh": "真的很棒和令人愉快。"
       },
       "scene": {
-        "en": "A fantastic trip.",
-        "zh": "你在一次奇妙的旅行。"
+        "en": "A family looks back on a wonderful trip together.",
+        "zh": "一家人回忆着一次美好的旅行。"
       },
       "say": [
         {
-          "en": "Right now, I feel wonderful.",
-          "zh": "我现在觉得精彩。"
+          "en": "What a wonderful day!",
+          "zh": "今天真美好！"
         },
         {
-          "en": "I feel wonderful when I think about a fantastic trip.",
-          "zh": "我在一次奇妙的旅行的时候，我觉得精彩。"
+          "en": "I loved every moment of our trip.",
+          "zh": "这次旅行的每一刻我都很喜欢。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can we come back someday?",
+          "zh": "我们以后还能再来吗？"
         }
       ],
       "related": [],
@@ -5929,16 +5929,16 @@
       },
       "say": [
         {
-          "en": "I feel zestful.",
-          "zh": "我现在觉得充满活力。"
+          "en": "I feel full of energy and excitement!",
+          "zh": "我现在充满干劲！"
         },
         {
-          "en": "I feel zestful when I play a sport you love.",
-          "zh": "我在玩你喜欢的运动的时候，我觉得充满活力。"
+          "en": "Playing football makes me come alive.",
+          "zh": "踢足球让我活力满满。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Come play a game with me!",
+          "zh": "来和我一起玩一场吧！"
         }
       ],
       "related": [],
@@ -5985,16 +5985,16 @@
       },
       "say": [
         {
-          "en": "I feel agitated.",
-          "zh": "我现在觉得焦虑不安。"
+          "en": "I feel restless and upset.",
+          "zh": "我又烦又坐不住。"
         },
         {
-          "en": "I feel agitated when I can't find your favorite toy.",
-          "zh": "我在找不到你最喜欢的玩具的时候，我觉得焦虑不安。"
+          "en": "I keep looking for my missing toy.",
+          "zh": "我一直找不到最喜欢的玩具。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can you help me look for it?",
+          "zh": "你能帮我一起找吗？"
         }
       ],
       "related": [],
@@ -6041,16 +6041,16 @@
       },
       "say": [
         {
-          "en": "I feel alarmed.",
-          "zh": "我现在觉得惊恐。"
+          "en": "That scared me suddenly!",
+          "zh": "刚才我一下子被吓到了！"
         },
         {
-          "en": "I feel alarmed when I think about if a loud noise surprises you.",
-          "zh": "我在被大声音吓了一跳的时候，我觉得惊恐。"
+          "en": "I jumped when I heard the noise.",
+          "zh": "听见那声响，我吓得跳起来。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could you stay with me?",
+          "zh": "你能陪着我吗？"
         }
       ],
       "related": [],
@@ -6097,16 +6097,16 @@
       },
       "say": [
         {
-          "en": "I feel aloof.",
-          "zh": "我现在觉得冷漠。"
+          "en": "I do not feel like joining in.",
+          "zh": "我现在不太想加入大家。"
         },
         {
-          "en": "I feel aloof when I'm watching others play but not playing.",
-          "zh": "我在看别人玩但自己不玩的时候，我觉得冷漠。"
+          "en": "I would rather watch the game for now.",
+          "zh": "我现在更想先看看他们玩。"
         },
         {
-          "en": "Could we spend some time together?",
-          "zh": "我们能一起待一会儿吗？"
+          "en": "Can I join later if I feel ready?",
+          "zh": "等我想加入的时候再参加好吗？"
         }
       ],
       "related": [],
@@ -6148,8 +6148,8 @@
         "zh": "感到非常生气。"
       },
       "scene": {
-        "en": "Someone breaks your toy.",
-        "zh": "你在有人弄坏你的玩具。"
+        "en": "Someone accidentally breaks a child's favorite toy.",
+        "zh": "有人不小心弄坏孩子最喜欢的玩具。"
       },
       "say": [
         {
@@ -6265,16 +6265,16 @@
       },
       "say": [
         {
-          "en": "I feel apathetic.",
-          "zh": "我现在觉得冷漠。"
+          "en": "I do not feel interested right now.",
+          "zh": "我现在对什么都提不起兴趣。"
         },
         {
-          "en": "I feel apathetic when I'm feeling nothing matters.",
-          "zh": "我在感觉没有什么重要的时候，我觉得冷漠。"
+          "en": "Even my usual games feel dull today.",
+          "zh": "连平时爱玩的游戏今天也没意思。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could we try something different?",
+          "zh": "我们能换一件事做吗？"
         }
       ],
       "related": [],
@@ -6316,21 +6316,21 @@
         "zh": "对可能发生的事情感到紧张。"
       },
       "scene": {
-        "en": "A big test.",
-        "zh": "你在一场大考试。"
+        "en": "A child feels nervous about an important test tomorrow.",
+        "zh": "想到明天的重要考试，一个孩子有点不安。"
       },
       "say": [
         {
-          "en": "I feel apprehensive.",
-          "zh": "我现在觉得忧虑。"
+          "en": "I feel a little uneasy about tomorrow.",
+          "zh": "想到明天，我有点不安。"
         },
         {
-          "en": "I feel apprehensive when I think about a big test.",
-          "zh": "我在一场大考试的时候，我觉得忧虑。"
+          "en": "I keep thinking about the big test.",
+          "zh": "我一直想着那场重要的考试。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we practice together?",
+          "zh": "我们能一起练习吗？"
         }
       ],
       "related": [],
@@ -6428,21 +6428,21 @@
         "zh": "感觉非常疲惫和筋疲力尽。"
       },
       "scene": {
-        "en": "After a long day of playing.",
-        "zh": "你在玩了一整天后。"
+        "en": "A child sits down exhausted after a long afternoon of play.",
+        "zh": "玩了整整一下午，孩子累得坐下来休息。"
       },
       "say": [
         {
-          "en": "Right now, I feel beat.",
-          "zh": "我现在觉得筋疲力尽。"
+          "en": "I am worn out!",
+          "zh": "我累坏了！"
         },
         {
-          "en": "I feel beat when I think about after a long day of playing.",
-          "zh": "我在玩了一整天后的时候，我觉得筋疲力尽。"
+          "en": "We played outside all afternoon.",
+          "zh": "我们在外面玩了一下午。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Can we sit down for a while?",
+          "zh": "我们能坐下来休息会儿吗？"
         }
       ],
       "related": [],
@@ -6489,16 +6489,16 @@
       },
       "say": [
         {
-          "en": "I feel bewildered.",
-          "zh": "我现在觉得困惑。"
+          "en": "I am totally confused!",
+          "zh": "我完全搞糊涂了！"
         },
         {
-          "en": "I feel bewildered when I don't understand the rules of a game.",
-          "zh": "我在当你不懂游戏规则的时候，我觉得困惑。"
+          "en": "I cannot follow the rules of this game.",
+          "zh": "这个游戏的规则我没弄懂。"
         },
         {
-          "en": "Can you explain it to me?",
-          "zh": "你能给我解释一下吗？"
+          "en": "Could you show me how to play?",
+          "zh": "你能示范一下怎么玩吗？"
         }
       ],
       "related": [],
@@ -6540,21 +6540,21 @@
         "zh": "因不公平的待遇感到不快。"
       },
       "scene": {
-        "en": "Not getting a turn.",
-        "zh": "你在没有轮到你。"
+        "en": "A child feels upset after repeatedly being skipped in a game.",
+        "zh": "游戏里总是轮不到自己，孩子心里很不是滋味。"
       },
       "say": [
         {
-          "en": "I feel bitter.",
-          "zh": "我现在觉得苦涩。"
+          "en": "I still feel upset about what happened.",
+          "zh": "那件事让我一直心里不舒服。"
         },
         {
-          "en": "I feel bitter when I think about not getting a turn.",
-          "zh": "我在没有轮到你的时候，我觉得苦涩。"
+          "en": "It felt unfair when I did not get a turn.",
+          "zh": "没轮到我，我觉得很不公平。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could we talk about what happened?",
+          "zh": "我们能聊聊刚才的事吗？"
         }
       ],
       "related": [],
@@ -6596,21 +6596,21 @@
         "zh": "感觉悲伤或情绪低落。"
       },
       "scene": {
-        "en": "A rainy day with no friends around.",
-        "zh": "你在一个没有朋友的雨天。"
+        "en": "A child looks out at the rain and misses playing with friends.",
+        "zh": "孩子望着窗外的雨，想念和朋友玩耍的日子。"
       },
       "say": [
         {
-          "en": "I feel blue.",
-          "zh": "我现在觉得忧郁。"
+          "en": "I feel a little blue today.",
+          "zh": "今天我有点闷闷不乐。"
         },
         {
-          "en": "I feel blue when I think about a rainy day with no friends around.",
-          "zh": "我在一个没有朋友的雨天的时候，我觉得忧郁。"
+          "en": "The rain makes me miss playing with friends.",
+          "zh": "下雨了，我好想和朋友出去玩。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could we play something together indoors?",
+          "zh": "我们能在屋里一起玩点什么吗？"
         }
       ],
       "related": [],
@@ -6652,8 +6652,8 @@
         "zh": "对任何事都不感兴趣。"
       },
       "scene": {
-        "en": "Everything seems dull.",
-        "zh": "你在一切看起来都很无聊。"
+        "en": "A child has nothing interesting to do on a rainy afternoon.",
+        "zh": "下雨的下午，孩子觉得没有什么好玩的事。"
       },
       "say": [
         {
@@ -6708,21 +6708,21 @@
         "zh": "对失去某个重要的东西感到非常伤心。"
       },
       "scene": {
-        "en": "A best friend.",
-        "zh": "你在最好的朋友。"
+        "en": "A child feels heartbroken after saying goodbye to a dear friend.",
+        "zh": "跟最好的朋友道别后，孩子伤心得不得了。"
       },
       "say": [
         {
-          "en": "I feel brokenhearted.",
-          "zh": "我现在觉得心碎。"
+          "en": "My heart feels broken.",
+          "zh": "我伤心得心都碎了。"
         },
         {
-          "en": "I feel brokenhearted when I think about a best friend.",
-          "zh": "我在最好的朋友的时候，我觉得心碎。"
+          "en": "I miss my best friend so much.",
+          "zh": "我好想念我的好朋友。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can I talk about how much I miss them?",
+          "zh": "我能跟你说说我有多想他们吗？"
         }
       ],
       "related": [],
@@ -6764,21 +6764,21 @@
         "zh": "因事情没有按计划进行而感到沮丧。"
       },
       "scene": {
-        "en": "Feeling upset because things didn't go as planned.",
-        "zh": "因事情没有按计划进行而感到沮丧。"
+        "en": "A child's carefully planned project does not work out.",
+        "zh": "孩子认真计划的作品没做成功，心里很懊恼。"
       },
       "say": [
         {
-          "en": "I feel chagrined.",
-          "zh": "我现在觉得懊恼。"
+          "en": "I feel upset with myself.",
+          "zh": "我有点懊恼。"
         },
         {
-          "en": "This is making me feel chagrined.",
-          "zh": "这件事让我觉得懊恼。"
+          "en": "I planned carefully, but it went wrong.",
+          "zh": "我认真计划了，可结果出了差错。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "May I try a different way?",
+          "zh": "我能换个方法再试吗？"
         }
       ],
       "related": [],
@@ -6825,16 +6825,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel cold.",
-          "zh": "我现在觉得冷淡。"
+          "en": "I feel distant from everyone today.",
+          "zh": "今天我不太想和别人亲近。"
         },
         {
-          "en": "I feel cold when I'm being distant from others.",
-          "zh": "我在与他人疏远的时候，我觉得冷淡。"
+          "en": "I answered without much warmth.",
+          "zh": "我刚才回答得有点冷淡。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can I have some space for a while?",
+          "zh": "我能一个人待一会儿吗？"
         }
       ],
       "related": [],
@@ -6876,21 +6876,21 @@
         "zh": "对某事感到担忧。"
       },
       "scene": {
-        "en": "A friend is sick.",
-        "zh": "你在朋友生病。"
+        "en": "A child worries when a close friend gets sick.",
+        "zh": "好朋友生病了，一个孩子很担心。"
       },
       "say": [
         {
-          "en": "I feel concerned.",
-          "zh": "我现在觉得关心。"
+          "en": "I am worried about my friend.",
+          "zh": "我有点担心我的朋友。"
         },
         {
-          "en": "I feel concerned when I think about a friend is sick.",
-          "zh": "我在朋友生病的时候，我觉得关心。"
+          "en": "They are not feeling well today.",
+          "zh": "朋友今天身体不舒服。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we check how they are doing?",
+          "zh": "我们能问问他们好些了吗？"
         }
       ],
       "related": [],
@@ -6988,21 +6988,21 @@
         "zh": "感觉生气和烦恼。"
       },
       "scene": {
-        "en": "Someone keeps bothering you.",
-        "zh": "你在有人不停地打扰你。"
+        "en": "Someone keeps interrupting a child who is playing.",
+        "zh": "孩子正在玩游戏，却一直被人打断。"
       },
       "say": [
         {
-          "en": "I feel cross.",
-          "zh": "我现在觉得发怒。"
+          "en": "I am feeling cross.",
+          "zh": "我现在有点生气。"
         },
         {
-          "en": "I feel cross when I think about someone keeps bothering you.",
-          "zh": "我在有人不停地打扰你的时候，我觉得发怒。"
+          "en": "Someone kept interrupting my game.",
+          "zh": "有人一直打断我玩游戏。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could you let me finish?",
+          "zh": "你能让我先玩完吗？"
         }
       ],
       "related": [],
@@ -7044,21 +7044,21 @@
         "zh": "感觉悲伤且没有希望。"
       },
       "scene": {
-        "en": "After losing a game.",
-        "zh": "你在输掉一场游戏后。"
+        "en": "A child hangs their head after losing a game.",
+        "zh": "输了游戏，孩子垂着头，心里很失落。"
       },
       "say": [
         {
-          "en": "I feel dejected.",
-          "zh": "我现在觉得沮丧。"
+          "en": "I feel really down.",
+          "zh": "我现在心情很低落。"
         },
         {
-          "en": "I feel dejected when I think about after losing a game.",
-          "zh": "我在输掉一场游戏后的时候，我觉得沮丧。"
+          "en": "Losing the game left me disappointed.",
+          "zh": "输了比赛，我很失落。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can we try again another day?",
+          "zh": "我们改天再试好吗？"
         }
       ],
       "related": [],
@@ -7105,16 +7105,16 @@
       },
       "say": [
         {
-          "en": "I feel despairing.",
-          "zh": "我现在觉得绝望。"
+          "en": "It feels as if nothing will work.",
+          "zh": "我现在觉得怎么做都没用。"
         },
         {
-          "en": "I feel despairing when I'm thinking things will never get better.",
-          "zh": "我在认为事情永远不会好转的时候，我觉得绝望。"
+          "en": "I have tried so many times.",
+          "zh": "我已经试了好多次。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can someone help me find a new way?",
+          "zh": "有人能帮我想个新办法吗？"
         }
       ],
       "related": [],
@@ -7156,21 +7156,21 @@
         "zh": "非常悲伤且没有活力。"
       },
       "scene": {
-        "en": "Not wanting to get out of bed.",
-        "zh": "你在不想起床。"
+        "en": "A child is so downhearted that getting out of bed feels difficult.",
+        "zh": "孩子心里非常低落，连起床都觉得困难。"
       },
       "say": [
         {
-          "en": "I feel despondent.",
-          "zh": "我现在觉得失望。"
+          "en": "I feel sad and out of energy.",
+          "zh": "我很难过，也没什么力气。"
         },
         {
-          "en": "I feel despondent when I think about not wanting to get out of bed.",
-          "zh": "我在不想起床的时候，我觉得失望。"
+          "en": "I do not feel ready to play right now.",
+          "zh": "我现在还不想去玩。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could you sit with me for a bit?",
+          "zh": "你能陪我坐一会儿吗？"
         }
       ],
       "related": [],
@@ -7217,16 +7217,16 @@
       },
       "say": [
         {
-          "en": "I feel detached.",
-          "zh": "我现在觉得疏远。"
+          "en": "I feel far away from everyone.",
+          "zh": "我觉得自己和大家有些疏远。"
         },
         {
-          "en": "I feel detached when I'm being alone even in a crowd.",
-          "zh": "我在即使在人群中也感到孤独的时候，我觉得疏远。"
+          "en": "I am here, but I do not feel connected.",
+          "zh": "虽然我在这里，却觉得融不进去。"
         },
         {
-          "en": "Could we spend some time together?",
-          "zh": "我们能一起待一会儿吗？"
+          "en": "Could we spend some time talking?",
+          "zh": "我们能一起聊一会儿吗？"
         }
       ],
       "related": [],
@@ -7268,21 +7268,21 @@
         "zh": "对某事感到失望且不再感兴趣。"
       },
       "scene": {
-        "en": "A hobby you used to love.",
-        "zh": "你曾经热爱的爱好。"
+        "en": "A hobby that once felt exciting no longer interests a child.",
+        "zh": "以前喜欢的爱好，如今让孩子提不起兴趣。"
       },
       "say": [
         {
-          "en": "I feel disaffected.",
-          "zh": "我现在觉得失望。"
+          "en": "I do not enjoy this like I used to.",
+          "zh": "这件事不像以前那样让我开心。"
         },
         {
-          "en": "I feel disaffected when I think about a hobby you used to love.",
-          "zh": "我曾经热爱的爱好的时候，我觉得失望。"
+          "en": "I used to love this hobby, but not today.",
+          "zh": "我以前很喜欢这个爱好，今天却提不起兴趣。"
         },
         {
-          "en": "Could we spend some time together?",
-          "zh": "我们能一起待一会儿吗？"
+          "en": "Could we try something different?",
+          "zh": "我们能试试别的事情吗？"
         }
       ],
       "related": [],
@@ -7441,16 +7441,16 @@
       },
       "say": [
         {
-          "en": "I feel disenchanted.",
-          "zh": "我现在觉得幻灭。"
+          "en": "It is not as magical as I imagined.",
+          "zh": "它不像我想象中那么美好了。"
         },
         {
-          "en": "I feel disenchanted when I'm finding out a secret.",
-          "zh": "我在发现一个秘密的时候，我觉得幻灭。"
+          "en": "I learned something that changed my opinion.",
+          "zh": "我知道了一件事，想法也变了。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we talk about why I feel disappointed?",
+          "zh": "我们能聊聊我为什么失望吗？"
         }
       ],
       "related": [],
@@ -7497,16 +7497,16 @@
       },
       "say": [
         {
-          "en": "I feel disgruntled.",
-          "zh": "我现在觉得不满。"
+          "en": "I am not happy about this.",
+          "zh": "这件事让我很不满。"
         },
         {
-          "en": "I feel disgruntled when I think about things don't go your way.",
-          "zh": "我在事情不按你的方式进行的时候，我觉得不满。"
+          "en": "The plan changed without telling me.",
+          "zh": "计划变了，却没人告诉我。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could we talk about the change?",
+          "zh": "我们能聊聊这个变化吗？"
         }
       ],
       "related": [],
@@ -7553,16 +7553,16 @@
       },
       "say": [
         {
-          "en": "I feel disgusted.",
-          "zh": "我现在觉得厌恶。"
+          "en": "Yuck, that is disgusting!",
+          "zh": "哎呀，这也太恶心了！"
         },
         {
-          "en": "I feel disgusted when I'm seeing something gross.",
-          "zh": "我在看到令人恶心的东西的时候，我觉得厌恶。"
+          "en": "The spoiled food smells terrible.",
+          "zh": "坏掉的食物闻起来很难闻。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we move away from it?",
+          "zh": "我们能离远一点吗？"
         }
       ],
       "related": [],
@@ -7609,16 +7609,16 @@
       },
       "say": [
         {
-          "en": "I feel disheartened.",
-          "zh": "我现在觉得灰心。"
+          "en": "I am losing confidence.",
+          "zh": "我有点灰心了。"
         },
         {
-          "en": "I feel disheartened when I keep failing.",
-          "zh": "我不断失败的时候，我觉得灰心。"
+          "en": "I keep trying, but I have not succeeded yet.",
+          "zh": "我一直在试，可还没有成功。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can you help me think of a new idea?",
+          "zh": "你能帮我想个新办法吗？"
         }
       ],
       "related": [],
@@ -7660,21 +7660,21 @@
         "zh": "感到震惊和失望。"
       },
       "scene": {
-        "en": "A plan fails suddenly.",
-        "zh": "当一个计划突然失败。"
+        "en": "A carefully made plan suddenly falls apart.",
+        "zh": "认真做好的计划突然泡汤了，孩子感到震惊又失落。"
       },
       "say": [
         {
-          "en": "I feel dismayed.",
-          "zh": "我现在觉得惊慌。"
+          "en": "Oh no, that plan fell apart!",
+          "zh": "糟了，计划泡汤了！"
         },
         {
-          "en": "I feel dismayed when I think about a plan fails suddenly.",
-          "zh": "我在当一个计划突然失败的时候，我觉得惊慌。"
+          "en": "Everything changed so suddenly.",
+          "zh": "事情一下子全变了。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could we make another plan?",
+          "zh": "我们能重新想个办法吗？"
         }
       ],
       "related": [],
@@ -7716,21 +7716,21 @@
         "zh": "对某事不满意。"
       },
       "scene": {
-        "en": "A movie is boring.",
-        "zh": "当一部电影很无聊。"
+        "en": "A child feels disappointed because the movie was not enjoyable.",
+        "zh": "电影并不好看，一个孩子有点不满意。"
       },
       "say": [
         {
-          "en": "I feel displeased.",
-          "zh": "我现在觉得不高兴。"
+          "en": "I am not pleased with this.",
+          "zh": "我对这件事不满意。"
         },
         {
-          "en": "I feel displeased when I think about a movie is boring.",
-          "zh": "我在当一部电影很无聊的时候，我觉得不高兴。"
+          "en": "I thought the movie would be more fun.",
+          "zh": "我以为这部电影会更好看。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could we choose something else next time?",
+          "zh": "下次我们能换一个吗？"
         }
       ],
       "related": [],
@@ -7777,16 +7777,16 @@
       },
       "say": [
         {
-          "en": "I feel disquieted.",
-          "zh": "我现在觉得不安。"
+          "en": "Something is making me uneasy.",
+          "zh": "有件事让我心里不安。"
         },
         {
-          "en": "I feel disquieted when I'm hearing strange noises at night.",
-          "zh": "我在在夜间听到奇怪的声音的时候，我觉得不安。"
+          "en": "I heard a strange noise at night.",
+          "zh": "晚上我听见了奇怪的声音。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can you check it with me?",
+          "zh": "你能陪我一起看看吗？"
         }
       ],
       "related": [],
@@ -7833,16 +7833,16 @@
       },
       "say": [
         {
-          "en": "I feel distressed.",
-          "zh": "我现在觉得痛苦。"
+          "en": "I feel very upset right now.",
+          "zh": "我现在很难受。"
         },
         {
-          "en": "I feel distressed when I'm something bad happens.",
-          "zh": "我在发生了坏事的时候，我觉得痛苦。"
+          "en": "Something difficult happened today.",
+          "zh": "今天发生了一件让我难过的事。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can I tell you about it?",
+          "zh": "我能跟你说说吗？"
         }
       ],
       "related": [],
@@ -7884,21 +7884,21 @@
         "zh": "烦乱和困惑。"
       },
       "scene": {
-        "en": "Someone interrupts your game.",
-        "zh": "你在有人打断你的游戏。"
+        "en": "Someone interrupts a child in the middle of an important game.",
+        "zh": "孩子正在专心玩游戏，却突然被人打断。"
       },
       "say": [
         {
-          "en": "I feel disturbed.",
-          "zh": "我现在觉得感到不安。"
+          "en": "That interruption upset me.",
+          "zh": "刚才被打断，我有点烦。"
         },
         {
-          "en": "I feel disturbed when I think about someone interrupts your game.",
-          "zh": "我在有人打断你的游戏的时候，我觉得感到不安。"
+          "en": "I was concentrating on my game.",
+          "zh": "我刚才正专心玩游戏呢。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could you give me a moment to finish?",
+          "zh": "你能等我做完这一点吗？"
         }
       ],
       "related": [],
@@ -7945,16 +7945,16 @@
       },
       "say": [
         {
-          "en": "I feel downcast.",
-          "zh": "我现在觉得沮丧。"
+          "en": "I feel down today.",
+          "zh": "今天我有点低落。"
         },
         {
-          "en": "I feel downcast when I think about on a very cloudy day.",
-          "zh": "我在在一个非常多云的日子的时候，我觉得沮丧。"
+          "en": "The day did not go as I hoped.",
+          "zh": "今天没有像我想的那么顺利。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could we do something gentle together?",
+          "zh": "我们能一起做点轻松的事吗？"
         }
       ],
       "related": [],
@@ -7996,21 +7996,21 @@
         "zh": "感觉悲伤和气馁。"
       },
       "scene": {
-        "en": "After hearing bad news.",
-        "zh": "你在听到坏消息后。"
+        "en": "After hearing sad news, a child becomes quiet and discouraged.",
+        "zh": "听到不好的消息后，孩子安静下来，心里难过。"
       },
       "say": [
         {
-          "en": "I feel downhearted.",
-          "zh": "我现在觉得心情低落。"
+          "en": "My heart feels heavy.",
+          "zh": "我心里有点沉。"
         },
         {
-          "en": "I feel downhearted when I think about after hearing bad news.",
-          "zh": "我在听到坏消息后的时候，我觉得心情低落。"
+          "en": "The bad news made me sad.",
+          "zh": "那个不好的消息让我难过。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can you listen to me for a while?",
+          "zh": "你能听我说一会儿吗？"
         }
       ],
       "related": [],
@@ -8052,21 +8052,21 @@
         "zh": "无聊和不感兴趣。"
       },
       "scene": {
-        "en": "A class is not fun.",
-        "zh": "你在上课不有趣。"
+        "en": "A child finds a class boring because nothing new is happening.",
+        "zh": "课堂上一直没有新鲜事，孩子觉得很无聊。"
       },
       "say": [
         {
-          "en": "Right now, I feel dull.",
-          "zh": "我现在觉得无聊。"
+          "en": "Everything feels a bit boring.",
+          "zh": "我觉得什么都没意思。"
         },
         {
-          "en": "I feel dull when I think about a class is not fun.",
-          "zh": "我在上课不有趣的时候，我觉得无聊。"
+          "en": "Today has been the same thing over and over.",
+          "zh": "今天一直在重复做同样的事。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could we try a new game?",
+          "zh": "我们能玩个新游戏吗？"
         }
       ],
       "related": [],
@@ -8113,16 +8113,16 @@
       },
       "say": [
         {
-          "en": "I feel edgy.",
-          "zh": "我现在觉得紧张。"
+          "en": "I am on edge.",
+          "zh": "我现在绷得有点紧。"
         },
         {
-          "en": "I feel edgy when I think about before a performance.",
-          "zh": "我在表演前的时候，我觉得紧张。"
+          "en": "I am waiting for my turn to perform.",
+          "zh": "我正在等着上台表演。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can I take a deep breath first?",
+          "zh": "我能先深呼吸一下吗？"
         }
       ],
       "related": [],
@@ -8225,16 +8225,16 @@
       },
       "say": [
         {
-          "en": "I feel embittered.",
-          "zh": "我现在觉得怨恨。"
+          "en": "I still feel hurt and angry.",
+          "zh": "我心里还有怨气。"
         },
         {
-          "en": "I feel embittered when I'm being blamed unfairly.",
-          "zh": "我在被不公正地责备的时候，我觉得怨恨。"
+          "en": "Being blamed unfairly really upset me.",
+          "zh": "被冤枉让我特别难过。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can we talk about what is fair?",
+          "zh": "我们能聊聊什么才公平吗？"
         }
       ],
       "related": [],
@@ -8281,16 +8281,16 @@
       },
       "say": [
         {
-          "en": "I feel exasperated.",
-          "zh": "我现在觉得恼怒。"
+          "en": "I am getting so frustrated!",
+          "zh": "我快被气坏了！"
         },
         {
-          "en": "I feel exasperated when I'm something keeps going wrong.",
-          "zh": "我在某事持续出错的时候，我觉得恼怒。"
+          "en": "I have tried again and again.",
+          "zh": "我已经反复试了好多次。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can you help me take a short break?",
+          "zh": "你能陪我休息一下吗？"
         }
       ],
       "related": [],
@@ -8332,21 +8332,21 @@
         "zh": "非常疲倦。"
       },
       "scene": {
-        "en": "After a long day of work or play.",
-        "zh": "你在经过一整天的工作或玩耍后。"
+        "en": "After a long day of playing, a child can barely keep their eyes open.",
+        "zh": "玩了一整天，孩子累得眼睛都快睁不开了。"
       },
       "say": [
         {
-          "en": "Right now, I feel exhausted.",
-          "zh": "我现在觉得筋疲力尽。"
+          "en": "I am completely exhausted.",
+          "zh": "我真的累坏了。"
         },
         {
-          "en": "I feel exhausted when I think about after a long day of work or play.",
-          "zh": "我在经过一整天的工作或玩耍后的时候，我觉得筋疲力尽。"
+          "en": "Today was full of running and playing.",
+          "zh": "今天一直跑跑跳跳。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Can I rest before we go on?",
+          "zh": "我们继续前，我能先休息吗？"
         }
       ],
       "related": [],
@@ -8393,16 +8393,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel fatigued.",
-          "zh": "我现在觉得疲劳。"
+          "en": "I feel worn out.",
+          "zh": "我现在很疲惫。"
         },
         {
-          "en": "I feel fatigued when I'm needing a rest after a long walk.",
-          "zh": "我在长时间步行后需要休息的时候，我觉得疲劳。"
+          "en": "That long walk used up my energy.",
+          "zh": "刚才走了很远，我没力气了。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Could we walk more slowly?",
+          "zh": "我们能走慢一点吗？"
         }
       ],
       "related": [],
@@ -8505,16 +8505,16 @@
       },
       "say": [
         {
-          "en": "I feel fidgety.",
-          "zh": "我现在觉得坐立不安。"
+          "en": "I cannot sit still!",
+          "zh": "我坐不住啦！"
         },
         {
-          "en": "I feel fidgety when I'm nervous or excited.",
-          "zh": "我紧张或兴奋的时候，我觉得坐立不安。"
+          "en": "My legs keep wanting to move.",
+          "zh": "我的腿老想动来动去。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can I stand up for a minute?",
+          "zh": "我能站起来活动一会儿吗？"
         }
       ],
       "related": [],
@@ -8556,21 +8556,21 @@
         "zh": "感觉孤单和悲伤。"
       },
       "scene": {
-        "en": "You have no one to play with.",
-        "zh": "你在没有人和你玩。"
+        "en": "A child sits alone while everyone else has someone to play with.",
+        "zh": "别人都有玩伴，只有一个孩子孤零零坐在一旁。"
       },
       "say": [
         {
-          "en": "I feel forlorn.",
-          "zh": "我现在觉得孤独。"
+          "en": "I feel very lonely.",
+          "zh": "我心里好孤单。"
         },
         {
-          "en": "I feel forlorn when I have no one to play with.",
-          "zh": "我在没有人和你玩的时候，我觉得孤独。"
+          "en": "I have no one to play with right now.",
+          "zh": "现在没人陪我玩。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could you stay with me?",
+          "zh": "你能陪陪我吗？"
         }
       ],
       "related": [],
@@ -8668,21 +8668,21 @@
         "zh": "非常生气。"
       },
       "scene": {
-        "en": "Someone ruins something important to you.",
-        "zh": "你在有人破坏对你很重要的东西。"
+        "en": "A child is furious when someone ruins a project they worked hard on.",
+        "zh": "辛苦完成的作品被弄坏，孩子非常生气。"
       },
       "say": [
         {
-          "en": "I feel furious.",
-          "zh": "我现在觉得愤怒。"
+          "en": "I am extremely angry!",
+          "zh": "我现在非常生气！"
         },
         {
-          "en": "I feel furious when I think about someone ruins something important to you.",
-          "zh": "我在有人破坏对你很重要的东西的时候，我觉得愤怒。"
+          "en": "Someone ruined something I worked hard on.",
+          "zh": "有人弄坏了我辛苦做的东西。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "I need space before I talk.",
+          "zh": "我想先静静，等会儿再说。"
         }
       ],
       "related": [],
@@ -8729,16 +8729,16 @@
       },
       "say": [
         {
-          "en": "I feel gloomy.",
-          "zh": "我现在觉得阴沉。"
+          "en": "I feel gloomy today.",
+          "zh": "我今天心情有点灰暗。"
         },
         {
-          "en": "I feel gloomy when I think about on a dark, rainy day.",
-          "zh": "我在在一个阴暗、下雨的日子的时候，我觉得阴沉。"
+          "en": "The rain and quiet house make me sad.",
+          "zh": "下雨又安静的家里让我有点难过。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could you stay and read with me?",
+          "zh": "你能陪我读读书吗？"
         }
       ],
       "related": [],
@@ -8785,16 +8785,16 @@
       },
       "say": [
         {
-          "en": "I feel harried.",
-          "zh": "我现在觉得被骚扰。"
+          "en": "I feel rushed and stressed.",
+          "zh": "我忙得有点喘不过气。"
         },
         {
-          "en": "I feel harried when I have too much to do.",
-          "zh": "我有太多事情要做的时候，我觉得被骚扰。"
+          "en": "I have too many things to do at once.",
+          "zh": "我一下子要做太多事了。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we make a list and do one thing first?",
+          "zh": "我们能列个清单，一件件来吗？"
         }
       ],
       "related": [],
@@ -8841,16 +8841,16 @@
       },
       "say": [
         {
-          "en": "I feel heavy.",
-          "zh": "我现在觉得沉重。"
+          "en": "My heart feels heavy.",
+          "zh": "我心里沉甸甸的。"
         },
         {
-          "en": "I feel heavy when I'm very sad.",
-          "zh": "我非常悲伤的时候，我觉得沉重。"
+          "en": "I am carrying a lot of sadness today.",
+          "zh": "今天我心里有好多难过。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Could you listen without rushing me?",
+          "zh": "你能听我慢慢说吗？"
         }
       ],
       "related": [],
@@ -8892,21 +8892,21 @@
         "zh": "感觉你无法做任何事来帮助。"
       },
       "scene": {
-        "en": "A friend moves away.",
-        "zh": "你在一个朋友搬家。"
+        "en": "A child cannot stop a dear friend from moving away.",
+        "zh": "好朋友要搬走了，孩子觉得自己什么也改变不了。"
       },
       "say": [
         {
           "en": "I feel helpless.",
-          "zh": "我现在觉得无助。"
+          "zh": "我觉得很无助。"
         },
         {
-          "en": "I feel helpless when I think about a friend moves away.",
-          "zh": "我在一个朋友搬家的时候，我觉得无助。"
+          "en": "I do not know how to make this better.",
+          "zh": "我不知道怎么让事情好起来。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could you help me find someone who can?",
+          "zh": "你能帮我找个能帮忙的人吗？"
         }
       ],
       "related": [],
@@ -8953,16 +8953,16 @@
       },
       "say": [
         {
-          "en": "I feel hesitant.",
-          "zh": "我现在觉得犹豫。"
+          "en": "I am not ready to try yet.",
+          "zh": "我还不太敢试。"
         },
         {
-          "en": "I feel hesitant when I'm scared to try something new.",
-          "zh": "我害怕尝试新事物的时候，我觉得犹豫。"
+          "en": "That new activity feels a little scary.",
+          "zh": "那个新活动让我有点害怕。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we start with a small step?",
+          "zh": "我们能先从简单的一步开始吗？"
         }
       ],
       "related": [],
@@ -9004,21 +9004,21 @@
         "zh": "真的很糟糕或不愉快。"
       },
       "scene": {
-        "en": "A nightmare.",
-        "zh": "你在一个噩梦。"
+        "en": "A frightening nightmare wakes a child up at night.",
+        "zh": "夜里一个可怕的梦把孩子吓醒了。"
       },
       "say": [
         {
-          "en": "Right now, I feel horrible.",
-          "zh": "我现在觉得糟糕。"
+          "en": "This feels awful.",
+          "zh": "这感觉太糟糕了。"
         },
         {
-          "en": "I feel horrible when I think about a nightmare.",
-          "zh": "我在一个噩梦的时候，我觉得糟糕。"
+          "en": "I had a really bad dream.",
+          "zh": "我做了一个很可怕的梦。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could you stay until I feel calm?",
+          "zh": "你能陪我到平静下来吗？"
         }
       ],
       "related": [],
@@ -9065,16 +9065,16 @@
       },
       "say": [
         {
-          "en": "I feel horrified.",
-          "zh": "我现在觉得感到恐惧。"
+          "en": "That frightened me badly.",
+          "zh": "刚才我被吓坏了。"
         },
         {
-          "en": "I feel horrified when I'm seeing something terrifying.",
-          "zh": "我在看到某些可怕的东西的时候，我觉得感到恐惧。"
+          "en": "I saw something very scary.",
+          "zh": "我看到了很吓人的东西。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we leave this place now?",
+          "zh": "我们现在能离开这里吗？"
         }
       ],
       "related": [],
@@ -9121,16 +9121,16 @@
       },
       "say": [
         {
-          "en": "I feel hostile.",
-          "zh": "我现在觉得敌对。"
+          "en": "I feel angry and unfriendly right now.",
+          "zh": "我现在生气得不想理人。"
         },
         {
-          "en": "I feel hostile when I don't want to talk to someone.",
-          "zh": "我不想和某人说话的时候，我觉得敌对。"
+          "en": "I am too upset to talk politely.",
+          "zh": "我太生气了，没法好好说话。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can I calm down before we talk?",
+          "zh": "等我冷静下来再说好吗？"
         }
       ],
       "related": [],
@@ -9177,16 +9177,16 @@
       },
       "say": [
         {
-          "en": "I feel humdrum.",
-          "zh": "我现在觉得单调。"
+          "en": "This day feels the same as yesterday.",
+          "zh": "今天跟昨天一样单调。"
         },
         {
-          "en": "I feel humdrum when I'm doing the same thing every day.",
-          "zh": "我在每天做相同的事情的时候，我觉得单调。"
+          "en": "I am bored of doing the same thing.",
+          "zh": "老做同一件事，我有点烦了。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we try a different activity?",
+          "zh": "我们能换个活动吗？"
         }
       ],
       "related": [],
@@ -9340,21 +9340,21 @@
         "zh": "对某事不在乎。"
       },
       "scene": {
-        "en": "Nothing seems important.",
-        "zh": "你在没有什么事情看起来重要。"
+        "en": "A child does not have a preference between two suggested games.",
+        "zh": "面对两个游戏，孩子觉得选哪个都无所谓。"
       },
       "say": [
         {
-          "en": "I feel indifferent.",
-          "zh": "我现在觉得冷漠。"
+          "en": "I do not really mind either way.",
+          "zh": "怎样都行，我不太在意。"
         },
         {
-          "en": "I feel indifferent when I'm nothing seems important.",
-          "zh": "我在没有什么事情看起来重要的时候，我觉得冷漠。"
+          "en": "Both games seem fine to me.",
+          "zh": "这两个游戏我觉得都可以。"
         },
         {
-          "en": "Could we spend some time together?",
-          "zh": "我们能一起待一会儿吗？"
+          "en": "Would you like to choose?",
+          "zh": "你来选好吗？"
         }
       ],
       "related": [],
@@ -9396,21 +9396,21 @@
         "zh": "感觉非常强烈的情绪。"
       },
       "scene": {
-        "en": "You're being very worried or very excited.",
-        "zh": "你在非常担心或非常兴奋。"
+        "en": "A child feels a powerful rush of worry before an important event.",
+        "zh": "一件重要的事就要发生，孩子心里涌起强烈的担心。"
       },
       "say": [
         {
-          "en": "I feel intense.",
-          "zh": "我现在觉得强烈。"
+          "en": "My feelings are really strong right now.",
+          "zh": "我现在情绪特别强烈。"
         },
         {
-          "en": "I feel intense when I'm being very worried or very excited.",
-          "zh": "我在非常担心或非常兴奋的时候，我觉得强烈。"
+          "en": "I am worried about something important.",
+          "zh": "我对一件重要的事很担心。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we slow down and talk?",
+          "zh": "我们能慢慢说吗？"
         }
       ],
       "related": [],
@@ -9457,16 +9457,16 @@
       },
       "say": [
         {
-          "en": "I feel irate.",
-          "zh": "我现在觉得愤怒。"
+          "en": "I am very angry about that!",
+          "zh": "这件事让我非常生气！"
         },
         {
-          "en": "I feel irate when I'm something unfair happens.",
-          "zh": "我在发生不公平的事情的时候，我觉得愤怒。"
+          "en": "That rule felt unfair to me.",
+          "zh": "那条规则让我觉得不公平。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can we talk about a fair solution?",
+          "zh": "我们能商量一个公平的办法吗？"
         }
       ],
       "related": [],
@@ -9508,21 +9508,21 @@
         "zh": "对某事感到恼怒。"
       },
       "scene": {
-        "en": "Someone keeps interrupting you.",
-        "zh": "你在有人不断打断你。"
+        "en": "A child grows annoyed when someone keeps interrupting.",
+        "zh": "一直被打断，一个孩子越来越烦躁。"
       },
       "say": [
         {
-          "en": "I feel irked.",
-          "zh": "我现在觉得恼怒。"
+          "en": "That really annoyed me.",
+          "zh": "刚才那件事真让我心烦。"
         },
         {
-          "en": "I feel irked when I think about someone keeps interrupting you.",
-          "zh": "我在有人不断打断你的时候，我觉得恼怒。"
+          "en": "I was interrupted again.",
+          "zh": "我又被打断了。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could you let me finish my turn?",
+          "zh": "你能让我先完成这一轮吗？"
         }
       ],
       "related": [],
@@ -9570,15 +9570,15 @@
       "say": [
         {
           "en": "I feel irritated.",
-          "zh": "我现在觉得烦躁。"
+          "zh": "我现在有点烦躁。"
         },
         {
-          "en": "I feel irritated when I think about an itchy sweater.",
-          "zh": "我在痒痒的毛衣的时候，我觉得烦躁。"
+          "en": "This itchy sweater keeps bothering me.",
+          "zh": "这件毛衣扎得我不舒服。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could I change into something softer?",
+          "zh": "我能换件柔软点的吗？"
         }
       ],
       "related": [],
@@ -9620,8 +9620,8 @@
         "zh": "因为某人拥有你想要的东西而感到不安。"
       },
       "scene": {
-        "en": "Feeling upset because someone has something you want.",
-        "zh": "因为某人拥有你想要的东西而感到不安。"
+        "en": "A child feels jealous when a friend gets something they wanted.",
+        "zh": "朋友得到了自己想要的东西，孩子心里有点嫉妒。"
       },
       "say": [
         {
@@ -9681,16 +9681,16 @@
       },
       "say": [
         {
-          "en": "I feel jittery.",
-          "zh": "我现在觉得神经质。"
+          "en": "My hands feel jittery.",
+          "zh": "我的手有点发抖。"
         },
         {
-          "en": "I feel jittery when I think about before speaking in front of a group.",
-          "zh": "我在在一群人面前讲话前的时候，我觉得神经质。"
+          "en": "I am nervous about speaking to the group.",
+          "zh": "想到要当众发言，我很紧张。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can I practice once more?",
+          "zh": "我能再练习一次吗？"
         }
       ],
       "related": [],
@@ -9732,21 +9732,21 @@
         "zh": "怀疑或警惕。"
       },
       "scene": {
-        "en": "Not trusting a stranger.",
-        "zh": "你在不信任一个陌生人。"
+        "en": "A child hears a strange story and is not sure it is true.",
+        "zh": "听到一个奇怪的故事，孩子有点怀疑。"
       },
       "say": [
         {
-          "en": "I feel leery.",
-          "zh": "我现在觉得谨慎。"
+          "en": "I am not sure I trust that.",
+          "zh": "我对这件事还有些警惕。"
         },
         {
-          "en": "I feel leery when I think about not trusting a stranger.",
-          "zh": "我在不信任一个陌生人的时候，我觉得谨慎。"
+          "en": "That story sounds strange to me.",
+          "zh": "这个故事听起来有点奇怪。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we check if it is true?",
+          "zh": "我们能查查是真的吗？"
         }
       ],
       "related": [],
@@ -9793,16 +9793,16 @@
       },
       "say": [
         {
-          "en": "I feel lethargic.",
-          "zh": "我现在觉得无精打采。"
+          "en": "I feel very low on energy.",
+          "zh": "我现在一点力气都没有。"
         },
         {
-          "en": "I feel lethargic when I'm very tired.",
-          "zh": "我非常疲倦的时候，我觉得无精打采。"
+          "en": "Even getting up feels hard today.",
+          "zh": "今天连起身都觉得累。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Could I rest for a while?",
+          "zh": "我能休息一会儿吗？"
         }
       ],
       "related": [],
@@ -9844,21 +9844,21 @@
         "zh": "没有任何精力或兴趣。"
       },
       "scene": {
-        "en": "Not wanting to do anything.",
-        "zh": "你在不想做任何事。"
+        "en": "A child feels too low on energy to do anything fun.",
+        "zh": "孩子没什么精神，连玩都提不起劲。"
       },
       "say": [
         {
-          "en": "I feel listless.",
-          "zh": "我现在觉得无精打采。"
+          "en": "Nothing feels interesting right now.",
+          "zh": "我现在对什么都提不起劲。"
         },
         {
-          "en": "I feel listless when I think about not wanting to do anything.",
-          "zh": "我在不想做任何事的时候，我觉得无精打采。"
+          "en": "I do not even want to play my favorite game.",
+          "zh": "我连最喜欢的游戏都不想玩。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Could we sit together for a bit?",
+          "zh": "我们能一起坐一会儿吗？"
         }
       ],
       "related": [],
@@ -9900,21 +9900,21 @@
         "zh": "感觉非常不快乐。"
       },
       "scene": {
-        "en": "Everything goes wrong.",
-        "zh": "你在一切都出错。"
+        "en": "Many little things go wrong, leaving a child very unhappy.",
+        "zh": "今天好几件小事都不顺利，孩子难受极了。"
       },
       "say": [
         {
           "en": "I feel miserable.",
-          "zh": "我现在觉得痛苦。"
+          "zh": "我难受极了。"
         },
         {
-          "en": "I feel miserable when I'm everything goes wrong.",
-          "zh": "我在一切都出错的时候，我觉得痛苦。"
+          "en": "Today has been full of things going wrong.",
+          "zh": "今天好多事情都不顺利。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could you stay and talk with me?",
+          "zh": "你能陪我聊一会儿吗？"
         }
       ],
       "related": [],
@@ -9956,21 +9956,21 @@
         "zh": "悲伤且对通常活动不感兴趣。"
       },
       "scene": {
-        "en": "Not wanting to play.",
-        "zh": "你在不想玩耍。"
+        "en": "A child stays quiet and does not feel like playing.",
+        "zh": "一个孩子闷闷不乐地坐着，不想去玩。"
       },
       "say": [
         {
-          "en": "I feel mopey.",
-          "zh": "我现在觉得闷闷不乐。"
+          "en": "I have been moping around.",
+          "zh": "我一直闷闷不乐。"
         },
         {
-          "en": "I feel mopey when I think about not wanting to play.",
-          "zh": "我在不想玩耍的时候，我觉得闷闷不乐。"
+          "en": "I do not want to play like I usually do.",
+          "zh": "我不像平时那样想玩。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can we do something quiet together?",
+          "zh": "我们能一起做点安静的事吗？"
         }
       ],
       "related": [],
@@ -10017,16 +10017,16 @@
       },
       "say": [
         {
-          "en": "I feel morose.",
-          "zh": "我现在觉得郁闷。"
+          "en": "I am in a very gloomy mood.",
+          "zh": "我现在心情很沉闷。"
         },
         {
-          "en": "I feel morose when I'm feeling gloomy for no reason.",
-          "zh": "我在无缘无故感到忧郁的时候，我觉得郁闷。"
+          "en": "I do not feel like laughing today.",
+          "zh": "今天我一点都不想笑。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Would you listen if I told you why?",
+          "zh": "我能跟你说说原因吗？"
         }
       ],
       "related": [],
@@ -10073,16 +10073,16 @@
       },
       "say": [
         {
-          "en": "I feel mournful.",
-          "zh": "我现在觉得悲伤。"
+          "en": "I feel sorrowful.",
+          "zh": "我心里很悲伤。"
         },
         {
-          "en": "I feel mournful when I miss someone a lot.",
-          "zh": "我非常想念某人的时候，我觉得悲伤。"
+          "en": "I miss someone who is not here.",
+          "zh": "我很想念不在身边的人。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Can we talk about our memories?",
+          "zh": "我们能聊聊以前的回忆吗？"
         }
       ],
       "related": [],
@@ -10180,21 +10180,21 @@
         "zh": "恼怒或烦躁。"
       },
       "scene": {
-        "en": "Someone keeps bothering you.",
-        "zh": "你在有人不断打扰你。"
+        "en": "A child feels irritated because someone keeps teasing them.",
+        "zh": "有人不停地取笑孩子，孩子心里很烦。"
       },
       "say": [
         {
-          "en": "I feel nettled.",
-          "zh": "我现在觉得恼怒。"
+          "en": "That really got on my nerves.",
+          "zh": "这件事真把我惹恼了。"
         },
         {
-          "en": "I feel nettled when I think about someone keeps bothering you.",
-          "zh": "我在有人不断打扰你的时候，我觉得恼怒。"
+          "en": "Someone kept teasing me.",
+          "zh": "有人一直取笑我。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could you please stop doing that?",
+          "zh": "请你别再这样了，好吗？"
         }
       ],
       "related": [],
@@ -10241,16 +10241,16 @@
       },
       "say": [
         {
-          "en": "I feel overwhelmed.",
-          "zh": "我现在觉得不知所措。"
+          "en": "I have too much going on right now.",
+          "zh": "我现在事情太多，快招架不住了。"
         },
         {
-          "en": "I feel overwhelmed when I'm feeling swamped.",
-          "zh": "我在感觉被淹没的时候，我觉得不知所措。"
+          "en": "Everyone is asking me to do something.",
+          "zh": "好多人同时让我做事。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we do one thing at a time?",
+          "zh": "我们能一件一件来吗？"
         }
       ],
       "related": [],
@@ -10298,15 +10298,15 @@
       "say": [
         {
           "en": "I feel panicky.",
-          "zh": "我现在觉得恐慌。"
+          "zh": "我现在很慌张。"
         },
         {
-          "en": "I feel panicky when I'm feeling out of control.",
-          "zh": "我在感觉失去控制的时候，我觉得恐慌。"
+          "en": "Everything happened too fast for me.",
+          "zh": "事情发生得太快，我反应不过来。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could we stop and breathe for a moment?",
+          "zh": "我们能停下来深呼吸一下吗？"
         }
       ],
       "related": [],
@@ -10348,21 +10348,21 @@
         "zh": "不活跃或不反应。"
       },
       "scene": {
-        "en": "Not having any opinions.",
-        "zh": "你在没有任何意见。"
+        "en": "During a group activity, a child lets everyone else decide.",
+        "zh": "小组活动时，一个孩子总是让别人替自己决定。"
       },
       "say": [
         {
-          "en": "I feel passive.",
-          "zh": "我现在觉得被动。"
+          "en": "I have been letting others decide.",
+          "zh": "我一直让别人替我决定。"
         },
         {
-          "en": "I feel passive when I think about not having any opinions.",
-          "zh": "我在没有任何意见的时候，我觉得被动。"
+          "en": "I did not say what I wanted.",
+          "zh": "我刚才没说出自己的想法。"
         },
         {
-          "en": "Could we spend some time together?",
-          "zh": "我们能一起待一会儿吗？"
+          "en": "Could I choose this time?",
+          "zh": "这次能让我选吗？"
         }
       ],
       "related": [],
@@ -10404,21 +10404,21 @@
         "zh": "非常困惑。"
       },
       "scene": {
-        "en": "Not knowing what to do.",
-        "zh": "你在不知道该做什么。"
+        "en": "A child stares at confusing instructions and does not know where to start.",
+        "zh": "面对看不懂的说明，孩子不知道从哪一步开始。"
       },
       "say": [
         {
-          "en": "I feel perplexed.",
-          "zh": "我现在觉得困惑。"
+          "en": "I cannot figure this out.",
+          "zh": "我真的想不明白。"
         },
         {
-          "en": "I feel perplexed when I think about not knowing what to do.",
-          "zh": "我在不知道该做什么的时候，我觉得困惑。"
+          "en": "These instructions are puzzling me.",
+          "zh": "这些说明把我弄糊涂了。"
         },
         {
-          "en": "Can you explain it to me?",
-          "zh": "你能给我解释一下吗？"
+          "en": "Can we work through it together?",
+          "zh": "我们能一起弄清楚吗？"
         }
       ],
       "related": [],
@@ -10465,16 +10465,16 @@
       },
       "say": [
         {
-          "en": "I feel pessimistic.",
-          "zh": "我现在觉得悲观。"
+          "en": "I keep expecting things to go wrong.",
+          "zh": "我总觉得事情会出问题。"
         },
         {
-          "en": "I feel pessimistic when I'm worrying a lot.",
-          "zh": "我在担心很多的时候，我觉得悲观。"
+          "en": "I worry our plan might fail.",
+          "zh": "我担心我们的计划会失败。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we think of one thing that might go well?",
+          "zh": "我们能想想有什么可能会顺利吗？"
         }
       ],
       "related": [],
@@ -10516,21 +10516,21 @@
         "zh": "困惑且不理解。"
       },
       "scene": {
-        "en": "A puzzle is too hard.",
-        "zh": "你在一个难题太难。"
+        "en": "A child cannot figure out how two puzzle pieces fit.",
+        "zh": "孩子怎么也想不通两块拼图该怎么拼。"
       },
       "say": [
         {
-          "en": "I feel puzzled.",
-          "zh": "我现在觉得迷惑。"
+          "en": "I am puzzled by this.",
+          "zh": "这个问题把我难住了。"
         },
         {
-          "en": "I feel puzzled when I think about a puzzle is too hard.",
-          "zh": "我在一个难题太难的时候，我觉得迷惑。"
+          "en": "I do not understand how these pieces fit.",
+          "zh": "我不知道这些零件怎么拼。"
         },
         {
-          "en": "Can you explain it to me?",
-          "zh": "你能给我解释一下吗？"
+          "en": "Could you show me the first step?",
+          "zh": "你能示范第一步吗？"
         }
       ],
       "related": [],
@@ -10577,16 +10577,16 @@
       },
       "say": [
         {
-          "en": "I feel rancorous.",
-          "zh": "我现在觉得怨恨。"
+          "en": "I am still carrying a grudge.",
+          "zh": "我心里还记着那份怨气。"
         },
         {
-          "en": "I feel rancorous when I'm holding a grudge.",
-          "zh": "我在怀恨在心的时候，我觉得怨恨。"
+          "en": "I keep thinking about what felt unfair.",
+          "zh": "我总想着那件不公平的事。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can we talk about it when I am ready?",
+          "zh": "等我准备好了，我们能聊聊吗？"
         }
       ],
       "related": [],
@@ -10633,16 +10633,16 @@
       },
       "say": [
         {
-          "en": "I feel reluctant.",
-          "zh": "我现在觉得勉强。"
+          "en": "I do not really want to do this.",
+          "zh": "我不太情愿做这件事。"
         },
         {
-          "en": "I feel reluctant when I are forced to share.",
-          "zh": "我在被迫分享的时候，我觉得勉强。"
+          "en": "I am not ready to share my toy yet.",
+          "zh": "我还没准备好分享玩具。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could we talk about another way?",
+          "zh": "我们能商量个别的办法吗？"
         }
       ],
       "related": [],
@@ -10684,21 +10684,21 @@
         "zh": "强烈推开。"
       },
       "scene": {
-        "en": "Disliking something a lot.",
-        "zh": "你在非常不喜欢某事。"
+        "en": "A bad smell makes a child quickly step backward.",
+        "zh": "闻到难闻的味道，孩子忍不住往后退。"
       },
       "say": [
         {
-          "en": "I feel repelled.",
-          "zh": "我现在觉得排斥。"
+          "en": "I want to move away from that.",
+          "zh": "我想离那个东西远一点。"
         },
         {
-          "en": "I feel repelled when I'm disliking something a lot.",
-          "zh": "我在非常不喜欢某事的时候，我觉得排斥。"
+          "en": "The smell makes me pull back.",
+          "zh": "那个味道让我忍不住往后退。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could we go somewhere else?",
+          "zh": "我们能换个地方吗？"
         }
       ],
       "related": [],
@@ -10745,16 +10745,16 @@
       },
       "say": [
         {
-          "en": "I feel resentful.",
-          "zh": "我现在觉得怨恨。"
+          "en": "I still feel upset about being treated unfairly.",
+          "zh": "被不公平地对待，我心里还有怨气。"
         },
         {
-          "en": "I feel resentful when I'm being treated badly.",
-          "zh": "我在被虐待的时候，我觉得怨恨。"
+          "en": "I wish someone had listened to me.",
+          "zh": "我希望有人能听我解释。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Could we talk about what happened?",
+          "zh": "我们能聊聊刚才发生的事吗？"
         }
       ],
       "related": [],
@@ -10802,15 +10802,15 @@
       "say": [
         {
           "en": "I feel restless.",
-          "zh": "我现在觉得不安。"
+          "zh": "我有点坐立不安。"
         },
         {
-          "en": "I feel restless when I'm too excited or worried.",
-          "zh": "我太兴奋或担心的时候，我觉得不安。"
+          "en": "I keep getting up and walking around.",
+          "zh": "我总忍不住站起来走来走去。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can I go outside for a little while?",
+          "zh": "我能出去走一会儿吗？"
         }
       ],
       "related": [],
@@ -10969,16 +10969,16 @@
       },
       "say": [
         {
-          "en": "I feel sensitive.",
-          "zh": "我现在觉得敏感。"
+          "en": "Those words hurt my feelings.",
+          "zh": "那些话让我心里很难受。"
         },
         {
-          "en": "I feel sensitive when I think about words or actions make you feel bad.",
-          "zh": "我在话语或行为让你感觉不好的时候，我觉得敏感。"
+          "en": "I felt upset when someone laughed at me.",
+          "zh": "有人笑话我时，我很难过。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could you speak to me more gently?",
+          "zh": "你能对我说话温柔一点吗？"
         }
       ],
       "related": [],
@@ -11025,16 +11025,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel shaky.",
-          "zh": "我现在觉得颤抖。"
+          "en": "My hands are shaky.",
+          "zh": "我的手有点发抖。"
         },
         {
-          "en": "I feel shaky when I'm nervous.",
-          "zh": "我紧张的时候，我觉得颤抖。"
+          "en": "I feel nervous before going onstage.",
+          "zh": "上台前我有点紧张。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we practice together once more?",
+          "zh": "我们能再一起练习一遍吗？"
         }
       ],
       "related": [],
@@ -11076,21 +11076,21 @@
         "zh": "对意外的事情感到惊讶和沮丧。"
       },
       "scene": {
-        "en": "A sudden loud sound.",
-        "zh": "你在突然的大声音。"
+        "en": "A sudden loud crash makes a child jump in surprise.",
+        "zh": "突然一声巨响，孩子吃惊得跳了起来。"
       },
       "say": [
         {
-          "en": "I feel shocked.",
-          "zh": "我现在觉得震惊。"
+          "en": "That was a shock!",
+          "zh": "刚才真让我吃了一惊！"
         },
         {
-          "en": "I feel shocked when I think about a sudden loud sound.",
-          "zh": "我在突然的大声音的时候，我觉得震惊。"
+          "en": "I did not see that coming.",
+          "zh": "我完全没想到会那样。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can you tell me what happened?",
+          "zh": "你能跟我说说发生了什么吗？"
         }
       ],
       "related": [],
@@ -11137,16 +11137,16 @@
       },
       "say": [
         {
-          "en": "I feel skeptical.",
-          "zh": "我现在觉得怀疑。"
+          "en": "I am not sure I believe that.",
+          "zh": "我不太确定这是真的。"
         },
         {
-          "en": "I feel skeptical when I'm doubting a strange story.",
-          "zh": "我在怀疑一个奇怪的故事的时候，我觉得怀疑。"
+          "en": "That story sounds hard to believe.",
+          "zh": "那个故事听起来不太可信。"
         },
         {
-          "en": "Can you explain it to me?",
-          "zh": "你能给我解释一下吗？"
+          "en": "Can we look for some evidence?",
+          "zh": "我们能找些证据看看吗？"
         }
       ],
       "related": [],
@@ -11193,16 +11193,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel sleepy.",
-          "zh": "我现在觉得困倦。"
+          "en": "I am getting sleepy.",
+          "zh": "我开始犯困了。"
         },
         {
-          "en": "I feel sleepy when I think about it's past bedtime.",
-          "zh": "我在过了睡觉时间的时候，我觉得困倦。"
+          "en": "My eyes keep closing after bedtime.",
+          "zh": "过了睡觉时间，我的眼睛总想闭上。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Can we go to bed now?",
+          "zh": "我们现在可以睡觉了吗？"
         }
       ],
       "related": [],
@@ -11249,16 +11249,16 @@
       },
       "say": [
         {
-          "en": "I feel sorrowful.",
-          "zh": "我现在觉得悲伤。"
+          "en": "I feel very sad.",
+          "zh": "我现在非常伤心。"
         },
         {
-          "en": "I feel sorrowful when I feel heartbroken.",
-          "zh": "我感到心碎的时候，我觉得悲伤。"
+          "en": "Thinking about that loss makes me tear up.",
+          "zh": "一想到失去的东西，我就想哭。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could you sit with me for a while?",
+          "zh": "你能陪我坐一会儿吗？"
         }
       ],
       "related": [],
@@ -11361,16 +11361,16 @@
       },
       "say": [
         {
-          "en": "I feel spiritless.",
-          "zh": "我现在觉得无精打采。"
+          "en": "I have no energy for this today.",
+          "zh": "今天我做这件事没什么劲。"
         },
         {
-          "en": "I feel spiritless when I'm feeling very tired or uninterested.",
-          "zh": "我在感觉非常疲倦或不感兴趣的时候，我觉得无精打采。"
+          "en": "I cannot get excited about our usual game.",
+          "zh": "平时的游戏也让我提不起兴趣。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could we do something easier?",
+          "zh": "我们能做点轻松的事吗？"
         }
       ],
       "related": [],
@@ -11412,21 +11412,21 @@
         "zh": "对突然的事情感到惊讶和有点害怕。"
       },
       "scene": {
-        "en": "A loud noise.",
-        "zh": "你在大声音。"
+        "en": "A door slams unexpectedly and startles a child.",
+        "zh": "门突然砰地关上，把孩子吓了一跳。"
       },
       "say": [
         {
-          "en": "I feel startled.",
-          "zh": "我现在觉得受到惊吓。"
+          "en": "That startled me!",
+          "zh": "刚才吓了我一跳！"
         },
         {
-          "en": "I feel startled when I think about a loud noise.",
-          "zh": "我在大声音的时候，我觉得受到惊吓。"
+          "en": "The door slammed without warning.",
+          "zh": "门突然砰地一声关上。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could you warn me next time?",
+          "zh": "下次你能先提醒我吗？"
         }
       ],
       "related": [],
@@ -11473,16 +11473,16 @@
       },
       "say": [
         {
-          "en": "I feel surprised.",
-          "zh": "我现在觉得惊讶。"
+          "en": "I did not expect that!",
+          "zh": "我真没想到会这样！"
         },
         {
-          "en": "I feel surprised when I'm something unusual happens.",
-          "zh": "我在发生不寻常的事情的时候，我觉得惊讶。"
+          "en": "The sudden change caught me off guard.",
+          "zh": "突然的变化让我措手不及。"
         },
         {
-          "en": "Come and share this moment with me!",
-          "zh": "快来和我一起感受这一刻！"
+          "en": "Can you tell me what is happening?",
+          "zh": "你能告诉我发生什么了吗？"
         }
       ],
       "related": [],
@@ -11524,21 +11524,21 @@
         "zh": "不是很热情或温暖。"
       },
       "scene": {
-        "en": "A lukewarm response.",
-        "zh": "你在微温的回应。"
+        "en": "A child answers politely but feels little excitement about an idea.",
+        "zh": "对于一个主意，孩子礼貌回答，但并不太感兴趣。"
       },
       "say": [
         {
-          "en": "Right now, I feel tepid.",
-          "zh": "我现在觉得微温。"
+          "en": "I am not very excited about that idea.",
+          "zh": "这个主意我不太感兴趣。"
         },
         {
-          "en": "I feel tepid when I think about a lukewarm response.",
-          "zh": "我在微温的回应的时候，我觉得微温。"
+          "en": "It sounds okay, but I am not eager to try.",
+          "zh": "听起来还行，可我并不太想试。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Could we think of another option?",
+          "zh": "我们能再想个选择吗？"
         }
       ],
       "related": [],
@@ -11585,16 +11585,16 @@
       },
       "say": [
         {
-          "en": "I feel terrified.",
-          "zh": "我现在觉得恐惧。"
+          "en": "I feel terrified right now.",
+          "zh": "我现在害怕极了。"
         },
         {
-          "en": "I feel terrified when I'm being really afraid of something.",
-          "zh": "我在真的害怕某事的时候，我觉得恐惧。"
+          "en": "That scary scene was too much for me.",
+          "zh": "刚才那个可怕的画面让我受不了。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we turn it off and sit together?",
+          "zh": "我们能关掉它，一起坐会儿吗？"
         }
       ],
       "related": [],
@@ -11636,8 +11636,8 @@
         "zh": "需要休息。"
       },
       "scene": {
-        "en": "You're feeling sleepy after a long day.",
-        "zh": "你在经过漫长一天后感觉困倦。"
+        "en": "After an active day, a child wants to sit down and rest.",
+        "zh": "活动了一整天，孩子想坐下来休息。"
       },
       "say": [
         {
@@ -11697,16 +11697,16 @@
       },
       "say": [
         {
-          "en": "I feel troubled.",
-          "zh": "我现在觉得困扰。"
+          "en": "Something has been bothering me.",
+          "zh": "有件事一直让我心烦。"
         },
         {
-          "en": "I feel troubled when I can't stop thinking about something bad.",
-          "zh": "我无法停止思考某些不好的事情的时候，我觉得困扰。"
+          "en": "I keep thinking about a problem.",
+          "zh": "我一直在想一个难题。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could I tell you what is on my mind?",
+          "zh": "我能跟你说说我的心事吗？"
         }
       ],
       "related": [],
@@ -11753,16 +11753,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel uncomfortable.",
-          "zh": "我现在觉得不舒服。"
+          "en": "I do not feel comfortable.",
+          "zh": "我现在不太舒服。"
         },
         {
-          "en": "I feel uncomfortable when I think about clothes are too tight.",
-          "zh": "我在衣服太紧的时候，我觉得不舒服。"
+          "en": "These clothes feel too tight.",
+          "zh": "这件衣服穿着太紧了。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Can I change into something else?",
+          "zh": "我能换件衣服吗？"
         }
       ],
       "related": [],
@@ -11804,21 +11804,21 @@
         "zh": "对某事不担心。"
       },
       "scene": {
-        "en": "Not caring about a problem.",
-        "zh": "你在不关心一个问题。"
+        "en": "A child feels unworried about a small problem that seems manageable.",
+        "zh": "面对一个容易处理的小问题，孩子并不担心。"
       },
       "say": [
         {
-          "en": "I feel unconcerned.",
-          "zh": "我现在觉得漠不关心。"
+          "en": "I am not worried about that.",
+          "zh": "这件事我不担心。"
         },
         {
-          "en": "I feel unconcerned when I think about not caring about a problem.",
-          "zh": "我在不关心一个问题的时候，我觉得漠不关心。"
+          "en": "I think it will work out fine.",
+          "zh": "我觉得结果会没事的。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Shall we focus on something else?",
+          "zh": "我们先做点别的好吗？"
         }
       ],
       "related": [],
@@ -11865,16 +11865,16 @@
       },
       "say": [
         {
-          "en": "I feel uneasy.",
-          "zh": "我现在觉得不安。"
+          "en": "Something does not feel right.",
+          "zh": "我心里觉得有点不对劲。"
         },
         {
-          "en": "I feel uneasy when I'm something doesn't feel right.",
-          "zh": "我在某事感觉不对的时候，我觉得不安。"
+          "en": "I am not sure why I feel nervous.",
+          "zh": "我也不知道为什么有点紧张。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could we talk about it?",
+          "zh": "我们能聊聊吗？"
         }
       ],
       "related": [],
@@ -11921,16 +11921,16 @@
       },
       "say": [
         {
-          "en": "I feel unglued.",
-          "zh": "我现在觉得情绪失控。"
+          "en": "I am feeling out of control.",
+          "zh": "我现在有点控制不住情绪。"
         },
         {
-          "en": "I feel unglued when I'm overwhelmed.",
-          "zh": "我不知所措的时候，我觉得情绪失控。"
+          "en": "Everything seems too much at once.",
+          "zh": "好多事一下子压过来，我快受不了了。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can we pause and help me calm down?",
+          "zh": "我们能先停一停，让我平静下来吗？"
         }
       ],
       "related": [],
@@ -11977,16 +11977,16 @@
       },
       "say": [
         {
-          "en": "I feel unhappy.",
-          "zh": "我现在觉得不快乐。"
+          "en": "I do not feel happy right now.",
+          "zh": "我现在不太开心。"
         },
         {
-          "en": "I feel unhappy when I'm sad or upset.",
-          "zh": "我悲伤或烦躁的时候，我觉得不快乐。"
+          "en": "Things did not go the way I hoped.",
+          "zh": "事情没有按我希望的那样发生。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could we do something comforting together?",
+          "zh": "我们能一起做点让我舒服的事吗？"
         }
       ],
       "related": [],
@@ -12033,16 +12033,16 @@
       },
       "say": [
         {
-          "en": "I feel unnerved.",
-          "zh": "我现在觉得紧张。"
+          "en": "That made me lose my nerve.",
+          "zh": "那件事让我一下子紧张起来。"
         },
         {
-          "en": "I feel unnerved when I'm something scares you.",
-          "zh": "我在某事吓到你的时候，我觉得紧张。"
+          "en": "I did not expect that loud sound.",
+          "zh": "我没想到会有那样的响声。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Could we move somewhere quieter?",
+          "zh": "我们能去安静点的地方吗？"
         }
       ],
       "related": [],
@@ -12089,16 +12089,16 @@
       },
       "say": [
         {
-          "en": "Right now, I feel unsteady.",
-          "zh": "我现在觉得不稳定。"
+          "en": "I feel a little unsteady.",
+          "zh": "我现在有点站不稳。"
         },
         {
-          "en": "I feel unsteady when I feel shaky.",
-          "zh": "我感觉摇晃的时候，我觉得不稳定。"
+          "en": "My legs are shaking after that jump.",
+          "zh": "跳完以后我的腿有点发抖。"
         },
         {
-          "en": "Could we talk about how I feel?",
-          "zh": "我们能聊聊我的感受吗？"
+          "en": "Can I hold your hand?",
+          "zh": "我能牵着你的手吗？"
         }
       ],
       "related": [],
@@ -12201,16 +12201,16 @@
       },
       "say": [
         {
-          "en": "I feel uptight.",
-          "zh": "我现在觉得紧张。"
+          "en": "I feel tense right now.",
+          "zh": "我现在绷得很紧。"
         },
         {
-          "en": "I feel uptight when I'm worrying too much.",
-          "zh": "我在担心太多的时候，我觉得紧张。"
+          "en": "I keep worrying about every little detail.",
+          "zh": "我总忍不住担心每个小细节。"
         },
         {
-          "en": "Can we talk about what worries me?",
-          "zh": "我们能聊聊让我担心的事吗？"
+          "en": "Can we take a short break?",
+          "zh": "我们能先休息一下吗？"
         }
       ],
       "related": [],
@@ -12257,16 +12257,16 @@
       },
       "say": [
         {
-          "en": "I feel vexed.",
-          "zh": "我现在觉得烦恼。"
+          "en": "This problem really vexes me.",
+          "zh": "这个问题真让我烦恼。"
         },
         {
-          "en": "I feel vexed when I can't solve a problem.",
-          "zh": "我无法解决一个问题的时候，我觉得烦恼。"
+          "en": "I keep trying but cannot solve it.",
+          "zh": "我一直在试，却还是解不出来。"
         },
         {
-          "en": "I need a little time to calm down.",
-          "zh": "我需要一点时间冷静下来。"
+          "en": "Can we think of another way?",
+          "zh": "我们能换个办法试试吗？"
         }
       ],
       "related": [],
@@ -12308,21 +12308,21 @@
         "zh": "非常疲倦。"
       },
       "scene": {
-        "en": "After a long, hard day.",
-        "zh": "你在经过漫长、艰难的一天后。"
+        "en": "After a long difficult day, a child wants nothing more than rest.",
+        "zh": "辛苦了一整天，孩子只想好好休息。"
       },
       "say": [
         {
-          "en": "Right now, I feel weary.",
-          "zh": "我现在觉得疲倦。"
+          "en": "I feel very weary.",
+          "zh": "我现在疲惫极了。"
         },
         {
-          "en": "I feel weary when I think about after a long, hard day.",
-          "zh": "我在经过漫长、艰难的一天后的时候，我觉得疲倦。"
+          "en": "That long day took so much energy.",
+          "zh": "这一整天让我耗尽了力气。"
         },
         {
-          "en": "Can we take a little break?",
-          "zh": "我们能休息一会儿吗？"
+          "en": "Can we stop and rest?",
+          "zh": "我们能停下来休息吗？"
         }
       ],
       "related": [],
@@ -12369,16 +12369,16 @@
       },
       "say": [
         {
-          "en": "I feel wistful.",
-          "zh": "我现在觉得渴望。"
+          "en": "I miss those happy days.",
+          "zh": "我很怀念那些开心的日子。"
         },
         {
-          "en": "I feel wistful when I'm missing someone you love.",
-          "zh": "我在想念你爱的人的时候，我觉得渴望。"
+          "en": "That old photo makes me think of my friend.",
+          "zh": "那张旧照片让我想起朋友。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could we look at more photos together?",
+          "zh": "我们能一起看看其他照片吗？"
         }
       ],
       "related": [],
@@ -12425,16 +12425,16 @@
       },
       "say": [
         {
-          "en": "I feel withdrawn.",
-          "zh": "我现在觉得孤僻。"
+          "en": "I want to keep to myself for a while.",
+          "zh": "我现在想一个人待会儿。"
         },
         {
-          "en": "I feel withdrawn when I feel sad and keep to yourself.",
-          "zh": "我感到悲伤并保持独处的时候，我觉得孤僻。"
+          "en": "I have been quiet because I feel sad.",
+          "zh": "我有点难过，所以一直不想说话。"
         },
         {
-          "en": "Could we spend some time together?",
-          "zh": "我们能一起待一会儿吗？"
+          "en": "Could we talk a little later?",
+          "zh": "我们晚一点再聊好吗？"
         }
       ],
       "related": [],
@@ -12481,16 +12481,16 @@
       },
       "say": [
         {
-          "en": "I feel woeful.",
-          "zh": "我现在觉得悲伤。"
+          "en": "I feel so sad today.",
+          "zh": "今天我特别难过。"
         },
         {
-          "en": "I feel woeful when I'm feeling hopeless or miserable.",
-          "zh": "我在感觉无望或痛苦的时候，我觉得悲伤。"
+          "en": "I cannot stop thinking about what happened.",
+          "zh": "我一直想着刚才发生的事。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could you give me some comfort?",
+          "zh": "你能安慰我一下吗？"
         }
       ],
       "related": [],
@@ -12588,21 +12588,21 @@
         "zh": "感觉非常不快乐或处于糟糕状态。"
       },
       "scene": {
-        "en": "Everything feels wrong.",
-        "zh": "你在一切都感觉不对。"
+        "en": "A child feels deeply unhappy after several things go wrong.",
+        "zh": "好几件事都不顺利，孩子心里非常难受。"
       },
       "say": [
         {
-          "en": "I feel wretched.",
-          "zh": "我现在觉得可怜。"
+          "en": "I feel really awful right now.",
+          "zh": "我现在难受极了。"
         },
         {
-          "en": "I feel wretched when I'm everything feels wrong.",
-          "zh": "我在一切都感觉不对的时候，我觉得可怜。"
+          "en": "Everything seems to be going wrong today.",
+          "zh": "今天好像什么事都不顺。"
         },
         {
-          "en": "Could you stay with me for a while?",
-          "zh": "你能陪我一会儿吗？"
+          "en": "Could we sit together and talk?",
+          "zh": "我们能坐下来聊聊吗？"
         }
       ],
       "related": [],
