@@ -1,0 +1,318 @@
+{
+  "amused": {
+    "en": "A child laughs at a clown's silly tricks.",
+    "zh": "一个孩子被小丑的把戏逗得哈哈大笑。"
+  },
+  "astonished": {
+    "en": "Friends surprise a child with a small party.",
+    "zh": "朋友们给一个孩子准备了惊喜派对。"
+  },
+  "breathless": {
+    "en": "After running very fast, a child stops to catch their breath.",
+    "zh": "跑得太快了，一个孩子停下来喘口气。"
+  },
+  "cheerful": {
+    "en": "Sunlight streams through the window, brightening a child's mood.",
+    "zh": "阳光照进窗户，孩子的心情也亮起来。"
+  },
+  "concerned-met": {
+    "en": "A child notices a friend is sad and offers to help.",
+    "zh": "一个孩子发现朋友难过，主动关心他。"
+  },
+  "confident": {
+    "en": "After practicing, a child knows they can do a difficult task.",
+    "zh": "练习之后，一个孩子相信自己能完成难事。"
+  },
+  "elated": {
+    "en": "A child feels thrilled after finishing a beautiful drawing.",
+    "zh": "一个孩子画好一幅漂亮的画，高兴极了。"
+  },
+  "enchanted": {
+    "en": "A child listens closely to a beautiful bedtime story.",
+    "zh": "孩子听美妙的睡前故事听得入迷。"
+  },
+  "encouraged": {
+    "en": "A friend cheers for a child who is trying something difficult.",
+    "zh": "孩子尝试一件难事时，朋友在旁边加油。"
+  },
+  "engrossed": {
+    "en": "A child reads an exciting book and forgets the time.",
+    "zh": "孩子读一本有趣的书，专心得忘了时间。"
+  },
+  "enlivened": {
+    "en": "A lively song plays, and a quiet child starts dancing.",
+    "zh": "活泼的音乐响起，原本安静的孩子跳起舞来。"
+  },
+  "exhilarated": {
+    "en": "A child celebrates after winning a close game.",
+    "zh": "一场激烈的比赛结束，一个孩子赢了，兴奋地欢呼。"
+  },
+  "expectant": {
+    "en": "A child counts the days until a holiday trip.",
+    "zh": "孩子数着日子，期待假期旅行快点到来。"
+  },
+  "fulfilled": {
+    "en": "A child steps back to admire a tall block tower they built.",
+    "zh": "孩子搭好高高的积木塔，满意地欣赏着。"
+  },
+  "glad": {
+    "en": "Someone thanks a child for being helpful.",
+    "zh": "有人感谢孩子的帮助，孩子心里很高兴。"
+  },
+  "grateful": {
+    "en": "A friend helps a child on a difficult day.",
+    "zh": "一个朋友在孩子遇到困难时伸出援手。"
+  },
+  "gratified": {
+    "en": "A carefully made plan works out just as the children hoped.",
+    "zh": "孩子们认真制订的计划顺利实现了。"
+  },
+  "inspired": {
+    "en": "A child sees a painting and gets an idea for their own artwork.",
+    "zh": "孩子看到一幅画，突然有了创作的新点子。"
+  },
+  "intense-met": {
+    "en": "A moving movie leaves a child feeling something very strongly.",
+    "zh": "一部感人的电影让孩子心里涌起强烈的感受。"
+  },
+  "intrigued": {
+    "en": "A child cannot wait to find out the ending of a mystery story.",
+    "zh": "一个孩子读着神秘故事，迫不及待想知道结局。"
+  },
+  "invigorated": {
+    "en": "A child wakes up refreshed after a good night's sleep.",
+    "zh": "睡了一个好觉，孩子醒来精神十足。"
+  },
+  "involved": {
+    "en": "A child joins their friends in making a school project.",
+    "zh": "孩子和朋友一起参加班级作品制作。"
+  },
+  "mellow": {
+    "en": "A child relaxes in the warm light of a quiet afternoon.",
+    "zh": "一个孩子在暖暖的午后阳光里放松下来。"
+  },
+  "pleasant": {
+    "en": "A gentle breeze cools a child on a warm day.",
+    "zh": "温暖的日子里，微风吹过孩子的脸颊。"
+  },
+  "proud": {
+    "en": "A child finishes a difficult project after many attempts.",
+    "zh": "孩子试了很多次，终于完成一个很难的作品。"
+  },
+  "refreshed": {
+    "en": "After sleeping well, a child wakes up ready for a new day.",
+    "zh": "睡了一个好觉，孩子醒来神清气爽。"
+  },
+  "satisfied": {
+    "en": "A child finishes a tasty meal and feels comfortably full.",
+    "zh": "孩子吃完美味的一餐，感觉刚刚好。"
+  },
+  "sensitive-met": {
+    "en": "A touching movie brings tears to a child's eyes.",
+    "zh": "一部感人的电影让孩子眼眶湿润。"
+  },
+  "splendid": {
+    "en": "Children look up at a colorful fireworks display.",
+    "zh": "孩子们抬头观看绚丽的烟花表演。"
+  },
+  "surprised-met": {
+    "en": "A friend gives a child an unexpected gift.",
+    "zh": "朋友突然送来一份礼物，孩子又惊又喜。"
+  },
+  "touched": {
+    "en": "A child feels loved when someone helps them kindly.",
+    "zh": "有人温柔地帮助孩子，让孩子感到被爱。"
+  },
+  "tranquil": {
+    "en": "A child sits quietly beside a smooth lake at sunrise.",
+    "zh": "日出时，孩子安静地坐在平静的湖边。"
+  },
+  "trusting": {
+    "en": "A child tells a close friend a secret because they feel safe.",
+    "zh": "一个孩子相信好朋友，放心地说出心里的秘密。"
+  },
+  "wonderful": {
+    "en": "A family looks back on a wonderful trip together.",
+    "zh": "一家人回忆着一次美好的旅行。"
+  },
+  "angry": {
+    "en": "Someone accidentally breaks a child's favorite toy.",
+    "zh": "有人不小心弄坏孩子最喜欢的玩具。"
+  },
+  "apprehensive": {
+    "en": "A child feels nervous about an important test tomorrow.",
+    "zh": "想到明天的重要考试，一个孩子有点不安。"
+  },
+  "beat": {
+    "en": "A child sits down exhausted after a long afternoon of play.",
+    "zh": "玩了整整一下午，孩子累得坐下来休息。"
+  },
+  "bitter": {
+    "en": "A child feels upset after repeatedly being skipped in a game.",
+    "zh": "游戏里总是轮不到自己，孩子心里很不是滋味。"
+  },
+  "blue": {
+    "en": "A child looks out at the rain and misses playing with friends.",
+    "zh": "孩子望着窗外的雨，想念和朋友玩耍的日子。"
+  },
+  "bored": {
+    "en": "A child has nothing interesting to do on a rainy afternoon.",
+    "zh": "下雨的下午，孩子觉得没有什么好玩的事。"
+  },
+  "brokenhearted": {
+    "en": "A child feels heartbroken after saying goodbye to a dear friend.",
+    "zh": "跟最好的朋友道别后，孩子伤心得不得了。"
+  },
+  "chagrined": {
+    "en": "A child's carefully planned project does not work out.",
+    "zh": "孩子认真计划的作品没做成功，心里很懊恼。"
+  },
+  "concerned-unmet": {
+    "en": "A child worries when a close friend gets sick.",
+    "zh": "好朋友生病了，一个孩子很担心。"
+  },
+  "cross": {
+    "en": "Someone keeps interrupting a child who is playing.",
+    "zh": "孩子正在玩游戏，却一直被人打断。"
+  },
+  "dejected": {
+    "en": "A child hangs their head after losing a game.",
+    "zh": "输了游戏，孩子垂着头，心里很失落。"
+  },
+  "depressed": {
+    "en": "A child has felt very low for a long time and no longer enjoys favorite games.",
+    "zh": "一个孩子持续很久心情低落，连喜欢的游戏也不想玩了。"
+  },
+  "despondent": {
+    "en": "A child is so downhearted that getting out of bed feels difficult.",
+    "zh": "孩子心里非常低落，连起床都觉得困难。"
+  },
+  "disaffected": {
+    "en": "A hobby that once felt exciting no longer interests a child.",
+    "zh": "以前喜欢的爱好，如今让孩子提不起兴趣。"
+  },
+  "dismayed": {
+    "en": "A carefully made plan suddenly falls apart.",
+    "zh": "认真做好的计划突然泡汤了，孩子感到震惊又失落。"
+  },
+  "displeased": {
+    "en": "A child feels disappointed because the movie was not enjoyable.",
+    "zh": "电影并不好看，一个孩子有点不满意。"
+  },
+  "disturbed": {
+    "en": "Someone interrupts a child in the middle of an important game.",
+    "zh": "孩子正在专心玩游戏，却突然被人打断。"
+  },
+  "downhearted": {
+    "en": "After hearing sad news, a child becomes quiet and discouraged.",
+    "zh": "听到不好的消息后，孩子安静下来，心里难过。"
+  },
+  "dull": {
+    "en": "A child finds a class boring because nothing new is happening.",
+    "zh": "课堂上一直没有新鲜事，孩子觉得很无聊。"
+  },
+  "exhausted": {
+    "en": "After a long day of playing, a child can barely keep their eyes open.",
+    "zh": "玩了一整天，孩子累得眼睛都快睁不开了。"
+  },
+  "forlorn": {
+    "en": "A child sits alone while everyone else has someone to play with.",
+    "zh": "别人都有玩伴，只有一个孩子孤零零坐在一旁。"
+  },
+  "furious": {
+    "en": "A child is furious when someone ruins a project they worked hard on.",
+    "zh": "辛苦完成的作品被弄坏，孩子非常生气。"
+  },
+  "helpless": {
+    "en": "A child cannot stop a dear friend from moving away.",
+    "zh": "好朋友要搬走了，孩子觉得自己什么也改变不了。"
+  },
+  "horrible": {
+    "en": "A frightening nightmare wakes a child up at night.",
+    "zh": "夜里一个可怕的梦把孩子吓醒了。"
+  },
+  "indifferent": {
+    "en": "A child does not have a preference between two suggested games.",
+    "zh": "面对两个游戏，孩子觉得选哪个都无所谓。"
+  },
+  "intense-unmet": {
+    "en": "A child feels a powerful rush of worry before an important event.",
+    "zh": "一件重要的事就要发生，孩子心里涌起强烈的担心。"
+  },
+  "irked": {
+    "en": "A child grows annoyed when someone keeps interrupting.",
+    "zh": "一直被打断，一个孩子越来越烦躁。"
+  },
+  "jealous": {
+    "en": "A child feels jealous when a friend gets something they wanted.",
+    "zh": "朋友得到了自己想要的东西，孩子心里有点嫉妒。"
+  },
+  "leery": {
+    "en": "A child hears a strange story and is not sure it is true.",
+    "zh": "听到一个奇怪的故事，孩子有点怀疑。"
+  },
+  "listless": {
+    "en": "A child feels too low on energy to do anything fun.",
+    "zh": "孩子没什么精神，连玩都提不起劲。"
+  },
+  "miserable": {
+    "en": "Many little things go wrong, leaving a child very unhappy.",
+    "zh": "今天好几件小事都不顺利，孩子难受极了。"
+  },
+  "mopey": {
+    "en": "A child stays quiet and does not feel like playing.",
+    "zh": "一个孩子闷闷不乐地坐着，不想去玩。"
+  },
+  "nettled": {
+    "en": "A child feels irritated because someone keeps teasing them.",
+    "zh": "有人不停地取笑孩子，孩子心里很烦。"
+  },
+  "numb": {
+    "en": "After an upsetting moment, a child cannot tell what they are feeling.",
+    "zh": "经历难过的事后，孩子一时说不清自己的感受。"
+  },
+  "passive": {
+    "en": "During a group activity, a child lets everyone else decide.",
+    "zh": "小组活动时，一个孩子总是让别人替自己决定。"
+  },
+  "perplexed": {
+    "en": "A child stares at confusing instructions and does not know where to start.",
+    "zh": "面对看不懂的说明，孩子不知道从哪一步开始。"
+  },
+  "puzzled": {
+    "en": "A child cannot figure out how two puzzle pieces fit.",
+    "zh": "孩子怎么也想不通两块拼图该怎么拼。"
+  },
+  "repelled": {
+    "en": "A bad smell makes a child quickly step backward.",
+    "zh": "闻到难闻的味道，孩子忍不住往后退。"
+  },
+  "shocked": {
+    "en": "A sudden loud crash makes a child jump in surprise.",
+    "zh": "突然一声巨响，孩子吃惊得跳了起来。"
+  },
+  "startled": {
+    "en": "A door slams unexpectedly and startles a child.",
+    "zh": "门突然砰地关上，把孩子吓了一跳。"
+  },
+  "tepid": {
+    "en": "A child answers politely but feels little excitement about an idea.",
+    "zh": "对于一个主意，孩子礼貌回答，但并不太感兴趣。"
+  },
+  "tired": {
+    "en": "After an active day, a child wants to sit down and rest.",
+    "zh": "活动了一整天，孩子想坐下来休息。"
+  },
+  "unconcerned": {
+    "en": "A child feels unworried about a small problem that seems manageable.",
+    "zh": "面对一个容易处理的小问题，孩子并不担心。"
+  },
+  "weary": {
+    "en": "After a long difficult day, a child wants nothing more than rest.",
+    "zh": "辛苦了一整天，孩子只想好好休息。"
+  },
+  "wretched": {
+    "en": "A child feels deeply unhappy after several things go wrong.",
+    "zh": "好几件事都不顺利，孩子心里非常难受。"
+  }
+}
