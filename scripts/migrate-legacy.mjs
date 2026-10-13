@@ -131,7 +131,7 @@ const semanticOverrides=JSON.parse(fs.readFileSync(path.join(root,"data/legacy/s
 for(const id of Object.keys(semanticOverrides))if(!known.has(id))throw new Error("Unknown semantic override: "+id);
 for(const item of result.expanded)if(semanticOverrides[item.id]){
  const fix=semanticOverrides[item.id];
- if(fix.zh){item.terms.zh.noun=fix.zh;item.terms.zh.feeling=fix.zh;item.pronunciation.zh.text=fix.zh;}
+ if(fix.zh){item.terms.zh.noun=null;item.terms.zh.feeling=fix.zh;item.pronunciation.zh.text=fix.zh;}
  if(fix.definitionZh)item.definition.zh=fix.definitionZh;
  if(fix.definitionEn)item.definition.en=fix.definitionEn;
 }
