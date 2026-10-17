@@ -2,7 +2,7 @@
 
 ## Scope and results
 
-This PR extends the [five-pilot Plain Language calibration](../PLAIN-LANGUAGE.md) to **every one of the 230 migrated canonical concepts**, preserving the archived 235 ZIP occurrences and five links into the original pilots.
+This PR extends the [five-pilot Plain Language calibration](PLAIN-LANGUAGE.md) to **every one of the 230 migrated canonical concepts**, preserving the archived 235 ZIP occurrences and five links into the original pilots.
 
 | Work item | Result |
 | --- | --- |
