@@ -25,12 +25,12 @@
         }
       },
       "definition": {
-        "en": "A warm, bright feeling when something makes you very happy.",
-        "zh": "发生让你很开心的事时，心里充满明亮、愉快的感觉。"
+        "en": "Joy is a strong feeling of happiness. You may feel it when something you hoped for happens.",
+        "zh": "喜悦是心里特别开心的感觉。期待的好事发生时，你可能会感到喜悦。"
       },
       "scene": {
-        "en": "You see the sunflower you planted finally bloom.",
-        "zh": "你亲手种的向日葵终于开花了。"
+        "en": "You see the first flower on the sunflower you planted.",
+        "zh": "你看到自己种的向日葵开出了第一朵花。"
       },
       "say": [
         {
@@ -84,21 +84,21 @@
         }
       },
       "definition": {
-        "en": "An upset feeling when you try hard but something still does not work.",
-        "zh": "努力尝试了很多次，事情还是不顺利时，产生的烦躁和失落。"
+        "en": "Frustration is an upset feeling you may have when you keep trying but something still does not work.",
+        "zh": "你努力试了好多次，事情还是不顺利，可能会又着急又烦。这种感觉叫挫败感。"
       },
       "scene": {
-        "en": "Your block tower falls down again, even though you have tried carefully.",
-        "zh": "你认真地搭积木，可积木塔又倒了。"
+        "en": "Your block tower falls again after you carefully rebuild it.",
+        "zh": "你小心地重新搭好积木塔，可它又倒了。"
       },
       "say": [
         {
           "en": "I feel frustrated.",
-          "zh": "我觉得很挫败。"
+          "zh": "我现在有点儿沮丧。"
         },
         {
           "en": "My blocks fell again. This is frustrating.",
-          "zh": "我的积木又倒了，真让人沮丧。"
+          "zh": "积木又倒了，真让人泄气。"
         },
         {
           "en": "Can you help me try again?",
@@ -143,12 +143,12 @@
         }
       },
       "definition": {
-        "en": "A sad feeling of wanting company or connection but not having it right now.",
-        "zh": "希望有人陪伴或理解自己，却暂时没有这样的陪伴时的失落感。"
+        "en": "Loneliness is a sad feeling you may have when you want company but feel alone.",
+        "zh": "当你想有人陪伴，却觉得自己孤零零时，可能会感到孤单。"
       },
       "scene": {
-        "en": "You sit on a bench while other children are playing far away.",
-        "zh": "别的孩子在远处玩，你一个人坐在长椅上。"
+        "en": "You sit on a bench and watch other children play. You wish you could join them.",
+        "zh": "你坐在长椅上看别的孩子玩，也很想加入他们。"
       },
       "say": [
         {
@@ -202,17 +202,17 @@
         }
       },
       "definition": {
-        "en": "A gentle, caring feeling that makes you want to be close to someone.",
-        "zh": "很在乎一个人或小动物，想亲近、关心或拥抱时的温柔感受。"
+        "en": "Affection is a warm feeling of care for someone or an animal.",
+        "zh": "当你喜欢并关心一个人或小动物时，心里可能会感到温暖。这是爱意。"
       },
       "scene": {
-        "en": "Your dog runs to greet you, and you give it a gentle hug.",
-        "zh": "小狗跑来迎接你，你开心地轻轻抱住它。"
+        "en": "Your dog comes close for a cuddle, and you gently hold it.",
+        "zh": "小狗主动靠过来撒娇，你轻轻地抱住它。"
       },
       "say": [
         {
-          "en": "I love giving my dog a hug.",
-          "zh": "我好喜欢抱抱我的小狗。"
+          "en": "I love cuddling with my dog.",
+          "zh": "我喜欢和我的小狗依偎在一起。"
         },
         {
           "en": "I care about you.",
@@ -261,12 +261,12 @@
         }
       },
       "definition": {
-        "en": "A lighter feeling when something you were worried about turns out okay.",
-        "zh": "原本让你担心的事情终于没事了，紧绷的心慢慢放松下来。"
+        "en": "Relief is the feeling of relaxing when something you worried about turns out okay.",
+        "zh": "让你担心的事情终于没事了，你慢慢放松下来。这种感觉叫如释重负。"
       },
       "scene": {
-        "en": "You thought you had lost your favorite book, but then you find it in your school bag.",
-        "zh": "你以为心爱的书丢了，后来发现它就在书包里。"
+        "en": "You open your schoolbag and find the book you thought was lost.",
+        "zh": "你打开书包，发现原来以为丢了的书就在里面。"
       },
       "say": [
         {
