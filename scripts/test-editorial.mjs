@@ -48,4 +48,8 @@ assert.ok(analyzeConcept(sample).some(x=>x.rule==='duplicate-expression'&&x.seve
 sample.expression[2].zh='';
 assert.ok(analyzeConcept(sample).some(x=>x.rule==='missing-expression'),'missing translation must be flagged');
 assert.ok(!analyzeConcept(pilots[0]).some(x=>x.rule==='example-count'),'valid pilots should not be given a false example-count flag');
+const ambiguous=JSON.parse(JSON.stringify(pilots[0]));
+ambiguous.id='mad';ambiguous.terms.en.feeling='Mad';
+assert.ok(analyzeConcept(ambiguous).some(x=>x.rule==='manual-sense-triage'&&x.severity==='advisory'),'sensitive sense must trigger an explicit human-review suggestion, not a rejection');
+
 console.log('OK: 5 bilingual pilot before/after records, semantic illustration briefs, placeholder boundary, and advisory checker tests.');
