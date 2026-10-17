@@ -5,7 +5,7 @@
   "description": "Static, theme-neutral micro.blog illustrated feelings dictionary with a swappable artwork placeholder",
   "type": "module",
   "scripts": {
-    "test": "node scripts/migrate-legacy.mjs --check && node scripts/validate.mjs && node scripts/test-ui.mjs && node scripts/test-plugin.mjs && node scripts/test-editorial.mjs && node scripts/build-review-packets.mjs --check && npm run art:check",
+    "test": "node scripts/migrate-legacy.mjs --check && node scripts/validate.mjs && node scripts/test-ui.mjs && node scripts/test-plugin.mjs && node scripts/test-editorial.mjs && node scripts/build-review-packets.mjs --check && npm run art:check && node scripts/test-art-share.mjs",
     "validate": "node scripts/validate.mjs",
     "build:data": "node scripts/build-runtime-data.mjs",
     "content:coverage": "node scripts/content-coverage.mjs",
