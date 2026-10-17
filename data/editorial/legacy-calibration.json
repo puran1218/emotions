@@ -732,6 +732,617 @@
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
       "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "inquisitive": {
+      "definition": {
+        "en": "Often wanting to ask questions and learn how things work.",
+        "zh": "经常爱提问，想弄明白事情是怎么回事。"
+      },
+      "scenario": {
+        "en": "You keep asking your teacher how the stars shine.",
+        "zh": "你不停地问老师星星为什么会发光。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "inspired": {
+      "definition": {
+        "en": "Feeling a new idea or strong wish to create or try something.",
+        "zh": "受到触动，脑海里冒出新点子，很想动手试一试。"
+      },
+      "scenario": {
+        "en": "A beautiful painting gives you an idea for your own drawing.",
+        "zh": "看到一幅漂亮的画，你也有了自己的绘画点子。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "intense-met": {
+      "definition": {
+        "en": "Describing a feeling that seems especially powerful, not a particular emotion by itself.",
+        "zh": "形容某种感受特别强烈，本身不是一种具体情绪。"
+      },
+      "scenario": {
+        "en": "A moving movie leaves you full of powerful feelings.",
+        "zh": "一部感人的电影让你心里涌起很强烈的感受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "interested": {
+      "definition": {
+        "en": "Wanting to pay attention to or learn more about something.",
+        "zh": "对某件事感兴趣，想多看看、多了解。"
+      },
+      "scenario": {
+        "en": "You lean closer to a dinosaur exhibit to read more about it.",
+        "zh": "在恐龙展柜前，你凑近看介绍，想知道更多。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "intrigued": {
+      "definition": {
+        "en": "Interested because something unusual makes you want to know more.",
+        "zh": "遇到有点神秘或特别的事，被勾起了好奇心。"
+      },
+      "scenario": {
+        "en": "You read the first page of a mystery and wonder what happens next.",
+        "zh": "你读了悬疑故事的第一页，好奇接下来会怎样。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "invigorated": {
+      "definition": {
+        "en": "Feeling fresh and full of energy after rest or activity.",
+        "zh": "休息或活动过后，精神恢复了，感觉充满活力。"
+      },
+      "scenario": {
+        "en": "After a good night's sleep, you get up ready to play.",
+        "zh": "美美睡了一夜后，你精神十足地起床准备玩耍。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "involved": {
+      "definition": {
+        "en": "Taking part in an activity and paying attention to what the group is doing.",
+        "zh": "正在参与一件事，并关心事情怎样进展。"
+      },
+      "scenario": {
+        "en": "You help friends paint the backdrop for a class play.",
+        "zh": "你和朋友一起为班级演出画背景。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "joyous": {
+      "definition": {
+        "en": "Feeling full of happiness, especially on a special or meaningful occasion.",
+        "zh": "内心充满快乐，尤其是在有意义的好日子里。"
+      },
+      "scenario": {
+        "en": "At a birthday meal, you laugh with people you love.",
+        "zh": "生日聚餐时，你和喜欢的人一起开心地笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "jubilant": {
+      "definition": {
+        "en": "Feeling so delighted by success or news that you want to cheer.",
+        "zh": "成功或听到喜讯后，高兴得想欢呼。"
+      },
+      "scenario": {
+        "en": "Your team wins the final game and everyone shouts with joy.",
+        "zh": "球队赢下决赛，大家高兴得欢呼起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "keyed-up": {
+      "definition": {
+        "en": "Feeling unusually tense and ready for action, sometimes excited and sometimes worried.",
+        "zh": "兴奋或紧张得绷紧了神经，随时准备行动。"
+      },
+      "scenario": {
+        "en": "Before the race starts, you bounce on your toes and wait.",
+        "zh": "比赛快开始了，你踮着脚在起点等待。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "loving": {
+      "definition": {
+        "en": "Showing warm care and affection through words or actions.",
+        "zh": "用言语或行动表达对人或动物的爱与关心。"
+      },
+      "scenario": {
+        "en": "You gently stroke your pet after it comes over to you.",
+        "zh": "小宠物主动靠过来，你温柔地摸摸它。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "mellow": {
+      "definition": {
+        "en": "Feeling gently relaxed, without much excitement or worry.",
+        "zh": "心情柔和、放松，没有强烈的兴奋或担心。"
+      },
+      "scenario": {
+        "en": "You rest by a window in the quiet afternoon light.",
+        "zh": "午后的阳光洒进来，你安静地靠窗休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "merry": {
+      "definition": {
+        "en": "Feeling cheerful and ready to laugh or celebrate.",
+        "zh": "心情愉快，想笑，也乐意和别人一起庆祝。"
+      },
+      "scenario": {
+        "en": "You sing with your family while decorating for a holiday.",
+        "zh": "准备节日装饰时，你和家人边忙边唱歌。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "mirthful": {
+      "definition": {
+        "en": "Full of warm laughter and genuine amusement.",
+        "zh": "开心地笑个不停，觉得事情特别有趣。"
+      },
+      "scenario": {
+        "en": "Your friends tell a funny story and you all laugh together.",
+        "zh": "朋友讲了个有趣的故事，大家笑成一团。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "moved": {
+      "definition": {
+        "en": "Feeling deeply touched by something kind, beautiful or meaningful.",
+        "zh": "看到善意、美好或有意义的事，心里深受触动。"
+      },
+      "scenario": {
+        "en": "You hear how a friend quietly helped someone in need.",
+        "zh": "你听说朋友悄悄帮助了有困难的人，心里很感动。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "optimistic": {
+      "definition": {
+        "en": "Usually expecting that things can go well, even when you are unsure.",
+        "zh": "即使不确定结果，也倾向于相信事情能向好的方向发展。"
+      },
+      "scenario": {
+        "en": "You see clouds before the picnic and say the weather may improve.",
+        "zh": "野餐前看到乌云，你仍觉得天气可能会转好。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "overjoyed": {
+      "definition": {
+        "en": "Feeling an exceptionally strong happiness about something wonderful.",
+        "zh": "遇到特别好的事，开心得不得了。"
+      },
+      "scenario": {
+        "en": "You open a letter with wonderful news and jump for joy.",
+        "zh": "你打开一封带来好消息的信，高兴得跳起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "overwhelmed-met": {
+      "definition": {
+        "en": "Feeling too many strong, even happy, emotions at once to take them all in easily.",
+        "zh": "一下子涌来太多强烈的感受，即使是开心，也有点不知所措。"
+      },
+      "scenario": {
+        "en": "Everyone sings to surprise you, and you pause, not sure what to say.",
+        "zh": "大家突然唱歌给你惊喜，你愣了一下，不知说什么好。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "peaceful": {
+      "definition": {
+        "en": "Feeling quiet and safe inside, without much worry or conflict.",
+        "zh": "内心安宁，没什么担心或纷扰。"
+      },
+      "scenario": {
+        "en": "You listen to birds early in the morning before the day gets busy.",
+        "zh": "一大早，你听着鸟叫，静静享受还没忙起来的清晨。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "perky": {
+      "definition": {
+        "en": "Looking or feeling lively, cheerful and ready to go.",
+        "zh": "精神活泼，心情轻快，准备迎接新的一天。"
+      },
+      "scenario": {
+        "en": "You hop out of bed and happily greet everyone.",
+        "zh": "你一跃下床，兴冲冲地和大家问好。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "pleasant": {
+      "definition": {
+        "en": "Describing an experience that feels nice or enjoyable, rather than one precise emotion.",
+        "zh": "形容一件事让人觉得舒服或愉快，并不指某一种具体情绪。"
+      },
+      "scenario": {
+        "en": "A gentle breeze cools you while you sit in the shade.",
+        "zh": "你坐在树荫下，一阵微风吹来，舒服极了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "pleased": {
+      "definition": {
+        "en": "Feeling quietly happy because something meets your hope or expectation.",
+        "zh": "事情符合期待时，心里觉得满意又高兴。"
+      },
+      "scenario": {
+        "en": "You see a good result on a test you prepared for.",
+        "zh": "你看到认真准备的测验取得了不错的成绩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "proud": {
+      "definition": {
+        "en": "Feeling good about effort, progress, or something important to you.",
+        "zh": "因为自己的努力、进步或在乎的事而感到自豪。"
+      },
+      "scenario": {
+        "en": "After many tries, you finish your difficult model.",
+        "zh": "试了很多次以后，你终于做好了那件很难的模型。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "quiet": {
+      "definition": {
+        "en": "Making little sound or speaking softly, not necessarily feeling any particular way.",
+        "zh": "声音很轻或不爱说话，不一定代表某种心情。"
+      },
+      "scenario": {
+        "en": "You whisper to your friend while others are reading.",
+        "zh": "别人正在阅读时，你轻声和朋友说话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "radiant": {
+      "definition": {
+        "en": "Looking full of happiness or warmth that other people can notice.",
+        "zh": "开心或温暖的心情仿佛都写在脸上。"
+      },
+      "scenario": {
+        "en": "You smile brightly as you show your drawing to your family.",
+        "zh": "你把画拿给家人看，脸上露出灿烂的笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "rapturous": {
+      "definition": {
+        "en": "Feeling a very powerful delight that is difficult to contain.",
+        "zh": "因为特别令人高兴的事，欣喜得难以抑制。"
+      },
+      "scenario": {
+        "en": "The audience cheers when the band plays everyone's favorite song.",
+        "zh": "乐队演奏大家最爱的歌时，观众兴奋地欢呼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "refreshed": {
+      "definition": {
+        "en": "Feeling rested and more energetic after sleep or a break.",
+        "zh": "睡觉或休息之后恢复精神，感觉神清气爽。"
+      },
+      "scenario": {
+        "en": "After a nap, you wake up ready to do more.",
+        "zh": "小睡一会儿醒来，你又有精神继续活动了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "relaxed": {
+      "definition": {
+        "en": "Feeling at ease, with little tension in your body or mind.",
+        "zh": "身心松弛自在，没有紧绷着的感觉。"
+      },
+      "scenario": {
+        "en": "You lie comfortably in a hammock after playing.",
+        "zh": "玩累了，你舒服地躺在吊床上。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "satisfied": {
+      "definition": {
+        "en": "Feeling that something is good enough or has turned out as you wanted.",
+        "zh": "觉得结果合心意，已经很满意。"
+      },
+      "scenario": {
+        "en": "You finish making lunch and enjoy what you prepared.",
+        "zh": "你做完午餐，吃着自己准备的东西，觉得很满意。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "secure": {
+      "definition": {
+        "en": "Feeling safe and trusting that you are protected or cared for.",
+        "zh": "觉得自己安全、受到照顾，心里很踏实。"
+      },
+      "scenario": {
+        "en": "You sit beside a trusted adult during a storm.",
+        "zh": "打雷的时候，你坐在信任的大人身旁，觉得很安心。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "sensitive-met": {
+      "definition": {
+        "en": "Easily noticing or being affected by feelings, sights, sounds or other experiences.",
+        "zh": "对感受或周围的变化比较敏感，容易受到触动。"
+      },
+      "scenario": {
+        "en": "A moving story brings tears to your eyes.",
+        "zh": "听到一个感人的故事，你眼眶有点湿润。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "serene": {
+      "definition": {
+        "en": "Feeling deeply calm and undisturbed.",
+        "zh": "心情格外平和宁静，不容易被小事打扰。"
+      },
+      "scenario": {
+        "en": "You watch the sun set over a still lake.",
+        "zh": "你看着太阳缓缓落到平静的湖面那边。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "spellbound": {
+      "definition": {
+        "en": "So fascinated that you forget about almost everything around you.",
+        "zh": "被眼前的事深深吸引，几乎忘了周围的一切。"
+      },
+      "scenario": {
+        "en": "You watch the magician and hardly blink.",
+        "zh": "你目不转睛地看着魔术师表演。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "splendid": {
+      "definition": {
+        "en": "Describing something excellent or impressive; not a separate feeling.",
+        "zh": "形容事物非常出色或壮观，并不是一种独立的情绪。"
+      },
+      "scenario": {
+        "en": "You look up at a rainbow stretching across the sky.",
+        "zh": "你抬头望见一道横跨天空的彩虹。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "stimulated": {
+      "definition": {
+        "en": "Feeling more alert or interested because something engages your mind or senses.",
+        "zh": "新鲜的事物让你精神更活跃、兴趣更浓。"
+      },
+      "scenario": {
+        "en": "You start asking questions during a lively science experiment.",
+        "zh": "有趣的科学实验开始了，你忍不住连连提问。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "surprised-met": {
+      "definition": {
+        "en": "Feeling caught off guard by something unexpected and welcome.",
+        "zh": "没想到会发生一件好事，心里又惊又喜。"
+      },
+      "scenario": {
+        "en": "Your friend gives you a small gift you did not expect.",
+        "zh": "朋友突然送你一份没想到的小礼物。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "tender": {
+      "definition": {
+        "en": "Feeling or showing gentle care and warmth toward someone.",
+        "zh": "对别人怀着温柔的关心，说话或动作都轻柔。"
+      },
+      "scenario": {
+        "en": "You carefully stroke a little kitten that comes to you.",
+        "zh": "一只小猫靠过来，你轻轻地摸摸它。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "thankful": {
+      "definition": {
+        "en": "Feeling gratitude for help, kindness or something you value.",
+        "zh": "因为得到帮助、善意或珍贵的东西而心怀感谢。"
+      },
+      "scenario": {
+        "en": "Someone waits for you when you are running late.",
+        "zh": "你来晚了，有人耐心等着你，你心里很感谢。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "thrilled": {
+      "definition": {
+        "en": "Feeling very excited and happy about something special.",
+        "zh": "遇到特别期待或刺激的事，心里激动极了。"
+      },
+      "scenario": {
+        "en": "You fasten your seat belt on a ride you have wanted to try.",
+        "zh": "你坐上一直想体验的游乐设施，兴奋地系好安全带。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "touched": {
+      "definition": {
+        "en": "Feeling warmth or gratitude because someone's kindness matters to you.",
+        "zh": "因为别人的体贴和善意而深受感动。"
+      },
+      "scenario": {
+        "en": "A friend saves you a seat when you arrive late.",
+        "zh": "你来晚了，朋友还特地给你留了座位。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "tranquil": {
+      "definition": {
+        "en": "Feeling gently peaceful, with little activity or worry around you.",
+        "zh": "周围安静，心里也平静安宁。"
+      },
+      "scenario": {
+        "en": "You sit beside a still lake as morning light arrives.",
+        "zh": "清晨，你坐在静静的湖边，看着天色渐亮。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "trusting": {
+      "definition": {
+        "en": "Feeling able to rely on another person because you expect care and honesty.",
+        "zh": "相信一个人可靠、真诚，愿意向对方敞开心扉。"
+      },
+      "scenario": {
+        "en": "You tell a trusted friend what has been worrying you.",
+        "zh": "你把最近担心的事告诉一位信任的朋友。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "upbeat": {
+      "definition": {
+        "en": "Feeling cheerful and hopeful, often ready to make the best of things.",
+        "zh": "心情开朗又乐观，愿意积极看待眼前的事。"
+      },
+      "scenario": {
+        "en": "Your favorite song starts playing and you hum along.",
+        "zh": "喜欢的歌响起来，你跟着哼唱。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "warm": {
+      "definition": {
+        "en": "Feeling physical warmth or emotional closeness; the two senses are not identical.",
+        "zh": "可以指身体暖和，也可以指心里亲近、被关怀；两种意思不同。"
+      },
+      "scenario": {
+        "en": "You wrap yourself in a blanket beside someone you love.",
+        "zh": "你裹着毯子，坐在喜欢的人身旁。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "wide-awake": {
+      "definition": {
+        "en": "Fully awake and alert, not sleepy.",
+        "zh": "完全清醒、不困倦，精神很足。"
+      },
+      "scenario": {
+        "en": "After a restful night, you sit up ready to start the day.",
+        "zh": "睡了一个好觉后，你精神饱满地坐起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "wonderful": {
+      "definition": {
+        "en": "Describing someone or something as especially good, not naming a single feeling.",
+        "zh": "用来称赞特别好的人或事，不是某一种具体情绪。"
+      },
+      "scenario": {
+        "en": "You remember a fun family trip and say it was wonderful.",
+        "zh": "你想起一次愉快的家庭旅行，觉得那次旅行真棒。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "zestful": {
+      "definition": {
+        "en": "Showing a lot of lively energy and enthusiasm for something.",
+        "zh": "做喜欢的事时热情洋溢，充满干劲。"
+      },
+      "scenario": {
+        "en": "You rush onto the field because you cannot wait to play.",
+        "zh": "你迫不及待地跑上球场，准备投入比赛。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
     }
   }
 }
