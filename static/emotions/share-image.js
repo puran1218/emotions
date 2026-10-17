@@ -28,8 +28,14 @@
     const words=lang==='zh'?Array.from(text):(text.match(/\S+\s*/g)||[text]);
     const lines=[];let line='';
     for(const word of words){
-      if(ctx.measureText(line+word).width>maxWidth&&line){lines.push(line.trim());line=word.trimStart();}
-      else line+=word;
+      if(ctx.measureText(line+word).width>maxWidth&&line){lines.push(line.trim());line='';}
+      // A long headword or unspaced URL must not disappear beyond the canvas.
+      if(ctx.measureText(word).width>maxWidth){
+        for(const char of Array.from(word)){
+          if(ctx.measureText(line+char).width>maxWidth&&line){lines.push(line.trim());line='';}
+          line+=char;
+        }
+      }else line+=line?word:word.trimStart();
     }
     if(line)lines.push(line.trim());
     return lines;
@@ -47,13 +53,48 @@
     ctx.font='28px "Apple Color Emoji","Segoe UI Emoji",sans-serif';ctx.fillText(icon,x+7,y+8);
     return multiline(ctx,text,x+62,y+4,985,28,38,'en',green,true)+18;
   }
+  function font(lang,size,bold=false){
+    return (bold?'600 ':'400 ')+size+'px '+(lang==='zh'?'"PingFang SC","Noto Sans CJK SC",sans-serif':'-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif');
+  }
+  function lineHeight(ctx,value,width,size,height,lang,bold=false){
+    ctx.font=font(lang,size,bold);
+    return wrap(ctx,value,width,lang).length*height;
+  }
+  function estimatedHeight(ctx,e,lang){
+    const other=lang==='zh'?'en':'zh';
+    let y=87+lineHeight(ctx,'emolex  ✳',1030,39,48,'en',true)+61;
+    y+=lineHeight(ctx,lang==='zh'?'一种感受 · ONE FEELING':'ONE FEELING · 一种感受',1020,25,34,'en',true)+28;
+    y+=lineHeight(ctx,e.word[lang],865,78,97,lang,true)+8;
+    y+=lineHeight(ctx,e.word[other],950,43,57,other)+24+620+34;
+    y+=lineHeight(ctx,lang==='zh'?'认识这种感受':'A moment to understand',1040,24,34,lang)+45;
+    const titleHeight=(title)=>4+lineHeight(ctx,title,985,28,38,'en',true)+18;
+    y+=titleHeight(lang==='zh'?'这是一种怎样的感受？':'WHAT DOES IT MEAN?');
+    y+=lineHeight(ctx,e.definition[lang],1032,37,58,lang)+9;
+    y+=lineHeight(ctx,e.definition[other],1032,32,53,other)+33+33;
+    y+=titleHeight(lang==='zh'?'想象一下……':'IMAGINE THIS...');
+    y+=lineHeight(ctx,e.scene[lang],1032,37,58,lang)+9;
+    y+=lineHeight(ctx,e.scene[other],1032,32,53,other)+34+34;
+    y+=titleHeight(lang==='zh'?'你可以这样说……':'YOU CAN SAY...');
+    for(const example of (Array.isArray(e.say)?e.say:[e.say]).slice(0,2)){
+      y+=20+lineHeight(ctx,'“'+example[lang]+'”',970,32,50,lang,true)+7+
+        lineHeight(ctx,'“'+example[other]+'”',970,28,44,other)+22+16;
+    }
+    y+=14+26;
+    return Math.max(1200,Math.ceil(y+77));
+  }
   async function render(e,lang){
+    // Measure first, then paint directly onto an exact-size canvas. No 3170px
+    // cropping cap: long bilingual descriptions must not lose the footer.
     const canvas=document.createElement('canvas');
-    canvas.width=1200;canvas.height=3200;
-    const c=canvas.getContext('2d',{alpha:false});
+    canvas.width=1200;canvas.height=1;
+    let c=canvas.getContext('2d',{alpha:false});
     if(!c)throw Error('Canvas is unavailable');
-    c.fillStyle='#F8F6F0';c.fillRect(0,0,1200,2500);
-    rounded(c,32,32,1136,3060,38,surface);
+    const finalHeight=estimatedHeight(c,e,lang);
+    canvas.height=finalHeight;
+    c=canvas.getContext('2d',{alpha:false});
+    if(!c)throw Error('Canvas is unavailable');
+    c.fillStyle='#F8F6F0';c.fillRect(0,0,1200,canvas.height);
+    rounded(c,32,32,1136,canvas.height-64,38,surface);
     let y=87;
     y=multiline(c,'emolex  ✳',84,y,1030,39,48,'en',green,true);
     c.strokeStyle=rule;c.lineWidth=2;c.beginPath();c.moveTo(84,y+20);c.lineTo(1116,y+20);c.stroke();
@@ -104,12 +145,9 @@
     y+=14;
     c.strokeStyle=rule;c.beginPath();c.moveTo(84,y);c.lineTo(1116,y);c.stroke();y+=26;
     multiline(c,'EmoLex · '+new URL(location.href).host,84,y,1030,25,34,'en',muted);
-    const cropped=document.createElement('canvas');cropped.width=1200;cropped.height=Math.min(3170,Math.ceil(y+77));
-    const out=cropped.getContext('2d',{alpha:false});
-    out.fillStyle='#F8F6F0';out.fillRect(0,0,1200,cropped.height);
-    out.drawImage(canvas,0,0,1200,cropped.height,0,0,1200,cropped.height);
-    rounded(out,32,32,1136,cropped.height-64,38,'rgba(0,0,0,0)',rule);
-    const blob=await new Promise((resolve,reject)=>cropped.toBlob(v=>v?resolve(v):reject(new Error('PNG encoding failed')),'image/png'));
+    if(y+77>canvas.height)throw Error('Image layout exceeds the measured canvas height');
+    rounded(c,32,32,1136,canvas.height-64,38,'rgba(0,0,0,0)',rule);
+    const blob=await new Promise((resolve,reject)=>canvas.toBlob(v=>v?resolve(v):reject(new Error('PNG encoding failed')),'image/png'));
     return new File([blob], 'emolex-'+e.id+'-'+lang+'.png',{type:'image/png'});
   }
   function prepare(e,lang){
@@ -117,6 +155,9 @@
     if(!pending.has(k)){
       const p=render(e,lang).catch(err=>{pending.delete(k);throw err;});
       pending.set(k,p);
+      // A dictionary browsing session can touch hundreds of words. Bound the
+      // retained PNG promises/files so image sharing does not grow without limit.
+      while(pending.size>3)pending.delete(pending.keys().next().value);
     }
     return pending.get(k);
   }
