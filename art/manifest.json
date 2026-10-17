@@ -1,17 +1,33 @@
 {
   "version": 2,
-  "status": "deferred-to-separate-illustration-branch",
+  "status": "svg-first-trial-with-human-approval-gate",
   "assets": [
     {
       "concept_id": "joy",
-      "stage": "pending",
+      "stage": "draft",
       "scene": "Sunflower blooms",
       "characters": [
         "Mei"
       ],
-      "file": null,
+      "file": "static/emotions/images/joy-v01.svg",
       "plannedId": "joy-v01",
-      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history."
+      "note": "Original Playful Color Sketch SVG candidate made with reusable primitives. NOT yet approved for public Explore/Detail/Share; current canonical still points to neutral placeholder.",
+      "approved": false,
+      "format": "svg",
+      "source": "art/scenes/joy.mjs",
+      "dimensions": {
+        "width": 960,
+        "height": 640,
+        "viewBox": "0 0 960 640"
+      },
+      "budgetBytes": 81920,
+      "review": {
+        "semantic": "candidate-requires-human-review",
+        "visual": "pending",
+        "thumbnail": "pending",
+        "share_png": "pending",
+        "microblog": "pending"
+      }
     },
     {
       "concept_id": "frustration",
