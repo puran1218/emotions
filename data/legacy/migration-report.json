@@ -3020,5 +3020,8 @@
   "originalCuratedCount": 41,
   "templateExpressionCount": 0,
   "scenesCuratedOverrideCount": 79,
-  "semanticOverrideCount": 49
+  "semanticOverrideCount": 49,
+  "clarityCalibrationCount": 230,
+  "clarityExpressionPatchCount": 70,
+  "clarityReviewStatus": "editorial-proposals-not-human-approved"
 }
