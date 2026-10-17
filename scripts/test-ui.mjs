@@ -33,9 +33,17 @@ for(const entry of concepts) for(const lang of ['en','zh']){
 
 const spoken=[],shared=[];
 const handlers={};
+const explorePane={scrollTop:0};
+const shareStatus={textContent:''};
+let delayedPrepare=null,failDownload=false;
 const elements={
-  app:{innerHTML:''},live:{textContent:''},
-  'share-image-btn':{disabled:true,querySelector(){return {textContent:''}}},
+  app:{_html:'',get innerHTML(){return this._html},set innerHTML(value){
+    this._html=value;
+    // Simulate replacement of the entire DOM tree resetting nested scroll.
+    explorePane.scrollTop=0;
+  }},
+  live:{textContent:''},
+  'share-image-btn':{disabled:true,querySelector(){return shareStatus}},
   'results':{innerHTML:''}
 };
 const base='https://example.org/emotions/';
@@ -43,12 +51,13 @@ const window={location:{href:base},addEventListener(k,fn){handlers[k]=fn},scroll
   speechSynthesis:{cancel(){},speak(u){spoken.push({text:u.text,lang:u.lang})},getVoices(){return[]}},
   EmoLexShareImage:{
     key(e,lang){return e.id+'/'+lang},
-    prepare:async (e,lang)=>({name:e.id+'-'+lang+'.png'}),
-    download(f){shared.push({download:f.name})}
+    prepare:(e,lang)=>delayedPrepare?delayedPrepare(e,lang):Promise.resolve({name:e.id+'-'+lang+'.png'}),
+    download(f){if(failDownload)throw Error('Download blocked');shared.push({download:f.name})}
   },isSecureContext:true
 };
 const document={baseURI:base,documentElement:{lang:'en'},title:'',
   getElementById(id){return elements[id]||null},
+  querySelector(selector){return selector==='.explore-pane'&&elements.app.innerHTML.includes('class="explore-pane"')?explorePane:null},
   addEventListener(k,fn){handlers[k]=fn}};
 const navigator={language:'en-US',canShare(){return true},async share(data){shared.push(data)}};
 const history={state:null,pushState(state,_,url){this.state=state;window.location.href=String(url)}};
@@ -98,11 +107,50 @@ await click('share-image','joy');
 assert.ok(shared.some(x=>x.files&&x.files[0].name==='joy-zh.png'),'native PNG share');
 await click('explore');
 assert.ok(elements.app.innerHTML.includes('id="search"'),'explore remains accessible');
+assert.ok(elements.app.innerHTML.includes('placeholder="搜索情绪词…"'),'Chinese search prompt is natural');
+assert.ok(!elements.app.innerHTML.includes('搜索感受或 English'),'mixed-language search prompt was removed');
+explorePane.scrollTop=830;
+
 assert.ok(elements.app.innerHTML.includes('data-view="explore"'),'explore must be its own phone route');
 await click('detail','frustration');
 assert.equal(new URL(window.location.href).searchParams.get('word'),'frustration');
+assert.equal(explorePane.scrollTop,830,'wide Explore position survives choosing a Detail');
+await click('detail','happy');
+assert.equal(explorePane.scrollTop,830,'wide Explore position survives a second Detail selection');
+await click('detail','frustration');
+assert.equal(explorePane.scrollTop,830,'wide Explore remains scrolled after returning to previous emotion');
 assert.ok(elements.app.innerHTML.includes('data-phrase="挫败感"'));
 assert.equal((elements.app.innerHTML.match(/class="expression-card"/g)||[]).length,3,'other emotion should also show three cards');
+assert.ok(elements.app.innerHTML.includes('placeholder="搜索情绪词…"'),'search placeholder remains localized after navigation');
+await click('language');
+assert.ok(elements.app.innerHTML.includes('placeholder="Search feelings…"'),'English search prompt is natural');
+assert.ok(elements.app.innerHTML.includes('aria-label="Search feelings in English or Chinese"'),'search accessibility communicates bilingual support');
+assert.equal(explorePane.scrollTop,830,'language switch must not move Explore back to the start');
+await click('filter','needs_met');
+assert.equal(explorePane.scrollTop,830,'filter render preserves wide Explore pane position');
+
+// Delayed PNG export from an older emotion must never replace the current one.
+const resolvers=new Map();
+delayedPrepare=(e,lang)=>new Promise(resolve=>resolvers.set(e.id+'/'+lang,resolve));
+await click('detail','moved');
+await click('detail','vexed');
+resolvers.get('vexed/en')({name:'vexed-new.png'});
+await new Promise(r=>setImmediate(r));
+resolvers.get('moved/en')({name:'moved-old.png'});
+await new Promise(r=>setImmediate(r));
+assert.equal(elements['share-image-btn'].disabled,false,'latest image completes and enables sharing');
+assert.equal(shareStatus.textContent,'Share image','the latest image has native sharing status');
+await click('share-image','vexed');
+assert.ok(shared.some(x=>x.files?.[0]?.name==='vexed-new.png'),'latest prepared image is shared despite old work completing last');
+delayedPrepare=null;
+navigator.canShare=()=>false;
+await click('share-image','vexed');
+assert.ok(shared.some(x=>x.download==='vexed-new.png'),'download fallback works when native file share is unavailable');
+failDownload=true;
+await click('share-image','vexed');
+assert.ok(elements.live.textContent.includes('Could not download'),'failed download should show an honest error');
+failDownload=false;
+navigator.canShare=()=>true;
 const longWord = {clientWidth:185,style:{fontSize:''},get scrollWidth(){return Math.ceil((parseFloat(this.style.fontSize)||54)*7.2);}};
 document.querySelectorAll=()=>[longWord];
 handlers.resize();
@@ -111,7 +159,7 @@ console.log('OK: responsive illustrated master-detail, four headings, headword T
 
 // Simulate canvas export enough to ensure the image-sharing module remains
 // browser-compatible and produces an actual PNG File contract (no network).
-const drawn=[];
+const drawn=[],canvases=[],imageRequests=[];
 const fakeContext={
   beginPath(){},moveTo(){},lineTo(){},quadraticCurveTo(){},closePath(){},fill(){},stroke(){},
   fillRect(){},fillText(t){drawn.push(String(t))},drawImage(){},
@@ -120,12 +168,14 @@ const fakeContext={
 const imageDocument={baseURI:'https://example.org/emotions/',
   createElement(tag){
     assert.equal(tag,'canvas');
-    return {width:0,height:0,getContext(){return fakeContext},
+    const canvas={width:0,height:0,getContext(){return fakeContext},
       toBlob(cb){cb({size:123,type:'image/png'})}};
+    canvases.push(canvas);
+    return canvas;
   }};
 class FakeImage {
   width=960;height=640;
-  set src(value){this._src=value;queueMicrotask(()=>this.onload?.());}
+  set src(value){this._src=value;imageRequests.push(value);queueMicrotask(()=>value.includes('missing-image')?this.onerror?.():this.onload?.());}
   get src(){return this._src;}
 }
 class FakeFile {
@@ -144,4 +194,14 @@ assert.ok(drawn.some(t=>t.includes(joy.word.en)));
 assert.ok(drawn.some(t=>t.includes(joy.say[0].en)),'share PNG contains leading expression');
 assert.ok(drawn.some(t=>t.includes(joy.say[1].en)),'share PNG contains contextual expression');
 assert.ok(!drawn.some(t=>t.includes(joy.say[2].en)),'share PNG intentionally excludes the third expression');
-console.log('OK: offline bilingual PNG render and export contract.');
+assert.ok(canvases.at(-1).height<3170,'short copy should not force a tall, empty image');
+const longCopy={...joy,id:'long-layout',definition:{...joy.definition,en:Array(90).fill('This is an unusually detailed but understandable explanation.').join(' ')},scene:{...joy.scene,zh:'如果心里涌起很多复杂的感受，先把事情讲清楚，也可以慢慢说出自己的心情。'.repeat(20)}};
+const longPNG=await imageWindow.EmoLexShareImage.prepare(longCopy,'en');
+assert.equal(longPNG.name,'emolex-long-layout-en.png');
+assert.ok(canvases.at(-1).height>3170,'long bilingual content should grow the image rather than cut it at 3170px');
+assert.ok(drawn.some(t=>t.includes('EmoLex · example.org')),'PNG footer remains visible after long content');
+const missingImage={...joy,id:'missing-art',illustration:{...joy.illustration,src:'./images/missing-image.svg'}};
+const missingPNG=await imageWindow.EmoLexShareImage.prepare(missingImage,'zh');
+assert.equal(missingPNG.name,'emolex-missing-art-zh.png');
+assert.ok(imageRequests.some(x=>x.endsWith('/images/feeling-placeholder.svg')),'failed illustration should fall back to shared placeholder');
+console.log('OK: PNG layout scales for long bilingual content, illustration fallback, bounded cache and export contract.');

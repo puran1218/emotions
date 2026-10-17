@@ -1,0 +1,3413 @@
+{
+  "version": 1,
+  "status": "editorial-proposals-not-human-approved",
+  "source": "data/concepts/legacy-expanded.json",
+  "policy": "docs/PLAIN-LANGUAGE.md",
+  "rules": "Each entry is reviewed individually for concept/sense, bilingual definition, concrete scenario and three usable expressions; original legacy and source remain available.",
+  "entries": {
+    "absorbed": {
+      "definition": {
+        "en": "So interested in an activity that you give it all your attention.",
+        "zh": "做一件事时特别投入，注意力几乎都在这件事上。"
+      },
+      "scenario": {
+        "en": "You keep coloring your picture and hardly notice time passing.",
+        "zh": "你专心给画涂色，连时间过去了都没注意。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "adventurous": {
+      "definition": {
+        "en": "Eager to explore unfamiliar places or try something new, even when it feels uncertain.",
+        "zh": "很想探索新地方或尝试新鲜事，即使有点不确定。"
+      },
+      "scenario": {
+        "en": "You walk toward a playground you have never visited before.",
+        "zh": "你走向一个从没去过的新游乐场。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "alert": {
+      "definition": {
+        "en": "Awake and paying close attention because something may need your response.",
+        "zh": "精神很清醒，留意周围可能发生的事。"
+      },
+      "scenario": {
+        "en": "You hear a rustle and notice a cat moving behind the bushes.",
+        "zh": "你听到沙沙声，发现一只猫正从灌木后走过。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "amazed": {
+      "definition": {
+        "en": "Very surprised by something wonderful or hard to believe.",
+        "zh": "看到令人难以相信的事，感到十分惊奇。"
+      },
+      "scenario": {
+        "en": "A magician makes a coin seem to disappear before your eyes.",
+        "zh": "魔术师在你眼前把一枚硬币变没了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "amused": {
+      "definition": {
+        "en": "Feeling entertained because something seems funny to you.",
+        "zh": "看到好玩的事，觉得有趣，忍不住想笑。"
+      },
+      "scenario": {
+        "en": "A clown makes a silly face, and you start laughing.",
+        "zh": "小丑做了个滑稽的鬼脸，你笑了起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "The clown's silly face made me laugh.",
+          "zh": "小丑的鬼脸把我逗笑了。"
+        }
+      }
+    },
+    "animated": {
+      "definition": {
+        "en": "Showing a lot of energy and expression when you talk or move.",
+        "zh": "说话或活动时特别有精神，表情和动作都很丰富。"
+      },
+      "scenario": {
+        "en": "You tell your friend a story, using your hands to show what happened.",
+        "zh": "你绘声绘色地给朋友讲故事，还用手比画。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I got so excited telling my story that I used my hands to show every part.",
+          "zh": "讲到兴奋的地方，我忍不住用手比画起来。"
+        }
+      }
+    },
+    "appreciative": {
+      "definition": {
+        "en": "Feeling thankful because you notice someone's help or kindness.",
+        "zh": "注意到别人的帮助或好意，心里很感激。"
+      },
+      "scenario": {
+        "en": "A friend brings you the pencil you dropped.",
+        "zh": "朋友帮你捡起掉在地上的铅笔。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "ardent": {
+      "definition": {
+        "en": "Feeling strongly enthusiastic about someone, something, or a cause.",
+        "zh": "对喜欢的人、事或目标抱有很强烈、持久的热情。"
+      },
+      "scenario": {
+        "en": "You practice your favorite song again because you love playing it.",
+        "zh": "因为特别喜欢，你又练起了那首心爱的曲子。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep practicing that song because I love it so much.",
+          "zh": "因为太喜欢这首曲子，我总想再练一遍。"
+        }
+      }
+    },
+    "aroused": {
+      "definition": {
+        "en": "A word for becoming strongly stirred or alert; it has several senses that need context.",
+        "zh": "表示身心受到强烈唤起的词，有不同含义，必须结合语境理解。"
+      },
+      "scenario": {
+        "en": "You notice your heart beating faster before a big event.",
+        "zh": "重要活动开始前，你发觉自己的心跳变快了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "astonished": {
+      "definition": {
+        "en": "So surprised that you almost cannot believe what happened.",
+        "zh": "发生了出乎意料的事，让你惊讶得几乎不敢相信。"
+      },
+      "scenario": {
+        "en": "You open the door and find your friends waiting with a surprise.",
+        "zh": "你打开门，发现朋友们正等着给你惊喜。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Finding my friends waiting behind the door astonished me.",
+          "zh": "看到朋友们在门后等我，我惊讶极了。"
+        }
+      }
+    },
+    "blissful": {
+      "definition": {
+        "en": "Feeling deeply happy and at ease, without wanting the moment to end.",
+        "zh": "心里幸福又安宁，希望这一刻慢一点过去。"
+      },
+      "scenario": {
+        "en": "You sit with your family after a lovely day together.",
+        "zh": "愉快的一天结束后，你和家人舒舒服服地坐在一起。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "0": {
+          "en": "I feel so happy and at ease right now.",
+          "zh": "我现在觉得幸福又安心。"
+        },
+        "1": {
+          "en": "Sitting with my family after a lovely day feels so peaceful.",
+          "zh": "美好的一天过后，和家人坐在一起真幸福。"
+        }
+      }
+    },
+    "breathless": {
+      "definition": {
+        "en": "Breathing hard because of effort, surprise, or another physical cause.",
+        "zh": "跑动或其他原因让你呼吸急促，一时喘不过气来。"
+      },
+      "scenario": {
+        "en": "After a fast run, you stop and catch your breath.",
+        "zh": "快跑过后，你停下来喘口气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "buoyant": {
+      "definition": {
+        "en": "Feeling cheerful and hopeful, as if worries weigh less than before.",
+        "zh": "心情轻快又有希望，觉得烦恼似乎没那么沉重了。"
+      },
+      "scenario": {
+        "en": "After hearing good news, you walk home with a spring in your step.",
+        "zh": "听到好消息，你轻快地走在回家的路上。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "That good news made my steps feel lighter.",
+          "zh": "听到好消息，我走路都轻快了。"
+        }
+      }
+    },
+    "calm": {
+      "definition": {
+        "en": "Feeling steady and peaceful rather than worried or stirred up.",
+        "zh": "心里安稳平静，没有被担心或激动搅乱。"
+      },
+      "scenario": {
+        "en": "You sit by the lake and listen to the water move softly.",
+        "zh": "你坐在湖边，听着轻轻的水声。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "carefree": {
+      "definition": {
+        "en": "Enjoying a moment without thinking much about troubles or duties.",
+        "zh": "暂时不用为烦心事操心，轻轻松松地享受当下。"
+      },
+      "scenario": {
+        "en": "You play in the park with nothing urgent you need to do.",
+        "zh": "你在公园玩耍，暂时没有急着要完成的事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "cheerful": {
+      "definition": {
+        "en": "Feeling happy in a way that makes you want to smile or share your good mood.",
+        "zh": "心情愉快，想笑，也愿意把好心情带给别人。"
+      },
+      "scenario": {
+        "en": "You wake up smiling and greet your family happily.",
+        "zh": "你笑着起床，开心地跟家人打招呼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "comfortable": {
+      "definition": {
+        "en": "Feeling physically at ease or safe and relaxed in a situation.",
+        "zh": "身体舒服，或在某种环境里觉得自在、安心。"
+      },
+      "scenario": {
+        "en": "You settle under a soft blanket on the sofa.",
+        "zh": "你窝在沙发上，盖着柔软的毯子。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "complacent": {
+      "definition": {
+        "en": "Feeling so satisfied with yourself that you may stop noticing what needs work.",
+        "zh": "对自己太满意，可能因此忽略还需要改进的地方。"
+      },
+      "scenario": {
+        "en": "After one easy win, you decide you do not need to practice again.",
+        "zh": "轻松赢了一次后，你觉得再也不用练习了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Winning once made me think I did not need any more practice.",
+          "zh": "赢过一次后，我就以为不用再练了。"
+        }
+      }
+    },
+    "composed": {
+      "definition": {
+        "en": "Remaining calm and able to think clearly in a difficult or exciting moment.",
+        "zh": "遇到紧张或激动的事，还能保持镇定、清楚地思考。"
+      },
+      "scenario": {
+        "en": "You take a breath before going down a tall slide.",
+        "zh": "走上高滑梯前，你吸了一口气，让自己镇定下来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "concerned-met": {
+      "definition": {
+        "en": "Showing care because you notice someone may need help.",
+        "zh": "注意到别人可能需要帮助，心里惦记并想关心对方。"
+      },
+      "scenario": {
+        "en": "You see that your friend looks sad and ask if they need help.",
+        "zh": "你发现朋友有点难过，问问对方要不要帮忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "confident": {
+      "definition": {
+        "en": "Believing you can try something or handle it, even if it is not easy.",
+        "zh": "相信自己有能力尝试或应对，即使事情不简单。"
+      },
+      "scenario": {
+        "en": "After practicing the song, you feel ready to play it for others.",
+        "zh": "认真练过那首歌后，你觉得可以弹给大家听了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "contented": {
+      "definition": {
+        "en": "Feeling satisfied with what you have or how things are right now.",
+        "zh": "对眼前拥有的和正在发生的事感到满足。"
+      },
+      "scenario": {
+        "en": "You finish a fun afternoon and sit happily with your friends.",
+        "zh": "开心地玩了一下午，你和朋友满足地坐在一起。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am happy with how we spent this afternoon.",
+          "zh": "今天下午这样度过，我觉得很满足。"
+        }
+      }
+    },
+    "cool": {
+      "definition": {
+        "en": "In this context, feeling stylish or impressed with how you look; not an emotion in every use.",
+        "zh": "这里指觉得自己穿着很酷；这个词在别的语境下也可能不表示情绪。"
+      },
+      "scenario": {
+        "en": "You put on your favorite jacket and smile at your reflection.",
+        "zh": "你穿上最喜欢的外套，对着镜子笑了笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "curious": {
+      "definition": {
+        "en": "Wanting to find out or understand something you do not yet know.",
+        "zh": "碰到不懂或新鲜的事，很想知道答案。"
+      },
+      "scenario": {
+        "en": "You spot an unfamiliar insect and wonder where it lives.",
+        "zh": "你看到一种没见过的昆虫，想知道它住在哪里。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I wonder where this unusual insect lives.",
+          "zh": "我想知道这只没见过的昆虫住在哪里。"
+        }
+      }
+    },
+    "dazzled": {
+      "definition": {
+        "en": "So struck by a bright or impressive sight that you hardly know where to look.",
+        "zh": "眼前的光亮或美景太耀眼，让你看得目不暇接。"
+      },
+      "scenario": {
+        "en": "You look up at fireworks lighting the night sky.",
+        "zh": "你抬头看夜空中绽放的烟花。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "The fireworks filled the sky with sparkling colors.",
+          "zh": "烟花在天空绽放出闪亮的颜色。"
+        }
+      }
+    },
+    "delighted": {
+      "definition": {
+        "en": "Feeling especially happy because something pleasing has happened.",
+        "zh": "遇到特别称心的好事，感到十分高兴。"
+      },
+      "scenario": {
+        "en": "You open a gift and discover something you had hoped for.",
+        "zh": "你打开礼物，发现正是自己一直想要的东西。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I opened my gift and found exactly what I had hoped for.",
+          "zh": "我打开礼物，发现正是我一直期待的东西。"
+        }
+      }
+    },
+    "eager": {
+      "definition": {
+        "en": "Wanting to begin or experience something soon.",
+        "zh": "很想快点开始做某件事，已经等不及了。"
+      },
+      "scenario": {
+        "en": "You wait at the door, ready to leave for a birthday party.",
+        "zh": "你在门口等着出发参加生日聚会。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "ebullient": {
+      "definition": {
+        "en": "Full of lively excitement and joy that spills into your actions.",
+        "zh": "兴奋又快乐，活力满满，开心得藏不住。"
+      },
+      "scenario": {
+        "en": "Your whole team cheers and jumps after a fun game.",
+        "zh": "一场好玩的比赛后，队友们高兴得又跳又欢呼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "ecstatic": {
+      "definition": {
+        "en": "Feeling an unusually strong burst of happiness or delight.",
+        "zh": "遇到特别开心的事，高兴到了极点。"
+      },
+      "scenario": {
+        "en": "You hear that you have won a prize you worked hard for.",
+        "zh": "你得知自己努力争取的奖项终于拿到了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I can hardly believe I won that prize after all my hard work.",
+          "zh": "努力这么久终于得奖，我简直不敢相信。"
+        }
+      }
+    },
+    "effervescent": {
+      "definition": {
+        "en": "Cheerful and lively in a way that brightens the people around you.",
+        "zh": "活泼开朗，笑意和活力让周围的人也开心起来。"
+      },
+      "scenario": {
+        "en": "You laugh with friends and eagerly join every game.",
+        "zh": "你和朋友笑个不停，还兴冲冲地参加每个游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "elated": {
+      "definition": {
+        "en": "Feeling very happy and lifted up after especially good news or success.",
+        "zh": "收到特别好的消息或取得成功，心里格外高兴。"
+      },
+      "scenario": {
+        "en": "You finish a drawing you worked on for days and cannot stop smiling.",
+        "zh": "你完成画了好几天的作品，开心得合不拢嘴。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I finished my drawing after days of work, and I cannot stop smiling.",
+          "zh": "画了好几天终于完成了，我高兴得合不拢嘴。"
+        }
+      }
+    },
+    "enchanted": {
+      "definition": {
+        "en": "So drawn into something lovely that it seems almost magical.",
+        "zh": "被美好的事物深深吸引，觉得像走进了魔法世界。"
+      },
+      "scenario": {
+        "en": "You listen closely as someone tells a magical bedtime story.",
+        "zh": "你入迷地听着一个神奇的睡前故事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "That bedtime story made me feel as if I had entered a magical world.",
+          "zh": "这个睡前故事让我觉得自己走进了魔法世界。"
+        }
+      }
+    },
+    "encouraged": {
+      "definition": {
+        "en": "Feeling more able or willing to continue because someone supports you.",
+        "zh": "得到支持或鼓励后，更有信心继续尝试。"
+      },
+      "scenario": {
+        "en": "A friend cheers as you try a difficult jump again.",
+        "zh": "你又试着跳过一处难关，朋友在旁边给你加油。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "My friend's cheering made me want to try that jump again.",
+          "zh": "朋友的加油声让我想再试一次。"
+        }
+      }
+    },
+    "energetic": {
+      "definition": {
+        "en": "Having plenty of energy and wanting to move or do things.",
+        "zh": "精力充沛，很想活动或做事情。"
+      },
+      "scenario": {
+        "en": "You finish breakfast and hurry outside to play.",
+        "zh": "吃完早饭，你精神十足地跑出去玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "engrossed": {
+      "definition": {
+        "en": "Giving nearly all your attention to something that interests you.",
+        "zh": "对一件事特别入迷，注意力几乎都放在上面。"
+      },
+      "scenario": {
+        "en": "You read a mystery and barely notice the afternoon passing.",
+        "zh": "你读一本悬疑故事，连一个下午过去了都没察觉。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I was so absorbed in the mystery that I forgot the time.",
+          "zh": "我看悬疑故事看入迷了，连时间都忘了。"
+        }
+      }
+    },
+    "enlivened": {
+      "definition": {
+        "en": "Feeling more awake, interested, or lively after something lifts your mood.",
+        "zh": "原本没什么精神，受到感染后变得活跃起来。"
+      },
+      "scenario": {
+        "en": "A lively song comes on, and you start tapping your feet.",
+        "zh": "一首欢快的歌响起，你不自觉地跟着打起节拍。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "enthusiastic": {
+      "definition": {
+        "en": "Showing strong interest and excitement about doing something.",
+        "zh": "对要做的事情特别感兴趣，充满热情。"
+      },
+      "scenario": {
+        "en": "You eagerly pack your things for tomorrow's class trip.",
+        "zh": "你兴冲冲地收拾明天班级出游的东西。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "excited": {
+      "definition": {
+        "en": "Feeling lively anticipation because something interesting or important is about to happen.",
+        "zh": "想到有趣或重要的事马上要发生，心里兴奋起来。"
+      },
+      "scenario": {
+        "en": "You hold a wrapped present and can hardly wait to open it.",
+        "zh": "你抱着包好的礼物，迫不及待想打开。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "exhilarated": {
+      "definition": {
+        "en": "Feeling thrilled and full of energy after something exciting.",
+        "zh": "经历刺激的事后，兴奋又充满活力。"
+      },
+      "scenario": {
+        "en": "After reaching the finish line, you throw your arms into the air.",
+        "zh": "冲过终点线，你兴奋地高举双臂。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Crossing the finish line made my heart race with joy.",
+          "zh": "冲过终点线，我开心得心怦怦跳。"
+        }
+      }
+    },
+    "expansive": {
+      "definition": {
+        "en": "Feeling unusually open, talkative, and willing to connect with others.",
+        "zh": "心情开朗，愿意和更多人说话、交流。"
+      },
+      "scenario": {
+        "en": "You greet new children at the park and invite them to play.",
+        "zh": "你在公园主动和新认识的小朋友打招呼、邀他们一起玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "expectant": {
+      "definition": {
+        "en": "Waiting with a feeling that something important or pleasant may happen soon.",
+        "zh": "等待重要或期待的事发生，心里充满期盼。"
+      },
+      "scenario": {
+        "en": "You mark another day off the calendar before a holiday trip.",
+        "zh": "假期旅行快到了，你又在日历上划掉一天。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "exultant": {
+      "definition": {
+        "en": "Feeling triumphant and full of joy after a success.",
+        "zh": "取得成功后，心里充满欢欣和自豪。"
+      },
+      "scenario": {
+        "en": "Your team wins the final match and everyone celebrates together.",
+        "zh": "队伍赢下最后一场比赛，大家高兴地庆祝。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "fascinated": {
+      "definition": {
+        "en": "So interested in something that you want to keep looking or learning.",
+        "zh": "对某件事着迷，还想一直观察或了解下去。"
+      },
+      "scenario": {
+        "en": "You watch tiny bugs carry leaves across the garden.",
+        "zh": "你盯着花园里的小虫子搬树叶，看了好久。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "free": {
+      "definition": {
+        "en": "Feeling able to choose or move without something holding you back.",
+        "zh": "不再被限制或束缚，能自在地选择和行动。"
+      },
+      "scenario": {
+        "en": "You run across a wide field with room to move in any direction.",
+        "zh": "你在开阔的草地上奔跑，想往哪儿跑都可以。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "friendly": {
+      "definition": {
+        "en": "Treating people kindly and showing that you welcome their company.",
+        "zh": "对别人友善，让人感到受欢迎、容易亲近。"
+      },
+      "scenario": {
+        "en": "You invite a child who is new to your class to join a game.",
+        "zh": "你邀请刚转来班里的同学一起玩游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I invited our new classmate to play with us.",
+          "zh": "我邀请新来的同学和我们一起玩。"
+        }
+      }
+    },
+    "fulfilled": {
+      "definition": {
+        "en": "Feeling that something important to you has been done in a satisfying way.",
+        "zh": "完成自己在乎的事情后，感到充实而满足。"
+      },
+      "scenario": {
+        "en": "You look at the block tower you worked so hard to finish.",
+        "zh": "你看着费了不少心思终于搭好的积木塔。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I worked hard on this tower, and now it is finally finished.",
+          "zh": "我费了好大劲，终于把积木塔搭好了。"
+        }
+      }
+    },
+    "glad": {
+      "definition": {
+        "en": "Feeling happy or relieved about something that happened.",
+        "zh": "因发生了好事或担心的事解决了而感到高兴。"
+      },
+      "scenario": {
+        "en": "Someone thanks you for helping, and you feel glad you did.",
+        "zh": "有人感谢你的帮助，你也很高兴自己帮上了忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "When someone thanked me, I was glad I could help.",
+          "zh": "有人向我道谢时，我很高兴自己帮上忙。"
+        }
+      }
+    },
+    "gleeful": {
+      "definition": {
+        "en": "Showing lively delight, sometimes with a playful mischievous streak.",
+        "zh": "开心得眉飞色舞，有时还带着一点调皮劲儿。"
+      },
+      "scenario": {
+        "en": "You grin as your friend opens a funny surprise you prepared.",
+        "zh": "朋友打开你准备的搞笑惊喜，你乐得咧开嘴。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "glorious": {
+      "definition": {
+        "en": "Describing something wonderful or splendid, rather than a precise feeling.",
+        "zh": "形容事物非常美好或精彩，本身不是一种明确的情绪。"
+      },
+      "scenario": {
+        "en": "You stand on a hill and admire a brilliant sunrise.",
+        "zh": "你站在小山上，欣赏壮丽的日出。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "0": {
+          "en": "What a glorious sunrise!",
+          "zh": "这日出真壮观！"
+        },
+        "1": {
+          "en": "The whole sky turned gold as the sun came up.",
+          "zh": "太阳升起时，天空都染上了金色。"
+        }
+      }
+    },
+    "glowing": {
+      "definition": {
+        "en": "Looking bright and happy because you feel pleased or proud.",
+        "zh": "因为高兴或自豪，脸上透着喜悦。"
+      },
+      "scenario": {
+        "en": "You smile proudly when your family sees your finished painting.",
+        "zh": "家人看到你完成的画作，你脸上露出自豪的笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "When my family saw my painting, I could not stop smiling.",
+          "zh": "家人看到我的画，我开心得一直笑。"
+        }
+      }
+    },
+    "good-humored": {
+      "definition": {
+        "en": "Usually cheerful and able to laugh kindly, even when little things go wrong.",
+        "zh": "平时心情开朗，遇到小麻烦也能友善地笑一笑。"
+      },
+      "scenario": {
+        "en": "When your hat blows off, you laugh and chase after it.",
+        "zh": "帽子被风吹跑了，你笑着追过去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "grateful": {
+      "definition": {
+        "en": "Feeling thankful because someone has helped or cared for you.",
+        "zh": "别人帮助或关心了你，你心里很感谢。"
+      },
+      "scenario": {
+        "en": "Your friend helps you carry your bag when your hands are full.",
+        "zh": "你的双手拿满了东西，朋友帮你提起书包。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "gratified": {
+      "definition": {
+        "en": "Feeling pleased because a hope or effort turned out well.",
+        "zh": "自己的努力有了好结果，心里感到欣慰和满足。"
+      },
+      "scenario": {
+        "en": "Your group plan works and everyone enjoys the activity.",
+        "zh": "小组精心准备的活动顺利完成，大家玩得很开心。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Our carefully planned activity went just as we hoped.",
+          "zh": "认真准备的活动和期待的一样顺利。"
+        }
+      }
+    },
+    "happy": {
+      "definition": {
+        "en": "Feeling good and pleased about life or something happening right now.",
+        "zh": "对现在的事或生活感到快乐，心里舒畅。"
+      },
+      "scenario": {
+        "en": "You play a game you love with a good friend.",
+        "zh": "你和好朋友一起玩最喜欢的游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "helpful": {
+      "definition": {
+        "en": "Choosing to do something useful or kind for another person.",
+        "zh": "主动做对别人有用的事，是一种行为而不是情绪。"
+      },
+      "scenario": {
+        "en": "You help a younger child carry their heavy books.",
+        "zh": "你帮一个小朋友搬起沉沉的书。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "hopeful": {
+      "definition": {
+        "en": "Believing that something good may happen, even if you do not know for sure.",
+        "zh": "虽然还不确定，但相信事情有希望向好的方向发展。"
+      },
+      "scenario": {
+        "en": "You plant seeds and look forward to seeing the first shoots.",
+        "zh": "你种下种子，期待它们冒出第一颗嫩芽。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I hope the seeds I planted will sprout soon.",
+          "zh": "真希望我种的种子快点发芽。"
+        }
+      }
+    },
+    "inquisitive": {
+      "definition": {
+        "en": "Often wanting to ask questions and learn how things work.",
+        "zh": "经常爱提问，想弄明白事情是怎么回事。"
+      },
+      "scenario": {
+        "en": "You keep asking your teacher how the stars shine.",
+        "zh": "你不停地问老师星星为什么会发光。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep wondering why the stars shine.",
+          "zh": "我一直想知道星星为什么会发光。"
+        }
+      }
+    },
+    "inspired": {
+      "definition": {
+        "en": "Feeling a new idea or strong wish to create or try something.",
+        "zh": "受到触动，脑海里冒出新点子，很想动手试一试。"
+      },
+      "scenario": {
+        "en": "A beautiful painting gives you an idea for your own drawing.",
+        "zh": "看到一幅漂亮的画，你也有了自己的绘画点子。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "intense-met": {
+      "definition": {
+        "en": "Describing a feeling that seems especially powerful, not a particular emotion by itself.",
+        "zh": "形容某种感受特别强烈，本身不是一种具体情绪。"
+      },
+      "scenario": {
+        "en": "A moving movie leaves you full of powerful feelings.",
+        "zh": "一部感人的电影让你心里涌起很强烈的感受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "interested": {
+      "definition": {
+        "en": "Wanting to pay attention to or learn more about something.",
+        "zh": "对某件事感兴趣，想多看看、多了解。"
+      },
+      "scenario": {
+        "en": "You lean closer to a dinosaur exhibit to read more about it.",
+        "zh": "在恐龙展柜前，你凑近看介绍，想知道更多。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "intrigued": {
+      "definition": {
+        "en": "Interested because something unusual makes you want to know more.",
+        "zh": "遇到有点神秘或特别的事，被勾起了好奇心。"
+      },
+      "scenario": {
+        "en": "You read the first page of a mystery and wonder what happens next.",
+        "zh": "你读了悬疑故事的第一页，好奇接下来会怎样。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "invigorated": {
+      "definition": {
+        "en": "Feeling fresh and full of energy after rest or activity.",
+        "zh": "休息或活动过后，精神恢复了，感觉充满活力。"
+      },
+      "scenario": {
+        "en": "After a good night's sleep, you get up ready to play.",
+        "zh": "美美睡了一夜后，你精神十足地起床准备玩耍。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "involved": {
+      "definition": {
+        "en": "Taking part in an activity and paying attention to what the group is doing.",
+        "zh": "正在参与一件事，并关心事情怎样进展。"
+      },
+      "scenario": {
+        "en": "You help friends paint the backdrop for a class play.",
+        "zh": "你和朋友一起为班级演出画背景。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am helping paint the backdrop for our class play.",
+          "zh": "我正在为班级演出画背景。"
+        }
+      }
+    },
+    "joyous": {
+      "definition": {
+        "en": "Feeling full of happiness, especially on a special or meaningful occasion.",
+        "zh": "内心充满快乐，尤其是在有意义的好日子里。"
+      },
+      "scenario": {
+        "en": "At a birthday meal, you laugh with people you love.",
+        "zh": "生日聚餐时，你和喜欢的人一起开心地笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "Being with my family on my birthday makes me so happy.",
+          "zh": "生日这天和家人在一起，我开心极了。"
+        }
+      }
+    },
+    "jubilant": {
+      "definition": {
+        "en": "Feeling so delighted by success or news that you want to cheer.",
+        "zh": "成功或听到喜讯后，高兴得想欢呼。"
+      },
+      "scenario": {
+        "en": "Your team wins the final game and everyone shouts with joy.",
+        "zh": "球队赢下决赛，大家高兴得欢呼起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "keyed-up": {
+      "definition": {
+        "en": "Feeling unusually tense and ready for action, sometimes excited and sometimes worried.",
+        "zh": "兴奋或紧张得绷紧了神经，随时准备行动。"
+      },
+      "scenario": {
+        "en": "Before the race starts, you bounce on your toes and wait.",
+        "zh": "比赛快开始了，你踮着脚在起点等待。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "loving": {
+      "definition": {
+        "en": "Showing warm care and affection through words or actions.",
+        "zh": "用言语或行动表达对人或动物的爱与关心。"
+      },
+      "scenario": {
+        "en": "You gently stroke your pet after it comes over to you.",
+        "zh": "小宠物主动靠过来，你温柔地摸摸它。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "mellow": {
+      "definition": {
+        "en": "Feeling gently relaxed, without much excitement or worry.",
+        "zh": "心情柔和、放松，没有强烈的兴奋或担心。"
+      },
+      "scenario": {
+        "en": "You rest by a window in the quiet afternoon light.",
+        "zh": "午后的阳光洒进来，你安静地靠窗休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "merry": {
+      "definition": {
+        "en": "Feeling cheerful and ready to laugh or celebrate.",
+        "zh": "心情愉快，想笑，也乐意和别人一起庆祝。"
+      },
+      "scenario": {
+        "en": "You sing with your family while decorating for a holiday.",
+        "zh": "准备节日装饰时，你和家人边忙边唱歌。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "mirthful": {
+      "definition": {
+        "en": "Full of warm laughter and genuine amusement.",
+        "zh": "开心地笑个不停，觉得事情特别有趣。"
+      },
+      "scenario": {
+        "en": "Your friends tell a funny story and you all laugh together.",
+        "zh": "朋友讲了个有趣的故事，大家笑成一团。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "moved": {
+      "definition": {
+        "en": "Feeling deeply touched by something kind, beautiful or meaningful.",
+        "zh": "看到善意、美好或有意义的事，心里深受触动。"
+      },
+      "scenario": {
+        "en": "You hear how a friend quietly helped someone in need.",
+        "zh": "你听说朋友悄悄帮助了有困难的人，心里很感动。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "Hearing how my friend helped someone brought tears to my eyes.",
+          "zh": "听到朋友帮助别人的事，我眼眶都湿了。"
+        }
+      }
+    },
+    "optimistic": {
+      "definition": {
+        "en": "Usually expecting that things can go well, even when you are unsure.",
+        "zh": "即使不确定结果，也倾向于相信事情能向好的方向发展。"
+      },
+      "scenario": {
+        "en": "You see clouds before the picnic and say the weather may improve.",
+        "zh": "野餐前看到乌云，你仍觉得天气可能会转好。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "The clouds look dark, but the sun might still come out.",
+          "zh": "虽然乌云很多，太阳也许还是会出来。"
+        }
+      }
+    },
+    "overjoyed": {
+      "definition": {
+        "en": "Feeling an exceptionally strong happiness about something wonderful.",
+        "zh": "遇到特别好的事，开心得不得了。"
+      },
+      "scenario": {
+        "en": "You open a letter with wonderful news and jump for joy.",
+        "zh": "你打开一封带来好消息的信，高兴得跳起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "overwhelmed-met": {
+      "definition": {
+        "en": "Feeling too many strong, even happy, emotions at once to take them all in easily.",
+        "zh": "一下子涌来太多强烈的感受，即使是开心，也有点不知所措。"
+      },
+      "scenario": {
+        "en": "Everyone sings to surprise you, and you pause, not sure what to say.",
+        "zh": "大家突然唱歌给你惊喜，你愣了一下，不知说什么好。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "peaceful": {
+      "definition": {
+        "en": "Feeling quiet and safe inside, without much worry or conflict.",
+        "zh": "内心安宁，没什么担心或纷扰。"
+      },
+      "scenario": {
+        "en": "You listen to birds early in the morning before the day gets busy.",
+        "zh": "一大早，你听着鸟叫，静静享受还没忙起来的清晨。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "perky": {
+      "definition": {
+        "en": "Looking or feeling lively, cheerful and ready to go.",
+        "zh": "精神活泼，心情轻快，准备迎接新的一天。"
+      },
+      "scenario": {
+        "en": "You hop out of bed and happily greet everyone.",
+        "zh": "你一跃下床，兴冲冲地和大家问好。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "pleasant": {
+      "definition": {
+        "en": "Describing an experience that feels nice or enjoyable, rather than one precise emotion.",
+        "zh": "形容一件事让人觉得舒服或愉快，并不指某一种具体情绪。"
+      },
+      "scenario": {
+        "en": "A gentle breeze cools you while you sit in the shade.",
+        "zh": "你坐在树荫下，一阵微风吹来，舒服极了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "The cool breeze feels wonderful in the shade.",
+          "zh": "树荫下的凉风吹着真舒服。"
+        }
+      }
+    },
+    "pleased": {
+      "definition": {
+        "en": "Feeling quietly happy because something meets your hope or expectation.",
+        "zh": "事情符合期待时，心里觉得满意又高兴。"
+      },
+      "scenario": {
+        "en": "You see a good result on a test you prepared for.",
+        "zh": "你看到认真准备的测验取得了不错的成绩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "proud": {
+      "definition": {
+        "en": "Feeling good about effort, progress, or something important to you.",
+        "zh": "因为自己的努力、进步或在乎的事而感到自豪。"
+      },
+      "scenario": {
+        "en": "After many tries, you finish your difficult model.",
+        "zh": "试了很多次以后，你终于做好了那件很难的模型。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "quiet": {
+      "definition": {
+        "en": "Making little sound or speaking softly, not necessarily feeling any particular way.",
+        "zh": "声音很轻或不爱说话，不一定代表某种心情。"
+      },
+      "scenario": {
+        "en": "You whisper to your friend while others are reading.",
+        "zh": "别人正在阅读时，你轻声和朋友说话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "radiant": {
+      "definition": {
+        "en": "Looking full of happiness or warmth that other people can notice.",
+        "zh": "开心或温暖的心情仿佛都写在脸上。"
+      },
+      "scenario": {
+        "en": "You smile brightly as you show your drawing to your family.",
+        "zh": "你把画拿给家人看，脸上露出灿烂的笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "rapturous": {
+      "definition": {
+        "en": "Feeling a very powerful delight that is difficult to contain.",
+        "zh": "因为特别令人高兴的事，欣喜得难以抑制。"
+      },
+      "scenario": {
+        "en": "The audience cheers when the band plays everyone's favorite song.",
+        "zh": "乐队演奏大家最爱的歌时，观众兴奋地欢呼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "When the band played our favorite song, everyone cheered.",
+          "zh": "乐队演奏最爱的歌时，我们都激动地欢呼起来。"
+        }
+      }
+    },
+    "refreshed": {
+      "definition": {
+        "en": "Feeling rested and more energetic after sleep or a break.",
+        "zh": "睡觉或休息之后恢复精神，感觉神清气爽。"
+      },
+      "scenario": {
+        "en": "After a nap, you wake up ready to do more.",
+        "zh": "小睡一会儿醒来，你又有精神继续活动了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "relaxed": {
+      "definition": {
+        "en": "Feeling at ease, with little tension in your body or mind.",
+        "zh": "身心松弛自在，没有紧绷着的感觉。"
+      },
+      "scenario": {
+        "en": "You lie comfortably in a hammock after playing.",
+        "zh": "玩累了，你舒服地躺在吊床上。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "satisfied": {
+      "definition": {
+        "en": "Feeling that something is good enough or has turned out as you wanted.",
+        "zh": "觉得结果合心意，已经很满意。"
+      },
+      "scenario": {
+        "en": "You finish making lunch and enjoy what you prepared.",
+        "zh": "你做完午餐，吃着自己准备的东西，觉得很满意。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I cooked my lunch, and I am happy with how it turned out.",
+          "zh": "午餐是我自己做的，我对成果很满意。"
+        }
+      }
+    },
+    "secure": {
+      "definition": {
+        "en": "Feeling safe and trusting that you are protected or cared for.",
+        "zh": "觉得自己安全、受到照顾，心里很踏实。"
+      },
+      "scenario": {
+        "en": "You sit beside a trusted adult during a storm.",
+        "zh": "打雷的时候，你坐在信任的大人身旁，觉得很安心。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "Sitting beside someone I trust helps me feel safe.",
+          "zh": "坐在信任的大人身旁，我觉得很安心。"
+        }
+      }
+    },
+    "sensitive-met": {
+      "definition": {
+        "en": "Easily noticing or being affected by feelings, sights, sounds or other experiences.",
+        "zh": "对感受或周围的变化比较敏感，容易受到触动。"
+      },
+      "scenario": {
+        "en": "A moving story brings tears to your eyes.",
+        "zh": "听到一个感人的故事，你眼眶有点湿润。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "serene": {
+      "definition": {
+        "en": "Feeling deeply calm and undisturbed.",
+        "zh": "心情格外平和宁静，不容易被小事打扰。"
+      },
+      "scenario": {
+        "en": "You watch the sun set over a still lake.",
+        "zh": "你看着太阳缓缓落到平静的湖面那边。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "spellbound": {
+      "definition": {
+        "en": "So fascinated that you forget about almost everything around you.",
+        "zh": "被眼前的事深深吸引，几乎忘了周围的一切。"
+      },
+      "scenario": {
+        "en": "You watch the magician and hardly blink.",
+        "zh": "你目不转睛地看着魔术师表演。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "splendid": {
+      "definition": {
+        "en": "Describing something excellent or impressive; not a separate feeling.",
+        "zh": "形容事物非常出色或壮观，并不是一种独立的情绪。"
+      },
+      "scenario": {
+        "en": "You look up at a rainbow stretching across the sky.",
+        "zh": "你抬头望见一道横跨天空的彩虹。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "stimulated": {
+      "definition": {
+        "en": "Feeling more alert or interested because something engages your mind or senses.",
+        "zh": "新鲜的事物让你精神更活跃、兴趣更浓。"
+      },
+      "scenario": {
+        "en": "You start asking questions during a lively science experiment.",
+        "zh": "有趣的科学实验开始了，你忍不住连连提问。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "That science experiment gave me so many new questions.",
+          "zh": "这个科学实验让我冒出好多新问题。"
+        }
+      }
+    },
+    "surprised-met": {
+      "definition": {
+        "en": "Feeling caught off guard by something unexpected and welcome.",
+        "zh": "没想到会发生一件好事，心里又惊又喜。"
+      },
+      "scenario": {
+        "en": "Your friend gives you a small gift you did not expect.",
+        "zh": "朋友突然送你一份没想到的小礼物。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "tender": {
+      "definition": {
+        "en": "Feeling or showing gentle care and warmth toward someone.",
+        "zh": "对别人怀着温柔的关心，说话或动作都轻柔。"
+      },
+      "scenario": {
+        "en": "You carefully stroke a little kitten that comes to you.",
+        "zh": "一只小猫靠过来，你轻轻地摸摸它。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "thankful": {
+      "definition": {
+        "en": "Feeling gratitude for help, kindness or something you value.",
+        "zh": "因为得到帮助、善意或珍贵的东西而心怀感谢。"
+      },
+      "scenario": {
+        "en": "Someone waits for you when you are running late.",
+        "zh": "你来晚了，有人耐心等着你，你心里很感谢。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "thrilled": {
+      "definition": {
+        "en": "Feeling very excited and happy about something special.",
+        "zh": "遇到特别期待或刺激的事，心里激动极了。"
+      },
+      "scenario": {
+        "en": "You fasten your seat belt on a ride you have wanted to try.",
+        "zh": "你坐上一直想体验的游乐设施，兴奋地系好安全带。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "touched": {
+      "definition": {
+        "en": "Feeling warmth or gratitude because someone's kindness matters to you.",
+        "zh": "因为别人的体贴和善意而深受感动。"
+      },
+      "scenario": {
+        "en": "A friend saves you a seat when you arrive late.",
+        "zh": "你来晚了，朋友还特地给你留了座位。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "My friend saved me a seat, and I felt cared for.",
+          "zh": "朋友特地给我留了座位，我心里很温暖。"
+        }
+      }
+    },
+    "tranquil": {
+      "definition": {
+        "en": "Feeling gently peaceful, with little activity or worry around you.",
+        "zh": "周围安静，心里也平静安宁。"
+      },
+      "scenario": {
+        "en": "You sit beside a still lake as morning light arrives.",
+        "zh": "清晨，你坐在静静的湖边，看着天色渐亮。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "trusting": {
+      "definition": {
+        "en": "Feeling able to rely on another person because you expect care and honesty.",
+        "zh": "相信一个人可靠、真诚，愿意向对方敞开心扉。"
+      },
+      "scenario": {
+        "en": "You tell a trusted friend what has been worrying you.",
+        "zh": "你把最近担心的事告诉一位信任的朋友。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I felt safe enough to tell my friend what was bothering me.",
+          "zh": "我放心地告诉朋友最近烦心的事。"
+        }
+      }
+    },
+    "upbeat": {
+      "definition": {
+        "en": "Feeling cheerful and hopeful, often ready to make the best of things.",
+        "zh": "心情开朗又乐观，愿意积极看待眼前的事。"
+      },
+      "scenario": {
+        "en": "Your favorite song starts playing and you hum along.",
+        "zh": "喜欢的歌响起来，你跟着哼唱。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "warm": {
+      "definition": {
+        "en": "Feeling physical warmth or emotional closeness; the two senses are not identical.",
+        "zh": "可以指身体暖和，也可以指心里亲近、被关怀；两种意思不同。"
+      },
+      "scenario": {
+        "en": "You wrap yourself in a blanket beside someone you love.",
+        "zh": "你裹着毯子，坐在喜欢的人身旁。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "wide-awake": {
+      "definition": {
+        "en": "Fully awake and alert, not sleepy.",
+        "zh": "完全清醒、不困倦，精神很足。"
+      },
+      "scenario": {
+        "en": "After a restful night, you sit up ready to start the day.",
+        "zh": "睡了一个好觉后，你精神饱满地坐起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "wonderful": {
+      "definition": {
+        "en": "Describing someone or something as especially good, not naming a single feeling.",
+        "zh": "用来称赞特别好的人或事，不是某一种具体情绪。"
+      },
+      "scenario": {
+        "en": "You remember a fun family trip and say it was wonderful.",
+        "zh": "你想起一次愉快的家庭旅行，觉得那次旅行真棒。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "0": {
+          "en": "That family trip was wonderful!",
+          "zh": "那次家庭旅行真棒！"
+        },
+        "1": {
+          "en": "I keep smiling when I remember our trip together.",
+          "zh": "想起全家一起旅行，我总忍不住笑。"
+        }
+      }
+    },
+    "zestful": {
+      "definition": {
+        "en": "Showing a lot of lively energy and enthusiasm for something.",
+        "zh": "做喜欢的事时热情洋溢，充满干劲。"
+      },
+      "scenario": {
+        "en": "You rush onto the field because you cannot wait to play.",
+        "zh": "你迫不及待地跑上球场，准备投入比赛。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I could not wait to run onto the field and play.",
+          "zh": "我迫不及待地跑上球场玩起来。"
+        }
+      }
+    },
+    "agitated": {
+      "definition": {
+        "en": "Feeling upset and so unsettled that it is hard to stay still or think calmly.",
+        "zh": "心里烦乱又不安，很难安静下来或好好思考。"
+      },
+      "scenario": {
+        "en": "You search everywhere for your favorite toy and start pacing.",
+        "zh": "你到处找心爱的玩具，急得来回走动。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "alarmed": {
+      "definition": {
+        "en": "Suddenly worried or frightened because something seems dangerous or wrong.",
+        "zh": "察觉可能有危险或不对劲，突然紧张害怕起来。"
+      },
+      "scenario": {
+        "en": "A loud alarm rings while you are walking through school.",
+        "zh": "你走在学校里，突然听到刺耳的警报声。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "aloof": {
+      "definition": {
+        "en": "Keeping your distance from others, sometimes because you do not want to join in.",
+        "zh": "与别人保持距离，暂时不想亲近或参与；这更多是一种态度。"
+      },
+      "scenario": {
+        "en": "You stay at the edge of a group activity instead of joining.",
+        "zh": "集体活动时，你站在一旁，没有加入。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "angry": {
+      "definition": {
+        "en": "Feeling strongly upset when something seems unfair, hurtful or wrong.",
+        "zh": "遇到不公平、受伤害或不顺心的事，心里生起强烈的不满。"
+      },
+      "scenario": {
+        "en": "Someone breaks a toy you care about, and you feel angry.",
+        "zh": "有人弄坏了你很珍惜的玩具，你感到生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "anxious": {
+      "definition": {
+        "en": "Feeling uneasy because you keep thinking about something that might go wrong.",
+        "zh": "想到将来可能出问题的事，心里一直紧张、不安。"
+      },
+      "scenario": {
+        "en": "You think about the first day at a new school and wonder what will happen.",
+        "zh": "想到新学校的第一天，你担心会遇到什么。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "apathetic": {
+      "definition": {
+        "en": "Feeling little interest or motivation about things that would usually matter to you.",
+        "zh": "对原本在乎的事也提不起兴趣，暂时没有什么动力。"
+      },
+      "scenario": {
+        "en": "Your friends suggest a game, but you do not feel like choosing or joining.",
+        "zh": "朋友提议玩游戏，你却没什么兴趣，也不想参与。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "apprehensive": {
+      "definition": {
+        "en": "Feeling nervous about a possible problem that has not happened yet.",
+        "zh": "担心还没发生的事可能不顺利，因此有点紧张。"
+      },
+      "scenario": {
+        "en": "You wait outside the room before an important test.",
+        "zh": "重要测验开始前，你在教室外紧张地等着。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "ashamed": {
+      "definition": {
+        "en": "Feeling painful embarrassment or regret about something you believe you did wrong.",
+        "zh": "觉得自己做错了事，心里难受、羞愧，怕别人知道。"
+      },
+      "scenario": {
+        "en": "You remember telling a lie and wish you had told the truth.",
+        "zh": "你想起自己说过的谎话，希望当时说了实话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "beat": {
+      "definition": {
+        "en": "Feeling extremely tired after using a lot of energy.",
+        "zh": "活动了很久后累得不行，特别需要休息。"
+      },
+      "scenario": {
+        "en": "After playing outside all afternoon, you sit down to rest.",
+        "zh": "在外面玩了一下午后，你坐下来休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "bewildered": {
+      "definition": {
+        "en": "So confused by something unexpected that you do not know what to think or do.",
+        "zh": "事情突然变得难以理解，一时不知道该怎么办。"
+      },
+      "scenario": {
+        "en": "The rules of a new game change suddenly, and you look around in confusion.",
+        "zh": "新游戏的规则突然改了，你一时不知道怎么继续。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "The rules changed suddenly, and now I do not know what to do.",
+          "zh": "规则突然变了，我一下子不知道该怎么办。"
+        }
+      }
+    },
+    "bitter": {
+      "definition": {
+        "en": "Holding on to anger or hurt after feeling treated unfairly.",
+        "zh": "觉得自己受了不公平的对待，久久放不下委屈和怨气。"
+      },
+      "scenario": {
+        "en": "You remember being left out of several games and still feel hurt.",
+        "zh": "你想到自己几次被排除在游戏外，心里仍很委屈。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "I still feel hurt when I remember being left out of those games.",
+          "zh": "想起那几次游戏都没带我，我还是很委屈。"
+        }
+      }
+    },
+    "blue": {
+      "definition": {
+        "en": "Feeling a little sad or low; this is an informal use of the word blue.",
+        "zh": "心情有点低落、闷闷不乐；这是 blue 的口语用法。"
+      },
+      "scenario": {
+        "en": "You watch the rain and think about a friend you miss.",
+        "zh": "你看着窗外的雨，想起一位很想念的朋友。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "The rain makes me miss my friend even more.",
+          "zh": "下雨的时候，我更想念朋友了。"
+        }
+      }
+    },
+    "bored": {
+      "definition": {
+        "en": "Wanting something interesting to do but not finding anything engaging.",
+        "zh": "想找点有趣的事做，却提不起兴趣，觉得无聊。"
+      },
+      "scenario": {
+        "en": "You have finished your games and cannot find anything new to do.",
+        "zh": "游戏都玩过一遍了，你一时找不到新鲜事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "brokenhearted": {
+      "definition": {
+        "en": "Feeling deep sadness after losing someone or something you care about greatly.",
+        "zh": "失去很在乎的人或事时，心里特别难过。"
+      },
+      "scenario": {
+        "en": "You say goodbye to a dear friend who is moving far away.",
+        "zh": "一位很要好的朋友要搬去很远的地方，你跟对方告别。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "Saying goodbye to my best friend made me very sad.",
+          "zh": "和最要好的朋友告别，我特别难过。"
+        }
+      }
+    },
+    "chagrined": {
+      "definition": {
+        "en": "Feeling upset or embarrassed because something you tried did not go as hoped.",
+        "zh": "努力做的事没达到预期，觉得懊恼，有时还有点难为情。"
+      },
+      "scenario": {
+        "en": "Your carefully planned surprise does not work, and you look disappointed.",
+        "zh": "你精心准备的惊喜没成功，心里有点懊恼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "My careful surprise did not work the way I planned.",
+          "zh": "精心准备的惊喜没按计划成功，我好懊恼。"
+        }
+      }
+    },
+    "cold": {
+      "definition": {
+        "en": "Acting emotionally distant or unfriendly; this is different from feeling physically cold.",
+        "zh": "态度冷淡，显得不愿亲近；这里不是身体觉得冷。"
+      },
+      "scenario": {
+        "en": "When someone tries to chat, you give only short replies.",
+        "zh": "有人想和你聊天，你却只简短回答。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "concerned-unmet": {
+      "definition": {
+        "en": "Feeling worried because someone or something important may not be okay.",
+        "zh": "想到在乎的人或事可能出问题，心里感到担心。"
+      },
+      "scenario": {
+        "en": "You hear that your close friend is sick and wonder if they are okay.",
+        "zh": "听说好朋友生病了，你心里惦记着对方。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "confused": {
+      "definition": {
+        "en": "Not understanding something clearly or not knowing what it means.",
+        "zh": "看不明白一件事，或不知道该怎么理解。"
+      },
+      "scenario": {
+        "en": "You read the game instructions twice and still do not understand them.",
+        "zh": "游戏说明读了两遍，你还是没弄懂。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "cross": {
+      "definition": {
+        "en": "Feeling angry or annoyed, often over a small problem; common in British English.",
+        "zh": "有点生气或恼火，常因一件小烦心事；英式英语里常用。"
+      },
+      "scenario": {
+        "en": "Someone keeps interrupting you while you are trying to play.",
+        "zh": "你正想专心玩，别人却总来打断。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "dejected": {
+      "definition": {
+        "en": "Feeling low and discouraged after something disappointing happens.",
+        "zh": "遇到失望的事后，心情低落，提不起劲儿。"
+      },
+      "scenario": {
+        "en": "Your team loses a close game, and you walk away quietly.",
+        "zh": "球队以微弱差距输了比赛，你垂头丧气地走开。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "depressed": {
+      "definition": {
+        "en": "A word sometimes used for a long-lasting low mood; depression can also be a health condition.",
+        "zh": "有时表示持续的情绪低落，也可能涉及需要专业帮助的抑郁状态。"
+      },
+      "scenario": {
+        "en": "For many days, activities you once liked have not felt enjoyable.",
+        "zh": "好多天过去了，你发现曾经喜欢的活动也难让自己开心。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "despairing": {
+      "definition": {
+        "en": "Feeling as though a difficult situation may never get better.",
+        "zh": "遇到困难时觉得看不到希望，仿佛事情不会好转。"
+      },
+      "scenario": {
+        "en": "After repeated bad news, you worry there is no way forward.",
+        "zh": "接连听到坏消息后，你一时看不到解决的希望。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "despondent": {
+      "definition": {
+        "en": "Feeling deeply discouraged and low, with little energy or hope.",
+        "zh": "深深灰心，心情低落，连做事情的劲儿也很少。"
+      },
+      "scenario": {
+        "en": "After several setbacks, you sit quietly and do not feel ready to try again.",
+        "zh": "接连受挫后，你静静坐着，暂时不想再试。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "detached": {
+      "definition": {
+        "en": "Feeling emotionally far away from what is happening or from other people.",
+        "zh": "感觉自己和正在发生的事或周围的人隔着一层距离。"
+      },
+      "scenario": {
+        "en": "At a busy party, you stand aside and feel little connection to the conversation.",
+        "zh": "热闹的聚会上，你站在一旁，觉得自己融不进去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disaffected": {
+      "definition": {
+        "en": "No longer feeling interested or supportive after disappointment or dissatisfaction.",
+        "zh": "经历失望或不满后，对原先喜欢的事失去了热情。"
+      },
+      "scenario": {
+        "en": "A club you loved keeps ignoring your ideas, and you stop wanting to join.",
+        "zh": "喜欢的社团总不理会你的想法，你渐渐不想参加了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disappointed": {
+      "definition": {
+        "en": "Feeling sad or let down when something you hoped for does not happen.",
+        "zh": "期待的事没有如愿发生，心里有些失落。"
+      },
+      "scenario": {
+        "en": "You learn that a picnic you had looked forward to is canceled.",
+        "zh": "你期待很久的野餐临时取消了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "discouraged": {
+      "definition": {
+        "en": "Feeling less confident about trying again after a difficult or unsuccessful attempt.",
+        "zh": "尝试受挫之后信心变少，有点不想继续。"
+      },
+      "scenario": {
+        "en": "Your paper airplane keeps falling, and you start to wonder whether to try again.",
+        "zh": "纸飞机试飞了好多次还是落下来，你有点不想再折了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disenchanted": {
+      "definition": {
+        "en": "No longer seeing something as wonderful after discovering a disappointing truth.",
+        "zh": "知道了令人失望的事实后，对原本喜欢的事不再着迷。"
+      },
+      "scenario": {
+        "en": "You learn that a trick you loved has an ordinary explanation and feel let down.",
+        "zh": "你知道喜欢的魔术原来有很普通的机关，心里有些失落。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "Knowing the trick is so ordinary makes it feel less magical.",
+          "zh": "知道魔术机关原来很普通，我有点失望。"
+        }
+      }
+    },
+    "disgruntled": {
+      "definition": {
+        "en": "Feeling unhappy and annoyed because you believe something has not been handled fairly.",
+        "zh": "觉得事情安排得不公平，心里不满又恼火。"
+      },
+      "scenario": {
+        "en": "Your group changes the rules without asking, and you complain.",
+        "zh": "小组没商量就改了规则，你心里很不满。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disgusted": {
+      "definition": {
+        "en": "Feeling strong dislike or revulsion toward something unpleasant.",
+        "zh": "遇到特别恶心或讨厌的东西，心里强烈排斥。"
+      },
+      "scenario": {
+        "en": "You smell spoiled food and quickly step back.",
+        "zh": "你闻到变质食物的味道，立刻后退。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disheartened": {
+      "definition": {
+        "en": "Losing hope or courage after something difficult or disappointing.",
+        "zh": "经历打击或反复受挫后，信心和勇气减弱了。"
+      },
+      "scenario": {
+        "en": "After your model breaks again, you put the pieces down with a sigh.",
+        "zh": "模型又坏了，你叹了口气，把零件放下。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "dismayed": {
+      "definition": {
+        "en": "Feeling suddenly worried, upset or discouraged by unwelcome news.",
+        "zh": "坏消息突然传来，感到吃惊、担忧或失落。"
+      },
+      "scenario": {
+        "en": "You hear that your class trip has been canceled at the last minute.",
+        "zh": "临出发前听说班级旅行取消了，你一下子很失落。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "I did not expect our trip to be canceled at the last moment.",
+          "zh": "我没想到旅行会在最后一刻取消。"
+        }
+      }
+    },
+    "displeased": {
+      "definition": {
+        "en": "Not happy or satisfied with what happened or how something was done.",
+        "zh": "对事情的结果或做法不满意，心里有点不高兴。"
+      },
+      "scenario": {
+        "en": "You find that the movie you expected to love was not enjoyable.",
+        "zh": "你发现期待的电影并没有想象中好看。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disquieted": {
+      "definition": {
+        "en": "Feeling unsettled because something seems uncertain or wrong.",
+        "zh": "觉得有什么事不太对劲，心里静不下来。"
+      },
+      "scenario": {
+        "en": "At night you hear an unfamiliar sound outside the window.",
+        "zh": "夜里你听见窗外传来陌生的声音，心里有点不安。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "distressed": {
+      "definition": {
+        "en": "Feeling very upset, worried or hurt by something difficult.",
+        "zh": "遇到难受或令人担心的事，情绪受到很强的冲击。"
+      },
+      "scenario": {
+        "en": "You find out that a pet you care for is unwell.",
+        "zh": "你得知自己关心的小宠物生病了，心里很难受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am upset because my pet is not feeling well.",
+          "zh": "小宠物生病了，我心里特别难受。"
+        }
+      }
+    },
+    "disturbed": {
+      "definition": {
+        "en": "Feeling upset or unsettled by something troubling, not merely interrupted.",
+        "zh": "看到或听到令人不舒服的事，心里受到打扰而不安。"
+      },
+      "scenario": {
+        "en": "You hear people arguing loudly and find it hard to relax.",
+        "zh": "你听到别人激烈争吵，心里很不舒服。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "Hearing people argue loudly made me feel unsettled.",
+          "zh": "听到别人激烈争吵，我心里很不安。"
+        }
+      }
+    },
+    "downcast": {
+      "definition": {
+        "en": "Looking or feeling sad and disappointed.",
+        "zh": "心情低落、失望，脸上也没了笑容。"
+      },
+      "scenario": {
+        "en": "Your favorite activity is canceled, and you leave with your head down.",
+        "zh": "最喜欢的活动取消了，你低着头离开。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "downhearted": {
+      "definition": {
+        "en": "Feeling unhappy and less hopeful after a setback or sad news.",
+        "zh": "遇到挫折或坏消息后，心情低落，没那么有信心了。"
+      },
+      "scenario": {
+        "en": "A friend cannot visit as planned, and you feel sad about it.",
+        "zh": "朋友不能按计划来玩，你心里有点低落。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "dull": {
+      "definition": {
+        "en": "Lacking interest or excitement in a particular activity; it usually describes the activity.",
+        "zh": "一件活动缺少趣味或新鲜感，通常是在形容活动本身。"
+      },
+      "scenario": {
+        "en": "The lesson repeats things you already know, and you start to lose interest.",
+        "zh": "课堂一直重复你已经会的内容，你渐渐没了兴趣。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "edgy": {
+      "definition": {
+        "en": "Feeling tense and easily irritated because you are nervous or uneasy.",
+        "zh": "紧张得绷着神经，一点小事也容易烦躁。"
+      },
+      "scenario": {
+        "en": "Before going onstage, you keep shifting from foot to foot.",
+        "zh": "上台前，你紧张地不停换着脚站。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "embarrassed": {
+      "definition": {
+        "en": "Feeling awkward or self-conscious after a mistake or unwanted attention.",
+        "zh": "出错或被人注意到时，感到难为情、不自在。"
+      },
+      "scenario": {
+        "en": "You say the wrong answer aloud and notice everyone looking.",
+        "zh": "你大声说错了答案，发现大家都在看你。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "embittered": {
+      "definition": {
+        "en": "Feeling lasting anger or hurt after believing life has treated you unfairly.",
+        "zh": "觉得长期受了委屈，心里积起难以消散的怨气。"
+      },
+      "scenario": {
+        "en": "After being unfairly blamed many times, you find it hard to trust the group.",
+        "zh": "被不公平地责怪了好几次后，你很难再信任那个小组。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "exasperated": {
+      "definition": {
+        "en": "Feeling extremely annoyed because the same problem keeps happening.",
+        "zh": "同样的麻烦一再发生，烦得快受不了了。"
+      },
+      "scenario": {
+        "en": "The zipper gets stuck yet again when you are trying to leave.",
+        "zh": "你正要出门，拉链却又卡住了，真让人恼火。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "exhausted": {
+      "definition": {
+        "en": "Feeling so tired that you have very little energy left.",
+        "zh": "累得几乎没有力气了，很需要休息。"
+      },
+      "scenario": {
+        "en": "After a long hike, you sit down and drink water.",
+        "zh": "走了很长一段山路后，你坐下来喝水。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "fatigued": {
+      "definition": {
+        "en": "Feeling physically or mentally tired, sometimes for a longer time.",
+        "zh": "身体或精神感到疲乏，有时持续得比较久。"
+      },
+      "scenario": {
+        "en": "After a long day of concentrating, you find it hard to keep reading.",
+        "zh": "专心学习了很长时间，你已经很难继续看书了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "fearful": {
+      "definition": {
+        "en": "Feeling afraid because something seems dangerous or uncertain.",
+        "zh": "觉得可能有危险或发生不好的事，心里害怕。"
+      },
+      "scenario": {
+        "en": "You look down a dark hallway and hesitate to enter.",
+        "zh": "你看着黑暗的走廊，犹豫着要不要进去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "fidgety": {
+      "definition": {
+        "en": "Having trouble staying still, sometimes because of excitement or nerves.",
+        "zh": "坐不住、总想动来动去，有时因为紧张或兴奋。"
+      },
+      "scenario": {
+        "en": "You keep moving your feet while waiting for your turn.",
+        "zh": "等着轮到自己时，你的脚一直动个不停。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "forlorn": {
+      "definition": {
+        "en": "Feeling lonely, sad and somewhat without hope.",
+        "zh": "又孤单又难过，心里有点无依无靠。"
+      },
+      "scenario": {
+        "en": "You sit by yourself while all the other children have found a partner.",
+        "zh": "别的孩子都找到了搭档，你却独自坐在一边。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "frightened": {
+      "definition": {
+        "en": "Feeling scared because something sudden or threatening happened.",
+        "zh": "遇到突发或可能危险的事，心里害怕起来。"
+      },
+      "scenario": {
+        "en": "A sudden crash nearby makes you jump and look around.",
+        "zh": "旁边突然一声巨响，你吓得一跳，四处张望。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "furious": {
+      "definition": {
+        "en": "Feeling extremely angry, often because something feels very unfair or hurtful.",
+        "zh": "因为严重的不公平或伤害而非常生气，怒气很强烈。"
+      },
+      "scenario": {
+        "en": "Someone deliberately ruins a project you worked hard to build.",
+        "zh": "有人故意毁掉你辛苦做好的作品，你气坏了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "Someone ruined my project on purpose, and I am furious.",
+          "zh": "有人故意毁了我的作品，我气坏了。"
+        }
+      }
+    },
+    "gloomy": {
+      "definition": {
+        "en": "Feeling low and not very hopeful, sometimes for no clear reason.",
+        "zh": "心情阴沉沉的，觉得没什么好期待的，有时也说不清原因。"
+      },
+      "scenario": {
+        "en": "You look out at the gray sky and do not feel like playing.",
+        "zh": "你望着灰蒙蒙的天空，暂时不想出去玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "guilty": {
+      "definition": {
+        "en": "Feeling remorse because you believe you did something wrong or hurt someone.",
+        "zh": "觉得自己做错事或伤害了别人，心里过意不去；这里不是法律上的“有罪”。"
+      },
+      "scenario": {
+        "en": "You remember blaming a friend for something you did yourself.",
+        "zh": "你想起自己把做错的事怪到朋友头上，心里很内疚。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I wish I had not blamed my friend for what I did.",
+          "zh": "我真希望没有把自己的错怪到朋友头上。"
+        }
+      }
+    },
+    "harried": {
+      "definition": {
+        "en": "Feeling hurried and stressed because too many things demand your attention.",
+        "zh": "事情一下子堆过来，忙得慌乱又着急。"
+      },
+      "scenario": {
+        "en": "You try to finish homework while everyone asks you for help.",
+        "zh": "你正赶着写作业，旁边的人又不断请你帮忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "heavy": {
+      "definition": {
+        "en": "Feeling emotionally burdened, as though worry or sadness is hard to carry.",
+        "zh": "心里压着担心或难过的事，感到沉甸甸的；这是比喻说法。"
+      },
+      "scenario": {
+        "en": "You sit quietly after hearing news that makes you sad.",
+        "zh": "听到令人难过的消息后，你静静地坐了一会儿。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "helpless": {
+      "definition": {
+        "en": "Feeling unable to change or solve a hard situation, even when you want to.",
+        "zh": "很想改变眼前的难题，却觉得自己没有办法。"
+      },
+      "scenario": {
+        "en": "You wish your best friend did not have to move away, but you cannot stop it.",
+        "zh": "你不希望好朋友搬走，可自己无法改变这件事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hesitant": {
+      "definition": {
+        "en": "Not feeling ready to act because you are unsure, cautious or a little afraid.",
+        "zh": "因为不确定、谨慎或有点害怕，迟迟不敢行动。"
+      },
+      "scenario": {
+        "en": "You stand beside the new climbing frame and wonder whether to try.",
+        "zh": "你站在没玩过的攀爬架前，犹豫要不要试试。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "horrible": {
+      "definition": {
+        "en": "Describing an experience as very unpleasant or frightening, rather than a precise emotion.",
+        "zh": "形容经历很糟糕或可怕，并不是一种独立的情绪。"
+      },
+      "scenario": {
+        "en": "A scary dream wakes you, and you feel upset.",
+        "zh": "一个可怕的梦把你惊醒，让你心里很难受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "horrified": {
+      "definition": {
+        "en": "Feeling shocked and very frightened by something terrible.",
+        "zh": "看到或听到可怕的事，既震惊又害怕。"
+      },
+      "scenario": {
+        "en": "You hear that a beloved pet nearly got hurt and feel frightened.",
+        "zh": "听说心爱的宠物差点受伤，你又惊又怕。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hostile": {
+      "definition": {
+        "en": "Showing anger or unfriendliness toward another person.",
+        "zh": "对别人带着敌意或强烈的不友好，是一种态度。"
+      },
+      "scenario": {
+        "en": "You turn away and refuse to speak kindly after an argument.",
+        "zh": "争执过后，你转过身，不愿和对方好好说话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am too angry to speak kindly after our argument.",
+          "zh": "争执之后我太生气了，一时没法好好说话。"
+        }
+      }
+    },
+    "hot": {
+      "definition": {
+        "en": "Feeling physically warm because of heat; the word has other senses in different contexts.",
+        "zh": "天气或身体发热让人觉得热；这个词在别的语境里还有其他含义。"
+      },
+      "scenario": {
+        "en": "On a summer day, you look for shade and a cool drink.",
+        "zh": "夏天很热，你想找个阴凉处喝点水。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "humdrum": {
+      "definition": {
+        "en": "Feeling bored by everyday routines that never seem to change.",
+        "zh": "每天都做差不多的事，觉得单调乏味。"
+      },
+      "scenario": {
+        "en": "After repeating the same game for days, you wish for something new.",
+        "zh": "一个游戏接连玩了好几天，你开始想换点新花样。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hurt": {
+      "definition": {
+        "en": "Feeling physical pain or emotional pain because of injury or unkindness.",
+        "zh": "身体受伤会疼，别人说伤人的话也可能让心里难受。"
+      },
+      "scenario": {
+        "en": "Someone makes an unkind comment about your drawing, and you feel hurt.",
+        "zh": "有人说了难听的话评价你的画，你心里受伤了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "impatient": {
+      "definition": {
+        "en": "Feeling annoyed because you want something to happen sooner.",
+        "zh": "很想快点等到结果，因为等待而着急、不耐烦。"
+      },
+      "scenario": {
+        "en": "You stand in a long line and keep asking when it will be your turn.",
+        "zh": "你排着长队，不停问什么时候才轮到自己。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "indifferent": {
+      "definition": {
+        "en": "Not feeling strongly interested or concerned about one choice or result.",
+        "zh": "对某个选择或结果没什么特别的兴趣或在意。"
+      },
+      "scenario": {
+        "en": "Two games sound equally fine to you, so you let your friend choose.",
+        "zh": "两个游戏你都无所谓，就让朋友决定了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "intense-unmet": {
+      "definition": {
+        "en": "Describing feelings that are very strong, including difficult feelings; not one specific emotion.",
+        "zh": "表示感受非常强烈，可能是难受的感受，本身不指一种情绪。"
+      },
+      "scenario": {
+        "en": "Before a big event, you feel a powerful rush of worry.",
+        "zh": "重要活动开始前，一阵强烈的担心涌上心头。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "irate": {
+      "definition": {
+        "en": "Feeling very angry, especially about something you think is wrong or unfair.",
+        "zh": "遇到觉得不对或不公平的事，愤怒得厉害。"
+      },
+      "scenario": {
+        "en": "Someone takes your work without asking and refuses to return it.",
+        "zh": "有人不问就拿走你的作品，还不肯归还，你十分生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "irked": {
+      "definition": {
+        "en": "Feeling mildly annoyed by something small but bothersome.",
+        "zh": "被一件小而烦人的事惹得有点不高兴。"
+      },
+      "scenario": {
+        "en": "A classmate keeps tapping the desk while you are reading.",
+        "zh": "你正看书，同学却一直敲桌子，让你有点烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "irritated": {
+      "definition": {
+        "en": "Feeling bothered or impatient because something keeps annoying you.",
+        "zh": "小麻烦不断出现，心里渐渐烦躁起来。"
+      },
+      "scenario": {
+        "en": "The tag in your shirt scratches your neck all morning.",
+        "zh": "衣服标签一上午都蹭着脖子，让你越来越烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "jealous": {
+      "definition": {
+        "en": "Feeling upset because you fear losing someone's attention or wish you had what another person has.",
+        "zh": "担心在乎的人更喜欢别人，或羡慕别人拥有的东西而难受；要看具体语境。"
+      },
+      "scenario": {
+        "en": "Your friend gets a turn with the new toy, and you wish it were your turn too.",
+        "zh": "朋友先玩到了新玩具，你也盼着早点轮到自己。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I wish I could have a turn with the new toy too.",
+          "zh": "我也想轮到自己玩那个新玩具。"
+        }
+      }
+    },
+    "jittery": {
+      "definition": {
+        "en": "Feeling nervous and physically shaky, often before something important.",
+        "zh": "重要事情开始前，紧张得手脚有点发抖。"
+      },
+      "scenario": {
+        "en": "You wait to speak in front of the class and your hands feel shaky.",
+        "zh": "你等着在全班面前发言，手有些发抖。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "lazy": {
+      "definition": {
+        "en": "An often judgmental word for not wanting to make an effort; tiredness or needing rest is different.",
+        "zh": "常带评价意味，指不愿花力气做事；和疲劳、需要休息不一样。"
+      },
+      "scenario": {
+        "en": "You put off a chore even though you have energy and time for it.",
+        "zh": "你明明有时间也有力气，却一直不想做约定好的家务。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep putting off that chore, even though I have time.",
+          "zh": "明明有时间，我还是一直拖着不想做家务。"
+        }
+      }
+    },
+    "leery": {
+      "definition": {
+        "en": "Feeling cautious because you are not sure something is safe or true.",
+        "zh": "对某件事的安全或真实性不放心，所以保持警惕。"
+      },
+      "scenario": {
+        "en": "A stranger makes an unusual promise, and you want to check it first.",
+        "zh": "陌生人提出奇怪的承诺，你想先核实。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "lethargic": {
+      "definition": {
+        "en": "Feeling unusually low in energy and moving more slowly than usual.",
+        "zh": "精力比平时少，动作也慢吞吞的。"
+      },
+      "scenario": {
+        "en": "You feel slow and want to rest after a tiring day.",
+        "zh": "累了一天后，你没什么力气，只想休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "listless": {
+      "definition": {
+        "en": "Feeling low on energy and having little interest in usual activities.",
+        "zh": "没有什么精神，平时喜欢的事也提不起兴趣。"
+      },
+      "scenario": {
+        "en": "Your favorite game is ready, but you do not feel like starting.",
+        "zh": "最喜欢的游戏已经准备好了，你却不想开始。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mad": {
+      "definition": {
+        "en": "In this context, a common informal word for feeling angry; it has other unrelated meanings.",
+        "zh": "这里是“生气”的口语说法；在别的语境下还有不同含义。"
+      },
+      "scenario": {
+        "en": "Someone ignores the agreed rules, and you feel angry.",
+        "zh": "有人不遵守说好的规则，你很生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I got angry when someone ignored our agreed rules.",
+          "zh": "有人不遵守说好的规则，我很生气。"
+        }
+      }
+    },
+    "mean": {
+      "definition": {
+        "en": "Acting unkindly or trying to hurt someone with words or actions; not a feeling.",
+        "zh": "说话或做事不友善，甚至有意伤害别人；这是行为评价，不是情绪。"
+      },
+      "scenario": {
+        "en": "Someone makes fun of a classmate instead of helping them.",
+        "zh": "有人嘲笑同学，而不是伸手帮忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "0": {
+          "en": "That was mean of me, and I want to make it right.",
+          "zh": "我刚才那样说太刻薄了，我想弥补。"
+        }
+      }
+    },
+    "miserable": {
+      "definition": {
+        "en": "Feeling very unhappy and uncomfortable for a while.",
+        "zh": "一段时间里特别难过，心里或身体都很不舒服。"
+      },
+      "scenario": {
+        "en": "Several plans go wrong in one day, and you feel awful.",
+        "zh": "一天里好几件事都不顺，你难受极了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mopey": {
+      "definition": {
+        "en": "Acting sad and quiet, with little interest in joining activities.",
+        "zh": "闷闷不乐，不太想说话或参加活动。"
+      },
+      "scenario": {
+        "en": "You sit by the window instead of playing your usual game.",
+        "zh": "你坐在窗边，连平时爱玩的游戏都暂时不想玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "morose": {
+      "definition": {
+        "en": "Feeling very gloomy and unwilling to talk or smile.",
+        "zh": "心情阴郁，懒得说话，也很难笑起来。"
+      },
+      "scenario": {
+        "en": "You stay quiet after a disappointing day and do not feel like chatting.",
+        "zh": "失望的一天过后，你安静地待着，不想聊天。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mournful": {
+      "definition": {
+        "en": "Feeling sorrow because someone or something important is gone.",
+        "zh": "因为失去或想念重要的人、事，心里悲伤。"
+      },
+      "scenario": {
+        "en": "You look at a photo and miss a pet that died.",
+        "zh": "你看着照片，想念已经离开的宠物。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "nervous": {
+      "definition": {
+        "en": "Feeling tense or worried about how something will turn out.",
+        "zh": "担心事情会怎样发展，身体或心里有点紧张。"
+      },
+      "scenario": {
+        "en": "Before the class presentation, you take a deep breath and look at your notes.",
+        "zh": "班级展示前，你看着提示卡，深深吸了一口气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "nettled": {
+      "definition": {
+        "en": "Feeling annoyed because someone's words or actions bothered you.",
+        "zh": "被别人的话或举动惹得心里不舒服。"
+      },
+      "scenario": {
+        "en": "Someone keeps teasing you about a mistake and you frown.",
+        "zh": "有人不断拿你的一次失误开玩笑，你皱起眉头。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "numb": {
+      "definition": {
+        "en": "Feeling little or no physical sensation, or emotionally unable to notice what you feel.",
+        "zh": "可指身体没有感觉，也可指受冲击后一时感受不到情绪；必须区分语境。"
+      },
+      "scenario": {
+        "en": "After shocking news, you sit quietly and cannot name how you feel.",
+        "zh": "听到让人震惊的消息后，你静静坐着，一时说不出自己的感受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "overwhelmed-unmet": {
+      "definition": {
+        "en": "Feeling that there is more worry, emotion or work than you can manage at once.",
+        "zh": "担心、情绪或事情一下子太多，让你觉得应付不过来。"
+      },
+      "scenario": {
+        "en": "You face several tasks at once and do not know where to begin.",
+        "zh": "好几件事同时压过来，你不知道先做哪件。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "panicky": {
+      "definition": {
+        "en": "Feeling suddenly very afraid and unable to think calmly.",
+        "zh": "突然特别害怕，脑子里乱成一团，难以冷静思考。"
+      },
+      "scenario": {
+        "en": "You lose sight of your family in a busy place for a moment.",
+        "zh": "在人多的地方，你突然看不到家人了，心里一下子慌了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "When I could not see my family in the crowd, I felt panicky.",
+          "zh": "在人群里看不到家人时，我一下子慌了。"
+        }
+      }
+    },
+    "passive": {
+      "definition": {
+        "en": "Letting others take the lead instead of speaking or acting for yourself; not one emotion.",
+        "zh": "很少主动发言或行动，经常让别人做主；这不是一种具体情绪。"
+      },
+      "scenario": {
+        "en": "During a group project, you wait for others to choose every task.",
+        "zh": "小组合作时，你总等着别人分配任务。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "perplexed": {
+      "definition": {
+        "en": "Feeling puzzled because something is hard to understand or explain.",
+        "zh": "事情太难理解，让你想不通，感到迷惑。"
+      },
+      "scenario": {
+        "en": "You stare at puzzling instructions and wonder where to start.",
+        "zh": "你看着复杂的说明，想不明白从哪儿开始。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "pessimistic": {
+      "definition": {
+        "en": "Often expecting that a situation may turn out badly.",
+        "zh": "总倾向于预想事情可能会往不好的方向发展。"
+      },
+      "scenario": {
+        "en": "Before the game begins, you assume your team will lose.",
+        "zh": "比赛还没开始，你就觉得自己的队伍肯定会输。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "puzzled": {
+      "definition": {
+        "en": "Feeling confused because you cannot yet figure out an answer or how something works.",
+        "zh": "遇到想不通的问题，还没找到答案，心里有点困惑。"
+      },
+      "scenario": {
+        "en": "Two puzzle pieces look as if they should fit, but they do not.",
+        "zh": "两块拼图看着该拼在一起，却怎么也拼不上。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "rancorous": {
+      "definition": {
+        "en": "Holding a strong, long-lasting grudge because of a past hurt.",
+        "zh": "因为过去受到伤害，心里长久留着强烈的怨气。"
+      },
+      "scenario": {
+        "en": "You still feel angry about how a teammate treated you weeks ago.",
+        "zh": "好几个星期过去了，你想到队友当时的做法还是生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "reluctant": {
+      "definition": {
+        "en": "Not wanting to do something, even though you may have to decide about it.",
+        "zh": "不太情愿做某件事，心里还有些抵触。"
+      },
+      "scenario": {
+        "en": "A friend asks you to join a game you do not enjoy, and you hesitate.",
+        "zh": "朋友邀请你参加一个你不喜欢的游戏，你犹豫了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I do not really want to join that game right now.",
+          "zh": "我现在真的不太想参加那个游戏。"
+        }
+      }
+    },
+    "repelled": {
+      "definition": {
+        "en": "Feeling strongly put off by something unpleasant and wanting to move away.",
+        "zh": "遇到令人反感或不舒服的东西，很想离远一点。"
+      },
+      "scenario": {
+        "en": "A strong bad smell makes you step back from the bin.",
+        "zh": "垃圾桶传来刺鼻的气味，你连忙后退。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "resentful": {
+      "definition": {
+        "en": "Feeling angry or hurt because you believe you were treated unfairly.",
+        "zh": "觉得自己受到不公平对待，心里有怨气或委屈。"
+      },
+      "scenario": {
+        "en": "You do most of the group work but someone else takes all the credit.",
+        "zh": "小组作业大部分是你完成的，功劳却被别人全拿走了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I did most of the work, but someone else took the credit.",
+          "zh": "工作大部分是我做的，功劳却被别人拿走了。"
+        }
+      }
+    },
+    "restless": {
+      "definition": {
+        "en": "Finding it hard to sit still or relax, sometimes because of excitement or worry.",
+        "zh": "因为担心、期待或别的原因，很难安静地待着。"
+      },
+      "scenario": {
+        "en": "You keep walking around while waiting for important news.",
+        "zh": "你等着一个重要消息，忍不住走来走去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sad": {
+      "definition": {
+        "en": "Feeling unhappy or hurt when something matters to you and does not go well.",
+        "zh": "在乎的事情不顺利或失去重要的东西时，心里难过。"
+      },
+      "scenario": {
+        "en": "You miss your friend who moved away and look at a picture together.",
+        "zh": "你想念搬走的朋友，翻看你们的合照。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I miss my friend who moved away.",
+          "zh": "我很想念搬走的朋友。"
+        }
+      }
+    },
+    "scared": {
+      "definition": {
+        "en": "Feeling afraid because something seems frightening or unsafe.",
+        "zh": "觉得周围有可怕或不安全的事，心里害怕。"
+      },
+      "scenario": {
+        "en": "A loud sound outside makes you jump and look for a safe place.",
+        "zh": "外面突然一声巨响，你吓了一跳，想找个安全的地方。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "That loud noise made me jump and feel afraid.",
+          "zh": "刚才的巨响把我吓了一跳。"
+        }
+      }
+    },
+    "sensitive-unmet": {
+      "definition": {
+        "en": "Feeling easily hurt or strongly affected by certain words or situations.",
+        "zh": "对别人的话或某些情境反应比较强烈，容易觉得受伤。"
+      },
+      "scenario": {
+        "en": "Someone laughs at your work, and the comment stays on your mind.",
+        "zh": "有人嘲笑你的作品，那句话一直让你不好受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "shaky": {
+      "definition": {
+        "en": "Trembling or feeling physically unsteady, sometimes because you are nervous.",
+        "zh": "身体在发抖或站不稳，有时和紧张有关。"
+      },
+      "scenario": {
+        "en": "Before speaking in class, your hands tremble slightly.",
+        "zh": "上台发言前，你的手轻轻发抖。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "shocked": {
+      "definition": {
+        "en": "Feeling strongly surprised or upset by something sudden and unexpected.",
+        "zh": "突发的事让你非常吃惊，有时还感到难过或害怕。"
+      },
+      "scenario": {
+        "en": "You hear a loud crash and see a picture frame broken on the floor.",
+        "zh": "突然一声巨响，你看见地上摔碎了一个相框。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "The loud crash startled me, and I saw the broken frame.",
+          "zh": "一声巨响把我吓了一跳，我看到相框碎了。"
+        }
+      }
+    },
+    "skeptical": {
+      "definition": {
+        "en": "Not ready to believe a claim until you have a reason or evidence.",
+        "zh": "听到一种说法时还不太相信，希望先看到证据。"
+      },
+      "scenario": {
+        "en": "A friend says the toy can fly by itself, and you ask to see it.",
+        "zh": "朋友说玩具会自己飞，你想先看看是不是真的。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sleepy": {
+      "definition": {
+        "en": "Feeling that your body needs sleep.",
+        "zh": "身体想睡觉，眼睛发沉，精力不太够。"
+      },
+      "scenario": {
+        "en": "It is bedtime, and you keep yawning as you read.",
+        "zh": "该睡觉了，你看着书不停打哈欠。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sorrowful": {
+      "definition": {
+        "en": "Feeling deep sadness, especially about something important you have lost.",
+        "zh": "因为失去重要的人或事而感到深深的悲伤。"
+      },
+      "scenario": {
+        "en": "You think about a pet you miss and hold its photo close.",
+        "zh": "你想起非常想念的宠物，把它的照片贴在胸前。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "Looking at my pet's photo makes me miss them deeply.",
+          "zh": "看到宠物的照片，我特别想念它。"
+        }
+      }
+    },
+    "sorry": {
+      "definition": {
+        "en": "Feeling regret because something you did may have hurt someone; also used to apologize.",
+        "zh": "因为自己的言行可能伤害别人而后悔，也可以用来向人道歉。"
+      },
+      "scenario": {
+        "en": "You realize your words upset a friend and decide to say sorry.",
+        "zh": "你发现自己的话让朋友难过，决定去道歉。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "spiritless": {
+      "definition": {
+        "en": "Having little energy or enthusiasm and not feeling ready to join in.",
+        "zh": "没什么精神，也提不起参加活动的兴致。"
+      },
+      "scenario": {
+        "en": "Your friends begin a game, but you feel too drained to play.",
+        "zh": "朋友们开始玩游戏，你却累得提不起劲儿。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "startled": {
+      "definition": {
+        "en": "Suddenly surprised or briefly frightened by something unexpected.",
+        "zh": "突如其来的动静把你吓了一跳，通常只是一瞬间。"
+      },
+      "scenario": {
+        "en": "A door slams behind you and you turn around quickly.",
+        "zh": "身后突然传来关门声，你吓得立刻回头。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "surprised-unmet": {
+      "definition": {
+        "en": "Feeling surprised by something unexpected that is unwelcome or unsettling.",
+        "zh": "发生了没料到的事，让你吃惊又有点不安。"
+      },
+      "scenario": {
+        "en": "You arrive at the playground and find it suddenly closed.",
+        "zh": "你来到游乐场，却发现它突然关门了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "The playground was closed, and I had not expected it.",
+          "zh": "游乐场突然关门了，我一点也没想到。"
+        }
+      }
+    },
+    "suspicious": {
+      "definition": {
+        "en": "Feeling that a claim or person's actions may not be honest, without knowing for sure.",
+        "zh": "觉得某种说法或举动可能不可靠，但还没有确定证据。"
+      },
+      "scenario": {
+        "en": "A story keeps changing when you ask simple questions.",
+        "zh": "你问了几个简单问题，却发现对方的说法一直在变。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "tepid": {
+      "definition": {
+        "en": "Showing little enthusiasm or interest; more often describes a reaction than an emotion.",
+        "zh": "反应平淡、没什么热情；通常是在描述态度，不是独立情绪。"
+      },
+      "scenario": {
+        "en": "You hear about a suggested outing but feel only mildly interested.",
+        "zh": "有人提议周末出游，你听了没多大兴致。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "terrified": {
+      "definition": {
+        "en": "Feeling extremely frightened by something that seems seriously dangerous.",
+        "zh": "觉得有很大的危险，害怕到了极点。"
+      },
+      "scenario": {
+        "en": "You get separated from your family in a crowded station and ask for help.",
+        "zh": "拥挤的车站里，你一时找不到家人，害怕得赶紧求助。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I could not find my family in the crowded station, and I felt terrified.",
+          "zh": "在拥挤的车站找不到家人时，我害怕极了。"
+        }
+      }
+    },
+    "tired": {
+      "definition": {
+        "en": "Feeling low on energy and wanting to rest.",
+        "zh": "身体或精神累了，想停下来休息。"
+      },
+      "scenario": {
+        "en": "After a long day of playing, you sit down for a break.",
+        "zh": "玩了一整天，你坐下来歇一会儿。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "troubled": {
+      "definition": {
+        "en": "Feeling bothered by a worry or problem that keeps returning to your mind.",
+        "zh": "有件烦心事总在脑海里打转，让你放不下心。"
+      },
+      "scenario": {
+        "en": "You keep thinking about an argument with your friend.",
+        "zh": "你一直想着和朋友吵架的事，心里不踏实。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "uncomfortable": {
+      "definition": {
+        "en": "Feeling physically uneasy or not at ease in a situation.",
+        "zh": "身体不舒服，或在某种场合觉得不自在。"
+      },
+      "scenario": {
+        "en": "Your shoes are too tight, and you want to take them off.",
+        "zh": "鞋子太紧了，你很想脱下来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unconcerned": {
+      "definition": {
+        "en": "Not worried about a particular problem because it does not seem serious to you.",
+        "zh": "觉得某件事没什么可担心的，所以很放松；不一定是不关心别人。"
+      },
+      "scenario": {
+        "en": "You spill a little water and calmly reach for a cloth.",
+        "zh": "不小心洒了一点水，你平静地拿抹布擦干。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I spilled a little water, but I knew I could wipe it up.",
+          "zh": "我洒了一点水，但知道擦干就好了，所以没担心。"
+        }
+      }
+    },
+    "uneasy": {
+      "definition": {
+        "en": "Feeling that something may be wrong, even if you cannot say exactly why.",
+        "zh": "说不清为什么，总觉得哪里不对劲，心里不安。"
+      },
+      "scenario": {
+        "en": "You notice the path looks different from the map and hesitate.",
+        "zh": "你发现眼前的路和地图不太一样，心里有点不踏实。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unglued": {
+      "definition": {
+        "en": "Becoming so upset that it feels hard to stay calm or think clearly; informal speech.",
+        "zh": "情绪一下子乱了套，难以冷静思考；这是口语夸张说法。"
+      },
+      "scenario": {
+        "en": "Several things go wrong at once, and you need a moment to settle down.",
+        "zh": "几件事同时出了岔子，你需要一会儿才能缓过来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unhappy": {
+      "definition": {
+        "en": "Not feeling pleased or cheerful, for many possible reasons.",
+        "zh": "心里不高兴、不快乐，原因可以有很多。"
+      },
+      "scenario": {
+        "en": "Your plans change suddenly and you feel disappointed.",
+        "zh": "原定的计划突然变了，你心里不太高兴。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unnerved": {
+      "definition": {
+        "en": "Feeling shaken and less confident after something unsettling happens.",
+        "zh": "遇到令人不安的事后，心里发慌，信心也受影响。"
+      },
+      "scenario": {
+        "en": "A sudden noise during rehearsal makes it hard to focus again.",
+        "zh": "排练时突然一声巨响，让你接下来很难集中注意力。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unsteady": {
+      "definition": {
+        "en": "Not keeping your balance physically, or feeling unsure; clarify which sense is meant.",
+        "zh": "身体站不稳，或心里不够踏实；这两个意思需要分开理解。"
+      },
+      "scenario": {
+        "en": "After spinning on the playground, you take a moment to balance.",
+        "zh": "在游乐场转了一圈后，你先站一会儿稳住身体。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "upset": {
+      "definition": {
+        "en": "Feeling unhappy, worried, angry or hurt because something bothers you.",
+        "zh": "因为发生了烦心事，感到难过、担心或生气。"
+      },
+      "scenario": {
+        "en": "Your carefully planned game gets interrupted and you feel upset.",
+        "zh": "精心安排的游戏被打断，你心里很烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "uptight": {
+      "definition": {
+        "en": "Feeling tense and worried, often because you are trying hard to control a situation.",
+        "zh": "心里紧绷又焦虑，有时因为太想把事情控制好。"
+      },
+      "scenario": {
+        "en": "You check your project again and again because you worry about mistakes.",
+        "zh": "因为怕出错，你反复检查自己的作品。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "vexed": {
+      "definition": {
+        "en": "Feeling annoyed or frustrated by a problem that is hard to solve.",
+        "zh": "难题迟迟解决不了，感到烦恼或恼火。"
+      },
+      "scenario": {
+        "en": "You cannot solve the puzzle even after trying several ways.",
+        "zh": "你换了几种方法还是解不开谜题，越来越烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "weary": {
+      "definition": {
+        "en": "Feeling very tired, sometimes after a long effort or difficult experience.",
+        "zh": "长时间努力或经历困难后，身心很疲惫。"
+      },
+      "scenario": {
+        "en": "After a long walk, you rest on a bench and drink water.",
+        "zh": "走了很远的路后，你坐在长椅上喝水休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "wistful": {
+      "definition": {
+        "en": "Feeling a gentle sadness while wishing for something you miss or cannot have now.",
+        "zh": "想念过去或得不到的美好事物时，心里有点温柔的惆怅。"
+      },
+      "scenario": {
+        "en": "You look at photos from a happy holiday and wish you could go back.",
+        "zh": "你翻看开心假期的照片，真希望再回到那时。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "withdrawn": {
+      "definition": {
+        "en": "Being unusually quiet and keeping to yourself, sometimes because you feel troubled.",
+        "zh": "比平时更沉默，暂时不愿和人来往；原因可能有很多。"
+      },
+      "scenario": {
+        "en": "After a difficult day, you choose a quiet corner instead of joining a game.",
+        "zh": "辛苦的一天过后，你独自待在安静的角落，不想参加游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "After a hard day, I just want to spend some time alone.",
+          "zh": "辛苦了一天后，我暂时想自己安静待会儿。"
+        }
+      }
+    },
+    "woeful": {
+      "definition": {
+        "en": "Feeling deep sorrow or looking very unhappy.",
+        "zh": "心里很悲伤，或看起来愁眉苦脸。"
+      },
+      "scenario": {
+        "en": "You miss someone dear and find it hard to smile.",
+        "zh": "你很想念一位亲近的人，一时笑不出来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I miss someone I love and find it hard to smile.",
+          "zh": "我很想念亲近的人，一时笑不出来。"
+        }
+      }
+    },
+    "worried": {
+      "definition": {
+        "en": "Thinking repeatedly about something bad that might happen.",
+        "zh": "总想着可能发生的不好的事，心里放不下。"
+      },
+      "scenario": {
+        "en": "You keep wondering whether your friend will get home safely.",
+        "zh": "你一直惦记朋友能不能安全到家。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep wondering whether my friend got home safely.",
+          "zh": "我一直担心朋友有没有平安到家。"
+        }
+      }
+    },
+    "wretched": {
+      "definition": {
+        "en": "Feeling extremely unhappy, distressed or physically unwell.",
+        "zh": "极度难过、难受，甚至身体也可能不舒服。"
+      },
+      "scenario": {
+        "en": "After several things go wrong, you sit quietly feeling awful.",
+        "zh": "接连几件事都不顺，你难受地坐着不想说话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    }
+  }
+}

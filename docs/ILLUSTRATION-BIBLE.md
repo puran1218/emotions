@@ -1,5 +1,7 @@
 # EmoLex illustration bible · v2 · Playful Color Sketch
 
+**Explanation companion:** [Visual Explanation — The scene is the explanation](VISUAL-EXPLANATION.md). The new document adds a semantic planning step borrowed from Anatomy; it **does not** change the Playful Color Sketch style, add a technical isometric aesthetic, or introduce interactive/animated diagrams. Five linked, production-ready-to-brief but **not approved** scene specifications live in `data/illustration-briefs/pilots.json`.
+
 **Art direction: Playful Color Sketch.** Friendly, slightly wobbly charcoal/pencil outlines, hand-colored crayon and marker fills, a few lively doodles, and generous warm-paper white space. The result should look inviting enough for a child to imitate, without adding a drawing feature to the app. Each picture must still show one concrete event and an accurately legible feeling, rather than an emoji or an exaggerated caricature. The illustration and child-facing scene text must refer to the **same** moment.
 
 ## Recurring cast
@@ -54,3 +56,8 @@ Never claim placeholder art is a scene depiction. Publishing **content-approved 
 Previous prototype faces had blush outside the face shape; that made the characters unintentionally frightening. New sketches need cheeks that stay within the facial outline, stable relative eye/brow/mouth placement, consistent proportions, and expressive but welcoming faces. Use human visual assessment across all five sample emotions and at phone thumbnail sizes; do not depend on the previous SVG coordinate system as a global art rule.
 
 The illustration work deliberately comes **after** the plugin-and-content PR. No drawing feature is planned.
+
+
+## Scene explanation before illustration generation
+
+For each new image, confirm the corresponding plain-language definition and one canonical scenario, and write a `coreMeaning → single moment → visible evidence → confusableWith → mustAvoid → withoutTextTest` brief. Require observable physical evidence of the event, not a stock feeling face or floating labels. An image can support a child's interpretation, but cannot **prove** someone's feelings by expression alone. The story can be simple; never copy Anatomy's requirement for dozens of detailed mechanical parts. Keep alt text describing the *actual asset*. The shared neutral placeholder remains unchanged until an image is visually reviewed in the later art branch.

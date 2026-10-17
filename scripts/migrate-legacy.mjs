@@ -136,6 +136,35 @@ for(const item of result.expanded)if(semanticOverrides[item.id]){
  if(fix.definitionEn)item.definition.en=fix.definitionEn;
 }
 result.report.semanticOverrideCount=Object.keys(semanticOverrides).length;
+
+// Full-corpus clarity calibration is a source-controlled editorial overlay, not an edit
+// to generated legacy-expanded.json. Original ZIP text and manual expression overrides
+// remain recoverable. Proposed text does NOT imply human editorial approval.
+const clarity=JSON.parse(fs.readFileSync(path.join(root,"data/editorial/legacy-calibration.json"),"utf8"));
+if(clarity.reviewStatus==="approved"||clarity.status!=="editorial-proposals-not-human-approved")throw new Error("Invalid calibration review status");
+const clarityIds=new Set(result.expanded.map(x=>x.id));
+for(const id of Object.keys(clarity.entries))if(!clarityIds.has(id))throw new Error("Unknown clarity calibration ID: "+id);
+if(Object.keys(clarity.entries).length!==result.expanded.length)throw new Error("Every migrated concept requires an individual clarity calibration record");
+let expressionPatchCount=0;
+for(const item of result.expanded){
+  const proposal=clarity.entries[item.id];
+  if(!proposal?.definition?.en||!proposal.definition.zh||!proposal.scenario?.en||!proposal.scenario.zh)throw new Error("Incomplete bilingual calibration: "+item.id);
+  if(proposal.reviewStatus!=="proposed")throw new Error("Unexpected human approval state: "+item.id);
+  item.definition={en:proposal.definition.en,zh:proposal.definition.zh};
+  item.scenario={en:proposal.scenario.en,zh:proposal.scenario.zh};
+  for(const [index,value] of Object.entries(proposal.expressionPatch||{})){
+    const pos=Number(index);
+    if(!Number.isInteger(pos)||pos<0||pos>=item.expression.length||!value?.en||!value?.zh)throw new Error("Invalid expression patch: "+item.id+"/"+index);
+    item.expression[pos]={en:value.en,zh:value.zh};
+    expressionPatchCount++;
+  }
+  // Maintain the original draft/pilot visibility and review ledger semantics.
+  if(item.review.translation==="approved"||item.review.meaning==="approved")throw new Error("Automatic clarity review cannot publish an entry");
+}
+result.report.clarityCalibrationCount=Object.keys(clarity.entries).length;
+result.report.clarityExpressionPatchCount=expressionPatchCount;
+result.report.clarityReviewStatus=clarity.status;
+
 result.report.handCuratedOverrideCount=Object.keys(overrides).length;
 result.report.originalCuratedCount=result.expanded.length-Object.keys(overrides).length;
 result.report.templateExpressionCount=0;

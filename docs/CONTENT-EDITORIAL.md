@@ -1,5 +1,7 @@
 # Content architecture and review gate
 
+**Review companion:** [EmoLex Plain Language](PLAIN-LANGUAGE.md) applies STE-inspired clarity rules to definitions but keeps the scenario and spoken expressions warm and natural. [Visual Explanation](VISUAL-EXPLANATION.md) ties the same reviewed meaning to an honest static scene. Both guidelines are content-review tools, not formal STE compliance or automatic publication approval.
+
 **Never equate source-word occurrences with publishable emotion concepts.** Preserve the original four lists under \`data/source-words.json\`: English met=107, unmet=135; Chinese met=31, unmet=49. English has 242 occurrences but 234 distinct spellings, and eight forms occur in both categories (aroused, concerned, cool, intense, keyed-up, overwhelmed, sensitive, surprised).
 
 ## Single source of truth
@@ -31,3 +33,14 @@ Curate short, speakable examples with different communicative functions: (1) nam
 The UI shows all examples, always bilingual, with a speaker button for the primary display language on each card. The sharing PNG intentionally displays only the first **two** examples; order therefore conveys editorial priority, not arbitrary sorting. Keep the default first entry a direct and useful expression. Adding a fourth requires a distinct usage situation. More examples are not a reason to fabricate new illustration scenes.
 
 All five original pilots and 230 migrated canonical drafts now have three individual bilingual expression pairs. The latter use 189 explicit expression overrides plus 41 originally composed sets. All remain drafts until semantic, translation and child-suitability approval.
+
+
+## Five-pilot cross-modal calibration (October 2026)
+
+The first implementation lives in `data/editorial/pilot-calibration.json`: five **proposed** before/after changes with rationale and a contrast from nearby feelings. The corresponding five static-scene briefs live in `data/illustration-briefs/pilots.json`. They are checked against `data/concepts/pilot.json`; the public/runtime data continues to use the shared neutral placeholder.
+
+Use `npm run review:editorial` for the **full canonical catalog** and `npm run review:editorial -- --pilot` to focus on the five pilots. Add `--json` to capture machine-readable advisory findings. The checks only flag obvious form risks (sentence length, missing translations, duplicate or excessively similar expressions); review meaning, ages, tone, bilingual naturalness and emotion distinctions manually. Do **not** automatically rewrite/approve the 220+ migrated previews or the ten withheld high-risk senses. Record each independently reviewed decision in the canonical editorial review and existing source ledger; do not modify the original ZIP archive.
+
+## Corpus-wide Plain Language revision proposals
+
+The next pass after the five pilots is stored in `data/editorial/legacy-calibration.json`, containing **230 keyed bilingual definition/scenario reviews** plus **70 revised speaking examples**. Its 230 before/source/after review packets are regenerated with `npm run review:packets` and documented in [Full Corpus Calibration](FULL-CORPUS-CALIBRATION.md). The migration script applies this overlay last, without editing the recovered ZIP or deleting earlier specific overrides, and keeps all review statuses unapproved. Ten ambiguity-sensitive entries remain withheld. **These are editorial revision proposals, not a human-review approval.** Review expression naturalness, taxonomy, and all 322 original inventory occurrence decisions separately before formal publication.

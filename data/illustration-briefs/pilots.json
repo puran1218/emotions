@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "reference": "docs/VISUAL-EXPLANATION.md",
+  "source": "data/concepts/pilot.json",
+  "reviewStatus": "planning-not-approved",
+  "illustrationSharedDefaults": {
+    "format": "static-3:2",
+    "style": "Playful Color Sketch; warm paper, wobbly but coherent graphite outlines, a few purposeful crayon accents",
+    "imageStatus": "planning-only",
+    "productionAsset": "./images/feeling-placeholder.svg"
+  },
+  "briefs": [
+    {
+      "id": "joy",
+      "momentToDraw": "Mei spots the first sunflower blossom she grew; one bright flower is the focus.",
+      "focus": "the child's attention goes toward the newly opened sunflower",
+      "visibleEvidence": [
+        "one clearly opened sunflower bloom on a plant",
+        "Mei leaning toward it, smiling and eager to share",
+        "small gardening cue such as a planter or soil"
+      ],
+      "invisibleContext": "The child planted this sunflower; include a pot or garden cue, but do not claim the drawing proves the prior planting.",
+      "confusableWith": [
+        "excitement",
+        "contentment"
+      ],
+      "distinguishBy": "gentle delight at something hoped for, not a trophy, fireworks, celebration crowd or calm resting",
+      "mustAvoid": [
+        "a detached emoji face",
+        "explosive victory pose",
+        "unexplained flowers without child response"
+      ],
+      "composition": "flower and child's looking direction form one readable diagonal; primary action stays clear in a 90px thumbnail",
+      "withoutTextTest": "Can the viewer point to the thing that made Mei happy? Does the picture show wonder rather than a generic smile?",
+      "word": {
+        "en": "Joy",
+        "zh": "喜悦"
+      },
+      "definition": {
+        "en": "Joy is a strong feeling of happiness. You may feel it when something you hoped for happens.",
+        "zh": "喜悦是心里特别开心的感觉。期待的好事发生时，你可能会感到喜悦。"
+      },
+      "scenario": {
+        "en": "You see the first flower on the sunflower you planted.",
+        "zh": "你看到自己种的向日葵开出了第一朵花。"
+      },
+      "artStatus": "pending-human-visual-review"
+    },
+    {
+      "id": "frustration",
+      "momentToDraw": "The rebuilt block tower has fallen again. Mei reaches toward the blocks, shoulders held tight.",
+      "focus": "the failure of a careful effort, visible in the collapsed blocks",
+      "visibleEvidence": [
+        "fallen blocks that obviously used to form a tower",
+        "a child's open hand reaching as if trying to save or rebuild",
+        "tense shoulders and eyebrows without a frightening face"
+      ],
+      "invisibleContext": "The child has already tried carefully; show an unfinished rebuilding action or a few stacked blocks beside the fall, not a multi-panel time sequence.",
+      "confusableWith": [
+        "anger",
+        "disappointment"
+      ],
+      "distinguishBy": "blocked effort and unfinished work rather than someone deliberately smashing blocks or simply looking sad at an unrelated result",
+      "mustAvoid": [
+        "violent throwing or punching",
+        "tears used as the only clue",
+        "dark frightening face or floating blush"
+      ],
+      "composition": "child and spilled blocks in one frame, clean floor and strong diagonals, focal relationship survives small display",
+      "withoutTextTest": "Can the viewer tell the blocks fell during an attempted build, not because Mei chose to knock them over?",
+      "word": {
+        "en": "Frustration",
+        "zh": "挫败感"
+      },
+      "definition": {
+        "en": "Frustration is an upset feeling you may have when you keep trying but something still does not work.",
+        "zh": "你努力试了好多次，事情还是不顺利，可能会又着急又烦。这种感觉叫挫败感。"
+      },
+      "scenario": {
+        "en": "Your block tower falls again after you carefully rebuild it.",
+        "zh": "你小心地重新搭好积木塔，可它又倒了。"
+      },
+      "artStatus": "pending-human-visual-review"
+    },
+    {
+      "id": "loneliness",
+      "momentToDraw": "Mei sits on a bench looking toward a distant group of children playing.",
+      "focus": "the meaningful distance between Mei and people she wants to join",
+      "visibleEvidence": [
+        "one child seated apart, looking toward other children",
+        "a small distant play group rather than a lonely empty landscape",
+        "inward posture and an empty spot beside her without stereotyped tears"
+      ],
+      "invisibleContext": "The feeling is wanting connection. A still image cannot prove it; gaze and spatial separation provide plausible clues, with the caption supplying the meaning.",
+      "confusableWith": [
+        "peaceful solitude",
+        "sadness"
+      ],
+      "distinguishBy": "the child's wish to be with a visible group rather than choosing to sit alone peacefully",
+      "mustAvoid": [
+        "claiming every child alone is lonely",
+        "bullying or a deliberately rejecting group unless in the approved scenario",
+        "exaggerated grief or a threatening empty setting"
+      ],
+      "composition": "Mei foreground left, distant children small right with believable depth; connecting gaze stays noticeable at 90px",
+      "withoutTextTest": "Can the viewer identify who Mei wants to join? Could the picture be misread as enjoying a quiet break?",
+      "word": {
+        "en": "Loneliness",
+        "zh": "孤独感"
+      },
+      "definition": {
+        "en": "Loneliness is a sad feeling you may have when you want company but feel alone.",
+        "zh": "当你想有人陪伴，却觉得自己孤零零时，可能会感到孤单。"
+      },
+      "scenario": {
+        "en": "You sit on a bench and watch other children play. You wish you could join them.",
+        "zh": "你坐在长椅上看别的孩子玩，也很想加入他们。"
+      },
+      "artStatus": "pending-human-visual-review"
+    },
+    {
+      "id": "affection",
+      "momentToDraw": "The dog voluntarily comes close to Mei to snuggle; Mei gently holds it.",
+      "focus": "mutual comfortable closeness, initiated by the dog",
+      "visibleEvidence": [
+        "the dog leaning toward Mei with relaxed posture",
+        "Mei's arms gentle and open rather than gripping the dog",
+        "welcoming gaze and a small shared point of contact"
+      ],
+      "invisibleContext": "Care is the core meaning. The image conveys a kind interaction, not a rule that people or animals must accept touch.",
+      "confusableWith": [
+        "joy",
+        "relief"
+      ],
+      "distinguishBy": "quiet reciprocal care rather than simply seeing a pet or celebrating a find",
+      "mustAvoid": [
+        "forced hugging or restraint of the animal",
+        "a frightened or uncomfortable dog",
+        "giant hearts used instead of observable interaction"
+      ],
+      "composition": "close, warm vignette; faces and touch visible as a single silhouette with breathing room",
+      "withoutTextTest": "Does the dog's posture show it welcomes the closeness? Is Mei showing care rather than possession?",
+      "word": {
+        "en": "Affection",
+        "zh": "爱意"
+      },
+      "definition": {
+        "en": "Affection is a warm feeling of care for someone or an animal.",
+        "zh": "当你喜欢并关心一个人或小动物时，心里可能会感到温暖。这是爱意。"
+      },
+      "scenario": {
+        "en": "Your dog comes close for a cuddle, and you gently hold it.",
+        "zh": "小狗主动靠过来撒娇，你轻轻地抱住它。"
+      },
+      "artStatus": "pending-human-visual-review"
+    },
+    {
+      "id": "relief",
+      "momentToDraw": "Mei opens her schoolbag and finds the missing favorite book inside, shoulders easing.",
+      "focus": "the found book inside the open bag with Mei's reaction",
+      "visibleEvidence": [
+        "open schoolbag with clearly visible familiar book",
+        "Mei holding or just lifting the found book",
+        "posture beginning to relax; gentle exhale but no text label"
+      ],
+      "invisibleContext": "Mei previously worried the book was lost. The single image cannot show earlier worry literally; the readable bag/book discovery supplies the factual anchor.",
+      "confusableWith": [
+        "joy",
+        "surprise"
+      ],
+      "distinguishBy": "a solved worry and relaxing posture rather than unexplained excitement at a gift",
+      "mustAvoid": [
+        "a book appearing magically far from the schoolbag",
+        "victory pose or huge ecstatic cheer",
+        "double-panel before/after or visual text"
+      ],
+      "composition": "bag and recovered book form focal object; child face and shoulders are secondary clues",
+      "withoutTextTest": "Can a child tell what was found and where, and guess why Mei might feel better now?",
+      "word": {
+        "en": "Relief",
+        "zh": "如释重负"
+      },
+      "definition": {
+        "en": "Relief is the feeling of relaxing when something you worried about turns out okay.",
+        "zh": "让你担心的事情终于没事了，你慢慢放松下来。这种感觉叫如释重负。"
+      },
+      "scenario": {
+        "en": "You open your schoolbag and find the book you thought was lost.",
+        "zh": "你打开书包，发现原来以为丢了的书就在里面。"
+      },
+      "artStatus": "pending-human-visual-review"
+    }
+  ]
+}

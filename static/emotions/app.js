@@ -59,24 +59,29 @@
     if(input){input.hidden=false;input.value=url;input.focus();input.select();}
     message(t('Copy the link below.','请复制下方链接。'));
   }
-  let preparedImage=null,preparedKey=null;
+  let preparedImage=null,preparedKey=null,latestImageRequest=0;
   function displayedEntry(){
     if(view==='detail')return entries.find(e=>e.id===current);
     return entries.find(e=>e.id===window.__emolexDiscoverOverride)||entries[dailyIndex()];
   }
   function prepareImageShare(e) {
     const button=document.getElementById('share-image-btn'),service=window.EmoLexShareImage;
+    const request=++latestImageRequest;
     if(!button||!service)return;
     const key=service.key(e,language);
     if(preparedImage&&key===preparedKey){readyImage(button);return;}
     button.disabled=true;
     service.prepare(e,language).then(file=>{
+      // Older async exports cannot overwrite a more recently selected feeling.
+      if(request!==latestImageRequest)return;
       preparedImage=file;preparedKey=key;
       const currentButton=document.getElementById('share-image-btn');
       if(currentButton&&displayedEntry()?.id===e.id&&service.key(e,language)===key)readyImage(currentButton);
     }).catch(()=>{
+      if(request!==latestImageRequest)return;
+      preparedImage=null;preparedKey=null;
       const currentButton=document.getElementById('share-image-btn');
-      if(currentButton&&displayedEntry()?.id===e.id){
+      if(currentButton&&displayedEntry()?.id===e.id&&service.key(e,language)===key){
         currentButton.disabled=true;
         currentButton.querySelector('.action-text').textContent=t('Image unavailable','暂无法生成图片');
       }
@@ -102,8 +107,12 @@
         message(t('Image shared.','图片已分享。'));return;
       }catch(err){if(err.name==='AbortError')return;}
     }
-    service.download(preparedImage);
-    message(t('Image saved to downloads.','图片已保存到下载。'));
+    try{
+      service.download(preparedImage);
+      message(t('Image download started.','图片已开始下载。'));
+    }catch{
+      message(t('Could not download the image. Please try again.','图片下载失败，请重试。'));
+    }
   }
 
   const sectionIcons={definition:'✎',scene:'✳',say:'❞',related:'↗'};
@@ -198,7 +207,7 @@
   function explorePanel(){
     return '<aside class="explore-pane" aria-label="'+t('Explore feelings','探索情绪')+'"><div class="explore-intro"><p class="eyebrow">'+t('A WORLD OF FEELINGS','感受的世界')+'</p>'+
       '<h2 class="explore-title">'+t('Every feeling has a story.','每一种感受，都有故事。')+'</h2></div>'+
-      '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings or 中文','搜索感受或 English')+'" value="'+esc(search)+'"></label>'+
+      '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings…','搜索情绪词…')+'" aria-label="'+t('Search feelings in English or Chinese','搜索情绪词，支持中文和英文')+'" value="'+esc(search)+'"></label>'+
       '<div class="filter-row" role="group" aria-label="'+t('Feelings category','感受分类')+'">'+[['all',t('All','全部')],['needs_met',t('Needs met','需要已满足')],['needs_unmet',t('Needs unmet','需要未满足')]].map(([id,label])=>'<button class="filter-chip '+(filter===id?'selected':'')+'" data-action="filter" data-id="'+id+'" aria-pressed="'+(filter===id)+'">'+esc(label)+'</button>').join('')+'</div>'+
       '<div id="results" aria-live="polite">'+resultsHtml()+'</div>'+
       '<p class="sidebar-note">'+t('Illustrations coming later · expressions are editorial previews','插画稍后加入 · 词义和例句仍处于审校预览阶段')+'</p></aside>';
@@ -225,9 +234,15 @@
   if(document.fonts?.ready)document.fonts.ready.then(fitWordText);
   function render(){
     if(!entries.length)return;
+    // On wide screens Explore is its own scroll container. Replacing the shell
+    // must not reset the reader's position when a different Detail is selected.
+    const previousExplore=document.querySelector('.explore-pane');
+    const exploreScrollTop=previousExplore?.scrollTop||0;
     const e=displayedEntry();
     app.innerHTML='<main id="main" tabindex="-1" class="site-main"><div class="page-content">'+header()+
       '<div class="app-shell" data-view="'+esc(view)+'">'+explorePanel()+detailPanel(e,view)+'</div></div></main>';
+    const nextExplore=document.querySelector('.explore-pane');
+    if(nextExplore)nextExplore.scrollTop=exploreScrollTop;
     fitWordText();
     if(e)prepareImageShare(e);
     document.documentElement.lang=language==='zh'?'zh-CN':'en';

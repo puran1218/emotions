@@ -74,3 +74,20 @@ See [CONTENT-AUDIT.md](docs/CONTENT-AUDIT.md), [CONTENT-EDITORIAL.md](docs/CONTE
 ## Privacy
 
 No accounts, analytics SDK, microphone capture or AI calls. Browser voices depend on the user’s operating system. Language preference is stored locally when supported.
+
+## Editorial clarity + visual explanation workflow
+
+Two independent inspirations now inform EmoLex quality review without becoming runtime dependencies:
+
+- [EmoLex Plain Language](docs/PLAIN-LANGUAGE.md) borrows selected ASD-STE100 sentence-clarity principles for **definitions**. It deliberately preserves ordinary child speech and warm, idiomatic English/Chinese in `YOU CAN SAY...`.
+- [Visual Explanation](docs/VISUAL-EXPLANATION.md) borrows Anatomy’s **object-as-explanation** principle for a single still story scene. It keeps EmoLex's Playful Color Sketch art direction, **not** Anatomy's interactive/isometric drawing stack.
+
+Five editorial pilot definitions/scenes and selected expressions have been calibrated in `data/concepts/pilot.json` with recorded before/after rationale in `data/editorial/pilot-calibration.json`. Five aligned future-illustration planning briefs live in `data/illustration-briefs/pilots.json`. All remain **unapproved editorial proposals** with the same neutral placeholder until separate review. Neither illustration generation nor bulk rewrite of legacy data is part of this PR.
+
+Run `npm run review:editorial` to inspect an advisory full-catalog lint summary; `npm run review:editorial -- --pilot` checks only the five calibrated pilots, and `npm run review:editorial -- --json` prints all machine-readable findings. The checker is read-only, heuristic and intentionally **does not** decide which emotion sense/translation is right. `npm test` verifies the new pilot/brief alignment and existing plugin behavior.
+
+## Full corpus editorial calibration (PR #2)
+
+All **230 migrated canonical concepts** now have proposed, individually revised EN/ZH definitions and matching still-scene scenarios, plus **70 extra bilingual expression corrections across 67 concepts**. The original 235 ZIP occurrences and five pilot links remain intact. There are **230 source-linked editorial review packets** and **230 conceptual future-illustration candidates**; these are reviewer aids, not approved storyboards or artwork. The 10 initially withheld high-risk senses remain withheld, 220 legacy previews plus the five original pilots remain visible, and all images continue to use the neutral placeholder.
+
+See [Full Corpus Calibration](docs/FULL-CORPUS-CALIBRATION.md), [EmoLex Plain Language](docs/PLAIN-LANGUAGE.md), and [Static Visual Explanation](docs/VISUAL-EXPLANATION.md). To regenerate editorial/runtime outputs from the canonical overlay, run `npm run migrate:legacy`; `npm run review:packets` rebuilds the deterministic before/after and art-planning packets. `npm test` checks reproducibility. Automatic checks and LLM-assisted proposals do not qualify as independent editorial approval; the full publication coverage gate remains separate.

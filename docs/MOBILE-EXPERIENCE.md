@@ -26,3 +26,12 @@ The current source of truth for visuals, component boundaries and illustration r
 `npm test` and manual browser tests demonstrate that the UI and plug-in behave correctly, **not** that hundreds of dictionary entries have been migrated. Check `npm run content:coverage` for inventory/review metrics; full dictionary release is separately guarded by `npm run release:check`.
 
 No drawing feature, remote AI, new UI for every emotion, or experimental unfinished illustration is in this initial plugin release.
+
+## Search, wide Explore scroll, and offline PNG hardening (October 2026)
+
+- Search placeholders are native to each UI language: `Search feelings…` / `搜索情绪词…`. The accessible search input label still explicitly says **English or Chinese** search is supported. Do not insert the other language as a fragment of the placeholder sentence.
+- At >=900 CSS px, Explore has independent `overflow:auto` scrolling. When another emotion is selected, the app currently replaces the full shell; capture and restore the sidebar's `scrollTop` **around each full rerender**. This includes switching the selected emotion, changing language/filter, and browser history changes. Mobile continues to use separate page views; do not force the sidebar's internal scroll position into the window's page scroll.
+- Share PNG is a same-origin static export and includes the first two bilingual expression pairs. The renderer **measures actual wrapped text before allocating its image canvas**, rather than cropping at a fixed 3170-pixel height. Extremely long English words also wrap rather than printing beyond the right edge.
+- Share-image pre-generation is asynchronous; old image results or failures must not alter the current emotion's enabled/disabled share button. Keep only a few recent cached image results to avoid accumulating hundreds of megabytes while exploring the catalog.
+- Use `navigator.canShare({files:[file]})` to choose native file sharing, otherwise trigger PNG download. Do not claim an image was successfully saved to Photos: Safari chooses the destination or handles browser downloads, so the fallback message says only that the download started. Failed download attempts show an error, not success.
+- Regression tests simulate full DOM replacement and nested sidebar scroll, out-of-order PNG promises, native share fallback, failed download, missing local illustration, and images with content longer than the former fixed-height export. Real iOS Safari share sheets, browser download behavior, and fonts still require actual device acceptance.
