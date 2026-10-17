@@ -4,5 +4,734 @@
   "source": "data/concepts/legacy-expanded.json",
   "policy": "docs/PLAIN-LANGUAGE.md",
   "rules": "Each entry is reviewed individually for concept/sense, bilingual definition, concrete scenario and three usable expressions; original legacy and source remain available.",
-  "entries": {}
+  "entries": {
+    "absorbed": {
+      "definition": {
+        "en": "So interested in an activity that you give it all your attention.",
+        "zh": "做一件事时特别投入，注意力几乎都在这件事上。"
+      },
+      "scenario": {
+        "en": "You keep coloring your picture and hardly notice time passing.",
+        "zh": "你专心给画涂色，连时间过去了都没注意。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "adventurous": {
+      "definition": {
+        "en": "Eager to explore unfamiliar places or try something new, even when it feels uncertain.",
+        "zh": "很想探索新地方或尝试新鲜事，即使有点不确定。"
+      },
+      "scenario": {
+        "en": "You walk toward a playground you have never visited before.",
+        "zh": "你走向一个从没去过的新游乐场。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "alert": {
+      "definition": {
+        "en": "Awake and paying close attention because something may need your response.",
+        "zh": "精神很清醒，留意周围可能发生的事。"
+      },
+      "scenario": {
+        "en": "You hear a rustle and notice a cat moving behind the bushes.",
+        "zh": "你听到沙沙声，发现一只猫正从灌木后走过。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "amazed": {
+      "definition": {
+        "en": "Very surprised by something wonderful or hard to believe.",
+        "zh": "看到令人难以相信的事，感到十分惊奇。"
+      },
+      "scenario": {
+        "en": "A magician makes a coin seem to disappear before your eyes.",
+        "zh": "魔术师在你眼前把一枚硬币变没了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "amused": {
+      "definition": {
+        "en": "Feeling entertained because something seems funny to you.",
+        "zh": "看到好玩的事，觉得有趣，忍不住想笑。"
+      },
+      "scenario": {
+        "en": "A clown makes a silly face, and you start laughing.",
+        "zh": "小丑做了个滑稽的鬼脸，你笑了起来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "animated": {
+      "definition": {
+        "en": "Showing a lot of energy and expression when you talk or move.",
+        "zh": "说话或活动时特别有精神，表情和动作都很丰富。"
+      },
+      "scenario": {
+        "en": "You tell your friend a story, using your hands to show what happened.",
+        "zh": "你绘声绘色地给朋友讲故事，还用手比画。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "appreciative": {
+      "definition": {
+        "en": "Feeling thankful because you notice someone's help or kindness.",
+        "zh": "注意到别人的帮助或好意，心里很感激。"
+      },
+      "scenario": {
+        "en": "A friend brings you the pencil you dropped.",
+        "zh": "朋友帮你捡起掉在地上的铅笔。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "ardent": {
+      "definition": {
+        "en": "Feeling strongly enthusiastic about someone, something, or a cause.",
+        "zh": "对喜欢的人、事或目标抱有很强烈、持久的热情。"
+      },
+      "scenario": {
+        "en": "You practice your favorite song again because you love playing it.",
+        "zh": "因为特别喜欢，你又练起了那首心爱的曲子。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "aroused": {
+      "definition": {
+        "en": "A word for becoming strongly stirred or alert; it has several senses that need context.",
+        "zh": "表示身心受到强烈唤起的词，有不同含义，必须结合语境理解。"
+      },
+      "scenario": {
+        "en": "You notice your heart beating faster before a big event.",
+        "zh": "重要活动开始前，你发觉自己的心跳变快了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "astonished": {
+      "definition": {
+        "en": "So surprised that you almost cannot believe what happened.",
+        "zh": "发生了出乎意料的事，让你惊讶得几乎不敢相信。"
+      },
+      "scenario": {
+        "en": "You open the door and find your friends waiting with a surprise.",
+        "zh": "你打开门，发现朋友们正等着给你惊喜。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "blissful": {
+      "definition": {
+        "en": "Feeling deeply happy and at ease, without wanting the moment to end.",
+        "zh": "心里幸福又安宁，希望这一刻慢一点过去。"
+      },
+      "scenario": {
+        "en": "You sit with your family after a lovely day together.",
+        "zh": "愉快的一天结束后，你和家人舒舒服服地坐在一起。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "breathless": {
+      "definition": {
+        "en": "Breathing hard because of effort, surprise, or another physical cause.",
+        "zh": "跑动或其他原因让你呼吸急促，一时喘不过气来。"
+      },
+      "scenario": {
+        "en": "After a fast run, you stop and catch your breath.",
+        "zh": "快跑过后，你停下来喘口气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "buoyant": {
+      "definition": {
+        "en": "Feeling cheerful and hopeful, as if worries weigh less than before.",
+        "zh": "心情轻快又有希望，觉得烦恼似乎没那么沉重了。"
+      },
+      "scenario": {
+        "en": "After hearing good news, you walk home with a spring in your step.",
+        "zh": "听到好消息，你轻快地走在回家的路上。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "calm": {
+      "definition": {
+        "en": "Feeling steady and peaceful rather than worried or stirred up.",
+        "zh": "心里安稳平静，没有被担心或激动搅乱。"
+      },
+      "scenario": {
+        "en": "You sit by the lake and listen to the water move softly.",
+        "zh": "你坐在湖边，听着轻轻的水声。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "carefree": {
+      "definition": {
+        "en": "Enjoying a moment without thinking much about troubles or duties.",
+        "zh": "暂时不用为烦心事操心，轻轻松松地享受当下。"
+      },
+      "scenario": {
+        "en": "You play in the park with nothing urgent you need to do.",
+        "zh": "你在公园玩耍，暂时没有急着要完成的事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "cheerful": {
+      "definition": {
+        "en": "Feeling happy in a way that makes you want to smile or share your good mood.",
+        "zh": "心情愉快，想笑，也愿意把好心情带给别人。"
+      },
+      "scenario": {
+        "en": "You wake up smiling and greet your family happily.",
+        "zh": "你笑着起床，开心地跟家人打招呼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "comfortable": {
+      "definition": {
+        "en": "Feeling physically at ease or safe and relaxed in a situation.",
+        "zh": "身体舒服，或在某种环境里觉得自在、安心。"
+      },
+      "scenario": {
+        "en": "You settle under a soft blanket on the sofa.",
+        "zh": "你窝在沙发上，盖着柔软的毯子。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "complacent": {
+      "definition": {
+        "en": "Feeling so satisfied with yourself that you may stop noticing what needs work.",
+        "zh": "对自己太满意，可能因此忽略还需要改进的地方。"
+      },
+      "scenario": {
+        "en": "After one easy win, you decide you do not need to practice again.",
+        "zh": "轻松赢了一次后，你觉得再也不用练习了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "composed": {
+      "definition": {
+        "en": "Remaining calm and able to think clearly in a difficult or exciting moment.",
+        "zh": "遇到紧张或激动的事，还能保持镇定、清楚地思考。"
+      },
+      "scenario": {
+        "en": "You take a breath before going down a tall slide.",
+        "zh": "走上高滑梯前，你吸了一口气，让自己镇定下来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "concerned-met": {
+      "definition": {
+        "en": "Showing care because you notice someone may need help.",
+        "zh": "注意到别人可能需要帮助，心里惦记并想关心对方。"
+      },
+      "scenario": {
+        "en": "You see that your friend looks sad and ask if they need help.",
+        "zh": "你发现朋友有点难过，问问对方要不要帮忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "confident": {
+      "definition": {
+        "en": "Believing you can try something or handle it, even if it is not easy.",
+        "zh": "相信自己有能力尝试或应对，即使事情不简单。"
+      },
+      "scenario": {
+        "en": "After practicing the song, you feel ready to play it for others.",
+        "zh": "认真练过那首歌后，你觉得可以弹给大家听了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "contented": {
+      "definition": {
+        "en": "Feeling satisfied with what you have or how things are right now.",
+        "zh": "对眼前拥有的和正在发生的事感到满足。"
+      },
+      "scenario": {
+        "en": "You finish a fun afternoon and sit happily with your friends.",
+        "zh": "开心地玩了一下午，你和朋友满足地坐在一起。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "cool": {
+      "definition": {
+        "en": "In this context, feeling stylish or impressed with how you look; not an emotion in every use.",
+        "zh": "这里指觉得自己穿着很酷；这个词在别的语境下也可能不表示情绪。"
+      },
+      "scenario": {
+        "en": "You put on your favorite jacket and smile at your reflection.",
+        "zh": "你穿上最喜欢的外套，对着镜子笑了笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "curious": {
+      "definition": {
+        "en": "Wanting to find out or understand something you do not yet know.",
+        "zh": "碰到不懂或新鲜的事，很想知道答案。"
+      },
+      "scenario": {
+        "en": "You spot an unfamiliar insect and wonder where it lives.",
+        "zh": "你看到一种没见过的昆虫，想知道它住在哪里。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "dazzled": {
+      "definition": {
+        "en": "So struck by a bright or impressive sight that you hardly know where to look.",
+        "zh": "眼前的光亮或美景太耀眼，让你看得目不暇接。"
+      },
+      "scenario": {
+        "en": "You look up at fireworks lighting the night sky.",
+        "zh": "你抬头看夜空中绽放的烟花。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "delighted": {
+      "definition": {
+        "en": "Feeling especially happy because something pleasing has happened.",
+        "zh": "遇到特别称心的好事，感到十分高兴。"
+      },
+      "scenario": {
+        "en": "You open a gift and discover something you had hoped for.",
+        "zh": "你打开礼物，发现正是自己一直想要的东西。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "eager": {
+      "definition": {
+        "en": "Wanting to begin or experience something soon.",
+        "zh": "很想快点开始做某件事，已经等不及了。"
+      },
+      "scenario": {
+        "en": "You wait at the door, ready to leave for a birthday party.",
+        "zh": "你在门口等着出发参加生日聚会。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "ebullient": {
+      "definition": {
+        "en": "Full of lively excitement and joy that spills into your actions.",
+        "zh": "兴奋又快乐，活力满满，开心得藏不住。"
+      },
+      "scenario": {
+        "en": "Your whole team cheers and jumps after a fun game.",
+        "zh": "一场好玩的比赛后，队友们高兴得又跳又欢呼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "ecstatic": {
+      "definition": {
+        "en": "Feeling an unusually strong burst of happiness or delight.",
+        "zh": "遇到特别开心的事，高兴到了极点。"
+      },
+      "scenario": {
+        "en": "You hear that you have won a prize you worked hard for.",
+        "zh": "你得知自己努力争取的奖项终于拿到了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "effervescent": {
+      "definition": {
+        "en": "Cheerful and lively in a way that brightens the people around you.",
+        "zh": "活泼开朗，笑意和活力让周围的人也开心起来。"
+      },
+      "scenario": {
+        "en": "You laugh with friends and eagerly join every game.",
+        "zh": "你和朋友笑个不停，还兴冲冲地参加每个游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "elated": {
+      "definition": {
+        "en": "Feeling very happy and lifted up after especially good news or success.",
+        "zh": "收到特别好的消息或取得成功，心里格外高兴。"
+      },
+      "scenario": {
+        "en": "You finish a drawing you worked on for days and cannot stop smiling.",
+        "zh": "你完成画了好几天的作品，开心得合不拢嘴。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "enchanted": {
+      "definition": {
+        "en": "So drawn into something lovely that it seems almost magical.",
+        "zh": "被美好的事物深深吸引，觉得像走进了魔法世界。"
+      },
+      "scenario": {
+        "en": "You listen closely as someone tells a magical bedtime story.",
+        "zh": "你入迷地听着一个神奇的睡前故事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "encouraged": {
+      "definition": {
+        "en": "Feeling more able or willing to continue because someone supports you.",
+        "zh": "得到支持或鼓励后，更有信心继续尝试。"
+      },
+      "scenario": {
+        "en": "A friend cheers as you try a difficult jump again.",
+        "zh": "你又试着跳过一处难关，朋友在旁边给你加油。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "energetic": {
+      "definition": {
+        "en": "Having plenty of energy and wanting to move or do things.",
+        "zh": "精力充沛，很想活动或做事情。"
+      },
+      "scenario": {
+        "en": "You finish breakfast and hurry outside to play.",
+        "zh": "吃完早饭，你精神十足地跑出去玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "engrossed": {
+      "definition": {
+        "en": "Giving nearly all your attention to something that interests you.",
+        "zh": "对一件事特别入迷，注意力几乎都放在上面。"
+      },
+      "scenario": {
+        "en": "You read a mystery and barely notice the afternoon passing.",
+        "zh": "你读一本悬疑故事，连一个下午过去了都没察觉。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "enlivened": {
+      "definition": {
+        "en": "Feeling more awake, interested, or lively after something lifts your mood.",
+        "zh": "原本没什么精神，受到感染后变得活跃起来。"
+      },
+      "scenario": {
+        "en": "A lively song comes on, and you start tapping your feet.",
+        "zh": "一首欢快的歌响起，你不自觉地跟着打起节拍。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "enthusiastic": {
+      "definition": {
+        "en": "Showing strong interest and excitement about doing something.",
+        "zh": "对要做的事情特别感兴趣，充满热情。"
+      },
+      "scenario": {
+        "en": "You eagerly pack your things for tomorrow's class trip.",
+        "zh": "你兴冲冲地收拾明天班级出游的东西。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "excited": {
+      "definition": {
+        "en": "Feeling lively anticipation because something interesting or important is about to happen.",
+        "zh": "想到有趣或重要的事马上要发生，心里兴奋起来。"
+      },
+      "scenario": {
+        "en": "You hold a wrapped present and can hardly wait to open it.",
+        "zh": "你抱着包好的礼物，迫不及待想打开。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "exhilarated": {
+      "definition": {
+        "en": "Feeling thrilled and full of energy after something exciting.",
+        "zh": "经历刺激的事后，兴奋又充满活力。"
+      },
+      "scenario": {
+        "en": "After reaching the finish line, you throw your arms into the air.",
+        "zh": "冲过终点线，你兴奋地高举双臂。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "expansive": {
+      "definition": {
+        "en": "Feeling unusually open, talkative, and willing to connect with others.",
+        "zh": "心情开朗，愿意和更多人说话、交流。"
+      },
+      "scenario": {
+        "en": "You greet new children at the park and invite them to play.",
+        "zh": "你在公园主动和新认识的小朋友打招呼、邀他们一起玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "expectant": {
+      "definition": {
+        "en": "Waiting with a feeling that something important or pleasant may happen soon.",
+        "zh": "等待重要或期待的事发生，心里充满期盼。"
+      },
+      "scenario": {
+        "en": "You mark another day off the calendar before a holiday trip.",
+        "zh": "假期旅行快到了，你又在日历上划掉一天。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "exultant": {
+      "definition": {
+        "en": "Feeling triumphant and full of joy after a success.",
+        "zh": "取得成功后，心里充满欢欣和自豪。"
+      },
+      "scenario": {
+        "en": "Your team wins the final match and everyone celebrates together.",
+        "zh": "队伍赢下最后一场比赛，大家高兴地庆祝。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "fascinated": {
+      "definition": {
+        "en": "So interested in something that you want to keep looking or learning.",
+        "zh": "对某件事着迷，还想一直观察或了解下去。"
+      },
+      "scenario": {
+        "en": "You watch tiny bugs carry leaves across the garden.",
+        "zh": "你盯着花园里的小虫子搬树叶，看了好久。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "free": {
+      "definition": {
+        "en": "Feeling able to choose or move without something holding you back.",
+        "zh": "不再被限制或束缚，能自在地选择和行动。"
+      },
+      "scenario": {
+        "en": "You run across a wide field with room to move in any direction.",
+        "zh": "你在开阔的草地上奔跑，想往哪儿跑都可以。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "friendly": {
+      "definition": {
+        "en": "Treating people kindly and showing that you welcome their company.",
+        "zh": "对别人友善，让人感到受欢迎、容易亲近。"
+      },
+      "scenario": {
+        "en": "You invite a child who is new to your class to join a game.",
+        "zh": "你邀请刚转来班里的同学一起玩游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "fulfilled": {
+      "definition": {
+        "en": "Feeling that something important to you has been done in a satisfying way.",
+        "zh": "完成自己在乎的事情后，感到充实而满足。"
+      },
+      "scenario": {
+        "en": "You look at the block tower you worked so hard to finish.",
+        "zh": "你看着费了不少心思终于搭好的积木塔。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "glad": {
+      "definition": {
+        "en": "Feeling happy or relieved about something that happened.",
+        "zh": "因发生了好事或担心的事解决了而感到高兴。"
+      },
+      "scenario": {
+        "en": "Someone thanks you for helping, and you feel glad you did.",
+        "zh": "有人感谢你的帮助，你也很高兴自己帮上了忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "gleeful": {
+      "definition": {
+        "en": "Showing lively delight, sometimes with a playful mischievous streak.",
+        "zh": "开心得眉飞色舞，有时还带着一点调皮劲儿。"
+      },
+      "scenario": {
+        "en": "You grin as your friend opens a funny surprise you prepared.",
+        "zh": "朋友打开你准备的搞笑惊喜，你乐得咧开嘴。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "glorious": {
+      "definition": {
+        "en": "Describing something wonderful or splendid, rather than a precise feeling.",
+        "zh": "形容事物非常美好或精彩，本身不是一种明确的情绪。"
+      },
+      "scenario": {
+        "en": "You stand on a hill and admire a brilliant sunrise.",
+        "zh": "你站在小山上，欣赏壮丽的日出。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "glowing": {
+      "definition": {
+        "en": "Looking bright and happy because you feel pleased or proud.",
+        "zh": "因为高兴或自豪，脸上透着喜悦。"
+      },
+      "scenario": {
+        "en": "You smile proudly when your family sees your finished painting.",
+        "zh": "家人看到你完成的画作，你脸上露出自豪的笑。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "good-humored": {
+      "definition": {
+        "en": "Usually cheerful and able to laugh kindly, even when little things go wrong.",
+        "zh": "平时心情开朗，遇到小麻烦也能友善地笑一笑。"
+      },
+      "scenario": {
+        "en": "When your hat blows off, you laugh and chase after it.",
+        "zh": "帽子被风吹跑了，你笑着追过去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "grateful": {
+      "definition": {
+        "en": "Feeling thankful because someone has helped or cared for you.",
+        "zh": "别人帮助或关心了你，你心里很感谢。"
+      },
+      "scenario": {
+        "en": "Your friend helps you carry your bag when your hands are full.",
+        "zh": "你的双手拿满了东西，朋友帮你提起书包。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "gratified": {
+      "definition": {
+        "en": "Feeling pleased because a hope or effort turned out well.",
+        "zh": "自己的努力有了好结果，心里感到欣慰和满足。"
+      },
+      "scenario": {
+        "en": "Your group plan works and everyone enjoys the activity.",
+        "zh": "小组精心准备的活动顺利完成，大家玩得很开心。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "happy": {
+      "definition": {
+        "en": "Feeling good and pleased about life or something happening right now.",
+        "zh": "对现在的事或生活感到快乐，心里舒畅。"
+      },
+      "scenario": {
+        "en": "You play a game you love with a good friend.",
+        "zh": "你和好朋友一起玩最喜欢的游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "helpful": {
+      "definition": {
+        "en": "Choosing to do something useful or kind for another person.",
+        "zh": "主动做对别人有用的事，是一种行为而不是情绪。"
+      },
+      "scenario": {
+        "en": "You help a younger child carry their heavy books.",
+        "zh": "你帮一个小朋友搬起沉沉的书。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    },
+    "hopeful": {
+      "definition": {
+        "en": "Believing that something good may happen, even if you do not know for sure.",
+        "zh": "虽然还不确定，但相信事情有希望向好的方向发展。"
+      },
+      "scenario": {
+        "en": "You plant seeds and look forward to seeing the first shoots.",
+        "zh": "你种下种子，期待它们冒出第一颗嫩芽。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Review the intended child-facing sense, not merely the word form.",
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+    }
+  }
 }
