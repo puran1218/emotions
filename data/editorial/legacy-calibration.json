@@ -68,7 +68,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "The clown's silly face made me laugh.",
+          "zh": "小丑的鬼脸把我逗笑了。"
+        }
+      }
     },
     "animated": {
       "definition": {
@@ -81,7 +87,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I got so excited telling my story that I used my hands to show every part.",
+          "zh": "讲到兴奋的地方，我忍不住用手比画起来。"
+        }
+      }
     },
     "appreciative": {
       "definition": {
@@ -107,7 +119,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep practicing that song because I love it so much.",
+          "zh": "因为太喜欢这首曲子，我总想再练一遍。"
+        }
+      }
     },
     "aroused": {
       "definition": {
@@ -133,7 +151,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Finding my friends waiting behind the door astonished me.",
+          "zh": "看到朋友们在门后等我，我惊讶极了。"
+        }
+      }
     },
     "blissful": {
       "definition": {
@@ -146,7 +170,17 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "0": {
+          "en": "I feel so happy and at ease right now.",
+          "zh": "我现在觉得幸福又安心。"
+        },
+        "1": {
+          "en": "Sitting with my family after a lovely day feels so peaceful.",
+          "zh": "美好的一天过后，和家人坐在一起真幸福。"
+        }
+      }
     },
     "breathless": {
       "definition": {
@@ -172,7 +206,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "That good news made my steps feel lighter.",
+          "zh": "听到好消息，我走路都轻快了。"
+        }
+      }
     },
     "calm": {
       "definition": {
@@ -237,7 +277,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Winning once made me think I did not need any more practice.",
+          "zh": "赢过一次后，我就以为不用再练了。"
+        }
+      }
     },
     "composed": {
       "definition": {
@@ -289,7 +335,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am happy with how we spent this afternoon.",
+          "zh": "今天下午这样度过，我觉得很满足。"
+        }
+      }
     },
     "cool": {
       "definition": {
@@ -315,7 +367,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I wonder where this unusual insect lives.",
+          "zh": "我想知道这只没见过的昆虫住在哪里。"
+        }
+      }
     },
     "dazzled": {
       "definition": {
@@ -328,7 +386,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "The fireworks filled the sky with sparkling colors.",
+          "zh": "烟花在天空绽放出闪亮的颜色。"
+        }
+      }
     },
     "delighted": {
       "definition": {
@@ -341,7 +405,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I opened my gift and found exactly what I had hoped for.",
+          "zh": "我打开礼物，发现正是我一直期待的东西。"
+        }
+      }
     },
     "eager": {
       "definition": {
@@ -380,7 +450,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I can hardly believe I won that prize after all my hard work.",
+          "zh": "努力这么久终于得奖，我简直不敢相信。"
+        }
+      }
     },
     "effervescent": {
       "definition": {
@@ -406,7 +482,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I finished my drawing after days of work, and I cannot stop smiling.",
+          "zh": "画了好几天终于完成了，我高兴得合不拢嘴。"
+        }
+      }
     },
     "enchanted": {
       "definition": {
@@ -419,7 +501,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "That bedtime story made me feel as if I had entered a magical world.",
+          "zh": "这个睡前故事让我觉得自己走进了魔法世界。"
+        }
+      }
     },
     "encouraged": {
       "definition": {
@@ -432,7 +520,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "My friend's cheering made me want to try that jump again.",
+          "zh": "朋友的加油声让我想再试一次。"
+        }
+      }
     },
     "energetic": {
       "definition": {
@@ -458,7 +552,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I was so absorbed in the mystery that I forgot the time.",
+          "zh": "我看悬疑故事看入迷了，连时间都忘了。"
+        }
+      }
     },
     "enlivened": {
       "definition": {
@@ -510,7 +610,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Crossing the finish line made my heart race with joy.",
+          "zh": "冲过终点线，我开心得心怦怦跳。"
+        }
+      }
     },
     "expansive": {
       "definition": {
@@ -588,7 +694,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I invited our new classmate to play with us.",
+          "zh": "我邀请新来的同学和我们一起玩。"
+        }
+      }
     },
     "fulfilled": {
       "definition": {
@@ -601,7 +713,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I worked hard on this tower, and now it is finally finished.",
+          "zh": "我费了好大劲，终于把积木塔搭好了。"
+        }
+      }
     },
     "glad": {
       "definition": {
@@ -614,7 +732,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "When someone thanked me, I was glad I could help.",
+          "zh": "有人向我道谢时，我很高兴自己帮上忙。"
+        }
+      }
     },
     "gleeful": {
       "definition": {
@@ -640,7 +764,17 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "0": {
+          "en": "What a glorious sunrise!",
+          "zh": "这日出真壮观！"
+        },
+        "1": {
+          "en": "The whole sky turned gold as the sun came up.",
+          "zh": "太阳升起时，天空都染上了金色。"
+        }
+      }
     },
     "glowing": {
       "definition": {
@@ -653,7 +787,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "When my family saw my painting, I could not stop smiling.",
+          "zh": "家人看到我的画，我开心得一直笑。"
+        }
+      }
     },
     "good-humored": {
       "definition": {
@@ -692,7 +832,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "Our carefully planned activity went just as we hoped.",
+          "zh": "认真准备的活动和期待的一样顺利。"
+        }
+      }
     },
     "happy": {
       "definition": {
@@ -731,7 +877,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Review the intended child-facing sense, not merely the word form.",
-      "expressionReview": "Retain curated expressions pending individual idiom and intent checks."
+      "expressionReview": "Retain curated expressions pending individual idiom and intent checks.",
+      "expressionPatch": {
+        "1": {
+          "en": "I hope the seeds I planted will sprout soon.",
+          "zh": "真希望我种的种子快点发芽。"
+        }
+      }
     },
     "inquisitive": {
       "definition": {
@@ -744,7 +896,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep wondering why the stars shine.",
+          "zh": "我一直想知道星星为什么会发光。"
+        }
+      }
     },
     "inspired": {
       "definition": {
@@ -822,7 +980,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am helping paint the backdrop for our class play.",
+          "zh": "我正在为班级演出画背景。"
+        }
+      }
     },
     "joyous": {
       "definition": {
@@ -835,7 +999,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "Being with my family on my birthday makes me so happy.",
+          "zh": "生日这天和家人在一起，我开心极了。"
+        }
+      }
     },
     "jubilant": {
       "definition": {
@@ -926,7 +1096,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "Hearing how my friend helped someone brought tears to my eyes.",
+          "zh": "听到朋友帮助别人的事，我眼眶都湿了。"
+        }
+      }
     },
     "optimistic": {
       "definition": {
@@ -939,7 +1115,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "The clouds look dark, but the sun might still come out.",
+          "zh": "虽然乌云很多，太阳也许还是会出来。"
+        }
+      }
     },
     "overjoyed": {
       "definition": {
@@ -1004,7 +1186,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "The cool breeze feels wonderful in the shade.",
+          "zh": "树荫下的凉风吹着真舒服。"
+        }
+      }
     },
     "pleased": {
       "definition": {
@@ -1069,7 +1257,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "When the band played our favorite song, everyone cheered.",
+          "zh": "乐队演奏最爱的歌时，我们都激动地欢呼起来。"
+        }
+      }
     },
     "refreshed": {
       "definition": {
@@ -1108,7 +1302,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I cooked my lunch, and I am happy with how it turned out.",
+          "zh": "午餐是我自己做的，我对成果很满意。"
+        }
+      }
     },
     "secure": {
       "definition": {
@@ -1121,7 +1321,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "Sitting beside someone I trust helps me feel safe.",
+          "zh": "坐在信任的大人身旁，我觉得很安心。"
+        }
+      }
     },
     "sensitive-met": {
       "definition": {
@@ -1186,7 +1392,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "That science experiment gave me so many new questions.",
+          "zh": "这个科学实验让我冒出好多新问题。"
+        }
+      }
     },
     "surprised-met": {
       "definition": {
@@ -1251,7 +1463,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "My friend saved me a seat, and I felt cared for.",
+          "zh": "朋友特地给我留了座位，我心里很温暖。"
+        }
+      }
     },
     "tranquil": {
       "definition": {
@@ -1277,7 +1495,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I felt safe enough to tell my friend what was bothering me.",
+          "zh": "我放心地告诉朋友最近烦心的事。"
+        }
+      }
     },
     "upbeat": {
       "definition": {
@@ -1329,7 +1553,17 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "0": {
+          "en": "That family trip was wonderful!",
+          "zh": "那次家庭旅行真棒！"
+        },
+        "1": {
+          "en": "I keep smiling when I remember our trip together.",
+          "zh": "想起全家一起旅行，我总忍不住笑。"
+        }
+      }
     },
     "zestful": {
       "definition": {
@@ -1342,7 +1576,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
-      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+      "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense.",
+      "expressionPatch": {
+        "1": {
+          "en": "I could not wait to run onto the field and play.",
+          "zh": "我迫不及待地跑上球场玩起来。"
+        }
+      }
     },
     "agitated": {
       "definition": {
@@ -1472,7 +1712,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "The rules changed suddenly, and now I do not know what to do.",
+          "zh": "规则突然变了，我一下子不知道该怎么办。"
+        }
+      }
     },
     "bitter": {
       "definition": {
@@ -1485,7 +1731,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "I still feel hurt when I remember being left out of those games.",
+          "zh": "想起那几次游戏都没带我，我还是很委屈。"
+        }
+      }
     },
     "blue": {
       "definition": {
@@ -1498,7 +1750,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "The rain makes me miss my friend even more.",
+          "zh": "下雨的时候，我更想念朋友了。"
+        }
+      }
     },
     "bored": {
       "definition": {
@@ -1524,7 +1782,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "Saying goodbye to my best friend made me very sad.",
+          "zh": "和最要好的朋友告别，我特别难过。"
+        }
+      }
     },
     "chagrined": {
       "definition": {
@@ -1537,7 +1801,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "My careful surprise did not work the way I planned.",
+          "zh": "精心准备的惊喜没按计划成功，我好懊恼。"
+        }
+      }
     },
     "cold": {
       "definition": {
@@ -1706,7 +1976,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "Knowing the trick is so ordinary makes it feel less magical.",
+          "zh": "知道魔术机关原来很普通，我有点失望。"
+        }
+      }
     },
     "disgruntled": {
       "definition": {
@@ -1758,7 +2034,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "I did not expect our trip to be canceled at the last moment.",
+          "zh": "我没想到旅行会在最后一刻取消。"
+        }
+      }
     },
     "displeased": {
       "definition": {
@@ -1797,7 +2079,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am upset because my pet is not feeling well.",
+          "zh": "小宠物生病了，我心里特别难受。"
+        }
+      }
     },
     "disturbed": {
       "definition": {
@@ -1810,7 +2098,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
-      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene.",
+      "expressionPatch": {
+        "1": {
+          "en": "Hearing people argue loudly made me feel unsettled.",
+          "zh": "听到别人激烈争吵，我心里很不安。"
+        }
+      }
     },
     "downcast": {
       "definition": {
@@ -1992,7 +2286,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "Someone ruined my project on purpose, and I am furious.",
+          "zh": "有人故意毁了我的作品，我气坏了。"
+        }
+      }
     },
     "gloomy": {
       "definition": {
@@ -2018,7 +2318,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I wish I had not blamed my friend for what I did.",
+          "zh": "我真希望没有把自己的错怪到朋友头上。"
+        }
+      }
     },
     "harried": {
       "definition": {
@@ -2109,7 +2415,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I am too angry to speak kindly after our argument.",
+          "zh": "争执之后我太生气了，一时没法好好说话。"
+        }
+      }
     },
     "hot": {
       "definition": {
@@ -2239,7 +2551,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I wish I could have a turn with the new toy too.",
+          "zh": "我也想轮到自己玩那个新玩具。"
+        }
+      }
     },
     "jittery": {
       "definition": {
@@ -2265,7 +2583,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep putting off that chore, even though I have time.",
+          "zh": "明明有时间，我还是一直拖着不想做家务。"
+        }
+      }
     },
     "leery": {
       "definition": {
@@ -2317,7 +2641,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "I got angry when someone ignored our agreed rules.",
+          "zh": "有人不遵守说好的规则，我很生气。"
+        }
+      }
     },
     "mean": {
       "definition": {
@@ -2330,7 +2660,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "0": {
+          "en": "That was mean of me, and I want to make it right.",
+          "zh": "我刚才那样说太刻薄了，我想弥补。"
+        }
+      }
     },
     "miserable": {
       "definition": {
@@ -2447,7 +2783,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
-      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context.",
+      "expressionPatch": {
+        "1": {
+          "en": "When I could not see my family in the crowd, I felt panicky.",
+          "zh": "在人群里看不到家人时，我一下子慌了。"
+        }
+      }
     },
     "passive": {
       "definition": {
@@ -2525,7 +2867,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I do not really want to join that game right now.",
+          "zh": "我现在真的不太想参加那个游戏。"
+        }
+      }
     },
     "repelled": {
       "definition": {
@@ -2551,7 +2899,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I did most of the work, but someone else took the credit.",
+          "zh": "工作大部分是我做的，功劳却被别人拿走了。"
+        }
+      }
     },
     "restless": {
       "definition": {
@@ -2577,7 +2931,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I miss my friend who moved away.",
+          "zh": "我很想念搬走的朋友。"
+        }
+      }
     },
     "scared": {
       "definition": {
@@ -2590,7 +2950,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "That loud noise made me jump and feel afraid.",
+          "zh": "刚才的巨响把我吓了一跳。"
+        }
+      }
     },
     "sensitive-unmet": {
       "definition": {
@@ -2629,7 +2995,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "The loud crash startled me, and I saw the broken frame.",
+          "zh": "一声巨响把我吓了一跳，我看到相框碎了。"
+        }
+      }
     },
     "skeptical": {
       "definition": {
@@ -2668,7 +3040,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "Looking at my pet's photo makes me miss them deeply.",
+          "zh": "看到宠物的照片，我特别想念它。"
+        }
+      }
     },
     "sorry": {
       "definition": {
@@ -2720,7 +3098,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "The playground was closed, and I had not expected it.",
+          "zh": "游乐场突然关门了，我一点也没想到。"
+        }
+      }
     },
     "suspicious": {
       "definition": {
@@ -2759,7 +3143,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I could not find my family in the crowded station, and I felt terrified.",
+          "zh": "在拥挤的车站找不到家人时，我害怕极了。"
+        }
+      }
     },
     "tired": {
       "definition": {
@@ -2811,7 +3201,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I spilled a little water, but I knew I could wipe it up.",
+          "zh": "我洒了一点水，但知道擦干就好了，所以没担心。"
+        }
+      }
     },
     "uneasy": {
       "definition": {
@@ -2954,7 +3350,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "After a hard day, I just want to spend some time alone.",
+          "zh": "辛苦了一天后，我暂时想自己安静待会儿。"
+        }
+      }
     },
     "woeful": {
       "definition": {
@@ -2967,7 +3369,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I miss someone I love and find it hard to smile.",
+          "zh": "我很想念亲近的人，一时笑不出来。"
+        }
+      }
     },
     "worried": {
       "definition": {
@@ -2980,7 +3388,13 @@
       },
       "reviewStatus": "proposed",
       "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
-      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition.",
+      "expressionPatch": {
+        "1": {
+          "en": "I keep wondering whether my friend got home safely.",
+          "zh": "我一直担心朋友有没有平安到家。"
+        }
+      }
     },
     "wretched": {
       "definition": {
