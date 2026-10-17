@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EmoLex · SVG art review</title>
+<style>
+:root{font-family:system-ui,-apple-system,sans-serif;color:#293C3B;background:#F8F4E9}body{max-width:1100px;margin:auto;padding:18px 24px 48px}h1{font-size:clamp(24px,4vw,40px)}p{line-height:1.6}
+.gallery{display:grid;grid-template-columns:minmax(0,2fr) minmax(220px,1fr);gap:22px;align-items:start}.panel{background:#fffefa;border:1px solid #e7e6dc;padding:14px;border-radius:18px}.panel img{display:block;width:100%;aspect-ratio:3/2;object-fit:contain}.small{width:120px;margin:18px auto}.meta{font-size:14px;color:#65716e}.pending{background:#fff3d6;padding:10px 14px;border-radius:10px}
+@media(max-width:680px){.gallery{grid-template-columns:1fr}body{padding:14px}}
+</style>
+</head>
+<body>
+<h1>EmoLex · SVG Illustration Review</h1>
+<p class="pending">Joy is a <strong>candidate</strong>, not human-approved artwork. The live dictionary retains its neutral placeholder until visual review passes.</p>
+<p><strong>Joy · 喜悦</strong> — You see the first flower on the sunflower you planted. Designed as a single readable scene, not a generic happy face.</p>
+<div class="gallery">
+<section class="panel"><h2>Detail · full 3:2</h2><img src="../static/emotions/images/joy-v01.svg" alt="Mei smiles at her sunflower's first blossom in a garden"><p class="meta">Inspect character silhouette, face, flower, and visible gardening cue.</p></section>
+<section class="panel"><h2>Explore · 120 px</h2><img class="small" src="../static/emotions/images/joy-v01.svg" alt=""><p class="meta">Can you identify Mei and the flower at thumbnail scale?</p></section>
+</div>
+<p class="meta">Serve the repository root with <code>python3 -m http.server 8000</code>, then open <code>http://localhost:8000/art/preview.html</code>. Inspect in Safari and a narrow phone viewport. The static SVG contains no scripts, fonts, raster data or external dependencies.</p>
+</body></html>
