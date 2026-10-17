@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "status": "editorial-proposals-not-human-approved",
+  "source": "data/concepts/legacy-expanded.json",
+  "policy": "docs/PLAIN-LANGUAGE.md",
+  "rules": "Each entry is reviewed individually for concept/sense, bilingual definition, concrete scenario and three usable expressions; original legacy and source remain available.",
+  "entries": {}
+}
