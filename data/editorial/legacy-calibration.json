@@ -1343,6 +1343,630 @@
       "reviewStatus": "proposed",
       "senseNote": "Distinguish this entry from adjacent emotions and from traits or physical descriptions.",
       "expressionReview": "Check the three existing bilingual expressions for naturalness against this clarified sense."
+    },
+    "agitated": {
+      "definition": {
+        "en": "Feeling upset and so unsettled that it is hard to stay still or think calmly.",
+        "zh": "心里烦乱又不安，很难安静下来或好好思考。"
+      },
+      "scenario": {
+        "en": "You search everywhere for your favorite toy and start pacing.",
+        "zh": "你到处找心爱的玩具，急得来回走动。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "alarmed": {
+      "definition": {
+        "en": "Suddenly worried or frightened because something seems dangerous or wrong.",
+        "zh": "察觉可能有危险或不对劲，突然紧张害怕起来。"
+      },
+      "scenario": {
+        "en": "A loud alarm rings while you are walking through school.",
+        "zh": "你走在学校里，突然听到刺耳的警报声。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "aloof": {
+      "definition": {
+        "en": "Keeping your distance from others, sometimes because you do not want to join in.",
+        "zh": "与别人保持距离，暂时不想亲近或参与；这更多是一种态度。"
+      },
+      "scenario": {
+        "en": "You stay at the edge of a group activity instead of joining.",
+        "zh": "集体活动时，你站在一旁，没有加入。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "angry": {
+      "definition": {
+        "en": "Feeling strongly upset when something seems unfair, hurtful or wrong.",
+        "zh": "遇到不公平、受伤害或不顺心的事，心里生起强烈的不满。"
+      },
+      "scenario": {
+        "en": "Someone breaks a toy you care about, and you feel angry.",
+        "zh": "有人弄坏了你很珍惜的玩具，你感到生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "anxious": {
+      "definition": {
+        "en": "Feeling uneasy because you keep thinking about something that might go wrong.",
+        "zh": "想到将来可能出问题的事，心里一直紧张、不安。"
+      },
+      "scenario": {
+        "en": "You think about the first day at a new school and wonder what will happen.",
+        "zh": "想到新学校的第一天，你担心会遇到什么。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "apathetic": {
+      "definition": {
+        "en": "Feeling little interest or motivation about things that would usually matter to you.",
+        "zh": "对原本在乎的事也提不起兴趣，暂时没有什么动力。"
+      },
+      "scenario": {
+        "en": "Your friends suggest a game, but you do not feel like choosing or joining.",
+        "zh": "朋友提议玩游戏，你却没什么兴趣，也不想参与。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "apprehensive": {
+      "definition": {
+        "en": "Feeling nervous about a possible problem that has not happened yet.",
+        "zh": "担心还没发生的事可能不顺利，因此有点紧张。"
+      },
+      "scenario": {
+        "en": "You wait outside the room before an important test.",
+        "zh": "重要测验开始前，你在教室外紧张地等着。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "ashamed": {
+      "definition": {
+        "en": "Feeling painful embarrassment or regret about something you believe you did wrong.",
+        "zh": "觉得自己做错了事，心里难受、羞愧，怕别人知道。"
+      },
+      "scenario": {
+        "en": "You remember telling a lie and wish you had told the truth.",
+        "zh": "你想起自己说过的谎话，希望当时说了实话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "beat": {
+      "definition": {
+        "en": "Feeling extremely tired after using a lot of energy.",
+        "zh": "活动了很久后累得不行，特别需要休息。"
+      },
+      "scenario": {
+        "en": "After playing outside all afternoon, you sit down to rest.",
+        "zh": "在外面玩了一下午后，你坐下来休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "bewildered": {
+      "definition": {
+        "en": "So confused by something unexpected that you do not know what to think or do.",
+        "zh": "事情突然变得难以理解，一时不知道该怎么办。"
+      },
+      "scenario": {
+        "en": "The rules of a new game change suddenly, and you look around in confusion.",
+        "zh": "新游戏的规则突然改了，你一时不知道怎么继续。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "bitter": {
+      "definition": {
+        "en": "Holding on to anger or hurt after feeling treated unfairly.",
+        "zh": "觉得自己受了不公平的对待，久久放不下委屈和怨气。"
+      },
+      "scenario": {
+        "en": "You remember being left out of several games and still feel hurt.",
+        "zh": "你想到自己几次被排除在游戏外，心里仍很委屈。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "blue": {
+      "definition": {
+        "en": "Feeling a little sad or low; this is an informal use of the word blue.",
+        "zh": "心情有点低落、闷闷不乐；这是 blue 的口语用法。"
+      },
+      "scenario": {
+        "en": "You watch the rain and think about a friend you miss.",
+        "zh": "你看着窗外的雨，想起一位很想念的朋友。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "bored": {
+      "definition": {
+        "en": "Wanting something interesting to do but not finding anything engaging.",
+        "zh": "想找点有趣的事做，却提不起兴趣，觉得无聊。"
+      },
+      "scenario": {
+        "en": "You have finished your games and cannot find anything new to do.",
+        "zh": "游戏都玩过一遍了，你一时找不到新鲜事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "brokenhearted": {
+      "definition": {
+        "en": "Feeling deep sadness after losing someone or something you care about greatly.",
+        "zh": "失去很在乎的人或事时，心里特别难过。"
+      },
+      "scenario": {
+        "en": "You say goodbye to a dear friend who is moving far away.",
+        "zh": "一位很要好的朋友要搬去很远的地方，你跟对方告别。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "chagrined": {
+      "definition": {
+        "en": "Feeling upset or embarrassed because something you tried did not go as hoped.",
+        "zh": "努力做的事没达到预期，觉得懊恼，有时还有点难为情。"
+      },
+      "scenario": {
+        "en": "Your carefully planned surprise does not work, and you look disappointed.",
+        "zh": "你精心准备的惊喜没成功，心里有点懊恼。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "cold": {
+      "definition": {
+        "en": "Acting emotionally distant or unfriendly; this is different from feeling physically cold.",
+        "zh": "态度冷淡，显得不愿亲近；这里不是身体觉得冷。"
+      },
+      "scenario": {
+        "en": "When someone tries to chat, you give only short replies.",
+        "zh": "有人想和你聊天，你却只简短回答。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "concerned-unmet": {
+      "definition": {
+        "en": "Feeling worried because someone or something important may not be okay.",
+        "zh": "想到在乎的人或事可能出问题，心里感到担心。"
+      },
+      "scenario": {
+        "en": "You hear that your close friend is sick and wonder if they are okay.",
+        "zh": "听说好朋友生病了，你心里惦记着对方。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "confused": {
+      "definition": {
+        "en": "Not understanding something clearly or not knowing what it means.",
+        "zh": "看不明白一件事，或不知道该怎么理解。"
+      },
+      "scenario": {
+        "en": "You read the game instructions twice and still do not understand them.",
+        "zh": "游戏说明读了两遍，你还是没弄懂。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "cross": {
+      "definition": {
+        "en": "Feeling angry or annoyed, often over a small problem; common in British English.",
+        "zh": "有点生气或恼火，常因一件小烦心事；英式英语里常用。"
+      },
+      "scenario": {
+        "en": "Someone keeps interrupting you while you are trying to play.",
+        "zh": "你正想专心玩，别人却总来打断。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "dejected": {
+      "definition": {
+        "en": "Feeling low and discouraged after something disappointing happens.",
+        "zh": "遇到失望的事后，心情低落，提不起劲儿。"
+      },
+      "scenario": {
+        "en": "Your team loses a close game, and you walk away quietly.",
+        "zh": "球队以微弱差距输了比赛，你垂头丧气地走开。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "depressed": {
+      "definition": {
+        "en": "A word sometimes used for a long-lasting low mood; depression can also be a health condition.",
+        "zh": "有时表示持续的情绪低落，也可能涉及需要专业帮助的抑郁状态。"
+      },
+      "scenario": {
+        "en": "For many days, activities you once liked have not felt enjoyable.",
+        "zh": "好多天过去了，你发现曾经喜欢的活动也难让自己开心。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "despairing": {
+      "definition": {
+        "en": "Feeling as though a difficult situation may never get better.",
+        "zh": "遇到困难时觉得看不到希望，仿佛事情不会好转。"
+      },
+      "scenario": {
+        "en": "After repeated bad news, you worry there is no way forward.",
+        "zh": "接连听到坏消息后，你一时看不到解决的希望。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "despondent": {
+      "definition": {
+        "en": "Feeling deeply discouraged and low, with little energy or hope.",
+        "zh": "深深灰心，心情低落，连做事情的劲儿也很少。"
+      },
+      "scenario": {
+        "en": "After several setbacks, you sit quietly and do not feel ready to try again.",
+        "zh": "接连受挫后，你静静坐着，暂时不想再试。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "detached": {
+      "definition": {
+        "en": "Feeling emotionally far away from what is happening or from other people.",
+        "zh": "感觉自己和正在发生的事或周围的人隔着一层距离。"
+      },
+      "scenario": {
+        "en": "At a busy party, you stand aside and feel little connection to the conversation.",
+        "zh": "热闹的聚会上，你站在一旁，觉得自己融不进去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disaffected": {
+      "definition": {
+        "en": "No longer feeling interested or supportive after disappointment or dissatisfaction.",
+        "zh": "经历失望或不满后，对原先喜欢的事失去了热情。"
+      },
+      "scenario": {
+        "en": "A club you loved keeps ignoring your ideas, and you stop wanting to join.",
+        "zh": "喜欢的社团总不理会你的想法，你渐渐不想参加了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disappointed": {
+      "definition": {
+        "en": "Feeling sad or let down when something you hoped for does not happen.",
+        "zh": "期待的事没有如愿发生，心里有些失落。"
+      },
+      "scenario": {
+        "en": "You learn that a picnic you had looked forward to is canceled.",
+        "zh": "你期待很久的野餐临时取消了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "discouraged": {
+      "definition": {
+        "en": "Feeling less confident about trying again after a difficult or unsuccessful attempt.",
+        "zh": "尝试受挫之后信心变少，有点不想继续。"
+      },
+      "scenario": {
+        "en": "Your paper airplane keeps falling, and you start to wonder whether to try again.",
+        "zh": "纸飞机试飞了好多次还是落下来，你有点不想再折了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disenchanted": {
+      "definition": {
+        "en": "No longer seeing something as wonderful after discovering a disappointing truth.",
+        "zh": "知道了令人失望的事实后，对原本喜欢的事不再着迷。"
+      },
+      "scenario": {
+        "en": "You learn that a trick you loved has an ordinary explanation and feel let down.",
+        "zh": "你知道喜欢的魔术原来有很普通的机关，心里有些失落。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disgruntled": {
+      "definition": {
+        "en": "Feeling unhappy and annoyed because you believe something has not been handled fairly.",
+        "zh": "觉得事情安排得不公平，心里不满又恼火。"
+      },
+      "scenario": {
+        "en": "Your group changes the rules without asking, and you complain.",
+        "zh": "小组没商量就改了规则，你心里很不满。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disgusted": {
+      "definition": {
+        "en": "Feeling strong dislike or revulsion toward something unpleasant.",
+        "zh": "遇到特别恶心或讨厌的东西，心里强烈排斥。"
+      },
+      "scenario": {
+        "en": "You smell spoiled food and quickly step back.",
+        "zh": "你闻到变质食物的味道，立刻后退。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disheartened": {
+      "definition": {
+        "en": "Losing hope or courage after something difficult or disappointing.",
+        "zh": "经历打击或反复受挫后，信心和勇气减弱了。"
+      },
+      "scenario": {
+        "en": "After your model breaks again, you put the pieces down with a sigh.",
+        "zh": "模型又坏了，你叹了口气，把零件放下。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "dismayed": {
+      "definition": {
+        "en": "Feeling suddenly worried, upset or discouraged by unwelcome news.",
+        "zh": "坏消息突然传来，感到吃惊、担忧或失落。"
+      },
+      "scenario": {
+        "en": "You hear that your class trip has been canceled at the last minute.",
+        "zh": "临出发前听说班级旅行取消了，你一下子很失落。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "displeased": {
+      "definition": {
+        "en": "Not happy or satisfied with what happened or how something was done.",
+        "zh": "对事情的结果或做法不满意，心里有点不高兴。"
+      },
+      "scenario": {
+        "en": "You find that the movie you expected to love was not enjoyable.",
+        "zh": "你发现期待的电影并没有想象中好看。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disquieted": {
+      "definition": {
+        "en": "Feeling unsettled because something seems uncertain or wrong.",
+        "zh": "觉得有什么事不太对劲，心里静不下来。"
+      },
+      "scenario": {
+        "en": "At night you hear an unfamiliar sound outside the window.",
+        "zh": "夜里你听见窗外传来陌生的声音，心里有点不安。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "distressed": {
+      "definition": {
+        "en": "Feeling very upset, worried or hurt by something difficult.",
+        "zh": "遇到难受或令人担心的事，情绪受到很强的冲击。"
+      },
+      "scenario": {
+        "en": "You find out that a pet you care for is unwell.",
+        "zh": "你得知自己关心的小宠物生病了，心里很难受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "disturbed": {
+      "definition": {
+        "en": "Feeling upset or unsettled by something troubling, not merely interrupted.",
+        "zh": "看到或听到令人不舒服的事，心里受到打扰而不安。"
+      },
+      "scenario": {
+        "en": "You hear people arguing loudly and find it hard to relax.",
+        "zh": "你听到别人激烈争吵，心里很不舒服。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "downcast": {
+      "definition": {
+        "en": "Looking or feeling sad and disappointed.",
+        "zh": "心情低落、失望，脸上也没了笑容。"
+      },
+      "scenario": {
+        "en": "Your favorite activity is canceled, and you leave with your head down.",
+        "zh": "最喜欢的活动取消了，你低着头离开。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "downhearted": {
+      "definition": {
+        "en": "Feeling unhappy and less hopeful after a setback or sad news.",
+        "zh": "遇到挫折或坏消息后，心情低落，没那么有信心了。"
+      },
+      "scenario": {
+        "en": "A friend cannot visit as planned, and you feel sad about it.",
+        "zh": "朋友不能按计划来玩，你心里有点低落。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "dull": {
+      "definition": {
+        "en": "Lacking interest or excitement in a particular activity; it usually describes the activity.",
+        "zh": "一件活动缺少趣味或新鲜感，通常是在形容活动本身。"
+      },
+      "scenario": {
+        "en": "The lesson repeats things you already know, and you start to lose interest.",
+        "zh": "课堂一直重复你已经会的内容，你渐渐没了兴趣。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "edgy": {
+      "definition": {
+        "en": "Feeling tense and easily irritated because you are nervous or uneasy.",
+        "zh": "紧张得绷着神经，一点小事也容易烦躁。"
+      },
+      "scenario": {
+        "en": "Before going onstage, you keep shifting from foot to foot.",
+        "zh": "上台前，你紧张地不停换着脚站。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "embarrassed": {
+      "definition": {
+        "en": "Feeling awkward or self-conscious after a mistake or unwanted attention.",
+        "zh": "出错或被人注意到时，感到难为情、不自在。"
+      },
+      "scenario": {
+        "en": "You say the wrong answer aloud and notice everyone looking.",
+        "zh": "你大声说错了答案，发现大家都在看你。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "embittered": {
+      "definition": {
+        "en": "Feeling lasting anger or hurt after believing life has treated you unfairly.",
+        "zh": "觉得长期受了委屈，心里积起难以消散的怨气。"
+      },
+      "scenario": {
+        "en": "After being unfairly blamed many times, you find it hard to trust the group.",
+        "zh": "被不公平地责怪了好几次后，你很难再信任那个小组。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "exasperated": {
+      "definition": {
+        "en": "Feeling extremely annoyed because the same problem keeps happening.",
+        "zh": "同样的麻烦一再发生，烦得快受不了了。"
+      },
+      "scenario": {
+        "en": "The zipper gets stuck yet again when you are trying to leave.",
+        "zh": "你正要出门，拉链却又卡住了，真让人恼火。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "exhausted": {
+      "definition": {
+        "en": "Feeling so tired that you have very little energy left.",
+        "zh": "累得几乎没有力气了，很需要休息。"
+      },
+      "scenario": {
+        "en": "After a long hike, you sit down and drink water.",
+        "zh": "走了很长一段山路后，你坐下来喝水。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "fatigued": {
+      "definition": {
+        "en": "Feeling physically or mentally tired, sometimes for a longer time.",
+        "zh": "身体或精神感到疲乏，有时持续得比较久。"
+      },
+      "scenario": {
+        "en": "After a long day of concentrating, you find it hard to keep reading.",
+        "zh": "专心学习了很长时间，你已经很难继续看书了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "fearful": {
+      "definition": {
+        "en": "Feeling afraid because something seems dangerous or uncertain.",
+        "zh": "觉得可能有危险或发生不好的事，心里害怕。"
+      },
+      "scenario": {
+        "en": "You look down a dark hallway and hesitate to enter.",
+        "zh": "你看着黑暗的走廊，犹豫着要不要进去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "fidgety": {
+      "definition": {
+        "en": "Having trouble staying still, sometimes because of excitement or nerves.",
+        "zh": "坐不住、总想动来动去，有时因为紧张或兴奋。"
+      },
+      "scenario": {
+        "en": "You keep moving your feet while waiting for your turn.",
+        "zh": "等着轮到自己时，你的脚一直动个不停。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "forlorn": {
+      "definition": {
+        "en": "Feeling lonely, sad and somewhat without hope.",
+        "zh": "又孤单又难过，心里有点无依无靠。"
+      },
+      "scenario": {
+        "en": "You sit by yourself while all the other children have found a partner.",
+        "zh": "别的孩子都找到了搭档，你却独自坐在一边。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
+      "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
     }
   }
 }
