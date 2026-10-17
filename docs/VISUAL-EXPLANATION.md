@@ -44,3 +44,7 @@ Follow `ILLUSTRATION-BIBLE.md`: **Playful Color Sketch**, hand-drawn with joy, c
 The JSON brief is an **editorial planning artifact**, never an instruction for automatic publishing. Its `id` and `scenario` must match canonical data; source fields allow review provenance. Each brief supplies **mustShow**, **mustAvoid**, **confusableWith**, **visualTest** and **composition**. A reviewer checks both word/scene fidelity and image aesthetics.
 
 Current EmoLex uses a neutral `feeling-placeholder.svg`. **Do not replace it in this branch**. Future art generation reads the briefs and the existing illustration bible, generates actual artwork, records source/approval in `art/manifest.json`, updates canonical `illustration.src/stage/alt`, regenerates runtime JSON, and tests Explore, Detail and PNG sharing. No animations or product UI changes are required.
+
+## Full-corpus static planning records
+
+The 230 migrated entries now also have source-aligned **conceptual candidates**, generated reproducibly from individually revised bilingual meaning and scenario: `data/illustration-briefs/legacy-candidates.json`. This file is an inventory for the future art branch, **not 230 fully crafted illustration prompts**. Each candidate still needs one human-designed observable story beat, specific props/body-language choices and a unique confusion test. The five original pilots at `data/illustration-briefs/pilots.json` remain the quality bar for completed briefs. Never treat an automatic candidate or a neutral placeholder as artwork approval.
