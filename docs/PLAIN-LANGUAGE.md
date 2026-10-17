@@ -57,3 +57,7 @@ The calibration must distinguish **Joy** from a general peaceful state, **Frustr
 ## What the automated review can and cannot do
 
 `scripts/review-editorial.mjs` is a no-dependency, read-only suggestion tool that flags long sentences, long spoken examples, near-duplicate examples, missing or malformed bilingual text and possible definition circularity. It does **not** determine factual correctness, emotional meaning, cultural fit, sense distinctions, or whether an image communicates an emotion. Counts/flags are triage evidence, never certification.
+
+## Full migrated corpus rollout
+
+The method has now been applied to every one of the **230 canonical migrated concepts** (besides the five original pilots). See [Full Corpus Calibration](FULL-CORPUS-CALIBRATION.md), `data/editorial/legacy-calibration.json`, and `data/editorial/legacy-review-packets.json`. All new bilingual definitions and scenarios are individual proposals, with **70 additionally corrected expression pairs** across 67 concepts. The derived runtime JSON is reproducible through `npm run migrate:legacy` and `npm run build:data`. The tool's semantic and structural findings are **triage**, not certifications; all concepts remain without independent human editorial approval. 10 ambiguous entries stay withheld.
