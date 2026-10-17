@@ -159,5 +159,8 @@
       "status": "queued",
       "approved": false
     }
-  ]
+  ],
+  "historical": true,
+  "supersededStyleGuide": "docs/ILLUSTRATION-BIBLE.md",
+  "note": "Historical Soft Editorial Storybook planning artifact. Do not use its art direction as the current style source; SVG-first Playful Color Sketch now governs new art."
 }
