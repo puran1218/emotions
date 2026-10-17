@@ -9,7 +9,7 @@ import { renderJoy } from '../art/scenes/joy.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export const scenes=[{id:'joy',name:'joy-v01.svg',render:renderJoy}];
 const check=process.argv.includes('--check');
-for(const scene of scenes){
+if(process.argv[1] && path.resolve(process.argv[1])===fileURLToPath(import.meta.url))for(const scene of scenes){
   const filename=path.join(root,'static/emotions/images',scene.name);
   const content=scene.render();
   if(check){
