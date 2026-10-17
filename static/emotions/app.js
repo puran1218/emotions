@@ -59,24 +59,29 @@
     if(input){input.hidden=false;input.value=url;input.focus();input.select();}
     message(t('Copy the link below.','请复制下方链接。'));
   }
-  let preparedImage=null,preparedKey=null;
+  let preparedImage=null,preparedKey=null,latestImageRequest=0;
   function displayedEntry(){
     if(view==='detail')return entries.find(e=>e.id===current);
     return entries.find(e=>e.id===window.__emolexDiscoverOverride)||entries[dailyIndex()];
   }
   function prepareImageShare(e) {
     const button=document.getElementById('share-image-btn'),service=window.EmoLexShareImage;
+    const request=++latestImageRequest;
     if(!button||!service)return;
     const key=service.key(e,language);
     if(preparedImage&&key===preparedKey){readyImage(button);return;}
     button.disabled=true;
     service.prepare(e,language).then(file=>{
+      // Older async exports cannot overwrite a more recently selected feeling.
+      if(request!==latestImageRequest)return;
       preparedImage=file;preparedKey=key;
       const currentButton=document.getElementById('share-image-btn');
       if(currentButton&&displayedEntry()?.id===e.id&&service.key(e,language)===key)readyImage(currentButton);
     }).catch(()=>{
+      if(request!==latestImageRequest)return;
+      preparedImage=null;preparedKey=null;
       const currentButton=document.getElementById('share-image-btn');
-      if(currentButton&&displayedEntry()?.id===e.id){
+      if(currentButton&&displayedEntry()?.id===e.id&&service.key(e,language)===key){
         currentButton.disabled=true;
         currentButton.querySelector('.action-text').textContent=t('Image unavailable','暂无法生成图片');
       }
@@ -102,8 +107,12 @@
         message(t('Image shared.','图片已分享。'));return;
       }catch(err){if(err.name==='AbortError')return;}
     }
-    service.download(preparedImage);
-    message(t('Image saved to downloads.','图片已保存到下载。'));
+    try{
+      service.download(preparedImage);
+      message(t('Image download started.','图片已开始下载。'));
+    }catch{
+      message(t('Could not download the image. Please try again.','图片下载失败，请重试。'));
+    }
   }
 
   const sectionIcons={definition:'✎',scene:'✳',say:'❞',related:'↗'};
