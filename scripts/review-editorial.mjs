@@ -9,6 +9,23 @@ const normalized=s=>String(s??'').normalize('NFKC').toLocaleLowerCase('en').repl
 const words=s=>String(s??'').match(/[\p{L}\p{N}]+(?:['’\-][\p{L}\p{N}]+)*/gu)||[];
 const sentences=s=>String(s??'').split(/(?<=[.!?。！？])\s+/u).filter(Boolean);
 const tokens=s=>new Set(normalized(s).split(' ').filter(x=>x&&x.length>2));
+const manualSenseReview=new Map([
+  ['aroused','Check physiological vs sexual meaning and suitability for children.'],
+  ['concerned','Check worried vs caring senses and the intended Chinese translation.'],
+  ['cool','Check slang approval vs temperature vs calmness.'],
+  ['intense','Check whether this is an emotion or a general degree.'],
+  ['keyed up','Check heightened arousal vs worry or excitement.'],
+  ['overwhelmed','Check positive vs negative overload, and the actual situation.'],
+  ['sensitive','Check personality trait vs a temporary emotional response.'],
+  ['surprised','Check welcome surprise vs startling worry.'],
+  ['guilty','Check feeling remorse vs legal guilt; do not translate automatically as 有罪.'],
+  ['mad','Check angry vs derogatory mental-health sense; avoid 发疯 as a feeling label.'],
+  ['suspicious','Check feeling doubtful vs labeling someone suspicious.'],
+  ['complacent','Check attitude/trait vs a specific emotion and age fit.'],
+  ['hot','Check physical temperature vs embarrassment or attraction.'],
+  ['lazy','Check a judgmental behavior label vs a momentary feeling.'],
+  ['depressed','Check everyday sadness vs a clinical condition; avoid diagnosis.']
+]);
 const similarity=(a,b)=>{
   const x=tokens(a),y=tokens(b);
   if(!x.size||!y.size)return 0;
@@ -54,6 +71,8 @@ export function analyzeConcept(concept){
       }
     }
   }
+  const term=normalized(concept.terms?.en?.feeling||concept.terms?.en?.noun||'');
+  if(manualSenseReview.has(term))flag('sense','both','manual-sense-triage',manualSenseReview.get(term));
   const en=concept.definition?.en||'';
   if(/\b(?:feeling bad|good feeling|just feel bad)\b/i.test(en))flag('definition','en','vague-definition','The definition relies on an overly broad feeling word.');
   if(/\b(?:everyone|everybody)\s+(?:always|will|must)\s+feel\b/i.test(en))flag('definition','en','universal-emotion-claim','A scenario can be possible without being universal.');
