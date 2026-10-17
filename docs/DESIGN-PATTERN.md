@@ -2,7 +2,9 @@
 
 **Product:** EmoLex — An Illustrated Dictionary of Feelings. **Deployment:** a self-contained, static micro.blog plug-in at `/emotions/`. **Scope:** Explore → Understand → Express. This release has **no drawing activity, AI service, log-in, backend or analytics**.
 
-This document is the contract for future editorial, illustration and UI changes. The app does not need new UI work when a finished illustration replaces a placeholder.
+This document is the contract for future editorial, illustration and UI changes.
+
+**Companion guidance:** `docs/PLAIN-LANGUAGE.md` (clear but natural child-facing bilingual explanations and speech) and `docs/VISUAL-EXPLANATION.md` (a static scene whose story explains the emotion). Five calibrated content deltas and five visual briefs are in `data/editorial/pilot-calibration.json` and `data/illustration-briefs/pilots.json`. These do not change product UI, placeholder assets or publication/review status. The app does not need new UI work when a finished illustration replaces a placeholder.
 
 ## Product principles
 
