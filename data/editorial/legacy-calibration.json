@@ -1967,6 +1967,526 @@
       "reviewStatus": "proposed",
       "senseNote": "Contrast its emotional trigger and intensity with nearby feelings; confirm whether it denotes a state, attitude or circumstance.",
       "expressionReview": "Check three natural bilingual expressions against the sharpened sense and scene."
+    },
+    "frightened": {
+      "definition": {
+        "en": "Feeling scared because something sudden or threatening happened.",
+        "zh": "遇到突发或可能危险的事，心里害怕起来。"
+      },
+      "scenario": {
+        "en": "A sudden crash nearby makes you jump and look around.",
+        "zh": "旁边突然一声巨响，你吓得一跳，四处张望。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "furious": {
+      "definition": {
+        "en": "Feeling extremely angry, often because something feels very unfair or hurtful.",
+        "zh": "因为严重的不公平或伤害而非常生气，怒气很强烈。"
+      },
+      "scenario": {
+        "en": "Someone deliberately ruins a project you worked hard to build.",
+        "zh": "有人故意毁掉你辛苦做好的作品，你气坏了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "gloomy": {
+      "definition": {
+        "en": "Feeling low and not very hopeful, sometimes for no clear reason.",
+        "zh": "心情阴沉沉的，觉得没什么好期待的，有时也说不清原因。"
+      },
+      "scenario": {
+        "en": "You look out at the gray sky and do not feel like playing.",
+        "zh": "你望着灰蒙蒙的天空，暂时不想出去玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "guilty": {
+      "definition": {
+        "en": "Feeling remorse because you believe you did something wrong or hurt someone.",
+        "zh": "觉得自己做错事或伤害了别人，心里过意不去；这里不是法律上的“有罪”。"
+      },
+      "scenario": {
+        "en": "You remember blaming a friend for something you did yourself.",
+        "zh": "你想起自己把做错的事怪到朋友头上，心里很内疚。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "harried": {
+      "definition": {
+        "en": "Feeling hurried and stressed because too many things demand your attention.",
+        "zh": "事情一下子堆过来，忙得慌乱又着急。"
+      },
+      "scenario": {
+        "en": "You try to finish homework while everyone asks you for help.",
+        "zh": "你正赶着写作业，旁边的人又不断请你帮忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "heavy": {
+      "definition": {
+        "en": "Feeling emotionally burdened, as though worry or sadness is hard to carry.",
+        "zh": "心里压着担心或难过的事，感到沉甸甸的；这是比喻说法。"
+      },
+      "scenario": {
+        "en": "You sit quietly after hearing news that makes you sad.",
+        "zh": "听到令人难过的消息后，你静静地坐了一会儿。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "helpless": {
+      "definition": {
+        "en": "Feeling unable to change or solve a hard situation, even when you want to.",
+        "zh": "很想改变眼前的难题，却觉得自己没有办法。"
+      },
+      "scenario": {
+        "en": "You wish your best friend did not have to move away, but you cannot stop it.",
+        "zh": "你不希望好朋友搬走，可自己无法改变这件事。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hesitant": {
+      "definition": {
+        "en": "Not feeling ready to act because you are unsure, cautious or a little afraid.",
+        "zh": "因为不确定、谨慎或有点害怕，迟迟不敢行动。"
+      },
+      "scenario": {
+        "en": "You stand beside the new climbing frame and wonder whether to try.",
+        "zh": "你站在没玩过的攀爬架前，犹豫要不要试试。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "horrible": {
+      "definition": {
+        "en": "Describing an experience as very unpleasant or frightening, rather than a precise emotion.",
+        "zh": "形容经历很糟糕或可怕，并不是一种独立的情绪。"
+      },
+      "scenario": {
+        "en": "A scary dream wakes you, and you feel upset.",
+        "zh": "一个可怕的梦把你惊醒，让你心里很难受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "horrified": {
+      "definition": {
+        "en": "Feeling shocked and very frightened by something terrible.",
+        "zh": "看到或听到可怕的事，既震惊又害怕。"
+      },
+      "scenario": {
+        "en": "You hear that a beloved pet nearly got hurt and feel frightened.",
+        "zh": "听说心爱的宠物差点受伤，你又惊又怕。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hostile": {
+      "definition": {
+        "en": "Showing anger or unfriendliness toward another person.",
+        "zh": "对别人带着敌意或强烈的不友好，是一种态度。"
+      },
+      "scenario": {
+        "en": "You turn away and refuse to speak kindly after an argument.",
+        "zh": "争执过后，你转过身，不愿和对方好好说话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hot": {
+      "definition": {
+        "en": "Feeling physically warm because of heat; the word has other senses in different contexts.",
+        "zh": "天气或身体发热让人觉得热；这个词在别的语境里还有其他含义。"
+      },
+      "scenario": {
+        "en": "On a summer day, you look for shade and a cool drink.",
+        "zh": "夏天很热，你想找个阴凉处喝点水。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "humdrum": {
+      "definition": {
+        "en": "Feeling bored by everyday routines that never seem to change.",
+        "zh": "每天都做差不多的事，觉得单调乏味。"
+      },
+      "scenario": {
+        "en": "After repeating the same game for days, you wish for something new.",
+        "zh": "一个游戏接连玩了好几天，你开始想换点新花样。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "hurt": {
+      "definition": {
+        "en": "Feeling physical pain or emotional pain because of injury or unkindness.",
+        "zh": "身体受伤会疼，别人说伤人的话也可能让心里难受。"
+      },
+      "scenario": {
+        "en": "Someone makes an unkind comment about your drawing, and you feel hurt.",
+        "zh": "有人说了难听的话评价你的画，你心里受伤了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "impatient": {
+      "definition": {
+        "en": "Feeling annoyed because you want something to happen sooner.",
+        "zh": "很想快点等到结果，因为等待而着急、不耐烦。"
+      },
+      "scenario": {
+        "en": "You stand in a long line and keep asking when it will be your turn.",
+        "zh": "你排着长队，不停问什么时候才轮到自己。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "indifferent": {
+      "definition": {
+        "en": "Not feeling strongly interested or concerned about one choice or result.",
+        "zh": "对某个选择或结果没什么特别的兴趣或在意。"
+      },
+      "scenario": {
+        "en": "Two games sound equally fine to you, so you let your friend choose.",
+        "zh": "两个游戏你都无所谓，就让朋友决定了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "intense-unmet": {
+      "definition": {
+        "en": "Describing feelings that are very strong, including difficult feelings; not one specific emotion.",
+        "zh": "表示感受非常强烈，可能是难受的感受，本身不指一种情绪。"
+      },
+      "scenario": {
+        "en": "Before a big event, you feel a powerful rush of worry.",
+        "zh": "重要活动开始前，一阵强烈的担心涌上心头。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "irate": {
+      "definition": {
+        "en": "Feeling very angry, especially about something you think is wrong or unfair.",
+        "zh": "遇到觉得不对或不公平的事，愤怒得厉害。"
+      },
+      "scenario": {
+        "en": "Someone takes your work without asking and refuses to return it.",
+        "zh": "有人不问就拿走你的作品，还不肯归还，你十分生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "irked": {
+      "definition": {
+        "en": "Feeling mildly annoyed by something small but bothersome.",
+        "zh": "被一件小而烦人的事惹得有点不高兴。"
+      },
+      "scenario": {
+        "en": "A classmate keeps tapping the desk while you are reading.",
+        "zh": "你正看书，同学却一直敲桌子，让你有点烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "irritated": {
+      "definition": {
+        "en": "Feeling bothered or impatient because something keeps annoying you.",
+        "zh": "小麻烦不断出现，心里渐渐烦躁起来。"
+      },
+      "scenario": {
+        "en": "The tag in your shirt scratches your neck all morning.",
+        "zh": "衣服标签一上午都蹭着脖子，让你越来越烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "jealous": {
+      "definition": {
+        "en": "Feeling upset because you fear losing someone's attention or wish you had what another person has.",
+        "zh": "担心在乎的人更喜欢别人，或羡慕别人拥有的东西而难受；要看具体语境。"
+      },
+      "scenario": {
+        "en": "Your friend gets a turn with the new toy, and you wish it were your turn too.",
+        "zh": "朋友先玩到了新玩具，你也盼着早点轮到自己。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "jittery": {
+      "definition": {
+        "en": "Feeling nervous and physically shaky, often before something important.",
+        "zh": "重要事情开始前，紧张得手脚有点发抖。"
+      },
+      "scenario": {
+        "en": "You wait to speak in front of the class and your hands feel shaky.",
+        "zh": "你等着在全班面前发言，手有些发抖。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "lazy": {
+      "definition": {
+        "en": "An often judgmental word for not wanting to make an effort; tiredness or needing rest is different.",
+        "zh": "常带评价意味，指不愿花力气做事；和疲劳、需要休息不一样。"
+      },
+      "scenario": {
+        "en": "You put off a chore even though you have energy and time for it.",
+        "zh": "你明明有时间也有力气，却一直不想做约定好的家务。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "leery": {
+      "definition": {
+        "en": "Feeling cautious because you are not sure something is safe or true.",
+        "zh": "对某件事的安全或真实性不放心，所以保持警惕。"
+      },
+      "scenario": {
+        "en": "A stranger makes an unusual promise, and you want to check it first.",
+        "zh": "陌生人提出奇怪的承诺，你想先核实。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "lethargic": {
+      "definition": {
+        "en": "Feeling unusually low in energy and moving more slowly than usual.",
+        "zh": "精力比平时少，动作也慢吞吞的。"
+      },
+      "scenario": {
+        "en": "You feel slow and want to rest after a tiring day.",
+        "zh": "累了一天后，你没什么力气，只想休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "listless": {
+      "definition": {
+        "en": "Feeling low on energy and having little interest in usual activities.",
+        "zh": "没有什么精神，平时喜欢的事也提不起兴趣。"
+      },
+      "scenario": {
+        "en": "Your favorite game is ready, but you do not feel like starting.",
+        "zh": "最喜欢的游戏已经准备好了，你却不想开始。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mad": {
+      "definition": {
+        "en": "In this context, a common informal word for feeling angry; it has other unrelated meanings.",
+        "zh": "这里是“生气”的口语说法；在别的语境下还有不同含义。"
+      },
+      "scenario": {
+        "en": "Someone ignores the agreed rules, and you feel angry.",
+        "zh": "有人不遵守说好的规则，你很生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mean": {
+      "definition": {
+        "en": "Acting unkindly or trying to hurt someone with words or actions; not a feeling.",
+        "zh": "说话或做事不友善，甚至有意伤害别人；这是行为评价，不是情绪。"
+      },
+      "scenario": {
+        "en": "Someone makes fun of a classmate instead of helping them.",
+        "zh": "有人嘲笑同学，而不是伸手帮忙。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "miserable": {
+      "definition": {
+        "en": "Feeling very unhappy and uncomfortable for a while.",
+        "zh": "一段时间里特别难过，心里或身体都很不舒服。"
+      },
+      "scenario": {
+        "en": "Several plans go wrong in one day, and you feel awful.",
+        "zh": "一天里好几件事都不顺，你难受极了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mopey": {
+      "definition": {
+        "en": "Acting sad and quiet, with little interest in joining activities.",
+        "zh": "闷闷不乐，不太想说话或参加活动。"
+      },
+      "scenario": {
+        "en": "You sit by the window instead of playing your usual game.",
+        "zh": "你坐在窗边，连平时爱玩的游戏都暂时不想玩。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "morose": {
+      "definition": {
+        "en": "Feeling very gloomy and unwilling to talk or smile.",
+        "zh": "心情阴郁，懒得说话，也很难笑起来。"
+      },
+      "scenario": {
+        "en": "You stay quiet after a disappointing day and do not feel like chatting.",
+        "zh": "失望的一天过后，你安静地待着，不想聊天。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "mournful": {
+      "definition": {
+        "en": "Feeling sorrow because someone or something important is gone.",
+        "zh": "因为失去或想念重要的人、事，心里悲伤。"
+      },
+      "scenario": {
+        "en": "You look at a photo and miss a pet that died.",
+        "zh": "你看着照片，想念已经离开的宠物。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "nervous": {
+      "definition": {
+        "en": "Feeling tense or worried about how something will turn out.",
+        "zh": "担心事情会怎样发展，身体或心里有点紧张。"
+      },
+      "scenario": {
+        "en": "Before the class presentation, you take a deep breath and look at your notes.",
+        "zh": "班级展示前，你看着提示卡，深深吸了一口气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "nettled": {
+      "definition": {
+        "en": "Feeling annoyed because someone's words or actions bothered you.",
+        "zh": "被别人的话或举动惹得心里不舒服。"
+      },
+      "scenario": {
+        "en": "Someone keeps teasing you about a mistake and you frown.",
+        "zh": "有人不断拿你的一次失误开玩笑，你皱起眉头。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "numb": {
+      "definition": {
+        "en": "Feeling little or no physical sensation, or emotionally unable to notice what you feel.",
+        "zh": "可指身体没有感觉，也可指受冲击后一时感受不到情绪；必须区分语境。"
+      },
+      "scenario": {
+        "en": "After shocking news, you sit quietly and cannot name how you feel.",
+        "zh": "听到让人震惊的消息后，你静静坐着，一时说不出自己的感受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "overwhelmed-unmet": {
+      "definition": {
+        "en": "Feeling that there is more worry, emotion or work than you can manage at once.",
+        "zh": "担心、情绪或事情一下子太多，让你觉得应付不过来。"
+      },
+      "scenario": {
+        "en": "You face several tasks at once and do not know where to begin.",
+        "zh": "好几件事同时压过来，你不知道先做哪件。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "panicky": {
+      "definition": {
+        "en": "Feeling suddenly very afraid and unable to think calmly.",
+        "zh": "突然特别害怕，脑子里乱成一团，难以冷静思考。"
+      },
+      "scenario": {
+        "en": "You lose sight of your family in a busy place for a moment.",
+        "zh": "在人多的地方，你突然看不到家人了，心里一下子慌了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "passive": {
+      "definition": {
+        "en": "Letting others take the lead instead of speaking or acting for yourself; not one emotion.",
+        "zh": "很少主动发言或行动，经常让别人做主；这不是一种具体情绪。"
+      },
+      "scenario": {
+        "en": "During a group project, you wait for others to choose every task.",
+        "zh": "小组合作时，你总等着别人分配任务。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "perplexed": {
+      "definition": {
+        "en": "Feeling puzzled because something is hard to understand or explain.",
+        "zh": "事情太难理解，让你想不通，感到迷惑。"
+      },
+      "scenario": {
+        "en": "You stare at puzzling instructions and wonder where to start.",
+        "zh": "你看着复杂的说明，想不明白从哪儿开始。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "pessimistic": {
+      "definition": {
+        "en": "Often expecting that a situation may turn out badly.",
+        "zh": "总倾向于预想事情可能会往不好的方向发展。"
+      },
+      "scenario": {
+        "en": "Before the game begins, you assume your team will lose.",
+        "zh": "比赛还没开始，你就觉得自己的队伍肯定会输。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
+      "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
     }
   }
 }
