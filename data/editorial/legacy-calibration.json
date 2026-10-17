@@ -2487,6 +2487,513 @@
       "reviewStatus": "proposed",
       "senseNote": "Keep this sense distinct from nearby emotions and do not turn behavior or physical conditions into a diagnosis.",
       "expressionReview": "Verify each existing EN/ZH sentence fits this specific context."
+    },
+    "puzzled": {
+      "definition": {
+        "en": "Feeling confused because you cannot yet figure out an answer or how something works.",
+        "zh": "遇到想不通的问题，还没找到答案，心里有点困惑。"
+      },
+      "scenario": {
+        "en": "Two puzzle pieces look as if they should fit, but they do not.",
+        "zh": "两块拼图看着该拼在一起，却怎么也拼不上。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "rancorous": {
+      "definition": {
+        "en": "Holding a strong, long-lasting grudge because of a past hurt.",
+        "zh": "因为过去受到伤害，心里长久留着强烈的怨气。"
+      },
+      "scenario": {
+        "en": "You still feel angry about how a teammate treated you weeks ago.",
+        "zh": "好几个星期过去了，你想到队友当时的做法还是生气。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "reluctant": {
+      "definition": {
+        "en": "Not wanting to do something, even though you may have to decide about it.",
+        "zh": "不太情愿做某件事，心里还有些抵触。"
+      },
+      "scenario": {
+        "en": "A friend asks you to join a game you do not enjoy, and you hesitate.",
+        "zh": "朋友邀请你参加一个你不喜欢的游戏，你犹豫了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "repelled": {
+      "definition": {
+        "en": "Feeling strongly put off by something unpleasant and wanting to move away.",
+        "zh": "遇到令人反感或不舒服的东西，很想离远一点。"
+      },
+      "scenario": {
+        "en": "A strong bad smell makes you step back from the bin.",
+        "zh": "垃圾桶传来刺鼻的气味，你连忙后退。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "resentful": {
+      "definition": {
+        "en": "Feeling angry or hurt because you believe you were treated unfairly.",
+        "zh": "觉得自己受到不公平对待，心里有怨气或委屈。"
+      },
+      "scenario": {
+        "en": "You do most of the group work but someone else takes all the credit.",
+        "zh": "小组作业大部分是你完成的，功劳却被别人全拿走了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "restless": {
+      "definition": {
+        "en": "Finding it hard to sit still or relax, sometimes because of excitement or worry.",
+        "zh": "因为担心、期待或别的原因，很难安静地待着。"
+      },
+      "scenario": {
+        "en": "You keep walking around while waiting for important news.",
+        "zh": "你等着一个重要消息，忍不住走来走去。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sad": {
+      "definition": {
+        "en": "Feeling unhappy or hurt when something matters to you and does not go well.",
+        "zh": "在乎的事情不顺利或失去重要的东西时，心里难过。"
+      },
+      "scenario": {
+        "en": "You miss your friend who moved away and look at a picture together.",
+        "zh": "你想念搬走的朋友，翻看你们的合照。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "scared": {
+      "definition": {
+        "en": "Feeling afraid because something seems frightening or unsafe.",
+        "zh": "觉得周围有可怕或不安全的事，心里害怕。"
+      },
+      "scenario": {
+        "en": "A loud sound outside makes you jump and look for a safe place.",
+        "zh": "外面突然一声巨响，你吓了一跳，想找个安全的地方。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sensitive-unmet": {
+      "definition": {
+        "en": "Feeling easily hurt or strongly affected by certain words or situations.",
+        "zh": "对别人的话或某些情境反应比较强烈，容易觉得受伤。"
+      },
+      "scenario": {
+        "en": "Someone laughs at your work, and the comment stays on your mind.",
+        "zh": "有人嘲笑你的作品，那句话一直让你不好受。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "shaky": {
+      "definition": {
+        "en": "Trembling or feeling physically unsteady, sometimes because you are nervous.",
+        "zh": "身体在发抖或站不稳，有时和紧张有关。"
+      },
+      "scenario": {
+        "en": "Before speaking in class, your hands tremble slightly.",
+        "zh": "上台发言前，你的手轻轻发抖。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "shocked": {
+      "definition": {
+        "en": "Feeling strongly surprised or upset by something sudden and unexpected.",
+        "zh": "突发的事让你非常吃惊，有时还感到难过或害怕。"
+      },
+      "scenario": {
+        "en": "You hear a loud crash and see a picture frame broken on the floor.",
+        "zh": "突然一声巨响，你看见地上摔碎了一个相框。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "skeptical": {
+      "definition": {
+        "en": "Not ready to believe a claim until you have a reason or evidence.",
+        "zh": "听到一种说法时还不太相信，希望先看到证据。"
+      },
+      "scenario": {
+        "en": "A friend says the toy can fly by itself, and you ask to see it.",
+        "zh": "朋友说玩具会自己飞，你想先看看是不是真的。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sleepy": {
+      "definition": {
+        "en": "Feeling that your body needs sleep.",
+        "zh": "身体想睡觉，眼睛发沉，精力不太够。"
+      },
+      "scenario": {
+        "en": "It is bedtime, and you keep yawning as you read.",
+        "zh": "该睡觉了，你看着书不停打哈欠。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sorrowful": {
+      "definition": {
+        "en": "Feeling deep sadness, especially about something important you have lost.",
+        "zh": "因为失去重要的人或事而感到深深的悲伤。"
+      },
+      "scenario": {
+        "en": "You think about a pet you miss and hold its photo close.",
+        "zh": "你想起非常想念的宠物，把它的照片贴在胸前。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "sorry": {
+      "definition": {
+        "en": "Feeling regret because something you did may have hurt someone; also used to apologize.",
+        "zh": "因为自己的言行可能伤害别人而后悔，也可以用来向人道歉。"
+      },
+      "scenario": {
+        "en": "You realize your words upset a friend and decide to say sorry.",
+        "zh": "你发现自己的话让朋友难过，决定去道歉。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "spiritless": {
+      "definition": {
+        "en": "Having little energy or enthusiasm and not feeling ready to join in.",
+        "zh": "没什么精神，也提不起参加活动的兴致。"
+      },
+      "scenario": {
+        "en": "Your friends begin a game, but you feel too drained to play.",
+        "zh": "朋友们开始玩游戏，你却累得提不起劲儿。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "startled": {
+      "definition": {
+        "en": "Suddenly surprised or briefly frightened by something unexpected.",
+        "zh": "突如其来的动静把你吓了一跳，通常只是一瞬间。"
+      },
+      "scenario": {
+        "en": "A door slams behind you and you turn around quickly.",
+        "zh": "身后突然传来关门声，你吓得立刻回头。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "surprised-unmet": {
+      "definition": {
+        "en": "Feeling surprised by something unexpected that is unwelcome or unsettling.",
+        "zh": "发生了没料到的事，让你吃惊又有点不安。"
+      },
+      "scenario": {
+        "en": "You arrive at the playground and find it suddenly closed.",
+        "zh": "你来到游乐场，却发现它突然关门了。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "suspicious": {
+      "definition": {
+        "en": "Feeling that a claim or person's actions may not be honest, without knowing for sure.",
+        "zh": "觉得某种说法或举动可能不可靠，但还没有确定证据。"
+      },
+      "scenario": {
+        "en": "A story keeps changing when you ask simple questions.",
+        "zh": "你问了几个简单问题，却发现对方的说法一直在变。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "tepid": {
+      "definition": {
+        "en": "Showing little enthusiasm or interest; more often describes a reaction than an emotion.",
+        "zh": "反应平淡、没什么热情；通常是在描述态度，不是独立情绪。"
+      },
+      "scenario": {
+        "en": "You hear about a suggested outing but feel only mildly interested.",
+        "zh": "有人提议周末出游，你听了没多大兴致。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "terrified": {
+      "definition": {
+        "en": "Feeling extremely frightened by something that seems seriously dangerous.",
+        "zh": "觉得有很大的危险，害怕到了极点。"
+      },
+      "scenario": {
+        "en": "You get separated from your family in a crowded station and ask for help.",
+        "zh": "拥挤的车站里，你一时找不到家人，害怕得赶紧求助。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "tired": {
+      "definition": {
+        "en": "Feeling low on energy and wanting to rest.",
+        "zh": "身体或精神累了，想停下来休息。"
+      },
+      "scenario": {
+        "en": "After a long day of playing, you sit down for a break.",
+        "zh": "玩了一整天，你坐下来歇一会儿。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "troubled": {
+      "definition": {
+        "en": "Feeling bothered by a worry or problem that keeps returning to your mind.",
+        "zh": "有件烦心事总在脑海里打转，让你放不下心。"
+      },
+      "scenario": {
+        "en": "You keep thinking about an argument with your friend.",
+        "zh": "你一直想着和朋友吵架的事，心里不踏实。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "uncomfortable": {
+      "definition": {
+        "en": "Feeling physically uneasy or not at ease in a situation.",
+        "zh": "身体不舒服，或在某种场合觉得不自在。"
+      },
+      "scenario": {
+        "en": "Your shoes are too tight, and you want to take them off.",
+        "zh": "鞋子太紧了，你很想脱下来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unconcerned": {
+      "definition": {
+        "en": "Not worried about a particular problem because it does not seem serious to you.",
+        "zh": "觉得某件事没什么可担心的，所以很放松；不一定是不关心别人。"
+      },
+      "scenario": {
+        "en": "You spill a little water and calmly reach for a cloth.",
+        "zh": "不小心洒了一点水，你平静地拿抹布擦干。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "uneasy": {
+      "definition": {
+        "en": "Feeling that something may be wrong, even if you cannot say exactly why.",
+        "zh": "说不清为什么，总觉得哪里不对劲，心里不安。"
+      },
+      "scenario": {
+        "en": "You notice the path looks different from the map and hesitate.",
+        "zh": "你发现眼前的路和地图不太一样，心里有点不踏实。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unglued": {
+      "definition": {
+        "en": "Becoming so upset that it feels hard to stay calm or think clearly; informal speech.",
+        "zh": "情绪一下子乱了套，难以冷静思考；这是口语夸张说法。"
+      },
+      "scenario": {
+        "en": "Several things go wrong at once, and you need a moment to settle down.",
+        "zh": "几件事同时出了岔子，你需要一会儿才能缓过来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unhappy": {
+      "definition": {
+        "en": "Not feeling pleased or cheerful, for many possible reasons.",
+        "zh": "心里不高兴、不快乐，原因可以有很多。"
+      },
+      "scenario": {
+        "en": "Your plans change suddenly and you feel disappointed.",
+        "zh": "原定的计划突然变了，你心里不太高兴。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unnerved": {
+      "definition": {
+        "en": "Feeling shaken and less confident after something unsettling happens.",
+        "zh": "遇到令人不安的事后，心里发慌，信心也受影响。"
+      },
+      "scenario": {
+        "en": "A sudden noise during rehearsal makes it hard to focus again.",
+        "zh": "排练时突然一声巨响，让你接下来很难集中注意力。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "unsteady": {
+      "definition": {
+        "en": "Not keeping your balance physically, or feeling unsure; clarify which sense is meant.",
+        "zh": "身体站不稳，或心里不够踏实；这两个意思需要分开理解。"
+      },
+      "scenario": {
+        "en": "After spinning on the playground, you take a moment to balance.",
+        "zh": "在游乐场转了一圈后，你先站一会儿稳住身体。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "upset": {
+      "definition": {
+        "en": "Feeling unhappy, worried, angry or hurt because something bothers you.",
+        "zh": "因为发生了烦心事，感到难过、担心或生气。"
+      },
+      "scenario": {
+        "en": "Your carefully planned game gets interrupted and you feel upset.",
+        "zh": "精心安排的游戏被打断，你心里很烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "uptight": {
+      "definition": {
+        "en": "Feeling tense and worried, often because you are trying hard to control a situation.",
+        "zh": "心里紧绷又焦虑，有时因为太想把事情控制好。"
+      },
+      "scenario": {
+        "en": "You check your project again and again because you worry about mistakes.",
+        "zh": "因为怕出错，你反复检查自己的作品。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "vexed": {
+      "definition": {
+        "en": "Feeling annoyed or frustrated by a problem that is hard to solve.",
+        "zh": "难题迟迟解决不了，感到烦恼或恼火。"
+      },
+      "scenario": {
+        "en": "You cannot solve the puzzle even after trying several ways.",
+        "zh": "你换了几种方法还是解不开谜题，越来越烦。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "weary": {
+      "definition": {
+        "en": "Feeling very tired, sometimes after a long effort or difficult experience.",
+        "zh": "长时间努力或经历困难后，身心很疲惫。"
+      },
+      "scenario": {
+        "en": "After a long walk, you rest on a bench and drink water.",
+        "zh": "走了很远的路后，你坐在长椅上喝水休息。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "wistful": {
+      "definition": {
+        "en": "Feeling a gentle sadness while wishing for something you miss or cannot have now.",
+        "zh": "想念过去或得不到的美好事物时，心里有点温柔的惆怅。"
+      },
+      "scenario": {
+        "en": "You look at photos from a happy holiday and wish you could go back.",
+        "zh": "你翻看开心假期的照片，真希望再回到那时。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "withdrawn": {
+      "definition": {
+        "en": "Being unusually quiet and keeping to yourself, sometimes because you feel troubled.",
+        "zh": "比平时更沉默，暂时不愿和人来往；原因可能有很多。"
+      },
+      "scenario": {
+        "en": "After a difficult day, you choose a quiet corner instead of joining a game.",
+        "zh": "辛苦的一天过后，你独自待在安静的角落，不想参加游戏。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "woeful": {
+      "definition": {
+        "en": "Feeling deep sorrow or looking very unhappy.",
+        "zh": "心里很悲伤，或看起来愁眉苦脸。"
+      },
+      "scenario": {
+        "en": "You miss someone dear and find it hard to smile.",
+        "zh": "你很想念一位亲近的人，一时笑不出来。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "worried": {
+      "definition": {
+        "en": "Thinking repeatedly about something bad that might happen.",
+        "zh": "总想着可能发生的不好的事，心里放不下。"
+      },
+      "scenario": {
+        "en": "You keep wondering whether your friend will get home safely.",
+        "zh": "你一直惦记朋友能不能安全到家。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
+    },
+    "wretched": {
+      "definition": {
+        "en": "Feeling extremely unhappy, distressed or physically unwell.",
+        "zh": "极度难过、难受，甚至身体也可能不舒服。"
+      },
+      "scenario": {
+        "en": "After several things go wrong, you sit quietly feeling awful.",
+        "zh": "接连几件事都不顺，你难受地坐着不想说话。"
+      },
+      "reviewStatus": "proposed",
+      "senseNote": "Preserve the actual sense and intensity; separate a specific emotion from bodily/behavioral terms where necessary.",
+      "expressionReview": "Read the three existing bilingual expression cards aloud against this revised definition."
     }
   }
 }
