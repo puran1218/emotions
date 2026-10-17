@@ -5,13 +5,16 @@
   "description": "Static, theme-neutral micro.blog illustrated feelings dictionary with a swappable artwork placeholder",
   "type": "module",
   "scripts": {
-    "test": "node scripts/migrate-legacy.mjs --check && node scripts/validate.mjs && node scripts/test-ui.mjs && node scripts/test-plugin.mjs && node scripts/test-editorial.mjs && node scripts/build-review-packets.mjs --check",
+    "test": "node scripts/migrate-legacy.mjs --check && node scripts/validate.mjs && node scripts/test-ui.mjs && node scripts/test-plugin.mjs && node scripts/test-editorial.mjs && node scripts/build-review-packets.mjs --check && npm run art:check && node scripts/test-art-share.mjs",
     "validate": "node scripts/validate.mjs",
     "build:data": "node scripts/build-runtime-data.mjs",
     "content:coverage": "node scripts/content-coverage.mjs",
     "release:check": "npm test && node scripts/content-coverage.mjs --release",
     "migrate:legacy": "node scripts/migrate-legacy.mjs && npm run build:data",
     "review:editorial": "node scripts/review-editorial.mjs",
-    "review:packets": "node scripts/build-review-packets.mjs"
+    "review:packets": "node scripts/build-review-packets.mjs",
+    "art:build": "node scripts/build-art.mjs",
+    "art:check": "node scripts/build-art.mjs --check && node scripts/check-art.mjs",
+    "art:preview": "npm run art:build && npm run art:check && node -e \"console.log('Preview: start python3 -m http.server 8000, then visit http://localhost:8000/art/preview.html')\""
   }
 }

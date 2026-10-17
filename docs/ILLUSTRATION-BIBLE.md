@@ -47,7 +47,7 @@ Create a reproducible **3:2** master (for raster art, 1536×1024 px or above; cl
 
 PR #1 ships only the **neutral, shared** `static/emotions/images/feeling-placeholder.svg` with `illustration.stage: pending`. Early watercolor storyboards, recolored studies and the bolder v2 character sketches were removed from the published static directory; their experiments remain recoverable from PR #1 Git history. **None is production-approved.**
 
-In the future illustration branch, create an original `static/emotions/images/<concept>-vNN.webp` or SVG master plus an archive under `art/originals/`. Record illustrator/source/license, dimensions, revision, semantic QA and reviewer approval in `art/manifest.json`. Update each concept's canonical `illustration.src`, `stage`, and actual-image bilingual `alt`, regenerate runtime content, and test Explore thumbnail, Detail and offline share PNG. No UI redesign is needed.
+In the illustration branch, create an original, optimized `static/emotions/images/<concept>-vNN.svg` or `.webp` artwork file. Keep large source drawings, draft renders and high-resolution raster originals **outside this micro.blog plugin repository** to limit clone size and Git-history growth; only compact reproducible vector generator code and published assets belong here. Record illustrator/source/license, dimensions, revision, semantic QA and reviewer approval in `art/manifest.json`. Update each concept's canonical `illustration.src`, `stage`, and actual-image bilingual `alt`, regenerate runtime content, and test Explore thumbnail, Detail and offline share PNG. No UI redesign is needed.
 
 Never claim placeholder art is a scene depiction. Publishing **content-approved words with the neutral placeholder** is permitted; approving the illustration itself is a separate later gate. A non-placeholder, unapproved per-word sketch must not silently become a published image.
 
@@ -61,3 +61,8 @@ The illustration work deliberately comes **after** the plugin-and-content PR. No
 ## Scene explanation before illustration generation
 
 For each new image, confirm the corresponding plain-language definition and one canonical scenario, and write a `coreMeaning → single moment → visible evidence → confusableWith → mustAvoid → withoutTextTest` brief. Require observable physical evidence of the event, not a stock feeling face or floating labels. An image can support a child's interpretation, but cannot **prove** someone's feelings by expression alone. The story can be simple; never copy Anatomy's requirement for dozens of detailed mechanical parts. Keep alt text describing the *actual asset*. The shared neutral placeholder remains unchanged until an image is visually reviewed in the later art branch.
+
+
+## SVG-first trial (October 2026)
+
+The first Joy SVG candidate and shared drawing utilities live in `art/svg-kit/`, `art/scenes/joy.mjs`, and `static/emotions/images/joy-v01.svg`. See [SVG Illustration Kit](SVG-ILLUSTRATION-KIT.md) for the Anatomy-inspired build / safety / size review method (ideal 15–45 KB per SVG; 80 KB maximum). These are **new hand-constructed Playful Color Sketch vector scenes**, not traced or embedded copies of earlier raster art. They should be accepted visually, at both 120px and full Detail size, before canonical `illustration.src`, its truthful EN/ZH alt text, and illustration review status change. A deterministic SVG build and passing CI do not by themselves establish artistic or semantic approval.
