@@ -52,4 +52,52 @@ const ambiguous=JSON.parse(JSON.stringify(pilots[0]));
 ambiguous.id='mad';ambiguous.terms.en.feeling='Mad';
 assert.ok(analyzeConcept(ambiguous).some(x=>x.rule==='manual-sense-triage'&&x.severity==='advisory'),'sensitive sense must trigger an explicit human-review suggestion, not a rejection');
 
+
+// Full legacy review packets are source-derived proposals, not independent approvals.
+const legacy=read('data/concepts/legacy-expanded.json');
+const clarity=read('data/editorial/legacy-calibration.json');
+const reviewPackets=read('data/editorial/legacy-review-packets.json');
+const visualCandidates=read('data/illustration-briefs/legacy-candidates.json');
+const runtime=read('static/emotions/data/emotions.json').entries;
+assert.equal(legacy.length,230);
+assert.equal(Object.keys(clarity.entries).length,230,'every migrated concept has a per-word calibrated bilingual definition and scene');
+assert.equal(reviewPackets.entries.length,230,'source-linked editorial packets must cover all legacy concepts');
+assert.equal(visualCandidates.briefs.length,230,'all legacy concepts have an explicit static visual candidate, including withheld senses');
+const packets=new Map(reviewPackets.entries.map(x=>[x.id,x]));
+const candidateMap=new Map(visualCandidates.briefs.map(x=>[x.id,x]));
+assert.equal(packets.size,230);
+assert.equal(candidateMap.size,230);
+let expressionChanges=0,withheld=0;
+for(const entry of legacy){
+  const proposal=clarity.entries[entry.id],packet=packets.get(entry.id),visual=candidateMap.get(entry.id);
+  assert.ok(proposal&&packet&&visual,'missing full-corpus review record for '+entry.id);
+  assert.equal(proposal.reviewStatus,'proposed');
+  assert.equal(packet.humanEditorialApproval,null,'automatic revision cannot claim human editorial approval');
+  assert.equal(packet.calibration,'editorial-proposal-not-independent-approval');
+  assert.equal(packet.legacyIndex,entry.sources.find(x=>x.source_list==='emotions-card.zip').source_index);
+  assert.deepEqual(packet.proposed.definition,entry.definition);
+  assert.deepEqual(packet.proposed.scenario,entry.scenario);
+  assert.deepEqual(packet.proposed.expression,entry.expression);
+  assert.deepEqual(visual.coreMeaning,entry.definition);
+  assert.deepEqual(visual.storyMoment,entry.scenario);
+  assert.equal(visual.artStatus,'conceptual-brief-needs-individual-storyboard-review');
+  assert.equal(visual.stage,'planning-only-not-art-approved');
+  assert.equal(entry.illustration.src,'./images/feeling-placeholder.svg','new illustration must remain deferred');
+  assert.notEqual(entry.review.meaning,'approved');
+  assert.notEqual(entry.review.translation,'approved');
+  if(entry.status==='draft')withheld++;
+  expressionChanges+=Object.keys(proposal.expressionPatch||{}).length;
+  const live=runtime.find(x=>x.id===entry.id);
+  if(entry.status==='pilot'){
+    assert.ok(live,'preview entry missing from runtime '+entry.id);
+    assert.deepEqual(live.definition,entry.definition);
+    assert.deepEqual(live.scene,entry.scenario);
+    assert.deepEqual(live.say,entry.expression);
+  }else assert.ok(!live,'withheld sense must remain out of runtime '+entry.id);
+}
+assert.equal(expressionChanges,70,'individual speaking example changes must be traceable');
+assert.equal(withheld,10,'high-risk meanings remain withheld');
+assert.equal(reviewCatalog(legacy).issues.filter(x=>x.severity==='structural').length,0,'bilingual review drafts must remain structurally valid');
+console.log('OK: all 230 migrated concepts have traceable bilingual definition/scenario proposals, 70 expression edits, original sources, and 230 future visual-planning candidates.');
+
 console.log('OK: 5 bilingual pilot before/after records, semantic illustration briefs, placeholder boundary, and advisory checker tests.');
