@@ -198,7 +198,7 @@
   function explorePanel(){
     return '<aside class="explore-pane" aria-label="'+t('Explore feelings','探索情绪')+'"><div class="explore-intro"><p class="eyebrow">'+t('A WORLD OF FEELINGS','感受的世界')+'</p>'+
       '<h2 class="explore-title">'+t('Every feeling has a story.','每一种感受，都有故事。')+'</h2></div>'+
-      '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings or 中文','搜索感受或 English')+'" value="'+esc(search)+'"></label>'+
+      '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings…','搜索情绪词…')+'" aria-label="'+t('Search feelings in English or Chinese','搜索情绪词，支持中文和英文')+'" value="'+esc(search)+'"></label>'+
       '<div class="filter-row" role="group" aria-label="'+t('Feelings category','感受分类')+'">'+[['all',t('All','全部')],['needs_met',t('Needs met','需要已满足')],['needs_unmet',t('Needs unmet','需要未满足')]].map(([id,label])=>'<button class="filter-chip '+(filter===id?'selected':'')+'" data-action="filter" data-id="'+id+'" aria-pressed="'+(filter===id)+'">'+esc(label)+'</button>').join('')+'</div>'+
       '<div id="results" aria-live="polite">'+resultsHtml()+'</div>'+
       '<p class="sidebar-note">'+t('Illustrations coming later · expressions are editorial previews','插画稍后加入 · 词义和例句仍处于审校预览阶段')+'</p></aside>';
@@ -225,9 +225,15 @@
   if(document.fonts?.ready)document.fonts.ready.then(fitWordText);
   function render(){
     if(!entries.length)return;
+    // On wide screens Explore is its own scroll container. Replacing the shell
+    // must not reset the reader's position when a different Detail is selected.
+    const previousExplore=document.querySelector('.explore-pane');
+    const exploreScrollTop=previousExplore?.scrollTop||0;
     const e=displayedEntry();
     app.innerHTML='<main id="main" tabindex="-1" class="site-main"><div class="page-content">'+header()+
       '<div class="app-shell" data-view="'+esc(view)+'">'+explorePanel()+detailPanel(e,view)+'</div></div></main>';
+    const nextExplore=document.querySelector('.explore-pane');
+    if(nextExplore)nextExplore.scrollTop=exploreScrollTop;
     fitWordText();
     if(e)prepareImageShare(e);
     document.documentElement.lang=language==='zh'?'zh-CN':'en';
