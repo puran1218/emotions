@@ -59,3 +59,33 @@ When a batch is approved, establish one stable character model (wardrobe, face, 
 `scripts/check-webp.mjs` examines actual RIFF/WebP headers (VP8, VP8L, VP8X), verifies 3:2 dimensions, file names, individual/aggregate byte budgets, manifest linking and canonical approval consistency. It does not measure visual appeal, actual WebP pixel decoding, human meaning judgments, font rendering or real Safari share sheet behavior. Pillow decodes and verifies candidate outputs locally. The project CI remains green with the intentional neutral placeholder while artworks are awaiting approval.
 
 No raster source, full batch ZIP or unreviewed published illustration should land on `main` simply because its encoding satisfies the budget.
+
+## Importing artwork generated in ChatGPT
+
+**Image generation in a chat does not automatically commit files to GitHub.** Save the resulting images locally, or download the compressed candidate ZIP prepared in the chat. Files are deliberately kept outside the release repo until a reviewer confirms that the illustrated *event* matches the current bilingual `scenario`.
+
+After PR #4 is merged, branch from `main` for a small, reviewed art batch. With an accepted **960×640 or 1200×800 WebP** somewhere on disk, run:
+
+```bash
+npm run art:stage -- --id curious --file /path/to/curious-approved-scene.webp --version 01
+npm run art:check
+npm test
+```
+
+`art:stage` checks that the concept exists and is not withheld, validates WebP dimensions and the 180 KiB budget, prevents overwrites, copies the file into `static/emotions/images/curious-v01.webp`, and registers an **unapproved candidate** in `art/manifest.json`. It prints the actual EN/ZH canonical scenario so you can visually compare it to the picture. The command intentionally **does not** change canonical `illustration.src`, generated runtime JSON, approval status, or alt text. It cannot determine semantic correctness automatically.
+
+After human visual/meaning approval, make a separate intentional publication change with a persistent canonical illustration source mapping. **Do not edit only `data/concepts/legacy-expanded.json`**: legacy data is generated and gets overwritten by `npm run migrate:legacy`. Keep source-level art assignments and projected runtime data reproducible. Review the first real publication integration in a PR before applying to hundreds of terms.
+
+Commit and push only reviewed batch artwork and source changes, not original multi-megabyte PNG files or unreviewed candidate ZIP files. Typical workflow:
+
+```bash
+git switch main && git pull --ff-only
+git switch -c feat/illustrations-batch-02
+# run npm run art:stage for each reviewed WebP, then npm run art:check && npm test
+git add static/emotions/images art/manifest.json
+git commit -m "art: stage reviewed WebP illustration candidates"
+git push -u origin feat/illustrations-batch-02
+# Open a PR for actual visual review and eventual publish reference updates.
+```
+
+The format pipeline and the first few production batches should be merged independently to keep Git history clear.
