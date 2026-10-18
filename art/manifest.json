@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "status": "deferred-to-separate-illustration-branch",
+  "status": "webp-first-illustrations-awaiting-visual-approval",
   "assets": [
     {
       "concept_id": "joy",
@@ -11,7 +11,8 @@
       ],
       "file": null,
       "plannedId": "joy-v01",
-      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history."
+      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history. Future source art is kept outside the micro.blog repo; production-approved WebP is published only after actual visual review.",
+      "status": "awaiting-consistent-character-art-review"
     },
     {
       "concept_id": "frustration",
@@ -22,7 +23,8 @@
       ],
       "file": null,
       "plannedId": "frustration-v01",
-      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history."
+      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history. Future source art is kept outside the micro.blog repo; production-approved WebP is published only after actual visual review.",
+      "status": "awaiting-consistent-character-art-review"
     },
     {
       "concept_id": "loneliness",
@@ -33,7 +35,8 @@
       ],
       "file": null,
       "plannedId": "loneliness-v01",
-      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history."
+      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history. Future source art is kept outside the micro.blog repo; production-approved WebP is published only after actual visual review.",
+      "status": "awaiting-consistent-character-art-review"
     },
     {
       "concept_id": "affection",
@@ -44,7 +47,8 @@
       ],
       "file": null,
       "plannedId": "affection-v01",
-      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history."
+      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history. Future source art is kept outside the micro.blog repo; production-approved WebP is published only after actual visual review.",
+      "status": "awaiting-consistent-character-art-review"
     },
     {
       "concept_id": "relief",
@@ -55,7 +59,8 @@
       ],
       "file": null,
       "plannedId": "relief-v01",
-      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history."
+      "note": "Concept-specific art deferred until the follow-up illustration PR. Earlier sketch prototypes remain in PR #1 Git history. Future source art is kept outside the micro.blog repo; production-approved WebP is published only after actual visual review.",
+      "status": "awaiting-consistent-character-art-review"
     }
   ],
   "placeholder": {
@@ -64,5 +69,20 @@
     "shared": true,
     "aspectRatio": "3:2",
     "note": "Neutral image used by all pilot concepts in plugin release. Not a concept-specific illustrated scene."
+  },
+  "formatPolicy": {
+    "production": "webp",
+    "placeholder": "svg",
+    "viewBoxOrImageRatio": "3:2",
+    "preferredDimensions": "960x640",
+    "allowedDimensions": [
+      "960x640",
+      "1200x800"
+    ],
+    "preferredMaxBytes": 122880,
+    "hardMaxBytes": 184320,
+    "totalArtBudgetBytes": 31457280,
+    "reviewDocument": "docs/WEBP-ILLUSTRATIONS.md",
+    "autoPublish": false
   }
 }
