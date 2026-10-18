@@ -159,5 +159,9 @@
       "status": "queued",
       "approved": false
     }
-  ]
+  ],
+  "historical": true,
+  "currentStyleGuide": "docs/ILLUSTRATION-BIBLE.md",
+  "currentProductionGuide": "docs/WEBP-ILLUSTRATIONS.md",
+  "note": "Historical draft that used Soft Editorial Storybook terminology. Production uses the locked Playful Color Sketch style and compressed WebP after explicit reviewer approval."
 }
