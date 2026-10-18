@@ -17,7 +17,7 @@ Paper \`#F8F4E9\`, afternoon \`#E9C991\`, mustard \`#D9AC59\`, slate \`#6D8796\`
 
 ## Master, composition & responsive crop
 
-Create a reproducible **3:2** master (for raster art, 1536×1024 px or above; clean 960×640 sketch SVGs are acceptable as studies). The original frame remains visible on mobile (\`object-fit:contain\`); for illustrations on narrow 320px phones, keep main action inside ~**12% edge safe area** and avoid tiny props. One clear story beat (actor/action/consequence), supporting setting, expressive posture and eye direction. Keep the scene readable *without* UI labels. Desktop/iPad may frame it side by side with words; do not create a different crop that removes key context.
+Create a reproducible **3:2** master (for raster art, 1536×1024 px or above; SVGs remain acceptable as research studies, but official per-word illustrations are compressed WebP). The original frame remains visible on mobile (\`object-fit:contain\`); for illustrations on narrow 320px phones, keep main action inside ~**12% edge safe area** and avoid tiny props. One clear story beat (actor/action/consequence), supporting setting, expressive posture and eye direction. Keep the scene readable *without* UI labels. Desktop/iPad may frame it side by side with words; do not create a different crop that removes key context.
 
 ## Production scenes and semantic tests
 
@@ -47,7 +47,7 @@ Create a reproducible **3:2** master (for raster art, 1536×1024 px or above; cl
 
 PR #1 ships only the **neutral, shared** `static/emotions/images/feeling-placeholder.svg` with `illustration.stage: pending`. Early watercolor storyboards, recolored studies and the bolder v2 character sketches were removed from the published static directory; their experiments remain recoverable from PR #1 Git history. **None is production-approved.**
 
-In the future illustration branch, create an original `static/emotions/images/<concept>-vNN.webp` or SVG master plus an archive under `art/originals/`. Record illustrator/source/license, dimensions, revision, semantic QA and reviewer approval in `art/manifest.json`. Update each concept's canonical `illustration.src`, `stage`, and actual-image bilingual `alt`, regenerate runtime content, and test Explore thumbnail, Detail and offline share PNG. No UI redesign is needed.
+For approved word-specific scenes, publish an optimized `static/emotions/images/<concept>-vNN.webp` asset. Keep high-resolution PNG source art **outside the micro.blog plugin repository**, rather than archiving it under `art/originals/`; repeated large source files bloat Git history. See [WebP Illustration Production](WEBP-ILLUSTRATIONS.md) for the agreed image budgets and QA workflow. Record illustrator/source/license, dimensions, revision, semantic QA and reviewer approval in `art/manifest.json`. Update each concept's canonical `illustration.src`, `stage`, and actual-image bilingual `alt`, regenerate runtime content, and test Explore thumbnail, Detail and offline share PNG. No UI redesign is needed.
 
 Never claim placeholder art is a scene depiction. Publishing **content-approved words with the neutral placeholder** is permitted; approving the illustration itself is a separate later gate. A non-placeholder, unapproved per-word sketch must not silently become a published image.
 
@@ -61,3 +61,8 @@ The illustration work deliberately comes **after** the plugin-and-content PR. No
 ## Scene explanation before illustration generation
 
 For each new image, confirm the corresponding plain-language definition and one canonical scenario, and write a `coreMeaning → single moment → visible evidence → confusableWith → mustAvoid → withoutTextTest` brief. Require observable physical evidence of the event, not a stock feeling face or floating labels. An image can support a child's interpretation, but cannot **prove** someone's feelings by expression alone. The story can be simple; never copy Anatomy's requirement for dozens of detailed mechanical parts. Keep alt text describing the *actual asset*. The shared neutral placeholder remains unchanged until an image is visually reviewed in the later art branch.
+
+
+## Final format decision · October 2026
+
+**Use compressed WebP for the finished concept scenes, rather than SVG-first artwork.** The round-two SVG experiments did not reach the natural anatomy and warm colored-pencil texture demanded by this Bible. This decision does **not** change the Playful Color Sketch art direction, scene-based explanation or safe area. See [WEBP-ILLUSTRATIONS.md](WEBP-ILLUSTRATIONS.md) for preferred 960×640 production, 120 KiB target/180 KiB file limit, ≤30 MiB total art budget, full preview and mobile Safari checks. Keep the shared neutral SVG placeholder while visual QA and character consistency approval are pending. Do not publish unfinished trials or change the canonical character model merely because generated images use different hair or clothes.

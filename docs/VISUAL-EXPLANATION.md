@@ -48,3 +48,8 @@ Current EmoLex uses a neutral `feeling-placeholder.svg`. **Do not replace it in 
 ## Full-corpus static planning records
 
 The 230 migrated entries now also have source-aligned **conceptual candidates**, generated reproducibly from individually revised bilingual meaning and scenario: `data/illustration-briefs/legacy-candidates.json`. This file is an inventory for the future art branch, **not 230 fully crafted illustration prompts**. Each candidate still needs one human-designed observable story beat, specific props/body-language choices and a unique confusion test. The five original pilots at `data/illustration-briefs/pilots.json` remain the quality bar for completed briefs. Never treat an automatic candidate or a neutral placeholder as artwork approval.
+
+
+## Chosen production format
+
+The final approved word-specific illustration format is optimized **WebP**; the Visual Explanation Brief remains independent of encoding. The single scene, visual clue, confusable-with test, 3:2 crop, and 90–120px readability requirements still apply. See [WebP Illustration Production](WEBP-ILLUSTRATIONS.md); heavy raster masters stay out of the micro.blog repository, and placeholder art remains until a human reviewer explicitly approves each picture.
