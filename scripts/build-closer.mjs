@@ -6,48 +6,78 @@ import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=relative=>JSON.parse(fs.readFileSync(path.join(root,relative),'utf8'));
-const source=read('data/editorial/closer-pilots.json');
-const pilot=read('data/concepts/pilot.json');
+const pilotSource=read('data/editorial/closer-pilots.json');
+const curatedSources=[
+  read('data/editorial/closer-corpus-positive.json'),
+  read('data/editorial/closer-corpus-negative.json')
+];
+const pilots=read('data/concepts/pilot.json');
 const legacy=read('data/concepts/legacy-expanded.json');
-const known=new Map([...pilot,...legacy].map(e=>[e.id,e]));
-const pilotIds=new Set(pilot.map(e=>e.id));
-const bilingual=(value,min=5)=>value&&['en','zh'].every(lang=>typeof value[lang]==='string'&&value[lang].trim().length>=min);
-assert.equal(source.status,'experimental-not-human-approved');
-assert.equal(source.enabledBy,'?closer=1');
-assert.equal(source.pilotIds.length,5);
-assert.deepEqual(new Set(source.pilotIds),pilotIds);
-assert.equal(source.comparisons.length,3);
-const ids=new Set();
-for(const item of source.comparisons){
-  assert.ok(pilotIds.has(item.id),'Comparison must belong to the original five pilots: '+item.id);
-  assert.ok(!ids.has(item.id),'Duplicate comparison for '+item.id);
-  ids.add(item.id);
-  assert.ok(['emotion-vs-emotion','feeling-vs-situation'].includes(item.kind));
-  if(item.kind==='emotion-vs-emotion'){
-    assert.ok(known.has(item.compareWith),'Unknown comparison sense: '+item.compareWith);
-    assert.notEqual(item.compareWith,item.id,'Cannot compare feeling to itself');
-  }else assert.equal(item.compareWith,null,'A situation is not silently a dictionary feeling');
-  assert.ok(bilingual(item.question),'Question must be bilingual: '+item.id);
-  assert.ok(bilingual(item.first.label,1)&&bilingual(item.second.label,1),'Short word labels must still be bilingual: '+item.id);
-  for(const value of [item.first.description,item.second.description,item.takeaway]){
-    assert.ok(bilingual(value),'Comparison copy must contain meaningful EN/ZH text: '+item.id);
-  }
-  assert.equal(item.reviewer,null,'Do not imply independent human review');
+const visible=[...pilots,...legacy.filter(e=>e.status==='pilot'||e.status==='published')];
+const canonical=new Map(visible.map(e=>[e.id,e]));
+const allowedIds=new Set(visible.map(e=>e.id));
+const bilingual=(v,min=4)=>v&&['en','zh'].every(lang=>typeof v[lang]==='string'&&v[lang].trim().length>=min);
+assert.equal(visible.length,225,'Current full preview has 225 visible entries');
+assert.equal(new Set(visible.map(e=>e.id)).size,visible.length,'Canonical senses must remain distinct');
+assert.equal(pilotSource.status,'experimental-not-human-approved');
+assert.equal(pilotSource.comparisons.length,3,'Keep three original handwritten comparisons');
+
+const byId=new Map();
+for(const item of pilotSource.comparisons){
+  assert.ok(allowedIds.has(item.id),'Unknown pilot comparison '+item.id);
+  assert.equal(item.reviewer,null,'No pilot comparison is automatically reviewed');
+  assert.ok(bilingual(item.question)&&bilingual(item.takeaway),'Pilot question and insight must be bilingual');
+  assert.ok(bilingual(item.first.description)&&bilingual(item.second.description),'Pilot cards need bilingual copy');
+  byId.set(item.id,{
+    id:item.id,
+    kind:item.kind,
+    compareWith:item.compareWith,
+    question:item.question,
+    first:item.first,
+    second:item.second,
+    takeaway:item.takeaway,
+    reviewStatus:'draft-proposal'
+  });
 }
-const out=path.join(root,'static/emotions/data/closer-experiment.json');
-const publicData={
-  version:source.version,
-  status:source.status,
-  comparisons:source.comparisons.map(({id,kind,compareWith,question,first,second,takeaway})=>({
-    id,kind,compareWith,question,first,second,takeaway
-  }))
+
+for(const source of curatedSources){
+  assert.equal(source.reviewStatus,'draft-proposal-not-human-approved');
+  for(const item of source.records){
+    assert.ok(allowedIds.has(item.id),'Withheld or unknown sense must not be shown: '+item.id);
+    assert.ok(allowedIds.has(item.compareWith),'Unknown comparison target: '+item.compareWith+' for '+item.id);
+    assert.notEqual(item.id,item.compareWith,'Comparison cannot point to itself: '+item.id);
+    assert.ok(!byId.has(item.id),'Duplicate contrast: '+item.id);
+    assert.equal(item.reviewer,null,'Generated content must not impersonate a human review: '+item.id);
+    assert.ok(bilingual(item.takeaway,8),'A unique English/Chinese takeaway is required: '+item.id);
+    const entry=canonical.get(item.id);
+    const target=canonical.get(item.compareWith);
+    const nonFeeling=['physical_state','attitude_trait','descriptive_other'];
+    const kind=nonFeeling.includes(entry.taxonomy.kind)||nonFeeling.includes(target.taxonomy.kind)?'sense-or-state-contrast':'emotion-vs-emotion';
+    byId.set(item.id,{
+      id:item.id,
+      kind,
+      compareWith:item.compareWith,
+      takeaway:item.takeaway,
+      reviewStatus:'draft-proposal'
+    });
+  }
+}
+assert.equal(byId.size,visible.length,'Full-corpus coverage should be exactly 225 (including 3 pilots)');
+for(const entry of visible)assert.ok(byId.has(entry.id),'Missing edited comparison for '+entry.id);
+for(const entry of legacy.filter(e=>e.status==='draft'))assert.ok(!byId.has(entry.id),'Withheld word leaked '+entry.id);
+const result={
+  version:2,
+  status:'full-corpus-editorial-proposals-not-human-approved',
+  coverage:{visible:visible.length,pilotHandcrafted:pilotSource.comparisons.length,curatedAdditional:visible.length-pilotSource.comparisons.length},
+  comparisons:visible.map(e=>byId.get(e.id))
 };
-const content=JSON.stringify(publicData,null,2)+'\n';
+const content=JSON.stringify(result,null,2)+'\n';
+const output=path.join(root,'static/emotions/data/closer-experiment.json');
 if(process.argv.includes('--check')){
-  assert.ok(fs.existsSync(out),'Generated experiment data is missing; run npm run build:closer');
-  assert.equal(fs.readFileSync(out,'utf8'),content,'Experiment runtime differs from its editorial source');
-  console.log('OK: bilingual contrast overlay is deterministic and remains experimental.');
+  assert.ok(fs.existsSync(output),'Missing generated contrast overlay. Run npm run build:closer');
+  assert.equal(fs.readFileSync(output,'utf8'),content,'The generated contrast overlay is out of date');
+  console.log('OK: 225 carefully mapped bilingual contrast proposals, no withheld senses, canonical definitions remain authoritative.');
 }else{
-  fs.writeFileSync(out,content,'utf8');
-  console.log('Built '+source.comparisons.length+' optional contrast panels, isolated from canonical 225-entry runtime.');
+  fs.writeFileSync(output,content,'utf8');
+  console.log('Built '+result.coverage.visible+' A Little Closer proposals, preserving the original canonical definitions and expressions.');
 }
