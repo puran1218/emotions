@@ -13,16 +13,19 @@ const appJs=read('static/emotions/app.js');
 const css=read('static/emotions/styles.css');
 new vm.Script(appJs);
 assert.equal(runtime.entries.length,225);
-assert.equal(overlay.status,'experimental-not-human-approved');
-assert.deepEqual(overlay.comparisons.map(x=>x.id),['joy','frustration','loneliness']);
-assert.ok(css.includes('.closer-section')&&css.includes('.closer-cards')&&css.includes('max-width:650px'));
+assert.equal(overlay.status,'full-corpus-editorial-proposals-not-human-approved');
+assert.equal(overlay.coverage.visible,225);
+assert.equal(overlay.comparisons.length,225);
+assert.equal(new Set(overlay.comparisons.map(x=>x.id)).size,225);
+assert.deepEqual(new Set(overlay.comparisons.map(x=>x.id)),new Set(runtime.entries.map(x=>x.id)));
+assert.ok(css.includes('.closer-section')&&css.includes('.closer-cards')&&css.includes('.closer-link'));
+assert.ok(css.includes('@media(max-width:650px)'),'contrast cards need mobile stacking');
 
-async function boot(enabled){
+async function boot(query='word=joy'){
   const handlers={};
   const container={innerHTML:''};
   const locale={lang:'en'};
-  const href='https://example.test/emotions/?word=joy'+(enabled?'&closer=1':'');
-  const location={href};
+  const location={href:'https://example.test/emotions/?'+query};
   let experimentFetches=0;
   const document={
     documentElement:locale,
@@ -32,11 +35,7 @@ async function boot(enabled){
     querySelectorAll(){return[]},
     addEventListener(event,fn){handlers[event]=fn}
   };
-  const window={
-    location,
-    addEventListener(event,fn){handlers[event]=fn},
-    scrollTo(){}
-  };
+  const window={location,addEventListener(event,fn){handlers[event]=fn},scrollTo(){}};
   const navigator={language:'en-US'};
   const history={state:null,pushState(state,_,url){this.state=state;location.href=String(url)}};
   const localStorage={getItem(){return null},setItem(){}};
@@ -53,27 +52,46 @@ async function boot(enabled){
   };
   return{container,locale,location,click,get experimentFetches(){return experimentFetches}};
 }
-const demo=await boot(true);
-assert.equal(demo.experimentFetches,1);
+
+const demo=await boot();
+assert.equal(demo.experimentFetches,1,'main experience loads its stable full-corpus overlay once');
 assert.ok(demo.container.innerHTML.includes('A LITTLE CLOSER'));
 assert.ok(demo.container.innerHTML.includes('Joy or relief'));
-assert.ok(demo.container.innerHTML.includes('Editorial experiment'));
+assert.ok(demo.container.innerHTML.includes('Editorial draft'));
 assert.ok(demo.container.innerHTML.includes('<details class="closer-section" open>'));
 await demo.click('language');
 assert.equal(demo.locale.lang,'zh-CN');
 assert.ok(demo.container.innerHTML.includes('再理解一点'));
 assert.ok(demo.container.innerHTML.includes('喜悦和如释重负'));
+
 await demo.click('detail','frustration');
-assert.equal(new URL(demo.location.href).searchParams.get('closer'),'1','navigation must keep the opt-in flag');
 assert.ok(demo.container.innerHTML.includes('挫败和失望'));
+assert.ok(demo.container.innerHTML.includes('积木塔'));
 await demo.click('detail','loneliness');
 assert.ok(demo.container.innerHTML.includes('孤单和一个人待着'));
 await demo.click('detail','affection');
-assert.ok(!demo.container.innerHTML.includes('class="closer-section"'),'Affection should not invent a comparison');
+assert.ok(demo.container.innerHTML.includes('再理解一点'),'previously uncovered pilot now gets a new comparison');
+assert.ok(demo.container.innerHTML.includes('充满爱意'));
 await demo.click('detail','relief');
-assert.ok(!demo.container.innerHTML.includes('class="closer-section"'),'Relief should not duplicate the Joy comparison');
-const normal=await boot(false);
-assert.equal(normal.experimentFetches,0,'regular pages do not load experimental content');
-assert.ok(!normal.container.innerHTML.includes('A LITTLE CLOSER'),'normal experience stays unchanged');
-assert.ok(!normal.container.innerHTML.includes('closer-section'));
-console.log('OK: opt-in pilot contrasts, bilingual switch, deep-link preservation, non-pilot isolation, and default UI unchanged.');
+assert.ok(demo.container.innerHTML.includes('再理解一点'),'previously uncovered relief also gets a comparison');
+
+for(const id of ['curious','quiet','glorious','tired','warm','worried','surprised-met','surprised-unmet','concerned-met','concerned-unmet','sensitive-met','sensitive-unmet','intense-met','intense-unmet']){
+  const record=runtime.entries.find(x=>x.id===id);
+  assert.ok(record,'Missing sense '+id);
+  await demo.click('detail',id);
+  assert.ok(demo.container.innerHTML.includes('class="closer-section"'),'All content including nuanced senses must have the contrast: '+id);
+  assert.ok(demo.container.innerHTML.includes('class="closer-link"'),'Comparison target should be explorable: '+id);
+  assert.ok(demo.container.innerHTML.includes(record.definition.zh),'Original bilingual concept definition should be the first comparison: '+id);
+}
+await demo.click('detail','quiet');
+assert.ok(demo.container.innerHTML.includes('安静是声音少'),'Not a feeling ≠ unhappy');
+await demo.click('detail','joy');
+assert.ok(!new URL(demo.location.href).searchParams.has('closer'),'default enabled does not need a URL feature flag');
+
+const hidden=await boot('word=joy&closer=0');
+assert.equal(hidden.experimentFetches,0,'Explicit compare-to-old mode should not load the overlay');
+assert.ok(!hidden.container.innerHTML.includes('A LITTLE CLOSER'));
+await hidden.click('detail','tired');
+assert.ok(!hidden.container.innerHTML.includes('class="closer-section"'),'Every word hides extra section in legacy view');
+assert.equal(new URL(hidden.location.href).searchParams.get('closer'),'0','Navigation must preserve comparison-off view');
+console.log('OK: 225 comparisons, three custom pilots, canonical bilingual definitions, nuanced senses, navigable targets, and explicit old-view switch.');
