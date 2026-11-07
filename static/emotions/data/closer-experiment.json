@@ -121,7 +121,7 @@
     },
     {
       "id": "relief",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "joy",
       "takeaway": {
         "en": "Relief follows a worry ending; joy can happen without an earlier worry.",
@@ -131,7 +131,7 @@
     },
     {
       "id": "absorbed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "interested",
       "takeaway": {
         "en": "Interest draws your attention; being absorbed means nearly all your attention stays there.",
@@ -141,7 +141,7 @@
     },
     {
       "id": "adventurous",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "curious",
       "takeaway": {
         "en": "Curiosity asks what is there; an adventurous spirit also wants to go and explore.",
@@ -151,7 +151,7 @@
     },
     {
       "id": "alert",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "anxious",
       "takeaway": {
         "en": "Alert means noticing what is around you; anxious means feeling uneasy about what may happen.",
@@ -161,7 +161,7 @@
     },
     {
       "id": "amazed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "astonished",
       "takeaway": {
         "en": "Both express surprise; astonished usually emphasizes how hard the event is to believe.",
@@ -171,7 +171,7 @@
     },
     {
       "id": "amused",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "mirthful",
       "takeaway": {
         "en": "Amused is how something funny makes you feel; mirthful emphasizes lively laughter.",
@@ -181,7 +181,7 @@
     },
     {
       "id": "animated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "energetic",
       "takeaway": {
         "en": "Animated describes lively expression; energetic emphasizes having plenty of energy.",
@@ -191,7 +191,7 @@
     },
     {
       "id": "appreciative",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "grateful",
       "takeaway": {
         "en": "Both involve thankfulness; appreciative also means noticing and valuing someone's effort.",
@@ -201,7 +201,7 @@
     },
     {
       "id": "ardent",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "enthusiastic",
       "takeaway": {
         "en": "Both show strong interest; ardent often suggests an especially deep, lasting passion.",
@@ -211,7 +211,7 @@
     },
     {
       "id": "astonished",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "amazed",
       "takeaway": {
         "en": "Both can follow an unexpected event; astonished highlights disbelief more than enjoyment.",
@@ -221,7 +221,7 @@
     },
     {
       "id": "blissful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "happy",
       "takeaway": {
         "en": "Happy is broad; blissful describes an especially peaceful, deeply happy moment.",
@@ -241,7 +241,7 @@
     },
     {
       "id": "buoyant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "hopeful",
       "takeaway": {
         "en": "Hopeful looks toward what may go well; buoyant also describes a light, lifted mood now.",
@@ -251,7 +251,7 @@
     },
     {
       "id": "calm",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "peaceful",
       "takeaway": {
         "en": "Both can feel steady; peaceful often adds a deeper sense of safety and quiet.",
@@ -261,7 +261,7 @@
     },
     {
       "id": "carefree",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "relaxed",
       "takeaway": {
         "en": "Relaxed means tension has eased; carefree means you are not thinking much about troubles.",
@@ -271,7 +271,7 @@
     },
     {
       "id": "cheerful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "happy",
       "takeaway": {
         "en": "Happy names a feeling; cheerful often shows in a bright, friendly manner.",
@@ -281,7 +281,7 @@
     },
     {
       "id": "comfortable",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "secure",
       "takeaway": {
         "en": "Comfortable means feeling at ease; secure places special emphasis on feeling safe.",
@@ -291,7 +291,7 @@
     },
     {
       "id": "complacent",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "confident",
       "takeaway": {
         "en": "Confidence says you can try; complacency may make you overlook what still needs practice.",
@@ -301,7 +301,7 @@
     },
     {
       "id": "composed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "calm",
       "takeaway": {
         "en": "Calm describes steadiness; composed means keeping that steadiness even during pressure.",
@@ -311,7 +311,7 @@
     },
     {
       "id": "concerned-met",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "concerned-unmet",
       "takeaway": {
         "en": "One use of concerned shows care for someone; another means worry that something may be wrong.",
@@ -321,7 +321,7 @@
     },
     {
       "id": "confident",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "proud",
       "takeaway": {
         "en": "Confident looks toward what you can try; proud looks back at effort or progress you value.",
@@ -331,7 +331,7 @@
     },
     {
       "id": "contented",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "satisfied",
       "takeaway": {
         "en": "Both mean feeling pleased; contented often means being at ease with life as it is.",
@@ -341,7 +341,7 @@
     },
     {
       "id": "curious",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "interested",
       "takeaway": {
         "en": "Curiosity wants to find out something unknown; interest can also be about something familiar.",
@@ -351,7 +351,7 @@
     },
     {
       "id": "dazzled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "amazed",
       "takeaway": {
         "en": "Dazzled emphasizes how a bright sight affects your senses; amazed describes a feeling of wonder.",
@@ -361,7 +361,7 @@
     },
     {
       "id": "delighted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "pleased",
       "takeaway": {
         "en": "Both mean feeling happy; delighted usually sounds brighter and stronger than quietly pleased.",
@@ -371,7 +371,7 @@
     },
     {
       "id": "eager",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "expectant",
       "takeaway": {
         "en": "Eager means wanting to start soon; expectant means waiting for something to happen.",
@@ -381,7 +381,7 @@
     },
     {
       "id": "ebullient",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "cheerful",
       "takeaway": {
         "en": "Both are happy moods; ebullient shows much more energy that seems to bubble over.",
@@ -391,7 +391,7 @@
     },
     {
       "id": "ecstatic",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "joy",
       "takeaway": {
         "en": "Joy can be quiet or strong; ecstatic describes an exceptionally intense burst of happiness.",
@@ -401,7 +401,7 @@
     },
     {
       "id": "effervescent",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "animated",
       "takeaway": {
         "en": "Both look lively; effervescent especially suggests bubbly cheerfulness that spreads to others.",
@@ -411,7 +411,7 @@
     },
     {
       "id": "elated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "happy",
       "takeaway": {
         "en": "Happy is general; elated often follows especially good news and feels uplifting.",
@@ -421,7 +421,7 @@
     },
     {
       "id": "enchanted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "fascinated",
       "takeaway": {
         "en": "Both hold your attention; enchanted adds a sense of beauty or near-magic.",
@@ -431,7 +431,7 @@
     },
     {
       "id": "encouraged",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "confident",
       "takeaway": {
         "en": "Being encouraged means support helped you keep going; confidence is belief in your ability.",
@@ -451,7 +451,7 @@
     },
     {
       "id": "engrossed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "absorbed",
       "takeaway": {
         "en": "Both involve deep attention; engrossed emphasizes how an interesting task holds you.",
@@ -461,7 +461,7 @@
     },
     {
       "id": "enlivened",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "animated",
       "takeaway": {
         "en": "Enlivened means something has lifted your liveliness; animated describes the lively behavior itself.",
@@ -471,7 +471,7 @@
     },
     {
       "id": "enthusiastic",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "interested",
       "takeaway": {
         "en": "Interest means wanting to know more; enthusiasm adds energy and eagerness to take part.",
@@ -481,7 +481,7 @@
     },
     {
       "id": "excited",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "expectant",
       "takeaway": {
         "en": "Expectant focuses on waiting; excited adds lively energy about what may happen.",
@@ -491,7 +491,7 @@
     },
     {
       "id": "exhilarated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "thrilled",
       "takeaway": {
         "en": "Both feel exciting; exhilarated often follows an exciting experience and leaves you energized.",
@@ -511,7 +511,7 @@
     },
     {
       "id": "expectant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "hopeful",
       "takeaway": {
         "en": "Hopeful means believing a good result is possible; expectant means waiting for the event to arrive.",
@@ -521,7 +521,7 @@
     },
     {
       "id": "exultant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "jubilant",
       "takeaway": {
         "en": "Both celebrate success; exultant highlights a sense of triumph, while jubilant highlights cheering.",
@@ -531,7 +531,7 @@
     },
     {
       "id": "fascinated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "curious",
       "takeaway": {
         "en": "Curiosity sparks a question; fascination keeps your attention there for longer.",
@@ -541,7 +541,7 @@
     },
     {
       "id": "free",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "carefree",
       "takeaway": {
         "en": "Feeling free emphasizes having choices; carefree emphasizes not being weighed down by worries.",
@@ -561,7 +561,7 @@
     },
     {
       "id": "fulfilled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "satisfied",
       "takeaway": {
         "en": "Satisfied means a result seems good enough; fulfilled adds a sense of deeper meaning or completion.",
@@ -571,7 +571,7 @@
     },
     {
       "id": "glad",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "relief",
       "takeaway": {
         "en": "Glad may mean simply happy; relief especially means an earlier worry has eased.",
@@ -581,7 +581,7 @@
     },
     {
       "id": "gleeful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "merry",
       "takeaway": {
         "en": "Both are lively and cheerful; gleeful may add a playful, mischievous spark.",
@@ -601,7 +601,7 @@
     },
     {
       "id": "glowing",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "radiant",
       "takeaway": {
         "en": "Both describe happiness you can see; radiant emphasizes how strongly that warmth shows.",
@@ -611,7 +611,7 @@
     },
     {
       "id": "good-humored",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "cheerful",
       "takeaway": {
         "en": "Cheerful is a happy mood; good-humored also means responding kindly when small things go wrong.",
@@ -621,7 +621,7 @@
     },
     {
       "id": "grateful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "appreciative",
       "takeaway": {
         "en": "Grateful focuses on receiving kindness; appreciative also notices the worth of what someone did.",
@@ -631,7 +631,7 @@
     },
     {
       "id": "gratified",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "proud",
       "takeaway": {
         "en": "Gratified means pleased that something turned out well; proud emphasizes your own valued effort or progress.",
@@ -641,7 +641,7 @@
     },
     {
       "id": "happy",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "joy",
       "takeaway": {
         "en": "Happy covers many pleasant moments; joy often feels especially strong or meaningful.",
@@ -671,7 +671,7 @@
     },
     {
       "id": "inquisitive",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "curious",
       "takeaway": {
         "en": "Both ask questions; inquisitive often describes someone who keeps asking and investigating.",
@@ -681,7 +681,7 @@
     },
     {
       "id": "inspired",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "encouraged",
       "takeaway": {
         "en": "Inspired sparks a new idea or wish to create; encouraged makes you feel able to keep going.",
@@ -691,7 +691,7 @@
     },
     {
       "id": "intense-met",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "excited",
       "takeaway": {
         "en": "Intense describes how strong a feeling is; excited names one particular kind of feeling.",
@@ -701,7 +701,7 @@
     },
     {
       "id": "interested",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "curious",
       "takeaway": {
         "en": "Interest means wanting to know or do more; curiosity often centers on an unknown question.",
@@ -711,7 +711,7 @@
     },
     {
       "id": "intrigued",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "interested",
       "takeaway": {
         "en": "Interested means paying attention; intrigued means a mystery or unusual detail pulls you in.",
@@ -731,7 +731,7 @@
     },
     {
       "id": "involved",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "interested",
       "takeaway": {
         "en": "Interested can mean watching from the side; involved means joining an activity.",
@@ -741,7 +741,7 @@
     },
     {
       "id": "joyous",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "joy",
       "takeaway": {
         "en": "Both mean happiness; joyous often colors an event or occasion with shared celebration.",
@@ -751,7 +751,7 @@
     },
     {
       "id": "jubilant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "exultant",
       "takeaway": {
         "en": "Jubilant highlights loud celebration; exultant emphasizes feeling victorious.",
@@ -761,7 +761,7 @@
     },
     {
       "id": "keyed-up",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "nervous",
       "takeaway": {
         "en": "Nervous means feeling tense; keyed-up adds being unusually wound up and ready to act.",
@@ -791,7 +791,7 @@
     },
     {
       "id": "merry",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "cheerful",
       "takeaway": {
         "en": "Both are cheerful; merry often suggests laughing or celebrating together.",
@@ -801,7 +801,7 @@
     },
     {
       "id": "mirthful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "amused",
       "takeaway": {
         "en": "Amused is being entertained; mirthful emphasizes the laughter that follows.",
@@ -811,7 +811,7 @@
     },
     {
       "id": "moved",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "touched",
       "takeaway": {
         "en": "Both mean being emotionally touched; moved can follow kindness, beauty, or something deeply meaningful.",
@@ -831,7 +831,7 @@
     },
     {
       "id": "overjoyed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "joy",
       "takeaway": {
         "en": "Joy names happiness; overjoyed means that happiness feels exceptionally strong.",
@@ -841,7 +841,7 @@
     },
     {
       "id": "overwhelmed-met",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "thrilled",
       "takeaway": {
         "en": "Thrilled is strong excitement; overwhelmed means there may be too much feeling to process at once.",
@@ -851,7 +851,7 @@
     },
     {
       "id": "peaceful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "calm",
       "takeaway": {
         "en": "Calm means not stirred up; peaceful often adds a sense of inner safety and ease.",
@@ -861,7 +861,7 @@
     },
     {
       "id": "perky",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "energetic",
       "takeaway": {
         "en": "Energetic means having energy; perky adds a cheerful, ready-to-go manner.",
@@ -881,7 +881,7 @@
     },
     {
       "id": "pleased",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "delighted",
       "takeaway": {
         "en": "Pleased is often quiet satisfaction; delighted usually expresses more visible delight.",
@@ -891,7 +891,7 @@
     },
     {
       "id": "proud",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "confident",
       "takeaway": {
         "en": "Pride looks at something you value accomplishing; confidence helps you face what comes next.",
@@ -911,7 +911,7 @@
     },
     {
       "id": "radiant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "glowing",
       "takeaway": {
         "en": "Both can describe visible happiness; radiant suggests it shines out unmistakably.",
@@ -921,7 +921,7 @@
     },
     {
       "id": "rapturous",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "ecstatic",
       "takeaway": {
         "en": "Both describe exceptionally strong happiness; rapturous often sounds like being carried away by delight.",
@@ -941,7 +941,7 @@
     },
     {
       "id": "relaxed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "calm",
       "takeaway": {
         "en": "Calm is mental steadiness; relaxed also includes having less tension in your body.",
@@ -951,7 +951,7 @@
     },
     {
       "id": "satisfied",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "contented",
       "takeaway": {
         "en": "Satisfied can follow one result; contented often means feeling at ease with what you have.",
@@ -961,7 +961,7 @@
     },
     {
       "id": "secure",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "comfortable",
       "takeaway": {
         "en": "Comfortable means at ease; secure means you especially trust that you are safe.",
@@ -981,7 +981,7 @@
     },
     {
       "id": "serene",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "calm",
       "takeaway": {
         "en": "Serene is a particularly deep, undisturbed kind of calm.",
@@ -991,7 +991,7 @@
     },
     {
       "id": "spellbound",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "fascinated",
       "takeaway": {
         "en": "Fascinated means wanting to keep learning; spellbound suggests being so captivated you forget your surroundings.",
@@ -1011,7 +1011,7 @@
     },
     {
       "id": "stimulated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "interested",
       "takeaway": {
         "en": "Interested is wanting to know more; stimulated means something has awakened your attention or senses.",
@@ -1021,7 +1021,7 @@
     },
     {
       "id": "surprised-met",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "surprised-unmet",
       "takeaway": {
         "en": "Surprise is about not expecting something; welcome and unwelcome surprises can feel very different.",
@@ -1031,7 +1031,7 @@
     },
     {
       "id": "tender",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "affection",
       "takeaway": {
         "en": "Tender describes gentle care in action or feeling; affection is the warmth you feel toward someone.",
@@ -1041,7 +1041,7 @@
     },
     {
       "id": "thankful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "grateful",
       "takeaway": {
         "en": "These two often mean nearly the same thing; thankful can sound especially natural after a particular helpful moment.",
@@ -1051,7 +1051,7 @@
     },
     {
       "id": "thrilled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "excited",
       "takeaway": {
         "en": "Both are excited; thrilled emphasizes unusually intense happiness about something special.",
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "touched",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "grateful",
       "takeaway": {
         "en": "Being touched means kindness has moved you; gratitude focuses on valuing the help itself.",
@@ -1071,7 +1071,7 @@
     },
     {
       "id": "tranquil",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "serene",
       "takeaway": {
         "en": "Both are peaceful; tranquil often describes a quiet setting as well as the feeling it brings.",
@@ -1091,7 +1091,7 @@
     },
     {
       "id": "upbeat",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "hopeful",
       "takeaway": {
         "en": "Hopeful expects something good; upbeat adds a cheerful way of facing the moment.",
@@ -1131,7 +1131,7 @@
     },
     {
       "id": "zestful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "enthusiastic",
       "takeaway": {
         "en": "Both show enthusiasm; zestful emphasizes abundant lively energy.",
@@ -1141,7 +1141,7 @@
     },
     {
       "id": "agitated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "restless",
       "takeaway": {
         "en": "Restless means finding it hard to settle; agitated usually includes feeling upset.",
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "alarmed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "worried",
       "takeaway": {
         "en": "Worry can build slowly; alarm is a sudden reaction when something seems wrong or unsafe.",
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "angry",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "irritated",
       "takeaway": {
         "en": "Anger can follow unfairness or hurt; irritation often follows smaller repeated annoyances.",
@@ -1181,7 +1181,7 @@
     },
     {
       "id": "anxious",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "nervous",
       "takeaway": {
         "en": "Both involve uncertainty; anxious often means worries keep returning to your thoughts.",
@@ -1191,7 +1191,7 @@
     },
     {
       "id": "apathetic",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "indifferent",
       "takeaway": {
         "en": "Indifferent means not caring much about a choice; apathetic may mean little interest in many usual activities.",
@@ -1201,7 +1201,7 @@
     },
     {
       "id": "apprehensive",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "worried",
       "takeaway": {
         "en": "Both concern what may go wrong; apprehensive often includes hesitation about something approaching.",
@@ -1211,7 +1211,7 @@
     },
     {
       "id": "ashamed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "embarrassed",
       "takeaway": {
         "en": "Embarrassment can come from awkward attention; shame often involves believing you did something wrong.",
@@ -1231,7 +1231,7 @@
     },
     {
       "id": "bewildered",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "confused",
       "takeaway": {
         "en": "Confusion means not understanding; bewilderment adds surprise and not knowing what to do next.",
@@ -1241,7 +1241,7 @@
     },
     {
       "id": "bitter",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "resentful",
       "takeaway": {
         "en": "Both can follow hurt; bitter often suggests the hurt has stayed with you for a long time.",
@@ -1251,7 +1251,7 @@
     },
     {
       "id": "blue",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Blue is an informal way to say you feel a little low; sad is the ordinary, broader feeling word.",
@@ -1271,7 +1271,7 @@
     },
     {
       "id": "brokenhearted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Both are sadness; brokenhearted usually follows a particularly painful loss.",
@@ -1281,7 +1281,7 @@
     },
     {
       "id": "chagrined",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "embarrassed",
       "takeaway": {
         "en": "Chagrin mixes disappointment and embarrassment after a setback; embarrassment can happen without a failed attempt.",
@@ -1301,7 +1301,7 @@
     },
     {
       "id": "concerned-unmet",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "concerned-met",
       "takeaway": {
         "en": "Concern can mean worry that something is wrong, or caring enough to check whether someone needs help.",
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "confused",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "puzzled",
       "takeaway": {
         "en": "Confused is broad uncertainty; puzzled often means you are trying to figure out a specific answer.",
@@ -1321,7 +1321,7 @@
     },
     {
       "id": "cross",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "angry",
       "takeaway": {
         "en": "Cross is a common British way to say annoyed or angry, often about something small.",
@@ -1331,7 +1331,7 @@
     },
     {
       "id": "dejected",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "discouraged",
       "takeaway": {
         "en": "Both feel low after setbacks; dejected stresses the sadness, while discouraged stresses less willingness to try.",
@@ -1341,7 +1341,7 @@
     },
     {
       "id": "despairing",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "hopeful",
       "takeaway": {
         "en": "Hope means a good outcome still seems possible; despair means it feels hard to imagine things improving.",
@@ -1351,7 +1351,7 @@
     },
     {
       "id": "despondent",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "discouraged",
       "takeaway": {
         "en": "Discouraged means less ready to try; despondent adds deeper sadness and low hope.",
@@ -1371,7 +1371,7 @@
     },
     {
       "id": "disaffected",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "disappointed",
       "takeaway": {
         "en": "Disappointment follows unmet hope; disaffection means support or interest may have worn away afterward.",
@@ -1381,7 +1381,7 @@
     },
     {
       "id": "disappointed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "frustration",
       "takeaway": {
         "en": "Disappointment follows a hope not working out; frustration centers on trying but being blocked.",
@@ -1391,7 +1391,7 @@
     },
     {
       "id": "discouraged",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "frustration",
       "takeaway": {
         "en": "Frustration happens while effort is blocked; discouragement is losing confidence about trying again.",
@@ -1401,7 +1401,7 @@
     },
     {
       "id": "disenchanted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "enchanted",
       "takeaway": {
         "en": "Enchanted feels almost magical; disenchanted follows learning something disappointing about what you once admired.",
@@ -1411,7 +1411,7 @@
     },
     {
       "id": "disgruntled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "resentful",
       "takeaway": {
         "en": "Both involve dissatisfaction; disgruntled is often a current complaint, resentment may last longer.",
@@ -1421,7 +1421,7 @@
     },
     {
       "id": "disgusted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "repelled",
       "takeaway": {
         "en": "Both want distance from something unpleasant; disgusted highlights the strong feeling of revulsion.",
@@ -1431,7 +1431,7 @@
     },
     {
       "id": "disheartened",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "discouraged",
       "takeaway": {
         "en": "Both lose courage after difficulty; disheartened often sounds like hope itself has dimmed.",
@@ -1441,7 +1441,7 @@
     },
     {
       "id": "dismayed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "alarmed",
       "takeaway": {
         "en": "Both may come from bad news; alarm emphasizes danger, dismay adds disappointment or discouragement.",
@@ -1451,7 +1451,7 @@
     },
     {
       "id": "displeased",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "disappointed",
       "takeaway": {
         "en": "Displeased means not satisfied with something; disappointed means you had hoped for better.",
@@ -1461,7 +1461,7 @@
     },
     {
       "id": "disquieted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "uneasy",
       "takeaway": {
         "en": "Both can feel unsettled; disquieted especially suggests something troubling has disturbed your peace.",
@@ -1471,7 +1471,7 @@
     },
     {
       "id": "distressed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "upset",
       "takeaway": {
         "en": "Upset covers many unhappy reactions; distressed emphasizes stronger worry or hurt.",
@@ -1481,7 +1481,7 @@
     },
     {
       "id": "disturbed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "troubled",
       "takeaway": {
         "en": "Both involve unease; disturbed emphasizes something upsetting your peace, troubled means a problem stays on your mind.",
@@ -1491,7 +1491,7 @@
     },
     {
       "id": "downcast",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "downhearted",
       "takeaway": {
         "en": "Both suggest low mood; downcast can describe what you look like, while downhearted emphasizes less hope.",
@@ -1501,7 +1501,7 @@
     },
     {
       "id": "downhearted",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "discouraged",
       "takeaway": {
         "en": "Both follow hard moments; downhearted emphasizes sadness, discouraged emphasizes difficulty wanting to continue.",
@@ -1521,7 +1521,7 @@
     },
     {
       "id": "edgy",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "nervous",
       "takeaway": {
         "en": "Nervous means tense or worried; edgy adds that small things may irritate you easily.",
@@ -1531,7 +1531,7 @@
     },
     {
       "id": "embarrassed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "ashamed",
       "takeaway": {
         "en": "Embarrassment can follow awkward attention; shame usually carries concern about having done wrong.",
@@ -1541,7 +1541,7 @@
     },
     {
       "id": "embittered",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "bitter",
       "takeaway": {
         "en": "Both suggest hurt that lingers; embittered often describes how long experiences have shaped your mood.",
@@ -1551,7 +1551,7 @@
     },
     {
       "id": "exasperated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "irritated",
       "takeaway": {
         "en": "Irritation may be mild; exasperation happens when repeated problems make patience run out.",
@@ -1581,7 +1581,7 @@
     },
     {
       "id": "fearful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "scared",
       "takeaway": {
         "en": "Both are about fear; fearful may describe an ongoing sense of danger, scared can be more immediate.",
@@ -1591,7 +1591,7 @@
     },
     {
       "id": "fidgety",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "restless",
       "takeaway": {
         "en": "Both make it hard to stay still; fidgety emphasizes little movements such as tapping or shifting.",
@@ -1601,7 +1601,7 @@
     },
     {
       "id": "forlorn",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "loneliness",
       "takeaway": {
         "en": "Loneliness is wanting company; forlorn adds sadness and a sense that hope is fading.",
@@ -1611,7 +1611,7 @@
     },
     {
       "id": "frightened",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "startled",
       "takeaway": {
         "en": "Startled can be a brief jump from surprise; frightened means you actually feel scared.",
@@ -1621,7 +1621,7 @@
     },
     {
       "id": "furious",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "angry",
       "takeaway": {
         "en": "Anger can be mild or strong; furious means the anger feels extremely intense.",
@@ -1631,7 +1631,7 @@
     },
     {
       "id": "gloomy",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Sadness may have a clear cause; gloomy often describes a longer low mood or dark outlook.",
@@ -1641,7 +1641,7 @@
     },
     {
       "id": "harried",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "overwhelmed-unmet",
       "takeaway": {
         "en": "Harried means rushed by many demands; overwhelmed means the demands or feelings seem too much to manage.",
@@ -1651,7 +1651,7 @@
     },
     {
       "id": "heavy",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "troubled",
       "takeaway": {
         "en": "Troubled means a problem keeps bothering you; heavy describes how emotionally burdened you feel.",
@@ -1661,7 +1661,7 @@
     },
     {
       "id": "helpless",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "discouraged",
       "takeaway": {
         "en": "Discouraged means less willing to try; helpless means believing you cannot change what is happening.",
@@ -1671,7 +1671,7 @@
     },
     {
       "id": "hesitant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "reluctant",
       "takeaway": {
         "en": "Hesitant means unsure whether to act; reluctant means you do not really want to act.",
@@ -1691,7 +1691,7 @@
     },
     {
       "id": "horrified",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "terrified",
       "takeaway": {
         "en": "Both include strong fear; horrified adds shock at something dreadful, terrified stresses fear itself.",
@@ -1711,7 +1711,7 @@
     },
     {
       "id": "humdrum",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "bored",
       "takeaway": {
         "en": "Humdrum describes repetitive routines; boredom is how those routines may make someone feel.",
@@ -1721,7 +1721,7 @@
     },
     {
       "id": "hurt",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Hurt can mean physical pain or emotional injury; sad describes a low feeling.",
@@ -1731,7 +1731,7 @@
     },
     {
       "id": "impatient",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "eager",
       "takeaway": {
         "en": "Eager wants something to begin; impatient adds annoyance about how long the wait takes.",
@@ -1751,7 +1751,7 @@
     },
     {
       "id": "intense-unmet",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "upset",
       "takeaway": {
         "en": "Intense describes the strength of a feeling; upset is one of many particular feelings it can describe.",
@@ -1761,7 +1761,7 @@
     },
     {
       "id": "irate",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "angry",
       "takeaway": {
         "en": "Both mean anger; irate usually sounds stronger and more openly upset.",
@@ -1771,7 +1771,7 @@
     },
     {
       "id": "irked",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "irritated",
       "takeaway": {
         "en": "Both involve annoyance; irked is often a smaller reaction to one bothersome thing.",
@@ -1781,7 +1781,7 @@
     },
     {
       "id": "irritated",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "angry",
       "takeaway": {
         "en": "Irritation often follows small repeated nuisances; anger can have deeper reasons.",
@@ -1791,7 +1791,7 @@
     },
     {
       "id": "jealous",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "resentful",
       "takeaway": {
         "en": "Jealousy may fear losing attention or envy what someone has; resentment follows feeling unfairly treated.",
@@ -1801,7 +1801,7 @@
     },
     {
       "id": "jittery",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "nervous",
       "takeaway": {
         "en": "Nervous is the feeling of tension; jittery emphasizes the physical shakiness that may come with it.",
@@ -1811,7 +1811,7 @@
     },
     {
       "id": "leery",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "skeptical",
       "takeaway": {
         "en": "Leery means being cautious about safety or trust; skeptical means wanting evidence before believing a claim.",
@@ -1831,7 +1831,7 @@
     },
     {
       "id": "listless",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "bored",
       "takeaway": {
         "en": "Bored means needing something interesting; listless also means lacking the energy to engage.",
@@ -1841,7 +1841,7 @@
     },
     {
       "id": "miserable",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Sad is broad; miserable means feeling particularly unhappy or uncomfortable.",
@@ -1851,7 +1851,7 @@
     },
     {
       "id": "mopey",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Sad names a feeling; mopey describes acting quiet and uninterested while low.",
@@ -1861,7 +1861,7 @@
     },
     {
       "id": "morose",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "gloomy",
       "takeaway": {
         "en": "Both sound gloomy; morose adds a reluctance to talk or smile.",
@@ -1871,7 +1871,7 @@
     },
     {
       "id": "mournful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sorrowful",
       "takeaway": {
         "en": "Both mean deep sadness; mournful especially suggests grief or missing someone who is gone.",
@@ -1881,7 +1881,7 @@
     },
     {
       "id": "nervous",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "anxious",
       "takeaway": {
         "en": "Nervous is often tension before a particular event; anxiety can keep worries circulating longer.",
@@ -1891,7 +1891,7 @@
     },
     {
       "id": "nettled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "irked",
       "takeaway": {
         "en": "Both can follow a bothersome comment; nettled often means someone's words pricked at you.",
@@ -1901,7 +1901,7 @@
     },
     {
       "id": "overwhelmed-unmet",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "harried",
       "takeaway": {
         "en": "Harried means being rushed from task to task; overwhelmed means it all feels too much to handle.",
@@ -1911,7 +1911,7 @@
     },
     {
       "id": "panicky",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "scared",
       "takeaway": {
         "en": "Scared means feeling afraid; panicky adds a sudden rush of fear that makes calm thinking hard.",
@@ -1931,7 +1931,7 @@
     },
     {
       "id": "perplexed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "puzzled",
       "takeaway": {
         "en": "Both mean puzzlement; perplexed often emphasizes a more difficult or tangled question.",
@@ -1951,7 +1951,7 @@
     },
     {
       "id": "puzzled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "confused",
       "takeaway": {
         "en": "Puzzled means trying to solve a particular question; confused can mean generally not understanding.",
@@ -1961,7 +1961,7 @@
     },
     {
       "id": "rancorous",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "resentful",
       "takeaway": {
         "en": "Both can hold a grudge; rancorous describes especially strong or long-lasting resentment.",
@@ -1971,7 +1971,7 @@
     },
     {
       "id": "reluctant",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "hesitant",
       "takeaway": {
         "en": "Reluctant means you would rather not do it; hesitant means you are not sure whether to do it.",
@@ -1981,7 +1981,7 @@
     },
     {
       "id": "repelled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "disgusted",
       "takeaway": {
         "en": "Both mean strongly put off; repelled emphasizes wanting to move away from what feels unpleasant.",
@@ -1991,7 +1991,7 @@
     },
     {
       "id": "resentful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "angry",
       "takeaway": {
         "en": "Anger can pass quickly; resentment may linger after you feel unfairly treated.",
@@ -2001,7 +2001,7 @@
     },
     {
       "id": "restless",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "fidgety",
       "takeaway": {
         "en": "Restless is the urge to move; fidgety describes the repeated small movements you make.",
@@ -2011,7 +2011,7 @@
     },
     {
       "id": "sad",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sorrowful",
       "takeaway": {
         "en": "Sadness covers many moments; sorrowful usually implies deeper sadness, often over an important loss.",
@@ -2021,7 +2021,7 @@
     },
     {
       "id": "scared",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "fearful",
       "takeaway": {
         "en": "Both mean afraid; scared can be immediate, while fearful may describe fear that lasts longer.",
@@ -2051,7 +2051,7 @@
     },
     {
       "id": "shocked",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "startled",
       "takeaway": {
         "en": "Both follow surprises; startled is often brief, while shocked can leave a much stronger impression.",
@@ -2081,7 +2081,7 @@
     },
     {
       "id": "sorrowful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Sad can be mild; sorrowful usually describes deeper grief, often about a loss.",
@@ -2091,7 +2091,7 @@
     },
     {
       "id": "sorry",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "ashamed",
       "takeaway": {
         "en": "Sorry may mean regretting something and apologizing; ashamed means feeling painful self-judgment.",
@@ -2101,7 +2101,7 @@
     },
     {
       "id": "spiritless",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "energetic",
       "takeaway": {
         "en": "Energetic means ready to act; spiritless means having little enthusiasm or energy.",
@@ -2111,7 +2111,7 @@
     },
     {
       "id": "startled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "frightened",
       "takeaway": {
         "en": "Startled is a sudden jump at surprise; frightened means you feel scared after it.",
@@ -2121,7 +2121,7 @@
     },
     {
       "id": "surprised-unmet",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "surprised-met",
       "takeaway": {
         "en": "Both are unexpected; one surprise may be welcome, while the other is unsettling.",
@@ -2141,7 +2141,7 @@
     },
     {
       "id": "terrified",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "scared",
       "takeaway": {
         "en": "Scared is fear in general; terrified describes fear at a much more intense level.",
@@ -2161,7 +2161,7 @@
     },
     {
       "id": "troubled",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "worried",
       "takeaway": {
         "en": "Worried often looks toward what might go wrong; troubled may be a problem already weighing on you.",
@@ -2191,7 +2191,7 @@
     },
     {
       "id": "uneasy",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "anxious",
       "takeaway": {
         "en": "Uneasy is a vague sense something may be wrong; anxious often means repeated worries about what may happen.",
@@ -2201,7 +2201,7 @@
     },
     {
       "id": "unglued",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "upset",
       "takeaway": {
         "en": "Upset is a broad difficult feeling; unglued is an informal way to say it feels very hard to stay calm.",
@@ -2211,7 +2211,7 @@
     },
     {
       "id": "unhappy",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sad",
       "takeaway": {
         "en": "Unhappy is a broad lack of cheer; sad more clearly names the feeling of sorrow.",
@@ -2221,7 +2221,7 @@
     },
     {
       "id": "unnerved",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "nervous",
       "takeaway": {
         "en": "Nervous can come before an event; unnerved means something has already shaken your confidence.",
@@ -2241,7 +2241,7 @@
     },
     {
       "id": "upset",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "angry",
       "takeaway": {
         "en": "Upset is a broad word for feeling troubled; anger is one particular response to unfairness or hurt.",
@@ -2251,7 +2251,7 @@
     },
     {
       "id": "uptight",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "nervous",
       "takeaway": {
         "en": "Nervous is tension; uptight often means staying tense while trying hard to control things.",
@@ -2261,7 +2261,7 @@
     },
     {
       "id": "vexed",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "frustration",
       "takeaway": {
         "en": "Vexed means bothered by a tricky problem; frustration emphasizes effort that keeps getting blocked.",
@@ -2281,7 +2281,7 @@
     },
     {
       "id": "wistful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "loneliness",
       "takeaway": {
         "en": "Loneliness is wanting company; wistful sadness can come from missing a past moment or wish.",
@@ -2301,7 +2301,7 @@
     },
     {
       "id": "woeful",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "sorrowful",
       "takeaway": {
         "en": "Both can mean deep sadness; woeful also often describes a visibly miserable look.",
@@ -2311,7 +2311,7 @@
     },
     {
       "id": "worried",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "anxious",
       "takeaway": {
         "en": "Worried often focuses on one feared outcome; anxious may mean wider or repeated unease.",
@@ -2321,7 +2321,7 @@
     },
     {
       "id": "wretched",
-      "kind": "emotion-vs-emotion",
+      "kind": "related-feeling-senses",
       "compareWith": "miserable",
       "takeaway": {
         "en": "Both express strong unhappiness; wretched may also describe feeling physically unwell.",
