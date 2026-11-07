@@ -1,0 +1,934 @@
+{
+  "version": 1,
+  "classification": "needs_met",
+  "reviewStatus": "draft-proposal-not-human-approved",
+  "records": [
+    {
+      "id": "affection",
+      "compareWith": "loving",
+      "takeaway": {
+        "en": "Affection is a warm feeling; loving describes the care you show over time.",
+        "zh": "爱意是心里的温暖感受；有爱则更强调持续表现出的关心。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "relief",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Relief follows a worry ending; joy can happen without an earlier worry.",
+        "zh": "松一口气之前通常有过担心；喜悦却不一定来自担心的结束。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "absorbed",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interest draws your attention; being absorbed means nearly all your attention stays there.",
+        "zh": "感兴趣会吸引你注意；全神贯注则是几乎把注意力都放在这件事上。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "adventurous",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Curiosity asks what is there; an adventurous spirit also wants to go and explore.",
+        "zh": "好奇让你想弄明白；爱冒险还意味着愿意亲自去探索。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "alert",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Alert means noticing what is around you; anxious means feeling uneasy about what may happen.",
+        "zh": "警觉是留心周围；焦虑是担心接下来可能出问题。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "amazed",
+      "compareWith": "astonished",
+      "takeaway": {
+        "en": "Both express surprise; astonished usually emphasizes how hard the event is to believe.",
+        "zh": "两者都表示惊讶；吃惊更突出事情让人难以相信。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "amused",
+      "compareWith": "mirthful",
+      "takeaway": {
+        "en": "Amused is how something funny makes you feel; mirthful emphasizes lively laughter.",
+        "zh": "被逗乐是觉得事情有趣；欢笑则更突出笑出来的样子。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "animated",
+      "compareWith": "energetic",
+      "takeaway": {
+        "en": "Animated describes lively expression; energetic emphasizes having plenty of energy.",
+        "zh": "活泼地说话、比划是表现；精力充沛更强调身体有劲儿。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "appreciative",
+      "compareWith": "grateful",
+      "takeaway": {
+        "en": "Both involve thankfulness; appreciative also means noticing and valuing someone's effort.",
+        "zh": "两者都能表示感谢；感激、欣赏也可以强调你看见了别人的付出。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "ardent",
+      "compareWith": "enthusiastic",
+      "takeaway": {
+        "en": "Both show strong interest; ardent often suggests an especially deep, lasting passion.",
+        "zh": "两者都很有热情；ardent 更常突出热爱得深、持续得久。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "astonished",
+      "compareWith": "amazed",
+      "takeaway": {
+        "en": "Both can follow an unexpected event; astonished highlights disbelief more than enjoyment.",
+        "zh": "两者都可能因意外而出现；吃惊不一定表示你觉得这事好玩。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "blissful",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Happy is broad; blissful describes an especially peaceful, deeply happy moment.",
+        "zh": "开心可以发生在很多时候；幸福极了则多了一份安稳、满足。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "breathless",
+      "compareWith": "excited",
+      "takeaway": {
+        "en": "Breathing hard is a physical sign; excitement is a feeling. One does not prove the other.",
+        "zh": "喘气急是身体反应；兴奋是情绪。前者不一定意味着后者。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "buoyant",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hopeful looks toward what may go well; buoyant also describes a light, lifted mood now.",
+        "zh": "希望是想着未来可能变好；心情愉快也强调此刻的轻快。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "calm",
+      "compareWith": "peaceful",
+      "takeaway": {
+        "en": "Both can feel steady; peaceful often adds a deeper sense of safety and quiet.",
+        "zh": "两者都能让人安定；平和常常还带着更深的安心与宁静。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "carefree",
+      "compareWith": "relaxed",
+      "takeaway": {
+        "en": "Relaxed means tension has eased; carefree means you are not thinking much about troubles.",
+        "zh": "放松是紧绷感少了；无忧无虑是暂时不用操心烦恼。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "cheerful",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Happy names a feeling; cheerful often shows in a bright, friendly manner.",
+        "zh": "快乐是心里的感受；高兴活泼还常常能从言谈举止中看出来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "comfortable",
+      "compareWith": "secure",
+      "takeaway": {
+        "en": "Comfortable means feeling at ease; secure places special emphasis on feeling safe.",
+        "zh": "舒服是身体或处境自在；安心更强调觉得安全、可靠。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "complacent",
+      "compareWith": "confident",
+      "takeaway": {
+        "en": "Confidence says you can try; complacency may make you overlook what still needs practice.",
+        "zh": "自信让你愿意尝试；自满可能让你忽略还需要练习的地方。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "composed",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Calm describes steadiness; composed means keeping that steadiness even during pressure.",
+        "zh": "平静是心情安定；镇定更强调遇到挑战时仍能稳住自己。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "concerned-met",
+      "compareWith": "concerned-unmet",
+      "takeaway": {
+        "en": "One use of concerned shows care for someone; another means worry that something may be wrong.",
+        "zh": "关切可以是主动关心别人；担忧则是怕某件重要的事出问题。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "confident",
+      "compareWith": "proud",
+      "takeaway": {
+        "en": "Confident looks toward what you can try; proud looks back at effort or progress you value.",
+        "zh": "自信是相信自己能试一试；骄傲则多是为已经付出的努力或进步高兴。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "contented",
+      "compareWith": "satisfied",
+      "takeaway": {
+        "en": "Both mean feeling pleased; contented often means being at ease with life as it is.",
+        "zh": "两者都能表示满意；知足更突出对眼前生活感到安心满足。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "curious",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Curiosity wants to find out something unknown; interest can also be about something familiar.",
+        "zh": "好奇是想弄明白未知的事；感兴趣也可以是喜欢已经熟悉的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "dazzled",
+      "compareWith": "amazed",
+      "takeaway": {
+        "en": "Dazzled emphasizes how a bright sight affects your senses; amazed describes a feeling of wonder.",
+        "zh": "眼花缭乱强调画面让眼睛忙不过来；惊叹则是心里的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "delighted",
+      "compareWith": "pleased",
+      "takeaway": {
+        "en": "Both mean feeling happy; delighted usually sounds brighter and stronger than quietly pleased.",
+        "zh": "两者都表示高兴；delighted 往往比 quietly pleased 更欢欣。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "eager",
+      "compareWith": "expectant",
+      "takeaway": {
+        "en": "Eager means wanting to start soon; expectant means waiting for something to happen.",
+        "zh": "渴望是很想快点开始；期待是等着一件事发生。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "ebullient",
+      "compareWith": "cheerful",
+      "takeaway": {
+        "en": "Both are happy moods; ebullient shows much more energy that seems to bubble over.",
+        "zh": "两者都能形容好心情；热情洋溢更像快乐快要冒出来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "ecstatic",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Joy can be quiet or strong; ecstatic describes an exceptionally intense burst of happiness.",
+        "zh": "喜悦可以安静也可以强烈；狂喜强调特别强烈的开心。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "effervescent",
+      "compareWith": "animated",
+      "takeaway": {
+        "en": "Both look lively; effervescent especially suggests bubbly cheerfulness that spreads to others.",
+        "zh": "两者都显得活泼；活力满满还带着能感染他人的欢快。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "elated",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Happy is general; elated often follows especially good news and feels uplifting.",
+        "zh": "开心是广泛的感受；兴奋雀跃常来自特别好的消息。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "enchanted",
+      "compareWith": "fascinated",
+      "takeaway": {
+        "en": "Both hold your attention; enchanted adds a sense of beauty or near-magic.",
+        "zh": "两者都让人看得入迷；被迷住还带着美得像魔法一样的感觉。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "encouraged",
+      "compareWith": "confident",
+      "takeaway": {
+        "en": "Being encouraged means support helped you keep going; confidence is belief in your ability.",
+        "zh": "受到鼓舞强调支持给了你力量；自信是相信自己有能力尝试。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "energetic",
+      "compareWith": "invigorated",
+      "takeaway": {
+        "en": "Energetic means having energy; invigorated says something has refreshed that energy.",
+        "zh": "精力充沛是有劲儿；精神焕发更强调休息或活动后重新有了劲儿。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "engrossed",
+      "compareWith": "absorbed",
+      "takeaway": {
+        "en": "Both involve deep attention; engrossed emphasizes how an interesting task holds you.",
+        "zh": "两者都指注意力很集中；沉浸其中更强调活动本身牢牢吸引你。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "enlivened",
+      "compareWith": "animated",
+      "takeaway": {
+        "en": "Enlivened means something has lifted your liveliness; animated describes the lively behavior itself.",
+        "zh": "感到活跃强调有件事让你精神起来；活泼是表现出来的样子。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "enthusiastic",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interest means wanting to know more; enthusiasm adds energy and eagerness to take part.",
+        "zh": "感兴趣是想了解；有热情还意味着想积极参与。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "excited",
+      "compareWith": "expectant",
+      "takeaway": {
+        "en": "Expectant focuses on waiting; excited adds lively energy about what may happen.",
+        "zh": "期待主要是等待；兴奋还多了一股按捺不住的劲儿。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "exhilarated",
+      "compareWith": "thrilled",
+      "takeaway": {
+        "en": "Both feel exciting; exhilarated often follows an exciting experience and leaves you energized.",
+        "zh": "两者都很激动；兴奋得精神焕发常是经历了刺激的事之后。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "expansive",
+      "compareWith": "friendly",
+      "takeaway": {
+        "en": "Friendly means treating people kindly; expansive means feeling especially open and talkative.",
+        "zh": "友好是待人亲切；开朗健谈则是此刻特别愿意和人交流。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "expectant",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hopeful means believing a good result is possible; expectant means waiting for the event to arrive.",
+        "zh": "充满希望是相信可能有好结果；期待是等着事情到来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "exultant",
+      "compareWith": "jubilant",
+      "takeaway": {
+        "en": "Both celebrate success; exultant highlights a sense of triumph, while jubilant highlights cheering.",
+        "zh": "两者都可能因成功而快乐；exultant 更突出胜利感，jubilant 更突出欢呼。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "fascinated",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Curiosity sparks a question; fascination keeps your attention there for longer.",
+        "zh": "好奇让你开始提问；着迷让你想继续看、继续了解。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "free",
+      "compareWith": "carefree",
+      "takeaway": {
+        "en": "Feeling free emphasizes having choices; carefree emphasizes not being weighed down by worries.",
+        "zh": "自由是有选择和行动的空间；无忧无虑是暂时没被烦恼压住。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "friendly",
+      "compareWith": "loving",
+      "takeaway": {
+        "en": "Being friendly means welcoming others; being loving expresses closer, ongoing care.",
+        "zh": "友好是愿意善待他人；有爱更强调持续、亲近的关怀。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "fulfilled",
+      "compareWith": "satisfied",
+      "takeaway": {
+        "en": "Satisfied means a result seems good enough; fulfilled adds a sense of deeper meaning or completion.",
+        "zh": "满意是结果符合期待；充实满足还包含重要事情做成后的意义感。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "glad",
+      "compareWith": "relief",
+      "takeaway": {
+        "en": "Glad may mean simply happy; relief especially means an earlier worry has eased.",
+        "zh": "高兴可以因为很多事；松一口气通常因为先前的担心消失了。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "gleeful",
+      "compareWith": "merry",
+      "takeaway": {
+        "en": "Both are lively and cheerful; gleeful may add a playful, mischievous spark.",
+        "zh": "两者都很快乐；gleeful 还可能带一点顽皮的得意。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "glorious",
+      "compareWith": "proud",
+      "takeaway": {
+        "en": "Glorious often describes how splendid something is; proud describes a person's feeling about achievement.",
+        "zh": "glorious 多用来形容事物很精彩；骄傲则是人对努力和成果的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "glowing",
+      "compareWith": "radiant",
+      "takeaway": {
+        "en": "Both describe happiness you can see; radiant emphasizes how strongly that warmth shows.",
+        "zh": "两者都可以说人看起来很开心；神采飞扬更突出喜悦仿佛写在脸上。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "good-humored",
+      "compareWith": "cheerful",
+      "takeaway": {
+        "en": "Cheerful is a happy mood; good-humored also means responding kindly when small things go wrong.",
+        "zh": "高兴是一种心情；好脾气还强调遇到小麻烦也能温和地笑一笑。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "grateful",
+      "compareWith": "appreciative",
+      "takeaway": {
+        "en": "Grateful focuses on receiving kindness; appreciative also notices the worth of what someone did.",
+        "zh": "感恩聚焦得到的帮助；感激与欣赏也会注意别人的付出有多珍贵。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "gratified",
+      "compareWith": "proud",
+      "takeaway": {
+        "en": "Gratified means pleased that something turned out well; proud emphasizes your own valued effort or progress.",
+        "zh": "欣慰是看到结果不错；骄傲更突出自己重视的努力或进步。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "happy",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Happy covers many pleasant moments; joy often feels especially strong or meaningful.",
+        "zh": "快乐包含很多舒服开心的时刻；喜悦常更强烈或更有意义。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "helpful",
+      "compareWith": "concerned-met",
+      "takeaway": {
+        "en": "Helpful describes an action that assists; concern describes noticing and caring about a need.",
+        "zh": "有帮助描述做了什么；关切强调你看见别人需要关心。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "hopeful",
+      "compareWith": "optimistic",
+      "takeaway": {
+        "en": "Hopeful can concern one particular outcome; optimistic is a broader habit of expecting good things.",
+        "zh": "希望可以是对某件事的期待；乐观是较稳定地相信事情可能变好。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "inquisitive",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Both ask questions; inquisitive often describes someone who keeps asking and investigating.",
+        "zh": "两者都爱提问；求知欲强还强调经常追问、继续研究。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "inspired",
+      "compareWith": "encouraged",
+      "takeaway": {
+        "en": "Inspired sparks a new idea or wish to create; encouraged makes you feel able to keep going.",
+        "zh": "受到启发会冒出新点子；受到鼓舞是更有勇气继续做。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "intense-met",
+      "compareWith": "excited",
+      "takeaway": {
+        "en": "Intense describes how strong a feeling is; excited names one particular kind of feeling.",
+        "zh": "强烈说的是感受的程度；兴奋才是一种具体的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "interested",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Interest means wanting to know or do more; curiosity often centers on an unknown question.",
+        "zh": "感兴趣是愿意了解或参与；好奇常围绕还不知道的答案。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "intrigued",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interested means paying attention; intrigued means a mystery or unusual detail pulls you in.",
+        "zh": "感兴趣是愿意注意；被吸引常因一件稀奇或神秘的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "invigorated",
+      "compareWith": "refreshed",
+      "takeaway": {
+        "en": "Refreshed means rested and renewed; invigorated adds a feeling of energy to act.",
+        "zh": "神清气爽是休息后恢复精神；精力充沛则更突出想动起来的劲儿。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "involved",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interested can mean watching from the side; involved means joining an activity.",
+        "zh": "感兴趣可以只是旁观；参与则是真的加入其中。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "joyous",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Both mean happiness; joyous often colors an event or occasion with shared celebration.",
+        "zh": "两者都指快乐；欢庆的喜悦常伴着特别的日子或庆祝活动。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "jubilant",
+      "compareWith": "exultant",
+      "takeaway": {
+        "en": "Jubilant highlights loud celebration; exultant emphasizes feeling victorious.",
+        "zh": "欢欣雀跃突出忍不住欢呼；狂喜于成功更强调胜利感。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "keyed-up",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous means feeling tense; keyed-up adds being unusually wound up and ready to act.",
+        "zh": "紧张是心里绷着；keyed-up 还强调身体和精神都处于高度准备状态。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "loving",
+      "compareWith": "affection",
+      "takeaway": {
+        "en": "Loving describes showing care; affection describes the warm feeling underneath.",
+        "zh": "有爱强调关心的表现；爱意强调心里那份温柔。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "mellow",
+      "compareWith": "relaxed",
+      "takeaway": {
+        "en": "Both can be gentle; mellow adds a soft, unhurried quality to the mood.",
+        "zh": "两者都可能很放松；mellow 还强调柔和、不急不躁。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "merry",
+      "compareWith": "cheerful",
+      "takeaway": {
+        "en": "Both are cheerful; merry often suggests laughing or celebrating together.",
+        "zh": "两者都能让人高兴；merry 常带着欢笑和庆祝的气氛。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "mirthful",
+      "compareWith": "amused",
+      "takeaway": {
+        "en": "Amused is being entertained; mirthful emphasizes the laughter that follows.",
+        "zh": "觉得好笑是被逗乐；欢笑则更强调笑出来的快乐。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "moved",
+      "compareWith": "touched",
+      "takeaway": {
+        "en": "Both mean being emotionally touched; moved can follow kindness, beauty, or something deeply meaningful.",
+        "zh": "两者都能表示感动；moved 也可能来自美丽或有意义的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "optimistic",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Optimistic often describes a habit of expecting good; hopeful may concern one particular wish.",
+        "zh": "乐观往往是平时看事的态度；有希望可以只针对某件事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "overjoyed",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Joy names happiness; overjoyed means that happiness feels exceptionally strong.",
+        "zh": "喜悦是开心的感受；欣喜若狂则是开心得特别强烈。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "overwhelmed-met",
+      "compareWith": "thrilled",
+      "takeaway": {
+        "en": "Thrilled is strong excitement; overwhelmed means there may be too much feeling to process at once.",
+        "zh": "激动是强烈的兴奋；惊喜得不知所措则可能一时承受不了那么多感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "peaceful",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Calm means not stirred up; peaceful often adds a sense of inner safety and ease.",
+        "zh": "平静是不慌不乱；平和还常常带着心里安心、舒展的感觉。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "perky",
+      "compareWith": "energetic",
+      "takeaway": {
+        "en": "Energetic means having energy; perky adds a cheerful, ready-to-go manner.",
+        "zh": "精力充沛是有力气；精神活泼还带着开心、跃跃欲试。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "pleasant",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Pleasant often describes an experience; happy describes how a person feels.",
+        "zh": "pleasant 通常形容事情令人舒服；快乐说的是人的心情。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "pleased",
+      "compareWith": "delighted",
+      "takeaway": {
+        "en": "Pleased is often quiet satisfaction; delighted usually expresses more visible delight.",
+        "zh": "满意高兴可以是轻轻一笑；delighted 往往更喜形于色。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "proud",
+      "compareWith": "confident",
+      "takeaway": {
+        "en": "Pride looks at something you value accomplishing; confidence helps you face what comes next.",
+        "zh": "骄傲是珍惜已有的成果；自信帮助你面对接下来要做的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "quiet",
+      "compareWith": "peaceful",
+      "takeaway": {
+        "en": "Quiet describes how much sound someone makes; peaceful describes how they feel inside.",
+        "zh": "安静是声音少；平和是心里的状态。安静的人也可能不开心。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "radiant",
+      "compareWith": "glowing",
+      "takeaway": {
+        "en": "Both can describe visible happiness; radiant suggests it shines out unmistakably.",
+        "zh": "两者都能说开心写在脸上；神采飞扬更突出那份明亮。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "rapturous",
+      "compareWith": "ecstatic",
+      "takeaway": {
+        "en": "Both describe exceptionally strong happiness; rapturous often sounds like being carried away by delight.",
+        "zh": "两者都表示特别高兴；欣喜若狂更强调快乐让人情不自禁。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "refreshed",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired means needing rest; refreshed means rest has helped you recover.",
+        "zh": "疲倦时需要休息；休息后神清气爽，说明精神恢复了一些。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "relaxed",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Calm is mental steadiness; relaxed also includes having less tension in your body.",
+        "zh": "平静更强调心里安定；放松也包括身体不再绷紧。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "satisfied",
+      "compareWith": "contented",
+      "takeaway": {
+        "en": "Satisfied can follow one result; contented often means feeling at ease with what you have.",
+        "zh": "满意可以针对某个结果；知足更常是对眼前生活感到满足。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "secure",
+      "compareWith": "comfortable",
+      "takeaway": {
+        "en": "Comfortable means at ease; secure means you especially trust that you are safe.",
+        "zh": "舒服是感到自在；安心更强调相信自己受到保护。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sensitive-met",
+      "compareWith": "tender",
+      "takeaway": {
+        "en": "Sensitive means noticing or feeling things strongly; tender means responding with gentleness and care.",
+        "zh": "感受细腻是容易察觉和被触动；温柔则是带着关心对待别人。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "serene",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Serene is a particularly deep, undisturbed kind of calm.",
+        "zh": "宁静是一种更深、更不容易被打扰的平静。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "spellbound",
+      "compareWith": "fascinated",
+      "takeaway": {
+        "en": "Fascinated means wanting to keep learning; spellbound suggests being so captivated you forget your surroundings.",
+        "zh": "着迷是想继续了解；看得出神则像暂时忘了身边的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "splendid",
+      "compareWith": "delighted",
+      "takeaway": {
+        "en": "Splendid praises something excellent; delighted describes a person's joyful reaction.",
+        "zh": "splendid 是夸事物很精彩；delighted 才是人高兴的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "stimulated",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interested is wanting to know more; stimulated means something has awakened your attention or senses.",
+        "zh": "感兴趣是想继续了解；受到刺激是外界的事让你精神或感官活跃起来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "surprised-met",
+      "compareWith": "surprised-unmet",
+      "takeaway": {
+        "en": "Surprise is about not expecting something; welcome and unwelcome surprises can feel very different.",
+        "zh": "惊讶来自出乎意料；惊喜和不愉快的意外，感受却可能很不同。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "tender",
+      "compareWith": "affection",
+      "takeaway": {
+        "en": "Tender describes gentle care in action or feeling; affection is the warmth you feel toward someone.",
+        "zh": "温柔是待人的轻柔；爱意是心里想关心对方的温暖。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "thankful",
+      "compareWith": "grateful",
+      "takeaway": {
+        "en": "These two often mean nearly the same thing; thankful can sound especially natural after a particular helpful moment.",
+        "zh": "两者都能表示感谢；thankful 常用在具体得到了帮助之后。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "thrilled",
+      "compareWith": "excited",
+      "takeaway": {
+        "en": "Both are excited; thrilled emphasizes unusually intense happiness about something special.",
+        "zh": "两者都兴奋；thrilled 更突出某件特别的事让人激动不已。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "touched",
+      "compareWith": "grateful",
+      "takeaway": {
+        "en": "Being touched means kindness has moved you; gratitude focuses on valuing the help itself.",
+        "zh": "被感动是好意打动了你；感激更强调珍惜对方的帮助。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "tranquil",
+      "compareWith": "serene",
+      "takeaway": {
+        "en": "Both are peaceful; tranquil often describes a quiet setting as well as the feeling it brings.",
+        "zh": "两者都很宁静；tranquil 也常用来形容安静的环境。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "trusting",
+      "compareWith": "secure",
+      "takeaway": {
+        "en": "Trusting means relying on a person; secure means feeling safe in a situation.",
+        "zh": "信任是觉得某个人可靠；安心是觉得自己的处境安全。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "upbeat",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hopeful expects something good; upbeat adds a cheerful way of facing the moment.",
+        "zh": "希望是觉得可能有好结果；乐观开朗还包括此刻的好心情。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "warm",
+      "compareWith": "affection",
+      "takeaway": {
+        "en": "Warm can mean body temperature or closeness; affection specifically means caring about someone.",
+        "zh": "温暖可以是身体有温度，也可以是心里亲近；爱意则专指关心他人的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "wide-awake",
+      "compareWith": "alert",
+      "takeaway": {
+        "en": "Wide-awake means not sleepy; alert adds noticing what may need your attention.",
+        "zh": "清醒是不困；警觉还表示留心周围可能发生的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "wonderful",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Wonderful describes something especially good; happy describes a person's pleasant feeling.",
+        "zh": "精彩是在形容人或事物很棒；快乐是在描述人的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "zestful",
+      "compareWith": "enthusiastic",
+      "takeaway": {
+        "en": "Both show enthusiasm; zestful emphasizes abundant lively energy.",
+        "zh": "两者都很有热情；充满活力还更强调那股生机勃勃的劲儿。"
+      },
+      "reviewer": null
+    }
+  ]
+}
