@@ -4,7 +4,7 @@
   const live = document.getElementById('live');
   const STORAGE_KEY = 'emolex.language.v1';
   let entries = [];
-  const closerEnabled = new URL(window.location.href).searchParams.get('closer') === '1';
+  const closerEnabled = new URL(window.location.href).searchParams.get('closer') !== '0';
   let closerById = new Map();
   let search = '';
   let filter = 'all';
@@ -18,7 +18,7 @@
   function t(en,zh) { return language === 'zh' ? zh : en; }
   function head(e) { return language === 'zh' ? [text(e,'word.zh'),text(e,'word.en')] : [text(e,'word.en'),text(e,'word.zh')]; }
   function message(s) { live.textContent = s; }
-  function pageUrl(params={}) { const url = new URL(window.location.href); url.search=''; Object.keys(params).forEach(k=>url.searchParams.set(k,params[k])); if(closerEnabled)url.searchParams.set('closer','1'); return url; }
+  function pageUrl(params={}) { const url = new URL(window.location.href); url.search=''; Object.keys(params).forEach(k=>url.searchParams.set(k,params[k])); if(!closerEnabled)url.searchParams.set('closer','0'); return url; }
   function resolveRoute() {
     const q = new URL(location.href).searchParams;
     current = q.get('word');
@@ -168,24 +168,33 @@
     if(!closerEnabled)return '';
     const insight=closerById.get(e.id);
     if(!insight)return '';
+    const target=entries.find(item=>item.id===insight.compareWith);
+    const firstCard=insight.first||{label:{en:e.word.en,zh:e.word.zh},description:e.definition};
+    const secondCard=insight.second||(target?{label:{en:target.word.en,zh:target.word.zh},description:target.definition}:null);
+    if(!secondCard)return '';
     const first=language,second=first==='zh'?'en':'zh';
     const languageTag=lang=>lang==='zh'?'zh-CN':'en';
+    const question=insight.question||{
+      en:'How are '+firstCard.label.en+' and '+secondCard.label.en+' different?',
+      zh:firstCard.label.zh+'和'+secondCard.label.zh+'，有什么不同？'
+    };
     const bilingualPair=(value,css)=>'<p class="'+css+' closer-primary" lang="'+languageTag(first)+'">'+esc(value[first])+'</p>'+
       '<p class="'+css+' closer-secondary" lang="'+languageTag(second)+'">'+esc(value[second])+'</p>';
-    const comparisonCard=(value)=>'<div class="closer-card"><h3>'+
+    const comparisonCard=(value,linkId)=>'<div class="closer-card"><h3>'+
       '<span lang="'+languageTag(first)+'">'+esc(value.label[first])+'</span>'+
       '<small lang="'+languageTag(second)+'">'+esc(value.label[second])+'</small>'+
-      '</h3>'+bilingualPair(value.description,'closer-copy')+'</div>';
+      '</h3>'+bilingualPair(value.description,'closer-copy')+
+      (linkId?'<button class="closer-link" data-action="detail" data-id="'+esc(linkId)+'">'+t('Explore this feeling','看看这个词条')+' <span aria-hidden="true">↗</span></button>':'')+'</div>';
     return '<details class="closer-section" open>'+
       '<summary><span class="closer-heading"><span class="closer-symbol" aria-hidden="true">✧</span>'+
       '<span>'+t('A LITTLE CLOSER','再理解一点')+'</span></span>'+
       '<span class="closer-toggle">'+t('Show / hide','展开 / 收起')+' <span aria-hidden="true">⌄</span></span></summary>'+
-      '<div class="closer-content"><p class="closer-question" lang="'+languageTag(first)+'">'+esc(insight.question[first])+'</p>'+
-      '<p class="closer-question-secondary" lang="'+languageTag(second)+'">'+esc(insight.question[second])+'</p>'+
-      '<div class="closer-cards">'+comparisonCard(insight.first)+comparisonCard(insight.second)+'</div>'+
+      '<div class="closer-content"><p class="closer-question" lang="'+languageTag(first)+'">'+esc(question[first])+'</p>'+
+      '<p class="closer-question-secondary" lang="'+languageTag(second)+'">'+esc(question[second])+'</p>'+
+      '<div class="closer-cards">'+comparisonCard(firstCard,null)+comparisonCard(secondCard,target?.id||null)+'</div>'+
       '<div class="closer-takeaway"><span aria-hidden="true">✳</span><div>'+
       bilingualPair(insight.takeaway,'closer-copy')+'</div></div>'+
-      '<p class="closer-experimental">'+t('Editorial experiment · not yet reviewed','内容实验 · 尚未完成审校')+'</p></div></details>';
+      '<p class="closer-experimental">'+t('Editorial draft · awaiting review','内容草稿 · 待逐条审校')+'</p></div></details>';
   }
   function reading(e){
     const related=e.related.map(id=>entries.find(x=>x.id===id)).filter(Boolean);
@@ -319,7 +328,7 @@
           const response=await fetch('./data/closer-experiment.json',{cache:'no-cache'});
           if(response.ok){
             const overlay=await response.json();
-            if(overlay.status==='experimental-not-human-approved'&&Array.isArray(overlay.comparisons))closerById=new Map(overlay.comparisons.filter(x=>x&&typeof x.id==='string').map(x=>[x.id,x]));
+            if(overlay.status==='full-corpus-editorial-proposals-not-human-approved'&&Array.isArray(overlay.comparisons))closerById=new Map(overlay.comparisons.filter(x=>x&&typeof x.id==='string').map(x=>[x.id,x]));
           }
         }catch{}
       }
