@@ -52,7 +52,7 @@ for(const source of curatedSources){
     const entry=canonical.get(item.id);
     const target=canonical.get(item.compareWith);
     const nonFeeling=['physical_state','attitude_trait','descriptive_other'];
-    const kind=nonFeeling.includes(entry.taxonomy.kind)||nonFeeling.includes(target.taxonomy.kind)?'sense-or-state-contrast':'emotion-vs-emotion';
+    const kind=nonFeeling.includes(entry.taxonomy.kind)||nonFeeling.includes(target.taxonomy.kind)?'sense-or-state-contrast':'related-feeling-senses';
     byId.set(item.id,{
       id:item.id,
       kind,
