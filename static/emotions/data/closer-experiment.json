@@ -1,0 +1,2333 @@
+{
+  "version": 2,
+  "status": "full-corpus-editorial-proposals-not-human-approved",
+  "coverage": {
+    "visible": 225,
+    "pilotHandcrafted": 3,
+    "curatedAdditional": 222
+  },
+  "comparisons": [
+    {
+      "id": "joy",
+      "kind": "emotion-vs-emotion",
+      "compareWith": "relief",
+      "question": {
+        "en": "Joy or relief — what's different?",
+        "zh": "喜悦和如释重负，哪里不一样？"
+      },
+      "first": {
+        "label": {
+          "en": "Joy",
+          "zh": "喜悦"
+        },
+        "description": {
+          "en": "Something you hoped for happens, and you feel happy.",
+          "zh": "期待的好事发生了，你心里很开心。"
+        }
+      },
+      "second": {
+        "label": {
+          "en": "Relief",
+          "zh": "如释重负"
+        },
+        "description": {
+          "en": "Something you were worried about turns out okay, and you can relax.",
+          "zh": "之前担心的事没问题了，你终于能松一口气。"
+        }
+      },
+      "takeaway": {
+        "en": "You might feel both when a worry ends with good news.",
+        "zh": "担心的事有了好结果时，你也可能既开心，又松一口气。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "frustration",
+      "kind": "emotion-vs-emotion",
+      "compareWith": "disappointed",
+      "question": {
+        "en": "Frustration or disappointment?",
+        "zh": "挫败和失望，有什么不同？"
+      },
+      "first": {
+        "label": {
+          "en": "Frustration",
+          "zh": "挫败感"
+        },
+        "description": {
+          "en": "You keep trying, but something still will not work.",
+          "zh": "你努力试了好多次，可事情还是不顺利。"
+        }
+      },
+      "second": {
+        "label": {
+          "en": "Disappointment",
+          "zh": "失望"
+        },
+        "description": {
+          "en": "You hoped something would happen, but the result was not what you wished for.",
+          "zh": "你原本很期待，可结果没能如愿。"
+        }
+      },
+      "takeaway": {
+        "en": "When a carefully rebuilt tower falls again, you might feel both.",
+        "zh": "辛苦搭好的积木塔又倒了，你也可能同时觉得挫败和失望。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "loneliness",
+      "kind": "feeling-vs-situation",
+      "compareWith": null,
+      "question": {
+        "en": "Lonely or just spending time alone?",
+        "zh": "孤单和一个人待着，是一回事吗？"
+      },
+      "first": {
+        "label": {
+          "en": "Loneliness",
+          "zh": "孤独感"
+        },
+        "description": {
+          "en": "You want someone with you, but you feel alone.",
+          "zh": "你希望有人陪伴，却觉得身边没有人陪你。"
+        }
+      },
+      "second": {
+        "label": {
+          "en": "Being alone",
+          "zh": "一个人待着"
+        },
+        "description": {
+          "en": "You can spend a quiet moment by yourself and feel comfortable.",
+          "zh": "你也可以自己安静地待一会儿，感觉很自在。"
+        }
+      },
+      "takeaway": {
+        "en": "Being alone is a situation; loneliness is a feeling. One does not always mean the other.",
+        "zh": "一个人待着是一种情况，孤单是一种感受。两者并不总是同时出现。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "affection",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "loving",
+      "takeaway": {
+        "en": "Affection is a warm feeling; loving describes the care you show over time.",
+        "zh": "爱意是心里的温暖感受；有爱则更强调持续表现出的关心。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "relief",
+      "kind": "related-feeling-senses",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Relief follows a worry ending; joy can happen without an earlier worry.",
+        "zh": "松一口气之前通常有过担心；喜悦却不一定来自担心的结束。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "absorbed",
+      "kind": "related-feeling-senses",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interest draws your attention; being absorbed means nearly all your attention stays there.",
+        "zh": "感兴趣会吸引你注意；全神贯注则是几乎把注意力都放在这件事上。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "adventurous",
+      "kind": "related-feeling-senses",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Curiosity asks what is there; an adventurous spirit also wants to go and explore.",
+        "zh": "好奇让你想弄明白；爱冒险还意味着愿意亲自去探索。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "alert",
+      "kind": "related-feeling-senses",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Alert means noticing what is around you; anxious means feeling uneasy about what may happen.",
+        "zh": "警觉是留心周围；焦虑是担心接下来可能出问题。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "amazed",
+      "kind": "related-feeling-senses",
+      "compareWith": "astonished",
+      "takeaway": {
+        "en": "Both express surprise; astonished usually emphasizes how hard the event is to believe.",
+        "zh": "两者都表示惊讶；吃惊更突出事情让人难以相信。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "amused",
+      "kind": "related-feeling-senses",
+      "compareWith": "mirthful",
+      "takeaway": {
+        "en": "Amused is how something funny makes you feel; mirthful emphasizes lively laughter.",
+        "zh": "被逗乐是觉得事情有趣；欢笑则更突出笑出来的样子。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "animated",
+      "kind": "related-feeling-senses",
+      "compareWith": "energetic",
+      "takeaway": {
+        "en": "Animated describes lively expression; energetic emphasizes having plenty of energy.",
+        "zh": "活泼地说话、比划是表现；精力充沛更强调身体有劲儿。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "appreciative",
+      "kind": "related-feeling-senses",
+      "compareWith": "grateful",
+      "takeaway": {
+        "en": "Both involve thankfulness; appreciative also means noticing and valuing someone's effort.",
+        "zh": "两者都能表示感谢；感激、欣赏也可以强调你看见了别人的付出。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "ardent",
+      "kind": "related-feeling-senses",
+      "compareWith": "enthusiastic",
+      "takeaway": {
+        "en": "Both show strong interest; ardent often suggests an especially deep, lasting passion.",
+        "zh": "两者都很有热情；ardent 更常突出热爱得深、持续得久。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "astonished",
+      "kind": "related-feeling-senses",
+      "compareWith": "amazed",
+      "takeaway": {
+        "en": "Both can follow an unexpected event; astonished highlights disbelief more than enjoyment.",
+        "zh": "两者都可能因意外而出现；吃惊不一定表示你觉得这事好玩。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "blissful",
+      "kind": "related-feeling-senses",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Happy is broad; blissful describes an especially peaceful, deeply happy moment.",
+        "zh": "开心可以发生在很多时候；幸福极了则多了一份安稳、满足。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "breathless",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "excited",
+      "takeaway": {
+        "en": "Breathing hard is a physical sign; excitement is a feeling. One does not prove the other.",
+        "zh": "喘气急是身体反应；兴奋是情绪。前者不一定意味着后者。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "buoyant",
+      "kind": "related-feeling-senses",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hopeful looks toward what may go well; buoyant also describes a light, lifted mood now.",
+        "zh": "希望是想着未来可能变好；心情愉快也强调此刻的轻快。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "calm",
+      "kind": "related-feeling-senses",
+      "compareWith": "peaceful",
+      "takeaway": {
+        "en": "Both can feel steady; peaceful often adds a deeper sense of safety and quiet.",
+        "zh": "两者都能让人安定；平和常常还带着更深的安心与宁静。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "carefree",
+      "kind": "related-feeling-senses",
+      "compareWith": "relaxed",
+      "takeaway": {
+        "en": "Relaxed means tension has eased; carefree means you are not thinking much about troubles.",
+        "zh": "放松是紧绷感少了；无忧无虑是暂时不用操心烦恼。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "cheerful",
+      "kind": "related-feeling-senses",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Happy names a feeling; cheerful often shows in a bright, friendly manner.",
+        "zh": "快乐是心里的感受；高兴活泼还常常能从言谈举止中看出来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "comfortable",
+      "kind": "related-feeling-senses",
+      "compareWith": "secure",
+      "takeaway": {
+        "en": "Comfortable means feeling at ease; secure places special emphasis on feeling safe.",
+        "zh": "舒服是身体或处境自在；安心更强调觉得安全、可靠。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "complacent",
+      "kind": "related-feeling-senses",
+      "compareWith": "confident",
+      "takeaway": {
+        "en": "Confidence says you can try; complacency may make you overlook what still needs practice.",
+        "zh": "自信让你愿意尝试；自满可能让你忽略还需要练习的地方。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "composed",
+      "kind": "related-feeling-senses",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Calm describes steadiness; composed means keeping that steadiness even during pressure.",
+        "zh": "平静是心情安定；镇定更强调遇到挑战时仍能稳住自己。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "concerned-met",
+      "kind": "related-feeling-senses",
+      "compareWith": "concerned-unmet",
+      "takeaway": {
+        "en": "One use of concerned shows care for someone; another means worry that something may be wrong.",
+        "zh": "关切可以是主动关心别人；担忧则是怕某件重要的事出问题。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "confident",
+      "kind": "related-feeling-senses",
+      "compareWith": "proud",
+      "takeaway": {
+        "en": "Confident looks toward what you can try; proud looks back at effort or progress you value.",
+        "zh": "自信是相信自己能试一试；骄傲则多是为已经付出的努力或进步高兴。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "contented",
+      "kind": "related-feeling-senses",
+      "compareWith": "satisfied",
+      "takeaway": {
+        "en": "Both mean feeling pleased; contented often means being at ease with life as it is.",
+        "zh": "两者都能表示满意；知足更突出对眼前生活感到安心满足。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "curious",
+      "kind": "related-feeling-senses",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Curiosity wants to find out something unknown; interest can also be about something familiar.",
+        "zh": "好奇是想弄明白未知的事；感兴趣也可以是喜欢已经熟悉的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "dazzled",
+      "kind": "related-feeling-senses",
+      "compareWith": "amazed",
+      "takeaway": {
+        "en": "Dazzled emphasizes how a bright sight affects your senses; amazed describes a feeling of wonder.",
+        "zh": "眼花缭乱强调画面让眼睛忙不过来；惊叹则是心里的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "delighted",
+      "kind": "related-feeling-senses",
+      "compareWith": "pleased",
+      "takeaway": {
+        "en": "Both mean feeling happy; delighted usually sounds brighter and stronger than quietly pleased.",
+        "zh": "两者都表示高兴；delighted 往往比 quietly pleased 更欢欣。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "eager",
+      "kind": "related-feeling-senses",
+      "compareWith": "expectant",
+      "takeaway": {
+        "en": "Eager means wanting to start soon; expectant means waiting for something to happen.",
+        "zh": "渴望是很想快点开始；期待是等着一件事发生。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "ebullient",
+      "kind": "related-feeling-senses",
+      "compareWith": "cheerful",
+      "takeaway": {
+        "en": "Both are happy moods; ebullient shows much more energy that seems to bubble over.",
+        "zh": "两者都能形容好心情；热情洋溢更像快乐快要冒出来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "ecstatic",
+      "kind": "related-feeling-senses",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Joy can be quiet or strong; ecstatic describes an exceptionally intense burst of happiness.",
+        "zh": "喜悦可以安静也可以强烈；狂喜强调特别强烈的开心。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "effervescent",
+      "kind": "related-feeling-senses",
+      "compareWith": "animated",
+      "takeaway": {
+        "en": "Both look lively; effervescent especially suggests bubbly cheerfulness that spreads to others.",
+        "zh": "两者都显得活泼；活力满满还带着能感染他人的欢快。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "elated",
+      "kind": "related-feeling-senses",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Happy is general; elated often follows especially good news and feels uplifting.",
+        "zh": "开心是广泛的感受；兴奋雀跃常来自特别好的消息。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "enchanted",
+      "kind": "related-feeling-senses",
+      "compareWith": "fascinated",
+      "takeaway": {
+        "en": "Both hold your attention; enchanted adds a sense of beauty or near-magic.",
+        "zh": "两者都让人看得入迷；被迷住还带着美得像魔法一样的感觉。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "encouraged",
+      "kind": "related-feeling-senses",
+      "compareWith": "confident",
+      "takeaway": {
+        "en": "Being encouraged means support helped you keep going; confidence is belief in your ability.",
+        "zh": "受到鼓舞强调支持给了你力量；自信是相信自己有能力尝试。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "energetic",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "invigorated",
+      "takeaway": {
+        "en": "Energetic means having energy; invigorated says something has refreshed that energy.",
+        "zh": "精力充沛是有劲儿；精神焕发更强调休息或活动后重新有了劲儿。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "engrossed",
+      "kind": "related-feeling-senses",
+      "compareWith": "absorbed",
+      "takeaway": {
+        "en": "Both involve deep attention; engrossed emphasizes how an interesting task holds you.",
+        "zh": "两者都指注意力很集中；沉浸其中更强调活动本身牢牢吸引你。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "enlivened",
+      "kind": "related-feeling-senses",
+      "compareWith": "animated",
+      "takeaway": {
+        "en": "Enlivened means something has lifted your liveliness; animated describes the lively behavior itself.",
+        "zh": "感到活跃强调有件事让你精神起来；活泼是表现出来的样子。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "enthusiastic",
+      "kind": "related-feeling-senses",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interest means wanting to know more; enthusiasm adds energy and eagerness to take part.",
+        "zh": "感兴趣是想了解；有热情还意味着想积极参与。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "excited",
+      "kind": "related-feeling-senses",
+      "compareWith": "expectant",
+      "takeaway": {
+        "en": "Expectant focuses on waiting; excited adds lively energy about what may happen.",
+        "zh": "期待主要是等待；兴奋还多了一股按捺不住的劲儿。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "exhilarated",
+      "kind": "related-feeling-senses",
+      "compareWith": "thrilled",
+      "takeaway": {
+        "en": "Both feel exciting; exhilarated often follows an exciting experience and leaves you energized.",
+        "zh": "两者都很激动；兴奋得精神焕发常是经历了刺激的事之后。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "expansive",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "friendly",
+      "takeaway": {
+        "en": "Friendly means treating people kindly; expansive means feeling especially open and talkative.",
+        "zh": "友好是待人亲切；开朗健谈则是此刻特别愿意和人交流。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "expectant",
+      "kind": "related-feeling-senses",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hopeful means believing a good result is possible; expectant means waiting for the event to arrive.",
+        "zh": "充满希望是相信可能有好结果；期待是等着事情到来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "exultant",
+      "kind": "related-feeling-senses",
+      "compareWith": "jubilant",
+      "takeaway": {
+        "en": "Both celebrate success; exultant highlights a sense of triumph, while jubilant highlights cheering.",
+        "zh": "两者都可能因成功而快乐；exultant 更突出胜利感，jubilant 更突出欢呼。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "fascinated",
+      "kind": "related-feeling-senses",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Curiosity sparks a question; fascination keeps your attention there for longer.",
+        "zh": "好奇让你开始提问；着迷让你想继续看、继续了解。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "free",
+      "kind": "related-feeling-senses",
+      "compareWith": "carefree",
+      "takeaway": {
+        "en": "Feeling free emphasizes having choices; carefree emphasizes not being weighed down by worries.",
+        "zh": "自由是有选择和行动的空间；无忧无虑是暂时没被烦恼压住。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "friendly",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "loving",
+      "takeaway": {
+        "en": "Being friendly means welcoming others; being loving expresses closer, ongoing care.",
+        "zh": "友好是愿意善待他人；有爱更强调持续、亲近的关怀。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "fulfilled",
+      "kind": "related-feeling-senses",
+      "compareWith": "satisfied",
+      "takeaway": {
+        "en": "Satisfied means a result seems good enough; fulfilled adds a sense of deeper meaning or completion.",
+        "zh": "满意是结果符合期待；充实满足还包含重要事情做成后的意义感。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "glad",
+      "kind": "related-feeling-senses",
+      "compareWith": "relief",
+      "takeaway": {
+        "en": "Glad may mean simply happy; relief especially means an earlier worry has eased.",
+        "zh": "高兴可以因为很多事；松一口气通常因为先前的担心消失了。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "gleeful",
+      "kind": "related-feeling-senses",
+      "compareWith": "merry",
+      "takeaway": {
+        "en": "Both are lively and cheerful; gleeful may add a playful, mischievous spark.",
+        "zh": "两者都很快乐；gleeful 还可能带一点顽皮的得意。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "glorious",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "proud",
+      "takeaway": {
+        "en": "Glorious often describes how splendid something is; proud describes a person's feeling about achievement.",
+        "zh": "glorious 多用来形容事物很精彩；骄傲则是人对努力和成果的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "glowing",
+      "kind": "related-feeling-senses",
+      "compareWith": "radiant",
+      "takeaway": {
+        "en": "Both describe happiness you can see; radiant emphasizes how strongly that warmth shows.",
+        "zh": "两者都可以说人看起来很开心；神采飞扬更突出喜悦仿佛写在脸上。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "good-humored",
+      "kind": "related-feeling-senses",
+      "compareWith": "cheerful",
+      "takeaway": {
+        "en": "Cheerful is a happy mood; good-humored also means responding kindly when small things go wrong.",
+        "zh": "高兴是一种心情；好脾气还强调遇到小麻烦也能温和地笑一笑。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "grateful",
+      "kind": "related-feeling-senses",
+      "compareWith": "appreciative",
+      "takeaway": {
+        "en": "Grateful focuses on receiving kindness; appreciative also notices the worth of what someone did.",
+        "zh": "感恩聚焦得到的帮助；感激与欣赏也会注意别人的付出有多珍贵。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "gratified",
+      "kind": "related-feeling-senses",
+      "compareWith": "proud",
+      "takeaway": {
+        "en": "Gratified means pleased that something turned out well; proud emphasizes your own valued effort or progress.",
+        "zh": "欣慰是看到结果不错；骄傲更突出自己重视的努力或进步。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "happy",
+      "kind": "related-feeling-senses",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Happy covers many pleasant moments; joy often feels especially strong or meaningful.",
+        "zh": "快乐包含很多舒服开心的时刻；喜悦常更强烈或更有意义。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "helpful",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "concerned-met",
+      "takeaway": {
+        "en": "Helpful describes an action that assists; concern describes noticing and caring about a need.",
+        "zh": "有帮助描述做了什么；关切强调你看见别人需要关心。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "hopeful",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "optimistic",
+      "takeaway": {
+        "en": "Hopeful can concern one particular outcome; optimistic is a broader habit of expecting good things.",
+        "zh": "希望可以是对某件事的期待；乐观是较稳定地相信事情可能变好。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "inquisitive",
+      "kind": "related-feeling-senses",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Both ask questions; inquisitive often describes someone who keeps asking and investigating.",
+        "zh": "两者都爱提问；求知欲强还强调经常追问、继续研究。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "inspired",
+      "kind": "related-feeling-senses",
+      "compareWith": "encouraged",
+      "takeaway": {
+        "en": "Inspired sparks a new idea or wish to create; encouraged makes you feel able to keep going.",
+        "zh": "受到启发会冒出新点子；受到鼓舞是更有勇气继续做。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "intense-met",
+      "kind": "related-feeling-senses",
+      "compareWith": "excited",
+      "takeaway": {
+        "en": "Intense describes how strong a feeling is; excited names one particular kind of feeling.",
+        "zh": "强烈说的是感受的程度；兴奋才是一种具体的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "interested",
+      "kind": "related-feeling-senses",
+      "compareWith": "curious",
+      "takeaway": {
+        "en": "Interest means wanting to know or do more; curiosity often centers on an unknown question.",
+        "zh": "感兴趣是愿意了解或参与；好奇常围绕还不知道的答案。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "intrigued",
+      "kind": "related-feeling-senses",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interested means paying attention; intrigued means a mystery or unusual detail pulls you in.",
+        "zh": "感兴趣是愿意注意；被吸引常因一件稀奇或神秘的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "invigorated",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "refreshed",
+      "takeaway": {
+        "en": "Refreshed means rested and renewed; invigorated adds a feeling of energy to act.",
+        "zh": "神清气爽是休息后恢复精神；精力充沛则更突出想动起来的劲儿。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "involved",
+      "kind": "related-feeling-senses",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interested can mean watching from the side; involved means joining an activity.",
+        "zh": "感兴趣可以只是旁观；参与则是真的加入其中。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "joyous",
+      "kind": "related-feeling-senses",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Both mean happiness; joyous often colors an event or occasion with shared celebration.",
+        "zh": "两者都指快乐；欢庆的喜悦常伴着特别的日子或庆祝活动。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "jubilant",
+      "kind": "related-feeling-senses",
+      "compareWith": "exultant",
+      "takeaway": {
+        "en": "Jubilant highlights loud celebration; exultant emphasizes feeling victorious.",
+        "zh": "欢欣雀跃突出忍不住欢呼；狂喜于成功更强调胜利感。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "keyed-up",
+      "kind": "related-feeling-senses",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous means feeling tense; keyed-up adds being unusually wound up and ready to act.",
+        "zh": "紧张是心里绷着；keyed-up 还强调身体和精神都处于高度准备状态。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "loving",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "affection",
+      "takeaway": {
+        "en": "Loving describes showing care; affection describes the warm feeling underneath.",
+        "zh": "有爱强调关心的表现；爱意强调心里那份温柔。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "mellow",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "relaxed",
+      "takeaway": {
+        "en": "Both can be gentle; mellow adds a soft, unhurried quality to the mood.",
+        "zh": "两者都可能很放松；mellow 还强调柔和、不急不躁。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "merry",
+      "kind": "related-feeling-senses",
+      "compareWith": "cheerful",
+      "takeaway": {
+        "en": "Both are cheerful; merry often suggests laughing or celebrating together.",
+        "zh": "两者都能让人高兴；merry 常带着欢笑和庆祝的气氛。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "mirthful",
+      "kind": "related-feeling-senses",
+      "compareWith": "amused",
+      "takeaway": {
+        "en": "Amused is being entertained; mirthful emphasizes the laughter that follows.",
+        "zh": "觉得好笑是被逗乐；欢笑则更强调笑出来的快乐。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "moved",
+      "kind": "related-feeling-senses",
+      "compareWith": "touched",
+      "takeaway": {
+        "en": "Both mean being emotionally touched; moved can follow kindness, beauty, or something deeply meaningful.",
+        "zh": "两者都能表示感动；moved 也可能来自美丽或有意义的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "optimistic",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Optimistic often describes a habit of expecting good; hopeful may concern one particular wish.",
+        "zh": "乐观往往是平时看事的态度；有希望可以只针对某件事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "overjoyed",
+      "kind": "related-feeling-senses",
+      "compareWith": "joy",
+      "takeaway": {
+        "en": "Joy names happiness; overjoyed means that happiness feels exceptionally strong.",
+        "zh": "喜悦是开心的感受；欣喜若狂则是开心得特别强烈。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "overwhelmed-met",
+      "kind": "related-feeling-senses",
+      "compareWith": "thrilled",
+      "takeaway": {
+        "en": "Thrilled is strong excitement; overwhelmed means there may be too much feeling to process at once.",
+        "zh": "激动是强烈的兴奋；惊喜得不知所措则可能一时承受不了那么多感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "peaceful",
+      "kind": "related-feeling-senses",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Calm means not stirred up; peaceful often adds a sense of inner safety and ease.",
+        "zh": "平静是不慌不乱；平和还常常带着心里安心、舒展的感觉。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "perky",
+      "kind": "related-feeling-senses",
+      "compareWith": "energetic",
+      "takeaway": {
+        "en": "Energetic means having energy; perky adds a cheerful, ready-to-go manner.",
+        "zh": "精力充沛是有力气；精神活泼还带着开心、跃跃欲试。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "pleasant",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Pleasant often describes an experience; happy describes how a person feels.",
+        "zh": "pleasant 通常形容事情令人舒服；快乐说的是人的心情。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "pleased",
+      "kind": "related-feeling-senses",
+      "compareWith": "delighted",
+      "takeaway": {
+        "en": "Pleased is often quiet satisfaction; delighted usually expresses more visible delight.",
+        "zh": "满意高兴可以是轻轻一笑；delighted 往往更喜形于色。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "proud",
+      "kind": "related-feeling-senses",
+      "compareWith": "confident",
+      "takeaway": {
+        "en": "Pride looks at something you value accomplishing; confidence helps you face what comes next.",
+        "zh": "骄傲是珍惜已有的成果；自信帮助你面对接下来要做的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "quiet",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "peaceful",
+      "takeaway": {
+        "en": "Quiet describes how much sound someone makes; peaceful describes how they feel inside.",
+        "zh": "安静是声音少；平和是心里的状态。安静的人也可能不开心。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "radiant",
+      "kind": "related-feeling-senses",
+      "compareWith": "glowing",
+      "takeaway": {
+        "en": "Both can describe visible happiness; radiant suggests it shines out unmistakably.",
+        "zh": "两者都能说开心写在脸上；神采飞扬更突出那份明亮。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "rapturous",
+      "kind": "related-feeling-senses",
+      "compareWith": "ecstatic",
+      "takeaway": {
+        "en": "Both describe exceptionally strong happiness; rapturous often sounds like being carried away by delight.",
+        "zh": "两者都表示特别高兴；欣喜若狂更强调快乐让人情不自禁。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "refreshed",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired means needing rest; refreshed means rest has helped you recover.",
+        "zh": "疲倦时需要休息；休息后神清气爽，说明精神恢复了一些。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "relaxed",
+      "kind": "related-feeling-senses",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Calm is mental steadiness; relaxed also includes having less tension in your body.",
+        "zh": "平静更强调心里安定；放松也包括身体不再绷紧。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "satisfied",
+      "kind": "related-feeling-senses",
+      "compareWith": "contented",
+      "takeaway": {
+        "en": "Satisfied can follow one result; contented often means feeling at ease with what you have.",
+        "zh": "满意可以针对某个结果；知足更常是对眼前生活感到满足。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "secure",
+      "kind": "related-feeling-senses",
+      "compareWith": "comfortable",
+      "takeaway": {
+        "en": "Comfortable means at ease; secure means you especially trust that you are safe.",
+        "zh": "舒服是感到自在；安心更强调相信自己受到保护。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "sensitive-met",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tender",
+      "takeaway": {
+        "en": "Sensitive means noticing or feeling things strongly; tender means responding with gentleness and care.",
+        "zh": "感受细腻是容易察觉和被触动；温柔则是带着关心对待别人。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "serene",
+      "kind": "related-feeling-senses",
+      "compareWith": "calm",
+      "takeaway": {
+        "en": "Serene is a particularly deep, undisturbed kind of calm.",
+        "zh": "宁静是一种更深、更不容易被打扰的平静。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "spellbound",
+      "kind": "related-feeling-senses",
+      "compareWith": "fascinated",
+      "takeaway": {
+        "en": "Fascinated means wanting to keep learning; spellbound suggests being so captivated you forget your surroundings.",
+        "zh": "着迷是想继续了解；看得出神则像暂时忘了身边的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "splendid",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "delighted",
+      "takeaway": {
+        "en": "Splendid praises something excellent; delighted describes a person's joyful reaction.",
+        "zh": "splendid 是夸事物很精彩；delighted 才是人高兴的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "stimulated",
+      "kind": "related-feeling-senses",
+      "compareWith": "interested",
+      "takeaway": {
+        "en": "Interested is wanting to know more; stimulated means something has awakened your attention or senses.",
+        "zh": "感兴趣是想继续了解；受到刺激是外界的事让你精神或感官活跃起来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "surprised-met",
+      "kind": "related-feeling-senses",
+      "compareWith": "surprised-unmet",
+      "takeaway": {
+        "en": "Surprise is about not expecting something; welcome and unwelcome surprises can feel very different.",
+        "zh": "惊讶来自出乎意料；惊喜和不愉快的意外，感受却可能很不同。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "tender",
+      "kind": "related-feeling-senses",
+      "compareWith": "affection",
+      "takeaway": {
+        "en": "Tender describes gentle care in action or feeling; affection is the warmth you feel toward someone.",
+        "zh": "温柔是待人的轻柔；爱意是心里想关心对方的温暖。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "thankful",
+      "kind": "related-feeling-senses",
+      "compareWith": "grateful",
+      "takeaway": {
+        "en": "These two often mean nearly the same thing; thankful can sound especially natural after a particular helpful moment.",
+        "zh": "两者都能表示感谢；thankful 常用在具体得到了帮助之后。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "thrilled",
+      "kind": "related-feeling-senses",
+      "compareWith": "excited",
+      "takeaway": {
+        "en": "Both are excited; thrilled emphasizes unusually intense happiness about something special.",
+        "zh": "两者都兴奋；thrilled 更突出某件特别的事让人激动不已。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "touched",
+      "kind": "related-feeling-senses",
+      "compareWith": "grateful",
+      "takeaway": {
+        "en": "Being touched means kindness has moved you; gratitude focuses on valuing the help itself.",
+        "zh": "被感动是好意打动了你；感激更强调珍惜对方的帮助。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "tranquil",
+      "kind": "related-feeling-senses",
+      "compareWith": "serene",
+      "takeaway": {
+        "en": "Both are peaceful; tranquil often describes a quiet setting as well as the feeling it brings.",
+        "zh": "两者都很宁静；tranquil 也常用来形容安静的环境。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "trusting",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "secure",
+      "takeaway": {
+        "en": "Trusting means relying on a person; secure means feeling safe in a situation.",
+        "zh": "信任是觉得某个人可靠；安心是觉得自己的处境安全。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "upbeat",
+      "kind": "related-feeling-senses",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hopeful expects something good; upbeat adds a cheerful way of facing the moment.",
+        "zh": "希望是觉得可能有好结果；乐观开朗还包括此刻的好心情。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "warm",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "affection",
+      "takeaway": {
+        "en": "Warm can mean body temperature or closeness; affection specifically means caring about someone.",
+        "zh": "温暖可以是身体有温度，也可以是心里亲近；爱意则专指关心他人的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "wide-awake",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "alert",
+      "takeaway": {
+        "en": "Wide-awake means not sleepy; alert adds noticing what may need your attention.",
+        "zh": "清醒是不困；警觉还表示留心周围可能发生的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "wonderful",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "happy",
+      "takeaway": {
+        "en": "Wonderful describes something especially good; happy describes a person's pleasant feeling.",
+        "zh": "精彩是在形容人或事物很棒；快乐是在描述人的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "zestful",
+      "kind": "related-feeling-senses",
+      "compareWith": "enthusiastic",
+      "takeaway": {
+        "en": "Both show enthusiasm; zestful emphasizes abundant lively energy.",
+        "zh": "两者都很有热情；充满活力还更强调那股生机勃勃的劲儿。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "agitated",
+      "kind": "related-feeling-senses",
+      "compareWith": "restless",
+      "takeaway": {
+        "en": "Restless means finding it hard to settle; agitated usually includes feeling upset.",
+        "zh": "坐不住不一定烦心；焦躁不安通常还带着难受或心烦。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "alarmed",
+      "kind": "related-feeling-senses",
+      "compareWith": "worried",
+      "takeaway": {
+        "en": "Worry can build slowly; alarm is a sudden reaction when something seems wrong or unsafe.",
+        "zh": "担心可以慢慢产生；惊恐常是在察觉危险时突然出现。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "aloof",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "loneliness",
+      "takeaway": {
+        "en": "Aloof describes keeping distance; lonely describes wanting company but feeling alone.",
+        "zh": "疏远是与别人保持距离；孤单是想有人陪却觉得没有。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "angry",
+      "kind": "related-feeling-senses",
+      "compareWith": "irritated",
+      "takeaway": {
+        "en": "Anger can follow unfairness or hurt; irritation often follows smaller repeated annoyances.",
+        "zh": "生气可能因为不公平或受伤害；烦躁常来自反复的小麻烦。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "anxious",
+      "kind": "related-feeling-senses",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Both involve uncertainty; anxious often means worries keep returning to your thoughts.",
+        "zh": "两者都可能因为不确定；焦虑更常是担心的念头反复出现。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "apathetic",
+      "kind": "related-feeling-senses",
+      "compareWith": "indifferent",
+      "takeaway": {
+        "en": "Indifferent means not caring much about a choice; apathetic may mean little interest in many usual activities.",
+        "zh": "无所谓可能只针对一个选择；冷淡无兴趣可能影响平时许多事情。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "apprehensive",
+      "kind": "related-feeling-senses",
+      "compareWith": "worried",
+      "takeaway": {
+        "en": "Both concern what may go wrong; apprehensive often includes hesitation about something approaching.",
+        "zh": "两者都担心未知结果；忧虑还常带着对即将发生之事的犹豫。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "ashamed",
+      "kind": "related-feeling-senses",
+      "compareWith": "embarrassed",
+      "takeaway": {
+        "en": "Embarrassment can come from awkward attention; shame often involves believing you did something wrong.",
+        "zh": "尴尬可能只是被注意到；羞愧更常和觉得自己做错了事有关。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "beat",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired means needing rest; beat is a much stronger, informal way to say you have little energy left.",
+        "zh": "累是需要休息；累坏了表示已经几乎没劲儿，是更口语的说法。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "bewildered",
+      "kind": "related-feeling-senses",
+      "compareWith": "confused",
+      "takeaway": {
+        "en": "Confusion means not understanding; bewilderment adds surprise and not knowing what to do next.",
+        "zh": "困惑是没弄明白；茫然不知所措还可能因为事情来得太突然。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "bitter",
+      "kind": "related-feeling-senses",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Both can follow hurt; bitter often suggests the hurt has stayed with you for a long time.",
+        "zh": "两者都可能来自受伤的经历；苦涩怨恨常表示心里的结更难放下。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "blue",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Blue is an informal way to say you feel a little low; sad is the ordinary, broader feeling word.",
+        "zh": "blue 在这里是口语的心情低落，不是颜色；sad 则是常用的悲伤词。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "bored",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "dull",
+      "takeaway": {
+        "en": "Bored describes how you feel; dull often describes the activity that fails to interest you.",
+        "zh": "无聊是人的感受；乏味更多是在描述活动本身。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "brokenhearted",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Both are sadness; brokenhearted usually follows a particularly painful loss.",
+        "zh": "两者都可能很难过；心碎常意味着失去了非常珍贵的人或事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "chagrined",
+      "kind": "related-feeling-senses",
+      "compareWith": "embarrassed",
+      "takeaway": {
+        "en": "Chagrin mixes disappointment and embarrassment after a setback; embarrassment can happen without a failed attempt.",
+        "zh": "懊恼常把失望和尴尬混在一起；尴尬不一定因为努力失败。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "cold",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "warm",
+      "takeaway": {
+        "en": "Here cold describes distant behavior, not body temperature; warm can mean temperature or kindness.",
+        "zh": "这里的冷淡说的是待人的态度，不是身体冷；温暖也可以说身体或亲近。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "concerned-unmet",
+      "kind": "related-feeling-senses",
+      "compareWith": "concerned-met",
+      "takeaway": {
+        "en": "Concern can mean worry that something is wrong, or caring enough to check whether someone needs help.",
+        "zh": "关心有时是担忧出问题，有时是主动询问别人需不需要帮助。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "confused",
+      "kind": "related-feeling-senses",
+      "compareWith": "puzzled",
+      "takeaway": {
+        "en": "Confused is broad uncertainty; puzzled often means you are trying to figure out a specific answer.",
+        "zh": "困惑是没弄清楚；疑惑常是正努力找出某个答案。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "cross",
+      "kind": "related-feeling-senses",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Cross is a common British way to say annoyed or angry, often about something small.",
+        "zh": "cross 是英式英语里常见的生气说法，常用于一些小事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "dejected",
+      "kind": "related-feeling-senses",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Both feel low after setbacks; dejected stresses the sadness, while discouraged stresses less willingness to try.",
+        "zh": "两者都可能在受挫后出现；沮丧更难过，气馁更不想继续试。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "despairing",
+      "kind": "related-feeling-senses",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hope means a good outcome still seems possible; despair means it feels hard to imagine things improving.",
+        "zh": "有希望是仍觉得可能变好；绝望是此刻很难看见转机。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "despondent",
+      "kind": "related-feeling-senses",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Discouraged means less ready to try; despondent adds deeper sadness and low hope.",
+        "zh": "气馁是继续尝试的劲头小了；消沉还多了深深的难过和无望。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "detached",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "aloof",
+      "takeaway": {
+        "en": "Detached describes an inner feeling of distance; aloof describes keeping other people at a distance.",
+        "zh": "疏离可能是心里和周围隔了一层；不愿参与更强调对人的距离。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disaffected",
+      "kind": "related-feeling-senses",
+      "compareWith": "disappointed",
+      "takeaway": {
+        "en": "Disappointment follows unmet hope; disaffection means support or interest may have worn away afterward.",
+        "zh": "失望是期待落空；失去认同则是后来渐渐不想再支持或参与。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disappointed",
+      "kind": "related-feeling-senses",
+      "compareWith": "frustration",
+      "takeaway": {
+        "en": "Disappointment follows a hope not working out; frustration centers on trying but being blocked.",
+        "zh": "失望来自没能如愿；挫败更强调反复努力却被难题挡住。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "discouraged",
+      "kind": "related-feeling-senses",
+      "compareWith": "frustration",
+      "takeaway": {
+        "en": "Frustration happens while effort is blocked; discouragement is losing confidence about trying again.",
+        "zh": "挫败强调试着做却不顺利；气馁是因此对继续尝试没了信心。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disenchanted",
+      "kind": "related-feeling-senses",
+      "compareWith": "enchanted",
+      "takeaway": {
+        "en": "Enchanted feels almost magical; disenchanted follows learning something disappointing about what you once admired.",
+        "zh": "被迷住是觉得美好得像魔法；幻灭是后来发现事实不如想象。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disgruntled",
+      "kind": "related-feeling-senses",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Both involve dissatisfaction; disgruntled is often a current complaint, resentment may last longer.",
+        "zh": "两者都可能不满；抱怨常针对眼前的事，怨气可能持续得更久。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disgusted",
+      "kind": "related-feeling-senses",
+      "compareWith": "repelled",
+      "takeaway": {
+        "en": "Both want distance from something unpleasant; disgusted highlights the strong feeling of revulsion.",
+        "zh": "两者都可能想躲开讨厌的事；厌恶更强调心里强烈的反感。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disheartened",
+      "kind": "related-feeling-senses",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Both lose courage after difficulty; disheartened often sounds like hope itself has dimmed.",
+        "zh": "两者都因困难而泄气；灰心还像是心里的希望变暗了一点。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "dismayed",
+      "kind": "related-feeling-senses",
+      "compareWith": "alarmed",
+      "takeaway": {
+        "en": "Both may come from bad news; alarm emphasizes danger, dismay adds disappointment or discouragement.",
+        "zh": "两者都可能因坏消息而来；惊恐突出危险，沮丧惊慌还可能带着失望。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "displeased",
+      "kind": "related-feeling-senses",
+      "compareWith": "disappointed",
+      "takeaway": {
+        "en": "Displeased means not satisfied with something; disappointed means you had hoped for better.",
+        "zh": "不满意是觉得结果不好；失望还多了一份原本的期待。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disquieted",
+      "kind": "related-feeling-senses",
+      "compareWith": "uneasy",
+      "takeaway": {
+        "en": "Both can feel unsettled; disquieted especially suggests something troubling has disturbed your peace.",
+        "zh": "两者都可能不安；心绪不宁往往是有件烦心事打乱了平静。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "distressed",
+      "kind": "related-feeling-senses",
+      "compareWith": "upset",
+      "takeaway": {
+        "en": "Upset covers many unhappy reactions; distressed emphasizes stronger worry or hurt.",
+        "zh": "心烦可以有很多原因；痛苦不安更突出难受程度很深。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "disturbed",
+      "kind": "related-feeling-senses",
+      "compareWith": "troubled",
+      "takeaway": {
+        "en": "Both involve unease; disturbed emphasizes something upsetting your peace, troubled means a problem stays on your mind.",
+        "zh": "两者都让人烦心；被扰乱强调平静被打破，困扰强调问题总放不下。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "downcast",
+      "kind": "related-feeling-senses",
+      "compareWith": "downhearted",
+      "takeaway": {
+        "en": "Both suggest low mood; downcast can describe what you look like, while downhearted emphasizes less hope.",
+        "zh": "两者都可能心情低落；垂头丧气也能形容表情，灰心更突出希望变少。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "downhearted",
+      "kind": "related-feeling-senses",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Both follow hard moments; downhearted emphasizes sadness, discouraged emphasizes difficulty wanting to continue.",
+        "zh": "两者都可能在遇到困难后出现；低落更难过，气馁更难提起劲继续。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "dull",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "bored",
+      "takeaway": {
+        "en": "A dull activity may seem uninteresting; bored is how the person feels while doing it.",
+        "zh": "乏味常形容活动没有趣味；无聊则是做这件事的人感到没意思。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "edgy",
+      "kind": "related-feeling-senses",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous means tense or worried; edgy adds that small things may irritate you easily.",
+        "zh": "紧张是心里绷着；烦躁紧张还可能变得容易被小事惹恼。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "embarrassed",
+      "kind": "related-feeling-senses",
+      "compareWith": "ashamed",
+      "takeaway": {
+        "en": "Embarrassment can follow awkward attention; shame usually carries concern about having done wrong.",
+        "zh": "尴尬可能来自出糗；羞愧更多与觉得自己做错事有关。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "embittered",
+      "kind": "related-feeling-senses",
+      "compareWith": "bitter",
+      "takeaway": {
+        "en": "Both suggest hurt that lingers; embittered often describes how long experiences have shaped your mood.",
+        "zh": "两者都带着积攒的委屈；怨愤更突出经历逐渐改变了心态。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "exasperated",
+      "kind": "related-feeling-senses",
+      "compareWith": "irritated",
+      "takeaway": {
+        "en": "Irritation may be mild; exasperation happens when repeated problems make patience run out.",
+        "zh": "烦躁可以只是小小不快；不胜其烦是反复出问题让人忍不住了。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "exhausted",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Both involve tiredness; exhausted is much stronger and leaves very little energy.",
+        "zh": "两者都累；精疲力竭更严重，几乎没力气了。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "fatigued",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired is everyday language; fatigued may describe ongoing physical or mental tiredness.",
+        "zh": "tired 是日常说累；fatigued 也可形容持续的身体或精神疲劳。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "fearful",
+      "kind": "related-feeling-senses",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Both are about fear; fearful may describe an ongoing sense of danger, scared can be more immediate.",
+        "zh": "两者都表示害怕；fearful 有时更持续，scared 可以是眼前突然害怕。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "fidgety",
+      "kind": "related-feeling-senses",
+      "compareWith": "restless",
+      "takeaway": {
+        "en": "Both make it hard to stay still; fidgety emphasizes little movements such as tapping or shifting.",
+        "zh": "两者都坐不住；fidgety 更突出抖腿、动手指之类的小动作。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "forlorn",
+      "kind": "related-feeling-senses",
+      "compareWith": "loneliness",
+      "takeaway": {
+        "en": "Loneliness is wanting company; forlorn adds sadness and a sense that hope is fading.",
+        "zh": "孤单是想有人陪；孤苦无依还多了难过和一点无望。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "frightened",
+      "kind": "related-feeling-senses",
+      "compareWith": "startled",
+      "takeaway": {
+        "en": "Startled can be a brief jump from surprise; frightened means you actually feel scared.",
+        "zh": "吓一跳可能只是一瞬间；受到惊吓则是心里真的害怕了。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "furious",
+      "kind": "related-feeling-senses",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Anger can be mild or strong; furious means the anger feels extremely intense.",
+        "zh": "生气有轻有重；愤怒至极表示特别强烈的怒气。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "gloomy",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sadness may have a clear cause; gloomy often describes a longer low mood or dark outlook.",
+        "zh": "悲伤可能因具体事情而来；阴郁有时是持续低落、不太看好未来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "harried",
+      "kind": "related-feeling-senses",
+      "compareWith": "overwhelmed-unmet",
+      "takeaway": {
+        "en": "Harried means rushed by many demands; overwhelmed means the demands or feelings seem too much to manage.",
+        "zh": "忙乱是事情一件接一件催着你；不堪重负是觉得多到应付不过来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "heavy",
+      "kind": "related-feeling-senses",
+      "compareWith": "troubled",
+      "takeaway": {
+        "en": "Troubled means a problem keeps bothering you; heavy describes how emotionally burdened you feel.",
+        "zh": "困扰是问题一直在心里转；沉重强调那份负担压在心上的感觉。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "helpless",
+      "kind": "related-feeling-senses",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Discouraged means less willing to try; helpless means believing you cannot change what is happening.",
+        "zh": "气馁是没有劲再试；无助是觉得自己无法改变眼前的困难。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "hesitant",
+      "kind": "related-feeling-senses",
+      "compareWith": "reluctant",
+      "takeaway": {
+        "en": "Hesitant means unsure whether to act; reluctant means you do not really want to act.",
+        "zh": "犹豫是拿不定主意；勉强是不太想做。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "horrible",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Horrible usually describes an experience as awful; scared describes the fear a person feels.",
+        "zh": "horrible 通常形容经历很糟糕；害怕说的是人的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "horrified",
+      "kind": "related-feeling-senses",
+      "compareWith": "terrified",
+      "takeaway": {
+        "en": "Both include strong fear; horrified adds shock at something dreadful, terrified stresses fear itself.",
+        "zh": "两者都很害怕；惊骇还带着看到可怕事情的震惊。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "hostile",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Anger is a feeling; hostility describes unfriendly or aggressive behavior toward others.",
+        "zh": "生气是心里的情绪；敌对描述的是对别人的态度或行为。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "humdrum",
+      "kind": "related-feeling-senses",
+      "compareWith": "bored",
+      "takeaway": {
+        "en": "Humdrum describes repetitive routines; boredom is how those routines may make someone feel.",
+        "zh": "单调常形容天天重复的事情；无聊才是人在其中的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "hurt",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Hurt can mean physical pain or emotional injury; sad describes a low feeling.",
+        "zh": "受伤可以是身体疼也可以是心被伤到；悲伤指的是难过的感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "impatient",
+      "kind": "related-feeling-senses",
+      "compareWith": "eager",
+      "takeaway": {
+        "en": "Eager wants something to begin; impatient adds annoyance about how long the wait takes.",
+        "zh": "渴望是想快点开始；不耐烦还多了等待太久的烦躁。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "indifferent",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "unconcerned",
+      "takeaway": {
+        "en": "Indifferent means not caring much about an outcome; unconcerned means not seeing a reason to worry.",
+        "zh": "无所谓是不太在意结果；不担心是觉得没必要为这事发愁。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "intense-unmet",
+      "kind": "related-feeling-senses",
+      "compareWith": "upset",
+      "takeaway": {
+        "en": "Intense describes the strength of a feeling; upset is one of many particular feelings it can describe.",
+        "zh": "强烈说的是感受的程度；心烦只是可能出现的一种具体感受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "irate",
+      "kind": "related-feeling-senses",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Both mean anger; irate usually sounds stronger and more openly upset.",
+        "zh": "两者都生气；irate 往往语气更重、怒意更明显。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "irked",
+      "kind": "related-feeling-senses",
+      "compareWith": "irritated",
+      "takeaway": {
+        "en": "Both involve annoyance; irked is often a smaller reaction to one bothersome thing.",
+        "zh": "两者都觉得烦；irked 常是被一件小事惹得有点不快。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "irritated",
+      "kind": "related-feeling-senses",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Irritation often follows small repeated nuisances; anger can have deeper reasons.",
+        "zh": "烦躁常被反复的小事引起；生气也可能因严重的伤害或不公平。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "jealous",
+      "kind": "related-feeling-senses",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Jealousy may fear losing attention or envy what someone has; resentment follows feeling unfairly treated.",
+        "zh": "嫉妒可能因为想得到关注或拥有的东西；怨气常因为觉得自己被不公平对待。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "jittery",
+      "kind": "related-feeling-senses",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous is the feeling of tension; jittery emphasizes the physical shakiness that may come with it.",
+        "zh": "紧张是心里发慌；jittery 还强调身体发抖、坐立不安。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "leery",
+      "kind": "related-feeling-senses",
+      "compareWith": "skeptical",
+      "takeaway": {
+        "en": "Leery means being cautious about safety or trust; skeptical means wanting evidence before believing a claim.",
+        "zh": "警惕是担心安不安全或靠不靠谱；怀疑则是想先看到证据。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "lethargic",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "sleepy",
+      "takeaway": {
+        "en": "Sleepy means wanting sleep; lethargic describes low energy even when sleepiness is not the whole reason.",
+        "zh": "困倦是想睡觉；没精神也可能是没力气，不只是困。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "listless",
+      "kind": "related-feeling-senses",
+      "compareWith": "bored",
+      "takeaway": {
+        "en": "Bored means needing something interesting; listless also means lacking the energy to engage.",
+        "zh": "无聊是找不到有意思的事；无精打采还包含没力气做事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "miserable",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sad is broad; miserable means feeling particularly unhappy or uncomfortable.",
+        "zh": "难过有轻有重；痛苦不堪强调特别难受。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "mopey",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sad names a feeling; mopey describes acting quiet and uninterested while low.",
+        "zh": "悲伤是心情；闷闷不乐也常形容不想讲话、玩耍的样子。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "morose",
+      "kind": "related-feeling-senses",
+      "compareWith": "gloomy",
+      "takeaway": {
+        "en": "Both sound gloomy; morose adds a reluctance to talk or smile.",
+        "zh": "两者都显得低落；郁郁寡欢还常表现为不想说笑。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "mournful",
+      "kind": "related-feeling-senses",
+      "compareWith": "sorrowful",
+      "takeaway": {
+        "en": "Both mean deep sadness; mournful especially suggests grief or missing someone who is gone.",
+        "zh": "两者都很难过；哀伤常带着对已经离去的人或事的怀念。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "nervous",
+      "kind": "related-feeling-senses",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Nervous is often tension before a particular event; anxiety can keep worries circulating longer.",
+        "zh": "紧张常因眼前某件事；焦虑可能让担心在心里转个不停。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "nettled",
+      "kind": "related-feeling-senses",
+      "compareWith": "irked",
+      "takeaway": {
+        "en": "Both can follow a bothersome comment; nettled often means someone's words pricked at you.",
+        "zh": "两者都可能是被小事惹恼；nettled 常是别人一句话让人不舒服。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "overwhelmed-unmet",
+      "kind": "related-feeling-senses",
+      "compareWith": "harried",
+      "takeaway": {
+        "en": "Harried means being rushed from task to task; overwhelmed means it all feels too much to handle.",
+        "zh": "忙乱是被许多事追着跑；不堪重负是觉得已经应付不过来了。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "panicky",
+      "kind": "related-feeling-senses",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Scared means feeling afraid; panicky adds a sudden rush of fear that makes calm thinking hard.",
+        "zh": "害怕是心里恐惧；恐慌还会一下子慌得很难冷静想办法。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "passive",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "reluctant",
+      "takeaway": {
+        "en": "Passive describes letting others decide; reluctant means you personally do not want to act.",
+        "zh": "不主动是让别人领头的行为方式；勉强是心里不情愿。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "perplexed",
+      "kind": "related-feeling-senses",
+      "compareWith": "puzzled",
+      "takeaway": {
+        "en": "Both mean puzzlement; perplexed often emphasizes a more difficult or tangled question.",
+        "zh": "两者都迷惑；困惑不解常表示问题更复杂、更难理清。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "pessimistic",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "optimistic",
+      "takeaway": {
+        "en": "Optimism often expects good outcomes; pessimism often expects setbacks. Both are attitudes, not certainties.",
+        "zh": "乐观和悲观都是看待未来的倾向，不代表结果一定会这样。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "puzzled",
+      "kind": "related-feeling-senses",
+      "compareWith": "confused",
+      "takeaway": {
+        "en": "Puzzled means trying to solve a particular question; confused can mean generally not understanding.",
+        "zh": "疑惑是正在琢磨某个答案；困惑也可能是不知道整件事什么意思。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "rancorous",
+      "kind": "related-feeling-senses",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Both can hold a grudge; rancorous describes especially strong or long-lasting resentment.",
+        "zh": "两者都可能记着委屈；rancorous 更强调怨恨强烈、持续很久。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "reluctant",
+      "kind": "related-feeling-senses",
+      "compareWith": "hesitant",
+      "takeaway": {
+        "en": "Reluctant means you would rather not do it; hesitant means you are not sure whether to do it.",
+        "zh": "不情愿是心里不想做；犹豫是还拿不定主意。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "repelled",
+      "kind": "related-feeling-senses",
+      "compareWith": "disgusted",
+      "takeaway": {
+        "en": "Both mean strongly put off; repelled emphasizes wanting to move away from what feels unpleasant.",
+        "zh": "两者都强烈反感；排斥更突出想离远一点的反应。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "resentful",
+      "kind": "related-feeling-senses",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Anger can pass quickly; resentment may linger after you feel unfairly treated.",
+        "zh": "生气可能很快过去；不满怨气可能因为委屈而留在心里。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "restless",
+      "kind": "related-feeling-senses",
+      "compareWith": "fidgety",
+      "takeaway": {
+        "en": "Restless is the urge to move; fidgety describes the repeated small movements you make.",
+        "zh": "坐立不安是想动；小动作不断则是手脚真的不停动。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "sad",
+      "kind": "related-feeling-senses",
+      "compareWith": "sorrowful",
+      "takeaway": {
+        "en": "Sadness covers many moments; sorrowful usually implies deeper sadness, often over an important loss.",
+        "zh": "难过可以有很多程度；悲痛常因为重要的失去而更深。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "scared",
+      "kind": "related-feeling-senses",
+      "compareWith": "fearful",
+      "takeaway": {
+        "en": "Both mean afraid; scared can be immediate, while fearful may describe fear that lasts longer.",
+        "zh": "两者都害怕；scared 可以是一时的，fearful 有时更持续。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "sensitive-unmet",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "hurt",
+      "takeaway": {
+        "en": "Sensitive means words or events affect you easily; hurt means something actually feels painful.",
+        "zh": "敏感是容易被话语影响；受伤是心里或身体真的觉得疼。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "shaky",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Shaky describes a physical tremble; nervous describes a feeling, which may or may not make you shake.",
+        "zh": "发抖是身体反应；紧张是心情，不是每次紧张都会抖。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "shocked",
+      "kind": "related-feeling-senses",
+      "compareWith": "startled",
+      "takeaway": {
+        "en": "Both follow surprises; startled is often brief, while shocked can leave a much stronger impression.",
+        "zh": "两者都因意外而出现；吓一跳可能很短，震惊往往更深。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "skeptical",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "trusting",
+      "takeaway": {
+        "en": "Trusting means expecting honesty; skeptical means waiting for reasons or evidence before believing.",
+        "zh": "信任是觉得对方可靠；怀疑是想先找到理由或证据。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "sleepy",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Sleepy means wanting sleep; tired can mean low energy after doing many things.",
+        "zh": "困是想睡；累也可能是做了许多事后没力气。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "sorrowful",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sad can be mild; sorrowful usually describes deeper grief, often about a loss.",
+        "zh": "难过有轻重；悲伤更深时常与失去重要的东西有关。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "sorry",
+      "kind": "related-feeling-senses",
+      "compareWith": "ashamed",
+      "takeaway": {
+        "en": "Sorry may mean regretting something and apologizing; ashamed means feeling painful self-judgment.",
+        "zh": "抱歉可以是后悔并道歉；羞愧则更带着对自己的难受评价。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "spiritless",
+      "kind": "related-feeling-senses",
+      "compareWith": "energetic",
+      "takeaway": {
+        "en": "Energetic means ready to act; spiritless means having little enthusiasm or energy.",
+        "zh": "精力充沛是有劲儿想做事；没精神是提不起劲来。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "startled",
+      "kind": "related-feeling-senses",
+      "compareWith": "frightened",
+      "takeaway": {
+        "en": "Startled is a sudden jump at surprise; frightened means you feel scared after it.",
+        "zh": "吓一跳是突然一惊；害怕是随后心里真的发怵。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "surprised-unmet",
+      "kind": "related-feeling-senses",
+      "compareWith": "surprised-met",
+      "takeaway": {
+        "en": "Both are unexpected; one surprise may be welcome, while the other is unsettling.",
+        "zh": "两者都出乎意料；一个可能是惊喜，另一个可能令人不安。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "tepid",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "enthusiastic",
+      "takeaway": {
+        "en": "Tepid often describes a lukewarm reaction; enthusiastic shows strong positive interest.",
+        "zh": "tepid 常说反应不太热烈；有热情则是积极、兴致很高。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "terrified",
+      "kind": "related-feeling-senses",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Scared is fear in general; terrified describes fear at a much more intense level.",
+        "zh": "害怕有不同程度；恐惧至极表示特别强烈的害怕。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "tired",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "sleepy",
+      "takeaway": {
+        "en": "Tired is low energy; sleepy specifically means wanting to fall asleep.",
+        "zh": "累是没力气；困是身体想睡觉。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "troubled",
+      "kind": "related-feeling-senses",
+      "compareWith": "worried",
+      "takeaway": {
+        "en": "Worried often looks toward what might go wrong; troubled may be a problem already weighing on you.",
+        "zh": "担心可能想着未来会不会出错；困扰可能是眼前的问题一直放不下。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "uncomfortable",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "comfortable",
+      "takeaway": {
+        "en": "Comfortable means at ease; uncomfortable means something feels physically or socially wrong, not always sad.",
+        "zh": "舒服是自在；不舒服可能是身体或处境不自在，不一定难过。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "unconcerned",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "indifferent",
+      "takeaway": {
+        "en": "Unconcerned means not worrying about a problem; indifferent means not caring much which way something goes.",
+        "zh": "不担心是觉得问题不严重；无所谓是对结果不太在意。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "uneasy",
+      "kind": "related-feeling-senses",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Uneasy is a vague sense something may be wrong; anxious often means repeated worries about what may happen.",
+        "zh": "不安可能说不清哪里不对；焦虑常是担心未来的念头反复出现。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "unglued",
+      "kind": "related-feeling-senses",
+      "compareWith": "upset",
+      "takeaway": {
+        "en": "Upset is a broad difficult feeling; unglued is an informal way to say it feels very hard to stay calm.",
+        "zh": "心烦可以轻也可以重；情绪失控是口语里形容一时很难冷静。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "unhappy",
+      "kind": "related-feeling-senses",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Unhappy is a broad lack of cheer; sad more clearly names the feeling of sorrow.",
+        "zh": "不快乐只是没有开心；悲伤更明确地指难过。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "unnerved",
+      "kind": "related-feeling-senses",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous can come before an event; unnerved means something has already shaken your confidence.",
+        "zh": "紧张可以是事情发生前；心神不定常是经历了惊扰之后。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "unsteady",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "shaky",
+      "takeaway": {
+        "en": "Unsteady can mean poor balance; shaky means visibly trembling. Neither alone tells you someone's emotion.",
+        "zh": "站不稳可能是平衡不好；发抖是身体在颤动，都不能单凭它们判断情绪。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "upset",
+      "kind": "related-feeling-senses",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Upset is a broad word for feeling troubled; anger is one particular response to unfairness or hurt.",
+        "zh": "心烦难过可以有很多种；生气只是其中一种，常与受伤或不公平有关。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "uptight",
+      "kind": "related-feeling-senses",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous is tension; uptight often means staying tense while trying hard to control things.",
+        "zh": "紧张是心里绷着；拘谨紧绷还可能因为太想把每件事都控制好。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "vexed",
+      "kind": "related-feeling-senses",
+      "compareWith": "frustration",
+      "takeaway": {
+        "en": "Vexed means bothered by a tricky problem; frustration emphasizes effort that keeps getting blocked.",
+        "zh": "烦恼是难题总困扰你；挫败强调努力了却一再不顺利。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "weary",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired means needing rest; weary can mean tired after a long effort or difficult stretch.",
+        "zh": "累是需要休息；疲惫常带着长时间努力后的消耗。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "wistful",
+      "kind": "related-feeling-senses",
+      "compareWith": "loneliness",
+      "takeaway": {
+        "en": "Loneliness is wanting company; wistful sadness can come from missing a past moment or wish.",
+        "zh": "孤单是想有人陪；惆怅还可能是怀念过去或想要一件暂时得不到的事。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "withdrawn",
+      "kind": "sense-or-state-contrast",
+      "compareWith": "aloof",
+      "takeaway": {
+        "en": "Withdrawn describes pulling back, possibly when troubled; aloof describes keeping distance from others.",
+        "zh": "退缩是暂时不愿交流，可能因为心里难受；冷淡疏远更强调对人保持距离。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "woeful",
+      "kind": "related-feeling-senses",
+      "compareWith": "sorrowful",
+      "takeaway": {
+        "en": "Both can mean deep sadness; woeful also often describes a visibly miserable look.",
+        "zh": "两者都很悲伤；woeful 也常用来形容看起来特别难过。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "worried",
+      "kind": "related-feeling-senses",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Worried often focuses on one feared outcome; anxious may mean wider or repeated unease.",
+        "zh": "担心可能集中在一件事；焦虑则可能是反复、更广泛的不安。"
+      },
+      "reviewStatus": "draft-proposal"
+    },
+    {
+      "id": "wretched",
+      "kind": "related-feeling-senses",
+      "compareWith": "miserable",
+      "takeaway": {
+        "en": "Both express strong unhappiness; wretched may also describe feeling physically unwell.",
+        "zh": "两者都表示特别难受；wretched 还可能表示身体不舒服。"
+      },
+      "reviewStatus": "draft-proposal"
+    }
+  ]
+}
