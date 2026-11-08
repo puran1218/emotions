@@ -185,7 +185,7 @@
       '<small lang="'+languageTag(second)+'">'+esc(value.label[second])+'</small>'+
       '</h3>'+bilingualPair(value.description,'closer-copy')+
       (linkId?'<button class="closer-link" data-action="detail" data-id="'+esc(linkId)+'">'+t('Explore this feeling','看看这个词条')+' <span aria-hidden="true">↗</span></button>':'')+'</div>';
-    return '<details class="closer-section" open>'+
+    return '<details class="closer-section"'+(window.matchMedia?.('(max-width: 650px)').matches?'':' open')+'>'+
       '<summary><span class="closer-heading"><span class="closer-symbol" aria-hidden="true">✧</span>'+
       '<span>'+t('A LITTLE CLOSER','再理解一点')+'</span></span>'+
       '<span class="closer-toggle">'+t('Show / hide','展开 / 收起')+' <span aria-hidden="true">⌄</span></span></summary>'+
