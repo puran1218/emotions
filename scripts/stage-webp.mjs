@@ -64,12 +64,13 @@ function sourceRows(options){
       return {id:match[1],file,version:match[2]||'01'};
     });
     if(!rows.length)throw Error('No artwork candidates found in batch');
+    const validated=rows.map(r=>({...r,version:r.version||'01',source:safeInside(folder,r.file)}));
     if(options.map){
       const found=findWebps(folder);
       const described=new Set(rows.map(x=>x.file));
       for(const file of found)if(!described.has(file))throw Error('Unmapped WebP candidate in batch: '+file);
     }
-    return rows.map(r=>({...r,version:r.version||'01',source:safeInside(folder,r.file)}));
+    return validated;
   }
   return [{id:options.id,version:options.version||'01',file:options.file,source:path.resolve(options.file)}];
 }
