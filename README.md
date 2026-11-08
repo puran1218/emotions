@@ -91,3 +91,16 @@ Run `npm run review:editorial` to inspect an advisory full-catalog lint summary;
 All **230 migrated canonical concepts** now have proposed, individually revised EN/ZH definitions and matching still-scene scenarios, plus **70 extra bilingual expression corrections across 67 concepts**. The original 235 ZIP occurrences and five pilot links remain intact. There are **230 source-linked editorial review packets** and **230 conceptual future-illustration candidates**; these are reviewer aids, not approved storyboards or artwork. The 10 initially withheld high-risk senses remain withheld, 220 legacy previews plus the five original pilots remain visible, and all images continue to use the neutral placeholder.
 
 See [Full Corpus Calibration](docs/FULL-CORPUS-CALIBRATION.md), [EmoLex Plain Language](docs/PLAIN-LANGUAGE.md), and [Static Visual Explanation](docs/VISUAL-EXPLANATION.md). To regenerate editorial/runtime outputs from the canonical overlay, run `npm run migrate:legacy`; `npm run review:packets` rebuilds the deterministic before/after and art-planning packets. `npm test` checks reproducibility. Automatic checks and LLM-assisted proposals do not qualify as independent editorial approval; the full publication coverage gate remains separate.
+
+
+## Full entry exports and Daily 5 (stacked PR #7)
+
+After the full-corpus bilingual contrasts in PR #6, EmoLex can export the **entire visible word**, not only the first two speaking examples:
+
+- **Share/Save image**: all 3–4 bilingual YOU CAN SAY sentences, both full definitions and scenario, illustration, the A LITTLE CLOSER comparison and existing Related Feelings.
+- **Download full entry (.md)**: complete selectable bilingual source text, comparison, related words and link to the current illustration.
+- **Export all entries (.json)**: all 225 browsable preview entries with complete bilingual examples and their curated comparison overlays (ten withheld items remain withheld).
+
+**Daily 5** is available at `/emotions/practice.html`, or through the new header link. The five self-paced stages follow **Listen → Repeat (3 times) → Change one word → Imagine → Write**. The first two stages do not show the Chinese translation. Its initial **14** English sentence practices are hand-curated from canonical YOU CAN SAY examples and cycle by the browser's local day; they are not an automatically generated full-catalog course. No microphone, AI API, backend or account is required. Writing saves locally **only when the user clicks Save**, and can be downloaded as Markdown.
+
+To regenerate lessons, run `npm run build:daily5`. Test the new static route with `python3 -m http.server 8000` and open `http://localhost:8000/static/emotions/practice.html?word=loneliness`. See [full export and Daily 5 guide](docs/DAILY5-AND-FULL-EXPORT.md) for exact format limits, privacy and rollout conditions. **This is still editorial-preview content**, not fully human-reviewed bilingual instruction. PR #7 is based on PR #6; merge #6 first, then retarget #7 to main.
