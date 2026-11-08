@@ -285,3 +285,8 @@ button:disabled{cursor:wait;opacity:.56}
   .export-hint{display:block;margin:6px 1px 0}
 }
 @media(max-width:390px){.header-explore{display:none}}
+
+.practice-entry-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 15px;border:1px solid #B9D6BF;border-radius:12px;background:#E7F2E4;color:#236346;font-size:13px;font-weight:800;text-decoration:none}
+.practice-entry-link:hover{background:#DCEFDA}
+.practice-entry-link:focus-visible{outline:3px solid #74A888;outline-offset:3px}
+@media(max-width:600px){.practice-entry-link{width:100%;margin-bottom:8px}}

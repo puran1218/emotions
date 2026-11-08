@@ -93,14 +93,23 @@ All **230 migrated canonical concepts** now have proposed, individually revised 
 See [Full Corpus Calibration](docs/FULL-CORPUS-CALIBRATION.md), [EmoLex Plain Language](docs/PLAIN-LANGUAGE.md), and [Static Visual Explanation](docs/VISUAL-EXPLANATION.md). To regenerate editorial/runtime outputs from the canonical overlay, run `npm run migrate:legacy`; `npm run review:packets` rebuilds the deterministic before/after and art-planning packets. `npm test` checks reproducibility. Automatic checks and LLM-assisted proposals do not qualify as independent editorial approval; the full publication coverage gate remains separate.
 
 
-## Full entry exports and Daily 5 (stacked PR #7)
+## Full entry exports and Daily 5
 
 After the full-corpus bilingual contrasts in PR #6, EmoLex can export the **entire visible word**, not only the first two speaking examples:
 
 - **Share/Save image**: all 3–4 bilingual YOU CAN SAY sentences, both full definitions and scenario, illustration, the A LITTLE CLOSER comparison and existing Related Feelings.
 - **Download full entry (.md)**: complete selectable bilingual source text, comparison, related words and link to the current illustration.
-- **Export all entries (.json)**: all 225 browsable preview entries with complete bilingual examples and their curated comparison overlays (ten withheld items remain withheld).
 
-**Daily 5** is available at `/emotions/practice.html`, or through the new header link. The five self-paced stages follow **Listen → Repeat (3 times) → Change one word → Imagine → Write**. The first two stages do not show the Chinese translation. Its initial **14** English sentence practices are hand-curated from canonical YOU CAN SAY examples and cycle by the browser's local day; they are not an automatically generated full-catalog course. No microphone, AI API, backend or account is required. Writing saves locally **only when the user clicks Save**, and can be downloaded as Markdown.
+**Daily 5** is available at `/emotions/practice.html`, or through the header link. The five self-paced stages follow **Listen → Repeat (3 times) → Change a sentence part → Imagine a real situation → Write**. The numbered **1–5 navigation controls** are directly clickable, including by keyboard. The first two stages do not show the Chinese translation. Each lesson offers **three different Change categories** and **three real-life Imagine prompts**, with curated English example sentences instead of random grammar substitutions. The practice page now supports **all 225 visible dictionary word senses** on a 225-day local-date cycle: the original 14 have curated changes, while 211 use safe guided editing from canonical YOU CAN SAY sentences and scenes. All word detail pages deep-link to the exact Daily 5 practice, including same-spelled distinct senses. The ten withheld concepts remain withheld; they are not an automatically generated full-catalog course. No microphone, AI API, backend or account is required. Writing saves locally **only when the user clicks Save**, and can be downloaded as Markdown.
 
-To regenerate lessons, run `npm run build:daily5`. Test the new static route with `python3 -m http.server 8000` and open `http://localhost:8000/static/emotions/practice.html?word=loneliness`. See [full export and Daily 5 guide](docs/DAILY5-AND-FULL-EXPORT.md) for exact format limits, privacy and rollout conditions. **This is still editorial-preview content**, not fully human-reviewed bilingual instruction. PR #7 is based on PR #6; merge #6 first, then retarget #7 to main.
+To regenerate lessons, run `npm run build:daily5`. Test the new static route with `python3 -m http.server 8000` and open `http://localhost:8000/static/emotions/practice.html?word=loneliness`. See [full export and Daily 5 guide](docs/DAILY5-AND-FULL-EXPORT.md) for exact format limits, privacy and rollout conditions. **This is still editorial-preview content**, not fully human-reviewed bilingual instruction. The original PR #6 and PR #7 have both been merged; this focused follow-up simplifies exports and makes Daily 5 more flexible.
+
+
+### Daily 5 iteration
+
+The bulk **Export all entries (.json)** button was removed as unnecessary for daily practice; the app still uses its underlying static JSON files. Complete single-entry Markdown and PNG exports remain. Change now has three curated categories per sentence (a simple word swap plus two other meaningful sentence-part variations), and Imagine offers three optional everyday scenarios. Steps 1–5 are buttons rather than labels, so you can jump freely while keeping your writing and repetition count. Run `npm test` to check schema, lessons, navigation and the export boundary.
+
+
+### Full-corpus Daily 5 expansion
+
+Every visible word entry now has a **Daily 5 · Practice this feeling** link. The daily rotation spans 225 distinct visible senses; `practice.html?word=quiet` and `practice.html?word=surprised-unmet` are valid deep links. The original 14 curated lessons retain their multi-part English transformations. The remaining 211 offer three *guided* sentence-editing purposes using only authentic canonical examples and the word's bilingual story scene, with a new editable sentence field and optional TTS. Learner-created changes can be saved explicitly with the existing private reflection or downloaded as Markdown. The new content is an editorial preview, not 211 human-approved exercise sets. See [Daily 5 full-corpus editorial boundary](docs/DAILY5-AND-FULL-EXPORT.md).

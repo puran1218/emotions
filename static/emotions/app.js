@@ -217,6 +217,7 @@
   }
   function exportTools(e){
     return '<div class="export-tools">'+
+      '<a class="practice-entry-link" href="./practice.html?word='+encodeURIComponent(e.id)+'">'+t('Daily 5 · Practice this feeling','Daily 5 · 练习这个词')+' <span aria-hidden="true">↗</span></a>'+
       '<button class="export-text" data-action="export-entry" data-id="'+esc(e.id)+'" type="button">↓ '+t('Download full entry (.md)','下载完整词条 (.md)')+'</button>'+
       '<span class="export-hint">'+t('Includes every example and the comparison','包含全部例句和情绪对照')+'</span>'+
       '</div>';
@@ -253,7 +254,6 @@
       '<h2 class="explore-title">'+t('Every feeling has a story.','每一种感受，都有故事。')+'</h2></div>'+
       '<label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="'+t('Search feelings…','搜索情绪词…')+'" aria-label="'+t('Search feelings in English or Chinese','搜索情绪词，支持中文和英文')+'" value="'+esc(search)+'"></label>'+
       '<div class="filter-row" role="group" aria-label="'+t('Feelings category','感受分类')+'">'+[['all',t('All','全部')],['needs_met',t('Needs met','需要已满足')],['needs_unmet',t('Needs unmet','需要未满足')]].map(([id,label])=>'<button class="filter-chip '+(filter===id?'selected':'')+'" data-action="filter" data-id="'+id+'" aria-pressed="'+(filter===id)+'">'+esc(label)+'</button>').join('')+'</div>'+
-      '<button class="export-library" data-action="export-library" type="button">↓ '+t('Download all '+entries.length+' entries (.json)','导出全部 '+entries.length+' 条词条 (.json)')+'</button>'+ 
       '<div id="results" aria-live="polite">'+resultsHtml()+'</div>'+
       '<p class="sidebar-note">'+t('Illustrations coming later · expressions are editorial previews','插画稍后加入 · 词义和例句仍处于审校预览阶段')+'</p></aside>';
   }
@@ -320,10 +320,6 @@
     if(action==='export-entry'){
       const e=entries.find(x=>x.id===id),service=window.EmoLexExportEntry;
       if(e&&service){try{service.download(service.markdown(e,language,closerById.get(id),entries,document.baseURI),'emolex-'+id+'-full.md','text/markdown;charset=utf-8');message(t('Full entry downloaded.','完整词条已下载。'));}catch{message(t('Could not export this entry.','词条导出失败。'));}}
-    }
-    if(action==='export-library'){
-      const service=window.EmoLexExportEntry;
-      if(service){try{service.download(service.libraryJSON(entries,closerById),'emolex-full-library.json','application/json;charset=utf-8');message(t('Full library downloaded.','完整词库已下载。'));}catch{message(t('Could not export the library.','词库导出失败。'));}}
     }
     if(action==='clear'){search='';focusSearchAfterRender=true;render();}
     if(action==='filter'){filter=id;render();}

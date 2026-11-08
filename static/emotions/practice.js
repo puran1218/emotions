@@ -2,7 +2,7 @@
   'use strict';
   const root=document.getElementById('practice-root');
   const live=document.getElementById('practice-status');
-  let items=[],lesson=null,step=0,repeats=0,situation='',reflection='',showChinese=false;
+  let items=[],lesson=null,step=0,repeats=0,changeDraft='',situation='',reflection='',showChinese=false,changeGroup=0;
   const labels=[['Listen','只听'],['Repeat','跟读'],['Change','替换'],['Imagine','想象'],['Write','写下']];
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const now=new Date(),dateId=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
@@ -30,12 +30,26 @@
       '## Minute 2 — Repeat aloud three times',
       lesson.sentence.en,
       '',
-      '## Minute 3 — Change one word ('+lesson.change.word+')',
-      ...lesson.change.alternatives.map(x=>'- '+x),
+      '## Minute 3 — Change different parts of the sentence',
+      ...lesson.change.groups.flatMap(group=>[
+        '',
+        '### '+group.label.en+' / '+group.label.zh,
+        ...group.examples.map(x=>'- '+x)
+      ]),
       '',
       '## Minute 4 — Imagine',
       lesson.imagine.en,
       '',
+      ...lesson.imagineIdeas.flatMap(idea=>[
+        '### '+idea.label.en+' / '+idea.label.zh,
+        idea.prompt.en,
+        'Example: '+idea.example,
+        ''
+      ]),
+      'My own changed sentence:',
+      changeDraft.trim()||'(Not written yet)',
+      '',
+      'My own situation:',
       situation.trim()||'(Not written yet)',
       '',
       '## Minute 5 — Write',
@@ -59,16 +73,16 @@
   }
   function save(){
     try{
-      localStorage.setItem(savedKey(),JSON.stringify({situation,reflection}));
+      localStorage.setItem(savedKey(),JSON.stringify({changeDraft,situation,reflection}));
       live.textContent='Saved privately in this browser. No account or upload.';
       render();
     }catch{live.textContent='Local saving is unavailable; use Download instead.';}
   }
   function choose(item){
-    lesson=item;step=0;repeats=0;situation='';reflection='';showChinese=false;
+    lesson=item;step=0;repeats=0;changeDraft='';situation='';reflection='';showChinese=false;changeGroup=0;
     try{
       const data=JSON.parse(localStorage.getItem(savedKey())||'null');
-      if(data&&typeof data==='object'){situation=String(data.situation||'');reflection=String(data.reflection||'');}
+      if(data&&typeof data==='object'){changeDraft=String(data.changeDraft||'').slice(0,700);situation=String(data.situation||'').slice(0,700);reflection=String(data.reflection||'').slice(0,1500);}
     }catch{}
     render();
   }
@@ -81,15 +95,46 @@
       '<button class="daily-action secondary" data-daily-action="repeat" type="button">I said it · +1</button>'+
       '<p class="daily-counter" aria-live="polite">Spoken aloud: '+repeats+' / 3</p>'+
       '<p class="daily-hint">大声跟读三次。这里不使用麦克风，次数由你自己确认。</p>';
-    if(step===2)return '<p class="daily-prompt">Change only <strong>'+esc(lesson.change.word)+'</strong>. Try each new sentence aloud.</p>'+
-      '<div class="daily-variants">'+lesson.change.alternatives.map((x,i)=>
-        '<button class="daily-variant" type="button" data-daily-action="variant" data-variant-index="'+i+'">▶ '+esc(x)+'</button>').join('')+
-      '</div><p class="daily-hint">每次只换一个单词，其他地方保持不变。</p>';
+    if(step===2){
+      const groups=lesson.change.groups;
+      const selected=groups[changeGroup]||groups[0];
+      const guided=lesson.mode==='guided-source';
+      return '<p class="daily-prompt">'+(guided?
+        'Start from a real EmoLex sentence. Try changing the event, the speaker or what you say next.':
+        'Try changing <strong>who, what, or when</strong>. Keep each sentence natural and say it aloud.')+'</p>'+
+        '<p class="daily-hint">'+(guided?
+          '以下是词典原句，供你参考改写，并非自动生成的正确替换答案。':
+          '每次改一个有意义的部分：人物、动作、事情或时间。不必只换一个词。')+'</p>'+
+        '<div class="daily-change-tabs" role="group" aria-label="Ways to change this sentence">'+groups.map((group,i)=>
+          '<button type="button" class="daily-change-tab" data-daily-action="change-group" data-group-index="'+i+'" aria-pressed="'+(i===changeGroup?'true':'false')+'">'+
+            esc(group.label.en)+' <span lang="zh-CN">'+esc(group.label.zh)+'</span></button>').join('')+'</div>'+
+        (selected.prompt?
+          '<p class="daily-group-prompt">'+esc(selected.prompt.en)+'</p><p class="daily-hint" lang="zh-CN">'+esc(selected.prompt.zh)+'</p>':'')+
+        '<div class="daily-variants">'+selected.examples.map((x,i)=>
+          '<div class="daily-variant-line"><button class="daily-variant" type="button" data-daily-action="variant" data-variant-index="'+i+'">▶ '+esc(x)+'</button>'+
+          '<button class="daily-variant-use" type="button" data-daily-action="use-variant" data-variant-index="'+i+'">'+
+          (guided?'Use original · 参考原句':'Try editing · 改写这句')+'</button></div>').join('')+
+        '</div>'+
+        '<label class="daily-field" for="daily-change-draft">My changed sentence · 我改写的英文句子</label>'+
+        '<textarea id="daily-change-draft" class="daily-textarea" maxlength="700" placeholder="Try changing one part and say it aloud…">'+esc(changeDraft)+'</textarea>'+
+        '<button class="daily-action secondary daily-speak-draft" type="button" data-daily-action="speak-draft">▶ Listen to my version</button>'+
+        '<p class="daily-hint">'+(guided?
+          'No fixed answer: try a true situation of your own. Your text is not checked by AI.':
+          'Choose one example and make it your own. You do not need to practise every version.')+'</p>';
+    }
     if(step===3)return '<p class="daily-prompt">'+esc(lesson.imagine.en)+'</p>'+
       '<p class="daily-hint">'+esc(lesson.imagine.zh)+'</p>'+
+      '<div class="daily-ideas">'+lesson.imagineIdeas.map((idea,i)=>
+        '<div class="daily-idea"><h3>'+esc(idea.label.en)+' <span lang="zh-CN">'+esc(idea.label.zh)+'</span></h3>'+
+        '<p>'+esc(idea.prompt.en)+'</p>'+
+        '<p class="daily-idea-zh" lang="zh-CN">'+esc(idea.prompt.zh)+'</p>'+
+        '<p class="daily-idea-example" lang="en">“'+esc(idea.example)+'”</p>'+
+        '<div class="daily-idea-actions"><button type="button" class="daily-idea-try" data-daily-action="idea" data-idea-index="'+i+'">Use as a starting point · 参考这句</button>'+
+        '<button type="button" class="daily-idea-speak" data-daily-action="idea-speak" data-idea-index="'+i+'" aria-label="Listen to example: '+esc(idea.example)+'">▶ Listen</button></div>'+
+        '</div>').join('')+'</div>'+
       '<label class="daily-field" for="daily-situation">Your own English sentence · 你自己的英文句子</label>'+
-      '<textarea id="daily-situation" class="daily-textarea" maxlength="700" placeholder="In my life, I could say…">'+esc(situation)+'</textarea>'+
-      '<p class="daily-hint">Use a moment from your real life. One simple sentence is enough.</p>';
+      '<textarea id="daily-situation" class="daily-textarea" maxlength="700" placeholder="A moment from my own life…">'+esc(situation)+'</textarea>'+
+      '<p class="daily-hint">Choose an idea, then change it to fit your real life. Existing writing is never overwritten.</p>';
     return '<p class="daily-prompt">'+esc(lesson.writePrompt.en)+'</p>'+
       '<p class="daily-hint">'+esc(lesson.writePrompt.zh)+'</p>'+
       '<label class="daily-field" for="daily-reflection">Today, I want to write…</label>'+
@@ -104,22 +149,25 @@
     root.innerHTML='<article class="daily-card">'+
       '<div class="daily-top"><div><p class="daily-eyebrow">EMOLEX · DAILY 5</p>'+
       '<h1 class="daily-title">One sentence. Five minutes.</h1>'+
-      '<p class="daily-subtitle">每天一句 · 听、说、变、想、写 · '+esc(lesson.word.en)+' / '+esc(lesson.word.zh)+'</p></div>'+
+      '<p class="daily-subtitle">每天一句 · 听、说、变、想、写 · '+esc(lesson.word.en)+' / '+esc(lesson.word.zh)+'</p>'+ 
+      '<p class="daily-course-note">'+(lesson.mode==='curated'?'Curated sentence changes · 精选变化示例':'Guided from dictionary examples · 根据词典原句引导练习')+'</p></div>'+
       '<span class="daily-date">'+esc(dateId)+'</span></div>'+
       '<div class="daily-sentence"><h2 lang="en">'+esc(lesson.sentence.en)+'</h2>'+
       (step>=2&&showChinese?'<p class="daily-translation" lang="zh-CN">'+esc(lesson.sentence.zh)+'</p>':'')+
       (step>=2?'<button class="daily-action secondary" type="button" data-daily-action="translate">'+(showChinese?'Hide Chinese · 隐藏翻译':'Show Chinese · 查看中文')+'</button>':'')+
       '</div>'+
-      '<div class="daily-progress" aria-label="Five practice minutes">'+labels.map(([en,zh],i)=>
-        '<span data-current="'+(i===step?'true':'false')+'">'+(i+1)+' '+en+'</span>').join('')+'</div>'+
+      '<nav class="daily-progress" aria-label="Jump to a practice minute">'+labels.map(([en,zh],i)=>
+        '<button type="button" class="daily-progress-step" data-daily-action="go" data-step="'+i+'"'+
+        (i===step?' aria-current="step"':'')+' aria-label="Go to minute '+(i+1)+': '+esc(en)+'"'+
+        '><span class="daily-progress-number">'+(i+1)+'</span><span class="daily-progress-word">'+esc(en)+'</span></button>').join('')+'</nav>'+
       '<section class="daily-work"><p class="daily-eyebrow">MINUTE '+(step+1)+' / 5</p>'+
       '<h2 class="daily-minute">'+esc(title[0])+' · '+esc(title[1])+'</h2>'+
       work()+'</section>'+
       '<nav class="daily-nav" aria-label="Practice steps">'+
       '<button class="daily-action secondary" type="button" data-daily-action="previous"'+(step===0?' disabled':'')+'>← Previous</button>'+
       '<button class="daily-action" type="button" data-daily-action="next"'+(step===4?' disabled':'')+'>Next minute →</button></nav>'+
-      '<div class="daily-foot">This is a self-paced five-step habit; “minute” is a guide, not a timed test. Curated draft from the existing EmoLex sentence library.</div>'+
-      '<div class="daily-actions"><button class="daily-action secondary" type="button" data-daily-action="another">Try another curated sentence ↗</button>'+
+      '<div class="daily-foot">Self-paced practice · '+items.length+' browsable word entries · 14 curated lessons plus source-based guided practice. Editorial preview, not independently approved.</div>'+
+      '<div class="daily-actions"><button class="daily-action secondary" type="button" data-daily-action="another">Another feeling · 换一种感受 ↗</button>'+
       '<a class="daily-return" href="./?word='+encodeURIComponent(lesson.id)+'">Read this feeling · 阅读词条</a></div>'+
       '</article>';
     document.title='Daily 5 · '+lesson.word.en+' · EmoLex';
@@ -130,7 +178,50 @@
     const action=btn.dataset.dailyAction;
     if(action==='listen')say(lesson.sentence.en);
     if(action==='repeat'){repeats=Math.min(3,repeats+1);render();}
-    if(action==='variant')say(lesson.change.alternatives[Number(btn.dataset.variantIndex)]||lesson.sentence.en);
+    if(action==='change-group'){
+      const index=Number(btn.dataset.groupIndex);
+      if(Number.isInteger(index)&&index>=0&&index<lesson.change.groups.length){changeGroup=index;render();}
+    }
+    if(action==='variant'){
+      const index=Number(btn.dataset.variantIndex),group=lesson.change.groups[changeGroup];
+      if(group&&Number.isInteger(index)&&index>=0&&index<group.examples.length)say(group.examples[index]);
+    }
+    if(action==='use-variant'){
+      const index=Number(btn.dataset.variantIndex),group=lesson.change.groups[changeGroup];
+      if(group&&Number.isInteger(index)&&index>=0&&index<group.examples.length){
+        if(changeDraft.trim())live.textContent='You already wrote a changed sentence. Edit it directly to keep your work.';
+        else{
+          changeDraft=group.examples[index];
+          render();
+          document.getElementById('daily-change-draft')?.focus();
+          live.textContent='Sentence added. Change a part to make it your own.';
+        }
+      }
+    }
+    if(action==='speak-draft'){
+      if(changeDraft.trim())say(changeDraft.trim());
+      else live.textContent='Write a version of the sentence first.';
+    }
+    if(action==='idea-speak'){
+      const index=Number(btn.dataset.ideaIndex);
+      if(Number.isInteger(index)&&index>=0&&index<lesson.imagineIdeas.length)say(lesson.imagineIdeas[index].example);
+    }
+    if(action==='idea'){
+      const index=Number(btn.dataset.ideaIndex);
+      if(Number.isInteger(index)&&index>=0&&index<lesson.imagineIdeas.length){
+        if(situation.trim()){live.textContent='You already wrote a sentence. Edit it directly to keep your work.';}
+        else{
+          situation=lesson.imagineIdeas[index].example;
+          render();
+          document.getElementById('daily-situation')?.focus();
+          live.textContent='Example added as a starting point. Make it your own.';
+        }
+      }
+    }
+    if(action==='go'){
+      const index=Number(btn.dataset.step);
+      if(Number.isInteger(index)&&index>=0&&index<labels.length){step=index;render();}
+    }
     if(action==='previous'){step=Math.max(0,step-1);render();}
     if(action==='next'){step=Math.min(4,step+1);render();}
     if(action==='translate'){showChinese=!showChinese;render();}
@@ -144,6 +235,7 @@
     }
   });
   document.addEventListener('input',event=>{
+    if(event.target.id==='daily-change-draft')changeDraft=event.target.value;
     if(event.target.id==='daily-situation')situation=event.target.value;
     if(event.target.id==='daily-reflection')reflection=event.target.value;
   });
@@ -152,7 +244,7 @@
       const res=await fetch('./data/daily5.json',{cache:'no-cache'});
       if(!res.ok)throw Error('Could not load lesson library');
       const payload=await res.json();
-      if(payload.status!=='curated-practice-proposals-not-human-approved'||!Array.isArray(payload.items)||!payload.items.length)throw Error('No reviewed starter structure');
+      if(payload.status!=='full-corpus-practice-proposals-not-human-approved'||payload.coverage?.visible!==225||!Array.isArray(payload.items)||payload.items.length!==225)throw Error('Full dictionary practice coverage not available');
       items=payload.items;
       const wanted=new URL(location.href).searchParams.get('word');
       const selected=items.find(x=>x.id===wanted)||items[((todayNumber%items.length)+items.length)%items.length];
