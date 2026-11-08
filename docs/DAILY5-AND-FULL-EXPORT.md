@@ -1,6 +1,6 @@
 # Full-entry export and Daily 5 · User guide
 
-**Work sequence:** PR #6 (bilingual A Little Closer review and full-corpus coverage) → PR #7 (full export + English practice). This feature PR is intentionally stacked on #6. Merge #6 first, then retarget #7 to `main`.
+**History:** PR #6 (bilingual A Little Closer review) and PR #7 (full entry export + Daily 5) were merged. PR #9 is a focused follow-up based directly on `main`.
 
 ## What can I export now?
 
