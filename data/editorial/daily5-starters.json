@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "status": "curated-practice-proposals-not-human-approved",
+  "description": "14 real EmoLex YOU CAN SAY sentences. A replacement changes exactly one word, never generated freeform.",
+  "items": [
+    {
+      "id": "curious",
+      "sayIndex": 1,
+      "change": {
+        "word": "insect",
+        "replacements": [
+          "bird",
+          "butterfly",
+          "frog"
+        ]
+      },
+      "imagine": {
+        "en": "Think of a creature you saw outside. Where might it live?",
+        "zh": "想想你在户外看到的一种小动物，它可能住在哪里？"
+      },
+      "writePrompt": {
+        "en": "What did you notice today that made you curious?",
+        "zh": "今天你看到什么，觉得好奇？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "loneliness",
+      "sayIndex": 1,
+      "change": {
+        "word": "play",
+        "replacements": [
+          "walk",
+          "run",
+          "study"
+        ]
+      },
+      "imagine": {
+        "en": "Think of someone you would like to spend time with.",
+        "zh": "想想你希望和谁一起做一件事。"
+      },
+      "writePrompt": {
+        "en": "What could you say to invite someone to join you?",
+        "zh": "你今天想邀请谁陪你做什么？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "frustration",
+      "sayIndex": 2,
+      "change": {
+        "word": "try",
+        "replacements": [
+          "cook",
+          "draw",
+          "read"
+        ]
+      },
+      "imagine": {
+        "en": "Remember a time you needed someone to help you with a tricky task.",
+        "zh": "想想遇到困难时，你希望别人怎样帮忙。"
+      },
+      "writePrompt": {
+        "en": "What could you ask someone to help you do?",
+        "zh": "你今天可以请求别人帮你做什么？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "relief",
+      "sayIndex": 1,
+      "change": {
+        "word": "book",
+        "replacements": [
+          "bag",
+          "wallet",
+          "jacket"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine finding something you thought you had lost.",
+        "zh": "想想找回一件以为丢了的东西时的感受。"
+      },
+      "writePrompt": {
+        "en": "What were you glad to find today?",
+        "zh": "今天有什么事情让你松了口气？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "joy",
+      "sayIndex": 1,
+      "change": {
+        "word": "sunflower",
+        "replacements": [
+          "rose",
+          "tulip",
+          "daisy"
+        ]
+      },
+      "imagine": {
+        "en": "Think about a small success you would like to share.",
+        "zh": "想想今天一个想和别人分享的小小好消息。"
+      },
+      "writePrompt": {
+        "en": "What made you happy enough to say 'Look!'?",
+        "zh": "今天什么事情让你开心得想说“快看”？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "proud",
+      "sayIndex": 2,
+      "change": {
+        "word": "made",
+        "replacements": [
+          "drew",
+          "built",
+          "wrote"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine showing someone something you finished yourself.",
+        "zh": "想想把自己完成的作品拿给别人看。"
+      },
+      "writePrompt": {
+        "en": "What did you finish or make today?",
+        "zh": "今天你完成或做出了什么？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "worried",
+      "sayIndex": 2,
+      "change": {
+        "word": "plan",
+        "replacements": [
+          "list",
+          "schedule",
+          "map"
+        ]
+      },
+      "imagine": {
+        "en": "Think of a time you wanted help planning what to do.",
+        "zh": "想想你需要别人帮忙做计划的时候。"
+      },
+      "writePrompt": {
+        "en": "What would you like help planning?",
+        "zh": "你今天有什么事情希望有人一起规划？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "calm",
+      "sayIndex": 2,
+      "change": {
+        "word": "sit",
+        "replacements": [
+          "read",
+          "draw",
+          "walk"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine a quiet moment after a busy morning.",
+        "zh": "想想忙碌之后，你喜欢怎样安静地待一会儿。"
+      },
+      "writePrompt": {
+        "en": "What quiet activity helped you feel calm today?",
+        "zh": "今天哪件安静的小事让你放松？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "excited",
+      "sayIndex": 1,
+      "change": {
+        "word": "open",
+        "replacements": [
+          "see",
+          "use",
+          "share"
+        ]
+      },
+      "imagine": {
+        "en": "Think of a gift or surprise you were excited about.",
+        "zh": "想想让你迫不及待想拆开的礼物或惊喜。"
+      },
+      "writePrompt": {
+        "en": "What were you excited to do today?",
+        "zh": "今天什么事情让你迫不及待？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "grateful",
+      "sayIndex": 1,
+      "change": {
+        "word": "helping",
+        "replacements": [
+          "teaching",
+          "visiting",
+          "calling"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine thanking a friend or family member sincerely.",
+        "zh": "想想你可以真诚感谢的一位朋友或家人。"
+      },
+      "writePrompt": {
+        "en": "Who helped you today, and how would you thank them?",
+        "zh": "今天谁帮助了你，你想怎么说谢谢？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "hopeful",
+      "sayIndex": 2,
+      "change": {
+        "word": "try",
+        "replacements": [
+          "play",
+          "meet",
+          "run"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine making a friendly plan for tomorrow.",
+        "zh": "想想明天和朋友做一件有趣的事。"
+      },
+      "writePrompt": {
+        "en": "What would you like to try again tomorrow?",
+        "zh": "明天你有什么想再尝试的事？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "nervous",
+      "sayIndex": 2,
+      "change": {
+        "word": "stay",
+        "replacements": [
+          "sit",
+          "wait",
+          "walk"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine asking someone you trust to stay near you.",
+        "zh": "想想紧张时，你会怎样请求信任的人陪伴。"
+      },
+      "writePrompt": {
+        "en": "When did you want a little company today?",
+        "zh": "今天什么时候你希望有人陪一会儿？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sad",
+      "sayIndex": 1,
+      "change": {
+        "word": "friend",
+        "replacements": [
+          "cousin",
+          "neighbor",
+          "aunt"
+        ]
+      },
+      "imagine": {
+        "en": "Think of somebody you miss, without needing to change the feeling.",
+        "zh": "想想你想念的人，不必急着改变自己的感受。"
+      },
+      "writePrompt": {
+        "en": "Who did you think about today?",
+        "zh": "今天你想到了谁？"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "affection",
+      "sayIndex": 1,
+      "change": {
+        "word": "you",
+        "replacements": [
+          "him",
+          "her",
+          "them"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine saying something kind to a person you care about.",
+        "zh": "想想向在乎的人表达一句温柔的话。"
+      },
+      "writePrompt": {
+        "en": "What kind thing could you tell someone today?",
+        "zh": "今天你想对在乎的人说什么贴心的话？"
+      },
+      "reviewer": null
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "status": "curated-practice-proposals-not-human-approved",
+  "cycleDays": 14,
+  "items": [
+    {
+      "id": "curious",
+      "word": {
+        "en": "Curious",
+        "zh": "好奇的",
+        "feelingEn": "Curious",
+        "feelingZh": "好奇的"
+      },
+      "sentence": {
+        "en": "I wonder where this unusual insect lives.",
+        "zh": "我想知道这只没见过的昆虫住在哪里。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "insect",
+        "alternatives": [
+          "I wonder where this unusual bird lives.",
+          "I wonder where this unusual butterfly lives.",
+          "I wonder where this unusual frog lives."
+        ]
+      },
+      "imagine": {
+        "en": "Think of a creature you saw outside. Where might it live?",
+        "zh": "想想你在户外看到的一种小动物，它可能住在哪里？"
+      },
+      "writePrompt": {
+        "en": "What did you notice today that made you curious?",
+        "zh": "今天你看到什么，觉得好奇？"
+      }
+    },
+    {
+      "id": "loneliness",
+      "word": {
+        "en": "Loneliness",
+        "zh": "孤独感",
+        "feelingEn": "lonely",
+        "feelingZh": "孤独"
+      },
+      "sentence": {
+        "en": "I wish someone could play with me.",
+        "zh": "我希望有人能陪我玩。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "play",
+        "alternatives": [
+          "I wish someone could walk with me.",
+          "I wish someone could run with me.",
+          "I wish someone could study with me."
+        ]
+      },
+      "imagine": {
+        "en": "Think of someone you would like to spend time with.",
+        "zh": "想想你希望和谁一起做一件事。"
+      },
+      "writePrompt": {
+        "en": "What could you say to invite someone to join you?",
+        "zh": "你今天想邀请谁陪你做什么？"
+      }
+    },
+    {
+      "id": "frustration",
+      "word": {
+        "en": "Frustration",
+        "zh": "挫败感",
+        "feelingEn": "frustrated",
+        "feelingZh": "挫败"
+      },
+      "sentence": {
+        "en": "Can you help me try again?",
+        "zh": "你能帮我再试一次吗？"
+      },
+      "sayIndex": 2,
+      "change": {
+        "word": "try",
+        "alternatives": [
+          "Can you help me cook again?",
+          "Can you help me draw again?",
+          "Can you help me read again?"
+        ]
+      },
+      "imagine": {
+        "en": "Remember a time you needed someone to help you with a tricky task.",
+        "zh": "想想遇到困难时，你希望别人怎样帮忙。"
+      },
+      "writePrompt": {
+        "en": "What could you ask someone to help you do?",
+        "zh": "你今天可以请求别人帮你做什么？"
+      }
+    },
+    {
+      "id": "relief",
+      "word": {
+        "en": "Relief",
+        "zh": "如释重负",
+        "feelingEn": "relieved",
+        "feelingZh": "松了一口气"
+      },
+      "sentence": {
+        "en": "I'm so glad my book isn't lost.",
+        "zh": "太好了，我的书没有丢。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "book",
+        "alternatives": [
+          "I'm so glad my bag isn't lost.",
+          "I'm so glad my wallet isn't lost.",
+          "I'm so glad my jacket isn't lost."
+        ]
+      },
+      "imagine": {
+        "en": "Imagine finding something you thought you had lost.",
+        "zh": "想想找回一件以为丢了的东西时的感受。"
+      },
+      "writePrompt": {
+        "en": "What were you glad to find today?",
+        "zh": "今天有什么事情让你松了口气？"
+      }
+    },
+    {
+      "id": "joy",
+      "word": {
+        "en": "Joy",
+        "zh": "喜悦",
+        "feelingEn": "joyful",
+        "feelingZh": "开心"
+      },
+      "sentence": {
+        "en": "Look! My sunflower finally bloomed!",
+        "zh": "快看！我的向日葵终于开花啦！"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "sunflower",
+        "alternatives": [
+          "Look! My rose finally bloomed!",
+          "Look! My tulip finally bloomed!",
+          "Look! My daisy finally bloomed!"
+        ]
+      },
+      "imagine": {
+        "en": "Think about a small success you would like to share.",
+        "zh": "想想今天一个想和别人分享的小小好消息。"
+      },
+      "writePrompt": {
+        "en": "What made you happy enough to say 'Look!'?",
+        "zh": "今天什么事情让你开心得想说“快看”？"
+      }
+    },
+    {
+      "id": "proud",
+      "word": {
+        "en": "Proud",
+        "zh": "骄傲的",
+        "feelingEn": "Proud",
+        "feelingZh": "骄傲的"
+      },
+      "sentence": {
+        "en": "Can I show you what I made?",
+        "zh": "我能给你看看我的作品吗？"
+      },
+      "sayIndex": 2,
+      "change": {
+        "word": "made",
+        "alternatives": [
+          "Can I show you what I drew?",
+          "Can I show you what I built?",
+          "Can I show you what I wrote?"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine showing someone something you finished yourself.",
+        "zh": "想想把自己完成的作品拿给别人看。"
+      },
+      "writePrompt": {
+        "en": "What did you finish or make today?",
+        "zh": "今天你完成或做出了什么？"
+      }
+    },
+    {
+      "id": "worried",
+      "word": {
+        "en": "Worried",
+        "zh": "担心的",
+        "feelingEn": "Worried",
+        "feelingZh": "担心的"
+      },
+      "sentence": {
+        "en": "Can you help me make a plan?",
+        "zh": "你能帮我想个办法吗？"
+      },
+      "sayIndex": 2,
+      "change": {
+        "word": "plan",
+        "alternatives": [
+          "Can you help me make a list?",
+          "Can you help me make a schedule?",
+          "Can you help me make a map?"
+        ]
+      },
+      "imagine": {
+        "en": "Think of a time you wanted help planning what to do.",
+        "zh": "想想你需要别人帮忙做计划的时候。"
+      },
+      "writePrompt": {
+        "en": "What would you like help planning?",
+        "zh": "你今天有什么事情希望有人一起规划？"
+      }
+    },
+    {
+      "id": "calm",
+      "word": {
+        "en": "Calm",
+        "zh": "平静的",
+        "feelingEn": "Calm",
+        "feelingZh": "平静的"
+      },
+      "sentence": {
+        "en": "Let's sit quietly for a moment.",
+        "zh": "我们安静地坐一会儿吧。"
+      },
+      "sayIndex": 2,
+      "change": {
+        "word": "sit",
+        "alternatives": [
+          "Let's read quietly for a moment.",
+          "Let's draw quietly for a moment.",
+          "Let's walk quietly for a moment."
+        ]
+      },
+      "imagine": {
+        "en": "Imagine a quiet moment after a busy morning.",
+        "zh": "想想忙碌之后，你喜欢怎样安静地待一会儿。"
+      },
+      "writePrompt": {
+        "en": "What quiet activity helped you feel calm today?",
+        "zh": "今天哪件安静的小事让你放松？"
+      }
+    },
+    {
+      "id": "excited",
+      "word": {
+        "en": "Excited",
+        "zh": "兴奋的",
+        "feelingEn": "Excited",
+        "feelingZh": "兴奋的"
+      },
+      "sentence": {
+        "en": "I can hardly wait to open my gift.",
+        "zh": "我等不及想拆礼物了。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "open",
+        "alternatives": [
+          "I can hardly wait to see my gift.",
+          "I can hardly wait to use my gift.",
+          "I can hardly wait to share my gift."
+        ]
+      },
+      "imagine": {
+        "en": "Think of a gift or surprise you were excited about.",
+        "zh": "想想让你迫不及待想拆开的礼物或惊喜。"
+      },
+      "writePrompt": {
+        "en": "What were you excited to do today?",
+        "zh": "今天什么事情让你迫不及待？"
+      }
+    },
+    {
+      "id": "grateful",
+      "word": {
+        "en": "Grateful",
+        "zh": "感激的",
+        "feelingEn": "Grateful",
+        "feelingZh": "感激的"
+      },
+      "sentence": {
+        "en": "Thank you for helping me today.",
+        "zh": "谢谢你今天帮了我。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "helping",
+        "alternatives": [
+          "Thank you for teaching me today.",
+          "Thank you for visiting me today.",
+          "Thank you for calling me today."
+        ]
+      },
+      "imagine": {
+        "en": "Imagine thanking a friend or family member sincerely.",
+        "zh": "想想你可以真诚感谢的一位朋友或家人。"
+      },
+      "writePrompt": {
+        "en": "Who helped you today, and how would you thank them?",
+        "zh": "今天谁帮助了你，你想怎么说谢谢？"
+      }
+    },
+    {
+      "id": "hopeful",
+      "word": {
+        "en": "Hopeful",
+        "zh": "充满希望的",
+        "feelingEn": "Hopeful",
+        "feelingZh": "充满希望的"
+      },
+      "sentence": {
+        "en": "Shall we try again tomorrow?",
+        "zh": "我们明天再试一次好吗？"
+      },
+      "sayIndex": 2,
+      "change": {
+        "word": "try",
+        "alternatives": [
+          "Shall we play again tomorrow?",
+          "Shall we meet again tomorrow?",
+          "Shall we run again tomorrow?"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine making a friendly plan for tomorrow.",
+        "zh": "想想明天和朋友做一件有趣的事。"
+      },
+      "writePrompt": {
+        "en": "What would you like to try again tomorrow?",
+        "zh": "明天你有什么想再尝试的事？"
+      }
+    },
+    {
+      "id": "nervous",
+      "word": {
+        "en": "Nervous",
+        "zh": "紧张的",
+        "feelingEn": "Nervous",
+        "feelingZh": "紧张的"
+      },
+      "sentence": {
+        "en": "Could you stay with me for a moment?",
+        "zh": "你能陪我一会儿吗？"
+      },
+      "sayIndex": 2,
+      "change": {
+        "word": "stay",
+        "alternatives": [
+          "Could you sit with me for a moment?",
+          "Could you wait with me for a moment?",
+          "Could you walk with me for a moment?"
+        ]
+      },
+      "imagine": {
+        "en": "Imagine asking someone you trust to stay near you.",
+        "zh": "想想紧张时，你会怎样请求信任的人陪伴。"
+      },
+      "writePrompt": {
+        "en": "When did you want a little company today?",
+        "zh": "今天什么时候你希望有人陪一会儿？"
+      }
+    },
+    {
+      "id": "sad",
+      "word": {
+        "en": "Sad",
+        "zh": "悲伤的",
+        "feelingEn": "Sad",
+        "feelingZh": "悲伤的"
+      },
+      "sentence": {
+        "en": "I miss my friend who moved away.",
+        "zh": "我很想念搬走的朋友。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "friend",
+        "alternatives": [
+          "I miss my cousin who moved away.",
+          "I miss my neighbor who moved away.",
+          "I miss my aunt who moved away."
+        ]
+      },
+      "imagine": {
+        "en": "Think of somebody you miss, without needing to change the feeling.",
+        "zh": "想想你想念的人，不必急着改变自己的感受。"
+      },
+      "writePrompt": {
+        "en": "Who did you think about today?",
+        "zh": "今天你想到了谁？"
+      }
+    },
+    {
+      "id": "affection",
+      "word": {
+        "en": "Affection",
+        "zh": "爱意",
+        "feelingEn": "affectionate",
+        "feelingZh": "充满爱意"
+      },
+      "sentence": {
+        "en": "I care about you.",
+        "zh": "我很在乎你。"
+      },
+      "sayIndex": 1,
+      "change": {
+        "word": "you",
+        "alternatives": [
+          "I care about him.",
+          "I care about her.",
+          "I care about them."
+        ]
+      },
+      "imagine": {
+        "en": "Imagine saying something kind to a person you care about.",
+        "zh": "想想向在乎的人表达一句温柔的话。"
+      },
+      "writePrompt": {
+        "en": "What kind thing could you tell someone today?",
+        "zh": "今天你想对在乎的人说什么贴心的话？"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "version": 1,
+  "classification": "needs_unmet",
+  "reviewStatus": "draft-proposal-not-human-approved",
+  "records": [
+    {
+      "id": "agitated",
+      "compareWith": "restless",
+      "takeaway": {
+        "en": "Restless means finding it hard to settle; agitated usually includes feeling upset.",
+        "zh": "坐不住不一定烦心；焦躁不安通常还带着难受或心烦。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "alarmed",
+      "compareWith": "worried",
+      "takeaway": {
+        "en": "Worry can build slowly; alarm is a sudden reaction when something seems wrong or unsafe.",
+        "zh": "担心可以慢慢产生；惊恐常是在察觉危险时突然出现。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "aloof",
+      "compareWith": "loneliness",
+      "takeaway": {
+        "en": "Aloof describes keeping distance; lonely describes wanting company but feeling alone.",
+        "zh": "疏远是与别人保持距离；孤单是想有人陪却觉得没有。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "angry",
+      "compareWith": "irritated",
+      "takeaway": {
+        "en": "Anger can follow unfairness or hurt; irritation often follows smaller repeated annoyances.",
+        "zh": "生气可能因为不公平或受伤害；烦躁常来自反复的小麻烦。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "anxious",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Both involve uncertainty; anxious often means worries keep returning to your thoughts.",
+        "zh": "两者都可能因为不确定；焦虑更常是担心的念头反复出现。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "apathetic",
+      "compareWith": "indifferent",
+      "takeaway": {
+        "en": "Indifferent means not caring much about a choice; apathetic may mean little interest in many usual activities.",
+        "zh": "无所谓可能只针对一个选择；冷淡无兴趣可能影响平时许多事情。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "apprehensive",
+      "compareWith": "worried",
+      "takeaway": {
+        "en": "Both concern what may go wrong; apprehensive often includes hesitation about something approaching.",
+        "zh": "两者都担心未知结果；忧虑还常带着对即将发生之事的犹豫。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "ashamed",
+      "compareWith": "embarrassed",
+      "takeaway": {
+        "en": "Embarrassment can come from awkward attention; shame often involves believing you did something wrong.",
+        "zh": "尴尬可能只是被注意到；羞愧更常和觉得自己做错了事有关。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "beat",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired means needing rest; beat is a much stronger, informal way to say you have little energy left.",
+        "zh": "累是需要休息；累坏了表示已经几乎没劲儿，是更口语的说法。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "bewildered",
+      "compareWith": "confused",
+      "takeaway": {
+        "en": "Confusion means not understanding; bewilderment adds surprise and not knowing what to do next.",
+        "zh": "困惑是没弄明白；茫然不知所措还可能因为事情来得太突然。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "bitter",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Both can follow hurt; bitter often suggests the hurt has stayed with you for a long time.",
+        "zh": "两者都可能来自受伤的经历；苦涩怨恨常表示心里的结更难放下。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "blue",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Blue is an informal way to say you feel a little low; sad is the ordinary, broader feeling word.",
+        "zh": "blue 在这里是口语的心情低落，不是颜色；sad 则是常用的悲伤词。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "bored",
+      "compareWith": "dull",
+      "takeaway": {
+        "en": "Bored describes how you feel; dull often describes the activity that fails to interest you.",
+        "zh": "无聊是人的感受；乏味更多是在描述活动本身。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "brokenhearted",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Both are sadness; brokenhearted usually follows a particularly painful loss.",
+        "zh": "两者都可能很难过；心碎常意味着失去了非常珍贵的人或事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "chagrined",
+      "compareWith": "embarrassed",
+      "takeaway": {
+        "en": "Chagrin mixes disappointment and embarrassment after a setback; embarrassment can happen without a failed attempt.",
+        "zh": "懊恼常把失望和尴尬混在一起；尴尬不一定因为努力失败。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "cold",
+      "compareWith": "warm",
+      "takeaway": {
+        "en": "Here cold describes distant behavior, not body temperature; warm can mean temperature or kindness.",
+        "zh": "这里的冷淡说的是待人的态度，不是身体冷；温暖也可以说身体或亲近。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "concerned-unmet",
+      "compareWith": "concerned-met",
+      "takeaway": {
+        "en": "Concern can mean worry that something is wrong, or caring enough to check whether someone needs help.",
+        "zh": "关心有时是担忧出问题，有时是主动询问别人需不需要帮助。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "confused",
+      "compareWith": "puzzled",
+      "takeaway": {
+        "en": "Confused is broad uncertainty; puzzled often means you are trying to figure out a specific answer.",
+        "zh": "困惑是没弄清楚；疑惑常是正努力找出某个答案。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "cross",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Cross is a common British way to say annoyed or angry, often about something small.",
+        "zh": "cross 是英式英语里常见的生气说法，常用于一些小事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "dejected",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Both feel low after setbacks; dejected stresses the sadness, while discouraged stresses less willingness to try.",
+        "zh": "两者都可能在受挫后出现；沮丧更难过，气馁更不想继续试。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "despairing",
+      "compareWith": "hopeful",
+      "takeaway": {
+        "en": "Hope means a good outcome still seems possible; despair means it feels hard to imagine things improving.",
+        "zh": "有希望是仍觉得可能变好；绝望是此刻很难看见转机。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "despondent",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Discouraged means less ready to try; despondent adds deeper sadness and low hope.",
+        "zh": "气馁是继续尝试的劲头小了；消沉还多了深深的难过和无望。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "detached",
+      "compareWith": "aloof",
+      "takeaway": {
+        "en": "Detached describes an inner feeling of distance; aloof describes keeping other people at a distance.",
+        "zh": "疏离可能是心里和周围隔了一层；不愿参与更强调对人的距离。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disaffected",
+      "compareWith": "disappointed",
+      "takeaway": {
+        "en": "Disappointed means a hope did not work out; disaffected means you have begun to lose interest or trust after feeling let down.",
+        "zh": "失望是期待没能实现；失去认同是失望后慢慢不再想参与或相信。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disappointed",
+      "compareWith": "frustration",
+      "takeaway": {
+        "en": "Disappointment follows a hope not working out; frustration centers on trying but being blocked.",
+        "zh": "失望来自没能如愿；挫败更强调反复努力却被难题挡住。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "discouraged",
+      "compareWith": "frustration",
+      "takeaway": {
+        "en": "Frustration happens while effort is blocked; discouragement is losing confidence about trying again.",
+        "zh": "挫败强调试着做却不顺利；气馁是因此对继续尝试没了信心。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disenchanted",
+      "compareWith": "enchanted",
+      "takeaway": {
+        "en": "Enchanted feels almost magical; disenchanted follows learning something disappointing about what you once admired.",
+        "zh": "被迷住是觉得美好得像魔法；幻灭是后来发现事实不如想象。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disgruntled",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Disgruntled means unhappy with how something was handled; resentful means that unfair feeling may stay with you for longer.",
+        "zh": "不满是觉得事情处理得不好；心怀怨气则可能是觉得受了委屈，过了很久也放不下。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disgusted",
+      "compareWith": "repelled",
+      "takeaway": {
+        "en": "Both want distance from something unpleasant; disgusted highlights the strong feeling of revulsion.",
+        "zh": "两者都可能想躲开讨厌的事；厌恶更强调心里强烈的反感。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disheartened",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Both lose courage after difficulty; disheartened often sounds like hope itself has dimmed.",
+        "zh": "两者都因困难而泄气；灰心还像是心里的希望变暗了一点。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "dismayed",
+      "compareWith": "alarmed",
+      "takeaway": {
+        "en": "Both may come from bad news; alarm emphasizes danger, dismay adds disappointment or discouragement.",
+        "zh": "两者都可能因坏消息而来；惊恐突出危险，沮丧惊慌还可能带着失望。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "displeased",
+      "compareWith": "disappointed",
+      "takeaway": {
+        "en": "Displeased means not satisfied with something; disappointed means you had hoped for better.",
+        "zh": "不满意是觉得结果不好；失望还多了一份原本的期待。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disquieted",
+      "compareWith": "uneasy",
+      "takeaway": {
+        "en": "Both can feel unsettled; disquieted especially suggests something troubling has disturbed your peace.",
+        "zh": "两者都可能不安；心绪不宁往往是有件烦心事打乱了平静。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "distressed",
+      "compareWith": "upset",
+      "takeaway": {
+        "en": "Upset covers many unhappy reactions; distressed emphasizes stronger worry or hurt.",
+        "zh": "心烦可以有很多原因；痛苦不安更突出难受程度很深。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "disturbed",
+      "compareWith": "troubled",
+      "takeaway": {
+        "en": "Both involve unease; disturbed emphasizes something upsetting your peace, troubled means a problem stays on your mind.",
+        "zh": "两者都让人烦心；被扰乱强调平静被打破，困扰强调问题总放不下。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "downcast",
+      "compareWith": "downhearted",
+      "takeaway": {
+        "en": "Both suggest low mood; downcast can describe what you look like, while downhearted emphasizes less hope.",
+        "zh": "两者都可能心情低落；垂头丧气也能形容表情，灰心更突出希望变少。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "downhearted",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Both follow hard moments; downhearted emphasizes sadness, discouraged emphasizes difficulty wanting to continue.",
+        "zh": "两者都可能在遇到困难后出现；低落更难过，气馁更难提起劲继续。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "dull",
+      "compareWith": "bored",
+      "takeaway": {
+        "en": "A dull activity may seem uninteresting; bored is how the person feels while doing it.",
+        "zh": "乏味常形容活动没有趣味；无聊则是做这件事的人感到没意思。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "edgy",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous means tense or worried; edgy adds that small things may irritate you easily.",
+        "zh": "紧张是心里绷着；烦躁紧张还可能变得容易被小事惹恼。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "embarrassed",
+      "compareWith": "ashamed",
+      "takeaway": {
+        "en": "Embarrassment can follow awkward attention; shame usually carries concern about having done wrong.",
+        "zh": "尴尬可能来自出糗；羞愧更多与觉得自己做错事有关。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "embittered",
+      "compareWith": "bitter",
+      "takeaway": {
+        "en": "Both suggest hurt that lingers; embittered often describes how long experiences have shaped your mood.",
+        "zh": "两者都带着积攒的委屈；怨愤更突出经历逐渐改变了心态。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "exasperated",
+      "compareWith": "irritated",
+      "takeaway": {
+        "en": "Irritation may be mild; exasperation happens when repeated problems make patience run out.",
+        "zh": "烦躁可以只是小小不快；不胜其烦是反复出问题让人忍不住了。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "exhausted",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Both involve tiredness; exhausted is much stronger and leaves very little energy.",
+        "zh": "两者都累；精疲力竭更严重，几乎没力气了。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "fatigued",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired is everyday language; fatigued may describe ongoing physical or mental tiredness.",
+        "zh": "tired 是日常说累；fatigued 也可形容持续的身体或精神疲劳。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "fearful",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Both are about fear; fearful may describe an ongoing sense of danger, scared can be more immediate.",
+        "zh": "两者都表示害怕；fearful 有时更持续，scared 可以是眼前突然害怕。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "fidgety",
+      "compareWith": "restless",
+      "takeaway": {
+        "en": "Both make it hard to stay still; fidgety emphasizes little movements such as tapping or shifting.",
+        "zh": "两者都坐不住；fidgety 更突出抖腿、动手指之类的小动作。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "forlorn",
+      "compareWith": "loneliness",
+      "takeaway": {
+        "en": "Loneliness is wanting company; forlorn adds sadness and a sense that hope is fading.",
+        "zh": "孤单是想有人陪；孤苦无依还多了难过和一点无望。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "frightened",
+      "compareWith": "startled",
+      "takeaway": {
+        "en": "Startled can be a brief jump from surprise; frightened means you actually feel scared.",
+        "zh": "吓一跳可能只是一瞬间；受到惊吓则是心里真的害怕了。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "furious",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Anger can be mild or strong; furious means the anger feels extremely intense.",
+        "zh": "生气有轻有重；愤怒至极表示特别强烈的怒气。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "gloomy",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sadness may have a clear cause; gloomy often describes a longer low mood or dark outlook.",
+        "zh": "悲伤可能因具体事情而来；阴郁有时是持续低落、不太看好未来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "harried",
+      "compareWith": "overwhelmed-unmet",
+      "takeaway": {
+        "en": "Harried means rushed by many demands; overwhelmed means the demands or feelings seem too much to manage.",
+        "zh": "忙乱是事情一件接一件催着你；不堪重负是觉得多到应付不过来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "heavy",
+      "compareWith": "troubled",
+      "takeaway": {
+        "en": "Troubled means a problem keeps bothering you; heavy describes how emotionally burdened you feel.",
+        "zh": "困扰是问题一直在心里转；沉重强调那份负担压在心上的感觉。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "helpless",
+      "compareWith": "discouraged",
+      "takeaway": {
+        "en": "Discouraged means less willing to try; helpless means believing you cannot change what is happening.",
+        "zh": "气馁是没有劲再试；无助是觉得自己无法改变眼前的困难。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "hesitant",
+      "compareWith": "reluctant",
+      "takeaway": {
+        "en": "Hesitant means unsure whether to act; reluctant means you do not really want to act.",
+        "zh": "犹豫是拿不定主意；勉强是不太想做。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "horrible",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Horrible usually describes an experience as awful; scared describes the fear a person feels.",
+        "zh": "horrible 通常形容经历很糟糕；害怕说的是人的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "horrified",
+      "compareWith": "terrified",
+      "takeaway": {
+        "en": "Both include strong fear; horrified adds shock at something dreadful, terrified stresses fear itself.",
+        "zh": "两者都很害怕；惊骇还带着看到可怕事情的震惊。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "hostile",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Angry names a feeling; hostile describes treating another person in an unfriendly way.",
+        "zh": "生气是心里的情绪；敌对是对别人表现出不友好的态度。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "humdrum",
+      "compareWith": "bored",
+      "takeaway": {
+        "en": "Humdrum describes repetitive routines; boredom is how those routines may make someone feel.",
+        "zh": "单调常形容天天重复的事情；无聊才是人在其中的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "hurt",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Hurt can mean physical pain or emotional injury; sad describes a low feeling.",
+        "zh": "受伤可以是身体疼也可以是心被伤到；悲伤指的是难过的感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "impatient",
+      "compareWith": "eager",
+      "takeaway": {
+        "en": "Eager wants something to begin; impatient adds annoyance about how long the wait takes.",
+        "zh": "渴望是想快点开始；不耐烦还多了等待太久的烦躁。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "indifferent",
+      "compareWith": "unconcerned",
+      "takeaway": {
+        "en": "Indifferent means not caring much about an outcome; unconcerned means not seeing a reason to worry.",
+        "zh": "无所谓是不太在意结果；不担心是觉得没必要为这事发愁。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "intense-unmet",
+      "compareWith": "upset",
+      "takeaway": {
+        "en": "Intense describes the strength of a feeling; upset is one of many particular feelings it can describe.",
+        "zh": "强烈说的是感受的程度；心烦只是可能出现的一种具体感受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "irate",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Both mean anger; irate usually sounds stronger and more openly upset.",
+        "zh": "两者都生气；irate 往往语气更重、怒意更明显。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "irked",
+      "compareWith": "irritated",
+      "takeaway": {
+        "en": "Both involve annoyance; irked is often a smaller reaction to one bothersome thing.",
+        "zh": "两者都觉得烦；irked 常是被一件小事惹得有点不快。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "irritated",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Irritation often follows small repeated nuisances; anger can have deeper reasons.",
+        "zh": "烦躁常被反复的小事引起；生气也可能因严重的伤害或不公平。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "jealous",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Jealousy may fear losing attention or envy what someone has; resentment follows feeling unfairly treated.",
+        "zh": "嫉妒可能因为想得到关注或拥有的东西；怨气常因为觉得自己被不公平对待。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "jittery",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous is the feeling of tension; jittery emphasizes the physical shakiness that may come with it.",
+        "zh": "紧张是心里发慌；jittery 还强调身体发抖、坐立不安。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "leery",
+      "compareWith": "skeptical",
+      "takeaway": {
+        "en": "Leery means being cautious about safety or trust; skeptical means wanting evidence before believing a claim.",
+        "zh": "警惕是担心安不安全或靠不靠谱；怀疑则是想先看到证据。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "lethargic",
+      "compareWith": "sleepy",
+      "takeaway": {
+        "en": "Sleepy means wanting sleep; lethargic describes low energy even when sleepiness is not the whole reason.",
+        "zh": "困倦是想睡觉；没精神也可能是没力气，不只是困。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "listless",
+      "compareWith": "bored",
+      "takeaway": {
+        "en": "Bored means needing something interesting; listless also means lacking the energy to engage.",
+        "zh": "无聊是找不到有意思的事；无精打采还包含没力气做事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "miserable",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sad is broad; miserable means feeling particularly unhappy or uncomfortable.",
+        "zh": "难过有轻有重；痛苦不堪强调特别难受。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "mopey",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sad names a feeling; mopey describes acting quiet and uninterested while low.",
+        "zh": "悲伤是心情；闷闷不乐也常形容不想讲话、玩耍的样子。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "morose",
+      "compareWith": "gloomy",
+      "takeaway": {
+        "en": "Both sound gloomy; morose adds a reluctance to talk or smile.",
+        "zh": "两者都显得低落；郁郁寡欢还常表现为不想说笑。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "mournful",
+      "compareWith": "sorrowful",
+      "takeaway": {
+        "en": "Both mean deep sadness; mournful especially suggests grief or missing someone who is gone.",
+        "zh": "两者都很难过；哀伤常带着对已经离去的人或事的怀念。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "nervous",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Nervous is often tension before a particular event; anxiety can keep worries circulating longer.",
+        "zh": "紧张常因眼前某件事；焦虑可能让担心在心里转个不停。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "nettled",
+      "compareWith": "irked",
+      "takeaway": {
+        "en": "Both can follow a bothersome comment; nettled often means someone's words pricked at you.",
+        "zh": "两者都可能是被小事惹恼；nettled 常是别人一句话让人不舒服。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "overwhelmed-unmet",
+      "compareWith": "harried",
+      "takeaway": {
+        "en": "Harried means being rushed from task to task; overwhelmed means it all feels too much to handle.",
+        "zh": "忙乱是被许多事追着跑；不堪重负是觉得已经应付不过来了。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "panicky",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Scared means feeling afraid; panicky adds a sudden rush of fear that makes calm thinking hard.",
+        "zh": "害怕是心里恐惧；恐慌还会一下子慌得很难冷静想办法。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "passive",
+      "compareWith": "reluctant",
+      "takeaway": {
+        "en": "Passive describes letting others decide; reluctant means you personally do not want to act.",
+        "zh": "不主动是让别人领头的行为方式；勉强是心里不情愿。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "perplexed",
+      "compareWith": "puzzled",
+      "takeaway": {
+        "en": "Both mean puzzlement; perplexed often emphasizes a more difficult or tangled question.",
+        "zh": "两者都迷惑；困惑不解常表示问题更复杂、更难理清。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "pessimistic",
+      "compareWith": "optimistic",
+      "takeaway": {
+        "en": "Optimism often expects good outcomes; pessimism often expects setbacks. Both are attitudes, not certainties.",
+        "zh": "乐观和悲观都是看待未来的倾向，不代表结果一定会这样。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "puzzled",
+      "compareWith": "confused",
+      "takeaway": {
+        "en": "Puzzled means trying to solve a particular question; confused can mean generally not understanding.",
+        "zh": "疑惑是正在琢磨某个答案；困惑也可能是不知道整件事什么意思。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "rancorous",
+      "compareWith": "resentful",
+      "takeaway": {
+        "en": "Resentful means an old hurt still bothers you; rancorous means that angry feeling has grown strong and lasted a long time.",
+        "zh": "心怀不满是旧日的委屈还在心里；怨恨很深则是这种怒气更强，持续得更久。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "reluctant",
+      "compareWith": "hesitant",
+      "takeaway": {
+        "en": "Reluctant means you would rather not do it; hesitant means you are not sure whether to do it.",
+        "zh": "不情愿是心里不想做；犹豫是还拿不定主意。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "repelled",
+      "compareWith": "disgusted",
+      "takeaway": {
+        "en": "Both mean strongly put off; repelled emphasizes wanting to move away from what feels unpleasant.",
+        "zh": "两者都强烈反感；排斥更突出想离远一点的反应。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "resentful",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Anger can pass quickly; resentment may linger after you feel unfairly treated.",
+        "zh": "生气可能很快过去；不满怨气可能因为委屈而留在心里。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "restless",
+      "compareWith": "fidgety",
+      "takeaway": {
+        "en": "Restless is the urge to move; fidgety describes the repeated small movements you make.",
+        "zh": "坐立不安是想动；小动作不断则是手脚真的不停动。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sad",
+      "compareWith": "sorrowful",
+      "takeaway": {
+        "en": "Sadness covers many moments; sorrowful usually implies deeper sadness, often over an important loss.",
+        "zh": "难过可以有很多程度；悲痛常因为重要的失去而更深。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "scared",
+      "compareWith": "fearful",
+      "takeaway": {
+        "en": "Both mean afraid; scared can be immediate, while fearful may describe fear that lasts longer.",
+        "zh": "两者都害怕；scared 可以是一时的，fearful 有时更持续。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sensitive-unmet",
+      "compareWith": "hurt",
+      "takeaway": {
+        "en": "Being sensitive means words may affect you strongly; feeling hurt means something has already caused pain. Sensitivity is not a flaw.",
+        "zh": "敏感是有些话容易触动你；受伤是已经感觉难过或疼痛。敏感并不是缺点。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "shaky",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Shaky describes a physical tremble; nervous describes a feeling, which may or may not make you shake.",
+        "zh": "发抖是身体反应；紧张是心情，不是每次紧张都会抖。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "shocked",
+      "compareWith": "startled",
+      "takeaway": {
+        "en": "Both follow surprises; startled is often brief, while shocked can leave a much stronger impression.",
+        "zh": "两者都因意外而出现；吓一跳可能很短，震惊往往更深。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "skeptical",
+      "compareWith": "trusting",
+      "takeaway": {
+        "en": "Trusting means expecting honesty; skeptical means waiting for reasons or evidence before believing.",
+        "zh": "信任是觉得对方可靠；怀疑是想先找到理由或证据。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sleepy",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Sleepy means wanting sleep; tired can mean low energy after doing many things.",
+        "zh": "困是想睡；累也可能是做了许多事后没力气。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sorrowful",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Sad can be mild; sorrowful usually describes deeper grief, often about a loss.",
+        "zh": "难过有轻重；悲伤更深时常与失去重要的东西有关。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "sorry",
+      "compareWith": "ashamed",
+      "takeaway": {
+        "en": "Sorry may mean regretting something and apologizing; ashamed means feeling painful self-judgment.",
+        "zh": "抱歉可以是后悔并道歉；羞愧则更带着对自己的难受评价。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "spiritless",
+      "compareWith": "energetic",
+      "takeaway": {
+        "en": "Energetic means ready to act; spiritless means having little enthusiasm or energy.",
+        "zh": "精力充沛是有劲儿想做事；没精神是提不起劲来。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "startled",
+      "compareWith": "frightened",
+      "takeaway": {
+        "en": "Startled is a sudden jump at surprise; frightened means you feel scared after it.",
+        "zh": "吓一跳是突然一惊；害怕是随后心里真的发怵。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "surprised-unmet",
+      "compareWith": "surprised-met",
+      "takeaway": {
+        "en": "Both are unexpected; one surprise may be welcome, while the other is unsettling.",
+        "zh": "两者都出乎意料；一个可能是惊喜，另一个可能令人不安。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "tepid",
+      "compareWith": "enthusiastic",
+      "takeaway": {
+        "en": "Tepid often describes a lukewarm reaction; enthusiastic shows strong positive interest.",
+        "zh": "tepid 常说反应不太热烈；有热情则是积极、兴致很高。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "terrified",
+      "compareWith": "scared",
+      "takeaway": {
+        "en": "Scared is fear in general; terrified describes fear at a much more intense level.",
+        "zh": "害怕有不同程度；恐惧至极表示特别强烈的害怕。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "tired",
+      "compareWith": "sleepy",
+      "takeaway": {
+        "en": "Tired is low energy; sleepy specifically means wanting to fall asleep.",
+        "zh": "累是没力气；困是身体想睡觉。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "troubled",
+      "compareWith": "worried",
+      "takeaway": {
+        "en": "Worried often looks toward what might go wrong; troubled may be a problem already weighing on you.",
+        "zh": "担心可能想着未来会不会出错；困扰可能是眼前的问题一直放不下。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "uncomfortable",
+      "compareWith": "comfortable",
+      "takeaway": {
+        "en": "Comfortable means at ease; uncomfortable means something feels physically or socially wrong, not always sad.",
+        "zh": "舒服是自在；不舒服可能是身体或处境不自在，不一定难过。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "unconcerned",
+      "compareWith": "indifferent",
+      "takeaway": {
+        "en": "Unconcerned means not worrying about a problem; indifferent means not caring much which way something goes.",
+        "zh": "不担心是觉得问题不严重；无所谓是对结果不太在意。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "uneasy",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Uneasy is a vague sense something may be wrong; anxious often means repeated worries about what may happen.",
+        "zh": "不安可能说不清哪里不对；焦虑常是担心未来的念头反复出现。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "unglued",
+      "compareWith": "upset",
+      "takeaway": {
+        "en": "Upset is a broad word for a hard feeling; unglued is an informal way to say it feels especially difficult to stay calm for a moment.",
+        "zh": "心烦是广泛的难受感受；unglued 是口语里说某一刻特别难冷静，不是给一个人贴标签。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "unhappy",
+      "compareWith": "sad",
+      "takeaway": {
+        "en": "Unhappy is a broad lack of cheer; sad more clearly names the feeling of sorrow.",
+        "zh": "不快乐只是没有开心；悲伤更明确地指难过。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "unnerved",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous can come before an event; unnerved means something has already shaken your confidence.",
+        "zh": "紧张可以是事情发生前；心神不定常是经历了惊扰之后。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "unsteady",
+      "compareWith": "shaky",
+      "takeaway": {
+        "en": "Unsteady can mean poor balance; shaky means visibly trembling. Neither alone tells you someone's emotion.",
+        "zh": "站不稳可能是平衡不好；发抖是身体在颤动，都不能单凭它们判断情绪。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "upset",
+      "compareWith": "angry",
+      "takeaway": {
+        "en": "Upset is a broad word for feeling troubled; anger is one particular response to unfairness or hurt.",
+        "zh": "心烦难过可以有很多种；生气只是其中一种，常与受伤或不公平有关。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "uptight",
+      "compareWith": "nervous",
+      "takeaway": {
+        "en": "Nervous is tension; uptight often means staying tense while trying hard to control things.",
+        "zh": "紧张是心里绷着；拘谨紧绷还可能因为太想把每件事都控制好。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "vexed",
+      "compareWith": "frustration",
+      "takeaway": {
+        "en": "Vexed means bothered by a tricky problem; frustration emphasizes effort that keeps getting blocked.",
+        "zh": "烦恼是难题总困扰你；挫败强调努力了却一再不顺利。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "weary",
+      "compareWith": "tired",
+      "takeaway": {
+        "en": "Tired means needing rest; weary can mean tired after a long effort or difficult stretch.",
+        "zh": "累是需要休息；疲惫常带着长时间努力后的消耗。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "wistful",
+      "compareWith": "loneliness",
+      "takeaway": {
+        "en": "Loneliness is wanting company; wistful sadness can come from missing a past moment or wish.",
+        "zh": "孤单是想有人陪；惆怅还可能是怀念过去或想要一件暂时得不到的事。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "withdrawn",
+      "compareWith": "aloof",
+      "takeaway": {
+        "en": "A withdrawn child may pull back because something feels hard; someone who seems aloof may simply want more space. We cannot tell why just by looking.",
+        "zh": "不想交流的孩子有时正遇到难事；看起来疏远的人也可能只是需要自己的空间。不能只看外表就判断原因。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "woeful",
+      "compareWith": "sorrowful",
+      "takeaway": {
+        "en": "Both can mean deep sadness; woeful also often describes a visibly miserable look.",
+        "zh": "两者都很悲伤；woeful 也常用来形容看起来特别难过。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "worried",
+      "compareWith": "anxious",
+      "takeaway": {
+        "en": "Worried often focuses on one feared outcome; anxious may mean wider or repeated unease.",
+        "zh": "担心可能集中在一件事；焦虑则可能是反复、更广泛的不安。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "wretched",
+      "compareWith": "miserable",
+      "takeaway": {
+        "en": "Both express strong unhappiness; wretched may also describe feeling physically unwell.",
+        "zh": "两者都表示特别难受；wretched 还可能表示身体不舒服。"
+      },
+      "reviewer": null
+    }
+  ]
+}

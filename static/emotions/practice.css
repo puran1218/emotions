@@ -1,0 +1,53 @@
+
+.daily-page{min-height:100vh;max-width:1000px;margin:auto;padding:18px clamp(12px,3vw,28px) 38px;color:var(--ink)}
+.daily-header{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:62px;margin-bottom:20px}
+.daily-logo{text-decoration:none;color:#205D43;font-family:var(--playful);font-weight:850;font-size:30px;letter-spacing:-.04em}
+.daily-logo span{color:#E3A431}
+.daily-return{display:inline-flex;align-items:center;min-height:44px;border-radius:14px;background:#EFF5ED;color:#276C51;text-decoration:none;padding:9px 13px;font-size:13px;font-weight:750}
+.daily-card{border-radius:25px;padding:clamp(18px,4vw,36px);background:#FFFEFA;border:1px solid #E9E9DD;box-shadow:0 8px 28px rgba(40,64,50,.045)}
+.daily-top{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
+.daily-eyebrow{color:#768E79;font-size:12px;letter-spacing:.1em;font-weight:850;margin:0 0 8px}
+.daily-title{font-family:var(--playful);font-size:clamp(31px,4.7vw,50px);color:#20583F;line-height:1.2;margin:0}
+.daily-subtitle{color:#6E8376;font-size:14px;line-height:1.6;margin:9px 0 0}
+.daily-date{font-size:12px;color:#779082;white-space:nowrap;padding:8px 12px;border-radius:10px;background:#EFF5EB}
+.daily-sentence{background:#FDF7E7;border:1px solid #F3E8CD;border-radius:20px;padding:24px;margin:19px 0 18px}
+.daily-sentence h2{font-family:var(--reading-en);font-size:clamp(25px,4vw,36px);font-weight:750;line-height:1.42;color:#394D40;margin:0}
+.daily-translation{color:#738079;font-size:15px;margin:13px 0 0;line-height:1.65}
+.daily-progress{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin:18px 0}
+.daily-progress span{display:block;border-radius:12px;background:#EFF1E9;text-align:center;padding:12px 2px 11px;font-size:12px;color:#87918A;font-weight:720}
+.daily-progress span[data-current="true"]{color:#205D43;background:#DDEAD9;box-shadow:inset 0 0 0 2px #97BD9A}
+.daily-work{padding:20px;border-radius:20px;background:#F5F8F2;border:1px solid #E8F0E4}
+.daily-minute{font-family:var(--playful);color:#2F674F;font-size:23px;line-height:1.3;margin:0 0 9px}
+.daily-prompt{font-size:15px;line-height:1.7;color:#52685B;margin:0 0 15px}
+.daily-hint{color:#789083;font-size:13px;line-height:1.65;margin:9px 0}
+.daily-subtle{color:#7E907F;font-size:12px;line-height:1.6}
+.daily-speak,.daily-action{display:inline-flex;gap:9px;align-items:center;justify-content:center;min-height:46px;border:0;border-radius:13px;background:#276E52;color:#fff;padding:10px 18px;font-weight:760;cursor:pointer}
+.daily-action.secondary,.daily-speak.secondary{border:1px solid #C4D9C6;background:#FFFDF8;color:#2B7055}
+.daily-action:disabled{opacity:.5;cursor:not-allowed}
+.daily-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}
+.daily-counter{display:inline-block;color:#416D50;font-weight:760;margin:12px 0}
+.daily-variants{display:grid;grid-template-columns:1fr;gap:9px;margin:10px 0}
+.daily-variant{padding:13px 16px;border-radius:12px;border:1px solid #DFE8DC;background:#FFFDF8;min-height:48px;text-align:left;color:#295941;font:600 15px/1.5 var(--reading-en);cursor:pointer}
+.daily-variant:focus-visible,.daily-action:focus-visible,.daily-speak:focus-visible{outline:3px solid #7DAE88;outline-offset:2px}
+.daily-field{display:block;font-weight:750;font-size:14px;color:#2F5C48;margin:16px 0 8px}
+.daily-textarea{display:block;width:100%;min-height:124px;border:1px solid #C9DCCF;border-radius:14px;background:#FFFEFA;padding:13px 14px;font-family:var(--reading-en);font-size:16px;line-height:1.55;color:#284534;resize:vertical}
+.daily-textarea:focus{outline:3px solid #CDE5D3;outline-offset:2px}
+.daily-foot{padding:17px 3px 2px;color:#829083;font-size:12px;line-height:1.7}
+.daily-nav{display:flex;justify-content:space-between;gap:9px;margin-top:18px;align-items:center}
+.daily-nav .daily-action{min-width:125px}
+.daily-error{background:#FFF3EA;border-radius:15px;padding:24px;line-height:1.6;color:#8A553D}
+.daily-loading{color:#789282;text-align:center;padding:30px}
+@media(max-width:600px){
+.daily-header{margin-bottom:10px}
+.daily-logo{font-size:26px}
+.daily-return{padding:9px 10px}
+.daily-return span{font-size:11px}
+.daily-top{display:block}
+.daily-date{display:inline-block;margin-top:12px}
+.daily-card{padding:17px 15px}
+.daily-sentence{padding:17px;margin-top:14px}
+.daily-sentence h2{font-size:26px}
+.daily-work{padding:16px 14px}
+.daily-progress span{font-size:10px;padding:10px 1px}
+.daily-nav .daily-action{flex:1;min-width:0;padding:9px 7px}
+}

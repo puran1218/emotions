@@ -5,7 +5,7 @@
   const surface='#FFFEFA', ink='#293C3B', muted='#65716E', green='#31665F', rule='#DFE5DB';
   function path(e){const src=e.illustration?.src||'./images/feeling-placeholder.svg';return new URL(src,document.baseURI).href;}
   const placeholder=new URL('./images/feeling-placeholder.svg',document.baseURI).href;
-  function key(e,lang){return e.id+':'+lang+':'+path(e);}
+  function key(e,lang,insight){return e.id+':'+lang+':full-v2:'+path(e)+':'+(insight?.id||'none');}
   function imgFrom(src){
     return new Promise((resolve,reject)=>{
       const image=new Image();
@@ -60,12 +60,57 @@
     ctx.font=font(lang,size,bold);
     return wrap(ctx,value,width,lang).length*height;
   }
-  function estimatedHeight(ctx,e,lang){
+  function extraSections(ctx,e,lang,insight,target,related,y){
+    const other=lang==='zh'?'en':'zh';
+    const first=insight?.first||{label:e.word,description:e.definition};
+    const second=insight?.second||(target?{label:target.word,description:target.definition}:null);
+    if(insight&&second){
+      const question=insight.question||{
+        en:'How are '+first.label.en+' and '+second.label.en+' different?',
+        zh:first.label.zh+'和'+second.label.zh+'，有什么不同？'
+      };
+      y+=22;
+      y=heading(ctx,lang==='zh'?'再理解一点':'A LITTLE CLOSER',84,y);
+      y=multiline(ctx,question[lang],84,y,1032,32,46,lang,ink,true)+9;
+      y=multiline(ctx,question[other],84,y,1032,27,42,other,muted)+16;
+      for(const card of [first,second]){
+        const h=24+lineHeight(ctx,card.label[lang],980,30,43,lang,true)+
+          lineHeight(ctx,card.label[other],980,23,35,other)+14+
+          lineHeight(ctx,card.description[lang],980,29,45,lang)+10+
+          lineHeight(ctx,card.description[other],980,25,40,other)+24;
+        rounded(ctx,84,y,1032,h,21,'#F9F6EE','#E8E6D7');
+        let rowY=y+24;
+        rowY=multiline(ctx,card.label[lang],108,rowY,980,30,43,lang,green,true);
+        rowY=multiline(ctx,card.label[other],108,rowY,980,23,35,other,muted)+14;
+        rowY=multiline(ctx,card.description[lang],108,rowY,980,29,45,lang)+10;
+        multiline(ctx,card.description[other],108,rowY,980,25,40,other,muted);
+        y+=h+13;
+      }
+      const take=insight.takeaway;
+      const takeHeight=28+lineHeight(ctx,take[lang],980,29,47,lang,true)+12+
+        lineHeight(ctx,take[other],980,25,40,other)+23;
+      rounded(ctx,84,y,1032,takeHeight,19,'#F3F0E3');
+      let ty=multiline(ctx,take[lang],108,y+28,980,29,47,lang,ink,true)+12;
+      multiline(ctx,take[other],108,ty,980,25,40,other,muted);
+      y+=takeHeight+16;
+    }
+    if(Array.isArray(related)&&related.length){
+      y+=15;
+      y=heading(ctx,lang==='zh'?'相关感受':'RELATED FEELINGS',84,y);
+      for(const item of related){
+        y=multiline(ctx,item.word[lang]+' · '+item.word[other],84,y,1032,27,39,lang,green)+6;
+      }
+    }
+    return y;
+  }
+  function estimatedHeight(ctx,e,lang,insight,target,related){
     const other=lang==='zh'?'en':'zh';
     let y=87+lineHeight(ctx,'emolex  ✳',1030,39,48,'en',true)+61;
     y+=lineHeight(ctx,lang==='zh'?'一种感受 · ONE FEELING':'ONE FEELING · 一种感受',1020,25,34,'en',true)+28;
     y+=lineHeight(ctx,e.word[lang],865,78,97,lang,true)+8;
-    y+=lineHeight(ctx,e.word[other],950,43,57,other)+24+620+34;
+    y+=lineHeight(ctx,e.word[other],950,43,57,other)+24;
+    const feelingForms=lang==='zh'?e.word.feelingZh+' · '+e.word.feelingEn:e.word.feelingEn+' · '+e.word.feelingZh;
+    y+=lineHeight(ctx,feelingForms,1032,25,36,lang)+12+620+34;
     y+=lineHeight(ctx,lang==='zh'?'认识这种感受':'A moment to understand',1040,24,34,lang)+45;
     const titleHeight=(title)=>4+lineHeight(ctx,title,985,28,38,'en',true)+18;
     y+=titleHeight(lang==='zh'?'这是一种怎样的感受？':'WHAT DOES IT MEAN?');
@@ -75,21 +120,22 @@
     y+=lineHeight(ctx,e.scene[lang],1032,37,58,lang)+9;
     y+=lineHeight(ctx,e.scene[other],1032,32,53,other)+34+34;
     y+=titleHeight(lang==='zh'?'你可以这样说……':'YOU CAN SAY...');
-    for(const example of (Array.isArray(e.say)?e.say:[e.say]).slice(0,2)){
+    for(const example of (Array.isArray(e.say)?e.say:[e.say])){
       y+=20+lineHeight(ctx,'“'+example[lang]+'”',970,32,50,lang,true)+7+
         lineHeight(ctx,'“'+example[other]+'”',970,28,44,other)+22+16;
     }
+    y=extraSections(ctx,e,lang,insight,target,related,y);
     y+=14+26;
     return Math.max(1200,Math.ceil(y+77));
   }
-  async function render(e,lang){
+  async function render(e,lang,insight,target,related){
     // Measure first, then paint directly onto an exact-size canvas. No 3170px
     // cropping cap: long bilingual descriptions must not lose the footer.
     const canvas=document.createElement('canvas');
     canvas.width=1200;canvas.height=1;
     let c=canvas.getContext('2d',{alpha:false});
     if(!c)throw Error('Canvas is unavailable');
-    const finalHeight=estimatedHeight(c,e,lang);
+    const finalHeight=estimatedHeight(c,e,lang,insight,target,related);
     canvas.height=finalHeight;
     c=canvas.getContext('2d',{alpha:false});
     if(!c)throw Error('Canvas is unavailable');
@@ -103,6 +149,8 @@
     const h=lang==='zh'?[e.word.zh,e.word.en]:[e.word.en,e.word.zh];
     y=multiline(c,h[0],84,y,865,78,97,lang,ink,true)+8;
     y=multiline(c,h[1],84,y,950,43,57,lang==='zh'?'en':'zh',muted,false)+24;
+    const feelingForms=lang==='zh'?e.word.feelingZh+' · '+e.word.feelingEn:e.word.feelingEn+' · '+e.word.feelingZh;
+    y=multiline(c,feelingForms,84,y,1032,25,36,lang,green)+12;
     c.font='74px "Apple Color Emoji","Segoe UI Emoji",sans-serif';c.fillText(e.emoji||'',1017,192);
     const imageY=y; rounded(c,84,imageY,1032,620,26,'#F0EBE0');
     let image;
@@ -125,7 +173,7 @@
     y=multiline(c,e.scene[lang==='zh'?'en':'zh'],84,y,1032,32,53,lang==='zh'?'en':'zh',muted)+34;
     c.strokeStyle=rule;c.beginPath();c.moveTo(84,y);c.lineTo(1116,y);c.stroke();y+=34;
     y=heading(c,lang==='zh'?'你可以这样说……':'YOU CAN SAY...',84,y);
-    const examples=(Array.isArray(e.say)?e.say:[e.say]).slice(0,2);
+    const examples=(Array.isArray(e.say)?e.say:[e.say]);
     const otherLang=lang==='zh'?'en':'zh';
     for(const example of examples){
       const primary='“'+example[lang]+'”',secondary='“'+example[otherLang]+'”';
@@ -142,6 +190,7 @@
       multiline(c,secondary,111,lineY,970,28,44,otherLang,muted);
       y=top+boxHeight+16;
     }
+    y=extraSections(c,e,lang,insight,target,related,y);
     y+=14;
     c.strokeStyle=rule;c.beginPath();c.moveTo(84,y);c.lineTo(1116,y);c.stroke();y+=26;
     multiline(c,'EmoLex · '+new URL(location.href).host,84,y,1030,25,34,'en',muted);
@@ -150,10 +199,10 @@
     const blob=await new Promise((resolve,reject)=>canvas.toBlob(v=>v?resolve(v):reject(new Error('PNG encoding failed')),'image/png'));
     return new File([blob], 'emolex-'+e.id+'-'+lang+'.png',{type:'image/png'});
   }
-  function prepare(e,lang){
-    const k=key(e,lang);
+  function prepare(e,lang,insight,target,related){
+    const k=key(e,lang,insight);
     if(!pending.has(k)){
-      const p=render(e,lang).catch(err=>{pending.delete(k);throw err;});
+      const p=render(e,lang,insight,target,related).catch(err=>{pending.delete(k);throw err;});
       pending.set(k,p);
       // A dictionary browsing session can touch hundreds of words. Bound the
       // retained PNG promises/files so image sharing does not grow without limit.

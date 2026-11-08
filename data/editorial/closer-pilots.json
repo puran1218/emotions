@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "status": "experimental-not-human-approved",
+  "enabledBy": "?closer=1",
+  "methodSources": [
+    "https://github.com/lijigang/write-prompt/blob/main/claude-prompt-知识卡片.org",
+    "https://github.com/lijigang/write-prompt/blob/main/claude-prompt-汉语新解.org",
+    "https://github.com/lijigang/write-prompt/blob/main/claude-prompt-so-what.org",
+    "https://github.com/lijigang/write-prompt/blob/main/claude-prompt-信达雅翻译.org"
+  ],
+  "pilotIds": [
+    "joy",
+    "frustration",
+    "loneliness",
+    "affection",
+    "relief"
+  ],
+  "comparisons": [
+    {
+      "id": "joy",
+      "kind": "emotion-vs-emotion",
+      "compareWith": "relief",
+      "question": {
+        "en": "Joy or relief — what's different?",
+        "zh": "喜悦和如释重负，哪里不一样？"
+      },
+      "first": {
+        "label": {
+          "en": "Joy",
+          "zh": "喜悦"
+        },
+        "description": {
+          "en": "Something you hoped for happens, and you feel happy.",
+          "zh": "期待的好事发生了，你心里很开心。"
+        }
+      },
+      "second": {
+        "label": {
+          "en": "Relief",
+          "zh": "如释重负"
+        },
+        "description": {
+          "en": "Something you were worried about turns out okay, and you can relax.",
+          "zh": "之前担心的事没问题了，你终于能松一口气。"
+        }
+      },
+      "takeaway": {
+        "en": "You might feel both when a worry ends with good news.",
+        "zh": "担心的事有了好结果时，你也可能既开心，又松一口气。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "frustration",
+      "kind": "emotion-vs-emotion",
+      "compareWith": "disappointed",
+      "question": {
+        "en": "Frustration or disappointment?",
+        "zh": "挫败和失望，有什么不同？"
+      },
+      "first": {
+        "label": {
+          "en": "Frustration",
+          "zh": "挫败感"
+        },
+        "description": {
+          "en": "You keep trying, but something still will not work.",
+          "zh": "你努力试了好多次，可事情还是不顺利。"
+        }
+      },
+      "second": {
+        "label": {
+          "en": "Disappointment",
+          "zh": "失望"
+        },
+        "description": {
+          "en": "You hoped something would happen, but the result was not what you wished for.",
+          "zh": "你原本很期待，可结果没能如愿。"
+        }
+      },
+      "takeaway": {
+        "en": "When a carefully rebuilt tower falls again, you might feel both.",
+        "zh": "辛苦搭好的积木塔又倒了，你也可能同时觉得挫败和失望。"
+      },
+      "reviewer": null
+    },
+    {
+      "id": "loneliness",
+      "kind": "feeling-vs-situation",
+      "compareWith": null,
+      "question": {
+        "en": "Lonely or just spending time alone?",
+        "zh": "孤单和一个人待着，是一回事吗？"
+      },
+      "first": {
+        "label": {
+          "en": "Loneliness",
+          "zh": "孤独感"
+        },
+        "description": {
+          "en": "You want someone with you, but you feel alone.",
+          "zh": "你希望有人陪伴，却觉得身边没有人陪你。"
+        }
+      },
+      "second": {
+        "label": {
+          "en": "Being alone",
+          "zh": "一个人待着"
+        },
+        "description": {
+          "en": "You can spend a quiet moment by yourself and feel comfortable.",
+          "zh": "你也可以自己安静地待一会儿，感觉很自在。"
+        }
+      },
+      "takeaway": {
+        "en": "Being alone is a situation; loneliness is a feeling. One does not always mean the other.",
+        "zh": "一个人待着是一种情况，孤单是一种感受。两者并不总是同时出现。"
+      },
+      "reviewer": null
+    }
+  ],
+  "qualityReview": {
+    "knowledgeCard": "Keep Definition accurate and Scenario grounded in one concrete everyday moment; do not add explanatory sections just to imitate a card.",
+    "chineseReframing": "Only gentle, nonjudgmental metaphors may become optional future editorial suggestions; no satire or stereotype in a children's dictionary.",
+    "soWhat": "Keep three speakable examples with different purposes, including optional help-seeking rather than prescribed emotion management.",
+    "translation": "Check semantic faithfulness, child-natural spoken expression, and concise warmth independently for English and Chinese."
+  }
+}
