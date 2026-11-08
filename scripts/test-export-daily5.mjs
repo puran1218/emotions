@@ -168,7 +168,7 @@ assert.ok(downloads.some(x=>x.startsWith('emolex-daily5-')&&x.endsWith('-lonelin
 await click('another');
 assert.ok(rendered.innerHTML.includes('I care about you.'),'Affection remains one of the original curated lessons');
 await click('another');
-assert.ok(rendered.innerHTML.includes("I'm so glad my book isn't lost."),'Relief remains curated');
+assert.ok(rendered.innerHTML.includes('my book isn&#39;t lost.'),'Relief remains curated and HTML-escaped');
 await click('another');
 assert.ok(rendered.innerHTML.includes('Can I finish this part first?'),'The next dictionary entry uses an authentic canonical phrase');
 assert.ok(rendered.innerHTML.includes('Guided from dictionary examples'),'Non-curated lessons are explicitly labeled');
@@ -185,7 +185,7 @@ await click('use-variant',{variantIndex:'0'});
 assert.ok(rendered.innerHTML.includes('I was so focused that I forgot the time.'),'Guided sentence can start learner writing');
 handlers.input({target:{id:'daily-change-draft',value:'I was so focused on my painting that I forgot the time.'}});
 await click('change-group',{groupIndex:'1'});
-assert.ok(rendered.innerHTML.includes("I'm completely absorbed in my drawing."),'Guided second category uses another real example');
+assert.ok(rendered.innerHTML.includes('completely absorbed in my drawing.'),'Guided second category uses another real example');
 await click('speak-draft');
 assert.ok(speech.includes('I was so focused on my painting that I forgot the time.'),'Learners can listen to their own edited English');
 await click('go',{step:'3'});
