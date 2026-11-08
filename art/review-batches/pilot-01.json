@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "batchId": "pilot-01",
+  "status": "five-candidates-review-required-not-uploaded",
+  "assetBundleName": "EmoLex-Illustration-Batch-01-Review.zip",
+  "imageFormat": "WebP",
+  "dimensions": {
+    "width": 960,
+    "height": 640
+  },
+  "model": "mei-overalls-v1",
+  "source": "Previously generated and style-reviewed illustration prototypes, stored separately from GitHub until final individual acceptance",
+  "instruction": "Use the ZIP to review; after explicit acceptance stage via batch.json and art:stage. This repository JSON is an editorial review record, not a substitute for images or an approval.",
+  "entries": [
+    {
+      "id": "joy",
+      "file": "images/joy-v01.webp",
+      "sha256": "ffd108c3eb8f930ba8cc15b179b33f55e83114a0b0804aca8879d0b5a3beca5e",
+      "bytes": 93794,
+      "canonicalScenario": {
+        "en": "You see the first flower on the sunflower you planted.",
+        "zh": "你看到自己种的向日葵开出了第一朵花。"
+      },
+      "altDraft": {
+        "en": "Mei crouches in front of the first bright yellow blossom on her potted sunflower, smiling with delight; a watering can sits nearby.",
+        "zh": "梅蹲在盆栽向日葵的第一朵黄花前，欣喜地看着花朵，旁边放着浇水壶。"
+      },
+      "review": {
+        "styleDirection": "owner-selected",
+        "semantic": "pending",
+        "characterConsistency": "pending",
+        "thumbnail": "pending",
+        "handsAndAnatomy": "pending",
+        "shareImage": "pending",
+        "finalApproval": false
+      }
+    },
+    {
+      "id": "frustration",
+      "file": "images/frustration-v01.webp",
+      "sha256": "103baa8f5a0b518555d1c6c2178e0df67f3b67c2af57268c48d602640f00f0d8",
+      "bytes": 82880,
+      "canonicalScenario": {
+        "en": "Your block tower falls again after you carefully rebuild it.",
+        "zh": "你小心地重新搭好积木塔，可它又倒了。"
+      },
+      "altDraft": {
+        "en": "Mei kneels by a toppled colorful block tower with a concerned frown, reaching toward the scattered pieces.",
+        "zh": "梅跪在倒下的彩色积木旁，皱着眉头，伸手想去扶起散落的积木。"
+      },
+      "review": {
+        "styleDirection": "owner-selected",
+        "semantic": "pending",
+        "characterConsistency": "pending",
+        "thumbnail": "pending",
+        "handsAndAnatomy": "pending",
+        "shareImage": "pending",
+        "finalApproval": false
+      }
+    },
+    {
+      "id": "loneliness",
+      "file": "images/loneliness-v01.webp",
+      "sha256": "e36af8b87c03e07c931e43637aef551685f73a39f9c3f6386aa620eb5707980b",
+      "bytes": 91488,
+      "canonicalScenario": {
+        "en": "You sit on a bench and watch other children play. You wish you could join them.",
+        "zh": "你坐在长椅上看别的孩子玩，也很想加入他们。"
+      },
+      "altDraft": {
+        "en": "Mei sits on a park bench with her chin in her hands, looking toward children playing together farther away.",
+        "zh": "梅独自坐在公园长椅上，托着下巴望向远处一起玩耍的孩子们。"
+      },
+      "review": {
+        "styleDirection": "owner-selected",
+        "semantic": "pending",
+        "characterConsistency": "pending",
+        "thumbnail": "pending",
+        "handsAndAnatomy": "pending",
+        "shareImage": "pending",
+        "finalApproval": false
+      }
+    },
+    {
+      "id": "affection",
+      "file": "images/affection-v01.webp",
+      "sha256": "69d6d8e08c18aa5ebc577f15fe51c9d4d3141790cf745869a5aca44ea5bbf419",
+      "bytes": 83852,
+      "canonicalScenario": {
+        "en": "Your dog comes close for a cuddle, and you gently hold it.",
+        "zh": "小狗主动靠过来撒娇，你轻轻地抱住它。"
+      },
+      "altDraft": {
+        "en": "Mei gently cuddles a relaxed golden dog that leans toward her with a happy, open-mouthed expression.",
+        "zh": "梅轻轻抱着一只主动靠近她的金毛犬，小狗放松地依偎着她，露出愉快的神情。"
+      },
+      "review": {
+        "styleDirection": "owner-selected",
+        "semantic": "pending",
+        "characterConsistency": "pending",
+        "thumbnail": "pending",
+        "handsAndAnatomy": "pending",
+        "shareImage": "pending",
+        "finalApproval": false
+      }
+    },
+    {
+      "id": "relief",
+      "file": "images/relief-v01.webp",
+      "sha256": "9e0a5af9913ccb62f6cc5a4242acacae11c217d501f42044e942b6299b024ee6",
+      "bytes": 85750,
+      "canonicalScenario": {
+        "en": "You open your schoolbag and find the book you thought was lost.",
+        "zh": "你打开书包，发现原来以为丢了的书就在里面。"
+      },
+      "altDraft": {
+        "en": "Mei opens a purple schoolbag and smiles softly at the green book she thought she had lost.",
+        "zh": "梅打开紫色书包，看见原以为弄丢的绿皮书就在里面，露出轻松的微笑。"
+      },
+      "review": {
+        "styleDirection": "owner-selected",
+        "semantic": "pending",
+        "characterConsistency": "pending",
+        "thumbnail": "pending",
+        "handsAndAnatomy": "pending",
+        "shareImage": "pending",
+        "finalApproval": false
+      }
+    }
+  ]
+}
