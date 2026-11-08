@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "curated-practice-proposals-not-human-approved",
-  "description": "14 real EmoLex YOU CAN SAY sentences. A replacement changes exactly one word, never generated freeform.",
+  "description": "14 source-matched EmoLex sentences; guided English transformations by word, speaker, event, place or time, plus bilingual everyday imagination situations.",
   "items": [
     {
       "id": "curious",
@@ -12,6 +12,34 @@
           "bird",
           "butterfly",
           "frog"
+        ],
+        "label": {
+          "en": "Change the creature",
+          "zh": "换一种小动物"
+        },
+        "extraGroups": [
+          {
+            "id": "who",
+            "label": {
+              "en": "Who's asking?",
+              "zh": "换谁来提问"
+            },
+            "examples": [
+              "We wonder where this unusual insect lives.",
+              "My sister wonders where this unusual insect lives."
+            ]
+          },
+          {
+            "id": "question",
+            "label": {
+              "en": "Ask a new question",
+              "zh": "换一个好奇的问题"
+            },
+            "examples": [
+              "I wonder what this unusual insect eats.",
+              "I wonder how this unusual insect moves."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -22,7 +50,42 @@
         "en": "What did you notice today that made you curious?",
         "zh": "今天你看到什么，觉得好奇？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "Outside",
+            "zh": "在户外"
+          },
+          "prompt": {
+            "en": "You spot a tiny creature in the park. What would you like to find out?",
+            "zh": "在公园看到小动物时，你想知道什么？"
+          },
+          "example": "I wonder where this little bird sleeps."
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "You find a strange object at home. What question comes to mind?",
+            "zh": "在家看见一件不熟悉的东西，你会问什么？"
+          },
+          "example": "I wonder how this old clock works."
+        },
+        {
+          "label": {
+            "en": "With a friend",
+            "zh": "和朋友"
+          },
+          "prompt": {
+            "en": "Your friend notices something surprising. What could you ask together?",
+            "zh": "朋友发现新鲜事，你们会一起问什么？"
+          },
+          "example": "We wonder why these flowers are closing."
+        }
+      ]
     },
     {
       "id": "loneliness",
@@ -33,6 +96,34 @@
           "walk",
           "run",
           "study"
+        ],
+        "label": {
+          "en": "Change the activity",
+          "zh": "换一项活动"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Choose someone",
+              "zh": "换一位陪伴的人"
+            },
+            "examples": [
+              "I wish my brother could play with me.",
+              "I wish my friend could play with me."
+            ]
+          },
+          {
+            "id": "time",
+            "label": {
+              "en": "Add a time",
+              "zh": "加上时间"
+            },
+            "examples": [
+              "I wish someone could play with me after school.",
+              "I wish someone could play with me this weekend."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -43,7 +134,42 @@
         "en": "What could you say to invite someone to join you?",
         "zh": "你今天想邀请谁陪你做什么？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "After school",
+            "zh": "放学后"
+          },
+          "prompt": {
+            "en": "You want to spend time with a classmate. What could you say?",
+            "zh": "放学后想和同学待一会儿，你会怎么说？"
+          },
+          "example": "I wish my friend could walk with me."
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "You would like someone in your family to play with you.",
+            "zh": "在家想找家人一起玩，你会怎么说？"
+          },
+          "example": "I wish my sister could play with me."
+        },
+        {
+          "label": {
+            "en": "This weekend",
+            "zh": "这个周末"
+          },
+          "prompt": {
+            "en": "You would enjoy some company outdoors.",
+            "zh": "周末希望有人陪你到户外活动。"
+          },
+          "example": "I wish someone could run with me this weekend."
+        }
+      ]
     },
     {
       "id": "frustration",
@@ -54,6 +180,34 @@
           "cook",
           "draw",
           "read"
+        ],
+        "label": {
+          "en": "Change the activity",
+          "zh": "换一件要做的事"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Ask someone else",
+              "zh": "换个求助对象"
+            },
+            "examples": [
+              "Can Dad help me try again?",
+              "Can my teacher help me try again?"
+            ]
+          },
+          {
+            "id": "task",
+            "label": {
+              "en": "Name the task",
+              "zh": "说清楚遇到的困难"
+            },
+            "examples": [
+              "Can you help me solve this puzzle?",
+              "Can you help me build this tower?"
+            ]
+          }
         ]
       },
       "imagine": {
@@ -64,7 +218,42 @@
         "en": "What could you ask someone to help you do?",
         "zh": "你今天可以请求别人帮你做什么？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "At school",
+            "zh": "在学校"
+          },
+          "prompt": {
+            "en": "A problem is hard to solve. How would you ask for help?",
+            "zh": "学校里一道题很难，你会怎么求助？"
+          },
+          "example": "Can you help me solve this problem?"
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "A model keeps falling over. What could you say?",
+            "zh": "模型总是倒下来，你会怎么说？"
+          },
+          "example": "Can you help me build this tower?"
+        },
+        {
+          "label": {
+            "en": "Doing a hobby",
+            "zh": "练习爱好"
+          },
+          "prompt": {
+            "en": "Something you're learning doesn't work yet. Who could help?",
+            "zh": "练习新爱好时总不成功，你想找谁帮忙？"
+          },
+          "example": "Can my friend help me try again?"
+        }
+      ]
     },
     {
       "id": "relief",
@@ -75,6 +264,34 @@
           "bag",
           "wallet",
           "jacket"
+        ],
+        "label": {
+          "en": "Change the object",
+          "zh": "换一件物品"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Change who's glad",
+              "zh": "换个感到放心的人"
+            },
+            "examples": [
+              "We're so glad our book isn't lost.",
+              "My brother is so glad his book isn't lost."
+            ]
+          },
+          {
+            "id": "outcome",
+            "label": {
+              "en": "Describe a good outcome",
+              "zh": "换一种好结果"
+            },
+            "examples": [
+              "I'm so glad my book is safe.",
+              "I'm so glad I found my book."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -85,7 +302,42 @@
         "en": "What were you glad to find today?",
         "zh": "今天有什么事情让你松了口气？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "You find something you thought was missing.",
+            "zh": "在家找回一件以为丢了的东西。"
+          },
+          "example": "I'm so glad I found my bag."
+        },
+        {
+          "label": {
+            "en": "At school",
+            "zh": "在学校"
+          },
+          "prompt": {
+            "en": "You check that an important notebook is safe.",
+            "zh": "确认重要的笔记本还好好地在书包里。"
+          },
+          "example": "I'm so glad my notebook isn't lost."
+        },
+        {
+          "label": {
+            "en": "With family",
+            "zh": "和家人"
+          },
+          "prompt": {
+            "en": "Your family finds a missing item. What might you say together?",
+            "zh": "家人一起找到丢失的东西，你们会怎么说？"
+          },
+          "example": "We're so glad our keys aren't lost."
+        }
+      ]
     },
     {
       "id": "joy",
@@ -96,6 +348,34 @@
           "rose",
           "tulip",
           "daisy"
+        ],
+        "label": {
+          "en": "Change the flower",
+          "zh": "换一种花"
+        },
+        "extraGroups": [
+          {
+            "id": "owner",
+            "label": {
+              "en": "Change whose plant",
+              "zh": "换谁种的花"
+            },
+            "examples": [
+              "Look! Our sunflower finally bloomed!",
+              "Look! Your sunflower finally bloomed!"
+            ]
+          },
+          {
+            "id": "time",
+            "label": {
+              "en": "Change when it happened",
+              "zh": "换开花的时间"
+            },
+            "examples": [
+              "Look! My sunflower bloomed this morning!",
+              "Look! My sunflower bloomed today!"
+            ]
+          }
         ]
       },
       "imagine": {
@@ -106,7 +386,42 @@
         "en": "What made you happy enough to say 'Look!'?",
         "zh": "今天什么事情让你开心得想说“快看”？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "In the garden",
+            "zh": "在花园"
+          },
+          "prompt": {
+            "en": "A flower you cared for finally opens.",
+            "zh": "你细心照顾的花终于开了。"
+          },
+          "example": "Look! My rose finally bloomed!"
+        },
+        {
+          "label": {
+            "en": "At school",
+            "zh": "在学校"
+          },
+          "prompt": {
+            "en": "Your class project finally works.",
+            "zh": "班级的小作品终于成功了。"
+          },
+          "example": "Look! Our project finally worked!"
+        },
+        {
+          "label": {
+            "en": "With family",
+            "zh": "和家人"
+          },
+          "prompt": {
+            "en": "You notice a small good surprise at home.",
+            "zh": "在家发现一个小小的好消息。"
+          },
+          "example": "Look! Our sunflower bloomed today!"
+        }
+      ]
     },
     {
       "id": "proud",
@@ -117,6 +432,34 @@
           "drew",
           "built",
           "wrote"
+        ],
+        "label": {
+          "en": "Change the action",
+          "zh": "换一种创作动作"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Change the speaker",
+              "zh": "换谁来展示作品"
+            },
+            "examples": [
+              "Can we show you what we made?",
+              "Can my friend show you what she made?"
+            ]
+          },
+          {
+            "id": "creation",
+            "label": {
+              "en": "Name your creation",
+              "zh": "具体说出作品"
+            },
+            "examples": [
+              "Can I show you the picture I drew?",
+              "Can I show you the robot I built?"
+            ]
+          }
         ]
       },
       "imagine": {
@@ -127,7 +470,42 @@
         "en": "What did you finish or make today?",
         "zh": "今天你完成或做出了什么？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "You finish something you made by yourself.",
+            "zh": "自己完成了一个手工作品。"
+          },
+          "example": "Can I show you the robot I built?"
+        },
+        {
+          "label": {
+            "en": "At school",
+            "zh": "在学校"
+          },
+          "prompt": {
+            "en": "You want to share your drawing with a teacher.",
+            "zh": "想给老师看看自己画的画。"
+          },
+          "example": "Can I show you the picture I drew?"
+        },
+        {
+          "label": {
+            "en": "With friends",
+            "zh": "和朋友"
+          },
+          "prompt": {
+            "en": "You and a friend completed something together.",
+            "zh": "你和朋友一起做成了一件事。"
+          },
+          "example": "Can we show you what we made?"
+        }
+      ]
     },
     {
       "id": "worried",
@@ -138,6 +516,34 @@
           "list",
           "schedule",
           "map"
+        ],
+        "label": {
+          "en": "Change the thing",
+          "zh": "换一种计划"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Ask someone else",
+              "zh": "换个商量的人"
+            },
+            "examples": [
+              "Can Dad help me make a plan?",
+              "Can my friend help me make a plan?"
+            ]
+          },
+          {
+            "id": "task",
+            "label": {
+              "en": "Name what to plan",
+              "zh": "说清楚要计划什么"
+            },
+            "examples": [
+              "Can you help me plan my homework?",
+              "Can you help me plan our trip?"
+            ]
+          }
         ]
       },
       "imagine": {
@@ -148,7 +554,42 @@
         "en": "What would you like help planning?",
         "zh": "你今天有什么事情希望有人一起规划？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "Before school",
+            "zh": "上学前"
+          },
+          "prompt": {
+            "en": "You are unsure how to finish several tasks.",
+            "zh": "几项任务不知道怎样安排。"
+          },
+          "example": "Can you help me plan my homework?"
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "You want to get ready for a busy day.",
+            "zh": "明天很忙，想提前做好计划。"
+          },
+          "example": "Can you help me make a plan for tomorrow?"
+        },
+        {
+          "label": {
+            "en": "With a friend",
+            "zh": "和朋友"
+          },
+          "prompt": {
+            "en": "You need to decide how to work together.",
+            "zh": "和朋友合作时不知道怎样分工。"
+          },
+          "example": "Can my friend help me make a plan?"
+        }
+      ]
     },
     {
       "id": "calm",
@@ -159,6 +600,34 @@
           "read",
           "draw",
           "walk"
+        ],
+        "label": {
+          "en": "Change the activity",
+          "zh": "换一种安静活动"
+        },
+        "extraGroups": [
+          {
+            "id": "company",
+            "label": {
+              "en": "Change the company",
+              "zh": "换谁一起"
+            },
+            "examples": [
+              "Let's all sit quietly for a moment.",
+              "Let's sit quietly with Grandma for a moment."
+            ]
+          },
+          {
+            "id": "place",
+            "label": {
+              "en": "Change the place",
+              "zh": "换一个安静地点"
+            },
+            "examples": [
+              "Let's sit quietly in the garden for a moment.",
+              "Let's sit quietly by the window for a moment."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -169,7 +638,42 @@
         "en": "What quiet activity helped you feel calm today?",
         "zh": "今天哪件安静的小事让你放松？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "After school",
+            "zh": "放学后"
+          },
+          "prompt": {
+            "en": "You want a quiet break after a busy day.",
+            "zh": "忙完一天后想休息一下。"
+          },
+          "example": "Let's sit quietly by the window for a moment."
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "Someone in the family also wants to relax.",
+            "zh": "家里有人也想放松一下。"
+          },
+          "example": "Let's sit quietly with Grandma for a moment."
+        },
+        {
+          "label": {
+            "en": "Outside",
+            "zh": "在户外"
+          },
+          "prompt": {
+            "en": "You find a peaceful spot in a park.",
+            "zh": "公园里找到一个安静的地方。"
+          },
+          "example": "Let's sit quietly in the garden for a moment."
+        }
+      ]
     },
     {
       "id": "excited",
@@ -180,6 +684,34 @@
           "see",
           "use",
           "share"
+        ],
+        "label": {
+          "en": "Change the action",
+          "zh": "换一个期待的动作"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Change who's excited",
+              "zh": "换期待的人"
+            },
+            "examples": [
+              "We can hardly wait to open our gifts.",
+              "My sister can hardly wait to open her gift."
+            ]
+          },
+          {
+            "id": "time",
+            "label": {
+              "en": "Add when it happens",
+              "zh": "加上发生的时间"
+            },
+            "examples": [
+              "I can hardly wait to open my gift tomorrow.",
+              "I can hardly wait to open my gift after dinner."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -190,7 +722,42 @@
         "en": "What were you excited to do today?",
         "zh": "今天什么事情让你迫不及待？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "A birthday",
+            "zh": "过生日"
+          },
+          "prompt": {
+            "en": "There's a surprise you are looking forward to.",
+            "zh": "有一份惊喜让你很期待。"
+          },
+          "example": "I can hardly wait to open my gift!"
+        },
+        {
+          "label": {
+            "en": "A school trip",
+            "zh": "学校活动"
+          },
+          "prompt": {
+            "en": "You're looking forward to an upcoming trip.",
+            "zh": "学校活动快到了，你很期待。"
+          },
+          "example": "I can hardly wait to go on our trip."
+        },
+        {
+          "label": {
+            "en": "With family",
+            "zh": "和家人"
+          },
+          "prompt": {
+            "en": "Someone in your family is just as excited.",
+            "zh": "家里有人和你一样期待。"
+          },
+          "example": "We can hardly wait to open our gifts."
+        }
+      ]
     },
     {
       "id": "grateful",
@@ -201,6 +768,34 @@
           "teaching",
           "visiting",
           "calling"
+        ],
+        "label": {
+          "en": "Change the kind action",
+          "zh": "换一种帮助"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Thank them for helping someone",
+              "zh": "换帮助的对象"
+            },
+            "examples": [
+              "Thank you for helping us today.",
+              "Thank you for helping my sister today."
+            ]
+          },
+          {
+            "id": "time",
+            "label": {
+              "en": "Change the time",
+              "zh": "换帮助发生的时间"
+            },
+            "examples": [
+              "Thank you for helping me yesterday.",
+              "Thank you for helping me after school."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -211,7 +806,42 @@
         "en": "Who helped you today, and how would you thank them?",
         "zh": "今天谁帮助了你，你想怎么说谢谢？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "At school",
+            "zh": "在学校"
+          },
+          "prompt": {
+            "en": "A classmate explained a difficult question.",
+            "zh": "同学帮你讲明白一道难题。"
+          },
+          "example": "Thank you for teaching me today."
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "Someone helped you finish a task.",
+            "zh": "家里有人帮你完成了任务。"
+          },
+          "example": "Thank you for helping me after school."
+        },
+        {
+          "label": {
+            "en": "With friends",
+            "zh": "和朋友"
+          },
+          "prompt": {
+            "en": "Your friend made time to visit you.",
+            "zh": "朋友专门来看你。"
+          },
+          "example": "Thank you for visiting me today."
+        }
+      ]
     },
     {
       "id": "hopeful",
@@ -222,6 +852,34 @@
           "play",
           "meet",
           "run"
+        ],
+        "label": {
+          "en": "Change the activity",
+          "zh": "换一项明天的活动"
+        },
+        "extraGroups": [
+          {
+            "id": "time",
+            "label": {
+              "en": "Change when to try",
+              "zh": "换一个尝试的时间"
+            },
+            "examples": [
+              "Shall we try again next week?",
+              "Shall we try again on Saturday?"
+            ]
+          },
+          {
+            "id": "task",
+            "label": {
+              "en": "Name a new idea",
+              "zh": "换个想尝试的点子"
+            },
+            "examples": [
+              "Shall we plant seeds again tomorrow?",
+              "Shall we practice together tomorrow?"
+            ]
+          }
         ]
       },
       "imagine": {
@@ -232,7 +890,42 @@
         "en": "What would you like to try again tomorrow?",
         "zh": "明天你有什么想再尝试的事？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "After practice",
+            "zh": "练习之后"
+          },
+          "prompt": {
+            "en": "Something was hard today, but you can try later.",
+            "zh": "今天没有做好，但以后还能尝试。"
+          },
+          "example": "Shall we try again tomorrow?"
+        },
+        {
+          "label": {
+            "en": "With classmates",
+            "zh": "和同学"
+          },
+          "prompt": {
+            "en": "You want to practice something together.",
+            "zh": "想和同学一起继续练习。"
+          },
+          "example": "Shall we practice together tomorrow?"
+        },
+        {
+          "label": {
+            "en": "On the weekend",
+            "zh": "在周末"
+          },
+          "prompt": {
+            "en": "You want to revisit a fun activity.",
+            "zh": "周末想再去玩一项活动。"
+          },
+          "example": "Shall we try again on Saturday?"
+        }
+      ]
     },
     {
       "id": "nervous",
@@ -243,6 +936,34 @@
           "sit",
           "wait",
           "walk"
+        ],
+        "label": {
+          "en": "Change the action",
+          "zh": "换一种陪伴方式"
+        },
+        "extraGroups": [
+          {
+            "id": "person",
+            "label": {
+              "en": "Ask someone else",
+              "zh": "换个想求助的人"
+            },
+            "examples": [
+              "Could Mom stay with me for a moment?",
+              "Could my friend stay with me for a moment?"
+            ]
+          },
+          {
+            "id": "place",
+            "label": {
+              "en": "Change the place",
+              "zh": "换一个陪伴地点"
+            },
+            "examples": [
+              "Could you stay with me outside for a moment?",
+              "Could you stay with me near the door for a moment?"
+            ]
+          }
         ]
       },
       "imagine": {
@@ -253,7 +974,42 @@
         "en": "When did you want a little company today?",
         "zh": "今天什么时候你希望有人陪一会儿？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "Before a test",
+            "zh": "考试前"
+          },
+          "prompt": {
+            "en": "You would like a familiar person nearby.",
+            "zh": "考试前希望熟悉的人陪一会儿。"
+          },
+          "example": "Could my friend stay with me for a moment?"
+        },
+        {
+          "label": {
+            "en": "At an event",
+            "zh": "参加活动"
+          },
+          "prompt": {
+            "en": "You have arrived at a new place and feel nervous.",
+            "zh": "到了陌生的活动现场，有点紧张。"
+          },
+          "example": "Could you stay with me near the door for a moment?"
+        },
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "You want to talk to a trusted adult.",
+            "zh": "在家有点紧张，想找信任的大人聊聊。"
+          },
+          "example": "Could Mom stay with me for a moment?"
+        }
+      ]
     },
     {
       "id": "sad",
@@ -264,6 +1020,34 @@
           "cousin",
           "neighbor",
           "aunt"
+        ],
+        "label": {
+          "en": "Change the person",
+          "zh": "换一个想念的人"
+        },
+        "extraGroups": [
+          {
+            "id": "speaker",
+            "label": {
+              "en": "Change who's missing someone",
+              "zh": "换谁在想念"
+            },
+            "examples": [
+              "We miss our friend who moved away.",
+              "My sister misses her friend who moved away."
+            ]
+          },
+          {
+            "id": "time",
+            "label": {
+              "en": "Change when you miss them",
+              "zh": "加上时间或程度"
+            },
+            "examples": [
+              "I still miss my friend who moved away.",
+              "I sometimes miss my friend who moved away."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -274,7 +1058,42 @@
         "en": "Who did you think about today?",
         "zh": "今天你想到了谁？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "At school",
+            "zh": "在学校"
+          },
+          "prompt": {
+            "en": "A friend moved to another school.",
+            "zh": "朋友去了另一所学校。"
+          },
+          "example": "I miss my friend who moved away."
+        },
+        {
+          "label": {
+            "en": "With family",
+            "zh": "和家人"
+          },
+          "prompt": {
+            "en": "A relative lives far from you.",
+            "zh": "亲人住得很远，想起对方。"
+          },
+          "example": "I miss my cousin who lives far away."
+        },
+        {
+          "label": {
+            "en": "In the evening",
+            "zh": "在晚上"
+          },
+          "prompt": {
+            "en": "You remember a happy moment with a friend.",
+            "zh": "晚上想起和朋友一起玩的好时光。"
+          },
+          "example": "I sometimes miss my friend who moved away."
+        }
+      ]
     },
     {
       "id": "affection",
@@ -285,6 +1104,34 @@
           "him",
           "her",
           "them"
+        ],
+        "label": {
+          "en": "Change who you care about",
+          "zh": "换关心的对象"
+        },
+        "extraGroups": [
+          {
+            "id": "speaker",
+            "label": {
+              "en": "Change the speaker",
+              "zh": "换谁来表达关心"
+            },
+            "examples": [
+              "We care about you.",
+              "My family cares about you."
+            ]
+          },
+          {
+            "id": "strength",
+            "label": {
+              "en": "Change the emphasis",
+              "zh": "换一种表达语气"
+            },
+            "examples": [
+              "I really care about you.",
+              "I care about you very much."
+            ]
+          }
         ]
       },
       "imagine": {
@@ -295,7 +1142,42 @@
         "en": "What kind thing could you tell someone today?",
         "zh": "今天你想对在乎的人说什么贴心的话？"
       },
-      "reviewer": null
+      "reviewer": null,
+      "imagineIdeas": [
+        {
+          "label": {
+            "en": "At home",
+            "zh": "在家里"
+          },
+          "prompt": {
+            "en": "A family member has had a long day.",
+            "zh": "家人忙了一整天，你想表达关心。"
+          },
+          "example": "I care about you very much."
+        },
+        {
+          "label": {
+            "en": "With friends",
+            "zh": "和朋友"
+          },
+          "prompt": {
+            "en": "A friend is having a difficult day.",
+            "zh": "朋友今天遇到了难事。"
+          },
+          "example": "I really care about you."
+        },
+        {
+          "label": {
+            "en": "As a family",
+            "zh": "一家人"
+          },
+          "prompt": {
+            "en": "You want someone to know they matter to all of you.",
+            "zh": "你们全家都想告诉一个人：我们很在乎你。"
+          },
+          "example": "We care about you."
+        }
+      ]
     }
   ]
 }
