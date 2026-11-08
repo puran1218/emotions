@@ -14,8 +14,27 @@
 .daily-sentence h2{font-family:var(--reading-en);font-size:clamp(25px,4vw,36px);font-weight:750;line-height:1.42;color:#394D40;margin:0}
 .daily-translation{color:#738079;font-size:15px;margin:13px 0 0;line-height:1.65}
 .daily-progress{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin:18px 0}
-.daily-progress span{display:block;border-radius:12px;background:#EFF1E9;text-align:center;padding:12px 2px 11px;font-size:12px;color:#87918A;font-weight:720}
-.daily-progress span[data-current="true"]{color:#205D43;background:#DDEAD9;box-shadow:inset 0 0 0 2px #97BD9A}
+.daily-progress-step{display:flex;flex-direction:column;align-items:center;gap:3px;border:1px solid #E0E8DC;border-radius:12px;background:#EFF1E9;text-align:center;padding:10px 3px 9px;font-size:12px;color:#71867A;font-weight:720;cursor:pointer;min-height:57px}
+.daily-progress-step[aria-current="step"]{color:#205D43;background:#DDEAD9;border-color:#97BD9A;box-shadow:inset 0 0 0 1px #97BD9A}
+.daily-progress-step:hover{background:#E6F1E4}
+.daily-progress-step:focus-visible,.daily-change-tab:focus-visible,.daily-idea-try:focus-visible,.daily-idea-speak:focus-visible{outline:3px solid #7DAE88;outline-offset:3px}
+.daily-progress-number{font-size:17px;line-height:1;font-weight:850}
+.daily-progress-word{font-size:11px;line-height:1.3}
+.daily-change-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.daily-change-tab{min-height:47px;text-align:left;border-radius:12px;border:1px solid #CCDDCE;background:#FFFEFA;color:#316C52;padding:8px 12px;font-size:13px;font-weight:800;cursor:pointer}
+.daily-change-tab span{display:block;font-size:11px;font-weight:500;opacity:.8;margin-top:3px}
+.daily-change-tab[aria-pressed="true"]{background:#DDEADB;border-color:#86B08A;box-shadow:inset 0 0 0 1px #86B08A}
+.daily-ideas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0 19px}
+.daily-idea{min-width:0;display:flex;flex-direction:column;background:#FFFEFA;border:1px solid #DFE9DB;border-radius:15px;padding:13px}
+.daily-idea h3{font-size:16px;color:#2C654A;line-height:1.35;margin:0 0 10px}
+.daily-idea h3 span{display:block;font-size:12px;color:#709077;font-weight:520;margin-top:3px}
+.daily-idea p{margin:0 0 9px;font-size:13px;line-height:1.5;color:#465F4C}
+.daily-idea .daily-idea-zh{color:#78917C;font-size:12px}
+.daily-idea .daily-idea-example{padding:8px;background:#F8F6ED;border-radius:9px;color:#435B49;line-height:1.6;margin-top:auto}
+.daily-idea-actions{display:flex;flex-wrap:wrap;gap:6px}
+.daily-idea-try,.daily-idea-speak{min-height:44px;padding:7px 9px;border-radius:9px;border:1px solid #C3DBC4;background:#F3F9F0;color:#296249;font-size:11px;font-weight:750;cursor:pointer}
+.daily-idea-try{flex:1}
+.daily-idea-speak{white-space:nowrap}
 .daily-work{padding:20px;border-radius:20px;background:#F5F8F2;border:1px solid #E8F0E4}
 .daily-minute{font-family:var(--playful);color:#2F674F;font-size:23px;line-height:1.3;margin:0 0 9px}
 .daily-prompt{font-size:15px;line-height:1.7;color:#52685B;margin:0 0 15px}
@@ -48,6 +67,10 @@
 .daily-sentence{padding:17px;margin-top:14px}
 .daily-sentence h2{font-size:26px}
 .daily-work{padding:16px 14px}
-.daily-progress span{font-size:10px;padding:10px 1px}
+.daily-progress-step{min-height:54px;padding:9px 1px}
+.daily-progress-word{font-size:10px}
+.daily-progress-number{font-size:16px}
+.daily-ideas{grid-template-columns:1fr}
+.daily-change-tab{flex:1;min-width:calc(50% - 5px)}
 .daily-nav .daily-action{flex:1;min-width:0;padding:9px 7px}
 }
