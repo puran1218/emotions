@@ -1,74 +1,173 @@
 #!/usr/bin/env node
-// Stage a local WebP as an unapproved EmoLex art candidate, never auto-publish.
-// Usage: npm run art:stage -- --id curious --file /tmp/curious.webp --version 01
+import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {parseWebP} from './check-webp.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const read=relative=>JSON.parse(fs.readFileSync(path.join(root,relative),'utf8'));
+const manifestPath=path.join(root,'art/manifest.json');
+const outputDir=path.join(root,'static/emotions/images');
+const MAX_FILE=180*1024, MAX_TOTAL=30*1024*1024;
+
 export function argsOf(argv){
-  const o={};
+  const o={dryRun:false};
+  const switches=new Set(['--dry-run','--help','-h']);
+  const values=new Set(['--id','--file','--version','--batch','--map','--report']);
   for(let i=0;i<argv.length;i++){
     const v=argv[i];
-    if(v==='--help'||v==='-h')return {help:true};
-    if(!['--id','--file','--version'].includes(v)||!argv[i+1]||argv[i+1].startsWith('--'))throw Error('Unknown or missing option: '+v);
+    if(switches.has(v)){o[v==='--dry-run'?'dryRun':'help']=true;continue;}
+    if(!values.has(v)||!argv[i+1]||argv[i+1].startsWith('--'))throw Error('Missing or unknown argument: '+v);
     o[v.slice(2)]=argv[++i];
   }
-  if(!o.id||!o.file)throw Error('Required: --id <concept-id> --file <local.webp> [--version 01]');
-  if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(o.id))throw Error('Invalid concept id');
-  if(!/^[0-9]{2}$/.test(o.version??'01'))throw Error('--version must have two digits, e.g. 01');
-  return {...o,version:o.version||'01'};
+  if(o.help)return {help:true};
+  if(Boolean(o.batch)===Boolean(o.id))throw Error('Choose either --batch <folder> or --id <concept-id> --file <webp>');
+  if(o.batch){
+    if(o.file||o.version||o.id)throw Error('Do not mix --batch with single-file options');
+  }else if(!o.file||!o.id)throw Error('Single mode requires --id and --file');
+  if(o.map&&!o.batch)throw Error('--map can only accompany --batch');
+  if(o.id&&!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(o.id))throw Error('Invalid concept id');
+  if(o.version&&!/^\d{2}$/.test(o.version))throw Error('Version must be two digits');
+  return o;
 }
-export function plannedStage(args){
-  const pilots=read('data/concepts/pilot.json'),legacy=read('data/concepts/legacy-expanded.json');
-  const concept=[...pilots,...legacy].find(x=>x.id===args.id);
-  if(!concept)throw Error('Unknown canonical concept: '+args.id);
-  if(concept.status==='draft')throw Error('Concept withheld for meaning review: '+args.id);
-  if(concept.illustration.stage==='approved')throw Error('Already approved art; do not replace it through a staging command');
-  const filePath=path.resolve(args.file);
-  if(!fs.existsSync(filePath)||path.extname(filePath).toLowerCase()!=='.webp')throw Error('Source must be an existing .webp');
-  const buffer=fs.readFileSync(filePath),dimensions=parseWebP(buffer);
-  if(dimensions.height*3!==dimensions.width*2 || ![960,1200].includes(dimensions.width))throw Error('Expected 960x640 or 1200x800 WebP, 3:2');
-  if(buffer.length>180*1024)throw Error('WebP exceeds the 180KiB production budget');
-  const name=args.id+'-v'+args.version+'.webp';
-  const target=path.join(root,'static/emotions/images',name);
-  if(fs.existsSync(target))throw Error('Target already exists: '+target+'; use a new version instead');
+const saneId=id=>typeof id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id);
+const saneVersion=v=>typeof v==='string'&&/^\d{2}$/.test(v);
+const safeInside=(folder,name)=>{
+  if(typeof name!=='string'||!name||path.isAbsolute(name))throw Error('Batch file path must be relative to batch folder');
+  const file=path.resolve(folder,name);
+  if(!file.startsWith(path.resolve(folder)+path.sep))throw Error('Batch source escapes the selected folder: '+name);
+  if(!file.endsWith('.webp'))throw Error('Only .webp batch files are accepted: '+name);
+  const real=fs.realpathSync(file);
+  if(!real.startsWith(fs.realpathSync(folder)+path.sep))throw Error('Symlink source escapes batch folder: '+name);
+  return real;
+};
+const findWebps=(dir,prefix='')=>{
+  return fs.readdirSync(path.join(dir,prefix),{withFileTypes:true}).flatMap(ent=>{
+    const next=path.join(prefix,ent.name);
+    if(ent.isDirectory())return findWebps(dir,next);
+    if(ent.isFile()&&ent.name.endsWith('.webp'))return [next];
+    return [];
+  }).sort();
+};
+function sourceRows(options){
+  if(options.batch){
+    const folder=path.resolve(options.batch);
+    if(!fs.statSync(folder).isDirectory())throw Error('--batch must be an existing folder');
+    const mapping=options.map?JSON.parse(fs.readFileSync(path.resolve(options.map),'utf8')):null;
+    const entries=Array.isArray(mapping)?mapping:mapping?.entries;
+    if(options.map&&!Array.isArray(entries))throw Error('batch.json must be an array or {entries:[...]}');
+    const rows=options.map?entries:findWebps(folder).map(file=>{
+      const name=path.basename(file,'.webp');
+      const match=/^([a-z0-9]+(?:-[a-z0-9]+)*?)(?:-v(\d{2}))?$/.exec(name);
+      if(!match)throw Error('Cannot infer canonical ID from '+file+'; use --map');
+      return {id:match[1],file,version:match[2]||'01'};
+    });
+    if(!rows.length)throw Error('No artwork candidates found in batch');
+    if(options.map){
+      const found=findWebps(folder);
+      const described=new Set(rows.map(x=>x.file));
+      for(const file of found)if(!described.has(file))throw Error('Unmapped WebP candidate in batch: '+file);
+    }
+    return rows.map(r=>({...r,version:r.version||'01',source:safeInside(folder,r.file)}));
+  }
+  return [{id:options.id,version:options.version||'01',file:options.file,source:path.resolve(options.file)}];
+}
+
+export function planStage(options){
+  const rows=sourceRows(options);
+  const canonical=[...read('data/concepts/pilot.json'),...read('data/concepts/legacy-expanded.json')];
+  const dictionary=new Map(canonical.map(x=>[x.id,x]));
   const manifest=read('art/manifest.json');
-  const registered=manifest.assets.find(a=>a.concept_id===args.id);
-  if(registered?.approved||registered?.stage==='approved')throw Error('Approved art cannot be replaced through staging');
-  return {concept,buffer,target,name,dimensions,manifest,registered,releasePath:'static/emotions/images/'+name};
+  assert.ok(Array.isArray(manifest.assets));
+  const ids=new Set(),files=new Set(),candidates=[];
+  let totalExisting=0;
+  for(const file of fs.readdirSync(outputDir).filter(x=>x.endsWith('.webp'))){
+    totalExisting+=fs.statSync(path.join(outputDir,file)).size;
+  }
+  for(const row of rows){
+    if(!saneId(row.id))throw Error('Invalid canonical concept ID: '+row.id);
+    if(!saneVersion(row.version))throw Error('Invalid two-digit revision for '+row.id);
+    if(ids.has(row.id))throw Error('Duplicate concept in the same batch: '+row.id);
+    ids.add(row.id);
+    const concept=dictionary.get(row.id);
+    if(!concept)throw Error('Unknown canonical concept: '+row.id);
+    if(concept.status==='draft'||concept.status==='retired')throw Error('Withheld concept may not be staged: '+row.id);
+    if(concept.illustration?.stage==='approved')throw Error('Already-approved artwork cannot be replaced by staging: '+row.id);
+    const current=manifest.assets.find(x=>x.concept_id===row.id);
+    if(current?.stage==='approved'||current?.approved===true)throw Error('Approved manifest entry cannot be overwritten: '+row.id);
+    if(!fs.existsSync(row.source)||!row.source.endsWith('.webp'))throw Error('Missing source .webp for '+row.id);
+    const buffer=fs.readFileSync(row.source),dims=parseWebP(buffer);
+    if(buffer.length>MAX_FILE)throw Error(row.id+' exceeds 180KiB WebP hard limit');
+    if(![960,1200].includes(dims.width)||dims.height*3!==dims.width*2)throw Error(row.id+' must be 960x640 or 1200x800');
+    const filename=row.id+'-v'+row.version+'.webp';
+    const dest=path.join(outputDir,filename);
+    if(fs.existsSync(dest)||files.has(filename))throw Error('Image already exists: '+filename+'; use a new revision');
+    files.add(filename);
+    candidates.push({
+      id:row.id,version:row.version,source:row.source,dest,filename,bytes:buffer.length,
+      dims:{width:dims.width,height:dims.height},file:'static/emotions/images/'+filename,
+      canonicalScene:concept.scenario
+    });
+    totalExisting+=buffer.length;
+  }
+  if(totalExisting>MAX_TOTAL)throw Error('Batch would exceed the total 30MiB art budget');
+  return {candidates,manifest,bytesAfter:totalExisting};
 }
-export function stageCandidate(args){
-  const {concept,buffer,target,name,dimensions,manifest,registered,releasePath}=plannedStage(args);
-  const asset=registered||{concept_id:concept.id};
-  if(!registered)manifest.assets.push(asset);
-  asset.file=releasePath;
-  asset.format='webp';
-  asset.stage='draft';
-  asset.approved=false;
-  asset.status='visual-review-pending';
-  asset.dimensions={width:dimensions.width,height:dimensions.height};
-  asset.bytes=buffer.length;
-  asset.scene={...concept.scenario};
-  asset.review={semantic:'pending',visual:'pending',character_consistency:'pending',thumbnail:'pending',share_png:'pending',microblog:'pending'};
-  asset.note='Review candidate only. Check the actual picture matches this canonical scene before publishing; stage does not change illustration.src or approve artwork.';
-  // Validate serializable state in memory before any write.
-  const result=JSON.stringify(manifest,null,2)+'\n';
-  fs.writeFileSync(target,buffer,{flag:'wx'});
-  try{fs.writeFileSync(path.join(root,'art/manifest.json'),result,'utf8');}
-  catch(err){fs.unlinkSync(target);throw err;}
-  console.log('Staged '+name+' ('+buffer.length+' bytes, '+dimensions.width+'x'+dimensions.height+').');
-  console.log('Canonical scene EN: '+concept.scenario.en);
-  console.log('Canonical scene ZH: '+concept.scenario.zh);
-  console.log('Status: visual-review-pending; no dictionary illustration reference changed.');
-  console.log('Next: npm run art:check && npm test; inspect art in Safari before publication.');
+
+function stagedManifest(plan){
+  const result=structuredClone(plan.manifest);
+  for(const c of plan.candidates){
+    let entry=result.assets.find(x=>x.concept_id===c.id);
+    if(!entry){entry={concept_id:c.id};result.assets.push(entry);}
+    entry.file=c.file;
+    entry.format='webp';
+    entry.stage='draft';
+    entry.approved=false;
+    entry.status='visual-review-pending';
+    entry.dimensions=c.dims;
+    entry.bytes=c.bytes;
+    entry.scene=c.canonicalScene;
+    entry.review={semantic:'pending',visual:'pending',character_consistency:'pending',thumbnail:'pending',share_png:'pending',microblog:'pending'};
+    entry.note='Candidate only. Confirm the visible moment matches the canonical bilingual scene before any publication.';
+  }
+  return result;
+}
+export function stage(options){
+  const plan=planStage(options);
+  const report={
+    mode:options.dryRun?'dry-run':'staged',
+    count:plan.candidates.length,
+    bytesAfter:plan.bytesAfter,
+    candidates:plan.candidates.map(({id,version,filename,bytes,dims,canonicalScene})=>({id,version,filename,bytes,dimensions:dims,canonicalScene})),
+    publicationStatus:'review-pending; canonical illustration.src remains unchanged'
+  };
+  if(options.dryRun){console.log(JSON.stringify(report,null,2));return report;}
+  const copied=[];
+  const temp=manifestPath+'.art-stage-'+process.pid;
+  try{
+    for(const c of plan.candidates){
+      fs.copyFileSync(c.source,c.dest,fs.constants.COPYFILE_EXCL);
+      copied.push(c.dest);
+    }
+    fs.writeFileSync(temp,JSON.stringify(stagedManifest(plan),null,2)+'\n',{flag:'wx'});
+    fs.renameSync(temp,manifestPath);
+  }catch(error){
+    for(const file of copied)fs.rmSync(file,{force:true});
+    fs.rmSync(temp,{force:true});
+    throw error;
+  }
+  console.log(JSON.stringify(report,null,2));
+  if(options.report){
+    const dest=path.resolve(options.report);
+    fs.writeFileSync(dest,JSON.stringify(report,null,2)+'\n',{flag:'wx'});
+  }
+  return report;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   try{
-    const args=argsOf(process.argv.slice(2));
-    if(args.help)console.log('npm run art:stage -- --id <concept-id> --file /path/to/reviewed.webp [--version 01]');
-    else stageCandidate(args);
-  }catch(e){console.error(e.message);process.exitCode=1;}
+    const opts=argsOf(process.argv.slice(2));
+    if(opts.help)console.log('Single: npm run art:stage -- --id joy --file /tmp/joy.webp [--version 01]\nBatch: npm run art:stage -- --batch ./artwork --map ./artwork/batch.json [--dry-run] [--report /tmp/stage-report.json]');
+    else stage(opts);
+  }catch(error){console.error(error.message);process.exitCode=1;}
 }
