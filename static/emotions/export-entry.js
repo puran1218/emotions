@@ -53,14 +53,6 @@
       'Content, translations and contrasts are editorial previews, not independently approved.','');
     return lines.join('\n');
   }
-  function libraryJSON(entries,comparisons){
-    return JSON.stringify({
-      format:'emolex-full-library-v1',
-      status:'editorial-preview-not-human-approved',
-      count:entries.length,
-      entries:entries.map(e=>({...e,closer:comparisons.get(e.id)||null}))
-    },null,2)+'\n';
-  }
   function download(content,name,type){
     const blob=new Blob([content],{type});
     const url=URL.createObjectURL(blob);
@@ -69,5 +61,5 @@
     document.body.appendChild(a);a.click();a.remove();
     setTimeout(()=>URL.revokeObjectURL(url),1200);
   }
-  window.EmoLexExportEntry={markdown,libraryJSON,download};
+  window.EmoLexExportEntry={markdown,download};
 })();
