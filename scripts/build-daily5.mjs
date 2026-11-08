@@ -36,7 +36,7 @@ const items=source.items.map(row=>{
   const sentence=entry.say[row.sayIndex];
   assert.ok(sentence?.en&&sentence?.zh,'Invalid source sayIndex for '+row.id);
   assert.ok(row.change.replacements.length>=2 && row.change.replacements.length<=4);
-  assert.ok(['en','zh'].every(l=>row.imagine?.[l]?.length>=12&&row.writePrompt?.[l]?.length>=12));
+  assert.ok(row.imagine?.en?.length>=12&&row.writePrompt?.en?.length>=12&&row.imagine?.zh?.length>=5&&row.writePrompt?.zh?.length>=5,'English and Chinese prompts require different natural text-length bounds');
   assert.equal(row.reviewer,null,'Starter sentences are not human-review approved');
   return {
     id:row.id,
