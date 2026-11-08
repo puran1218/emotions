@@ -93,7 +93,7 @@ All **230 migrated canonical concepts** now have proposed, individually revised 
 See [Full Corpus Calibration](docs/FULL-CORPUS-CALIBRATION.md), [EmoLex Plain Language](docs/PLAIN-LANGUAGE.md), and [Static Visual Explanation](docs/VISUAL-EXPLANATION.md). To regenerate editorial/runtime outputs from the canonical overlay, run `npm run migrate:legacy`; `npm run review:packets` rebuilds the deterministic before/after and art-planning packets. `npm test` checks reproducibility. Automatic checks and LLM-assisted proposals do not qualify as independent editorial approval; the full publication coverage gate remains separate.
 
 
-## Full entry exports and Daily 5 (stacked PR #7)
+## Full entry exports and Daily 5
 
 After the full-corpus bilingual contrasts in PR #6, EmoLex can export the **entire visible word**, not only the first two speaking examples:
 
