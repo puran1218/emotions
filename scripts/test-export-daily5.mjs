@@ -47,6 +47,8 @@ const e=madeWindow.EmoLexExportEntry;
 const full=e.markdown(joy,'zh',insight,entries,doc.baseURI);
 for(const sentence of joy.say)assert.ok(full.includes(sentence.en)&&full.includes(sentence.zh),'Every bilingual spoken example must be exported');
 assert.ok(full.includes(joy.definition.zh)&&full.includes(joy.scene.en));
+assert.ok(full.includes(joy.word.feelingEn)&&full.includes(joy.word.feelingZh),'Entry export keeps feeling forms');
+assert.ok(full.includes('**Emoji / 情绪符号:**'),'Entry export retains a canonical symbol');
 assert.ok(full.includes(insight.takeaway.en)&&full.includes(insight.takeaway.zh));
 assert.ok(full.includes('## A Little Closer')&&full.includes('## Related feelings'));
 assert.ok(full.includes('images/feeling-placeholder.svg'),'Image link to same-origin current asset');
