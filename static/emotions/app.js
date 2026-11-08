@@ -217,6 +217,7 @@
   }
   function exportTools(e){
     return '<div class="export-tools">'+
+      '<a class="practice-entry-link" href="./practice.html?word='+encodeURIComponent(e.id)+'">'+t('Daily 5 · Practice this feeling','Daily 5 · 练习这个词')+' <span aria-hidden="true">↗</span></a>'+
       '<button class="export-text" data-action="export-entry" data-id="'+esc(e.id)+'" type="button">↓ '+t('Download full entry (.md)','下载完整词条 (.md)')+'</button>'+
       '<span class="export-hint">'+t('Includes every example and the comparison','包含全部例句和情绪对照')+'</span>'+
       '</div>';
