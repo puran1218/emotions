@@ -1,6 +1,6 @@
 # EmoLex WebP-first illustration production
 
-**Decision (2026-10-18):** use **optimized WebP** for every published emotion illustration. SVG remains appropriate for small UI symbols, simple diagrams and the existing neutral placeholder. This is a delivery-format choice, **not** a change to the [Playful Color Sketch Illustration Bible](ILLUSTRATION-BIBLE.md) or the [Visual Explanation](VISUAL-EXPLANATION.md) principle: **The scene is the explanation**.
+**Decision (2026-11; reconfirmed against current main):** use **optimized WebP** for every published emotion illustration. SVG remains appropriate for small UI symbols, simple diagrams and the existing neutral placeholder. This is a delivery-format choice, **not** a change to the [Playful Color Sketch Illustration Bible](ILLUSTRATION-BIBLE.md) or the [Visual Explanation](VISUAL-EXPLANATION.md) principle: **The scene is the explanation**.
 
 ## Why WebP
 
@@ -50,9 +50,9 @@ After **explicit artistic and semantic sign-off**:
 
 ## First-five pilot consistency caution
 
-Five existing generated image **studies** can be encoded small (960×640 @ quality 78: roughly 81–92 KiB each). **They are not production-approved.** Most use a high hair bun and blue overalls, while the locked Illustration Bible specifies *Mei with chin-length dark brown hair, mustard pullover and slate trousers.* Publishing them without reconciling the character design would violate the existing product design. Do not change the Bible just to fit the images without a conscious design review.
+The first pilot set includes five candidate illustrations of Joy, Frustration, Loneliness, Affection and Relief. Their consistent **high brown bun, thin mustard-striped cream shirt, blue denim overalls, and white sneakers** are now explicitly recorded as character model `mei-overalls-v1` in the Illustration Bible after the user's visual-style approval. This supersedes the old bob-hair/mustard-pullover text; it does **not** automatically approve any image's semantic fit, alt text, fingers, dog posture, thumbnail readability, or production release.
 
-When a batch is approved, establish one stable character model (wardrobe, face, hair, proportions) from the Bible and reuse it across Joy, Frustration, Loneliness, Affection and Relief. These five are the calibration gate for the rest of the dictionary.
+Always review all five candidates together before approval. Preserve recognizable proportions, hair, face, clothing and pencil texture across future sets. The first five remain the calibration gate for the remaining dictionary.
 
 ## What CI can and cannot prove
 
@@ -89,3 +89,22 @@ git push -u origin feat/illustrations-batch-02
 ```
 
 The format pipeline and the first few production batches should be merged independently to keep Git history clear.
+
+## Five-image batch workflow (2026-11)
+
+The previous PR #4 became **71 commits behind** `main` after Daily 5, A Little Closer and other work, and only supported single-file staging. This new branch reintroduces its reusable format/CI assets **on current main**, with a batch-aware CLI. It does not merge old stale files over current product code.
+
+Each reviewed ZIP contains `images/<id>-vNN.webp`, a `batch.json` and a review contact sheet. Prefer explicit mappings, because some visible concepts have identical headwords but distinct IDs. The first five are original baseline terms and every future batch is a separately reviewed set of **five**.
+
+```bash
+npm run art:stage -- --batch ~/Downloads/emolex-batch-01 --map ~/Downloads/emolex-batch-01/batch.json --dry-run
+npm run art:stage -- --batch ~/Downloads/emolex-batch-01 --map ~/Downloads/emolex-batch-01/batch.json
+npm run art:check
+npm test
+```
+
+`--dry-run` validates all five but changes **no files**. The non-dry-run operation stages **all five atomically**: it validates known visible canonical IDs (not draft/withheld), WebP RIFF headers, exact 960×640 or 1200×800 shape, each 180 KiB hard limit, combined gallery budget, duplicate IDs, filenames, path traversal and existing approved assets **before** any copies. If copying/manifest writing fails it rolls back newly copied files. It only assigns candidate status in `art/manifest.json`, and does **not** touch canonical art references or publish images. The optional `--report <file>` writes an import report on success; `--dry-run` prints JSON and does not write a report.
+
+Without `--map`, files may be inferred from `<canonical-id>-vNN.webp` names. Because of homographs and unpublished senses, a `batch.json` is preferred and distributed with every official batch. **Do not stage candidates straight onto main; use a review branch**, and never claim approved production illustration on the basis of a successful size check alone. An approved image still needs a separate source-level `illustration.src` mapping and accurate bilingual alt to be built into the runtime.
+
+A practical reason to distinguish an art *candidate review PR* from *release publication*: a WebP may be visually pleasing while showing the wrong concrete event. The Word's `scenario` and the full bilingual brief are the controlling sources.
