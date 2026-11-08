@@ -1,0 +1,596 @@
+{
+  "version": 1,
+  "source": "static/emotions/data/emotions.json",
+  "scope": "225 visible word senses only",
+  "batchSize": 5,
+  "totalBatches": 45,
+  "stagingRule": "all five with explicit canonical IDs and current bilingual scenarios; never treat queued metadata as approved art",
+  "characterModel": "mei-overalls-v1",
+  "batches": [
+    {
+      "number": 1,
+      "id": "batch-01",
+      "conceptIds": [
+        "joy",
+        "frustration",
+        "loneliness",
+        "affection",
+        "relief"
+      ],
+      "status": "candidate-review-prepared",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 2,
+      "id": "batch-02",
+      "conceptIds": [
+        "absorbed",
+        "adventurous",
+        "alert",
+        "amazed",
+        "amused"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 3,
+      "id": "batch-03",
+      "conceptIds": [
+        "animated",
+        "appreciative",
+        "ardent",
+        "astonished",
+        "blissful"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 4,
+      "id": "batch-04",
+      "conceptIds": [
+        "breathless",
+        "buoyant",
+        "calm",
+        "carefree",
+        "cheerful"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 5,
+      "id": "batch-05",
+      "conceptIds": [
+        "comfortable",
+        "complacent",
+        "composed",
+        "concerned-met",
+        "confident"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 6,
+      "id": "batch-06",
+      "conceptIds": [
+        "contented",
+        "curious",
+        "dazzled",
+        "delighted",
+        "eager"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 7,
+      "id": "batch-07",
+      "conceptIds": [
+        "ebullient",
+        "ecstatic",
+        "effervescent",
+        "elated",
+        "enchanted"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 8,
+      "id": "batch-08",
+      "conceptIds": [
+        "encouraged",
+        "energetic",
+        "engrossed",
+        "enlivened",
+        "enthusiastic"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 9,
+      "id": "batch-09",
+      "conceptIds": [
+        "excited",
+        "exhilarated",
+        "expansive",
+        "expectant",
+        "exultant"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 10,
+      "id": "batch-10",
+      "conceptIds": [
+        "fascinated",
+        "free",
+        "friendly",
+        "fulfilled",
+        "glad"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 11,
+      "id": "batch-11",
+      "conceptIds": [
+        "gleeful",
+        "glorious",
+        "glowing",
+        "good-humored",
+        "grateful"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 12,
+      "id": "batch-12",
+      "conceptIds": [
+        "gratified",
+        "happy",
+        "helpful",
+        "hopeful",
+        "inquisitive"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 13,
+      "id": "batch-13",
+      "conceptIds": [
+        "inspired",
+        "intense-met",
+        "interested",
+        "intrigued",
+        "invigorated"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 14,
+      "id": "batch-14",
+      "conceptIds": [
+        "involved",
+        "joyous",
+        "jubilant",
+        "keyed-up",
+        "loving"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 15,
+      "id": "batch-15",
+      "conceptIds": [
+        "mellow",
+        "merry",
+        "mirthful",
+        "moved",
+        "optimistic"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 16,
+      "id": "batch-16",
+      "conceptIds": [
+        "overjoyed",
+        "overwhelmed-met",
+        "peaceful",
+        "perky",
+        "pleasant"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 17,
+      "id": "batch-17",
+      "conceptIds": [
+        "pleased",
+        "proud",
+        "quiet",
+        "radiant",
+        "rapturous"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 18,
+      "id": "batch-18",
+      "conceptIds": [
+        "refreshed",
+        "relaxed",
+        "satisfied",
+        "secure",
+        "sensitive-met"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 19,
+      "id": "batch-19",
+      "conceptIds": [
+        "serene",
+        "spellbound",
+        "splendid",
+        "stimulated",
+        "surprised-met"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 20,
+      "id": "batch-20",
+      "conceptIds": [
+        "tender",
+        "thankful",
+        "thrilled",
+        "touched",
+        "tranquil"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 21,
+      "id": "batch-21",
+      "conceptIds": [
+        "trusting",
+        "upbeat",
+        "warm",
+        "wide-awake",
+        "wonderful"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 22,
+      "id": "batch-22",
+      "conceptIds": [
+        "zestful",
+        "agitated",
+        "alarmed",
+        "aloof",
+        "angry"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 23,
+      "id": "batch-23",
+      "conceptIds": [
+        "anxious",
+        "apathetic",
+        "apprehensive",
+        "ashamed",
+        "beat"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 24,
+      "id": "batch-24",
+      "conceptIds": [
+        "bewildered",
+        "bitter",
+        "blue",
+        "bored",
+        "brokenhearted"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 25,
+      "id": "batch-25",
+      "conceptIds": [
+        "chagrined",
+        "cold",
+        "concerned-unmet",
+        "confused",
+        "cross"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 26,
+      "id": "batch-26",
+      "conceptIds": [
+        "dejected",
+        "despairing",
+        "despondent",
+        "detached",
+        "disaffected"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 27,
+      "id": "batch-27",
+      "conceptIds": [
+        "disappointed",
+        "discouraged",
+        "disenchanted",
+        "disgruntled",
+        "disgusted"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 28,
+      "id": "batch-28",
+      "conceptIds": [
+        "disheartened",
+        "dismayed",
+        "displeased",
+        "disquieted",
+        "distressed"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 29,
+      "id": "batch-29",
+      "conceptIds": [
+        "disturbed",
+        "downcast",
+        "downhearted",
+        "dull",
+        "edgy"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 30,
+      "id": "batch-30",
+      "conceptIds": [
+        "embarrassed",
+        "embittered",
+        "exasperated",
+        "exhausted",
+        "fatigued"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 31,
+      "id": "batch-31",
+      "conceptIds": [
+        "fearful",
+        "fidgety",
+        "forlorn",
+        "frightened",
+        "furious"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 32,
+      "id": "batch-32",
+      "conceptIds": [
+        "gloomy",
+        "harried",
+        "heavy",
+        "helpless",
+        "hesitant"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 33,
+      "id": "batch-33",
+      "conceptIds": [
+        "horrible",
+        "horrified",
+        "hostile",
+        "humdrum",
+        "hurt"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 34,
+      "id": "batch-34",
+      "conceptIds": [
+        "impatient",
+        "indifferent",
+        "intense-unmet",
+        "irate",
+        "irked"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 35,
+      "id": "batch-35",
+      "conceptIds": [
+        "irritated",
+        "jealous",
+        "jittery",
+        "leery",
+        "lethargic"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 36,
+      "id": "batch-36",
+      "conceptIds": [
+        "listless",
+        "miserable",
+        "mopey",
+        "morose",
+        "mournful"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 37,
+      "id": "batch-37",
+      "conceptIds": [
+        "nervous",
+        "nettled",
+        "overwhelmed-unmet",
+        "panicky",
+        "passive"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 38,
+      "id": "batch-38",
+      "conceptIds": [
+        "perplexed",
+        "pessimistic",
+        "puzzled",
+        "rancorous",
+        "reluctant"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 39,
+      "id": "batch-39",
+      "conceptIds": [
+        "repelled",
+        "resentful",
+        "restless",
+        "sad",
+        "scared"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 40,
+      "id": "batch-40",
+      "conceptIds": [
+        "sensitive-unmet",
+        "shaky",
+        "shocked",
+        "skeptical",
+        "sleepy"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 41,
+      "id": "batch-41",
+      "conceptIds": [
+        "sorrowful",
+        "sorry",
+        "spiritless",
+        "startled",
+        "surprised-unmet"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 42,
+      "id": "batch-42",
+      "conceptIds": [
+        "tepid",
+        "terrified",
+        "tired",
+        "troubled",
+        "uncomfortable"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 43,
+      "id": "batch-43",
+      "conceptIds": [
+        "unconcerned",
+        "uneasy",
+        "unglued",
+        "unhappy",
+        "unnerved"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 44,
+      "id": "batch-44",
+      "conceptIds": [
+        "unsteady",
+        "upset",
+        "uptight",
+        "vexed",
+        "weary"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    },
+    {
+      "number": 45,
+      "id": "batch-45",
+      "conceptIds": [
+        "wistful",
+        "withdrawn",
+        "woeful",
+        "worried",
+        "wretched"
+      ],
+      "status": "not-generated",
+      "reviewedImageCount": 0
+    }
+  ]
+}

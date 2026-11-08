@@ -113,3 +113,19 @@ The bulk **Export all entries (.json)** button was removed as unnecessary for da
 ### Full-corpus Daily 5 expansion
 
 Every visible word entry now has a **Daily 5 · Practice this feeling** link. The daily rotation spans 225 distinct visible senses; `practice.html?word=quiet` and `practice.html?word=surprised-unmet` are valid deep links. The original 14 curated lessons retain their multi-part English transformations. The remaining 211 offer three *guided* sentence-editing purposes using only authentic canonical examples and the word's bilingual story scene, with a new editable sentence field and optional TTS. Learner-created changes can be saved explicitly with the existing private reflection or downloaded as Markdown. The new content is an editorial preview, not 211 human-approved exercise sets. See [Daily 5 full-corpus editorial boundary](docs/DAILY5-AND-FULL-EXPORT.md).
+
+
+## Illustration production · five-image WebP batches
+
+EmoLex will use **3:2, 960×640 compressed WebP** for production illustrations: preferred at most **120 KiB** per file, **180 KiB hard**, **30 MiB** aggregate artwork budget. The initial five picture-book candidates (Joy, Frustration, Loneliness, Affection, Relief) establish the owner-selected **Mei high-bun / striped tee / blue overalls** recurring model. The Playful Color Sketch image should explain **the exact bilingual canonical scene** without any labels. The previously unmerged WebP draft PR #4 is superseded by a pipeline built from current `main`.
+
+After downloading and extracting a five-image review batch containing `batch.json` and `images/*.webp`, stage **candidates** in a separate Git branch:
+
+```bash
+npm run art:stage -- --batch /path/to/batch --map /path/to/batch/batch.json --dry-run
+npm run art:stage -- --batch /path/to/batch --map /path/to/batch/batch.json
+npm run art:check
+npm test
+```
+
+The stage script validates all five **before** writing and rolls back copies on import failure; dry-run writes nothing. It only adds candidate records and files to the art manifest. It does **not** approve art or replace the placeholder in the canonical dictionary. Publish only after visual and bilingual semantic sign-off with accurate alt text and source-level art references. See [WebP illustration format and batch staging](docs/WEBP-ILLUSTRATIONS.md) and [the recurring character guide](docs/ILLUSTRATION-BIBLE.md). Keep large original PNG masters outside the plugin repository.
