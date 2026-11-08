@@ -21,7 +21,7 @@ assert.deepEqual(new Set(overlay.comparisons.map(x=>x.id)),new Set(runtime.entri
 assert.ok(css.includes('.closer-section')&&css.includes('.closer-cards')&&css.includes('.closer-link'));
 assert.ok(css.includes('@media(max-width:650px)'),'contrast cards need mobile stacking');
 
-async function boot(query='word=joy'){
+async function boot(query='word=joy',mobile=false){
   const handlers={};
   const container={innerHTML:''};
   const locale={lang:'en'};
@@ -35,7 +35,7 @@ async function boot(query='word=joy'){
     querySelectorAll(){return[]},
     addEventListener(event,fn){handlers[event]=fn}
   };
-  const window={location,addEventListener(event,fn){handlers[event]=fn},scrollTo(){}};
+  const window={location,addEventListener(event,fn){handlers[event]=fn},scrollTo(){},matchMedia(){return{matches:mobile}}};
   const navigator={language:'en-US'};
   const history={state:null,pushState(state,_,url){this.state=state;location.href=String(url)}};
   const localStorage={getItem(){return null},setItem(){}};
@@ -88,6 +88,9 @@ assert.ok(demo.container.innerHTML.includes('安静是声音少'),'Not a feeling
 await demo.click('detail','joy');
 assert.ok(!new URL(demo.location.href).searchParams.has('closer'),'default enabled does not need a URL feature flag');
 
+const mobile=await boot('word=joy',true);
+assert.ok(mobile.container.innerHTML.includes('<details class="closer-section">'),'On narrow screens comparisons start collapsed to protect picture-book reading pace');
+assert.ok(!mobile.container.innerHTML.includes('<details class="closer-section" open>'));
 const hidden=await boot('word=joy&closer=0');
 assert.equal(hidden.experimentFetches,0,'Explicit compare-to-old mode should not load the overlay');
 assert.ok(!hidden.container.innerHTML.includes('A LITTLE CLOSER'));
