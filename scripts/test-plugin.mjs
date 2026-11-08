@@ -14,15 +14,19 @@ assert.ok(plugin.title?.length&&plugin.description?.length,'micro.blog metadata'
 assert.ok(!plugin.includes?.length,'standalone EmoLex must not inject CSS/JS into every blog page');
 assert.ok(!plugin.fields?.length,'standalone version has no theme-specific configuration');
 const base='https://sample.micro.blog/emotions/';
-for(const relative of ['./styles.css','./share-image.js','./app.js','./data/emotions.json','./images/feeling-placeholder.svg']){
+for(const relative of ['./styles.css','./share-image.js','./export-entry.js','./app.js','./practice.html','./practice.css','./practice.js','./data/daily5.json','./data/closer-experiment.json','./data/emotions.json','./images/feeling-placeholder.svg']){
   const url=new URL(relative,base);
   assert.ok(url.pathname.startsWith('/emotions/'),'static resources must remain under /emotions/');
   const staticPath=path.join(root,'static',url.pathname);
   assert.ok(fs.existsSync(staticPath),'missing published resource: '+url.pathname);
 }
-for(const relative of ['./styles.css','./share-image.js','./app.js']){
+for(const relative of ['./styles.css','./share-image.js','./export-entry.js','./app.js']){
   assert.ok(html.includes(relative),'standalone page must load '+relative);
 }
+assert.ok(html.indexOf('export-entry.js')<html.indexOf('app.js'),'full entry export script must precede app');
+const practiceHtml=read('static/emotions/practice.html');
+assert.ok(practiceHtml.includes('viewport-fit=cover')&&practiceHtml.includes('./practice.js')&&practiceHtml.includes('./practice.css'),'Daily 5 assets are static and mobile friendly');
+assert.ok(!practiceHtml.includes('http://')&&!practiceHtml.includes('https://'),'Daily 5 does not require remote assets');
 assert.ok(html.includes('viewport-fit=cover'),'mobile Safari viewport');
 assert.ok(!html.includes('http://')&&!html.includes('https://'),'no remote runtime assets');
 for(const entry of data.entries){
