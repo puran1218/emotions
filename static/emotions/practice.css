@@ -74,3 +74,16 @@
 .daily-change-tab{flex:1;min-width:calc(50% - 5px)}
 .daily-nav .daily-action{flex:1;min-width:0;padding:9px 7px}
 }
+
+.daily-course-note{display:inline-block;margin:9px 0 0;padding:5px 9px;border:1px solid #D6E5D6;background:#F2F7EC;border-radius:10px;font-size:11px;color:#53715A;line-height:1.5}
+.daily-variant-line{display:flex;align-items:stretch;flex-wrap:wrap;gap:7px}
+.daily-variant-line .daily-variant{flex:1;min-width:min(220px,100%);height:auto}
+.daily-variant-use{min-height:44px;padding:8px 12px;border:1px solid #BBD7C2;background:#EEF7EC;border-radius:12px;color:#28684A;font-weight:700;font-size:12px;cursor:pointer}
+.daily-group-prompt{margin:6px 0 2px;color:#416E54;line-height:1.6;font-size:14px;font-weight:700}
+.daily-speak-draft{margin:10px 0 2px}
+.daily-variant-use:focus-visible{outline:3px solid #7DAE88;outline-offset:2px}
+@media(max-width:600px){
+.daily-variant-line{display:block}
+.daily-variant-line .daily-variant{width:100%}
+.daily-variant-use{width:100%;margin-top:5px}
+}
