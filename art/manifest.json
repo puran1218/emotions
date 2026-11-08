@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "status": "deferred-to-separate-illustration-branch",
+  "version": 3,
+  "status": "webp-candidates-awaiting-human-art-review",
   "assets": [
     {
       "concept_id": "joy",
@@ -64,5 +64,26 @@
     "shared": true,
     "aspectRatio": "3:2",
     "note": "Neutral image used by all pilot concepts in plugin release. Not a concept-specific illustrated scene."
+  },
+  "formatPolicy": {
+    "production": "webp",
+    "placeholder": "svg",
+    "aspectRatio": "3:2",
+    "allowedDimensions": [
+      "960x640",
+      "1200x800"
+    ],
+    "preferredMaxBytes": 122880,
+    "hardMaxBytes": 184320,
+    "totalArtBudgetBytes": 31457280,
+    "autoPublish": false
+  },
+  "characterModel": {
+    "reviewStatus": "art-direction-confirmed-by-owner",
+    "name": "Mei",
+    "description": "Approx. eight years old; messy brown hair in a soft high bun with wispy bangs; cream/white short-sleeve tee with muted mustard horizontal stripes, blue denim overalls, white canvas sneakers. Warm expressive proportions, natural hands. Repeatable Playful Color Sketch style.",
+    "style": "Playful Color Sketch",
+    "modelVersion": "mei-overalls-v1",
+    "note": "Owner selected the original five-image illustration direction; production artworks still require separate per-image semantic and visual approval."
   }
 }
