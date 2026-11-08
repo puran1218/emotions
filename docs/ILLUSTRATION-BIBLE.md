@@ -6,7 +6,7 @@
 
 ## Recurring cast
 
-- **Mei** (~8): chin-length dark brown hair + natural bangs, mustard pullover, slate trousers and simple canvas shoes. Same facial proportions and clothing recognizable across scenes.
+- **Mei** (~8), **final recurring model · mei-overalls-v1**: slightly messy medium-brown hair tied into a soft high bun with stray wisps and natural fringe; cream/white short-sleeve top with thin muted mustard horizontal stripes; loose blue denim overalls; simple white canvas sneakers. Keep the same hair silhouette, gentle facial proportions, outfit, body scale and realistic child anatomy across all illustrated scenes. This direction supersedes the earlier bobbed-hair/mustard-pullover sample model after the owner's five-picture visual review.
 - **Noah** (~9): soft dark curls, sage jacket, cream trousers, friend, never designated the "angry" character.
 - **Lin** (~7): short straight hair, terracotta jacket, blue shoes.
 - Families and companions can vary in skin tones, ages, body types and accessibility; never encode feelings in gender or appearance.
@@ -61,3 +61,13 @@ The illustration work deliberately comes **after** the plugin-and-content PR. No
 ## Scene explanation before illustration generation
 
 For each new image, confirm the corresponding plain-language definition and one canonical scenario, and write a `coreMeaning → single moment → visible evidence → confusableWith → mustAvoid → withoutTextTest` brief. Require observable physical evidence of the event, not a stock feeling face or floating labels. An image can support a child's interpretation, but cannot **prove** someone's feelings by expression alone. The story can be simple; never copy Anatomy's requirement for dozens of detailed mechanical parts. Keep alt text describing the *actual asset*. The shared neutral placeholder remains unchanged until an image is visually reviewed in the later art branch.
+
+## Five-at-a-time production cadence (November 2026)
+
+Publish **only reviewed sets of five**. Each batch begins with exact bilingual canonical definitions and scenarios; the initial baseline set is **joy, frustration, loneliness, affection, relief**. User-approved **style direction** does not imply that every illustration is individually approved for meaning and anatomy. The first five serve as a style-and-character model gate before any more batches are produced.
+
+Every batch needs a `batch.json` with concept IDs, relative WebP paths and revisions, a 5-up contact sheet, English and Chinese actual-image alt drafts, and small-phone/Canvas review. Run the optimizer before staging; prefer uncompressed masters outside the repository, and output **960×640 WebP** at quality ~78. For visual reviews compare all five **simultaneously**: hairstyle, exact clothing, face design, skin tone, proportions, coloring technique, and emotionally relevant scene props. Never use a graphic style drift or generic emotion emoji as a substitute for the canonical story.
+
+The image with the recurring child **must** match Mei's new reference model above unless a brief intentionally depicts another named child. Scene actions should be carefully distinguished: joy is a planted sunflower flowering; frustration is the fallen tower *after repeated careful attempts*; loneliness is a child wanting to join others; affection shows a relaxed dog voluntarily cuddling; relief shows a found favorite book and a releasing posture. Character model consistency and scene fidelity are **both** review gates, not interchangeable.
+
+Product reviewer sign-off must be explicit before `illustration.src`, `illustration.stage`, `review.illustration`, public bilingual alt text and runtime assets are changed from placeholder to actual art. Stage-only candidates are never auto-published. All image variants, source PNGs, QA screenshots and rejected drafts belong outside Git history.
