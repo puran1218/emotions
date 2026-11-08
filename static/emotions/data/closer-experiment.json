@@ -464,8 +464,8 @@
       "kind": "related-feeling-senses",
       "compareWith": "animated",
       "takeaway": {
-        "en": "Enlivened means something has lifted your liveliness; animated describes the lively behavior itself.",
-        "zh": "感到活跃强调有件事让你精神起来；活泼是表现出来的样子。"
+        "en": "You feel enlivened when something lifts your energy; animated describes how lively you look when you talk or move.",
+        "zh": "感到活跃是某件事让你重新有了精神；活泼是你说话、动作中表现出的样子。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -1374,8 +1374,8 @@
       "kind": "related-feeling-senses",
       "compareWith": "disappointed",
       "takeaway": {
-        "en": "Disappointment follows unmet hope; disaffection means support or interest may have worn away afterward.",
-        "zh": "失望是期待落空；失去认同则是后来渐渐不想再支持或参与。"
+        "en": "Disappointed means a hope did not work out; disaffected means you have begun to lose interest or trust after feeling let down.",
+        "zh": "失望是期待没能实现；失去认同是失望后慢慢不再想参与或相信。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -1414,8 +1414,8 @@
       "kind": "related-feeling-senses",
       "compareWith": "resentful",
       "takeaway": {
-        "en": "Both involve dissatisfaction; disgruntled is often a current complaint, resentment may last longer.",
-        "zh": "两者都可能不满；抱怨常针对眼前的事，怨气可能持续得更久。"
+        "en": "Disgruntled means unhappy with how something was handled; resentful means that unfair feeling may stay with you for longer.",
+        "zh": "不满是觉得事情处理得不好；心怀怨气则可能是觉得受了委屈，过了很久也放不下。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -1704,8 +1704,8 @@
       "kind": "sense-or-state-contrast",
       "compareWith": "angry",
       "takeaway": {
-        "en": "Anger is a feeling; hostility describes unfriendly or aggressive behavior toward others.",
-        "zh": "生气是心里的情绪；敌对描述的是对别人的态度或行为。"
+        "en": "Angry names a feeling; hostile describes treating another person in an unfriendly way.",
+        "zh": "生气是心里的情绪；敌对是对别人表现出不友好的态度。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -1964,8 +1964,8 @@
       "kind": "related-feeling-senses",
       "compareWith": "resentful",
       "takeaway": {
-        "en": "Both can hold a grudge; rancorous describes especially strong or long-lasting resentment.",
-        "zh": "两者都可能记着委屈；rancorous 更强调怨恨强烈、持续很久。"
+        "en": "Resentful means an old hurt still bothers you; rancorous means that angry feeling has grown strong and lasted a long time.",
+        "zh": "心怀不满是旧日的委屈还在心里；怨恨很深则是这种怒气更强，持续得更久。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -2034,8 +2034,8 @@
       "kind": "sense-or-state-contrast",
       "compareWith": "hurt",
       "takeaway": {
-        "en": "Sensitive means words or events affect you easily; hurt means something actually feels painful.",
-        "zh": "敏感是容易被话语影响；受伤是心里或身体真的觉得疼。"
+        "en": "Being sensitive means words may affect you strongly; feeling hurt means something has already caused pain. Sensitivity is not a flaw.",
+        "zh": "敏感是有些话容易触动你；受伤是已经感觉难过或疼痛。敏感并不是缺点。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -2204,8 +2204,8 @@
       "kind": "related-feeling-senses",
       "compareWith": "upset",
       "takeaway": {
-        "en": "Upset is a broad difficult feeling; unglued is an informal way to say it feels very hard to stay calm.",
-        "zh": "心烦可以轻也可以重；情绪失控是口语里形容一时很难冷静。"
+        "en": "Upset is a broad word for a hard feeling; unglued is an informal way to say it feels especially difficult to stay calm for a moment.",
+        "zh": "心烦是广泛的难受感受；unglued 是口语里说某一刻特别难冷静，不是给一个人贴标签。"
       },
       "reviewStatus": "draft-proposal"
     },
@@ -2294,8 +2294,8 @@
       "kind": "sense-or-state-contrast",
       "compareWith": "aloof",
       "takeaway": {
-        "en": "Withdrawn describes pulling back, possibly when troubled; aloof describes keeping distance from others.",
-        "zh": "退缩是暂时不愿交流，可能因为心里难受；冷淡疏远更强调对人保持距离。"
+        "en": "A withdrawn child may pull back because something feels hard; someone who seems aloof may simply want more space. We cannot tell why just by looking.",
+        "zh": "不想交流的孩子有时正遇到难事；看起来疏远的人也可能只是需要自己的空间。不能只看外表就判断原因。"
       },
       "reviewStatus": "draft-proposal"
     },
