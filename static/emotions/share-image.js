@@ -108,7 +108,9 @@
     let y=87+lineHeight(ctx,'emolex  ✳',1030,39,48,'en',true)+61;
     y+=lineHeight(ctx,lang==='zh'?'一种感受 · ONE FEELING':'ONE FEELING · 一种感受',1020,25,34,'en',true)+28;
     y+=lineHeight(ctx,e.word[lang],865,78,97,lang,true)+8;
-    y+=lineHeight(ctx,e.word[other],950,43,57,other)+24+620+34;
+    y+=lineHeight(ctx,e.word[other],950,43,57,other)+24;
+    const feelingForms=lang==='zh'?e.word.feelingZh+' · '+e.word.feelingEn:e.word.feelingEn+' · '+e.word.feelingZh;
+    y+=lineHeight(ctx,feelingForms,1032,25,36,lang)+12+620+34;
     y+=lineHeight(ctx,lang==='zh'?'认识这种感受':'A moment to understand',1040,24,34,lang)+45;
     const titleHeight=(title)=>4+lineHeight(ctx,title,985,28,38,'en',true)+18;
     y+=titleHeight(lang==='zh'?'这是一种怎样的感受？':'WHAT DOES IT MEAN?');
@@ -147,6 +149,8 @@
     const h=lang==='zh'?[e.word.zh,e.word.en]:[e.word.en,e.word.zh];
     y=multiline(c,h[0],84,y,865,78,97,lang,ink,true)+8;
     y=multiline(c,h[1],84,y,950,43,57,lang==='zh'?'en':'zh',muted,false)+24;
+    const feelingForms=lang==='zh'?e.word.feelingZh+' · '+e.word.feelingEn:e.word.feelingEn+' · '+e.word.feelingZh;
+    y=multiline(c,feelingForms,84,y,1032,25,36,lang,green)+12;
     c.font='74px "Apple Color Emoji","Segoe UI Emoji",sans-serif';c.fillText(e.emoji||'',1017,192);
     const imageY=y; rounded(c,84,imageY,1032,620,26,'#F0EBE0');
     let image;
