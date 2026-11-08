@@ -270,3 +270,18 @@ button:disabled{cursor:wait;opacity:.56}
 .closer-link{display:inline-flex;align-items:center;justify-content:center;gap:5px;margin-top:12px;min-height:44px;padding:7px 10px;border:1px solid #E2E5D5;border-radius:10px;background:#F5F9F0;color:#397359;font-family:var(--reading-en);font-size:12px;font-weight:700;cursor:pointer}
 .closer-link:focus-visible{outline:3px solid #548C6C;outline-offset:3px}
 .closer-link:active{background:#E5F0E0}
+
+.header-daily5{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 12px;border:1px solid #E4D9B8;border-radius:12px;background:#FFF3D1;color:#74542D;font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}
+.header-daily5:focus-visible,.export-text:focus-visible,.export-library:focus-visible{outline:3px solid #79A58A;outline-offset:3px}
+.export-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:11px}
+.export-text,.export-library{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 14px;border:1px solid #D9E6D7;border-radius:13px;background:#F8FBF5;color:#27694E;font-size:12px;font-weight:750;cursor:pointer}
+.export-hint{color:#8A9A8C;font-size:11px;line-height:1.5}
+.export-library{width:100%;margin:12px 0 6px;background:#FFFEFA;border-style:dashed;min-height:42px}
+@media(max-width:600px){
+  .header-daily5{font-size:0;padding:8px 9px}
+  .header-daily5::after{content:"Daily 5";font-size:11px}
+  .export-tools{display:block}
+  .export-text{width:100%}
+  .export-hint{display:block;margin:6px 1px 0}
+}
+@media(max-width:390px){.header-explore{display:none}}
