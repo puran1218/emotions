@@ -32,8 +32,10 @@ for (const entry of entries) {
 for (const comparison of closer) {
   assert.ok(book.includes(escapeHtml(comparison.takeaway.en)));
   assert.ok(book.includes(escapeHtml(comparison.takeaway.zh)));
-  assert.ok(book.includes(escapeHtml(comparison.first.description.en)));
-  assert.ok(book.includes(escapeHtml(comparison.second.description.zh)));
+  const source=entries.find(e=>e.id===comparison.id);
+  const target=entries.find(e=>e.id===comparison.compareWith);
+  assert.ok(book.includes(escapeHtml((comparison.first?.description || source.definition).en)));
+  assert.ok(book.includes(escapeHtml((comparison.second?.description || target?.definition).zh)));
 }
 assert.ok(!book.includes('feeling-placeholder.svg'));
 const compact=renderBook(entries,entries,closer,{layout:'compact',language:'zh'});

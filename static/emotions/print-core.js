@@ -55,12 +55,13 @@ function sayLines(entry, language) {
   return '<ol class="expressions">'+entry.say.map(sample => '<li>'+pair(sample, language, 'bilingual expression')+'</li>').join('')+'</ol>';
 }
 
-function closerSection(entry, comparison, language) {
+function closerSection(entry, comparison, language, byId) {
   if (!comparison || comparison.id !== entry.id) {
     return '';
   }
   const first = comparison.first || {label:entry.word, description:entry.definition};
-  const second = comparison.second;
+  const target = byId.get(comparison.compareWith);
+  const second = comparison.second || (target ? {label:target.word,description:target.definition} : null);
   if (!second) {
     return '';
   }
@@ -83,7 +84,7 @@ function fullEntry(entry, comparison, language, number, total, byId) {
     '<section class="content-section">'+label('WHAT DOES IT MEAN?','这是一种怎样的感受？')+pair(entry.definition,language)+'</section>'+
     '<section class="content-section">'+label('IMAGINE THIS','想象一下')+pair(entry.scene,language)+'</section>'+
     '<section class="content-section">'+label('YOU CAN SAY','你可以这样说')+sayLines(entry,language)+'</section>'+
-    closerSection(entry,comparison,language)+relatedSection(entry,byId)+
+    closerSection(entry,comparison,language,byId)+relatedSection(entry,byId)+
     '<section class="writing-space">'+label('MY OWN EXAMPLE','我的例子')+'<div class="writing-line"></div><div class="writing-line"></div></section>'+
     '</article><footer class="page-foot"><span>EmoLex · 内容审校预览 / Editorial preview</span><span>'+escapeHtml(entry.id)+'</span></footer></section>';
 }
