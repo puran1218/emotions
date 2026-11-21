@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Printable Daily 5 worksheets for all visible EmoLex feeling words.">
+<title>Daily 5 · Printable Workbook · EmoLex</title>
+<link rel="stylesheet" href="./print.css">
+<link rel="stylesheet" href="./workbook.css">
+</head>
+<body>
+<header class="print-toolbar">
+  <div class="toolbar-heading"><a href="./practice.html">← Daily 5</a><div><h1>Daily Practice Workbook</h1><p>每日五分钟 · A4 亲子练习纸</p></div></div>
+  <div class="controls">
+    <label>Lessons · 练习范围<select id="workbook-range"><option value="month">A set of lessons · 按组</option><option value="all">All 225 · 全部</option><option value="selected">Selected IDs · 自选词条</option></select></label>
+    <div class="inline-inputs" id="workbook-chunk-fields"><label>Start #<input id="workbook-start" type="number" min="1" max="225" value="1"></label><label>Lessons<select id="workbook-count"><option value="7">7 · 一周</option><option value="30">30 · 一个月</option><option value="225">225 · 全部</option></select></label></div>
+    <label class="selected-input" id="workbook-selected-fields" hidden>Word-sense IDs (comma or newline separated)<textarea id="workbook-ids" rows="2" placeholder="joy, loneliness, relief"></textarea></label>
+    <label>Language first · 语言顺序<select id="workbook-language"><option value="en">English first</option><option value="zh">中文优先（第 1–2 步仍是英文）</option></select></label>
+    <button type="button" id="workbook-print" disabled>Print / Save PDF · 打印或保存</button>
+  </div>
+  <p id="workbook-status" class="print-status" role="status">Loading the practice library…</p>
+  <p class="print-hint">Each lesson uses the existing Daily 5 source; 14 have curated draft exercises and 211 guide editing from original dictionary sentences. No audio is embedded in the PDF. <a href="./print.html">Printable Feelings Book · 词语手册</a></p>
+</header>
+<main id="workbook-pages" aria-label="Printable Daily 5 worksheets"></main>
+<script type="module" src="./workbook.js"></script>
+</body>
+</html>
