@@ -1,0 +1,38 @@
+.workbook .wb-title{display:flex;align-items:center;justify-content:space-between;gap:12mm;margin:12px 0 6px}
+.workbook .wb-title h1{font:700 26pt Georgia,serif;line-height:1.05;margin:0}
+.workbook .wb-title h2{font:500 14pt "PingFang SC","Noto Sans CJK SC",sans-serif;margin:3px 0}
+.workbook .wb-title .forms{font-size:9pt}
+.wb-illustration{width:43mm;max-height:30mm;object-fit:contain}
+.wb-definition{border-bottom:1px solid #dbe3dc;padding:4px 0 11px;margin-bottom:7px}
+.wb-bilingual .wb-primary{font-size:9.5pt;line-height:1.35;margin:0 0 3px}
+.wb-bilingual .wb-secondary{font-size:8.5pt;line-height:1.3;color:#64746d;margin:0}
+.wb-step{border-bottom:1px solid #e3e7e0;padding:8px 0 9px;break-inside:avoid}
+.wb-step-head{display:flex;gap:9px;align-items:center;margin-bottom:5px}
+.wb-number{background:#e7eee7;color:#31665f;font:700 11pt Georgia,serif;width:25px;height:25px;border-radius:50%;display:grid;place-items:center}
+.wb-step-head h3{font:700 11pt "Avenir Next","PingFang SC",sans-serif;margin:0;letter-spacing:.03em}
+.wb-step-head h3 span{color:#64746c;font-weight:500;letter-spacing:0}
+.wb-instruction{font-size:8.5pt;line-height:1.3;color:#586963;margin:0 0 6px}
+.wb-phrase{background:#f3f3e8;border:1px solid #dfe6da;padding:11px 14px;margin:5px 0;font:600 15pt Georgia,serif;line-height:1.4}
+.wb-repeat{display:flex;align-items:center;gap:9px;font-size:11pt;margin:5px 0}
+.wb-checkbox{width:16px;height:16px;display:inline-block;border:1.6px solid #5d766a}
+.wb-translation{font-size:8.5pt;color:#65746c;margin-bottom:6px}
+.wb-change-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.wb-change-option{border:1px solid #dce4dc;padding:6px 8px;overflow-wrap:anywhere;background:#fffefa}
+.wb-change-option strong,.wb-idea strong{font-size:8.3pt;line-height:1.32;display:block}
+.wb-change-option strong span,.wb-idea strong span{color:#65756b;font-weight:500}
+.wb-hint{font-size:7.5pt;margin:4px 0 0;color:#5f6e68}
+.wb-sample{font-size:8pt;font-style:italic;line-height:1.32;margin:4px 0 0}
+.wb-prompt{font-size:8.5pt;color:#31665f;font-weight:600;margin:8px 0 2px}
+.wb-writing-line{height:19px;border-bottom:1px solid #b9c4ba}
+.wb-ideas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.wb-idea{border:1px solid #dce4dc;padding:6px 8px;overflow-wrap:anywhere}
+.wb-idea .wb-primary{font-size:8.1pt;margin-top:4px}
+.wb-idea .wb-secondary{font-size:7.8pt}
+.wb-write{border-bottom:0;padding-bottom:0}
+.wb-write .wb-writing-line{height:23px}
+.workbook .page-foot{font-size:8px}
+@media print{
+ .workbook{height:297mm;overflow:visible}
+ .wb-step{page-break-inside:avoid;break-inside:avoid}
+ .wb-change-option,.wb-idea{page-break-inside:avoid}
+}
