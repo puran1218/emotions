@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Print the complete EmoLex bilingual feelings dictionary as an A4 book or compact cards.">
+<title>Printable Feelings Book · EmoLex</title>
+<link rel="stylesheet" href="./print.css">
+</head>
+<body>
+<header class="print-toolbar">
+  <div class="toolbar-heading"><a href="./">← EmoLex</a><div><h1>Printable Feelings Book</h1><p>情绪词语 · A4 双语打印手册</p></div></div>
+  <div class="controls">
+    <label>Layout · 排版<select id="layout"><option value="full">Full book · 每页一词</option><option value="compact">Compact cards · 每页两词</option></select></label>
+    <label>Words · 范围<select id="range"><option value="all">All visible words · 全部</option><option value="month">A set of 30 · 指定一组</option><option value="selected">Selected IDs · 自选词条</option></select></label>
+    <div class="inline-inputs" id="month-fields" hidden><label>Start #<input id="start" type="number" min="1" max="225" value="1"></label><label>Count<input id="count" type="number" min="1" max="225" value="30"></label></div>
+    <label class="selected-input" id="selected-fields" hidden>Word-sense IDs (commas or new lines)<textarea id="ids" rows="2" placeholder="joy, relief, loneliness"></textarea></label>
+    <label>Language first · 语言顺序<select id="language"><option value="en">English first</option><option value="zh">中文优先</option></select></label>
+    <button id="print-button" disabled>Print / Save PDF · 打印或保存</button>
+  </div>
+  <p id="print-status" class="print-status" role="status">Loading printable dictionary…</p>
+  <p class="print-hint">Print with A4 portrait, 100% scale, no browser headers/footers. Ten withheld entries are excluded. Artwork appears only after individual approval. <a href="./practice.html">Daily 5 · 每日五分钟</a></p>
+</header>
+<main id="print-pages" aria-label="Printable pages"></main>
+<script type="module" src="./print.js"></script>
+</body>
+</html>

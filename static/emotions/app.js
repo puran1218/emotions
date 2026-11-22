@@ -130,6 +130,7 @@
       '<span class="tagline">'+t('Feel · Understand · Express','感受 · 理解 · 表达')+'</span>'+
       '<div class="top-actions"><button class="header-explore" data-action="explore">'+t('Explore','探索情绪')+' <span aria-hidden="true">↗</span></button>'+
       '<a class="header-daily5" href="./practice.html">Daily 5 · 每日五分钟</a>'+ 
+      '<a class="header-daily5" href="./print.html">Print · 打印手册</a>'+
       '<button class="language-button" data-action="language" aria-label="'+t('Switch to Chinese first','切换英文优先')+'">'+(language==='zh'?'中文 / EN':'EN / 中文')+'</button></div></header>';
   }
   function sectionLabel(field,en,zh){

@@ -1,0 +1,75 @@
+:root{color-scheme:light;font-family:"Avenir Next","PingFang SC","Noto Sans CJK SC",sans-serif;color:#243f3a;background:#e7e6e0}
+*{box-sizing:border-box}
+body{margin:0}
+[hidden]{display:none!important}
+.print-toolbar{max-width:1100px;margin:16px auto 28px;padding:21px 26px;border-radius:12px;background:#fffef9;box-shadow:0 5px 20px #293c3b12}
+.toolbar-heading{display:flex;gap:25px;align-items:center}
+.toolbar-heading>a{color:#31665f;text-decoration:none;font-size:14px;white-space:nowrap}
+.toolbar-heading h1{font-family:Georgia,serif;font-size:27px;margin:0 0 3px}
+.toolbar-heading p{margin:0;font-size:13px;color:#6f7870}
+.controls{display:flex;flex-wrap:wrap;gap:13px;margin-top:22px;align-items:end}
+.controls label{font-size:12px;font-weight:600;display:grid;gap:6px;min-width:148px}
+.controls select,.controls input,.controls textarea{font:inherit;font-size:14px;background:white;color:#243f3a;padding:9px;border:1px solid #cbd1c8;border-radius:6px;width:100%}
+.controls textarea{width:220px;resize:vertical}
+.controls .inline-inputs{display:flex;gap:8px}
+.controls .inline-inputs label{min-width:65px;width:85px}
+.controls button{font:600 14px "Avenir Next",sans-serif;color:#fff;background:#31665f;border:0;padding:11px 16px;border-radius:6px;cursor:pointer}
+.controls button:disabled{opacity:.45;cursor:default}
+.print-status{font-size:13px;font-weight:600;margin:16px 0 5px}
+.print-hint{color:#68736f;font-size:12px;margin:0;line-height:1.6}
+.print-hint a{color:#31665f}
+.sheet{width:210mm;min-height:297mm;background:#fffefb;margin:0 auto 22px;padding:14mm 14mm 13mm;position:relative;box-shadow:0 5px 18px #293c3b18;color:#243f3a}
+.book-line{display:flex;justify-content:space-between;border-bottom:1px solid #cad6ce;padding-bottom:6px;font-size:9px;letter-spacing:.12em;color:#58776a}
+.entry-head{display:flex;justify-content:space-between;align-items:center;gap:15mm;padding:15px 0 9px;border-bottom:1px solid #e4e9e0}
+.entry-head h1{font-family:Georgia,serif;font-size:31pt;line-height:1.05;letter-spacing:-.025em;margin:0}
+.entry-head h2{font-family:"PingFang SC","Noto Sans CJK SC",sans-serif;font-size:17pt;font-weight:500;margin:7px 0 3px}
+.forms{font-size:10pt;color:#607a71;margin:4px 0}
+.print-illustration{display:block;width:65mm;max-height:47mm;object-fit:contain;flex-shrink:0}
+.content-section{border-bottom:1px solid #e7e9e2;padding:10px 0 9px}
+.section-heading{font:700 9pt "Avenir Next","PingFang SC",sans-serif;color:#31665f;letter-spacing:.035em;margin:0 0 5px}
+.section-heading span{font-weight:500;color:#647b70;letter-spacing:0}
+.bilingual{margin:0}
+.bilingual p{margin:0 0 3px;overflow-wrap:anywhere}
+.bilingual .primary{font-size:10pt;line-height:1.38}
+.bilingual .secondary{font-size:9pt;line-height:1.36;color:#5e6d68}
+.expressions{margin:0;padding-left:20px}
+.expressions li{padding-left:4px;margin:0 0 6px}
+.closer-section{margin-top:10px;padding:10px 12px;background:#f6f6ef;break-inside:avoid-page}
+.closer-section .section-heading{margin-bottom:6px}
+.closer-question{font-weight:600}
+.comparison-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:7px}
+.comparison-item{padding:8px;border:1px solid #dee5dc;background:white}
+.comparison-item h4{font-size:9pt;margin:0 0 4px}
+.comparison-item .primary{font-size:9pt}
+.comparison-item .secondary{font-size:8.5pt}
+.takeaway{padding-top:8px;font-weight:500}
+.related{font-size:8.5pt;margin-top:10px}
+.related strong{color:#31665f;margin-right:8px}
+.writing-space{margin-top:12px}
+.writing-line{height:23px;border-bottom:1px solid #d4d6cf}
+.page-foot{position:absolute;bottom:9mm;left:14mm;right:14mm;border-top:1px solid #e4e9e0;padding-top:6px;color:#738078;font-size:8px;display:flex;justify-content:space-between}
+.compact-grid{display:grid;grid-template-rows:1fr 1fr;gap:6mm;height:258mm}
+.compact-entry{padding-bottom:8px;border-bottom:1px dashed #c9d3ca;min-height:0;overflow:hidden}
+.compact-entry:last-child{border-bottom:0}
+.compact-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.small-index{font-size:9px;color:#61766c}
+.compact-head h2{font:700 18pt Georgia,"PingFang SC",serif;margin:3px 0;line-height:1.15}
+.compact-head h2 span{font:500 12pt "PingFang SC",sans-serif}
+.compact-head .forms{font-size:9pt;margin:0}
+.compact-head .print-illustration{width:36mm;max-height:24mm}
+.compact-body .section-heading{font-size:8pt;margin:7px 0 3px}
+.compact-body .primary{font-size:9pt}
+.compact-body .secondary{font-size:8pt}
+.compact-body .expressions{padding-left:18px}
+.compact-body .expressions li{margin-bottom:2px}
+@media(max-width:850px){.print-toolbar{margin:0 0 20px;border-radius:0;padding:16px}.sheet{transform-origin:top center;max-width:100%;min-height:auto}.controls{gap:10px}.toolbar-heading{gap:10px;align-items:start}}
+@page{size:A4 portrait;margin:0}
+@media print{
+ html,body{background:#fff!important;margin:0;padding:0;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .print-toolbar{display:none!important}
+ .sheet{margin:0;width:210mm;height:297mm;min-height:0;box-shadow:none;break-after:page;page-break-after:always;padding:14mm 14mm 13mm}
+ .sheet:last-child{break-after:auto;page-break-after:auto}
+ .compact-entry{break-inside:avoid-page;page-break-inside:avoid}
+ .entry{break-inside:avoid-page;page-break-inside:avoid}
+ .book-line,.content-section,.closer-section,.compact-body,.expressions li{break-inside:avoid-page}
+}
